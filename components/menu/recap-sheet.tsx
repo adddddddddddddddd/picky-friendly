@@ -56,7 +56,7 @@ async function sendLead(payload: {
 
 export function RecapSheet({ open, onOpenChange, language, restaurantId }: RecapSheetProps) {
   const { items, removeItem, clearCart } = useCart()
-  const { allergenFilters } = usePreferences()
+  const { allergenFilters, dietFilters } = usePreferences()
   const [email, setEmail] = useState("")
   const [emailTouched, setEmailTouched] = useState(false)
   const [step, setStep] = useState<Step>("recap")
@@ -118,7 +118,7 @@ export function RecapSheet({ open, onOpenChange, language, restaurantId }: Recap
           <ReservationCalendar
             onBack={() => setStep("recap")}
             onConfirm={(d) => {
-              void sendLead({ email, restaurant: restaurantId, dishes: "", allergies: [...allergenFilters].join(", ") || "none", diets: "", reservationTime: formatReservation(d) })
+              void sendLead({ email, restaurant: restaurantId, dishes: "", allergies: [...allergenFilters].join(", ") || "none", diets: [...dietFilters].join(", ") || "none", reservationTime: formatReservation(d) })
               setReservedAt(d)
               setStep("done")
             }}
@@ -342,7 +342,7 @@ export function RecapSheet({ open, onOpenChange, language, restaurantId }: Recap
                     restaurant: restaurantId,
                     dishes: items.map((i) => i.name).join(", "),
                     allergies: [...allergenFilters].join(", ") || "none",
-                    diets: compatibleDiets.join(", ") || "none",
+                    diets: [...dietFilters].join(", ") || "none",
                     reservationTime: "pending",
                   })
                   setStep("calendar")
