@@ -5,8 +5,9 @@ import type { Language } from '@/lib/types'
 import { uiTranslations, disclaimerTranslations } from '@/lib/data/translations'
 import { Separator } from '@/components/ui/separator'
 import { PARTNER_IDS } from '@/lib/restaurants'
-import { HelpCircle, AlertTriangle, Flag, Send, CheckCircle } from 'lucide-react'
+import { HelpCircle, AlertTriangle, Flag, Send, CheckCircle, ChevronLeft } from 'lucide-react'
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription } from '@/components/ui/dialog'
+import Link from 'next/link'
 
 const SEVERITY_OPTIONS = [
   { value: "faible", label: "Faible — information imprécise" },
@@ -65,8 +66,15 @@ export function MenuHeader({ language, onLanguageChange, restaurantId }: MenuHea
 
   return (
     <header className="bg-background/95 sticky top-0 z-30 backdrop-blur supports-[backdrop-filter]:bg-background/80">
-      <div className="mx-auto flex max-w-5xl items-center justify-between px-4 py-3">
-        <div>
+      <div className="mx-auto grid max-w-5xl grid-cols-[auto_1fr_auto] items-center gap-2 px-4 py-3">
+        <Link
+          href="/map"
+          className="flex items-center gap-1 text-muted-foreground hover:text-foreground transition-colors"
+        >
+          <ChevronLeft size={16} />
+          <span className="text-xs font-medium hidden sm:inline">Carte</span>
+        </Link>
+        <div className="flex flex-col items-center text-center">
           <div className="flex items-center gap-2">
             <h1 className="font-heading text-lg font-bold tracking-tight sm:text-xl">{t.restaurantName}</h1>
             {!isPartner && (

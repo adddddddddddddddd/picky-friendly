@@ -17,6 +17,7 @@ import { Button } from "@/components/ui/button"
 import type { Language, Allergen, Diet } from "@/lib/types"
 import { disclaimerTranslations } from "@/lib/data/translations"
 import { PARTNER_IDS } from "@/lib/restaurants"
+import { usePreferences } from "@/lib/preferences-context"
 
 type Step = "recap" | "calendar" | "done"
 
@@ -55,6 +56,7 @@ async function sendLead(payload: {
 
 export function RecapSheet({ open, onOpenChange, language, restaurantId }: RecapSheetProps) {
   const { items, removeItem, clearCart } = useCart()
+  const { allergenFilters } = usePreferences()
   const [email, setEmail] = useState("")
   const [emailTouched, setEmailTouched] = useState(false)
   const [step, setStep] = useState<Step>("recap")
@@ -116,7 +118,7 @@ export function RecapSheet({ open, onOpenChange, language, restaurantId }: Recap
           <ReservationCalendar
             onBack={() => setStep("recap")}
             onConfirm={(d) => {
-              void sendLead({ email, restaurant: restaurantId, dishes: "", allergies: "", diets: "", reservationTime: formatReservation(d) })
+              void sendLead({ email, restaurant: restaurantId, dishes: "", allergies: [...allergenFilters].join(", ") || "none", diets: "", reservationTime: formatReservation(d) })
               setReservedAt(d)
               setStep("done")
             }}
@@ -339,7 +341,7 @@ export function RecapSheet({ open, onOpenChange, language, restaurantId }: Recap
                     email,
                     restaurant: restaurantId,
                     dishes: items.map((i) => i.name).join(", "),
-                    allergies: presentAllergens.join(", ") || "none",
+                    allergies: [...allergenFilters].join(", ") || "none",
                     diets: compatibleDiets.join(", ") || "none",
                     reservationTime: "pending",
                   })
