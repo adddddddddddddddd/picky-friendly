@@ -7,6 +7,7 @@ import { TooltipProvider } from "@/components/ui/tooltip"
 import { PreferencesProvider } from "@/lib/preferences-context"
 import { CartProvider } from "@/lib/cart-context"
 import { cn } from "@/lib/utils"
+import { Analytics } from '@vercel/analytics/next';
 
 const loraHeading = Lora({subsets:['latin'],variable:'--font-heading'})
 const dmSans = DM_Sans({subsets:['latin'],variable:'--font-sans'})
@@ -64,6 +65,7 @@ export default function RootLayout({
             <CartProvider>
               <TooltipProvider>
                 {children}
+                <Analytics />
               </TooltipProvider>
             </CartProvider>
           </PreferencesProvider>
