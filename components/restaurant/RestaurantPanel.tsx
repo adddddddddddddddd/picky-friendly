@@ -1,5 +1,6 @@
 "use client"
 
+import Image from "next/image"
 import Link from "next/link"
 import { useState } from "react"
 import { X, Star, ArrowRight, Globe, MapPin, AlertTriangle, HelpCircle, Send, CheckCircle } from "lucide-react"
@@ -228,10 +229,12 @@ export function RestaurantPanel({ restaurant, onClose }: RestaurantPanelProps) {
               {restaurant.photos.length > 0 && (
                 <div className="flex gap-2 overflow-x-auto pb-4 pl-6 [scrollbar-width:none]">
                   {restaurant.photos.map((src, i) => (
-                    <img
+                    <Image
                       key={i}
                       src={src}
                       alt=""
+                      width={224}
+                      height={144}
                       className="h-36 w-56 shrink-0 rounded-lg object-cover"
                     />
                   ))}
