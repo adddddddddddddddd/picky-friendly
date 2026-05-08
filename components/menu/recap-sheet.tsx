@@ -148,8 +148,8 @@ export function RecapSheet({ open, onOpenChange, language, restaurantId }: Recap
                     {formatReservation(reservedAt)}
                   </p>
                   <p className="text-sm text-muted-foreground">
-                    Un récapitulatif vient d&apos;être envoyé à{" "}
-                    <span className="font-medium text-foreground">{email}</span>.
+                    Un récapitulatif vous sera envoyé à{" "}
+                    <span className="font-medium text-foreground">{email}</span> dans les 10 minutes.
                   </p>
                 </div>
                 <div className="mt-2 w-full rounded-xl border border-dashed border-border bg-secondary/40 p-4 text-left">

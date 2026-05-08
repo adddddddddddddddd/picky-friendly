@@ -11,7 +11,7 @@ interface ReservationCalendarProps {
 }
 
 const LUNCH_SLOTS = ["12:00", "12:30", "13:00", "13:30", "14:00"]
-const DINNER_SLOTS = ["19:00", "19:30", "20:00", "20:30", "21:00", "21:30"]
+const DINNER_SLOTS: string[] = []
 
 const DAY_LABELS = ["Dim", "Lun", "Mar", "Mer", "Jeu", "Ven", "Sam"]
 const MONTH_LABELS = [
@@ -47,8 +47,6 @@ export function ReservationCalendar({ onBack, onConfirm }: ReservationCalendarPr
 
   const [selectedDay, setSelectedDay] = useState<Date>(days[0])
   const [selectedTime, setSelectedTime] = useState<string | null>(null)
-
-  const today = new Date()
 
   function handleConfirm() {
     if (!selectedTime) return
@@ -101,11 +99,11 @@ export function ReservationCalendar({ onBack, onConfirm }: ReservationCalendarPr
 
       {/* Day strip */}
       <div className="border-b border-border px-5 py-3">
-        <ScrollArea className="w-full">
+        <div className="overflow-x-auto">
           <div className="flex gap-2 pb-1">
-            {days.map((d) => {
+            {days.map((d, i) => {
               const active = sameDay(d, selectedDay)
-              const isToday = sameDay(d, today)
+              const isToday = i === 0
               return (
                 <button
                   key={d.toISOString()}
@@ -133,7 +131,7 @@ export function ReservationCalendar({ onBack, onConfirm }: ReservationCalendarPr
               )
             })}
           </div>
-        </ScrollArea>
+        </div>
       </div>
 
       {/* Slots */}
@@ -149,7 +147,11 @@ export function ReservationCalendar({ onBack, onConfirm }: ReservationCalendarPr
             <p className="mb-2 text-[11px] font-semibold uppercase tracking-wide text-muted-foreground">
               Dîner
             </p>
-            {renderSlots(DINNER_SLOTS)}
+            {DINNER_SLOTS.length === 0 ? (
+              <p className="text-sm text-muted-foreground">Il n'y a plus de place le soir.</p>
+            ) : (
+              renderSlots(DINNER_SLOTS)
+            )}
           </div>
         </div>
       </ScrollArea>
