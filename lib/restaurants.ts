@@ -46,4 +46,48 @@ export const restaurants: Restaurant[] = [
       },
     },
   },
+    {
+    id: "noglu",
+    name: "Noglu",
+    address: "15 Rue Basfroi, 75011 Paris, France",
+    coordinates: [2.3796045, 48.8544251],
+    rating: 4,
+    reviewCount: 807,
+    photos: [
+      "/noglu/noglu1.jpg",
+      "/noglu/noglu2.jpg",
+      "/noglu/noglu3.jpg",
+    ],
+    reviews: [
+      {
+        author: "Marie L.",
+        rating: 5,
+        text: "Excellent rapport qualité-prix, cadre magnifique près du Louvre.",
+        date: "2025-03-12",
+      },
+      {
+        author: "Thomas B.",
+        rating: 4,
+        text: "Bonne cuisine française, service rapide le midi.",
+        date: "2025-02-28",
+      },
+    ],
+    socials: {
+      instagram: "nogluparis",
+      website: "https://www.noglu.fr/",
+      menu: "https://cdn.shopify.com/s/files/1/0675/2763/9308/files/Copie_de_Copie_de_Menu_Basfroi.png?v=1748349877",
+    },
+    tags: {
+      macronutrients: { energy: true, proteins: true, lipids: true, carbs: true },
+      allergens: [],
+      dietary: {
+        vegan: true,
+        vegetarien: true,
+        "sans-gluten": true,
+        "sans-lactose": true,
+        halal: true,
+        casher: true,
+      },
+    },
+  },
 ]

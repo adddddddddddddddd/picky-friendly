@@ -11,400 +11,328 @@ import { ChevronLeft, ChevronRight, Check, Plus, ListPlus } from "lucide-react"
 import { cn } from "@/lib/utils"
 import { useCart } from "@/lib/cart-context"
 
-type MockVariant = { name: string; priceOffset: number }
+type MockVariant = { name: string; priceOffset: number; image?: string }
 type MockSupplement = { id: string; name: string; price: number }
 type MockConfig = { variants?: MockVariant[]; supplements?: MockSupplement[] }
 
-const MOCK_CONFIGS: Record<string, MockConfig> = {
-  "steak-frites": {
-    variants: [
-      { name: "Saignant", priceOffset: 0 },
-      { name: "À point", priceOffset: 0 },
-      { name: "Bien cuit", priceOffset: 0 },
-    ],
-    supplements: [
-      { id: "poivre", name: "Sauce poivre", price: 1.5 },
-      { id: "bearnaise", name: "Sauce béarnaise", price: 1.5 },
-      { id: "foie-gras", name: "Foie gras", price: 5.0 },
-    ],
-  },
-  "poulet-roti": {
-    variants: [
-      { name: "Demi", priceOffset: 0 },
-      { name: "Entier", priceOffset: 10 },
-    ],
-    supplements: [
-      { id: "jus", name: "Sauce au jus", price: 1.0 },
-      { id: "gratin", name: "Gratin dauphinois", price: 3.5 },
-    ],
-  },
-  "plateau-fromages": {
-    variants: [
-      { name: "3 fromages", priceOffset: -4 },
-      { name: "5 fromages", priceOffset: 0 },
-      { name: "7 fromages", priceOffset: 5 },
-    ],
-    supplements: [
-      { id: "noix", name: "Noix fraîches", price: 1.0 },
-      { id: "confiture", name: "Confiture de figues", price: 1.5 },
-    ],
-  },
-  "jus-fruits": {
-    variants: [
-      { name: "Orange", priceOffset: 0 },
-      { name: "Pomme-gingembre", priceOffset: 0 },
-      { name: "Carotte-citron", priceOffset: 0 },
-    ],
-  },
-  "vin-rouge": {
-    variants: [
-      { name: "Bordeaux", priceOffset: 0 },
-      { name: "Bourgogne", priceOffset: 3 },
-      { name: "Côtes du Rhône", priceOffset: 1 },
-    ],
-  },
-  "tarte-tatin": {
-    variants: [
-      { name: "Classique", priceOffset: 0 },
-      { name: "Aux poires", priceOffset: 1 },
-      { name: "Aux amandes", priceOffset: 1.5 },
-    ],
-  },
-  "salade-cesar": {
-    supplements: [
-      { id: "poulet", name: "Poulet grillé", price: 3.0 },
-      { id: "crevettes", name: "Crevettes", price: 4.5 },
-      { id: "anchois", name: "Anchois supplément", price: 2.0 },
-    ],
-  },
-  "risotto-champignons": {
-    supplements: [
-      { id: "truffe", name: "Copeaux de truffe", price: 8.0 },
-      { id: "parmesan", name: "Parmesan supplément", price: 1.5 },
-      { id: "burrata", name: "Burrata", price: 4.0 },
-    ],
-  },
-  ratatouille: {
-    supplements: [
-      { id: "oeuf", name: "Œuf poché", price: 1.5 },
-      { id: "fromage", name: "Fromage de brebis", price: 2.0 },
-      { id: "croutons", name: "Croûtons", price: 1.0 },
-    ],
+const JUDY_COFFEE_SUPPLEMENTS: MockSupplement[] = [
+  { id: "lait-amande", name: "Lait d'amande maison", price: 0.5 },
+  { id: "collagene", name: "Collagène marin", price: 2 },
+]
+
+const JUDY_LATTE_SUPPLEMENTS: MockSupplement[] = [
+  { id: "lait-amande", name: "Lait d'amande maison", price: 0.5 },
+  { id: "collagene", name: "Collagène marin", price: 2 },
+  { id: "champignon-immunite", name: "Champignon médicinal – Immunité", price: 2 },
+  { id: "champignon-concentration", name: "Champignon médicinal – Concentration", price: 2 },
+  { id: "champignon-detente", name: "Champignon médicinal – Détente", price: 2 },
+]
+
+const JUDY_BRUNCH_SUPPLEMENTS: MockSupplement[] = [
+  { id: "poulet-francais", name: "Poulet français Poulardes Saint-Martory", price: 5 },
+  { id: "legume-fermentes", name: "Légumes fermentés", price: 2 },
+  { id: "bacon", name: "Bacon français Maison Montalet", price: 3 },
+  { id: "halloumi", name: "Halloumi", price: 3 },
+  { id: "saumon-fume", name: "Saumon fumé de l'Atlantique", price: 6 },
+  { id: "oeuf-poche", name: "Œuf poché", price: 2 },
+  { id: "bouillon-soupe", name: "Bouillon / Soupe du jour — Vegan", price: 7 },
+]
+
+const HOT_COLD_VARIANTS: MockVariant[] = [
+  { name: "Chaud", priceOffset: 0 },
+  { name: "Glacé", priceOffset: 0 },
+]
+
+const MOCK_CONFIGS: Record<string, Record<string, MockConfig>> = {
+  default: {
+    "steak-frites": {
+      variants: [
+        { name: "Saignant", priceOffset: 0 },
+        { name: "À point", priceOffset: 0 },
+        { name: "Bien cuit", priceOffset: 0 },
+      ],
+      supplements: [
+        { id: "poivre", name: "Sauce poivre", price: 1.5 },
+        { id: "bearnaise", name: "Sauce béarnaise", price: 1.5 },
+        { id: "foie-gras", name: "Foie gras", price: 5.0 },
+      ],
+    },
+    "poulet-roti": {
+      variants: [
+        { name: "Demi", priceOffset: 0 },
+        { name: "Entier", priceOffset: 10 },
+      ],
+      supplements: [
+        { id: "jus", name: "Sauce au jus", price: 1.0 },
+        { id: "gratin", name: "Gratin dauphinois", price: 3.5 },
+      ],
+    },
+    "plateau-fromages": {
+      variants: [
+        { name: "3 fromages", priceOffset: -4 },
+        { name: "5 fromages", priceOffset: 0 },
+        { name: "7 fromages", priceOffset: 5 },
+      ],
+      supplements: [
+        { id: "noix", name: "Noix fraîches", price: 1.0 },
+        { id: "confiture", name: "Confiture de figues", price: 1.5 },
+      ],
+    },
+    "jus-fruits": {
+      variants: [
+        { name: "Orange", priceOffset: 0 },
+        { name: "Pomme-gingembre", priceOffset: 0 },
+        { name: "Carotte-citron", priceOffset: 0 },
+      ],
+    },
+    "vin-rouge": {
+      variants: [
+        { name: "Bordeaux", priceOffset: 0 },
+        { name: "Bourgogne", priceOffset: 3 },
+        { name: "Côtes du Rhône", priceOffset: 1 },
+      ],
+    },
+    "tarte-tatin": {
+      variants: [
+        { name: "Classique", priceOffset: 0 },
+        { name: "Aux poires", priceOffset: 1 },
+        { name: "Aux amandes", priceOffset: 1.5 },
+      ],
+    },
+    "salade-cesar": {
+      supplements: [
+        { id: "poulet", name: "Poulet grillé", price: 3.0 },
+        { id: "crevettes", name: "Crevettes", price: 4.5 },
+        { id: "anchois", name: "Anchois supplément", price: 2.0 },
+      ],
+    },
+    "risotto-champignons": {
+      supplements: [
+        { id: "truffe", name: "Copeaux de truffe", price: 8.0 },
+        { id: "parmesan", name: "Parmesan supplément", price: 1.5 },
+        { id: "burrata", name: "Burrata", price: 4.0 },
+      ],
+    },
+    ratatouille: {
+      supplements: [
+        { id: "oeuf", name: "Œuf poché", price: 1.5 },
+        { id: "fromage", name: "Fromage de brebis", price: 2.0 },
+        { id: "croutons", name: "Croûtons", price: 1.0 },
+      ],
+    },
   },
 
-  "sesame-latte": {
-    variants: [
-      { name: "Chaud", priceOffset: 0 },
-      { name: "Glacé", priceOffset: 0 },
-    ],
-    supplements: [
-      { id: "lait-amande", name: "Lait d'amande maison", price: 0.5 },
-      { id: "collagene", name: "Collagène marin", price: 2 },
-      {
-        id: "champignon-immunite",
-        name: "Champignon médicinal – Immunité",
-        price: 2,
-      },
-      {
-        id: "champignon-concentration",
-        name: "Champignon médicinal – Concentration",
-        price: 2,
-      },
-      {
-        id: "champignon-detente",
-        name: "Champignon médicinal – Détente",
-        price: 2,
-      },
-    ],
+  judy: {
+    "sesame-latte": { variants: HOT_COLD_VARIANTS, supplements: JUDY_LATTE_SUPPLEMENTS },
+    "rose-latte": { variants: HOT_COLD_VARIANTS, supplements: JUDY_LATTE_SUPPLEMENTS },
+    "matcha-latte": { variants: HOT_COLD_VARIANTS, supplements: JUDY_LATTE_SUPPLEMENTS },
+    "golden-mylk": { variants: HOT_COLD_VARIANTS, supplements: JUDY_LATTE_SUPPLEMENTS },
+    "chai-latte": { supplements: JUDY_LATTE_SUPPLEMENTS },
+    "spicy-choco": { supplements: JUDY_LATTE_SUPPLEMENTS },
+    "choco-reishi": { supplements: JUDY_LATTE_SUPPLEMENTS },
+    "sunset-skin-balance": {
+      supplements: [
+        { id: "collagene", name: "Collagène marin", price: 2 },
+        { id: "champignon-immunite", name: "Champignon médicinal – Immunité", price: 2 },
+        { id: "champignon-concentration", name: "Champignon médicinal – Concentration", price: 2 },
+        { id: "champignon-detente", name: "Champignon médicinal – Détente", price: 2 },
+      ],
+    },
+    espresso: { supplements: JUDY_COFFEE_SUPPLEMENTS },
+    "cafe-allonge": { supplements: JUDY_COFFEE_SUPPLEMENTS },
+    "double-espresso": { supplements: JUDY_COFFEE_SUPPLEMENTS },
+    "cafe-filtre": { supplements: JUDY_COFFEE_SUPPLEMENTS },
+    cortado: { supplements: JUDY_COFFEE_SUPPLEMENTS },
+    cappuccino: { supplements: JUDY_COFFEE_SUPPLEMENTS },
+    "cafe-latte": { supplements: JUDY_COFFEE_SUPPLEMENTS },
+    "flat-white": { supplements: JUDY_COFFEE_SUPPLEMENTS },
+    "almond-butter-latte": { supplements: JUDY_COFFEE_SUPPLEMENTS },
+    "scrambled-eggs": { supplements: JUDY_BRUNCH_SUPPLEMENTS },
+    "sweet-pancakes": { supplements: JUDY_BRUNCH_SUPPLEMENTS },
+    "savoury-pancakes": { supplements: JUDY_BRUNCH_SUPPLEMENTS },
+    "avoloco-bowl": { supplements: JUDY_BRUNCH_SUPPLEMENTS },
+    "mediterranean-bowl": { supplements: JUDY_BRUNCH_SUPPLEMENTS },
+    "kids-bento": { supplements: JUDY_BRUNCH_SUPPLEMENTS },
+    kombucha: {
+      variants: [
+        { name: "Brut", priceOffset: 0 },
+        { name: "Feuille de figuier", priceOffset: 0 },
+        { name: "Feuille de framboisier", priceOffset: 0 },
+      ],
+    },
+    "the-vert": {
+      variants: [
+        { name: "Gampola Green", priceOffset: 0 },
+        { name: "Earl Grey", priceOffset: 0 },
+      ],
+    },
   },
-  "rose-latte": {
-    variants: [
-      { name: "Chaud", priceOffset: 0 },
-      { name: "Glacé", priceOffset: 0 },
-    ],
-    supplements: [
-      { id: "lait-amande", name: "Lait d'amande maison", price: 0.5 },
-      { id: "collagene", name: "Collagène marin", price: 2 },
-      {
-        id: "champignon-immunite",
-        name: "Champignon médicinal – Immunité",
-        price: 2,
-      },
-      {
-        id: "champignon-concentration",
-        name: "Champignon médicinal – Concentration",
-        price: 2,
-      },
-      {
-        id: "champignon-detente",
-        name: "Champignon médicinal – Détente",
-        price: 2,
-      },
-    ],
-  },
-  "matcha-latte": {
-    variants: [
-      { name: "Chaud", priceOffset: 0 },
-      { name: "Glacé", priceOffset: 0 },
-    ],
-    supplements: [
-      { id: "lait-amande", name: "Lait d'amande maison", price: 0.5 },
-      { id: "collagene", name: "Collagène marin", price: 2 },
-      {
-        id: "champignon-immunite",
-        name: "Champignon médicinal – Immunité",
-        price: 2,
-      },
-      {
-        id: "champignon-concentration",
-        name: "Champignon médicinal – Concentration",
-        price: 2,
-      },
-      {
-        id: "champignon-detente",
-        name: "Champignon médicinal – Détente",
-        price: 2,
-      },
-    ],
-  },
-  "golden-mylk": {
-    variants: [
-      { name: "Chaud", priceOffset: 0 },
-      { name: "Glacé", priceOffset: 0 },
-    ],
-    supplements: [
-      { id: "lait-amande", name: "Lait d'amande maison", price: 0.5 },
-      { id: "collagene", name: "Collagène marin", price: 2 },
-      {
-        id: "champignon-immunite",
-        name: "Champignon médicinal – Immunité",
-        price: 2,
-      },
-      {
-        id: "champignon-concentration",
-        name: "Champignon médicinal – Concentration",
-        price: 2,
-      },
-      {
-        id: "champignon-detente",
-        name: "Champignon médicinal – Détente",
-        price: 2,
-      },
-    ],
-  },
-  "chai-latte": {
-    supplements: [
-      { id: "lait-amande", name: "Lait d'amande maison", price: 0.5 },
-      { id: "collagene", name: "Collagène marin", price: 2 },
-      {
-        id: "champignon-immunite",
-        name: "Champignon médicinal – Immunité",
-        price: 2,
-      },
-      {
-        id: "champignon-concentration",
-        name: "Champignon médicinal – Concentration",
-        price: 2,
-      },
-      {
-        id: "champignon-detente",
-        name: "Champignon médicinal – Détente",
-        price: 2,
-      },
-    ],
-  },
-  "spicy-choco": {
-    supplements: [
-      { id: "lait-amande", name: "Lait d'amande maison", price: 0.5 },
-      { id: "collagene", name: "Collagène marin", price: 2 },
-      {
-        id: "champignon-immunite",
-        name: "Champignon médicinal – Immunité",
-        price: 2,
-      },
-      {
-        id: "champignon-concentration",
-        name: "Champignon médicinal – Concentration",
-        price: 2,
-      },
-      {
-        id: "champignon-detente",
-        name: "Champignon médicinal – Détente",
-        price: 2,
-      },
-    ],
-  },
-  "choco-reishi": {
-    supplements: [
-      { id: "lait-amande", name: "Lait d'amande maison", price: 0.5 },
-      { id: "collagene", name: "Collagène marin", price: 2 },
-      {
-        id: "champignon-immunite",
-        name: "Champignon médicinal – Immunité",
-        price: 2,
-      },
-      {
-        id: "champignon-concentration",
-        name: "Champignon médicinal – Concentration",
-        price: 2,
-      },
-      {
-        id: "champignon-detente",
-        name: "Champignon médicinal – Détente",
-        price: 2,
-      },
-    ],
-  },
-    espresso: {
-    supplements: [
-      { id: "lait-amande", name: "Lait d'amande maison", price: 0.5 },
-      { id: "collagene", name: "Collagène marin", price: 2 },
-    ],
-  },  "cafe-allonge": {
-    supplements: [
-      { id: "lait-amande", name: "Lait d'amande maison", price: 0.5 },
-      { id: "collagene", name: "Collagène marin", price: 2 },
-    ],
-  },  "double-espresso": {
-    supplements: [
-      { id: "lait-amande", name: "Lait d'amande maison", price: 0.5 },
-      { id: "collagene", name: "Collagène marin", price: 2 },
-    ],
-  },  "cafe-filtre": {
-    supplements: [
-      { id: "lait-amande", name: "Lait d'amande maison", price: 0.5 },
-      { id: "collagene", name: "Collagène marin", price: 2 },
-    ],
-  },
-  cortado: {
-    supplements: [
-      { id: "lait-amande", name: "Lait d'amande maison", price: 0.5 },
-      { id: "collagene", name: "Collagène marin", price: 2 },
-    ],
-  },
-  cappuccino: {
-    supplements: [
-      { id: "lait-amande", name: "Lait d'amande maison", price: 0.5 },
-      { id: "collagene", name: "Collagène marin", price: 2 },
-    ],
-  },
-  "cafe-latte": {
-    supplements: [
-      { id: "lait-amande", name: "Lait d'amande maison", price: 0.5 },
-      { id: "collagene", name: "Collagène marin", price: 2 },
-    ],
-  },
-  "flat-white": {
-    supplements: [
-      { id: "lait-amande", name: "Lait d'amande maison", price: 0.5 },
-      { id: "collagene", name: "Collagène marin", price: 2 },
-    ],
-  },
-  "almond-butter-latte": {
-    supplements: [
-            { id: "lait-amande", name: "Lait d'amande maison", price: 0.5 },
-            { id: "collagene", name: "Collagène marin", price: 2 },
 
-    ],
-  },
-  "sunset-skin-balance": {
-    supplements: [
-      { id: "collagene", name: "Collagène marin", price: 2 },
-      {
-        id: "champignon-immunite",
-        name: "Champignon médicinal – Immunité",
-        price: 2,
-      },
-      {
-        id: "champignon-concentration",
-        name: "Champignon médicinal – Concentration",
-        price: 2,
-      },
-      {
-        id: "champignon-detente",
-        name: "Champignon médicinal – Détente",
-        price: 2,
-      },
-    ],
-  },
-  "scrambled-eggs": {
-    supplements: [
-      { id: "poulet-francais", name: "Poulet français Poulardes Saint-Martory", price: 5 },
-      { id: "legume-fermentes", name: "Légumes fermentés", price: 2 },
-      { id: "bacon", name: "Bacon français Maison Montalet", price: 3 },
-      { id: "halloumi", name: "Halloumi", price: 3 },
-      { id: "saumon-fume", name: "Saumon fumé de l'Atlantique", price: 6 },
-      { id: "oeuf-poche", name: "Œuf poché", price: 2 },
-      { id: "bouillon-soupe", name: "Bouillon / Soupe du jour — Vegan", price: 7 },
-    ],
-  },
-  "sweet-pancakes": {
-    supplements: [
-      { id: "poulet-francais", name: "Poulet français Poulardes Saint-Martory", price: 5 },
-      { id: "legume-fermentes", name: "Légumes fermentés", price: 2 },
-      { id: "bacon", name: "Bacon français Maison Montalet", price: 3 },
-      { id: "halloumi", name: "Halloumi", price: 3 },
-      { id: "saumon-fume", name: "Saumon fumé de l'Atlantique", price: 6 },
-      { id: "oeuf-poche", name: "Œuf poché", price: 2 },
-      { id: "bouillon-soupe", name: "Bouillon / Soupe du jour — Vegan", price: 7 },
-    ],
-  },
-  "savoury-pancakes": {
-    supplements: [
-      { id: "poulet-francais", name: "Poulet français Poulardes Saint-Martory", price: 5 },
-      { id: "legume-fermentes", name: "Légumes fermentés", price: 2 },
-      { id: "bacon", name: "Bacon français Maison Montalet", price: 3 },
-      { id: "halloumi", name: "Halloumi", price: 3 },
-      { id: "saumon-fume", name: "Saumon fumé de l'Atlantique", price: 6 },
-      { id: "oeuf-poche", name: "Œuf poché", price: 2 },
-      { id: "bouillon-soupe", name: "Bouillon / Soupe du jour — Vegan", price: 7 },
-    ],
-  },
-  "avoloco-bowl": {
-    supplements: [
-      { id: "poulet-francais", name: "Poulet français Poulardes Saint-Martory", price: 5 },
-      { id: "legume-fermentes", name: "Légumes fermentés", price: 2 },
-      { id: "bacon", name: "Bacon français Maison Montalet", price: 3 },
-      { id: "halloumi", name: "Halloumi", price: 3 },
-      { id: "saumon-fume", name: "Saumon fumé de l'Atlantique", price: 6 },
-      { id: "oeuf-poche", name: "Œuf poché", price: 2 },
-      { id: "bouillon-soupe", name: "Bouillon / Soupe du jour — Vegan", price: 7 },
-    ],
-  },
-  "mediterranean-bowl": {
-    supplements: [
-      { id: "poulet-francais", name: "Poulet français Poulardes Saint-Martory", price: 5 },
-      { id: "legume-fermentes", name: "Légumes fermentés", price: 2 },
-      { id: "bacon", name: "Bacon français Maison Montalet", price: 3 },
-      { id: "halloumi", name: "Halloumi", price: 3 },
-      { id: "saumon-fume", name: "Saumon fumé de l'Atlantique", price: 6 },
-      { id: "oeuf-poche", name: "Œuf poché", price: 2 },
-      { id: "bouillon-soupe", name: "Bouillon / Soupe du jour — Vegan", price: 7 },
-    ],
-  },
-  "kids-bento": {
-    supplements: [
-      { id: "poulet-francais", name: "Poulet français Poulardes Saint-Martory", price: 5 },
-      { id: "legume-fermentes", name: "Légumes fermentés", price: 2 },
-      { id: "bacon", name: "Bacon français Maison Montalet", price: 3 },
-      { id: "halloumi", name: "Halloumi", price: 3 },
-      { id: "saumon-fume", name: "Saumon fumé de l'Atlantique", price: 6 },
-      { id: "oeuf-poche", name: "Œuf poché", price: 2 },
-      { id: "bouillon-soupe", name: "Bouillon / Soupe du jour — Vegan", price: 7 },
-    ],
-  },
-  kombucha: {
-    variants: [
-      { name: "Brut", priceOffset: 0 },
-      { name: "Feuille de figuier", priceOffset: 0 },
-      { name: "Feuille de framboisier", priceOffset: 0 },
-    ],
-  },
-  "the-vert": {
-    variants: [
-      { name: "Gampola Green", priceOffset: 0 },
-      { name: "Earl Grey", priceOffset: 0 },
-    ],
+  noglu: {
+// --- SWEET ---
+"cookie": {
+  variants: [
+    { name: "Pépites de chocolat", priceOffset: 0 },
+    { name: "Chocolat-pistache", priceOffset: 0 },
+    { name: "Peanut butter", priceOffset: 0.5 },
+  ],
+},
+"donut": {
+  variants: [
+    { name: "Choco-caramel", priceOffset: 0 },
+    { name: "Vanille", priceOffset: 0 },
+    { name: "Donut du moment", priceOffset: 0 },
+  ],
+},
+"tartelette": {
+  variants: [
+    { name: "Citron", priceOffset: 0 },
+    { name: "Pécan", priceOffset: 0 },
+    { name: "Fruit de saison", priceOffset: 0 },
+  ],
+},
+"madeleine": {
+  variants: [
+    { name: "Nature", priceOffset: 0 },
+    { name: "Chocolat au lait", priceOffset: -1.5 },
+    { name: "Chocolat noir", priceOffset: -1.5 },
+  ],
+},
+"part-de-cake": {
+  variants: [
+    { name: "Noisette-chocolat", priceOffset: 0 },
+    { name: "Carotte cake", priceOffset: 4 },
+    { name: "Citron pavot", priceOffset: 4 },
+  ],
+},
+"eclair": {
+  variants: [
+    { name: "Café", priceOffset: 0 },
+    { name: "Pistache", priceOffset: 0 },
+    { name: "Vanille", priceOffset: 0 },
+    { name: "Chocolat", priceOffset: 0 },
+  ],
+},
+ 
+// --- DRINK ---
+"noisette": {
+  variants: [
+    { name: "Lait de vache", priceOffset: 0 },
+    { name: "Lait d'amande", priceOffset: 0.6 },
+    { name: "Lait d'avoine", priceOffset: 0.6 },
+    { name: "Lait de coco", priceOffset: 0.6 },
+  ],
+},
+"cappuccino": {
+  variants: [
+    { name: "Lait de vache", priceOffset: 0 },
+    { name: "Lait d'amande", priceOffset: 0.6 },
+    { name: "Lait d'avoine", priceOffset: 0.6 },
+    { name: "Lait de coco", priceOffset: 0.6 },
+  ],
+},
+"flat-white": {
+  variants: [
+    { name: "Lait de vache", priceOffset: 0 },
+    { name: "Lait d'amande", priceOffset: 0.6 },
+    { name: "Lait d'avoine", priceOffset: 0.6 },
+    { name: "Lait de coco", priceOffset: 0.6 },
+  ],
+},
+"latte": {
+  variants: [
+    { name: "Lait de vache", priceOffset: 0 },
+    { name: "Lait d'amande", priceOffset: 0.6 },
+    { name: "Lait d'avoine", priceOffset: 0.6 },
+    { name: "Lait de coco", priceOffset: 0.6 },
+  ],
+},
+"chocolat-chaud": {
+  variants: [
+    { name: "Lait de vache", priceOffset: 0 },
+    { name: "Lait d'amande", priceOffset: 0.6 },
+    { name: "Lait d'avoine", priceOffset: 0.6 },
+    { name: "Lait de coco", priceOffset: 0.6 },
+  ],
+},
+"mocaccino": {
+  variants: [
+    { name: "Lait de vache", priceOffset: 0 },
+    { name: "Lait d'amande", priceOffset: 0.6 },
+    { name: "Lait d'avoine", priceOffset: 0.6 },
+    { name: "Lait de coco", priceOffset: 0.6 },
+  ],
+},
+"chicoree-latte": {
+  variants: [
+    { name: "Lait de vache", priceOffset: 0 },
+    { name: "Lait d'amande", priceOffset: 0.6 },
+    { name: "Lait d'avoine", priceOffset: 0.6 },
+    { name: "Lait de coco", priceOffset: 0.6 },
+  ],
+},
+"matcha-latte": {
+  variants: [
+    { name: "Lait de vache", priceOffset: 0 },
+    { name: "Lait d'amande", priceOffset: 0.6 },
+    { name: "Lait d'avoine", priceOffset: 0.6 },
+    { name: "Lait de coco", priceOffset: 0.6 },
+  ],
+},
+"chai-latte": {
+  variants: [
+    { name: "Lait de vache", priceOffset: 0 },
+    { name: "Lait d'amande", priceOffset: 0.6 },
+    { name: "Lait d'avoine", priceOffset: 0.6 },
+    { name: "Lait de coco", priceOffset: 0.6 },
+  ],
+},
+"the": {
+  variants: [
+    { name: "Earl Grey", priceOffset: 0 },
+    { name: "Sencha", priceOffset: 0 },
+    { name: "Breakfast", priceOffset: 0 },
+  ],
+},
+"jus-bio": {
+  variants: [
+    { name: "Pomme", priceOffset: 0 },
+    { name: "Orange", priceOffset: 0 },
+  ],
+},
+"eau": {
+  variants: [
+    { name: "Plate", priceOffset: 0 },
+    { name: "Gazeuse", priceOffset: 0.3 },
+  ],
+},
+"coca": {
+  variants: [
+    { name: "Coca", priceOffset: 0 },
+    { name: "Coca Zero", priceOffset: 0 },
+  ],
+},
+ 
+// --- FOOD ---
+"toast-noglu": {
+  variants: [
+    { name: "Brioche", priceOffset: 0 },
+    { name: "Baguette", priceOffset: 0 },
+    { name: "Bagel", priceOffset: 0 },
+  ],
+},
+"porridge-noglu": {
+  variants: [
+    { name: "Coco & chocolat", priceOffset: 0 },
+    { name: "Amandes & cranberries", priceOffset: 0 },
+  ],
+},
+"quiche": {
+  variants: [
+    { name: "Lorraine", priceOffset: 0 },
+    { name: "Poireaux", priceOffset: 0 },
+  ],
+},
   },
 }
 
@@ -422,7 +350,7 @@ export function DishCard({
   wide = false,
 }: DishCardProps) {
   const dish = item.translations[language]
-  const config = MOCK_CONFIGS[item.id] ?? {}
+  const config = MOCK_CONFIGS[restaurantId]?.[item.id] ?? {}
   const hasVariants = Boolean(config.variants?.length)
   const hasSupps = Boolean(config.supplements?.length)
 
@@ -480,7 +408,7 @@ export function DishCard({
         )}
       >
         <Image
-          src={item.image}
+          src={variants[variantIdx]?.image ?? item.image}
           alt={dish.name}
           fill
           sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"

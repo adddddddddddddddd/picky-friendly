@@ -10,6 +10,7 @@ import { ScrollArea, ScrollBar } from '@/components/ui/scroll-area'
 export const CATEGORIES: Record<string, Category[]> = {
   default: ['entrees', 'plats', 'desserts', 'boissons', 'feelGoodDrinks'],
   judy: Object.keys(uiTranslations.judy.en.categories) as Category[],
+  noglu: Object.keys(uiTranslations.noglu.en.categories) as Category[],
 }
 
 interface CategoryTabsProps {
@@ -22,6 +23,7 @@ interface CategoryTabsProps {
 
 export function CategoryTabs({ language, activeCategory, onCategoryChange, filteredItems, restaurantId }: CategoryTabsProps) {
   const t = uiTranslations[restaurantId][language]
+  const categories = CATEGORIES[restaurantId]
   const tabsScrollRef = useRef<HTMLDivElement>(null)
   const [canScrollLeft, setCanScrollLeft] = useState(false)
   const [canScrollRight, setCanScrollRight] = useState(false)
@@ -68,7 +70,7 @@ export function CategoryTabs({ language, activeCategory, onCategoryChange, filte
               style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}
             >
               <TabsList className="h-auto w-full justify-start gap-0 rounded-none border-0 bg-transparent p-0">
-                {CATEGORIES[restaurantId].map((cat) => {
+                {categories.map((cat) => {
                   const count = itemsByCategory(cat).length
                   return (
                     <TabsTrigger
@@ -95,7 +97,7 @@ export function CategoryTabs({ language, activeCategory, onCategoryChange, filte
         </div>
       </div>
 
-      {CATEGORIES[restaurantId].map((cat) => {
+      {categories.map((cat) => {
         const items = itemsByCategory(cat)
         const subcategories = subcategoriesFor(items)
         const hasSubcategories = subcategories.some((s) => s !== 'uncategorized')

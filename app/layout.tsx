@@ -65,7 +65,7 @@ export default function RootLayout({
             <CartProvider>
               <TooltipProvider>
                 {children}
-                <Analytics />
+                {/* <Analytics /> */}
               </TooltipProvider>
             </CartProvider>
           </PreferencesProvider>

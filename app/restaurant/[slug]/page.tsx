@@ -69,7 +69,7 @@ export async function generateMetadata({
       ? `Options disponibles : ${activeDiets.join(", ")}. `
       : ""
   const allergenDesc = allergenList
-    ? `Allergènes présents : ${allergenList}. `
+    ? `Allergènes présents: ${allergenList}. `
     : ""
   const description = `${restaurant.name} à ${restaurant.address ?? location}. ${dietDesc}${allergenDesc}Consultez le menu complet avec filtres allergènes et régimes alimentaires sur Picky.`
 
@@ -100,7 +100,7 @@ export default async function Page({
 }) {
   const { slug } = await params
   const restaurant = restaurants.find((r) => r.id === slug)
-
+  console.log("Restaurant found for slug", slug, restaurant ? "YES" : "NO")
   const jsonLd = restaurant
     ? {
         "@context": "https://schema.org",

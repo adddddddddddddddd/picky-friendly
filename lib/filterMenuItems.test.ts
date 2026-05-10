@@ -10,7 +10,7 @@ const ALL_ALLERGENS: Allergen[] = [
 
 const ALL_DIETS: Diet[] = ['vegan', 'vegetarien', 'halal', 'casher', 'sans-gluten', 'sans-lactose']
 
-const items = menuItems['judy'] ?? menuItems['default']
+const items = menuItems['noglu'] ?? menuItems['default']
 
 function oracle(item: (typeof items)[0], allergens: Set<Allergen>, diets: Set<Diet>): boolean {
   if ([...allergens].some((a) => item.allergens.includes(a))) return false

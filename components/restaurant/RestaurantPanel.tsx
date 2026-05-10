@@ -279,7 +279,7 @@ export function RestaurantPanel({ restaurant, onClose }: RestaurantPanelProps) {
                     <div className="space-y-3 text-sm">
                       <p className="leading-relaxed text-muted-foreground">
                         Nous faisons de notre mieux, mais les macros, les allergènes et les régimes sont estimés uniquement via les{" "}
-                        <a href={restaurant.socials?.website ?? "#"} target="_blank" rel="noopener noreferrer" className="underline underline-offset-2 hover:text-foreground">
+                        <a href={restaurant.socials?.menu ?? "#"} target="_blank" rel="noopener noreferrer" className="underline underline-offset-2 hover:text-foreground">
                           informations disponibles en ligne
                         </a>
                         .
@@ -302,7 +302,9 @@ export function RestaurantPanel({ restaurant, onClose }: RestaurantPanelProps) {
                     </h3>
                     <p className="mb-2 text-xs text-muted-foreground">
                       Estimés à partir des ingrédients disponibles{" "}
-                      <a href="#" className="underline underline-offset-2 hover:text-foreground">en ligne</a>
+                      <a href={restaurant.socials?.menu ?? "#"} target="_blank" rel="noopener noreferrer" className="underline underline-offset-2 hover:text-foreground">
+                        en ligne
+                      </a>
                       {" "}uniquement
                     </p>
                     <div className="flex flex-wrap gap-1.5">
@@ -317,11 +319,13 @@ export function RestaurantPanel({ restaurant, onClose }: RestaurantPanelProps) {
 
                 <section>
                   <h3 className="mb-1 text-xs font-semibold uppercase tracking-wider text-muted-foreground">
-                    Allergènes présents
+                    Allergènes présents dans tous les plats <br /> <b>Ne tient pas compte des risques de contamination croisée</b>
                   </h3>
                   <p className="mb-2 text-xs text-muted-foreground">
                     Estimés à partir des ingrédients disponibles{" "}
-                    <a href="#" className="underline underline-offset-2 hover:text-foreground">en ligne</a>
+                    <a href={restaurant.socials?.menu ?? "#"} target="_blank" rel="noopener noreferrer" className="underline underline-offset-2 hover:text-foreground">
+                      en ligne
+                    </a>
                     {" "}uniquement
                   </p>
                   {restaurant.tags.allergens.length > 0 ? (
@@ -350,7 +354,9 @@ export function RestaurantPanel({ restaurant, onClose }: RestaurantPanelProps) {
                     </h3>
                     <p className="mb-2 text-xs text-muted-foreground">
                       Estimés à partir des ingrédients disponibles{" "}
-                      <a href="#" className="underline underline-offset-2 hover:text-foreground">en ligne</a>
+                      <a href={restaurant.socials?.menu ?? "#"} target="_blank" rel="noopener noreferrer" className="underline underline-offset-2 hover:text-foreground">
+                        en ligne
+                      </a>
                       {" "}uniquement
                     </p>
                     <div className="flex flex-wrap gap-1.5">

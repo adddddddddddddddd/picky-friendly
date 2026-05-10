@@ -10,15 +10,44 @@ import { MenuHeader } from './menu-header'
 import { FilterPanel } from './filter-panel'
 import { CategoryTabs, CATEGORIES } from './category-tabs'
 import { RecapSheet } from './recap-sheet'
+import { Button } from '@/components/ui/button'
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import { ListCheck } from 'lucide-react'
 
 type MenuPageProps = {
   restaurantId: string
 }
 
+function RestaurantNotFound() {
+  return (
+    <div className="flex min-h-svh items-center justify-center px-6">
+      <Card className="max-w-md w-full text-center">
+        <CardHeader>
+          <CardTitle>Ce restaurant n&apos;est pas encore disponible</CardTitle>
+          <CardDescription>
+            Tu veux qu&apos;on l&apos;ajoute ? Envoie-moi un DM sur TikTok et je m&apos;en occupe !
+          </CardDescription>
+        </CardHeader>
+        <CardContent>
+          <Button asChild className="rounded-full">
+            <a
+              href="https://www.tiktok.com/@pickyfriendlyapp"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              M&apos;envoyer un DM sur TikTok
+            </a>
+          </Button>
+        </CardContent>
+      </Card>
+    </div>
+  )
+}
+
 export function MenuPage({ restaurantId }: MenuPageProps) {
   const { language, setLanguage, allergenFilters, dietFilters, toggleAllergen, toggleDiet, clearFilters } = usePreferences()
   const { items } = useCart()
+  const isAvailable = restaurantId in CATEGORIES
   const categories = CATEGORIES[restaurantId] ?? CATEGORIES.default
   const [activeCategory, setActiveCategory] = useState<Category>(categories[0])
   const [recapOpen, setRecapOpen] = useState(false)
@@ -39,6 +68,8 @@ export function MenuPage({ restaurantId }: MenuPageProps) {
     () => filterMenuItems(menuItems[restaurantId] ?? menuItems.default, allergenFilters, dietFilters),
     [allergenFilters, dietFilters, restaurantId],
   )
+
+  if (!isAvailable) return <RestaurantNotFound />
 
   return (
     <div className="min-h-svh">
