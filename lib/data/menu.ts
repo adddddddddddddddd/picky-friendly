@@ -514,4 +514,327 @@ export const menuItems: Record<string, MenuItem[]> = {
   // { "id": "combo-petit-dej", "category": "food", "subcategory": "combos", "image": pexels(25460968), "price": 15, "allergens": ["oeufs", "lait", "arachides", "fruits-a-coque", "sesame"], "diets": ["sans-gluten"], "macros": { "calories": 580, "proteines": 14, "glucides": 78, "lipides": 22 }, "translations": { "fr": { "name": "Combo Petit Déj'", "description": "Jus bio, boisson chaude (expresso, allongé ou thé) avec sweet (1 pain au chocolat & 1 croissant) ou savory (omelette, salade & toast)" }, "en": { "name": "Breakfast Combo", "description": "Organic juice, hot drink (espresso, lungo or tea) with sweet (1 chocolate pastry & 1 croissant) or savory (omelette, salad & toast)" }, "it": { "name": "Combo Colazione", "description": "Succo bio, bevanda calda (espresso, allungato o tè) con dolce (1 pain au chocolat e 1 croissant) o salato (omelette, insalata e toast)" }, "es": { "name": "Combo Desayuno", "description": "Zumo bio, bebida caliente (espresso, largo o té) con dulce (1 pan de chocolate y 1 croissant) o salado (tortilla, ensalada y tostada)" } } },
   // { "id": "combo-dej", "category": "food", "subcategory": "combos", "image": pexels(25460968), "price": 21, "allergens": ["oeufs", "lait", "arachides", "fruits-a-coque", "sesame"], "diets": ["sans-gluten"], "macros": { "calories": 720, "proteines": 24, "glucides": 68, "lipides": 36 }, "translations": { "fr": { "name": "Combo Déj'", "description": "Plat (croque monsieur, grilled cheese ou quiche) + boisson, ou plat + boisson + dessert. Boissons : limonade, ginger beer, eaux, coca, coca zero. Desserts : donut, part de cake, cookie" }, "en": { "name": "Lunch Combo", "description": "Main (croque monsieur, grilled cheese or quiche) + drink, or main + drink + dessert. Drinks: lemonade, ginger beer, water, coke, coke zero. Desserts: donut, cake slice, cookie" }, "it": { "name": "Combo Pranzo", "description": "Piatto (croque monsieur, grilled cheese o quiche) + bevanda, o piatto + bevanda + dessert. Bevande: limonata, ginger beer, acque, coca, coca zero. Dessert: donut, fetta di cake, cookie" }, "es": { "name": "Combo Almuerzo", "description": "Plato (croque monsieur, grilled cheese o quiche) + bebida, o plato + bebida + postre. Bebidas: limonada, ginger beer, aguas, coca, coca zero. Postres: donut, porción de cake, cookie" } } }
 ],
+"thaisil" :
+[
+  {
+    "id": "bo-bun",
+    "category": "dejeuner",
+    "subcategory": null,
+    "image": "https://images.pexels.com/photos/31412386/pexels-photo-31412386.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=1",
+    "price": 14.50,
+    "allergens": ["soja"],
+    "diets": ["sans-gluten", "sans-lactose"],
+    "macros": { "calories": 520, "proteines": 28, "glucides": 65, "lipides": 12 },
+    "translations": {
+      "fr": { "name": "Bo Bun", "description": "Midi, hors samedi & jours fériés" },
+      "en": { "name": "Bo Bun", "description": "Lunch, except Saturday & public holidays" },
+      "it": { "name": "Bo Bun", "description": "Pranzo, escluso sabato e giorni festivi" },
+      "es": { "name": "Bo Bun", "description": "Almuerzo, excepto sábados y días festivos" }
+    }
+  },
+  {
+    "id": "salade-papaye-verte",
+    "category": "entrees",
+    "subcategory": null,
+    "image": "https://images.pexels.com/photos/34699469/pexels-photo-34699469.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=1",
+    "price": 10.90,
+    "allergens": ["poissons"],
+    "diets": ["vegetarien", "sans-gluten", "sans-lactose"],
+    "macros": { "calories": 180, "proteines": 4, "glucides": 32, "lipides": 4 },
+    "translations": {
+      "fr": { "name": "Salade de papaye verte", "description": "Finement râpée à la main, le plat le plus populaire" },
+      "en": { "name": "Green Papaya Salad", "description": "Finely hand-grated, the most popular dish" },
+      "it": { "name": "Insalata di Papaya Verde", "description": "Finemente grattugiata a mano, il piatto più popolare" },
+      "es": { "name": "Ensalada de Papaya Verde", "description": "Rallada finamente a mano, el plato más popular" }
+    }
+  },
+  {
+    "id": "salade-mangue",
+    "category": "entrees",
+    "subcategory": null,
+    "image": "https://images.pexels.com/photos/30169390/pexels-photo-30169390.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=1",
+    "price": 10.90,
+    "allergens": ["poissons"],
+    "diets": ["vegetarien", "sans-gluten", "sans-lactose"],
+    "macros": { "calories": 200, "proteines": 4, "glucides": 38, "lipides": 4 },
+    "translations": {
+      "fr": { "name": "Salade de mangue", "description": "Tomate, concombre, laitue, coriandre, citron vert" },
+      "en": { "name": "Mango Salad", "description": "Tomato, cucumber, lettuce, cilantro, green lime" },
+      "it": { "name": "Insalata di Mango", "description": "Pomodoro, cetriolo, lattuga, coriandolo, lime verde" },
+      "es": { "name": "Ensalada de Mango", "description": "Tomate, pepino, lechuga, cilantro, lima verde" }
+    }
+  },
+  {
+    "id": "nem-poulet",
+    "category": "entrees",
+    "subcategory": null,
+    "image": "https://images.pexels.com/photos/12356601/pexels-photo-12356601.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=1",
+    "price": 10.90,
+    "allergens": ["poissons"],
+    "diets": ["vegetarien", "sans-gluten", "sans-lactose"],
+    "macros": { "calories": 280, "proteines": 14, "glucides": 28, "lipides": 12 },
+    "translations": {
+      "fr": { "name": "Nem au poulet", "description": "4 pièces" },
+      "en": { "name": "Chicken Spring Roll", "description": "4 pieces" },
+      "it": { "name": "Nem di Pollo", "description": "4 pezzi" },
+      "es": { "name": "Nem de Pollo", "description": "4 piezas" }
+    }
+  },
+  {
+    "id": "salade-crevettes",
+    "category": "entrees",
+    "subcategory": null,
+    "image": "https://images.pexels.com/photos/27863236/pexels-photo-27863236.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=1",
+    "price": 14.90,
+    "allergens": ["crustaces", "poissons"],
+    "diets": ["sans-gluten", "sans-lactose"],
+    "macros": { "calories": 220, "proteines": 18, "glucides": 20, "lipides": 6 },
+    "translations": {
+      "fr": { "name": "Salade aux crevettes", "description": "Salade aux crevettes" },
+      "en": { "name": "Shrimp Salad", "description": "Shrimp salad" },
+      "it": { "name": "Insalata di Gamberetti", "description": "Insalata di gamberetti" },
+      "es": { "name": "Ensalada de Camarones", "description": "Ensalada de camarones" }
+    }
+  },
+  {
+    "id": "tom-kha-kai",
+    "category": "entrees",
+    "subcategory": null,
+    "image": "https://images.pexels.com/photos/18708076/pexels-photo-18708076.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=1",
+    "price": 11.90,
+    "allergens": ["poissons", "soja"],
+    "diets": ["sans-gluten", "sans-lactose"],
+    "macros": { "calories": 320, "proteines": 22, "glucides": 12, "lipides": 20 },
+    "translations": {
+      "fr": { "name": "Tom Kha Kai", "description": "Soupe de poulet à la crème de coco, galanga, citron vert" },
+      "en": { "name": "Tom Kha Kai", "description": "Chicken soup with coconut cream, galangal, green lime" },
+      "it": { "name": "Tom Kha Kai", "description": "Zuppa di pollo con crema di cocco, galanga, lime verde" },
+      "es": { "name": "Tom Kha Kai", "description": "Sopa de pollo con crema de coco, galangal, lima verde" }
+    }
+  },
+  {
+    "id": "tom-yum-goong",
+    "category": "entrees",
+    "subcategory": null,
+    "image": "https://images.pexels.com/photos/34624025/pexels-photo-34624025.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=1",
+    "price": 14.90,
+    "allergens": ["crustaces", "poissons", "soja", "arachides"],
+    "diets": ["sans-gluten", "sans-lactose"],
+    "macros": { "calories": 280, "proteines": 20, "glucides": 14, "lipides": 14 },
+    "translations": {
+      "fr": { "name": "Tom Yum Goong", "description": "Soupe de crevettes à la crème de coco, citronnelle, citron vert" },
+      "en": { "name": "Tom Yum Goong", "description": "Shrimp soup with coconut cream, lemongrass, green lime" },
+      "it": { "name": "Tom Yum Goong", "description": "Zuppa di gamberetti con crema di cocco, citronella, lime verde" },
+      "es": { "name": "Tom Yum Goong", "description": "Sopa de camarones con crema de coco, hierba limón, lima verde" }
+    }
+  },
+  {
+    "id": "steak-thai-airfryer",
+    "category": "plats",
+    "subcategory": null,
+    "image": "https://images.pexels.com/photos/19774527/pexels-photo-19774527.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=1",
+    "price": 23.50,
+    "allergens": ["poissons"],
+    "diets": ["sans-gluten", "sans-lactose"],
+    "macros": { "calories": 480, "proteines": 42, "glucides": 8, "lipides": 28 },
+    "translations": {
+      "fr": { "name": "Steak thaï Airfryer", "description": "Servi avec salade" },
+      "en": { "name": "Thai Steak Airfryer", "description": "Served with salad" },
+      "it": { "name": "Steak thaï Airfryer", "description": "Servito con insalata" },
+      "es": { "name": "Steak thaï Airfryer", "description": "Servido con ensalada" }
+    }
+  },
+  {
+    "id": "legumes-sautes-wok",
+    "category": "plats",
+    "subcategory": null,
+    "image": "https://images.pexels.com/photos/19105514/pexels-photo-19105514.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=1",
+    "price": 17.50,
+    "allergens": ["soja"],
+    "diets": ["vegetarien", "vegan", "halal", "casher", "sans-gluten", "sans-lactose"],
+    "macros": { "calories": 260, "proteines": 8, "glucides": 30, "lipides": 12 },
+    "translations": {
+      "fr": { "name": "Légumes sautés au Wok", "description": "Légumes sautés au wok" },
+      "en": { "name": "Wok-Sautéed Vegetables", "description": "Wok-sautéed vegetables" },
+      "it": { "name": "Verdure Saltate al Wok", "description": "Verdure saltate al wok" },
+      "es": { "name": "Verduras Salteadas al Wok", "description": "Verduras salteadas al wok" }
+    }
+  },
+  {
+    "id": "porc-hache-basilic",
+    "category": "plats",
+    "subcategory": null,
+    "image": "https://images.pexels.com/photos/32436917/pexels-photo-32436917.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=1",
+    "price": 17.50,
+    "allergens": ["gluten", "poissons", "soja"],
+    "diets": ["sans-lactose"],
+    "macros": { "calories": 420, "proteines": 30, "glucides": 10, "lipides": 26 },
+    "translations": {
+      "fr": { "name": "Porc haché maison, sauté au basilic", "description": "Porc haché maison, sauté au basilic" },
+      "en": { "name": "Homemade Minced Pork, Basil Sauté", "description": "Homemade minced pork, basil sauté" },
+      "it": { "name": "Maiale tritato fatto in casa, saltato al basilico", "description": "Maiale tritato fatto in casa, saltato al basilico" },
+      "es": { "name": "Cerdo picado casero, salteado con albahaca", "description": "Cerdo picado casero, salteado con albahaca" }
+    }
+  },
+  {
+    "id": "boeuf-curry-massaman",
+    "category": "plats",
+    "subcategory": null,
+    "image": "https://images.pexels.com/photos/31653130/pexels-photo-31653130.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=1",
+    "price": 21.50,
+    "allergens": [],
+    "diets": ["sans-gluten", "sans-lactose"],
+    "macros": { "calories": 580, "proteines": 34, "glucides": 28, "lipides": 34 },
+    "translations": {
+      "fr": { "name": "Bœuf au curry Massaman", "description": "Bœuf au curry Massaman" },
+      "en": { "name": "Beef Massaman Curry", "description": "Beef Massaman curry" },
+      "it": { "name": "Manzo al Curry Massaman", "description": "Manzo al curry Massaman" },
+      "es": { "name": "Carne de Res al Curry Massaman", "description": "Carne de res al curry Massaman" }
+    }
+  },
+  {
+    "id": "curry-rouge-coco",
+    "category": "plats",
+    "subcategory": null,
+    "image": "https://images.pexels.com/photos/17748116/pexels-photo-17748116.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=1",
+    "price": 17.50,
+    "allergens": ["crustaces", "mollusques"],
+    "diets": ["sans-gluten", "sans-lactose"],
+    "macros": { "calories": 480, "proteines": 30, "glucides": 18, "lipides": 30 },
+    "translations": {
+      "fr": { "name": "Curry rouge crème coco", "description": "Sauce au curry rouge et crème de coco" },
+      "en": { "name": "Red Curry Coconut Cream", "description": "Red curry with coconut cream" },
+      "it": { "name": "Curry Rosso Crema di Coco", "description": "Sauce di curry rosso e crema di coco" },
+      "es": { "name": "Curry Rojo Crema de Coco", "description": "Salsa de curry rojo y crema de coco" }
+    }
+  },
+  {
+    "id": "padthai",
+    "category": "plats",
+    "subcategory": null,
+    "image": "https://images.pexels.com/photos/12561888/pexels-photo-12561888.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=1",
+    "price": 18.90,
+    "allergens": ["soja", "crustaces", "mollusques"],
+    "diets": ["sans-gluten", "sans-lactose"],
+    "macros": { "calories": 580, "proteines": 24, "glucides": 72, "lipides": 18 },
+    "translations": {
+      "fr": { "name": "Padthaï", "description": "Pâtes de riz sautées" },
+      "en": { "name": "Pad Thai", "description": "Thai noodles" },
+      "it": { "name": "Pad Thai", "description": "Noodles thailandais" },
+      "es": { "name": "Pad Thai", "description": "Fideos tailandeses" }
+    }
+  },
+  {
+    "id": "riz-saute",
+    "category": "plats",
+    "subcategory": null,
+    "image": "https://images.pexels.com/photos/34683317/pexels-photo-34683317.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=1",
+    "price": 18.90,
+    "allergens": ["soja", "crustaces", "mollusques", "sesame"],
+    "diets": ["sans-gluten", "sans-lactose"],
+    "macros": { "calories": 520, "proteines": 22, "glucides": 68, "lipides": 14 },
+    "translations": {
+      "fr": { "name": "Riz sauté", "description": "Riz sauté au wok" },
+      "en": { "name": "Fried Rice", "description": "Wok-fried rice" },
+      "it": { "name": "Riso Saltato", "description": "Riso saltato al wok" },
+      "es": { "name": "Arroz Frito", "description": "Arroz frito al wok" }
+    }
+  },
+  {
+    "id": "big-tom-yum-goong",
+    "category": "plats",
+    "subcategory": null,
+    "image": "https://images.pexels.com/photos/12561896/pexels-photo-12561896.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=1",
+    "price": 23.50,
+    "allergens": ["crustaces", "poissons", "soja"],
+    "diets": ["sans-gluten", "sans-lactose"],
+    "macros": { "calories": 380, "proteines": 28, "glucides": 18, "lipides": 18 },
+    "translations": {
+      "fr": { "name": "Big Tom Yum Goong", "description": "Grande soupe de crevettes à la crème de coco, citronnelle, citron vert" },
+      "en": { "name": "Big Tom Yum Goong", "description": "Large shrimp soup with coconut cream, lemongrass, green lime" },
+      "it": { "name": "Big Tom Yum Goong", "description": "Grande zuppa di gamberetti con crema di cocco, citronella, lime verde" },
+      "es": { "name": "Big Tom Yum Goong", "description": "Gran sopa de camarones con crema de coco, hierba limón, lima verde" }
+    }
+  },
+  {
+    "id": "khao-soy",
+    "category": "plats",
+    "subcategory": null,
+    "image": "https://images.pexels.com/photos/7361022/pexels-photo-7361022.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=1",
+    "price": 21.50,
+    "allergens": ["arachides"],
+    "diets": ["sans-gluten", "sans-lactose"],
+    "macros": { "calories": 620, "proteines": 32, "glucides": 58, "lipides": 28 },
+    "translations": {
+      "fr": { "name": "Khao-Soy", "description": "Pâtes de riz, sauce au curry rouge, crème coco" },
+      "en": { "name": "Khao-Soy", "description": "Rice noodles, red curry sauce, coconut cream" },
+      "it": { "name": "Khao-Soy", "description": "Noodles di riso, salsa di curry rosso, crema di coco" },
+      "es": { "name": "Khao-Soy", "description": "Fideos de arroz, salsa de curry rojo, crema de coco" }
+    }
+  },
+  {
+    "id": "noix-st-jacques",
+    "category": "plats",
+    "subcategory": null,
+    "image": "https://images.pexels.com/photos/28503608/pexels-photo-28503608.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=1",
+    "price": 35.00,
+    "allergens": ["crustaces", "mollusques", "soja"],
+    "diets": ["sans-gluten", "sans-lactose"],
+    "macros": { "calories": 340, "proteines": 30, "glucides": 12, "lipides": 16 },
+    "translations": {
+      "fr": { "name": "Noix de St-Jacques", "description": "Noix de St-Jacques" },
+      "en": { "name": "Scallops", "description": "Scallops" },
+      "it": { "name": "Capesante", "description": "Capesante" },
+      "es": { "name": "Vieiras", "description": "Vieiras" }
+    }
+  },
+  {
+    "id": "riz-jasmin",
+    "category": "plats",
+    "subcategory": null,
+    "image": "https://images.pexels.com/photos/36346840/pexels-photo-36346840.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=1",
+    "price": 4.00,
+    "allergens": [],
+    "diets": ["vegetarien", "vegan", "halal", "casher", "sans-gluten", "sans-lactose"],
+    "macros": { "calories": 160, "proteines": 3, "glucides": 36, "lipides": 0 },
+    "translations": {
+      "fr": { "name": "Riz jasmin nature", "description": "Riz jasmin nature" },
+      "en": { "name": "Plain Jasmine Rice", "description": "Plain jasmine rice" },
+      "it": { "name": "Riso Jasmine Naturale", "description": "Riso jasmine naturale" },
+      "es": { "name": "Arroz Jasmine Natural", "description": "Arroz jasmine natural" }
+    }
+  },
+  {
+    "id": "tapioca-banane",
+    "category": "desserts",
+    "subcategory": null,
+    "image": "https://images.pexels.com/photos/4844367/pexels-photo-4844367.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=1",
+    "price": 10.90,
+    "allergens": [],
+    "diets": ["vegetarien", "vegan", "halal", "casher", "sans-gluten", "sans-lactose"],
+    "macros": { "calories": 280, "proteines": 2, "glucides": 58, "lipides": 6 },
+    "translations": {
+      "fr": { "name": "Tapioca à la banane fraîche", "description": "Dessert vegan maison" },
+      "en": { "name": "Tapioca with Fresh Banana", "description": "Homemade vegan dessert" },
+      "it": { "name": "Tapioca con Banana Fresca", "description": "Dessert vegan fatto in casa" },
+      "es": { "name": "Tapioca con Plátano Fresco", "description": "Postre vegano casero" }
+    }
+  },
+  {
+    "id": "riz-gluant-mangue",
+    "category": "desserts",
+    "subcategory": null,
+    "image": "https://images.pexels.com/photos/36681615/pexels-photo-36681615.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=1",
+    "price": 11.90,
+    "allergens": [],
+    "diets": ["vegetarien", "vegan", "halal", "casher", "sans-gluten", "sans-lactose"],
+    "macros": { "calories": 380, "proteines": 4, "glucides": 72, "lipides": 10 },
+    "translations": {
+      "fr": { "name": "Riz gluant mangue classique", "description": "Dessert vegan maison" },
+      "en": { "name": "Classic Mango Sticky Rice", "description": "Homemade vegan dessert" },
+      "it": { "name": "Riso Appiccicoso alla Mango Classico", "description": "Dessert vegan fatto in casa" },
+      "es": { "name": "Arroz Pegajoso de Mango Clásico", "description": "Postre vegano casero" }
+    }
+  }
+]
 }

@@ -90,4 +90,47 @@ export const restaurants: Restaurant[] = [
       },
     },
   },
+      {
+    id: "thaisil",
+    name: "Thaisil",
+    address: "3 Rue du Nil, 75002 Paris, France",
+    coordinates: [2.3480470, 48.8677677],
+    rating: 4.5,
+    reviewCount: 485,
+    photos: [
+      "/thaisil/thaisil1.avif",
+      "/thaisil/thaisil2.avif",
+    ],
+    reviews: [
+      {
+        author: "Marie L.",
+        rating: 5,
+        text: "Excellent rapport qualité-prix, cadre magnifique près du Louvre.",
+        date: "2025-03-12",
+      },
+      {
+        author: "Thomas B.",
+        rating: 4,
+        text: "Bonne cuisine française, service rapide le midi.",
+        date: "2025-02-28",
+      },
+    ],
+    socials: {
+      instagram: "thaisil_glutenfree",
+      website: "https://www.thaisil.com/",
+      menu: "https://www.thaisil.com/_files/ugd/759b42_cc0842ab25144a9ea9fc5f81cfdb9e1d.pdf",
+    },
+    tags: {
+      macronutrients: { energy: true, proteins: true, lipids: true, carbs: true },
+      allergens: [],
+      dietary: {
+        vegan: true,
+        vegetarien: true,
+        "sans-gluten": true,
+        "sans-lactose": true,
+        halal: true,
+        casher: true,
+      },
+    },
+  },
 ]

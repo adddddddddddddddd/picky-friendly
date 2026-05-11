@@ -11,6 +11,7 @@ export const CATEGORIES: Record<string, Category[]> = {
   default: ['entrees', 'plats', 'desserts', 'boissons', 'feelGoodDrinks'],
   judy: Object.keys(uiTranslations.judy.en.categories) as Category[],
   noglu: Object.keys(uiTranslations.noglu.en.categories) as Category[],
+  thaisil: Object.keys(uiTranslations.thaisil.en.categories) as Category[],
 }
 
 interface CategoryTabsProps {

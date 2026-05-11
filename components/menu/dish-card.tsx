@@ -43,6 +43,15 @@ const HOT_COLD_VARIANTS: MockVariant[] = [
   { name: "Glacé", priceOffset: 0 },
 ]
 
+const THAISIL_RIZ_SUPPLEMENTS: MockSupplement[] = [
+  { id: "riz-jasmin", name: "Riz jasmin", price: 4 },
+  { id: "riz-saute-legumes", name: "Riz sauté aux légumes", price: 8 },
+]
+
+const THAISIL_PORTION_SUPPLEMENT: MockSupplement[] = [
+  { id: "plus-portion", name: "Plus de portion", price: 6.50 },
+]
+
 const MOCK_CONFIGS: Record<string, Record<string, MockConfig>> = {
   default: {
     "steak-frites": {
@@ -334,6 +343,81 @@ const MOCK_CONFIGS: Record<string, Record<string, MockConfig>> = {
   ],
 },
   },
+  thaisil: {
+  "bo-bun": {
+    variants: [
+      { name: "Poulet", priceOffset: 0 },
+      { name: "Bœuf pimenté", priceOffset: 1 },
+      { name: "Crevettes", priceOffset: 1 },
+    ],
+  },
+  "salade-papaye-verte": {
+    supplements: THAISIL_RIZ_SUPPLEMENTS,
+  },
+  "salade-mangue": {
+    supplements: THAISIL_RIZ_SUPPLEMENTS,
+  },
+  "nem-poulet": {
+    supplements: THAISIL_RIZ_SUPPLEMENTS,
+  },
+  "salade-crevettes": {
+    supplements: THAISIL_RIZ_SUPPLEMENTS,
+  },
+  "tom-kha-kai": {
+    supplements: THAISIL_RIZ_SUPPLEMENTS,
+  },
+  "tom-yum-goong": {
+    supplements: THAISIL_RIZ_SUPPLEMENTS,
+  },
+  "steak-thai-airfryer": {
+    supplements: THAISIL_RIZ_SUPPLEMENTS,
+  },
+  "legumes-sautes-wok": {},
+  "porc-hache-basilic": {
+    supplements: THAISIL_RIZ_SUPPLEMENTS,
+  },
+  "boeuf-curry-massaman": {
+    supplements: THAISIL_RIZ_SUPPLEMENTS,
+  },
+  "curry-rouge-coco": {
+    variants: [
+      { name: "Poulet", priceOffset: 0 },
+      { name: "Crevettes", priceOffset: 6 },
+    ],
+    supplements: THAISIL_RIZ_SUPPLEMENTS,
+  },
+  "padthai": {
+    variants: [
+      { name: "Légumes", priceOffset: 0 },
+      { name: "Poulet", priceOffset: 0 },
+      { name: "Crevettes", priceOffset: 6.10 },
+    ],
+  },
+  "riz-saute": {
+    variants: [
+      { name: "Poulet", priceOffset: 0 },
+      { name: "Légumes", priceOffset: 0 },
+      { name: "Crevettes", priceOffset: 6.10 },
+    ],
+    supplements: THAISIL_PORTION_SUPPLEMENT,
+  },
+  "big-tom-yum-goong": {
+    supplements: THAISIL_RIZ_SUPPLEMENTS,
+  },
+  "khao-soy": {
+    variants: [
+      { name: "Porc", priceOffset: 0 },
+      { name: "Bœuf", priceOffset: 2 },
+    ],
+    supplements: THAISIL_RIZ_SUPPLEMENTS,
+  },
+  "noix-st-jacques": {
+    supplements: THAISIL_RIZ_SUPPLEMENTS,
+  },
+  "riz-jasmin": {},
+  "tapioca-banane": {},
+  "riz-gluant-mangue": {},
+}
 }
 
 interface DishCardProps {
