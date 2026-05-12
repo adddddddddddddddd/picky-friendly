@@ -12,6 +12,8 @@ export const CATEGORIES: Record<string, Category[]> = {
   judy: Object.keys(uiTranslations.judy.en.categories) as Category[],
   noglu: Object.keys(uiTranslations.noglu.en.categories) as Category[],
   thaisil: Object.keys(uiTranslations.thaisil.en.categories) as Category[],
+  "cafe-mareva": Object.keys(uiTranslations['cafe-mareva'].en.categories) as Category[],
+  "su-misura": Object.keys(uiTranslations['su-misura'].en.categories) as Category[],
 }
 
 interface CategoryTabsProps {

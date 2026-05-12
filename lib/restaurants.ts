@@ -133,4 +133,90 @@ export const restaurants: Restaurant[] = [
       },
     },
   },
+        {
+    id: "cafe-mareva",
+    name: "Café Mareva",
+    address: "27 Rue de Clignancourt, 75018 Paris, France",
+    coordinates: [2.3471914, 48.885559],
+    rating: 4.5,
+    reviewCount: 780,
+    photos: [
+      "/cafe-mareva/cafe-mareva1.webp",
+      "/cafe-mareva/cafe-mareva2.webp",
+    ],
+    reviews: [
+      {
+        author: "Marie L.",
+        rating: 5,
+        text: "Excellent rapport qualité-prix, cadre magnifique près du Louvre.",
+        date: "2025-03-12",
+      },
+      {
+        author: "Thomas B.",
+        rating: 4,
+        text: "Bonne cuisine française, service rapide le midi.",
+        date: "2025-02-28",
+      },
+    ],
+    socials: {
+      instagram: "cafemareva",
+      website: "https://www.cafemareva.com/",
+      menu: "https://www.cafemareva.com/menu",
+    },
+    tags: {
+      macronutrients: { energy: true, proteins: true, lipids: true, carbs: true },
+      allergens: [],
+      dietary: {
+        vegan: true,
+        vegetarien: true,
+        "sans-gluten": true,
+        "sans-lactose": true,
+        halal: true,
+        casher: true,
+      },
+    },
+  },
+  //         {
+  //   id: "su-misura",
+  //   name: "Su Misura",
+  //   address: "22 Av. Rapp, 75007 Paris, France",
+  //   coordinates: [2.3003728, 48.8591352],
+  //   rating: 4.6,
+  //   reviewCount: 1461,
+  //   photos: [
+  //     "/su-misura/su-misura1.webp",
+  //     "/su-misura/su-misura2.webp",
+  //   ],
+  //   reviews: [
+  //     {
+  //       author: "Marie L.",
+  //       rating: 5,
+  //       text: "Excellent rapport qualité-prix, cadre magnifique près du Louvre.",
+  //       date: "2025-03-12",
+  //     },
+  //     {
+  //       author: "Thomas B.",
+  //       rating: 4,
+  //       text: "Bonne cuisine française, service rapide le midi.",
+  //       date: "2025-02-28",
+  //     },
+  //   ],
+  //   socials: {
+  //     instagram: "sumisurabyciro",
+  //     website: "https://byciro.com/index.php/fr/nos-restaurants/su-misura/",
+  //     menu: "https://byciro.com/index.php/fr/antipasti-su-misura",
+  //   },
+  //   tags: {
+  //     macronutrients: { energy: true, proteins: true, lipids: true, carbs: true },
+  //     allergens: [],
+  //     dietary: {
+  //       vegan: true,
+  //       vegetarien: true,
+  //       "sans-gluten": true,
+  //       "sans-lactose": true,
+  //       halal: true,
+  //       casher: true,
+  //     },
+  //   },
+  // },
 ]

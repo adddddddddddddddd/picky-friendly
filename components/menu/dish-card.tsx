@@ -52,6 +52,45 @@ const THAISIL_PORTION_SUPPLEMENT: MockSupplement[] = [
   { id: "plus-portion", name: "Plus de portion", price: 6.50 },
 ]
 
+const MAREVA_SUPPLEMENTS_GAUFRES_SALEES: MockSupplement[] = [
+  { id: "guacamole-maison", name: "Guacamole maison", price: 4.00 },
+  { id: "bacon",            name: "Bacon",            price: 4.00 },
+  { id: "saumon-fume",      name: "Saumon fumé",      price: 4.00 },
+];
+
+const MAREVA_SUPPLEMENTS_TOASTS_SALES: MockSupplement[] = [
+  { id: "bacon",       name: "Bacon",       price: 4.00 },
+  { id: "saumon-fume", name: "Saumon fumé", price: 4.00 },
+];
+
+const MAREVA_SUPPLEMENTS_GAUFRE_SUCREE: MockSupplement[] = [
+  { id: "sucre-glace",                 name: "Sucre glace",                  price: 0.00 },
+  { id: "chocolat-55",                 name: "Chocolat 55%",                 price: 1.00 },
+  { id: "beurre-de-cacahuete",         name: "Beurre de cacahuète",          price: 2.00 },
+  { id: "praline-maison",              name: "Praliné maison",               price: 2.00 },
+  { id: "caramel-beurre-sale",         name: "Caramel beurre salé maison",   price: 2.00 },
+  { id: "banane",                      name: "Banane",                       price: 2.00 },
+  { id: "fruits-de-saison",            name: "Fruits de saison",             price: 3.00 },
+  { id: "amandes-hachees-caramelisees",name: "Amandes hachées caramélisées", price: 1.50 },
+  { id: "chantilly-vegan",             name: "Crème chantilly vegan maison", price: 1.50 },
+  { id: "sirop-erable",                name: "Sirop d'érable",               price: 2.00 },
+];
+
+const MAREVA_SUPPLEMENTS_SMOOTHIE_BOWLS: MockSupplement[] = [
+  { id: "beurre-de-cacahuete-maison", name: "Beurre de cacahuète maison", price: 2.00 },
+];
+
+const MAREVA_SUPPLEMENTS_GLOBAUX: MockSupplement[] = [
+  { id: "guacamole-maison",      name: "Guacamole maison",               price: 4.00 },
+  { id: "bacon",                 name: "Bacon",                          price: 4.00 },
+  { id: "filet-poulet-frit",     name: "Filet poulet frit",              price: 4.00 },
+  { id: "saumon-fume",           name: "Saumon fumé",                    price: 4.00 },
+  { id: "oeufs-plat-brouilles",  name: "2 œufs au plat ou brouillés",   price: 3.00 },
+  { id: "bol-de-fruits",         name: "Bol de fruits",                  price: 4.00 },
+];
+
+
+
 const MOCK_CONFIGS: Record<string, Record<string, MockConfig>> = {
   default: {
     "steak-frites": {
@@ -417,7 +456,326 @@ const MOCK_CONFIGS: Record<string, Record<string, MockConfig>> = {
   "riz-jasmin": {},
   "tapioca-banane": {},
   "riz-gluant-mangue": {},
+},
+  "cafe-mareva": 
+  {
+ 
+  // ----------------------------------------------------------
+  // GAUFRES DE PATATES DOUCES
+  // ----------------------------------------------------------
+ 
+  "classic-avocado": {
+    variants: [
+      { name: "Œuf au plat",    priceOffset: 0 },
+      { name: "Œuf brouillé",   priceOffset: 0 },
+    ],
+    supplements: MAREVA_SUPPLEMENTS_GAUFRES_SALEES,
+  },
+ 
+  "the-italian": {
+    variants: [],
+    supplements: [],
+  },
+ 
+  "blt": {
+    variants: [],
+    supplements: [
+      { id: "guacamole-maison", name: "Guacamole maison", price: 4.00 },
+    ],
+  },
+ 
+  "fried-chicken-gaufre": {
+    variants: [],
+    supplements: [
+      { id: "guacamole-maison", name: "Guacamole maison", price: 4.00 },
+      { id: "bacon",            name: "Bacon",            price: 4.00 },
+    ],
+    // ⚠️ Maïs listé comme allergène sur la page allergènes
+    // (non EU standard) — signalé dans JSON 1.
+  },
+ 
+  "early-bird": {
+    variants: [],
+    supplements: [],
+  },
+ 
+  // ----------------------------------------------------------
+  // PANCAKES
+  // ----------------------------------------------------------
+ 
+  "american-breakfast": {
+    variants: [],
+    supplements: [],
+  },
+ 
+  "spicy-korean-honey-chicken-pancake": {
+    variants: [],
+    supplements: [],
+  },
+ 
+  "blueberry-mornings": {
+    variants: [],
+    supplements: [],
+  },
+ 
+  "fried-korean-honey-chicken-spicy": {
+    variants: [],
+    supplements: [],
+  },
+ 
+  // ----------------------------------------------------------
+  // POKE BOWLS
+  // ⚠️ Dispo lundi–vendredi uniquement.
+  // ----------------------------------------------------------
+ 
+  "poke-saumon-ou-tofu": {
+    variants: [
+      {
+        name: "Saumon fumé",
+        priceOffset: 0,
+        // allergens spécifiques : oeufs, poisson, soja, graines-de-sesame
+      },
+      {
+        name: "Tofu fumé",
+        priceOffset: 0,
+        // allergens spécifiques : oeufs, soja, graines-de-sesame (PAS poisson)
+      },
+    ],
+    supplements: [],
+    // _variant_allergen_note:
+    //   "La variante Saumon contient Poisson. La variante Tofu ne contient PAS de poisson. " +
+    //   "Les deux partagent : Œufs, Soja, Graines de sésame.",
+  },
+ 
+  "poke-fried-chicken": {
+    variants: [],
+    supplements: [],
+  },
+ 
+  "poke-korean-fried-chicken": {
+    variants: [],
+    supplements: [],
+  },
+ 
+  // ----------------------------------------------------------
+  // SMOOTHIE BOWLS
+  // ----------------------------------------------------------
+ 
+  "smoothie-bowl-tropical": {
+    variants: [],
+    supplements: MAREVA_SUPPLEMENTS_SMOOTHIE_BOWLS,
+  },
+ 
+  "smoothie-bowl-go-wild-berries": {
+    variants: [],
+    supplements: MAREVA_SUPPLEMENTS_SMOOTHIE_BOWLS,
+  },
+ 
+  // ----------------------------------------------------------
+  // FORMULE BRUNCH
+  // ----------------------------------------------------------
+ 
+  "formule-brunch": {
+    variants: [
+      { name: "Gaufre salée + jus + boisson chaude + pâtisserie + gaufre sucre glace", priceOffset: 0 },
+      { name: "Pancake + jus + boisson chaude + pâtisserie + gaufre sucre glace",      priceOffset: 0 },
+      { name: "Bowl + jus + boisson chaude + pâtisserie + gaufre sucre glace",         priceOffset: 0 },
+    ],
+    supplements: [],
+    // _note:
+    //   "⚠️ La formule inclut au choix : gaufre salée, pancake ou bowl*. " +
+    //   "Le restaurant ne précise pas de surcoût entre options. " +
+    //   "*(bowl = poke bowl, dispo lundi–vendredi seulement)",
+  },
+ 
+  // ----------------------------------------------------------
+  // TOASTS
+  // ----------------------------------------------------------
+ 
+  "avocado-toast": {
+    variants: [
+      { name: "Œuf au plat",  priceOffset: 0 },
+      { name: "Œuf brouillé", priceOffset: 0 },
+    ],
+    supplements: MAREVA_SUPPLEMENTS_TOASTS_SALES,
+  },
+ 
+  "glow-toast": {
+    variants: [],
+    supplements: [],
+  },
+ 
+  "jelly-x-peanut-toast": {
+    variants: [],
+    supplements: [],
+  },
+ 
+  "french-breakfast": {
+    variants: [],
+    supplements: [],
+  },
+ 
+  // ----------------------------------------------------------
+  // GAUFRE SUCRÉE
+  // ----------------------------------------------------------
+ 
+  "gaufre-sucree": {
+    variants: [],
+    supplements: MAREVA_SUPPLEMENTS_GAUFRE_SUCREE,
+    // _note:
+    //   "La gaufre sucrée de base est à 5€ avec sucre glace (0€). " +
+    //   "Toutes les autres garnitures sont des suppléments payants.",
+  },
+ 
+  "gaufre-du-moment": {
+    variants: [],
+    supplements: [],
+    // _note:
+    //   "Garniture fixe : banane, chocolat, beurre de cacahuète maison. " +
+    //   "Pas de suppléments listés pour ce plat.",
+  },
+ 
+  // ----------------------------------------------------------
+  // PÂTISSERIES (au comptoir — prix non indiqués sur le site)
+  // ----------------------------------------------------------
+ 
+  "brookie":                { variants: [], supplements: [] },
+  "brownie-cacahuete":      { variants: [], supplements: [] },
+  "cookie-cacahuete":       { variants: [], supplements: [] },
+  "cookie-praline":         { variants: [], supplements: [] },
+  "cookie-pistache":        { variants: [], supplements: [] },
+  "cookie-sesame-noir":     { variants: [], supplements: [] },
+  "paris-brest-praline":    { variants: [], supplements: [] },
+  "opera":                  { variants: [], supplements: [] },
+  "pavlova":                { variants: [], supplements: [] },
+  "entremet-cacahuete":     { variants: [], supplements: [] },
+  "entremet-citron":        { variants: [], supplements: [] },
+  "gateau-cerises-amandes": { variants: [], supplements: [] },
+  "carrot-cake":            { variants: [], supplements: [] },
+  "crumble":                { variants: [], supplements: [] },
+ 
+},
+"su-misura": {
+  // ---------------------------------------------------------------------------
+  // ANTIPASTI
+  // ---------------------------------------------------------------------------
+  "planche-de-l-amitie": {
+    variants: [
+      { name: "Pour 1 personne", priceOffset: 0 },
+      { name: "Pour 2 personnes", priceOffset: 16.00 },
+    ],
+    supplements: [],
+  },
+ 
+  // ---------------------------------------------------------------------------
+  // DESSERTS
+  // ---------------------------------------------------------------------------
+  "tiramisu": {
+    variants: [
+      { name: "Classique", priceOffset: 0 },
+      { name: "Pistache", priceOffset: 0 },
+    ],
+    supplements: [],
+  },
+  "crostata-artisanale": {
+    variants: [
+      { name: "À la confiture", priceOffset: 0 },
+      { name: "Au citron", priceOffset: 0 },
+    ],
+    supplements: [],
+  },
+ 
+  // ---------------------------------------------------------------------------
+  // GLACES & SORBETS — flavour + quantity
+  // ---------------------------------------------------------------------------
+  // Note: Su Misura prices scoops 1/2/3 → 5,5€ / 8€ / 11€.
+  // Base price (1 boule) = 5,50€. Flavours are no-cost flavour variants.
+  "glaces-antolin": {
+    variants: [
+      { name: "1 boule — Café", priceOffset: 0 },
+      { name: "1 boule — Caramel au sel de Guérande", priceOffset: 0 },
+      { name: "1 boule — Vanille", priceOffset: 0 },
+      { name: "1 boule — Chocolat", priceOffset: 0 },
+      { name: "1 boule — Pistache", priceOffset: 0 },
+      { name: "2 boules", priceOffset: 2.50 },
+      { name: "3 boules", priceOffset: 5.50 },
+    ],
+    supplements: [],
+  },
+  "sorbets-antolin": {
+    variants: [
+      { name: "1 boule — Citron", priceOffset: 0 },
+      { name: "1 boule — Cassis", priceOffset: 0 },
+      { name: "1 boule — Framboise", priceOffset: 0 },
+      { name: "1 boule — Fraise", priceOffset: 0 },
+      { name: "1 boule — Fruits de la passion", priceOffset: 0 },
+      { name: "2 boules", priceOffset: 2.50 },
+      { name: "3 boules", priceOffset: 5.50 },
+    ],
+    supplements: [],
+  },
+ 
+  // ---------------------------------------------------------------------------
+  // VINS BIO — colour variants
+  // ---------------------------------------------------------------------------
+  "vin-au-verre": {
+    variants: [
+      { name: "Blanc", priceOffset: 0 },
+      { name: "Rouge", priceOffset: 0 },
+      { name: "Rosé", priceOffset: 0 },
+    ],
+    supplements: [],
+  },
+  "pichet-de-vin": {
+    variants: [
+      { name: "Blanc", priceOffset: 0 },
+      { name: "Rouge", priceOffset: 0 },
+      { name: "Rosé", priceOffset: 0 },
+    ],
+    supplements: [],
+  },
+ 
+  // ---------------------------------------------------------------------------
+  // APÉRITIFS
+  // ---------------------------------------------------------------------------
+  "vermouth": {
+    variants: [
+      { name: "Blanc", priceOffset: 0 },
+      { name: "Rouge", priceOffset: 0 },
+    ],
+    supplements: [],
+  },
+  "campari-vodka": {
+    variants: [
+      { name: "Campari", priceOffset: 0 },
+      { name: "Vodka", priceOffset: 0 },
+    ],
+    supplements: [],
+  },
+ 
+  // ---------------------------------------------------------------------------
+  // EAUX
+  // ---------------------------------------------------------------------------
+  "acqua-chiara": {
+    variants: [
+      { name: "Plate", priceOffset: 0 },
+      { name: "Pétillante", priceOffset: 0 },
+    ],
+    supplements: [],
+  },
+ 
+  // ---------------------------------------------------------------------------
+  // BOISSONS CHAUDES
+  // ---------------------------------------------------------------------------
+  "cappuccino": {
+    variants: [
+      { name: "Avec lactose", priceOffset: 0 },
+      { name: "Sans lactose", priceOffset: 0 },
+    ],
+    supplements: [],
+  },
 }
+
 }
 
 interface DishCardProps {
