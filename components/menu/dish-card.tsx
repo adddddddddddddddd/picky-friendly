@@ -89,7 +89,117 @@ const MAREVA_SUPPLEMENTS_GLOBAUX: MockSupplement[] = [
   { id: "bol-de-fruits",         name: "Bol de fruits",                  price: 4.00 },
 ];
 
+const LASAJERIE_SUPPLEMENTS_HALLOUMI_LABNEH = [
+  { id: "supplement-halloumi", name: "Fromage Halloumi", price: 2.00 },
+  { id: "supplement-labneh",   name: "Labneh",           price: 2.00 }
+]
+// Used by: zaatar (explicitly listed on menu: "+ fromage halloumi 2€ / + labneh 2€")
+ 
+const LASAJERIE_SUPPLEMENT_BANANE = [
+  { id: "supplement-banane", name: "Banane", price: 1.00 }
+]
+// Used by: nutella (explicitly listed on menu: "+ banane 1€")
+ 
+const LASAJERIE_SUPPLEMENT_SAUMON = [
+  { id: "supplement-saumon-marine", name: "Saumon mariné à la betterave", price: 4.50 }
+]
 
+const TFK_WINE_FORMATS_SMALL: MockVariant[] = [
+  // Used by wines sold in 12cl / 37cl(ish) / 75cl
+  // priceOffset relative to the cheapest (12cl) glass
+];
+ 
+// Kir variants (vin blanc vs Royal/Prosecco)
+const TFK_KIR_VARIANTS: MockVariant[] = [
+  { name: "Kir (vin blanc)", priceOffset: 0 },
+  { name: "Kir Royal (Prosecco)", priceOffset: 0 }, // same price, listed as variant
+];
+ 
+// Liqueur flavours — Granier digestif
+const TFK_GRANIER_VARIANTS: MockVariant[] = [
+  { name: "Menthe", priceOffset: 0 },
+  { name: "Verveine", priceOffset: 0 },
+  { name: "Gentiane", priceOffset: 0 },
+];
+ 
+// Kombucha flavours
+const TFK_KOMBUCHA_VARIANTS: MockVariant[] = [
+  { name: "Clémentine", priceOffset: 0 },
+  { name: "Cassis", priceOffset: 0 },
+];
+ 
+// Potions Symples flavours
+const TFK_POTIONS_VARIANTS: MockVariant[] = [
+  { name: "Relax (verveine, cerise, lavande)", priceOffset: 0 },
+  { name: "Détox (sauge, sureau, pomme)", priceOffset: 0 },
+];
+ 
+// ─────────────────────────────────────────────────────────────────────────────
+// WINE VOLUME HELPERS
+// Prices are base = 12cl (au verre). Variants for demi-bouteille and bouteille.
+// ─────────────────────────────────────────────────────────────────────────────
+ 
+// Pattern A: 14 / 34.50 / 69  (Granilites Chapoutier)
+const TFK_WINE_VOLUMES_GRANILITES: MockVariant[] = [
+  { name: "12 cl (verre)", priceOffset: 0 },
+  { name: "37,5 cl (demi)", priceOffset: 20.50 },
+  { name: "75 cl (bouteille)", priceOffset: 55.00 },
+];
+ 
+// Pattern B: 11 / 26 / 52  (Bourgogne Aligoté)
+const TFK_WINE_VOLUMES_ALIGOTE: MockVariant[] = [
+  { name: "12 cl (verre)", priceOffset: 0 },
+  { name: "37,5 cl (demi)", priceOffset: 15.00 },
+  { name: "75 cl (bouteille)", priceOffset: 41.00 },
+];
+ 
+// Pattern C: 7 / 18 / 36  (Haut Benauge)
+const TFK_WINE_VOLUMES_HAUT_BENAUGE: MockVariant[] = [
+  { name: "12 cl (verre)", priceOffset: 0 },
+  { name: "37,5 cl (demi)", priceOffset: 11.00 },
+  { name: "75 cl (bouteille)", priceOffset: 29.00 },
+];
+ 
+// Pattern D: 8 / 20 / 40  (Cattin, Cuvée Lune)
+const TFK_WINE_VOLUMES_8_20_40: MockVariant[] = [
+  { name: "12 cl (verre)", priceOffset: 0 },
+  { name: "37,5 cl (demi)", priceOffset: 12.00 },
+  { name: "75 cl (bouteille)", priceOffset: 32.00 },
+];
+ 
+// Pattern E: 9 / 22.50 / 45  (Sauvagine blanc, Canopée, Noirettes, Sauvagine rouge)
+const TFK_WINE_VOLUMES_9_2250_45: MockVariant[] = [
+  { name: "12 cl (verre)", priceOffset: 0 },
+  { name: "37 cl (demi)", priceOffset: 13.50 },
+  { name: "75 cl (bouteille)", priceOffset: 36.00 },
+];
+ 
+// Pattern F: 11.50 / 27 / 54  (Vignes du Parc)
+const TFK_WINE_VOLUMES_VIGNES_DU_PARC: MockVariant[] = [
+  { name: "12 cl (verre)", priceOffset: 0 },
+  { name: "37,5 cl (demi)", priceOffset: 15.50 },
+  { name: "75 cl (bouteille)", priceOffset: 42.50 },
+];
+ 
+// Pattern G: 8 / 20 / 40  (Tire Bouchon)
+// → same as TFK_WINE_VOLUMES_8_20_40
+ 
+// Pattern H: 7.50 / 18.50 / 37  (Camille rosé)
+const TFK_WINE_VOLUMES_CAMILLE: MockVariant[] = [
+  { name: "12 cl (verre)", priceOffset: 0 },
+  { name: "37 cl (demi)", priceOffset: 11.00 },
+  { name: "75 cl (bouteille)", priceOffset: 29.50 },
+];
+ 
+// Pattern I: 7 / 36  (Prosecco — no demi)
+const TFK_WINE_VOLUMES_PROSECCO: MockVariant[] = [
+  { name: "12 cl (verre)", priceOffset: 0 },
+  { name: "75 cl (bouteille)", priceOffset: 29.00 },
+];
+
+const DESSERT_UPGRADE_SUPPLEMENT = [
+  { id: "dessert-upgrade", name: "Substitution dessert au choix de la carte", price: 3.00 }
+];
 
 const MOCK_CONFIGS: Record<string, Record<string, MockConfig>> = {
   default: {
@@ -774,6 +884,610 @@ const MOCK_CONFIGS: Record<string, Record<string, MockConfig>> = {
     ],
     supplements: [],
   },
+},
+"la-sajerie": 
+{
+ 
+  // ── SAJ ────────────────────────────────────────────────────────
+ 
+  "zaatar": {
+    variants: [],
+    supplements: LASAJERIE_SUPPLEMENTS_HALLOUMI_LABNEH
+    // Menu explicitly states: "+ fromage halloumi 2€" and "+ labneh 2€"
+  },
+ 
+  "halloumi": {
+    variants: [],
+    supplements: []
+  },
+ 
+  "chili-halloumi": {
+    variants: [],
+    supplements: []
+  },
+ 
+  "halloumi-tapenade-poivron": {
+    variants: [],
+    supplements: []
+  },
+ 
+  "dinde-fume-fromage": {
+    variants: [],
+    supplements: []
+  },
+ 
+  "hummus-avocat": {
+    variants: [],
+    supplements: []
+  },
+ 
+  "aubergine-labneh": {
+    variants: [],
+    supplements: []
+  },
+ 
+  "aubergines-tapenade-poivrons": {
+    variants: [],
+    supplements: []
+  },
+ 
+  "poulet-toum": {
+    variants: [],
+    supplements: []
+  },
+ 
+  "poulet-hummus": {
+    variants: [],
+    supplements: []
+  },
+ 
+  "soujouk-halloumi": {
+    variants: [],
+    supplements: []
+  },
+ 
+  "boeuf-aux-epices": {
+    variants: [],
+    supplements: []
+  },
+ 
+  "kefta-halloumi": {
+    variants: [],
+    supplements: []
+  },
+ 
+  "nutella": {
+    variants: [],
+    supplements: LASAJERIE_SUPPLEMENT_BANANE
+    // Menu explicitly states: "+ banane 1€"
+  },
+ 
+  "saj-du-moment": {
+    variants: [],
+    supplements: []
+    // Seasonal dish — no fixed supplements listed
+  },
+ 
+  // ── SALADES ────────────────────────────────────────────────────
+ 
+  "salade-aux-dattes-halloumi": {
+    variants: [],
+    supplements: []
+  },
+ 
+  "mesclun-artichauts-pistaches": {
+    variants: [],
+    supplements: []
+  },
+ 
+  "tabouleh-quinoa-pois-chiche": {
+    variants: [],
+    supplements: []
+  },
+ 
+  "salade-du-moment": {
+    variants: [],
+    supplements: LASAJERIE_SUPPLEMENT_SAUMON
+    // Menu explicitly states: "+ saumon mariné à la betterave +4.5€"
+  },
+ 
+  // ── ACCOMPAGNEMENTS ────────────────────────────────────────────
+ 
+  "hummus": {
+    variants: [],
+    supplements: []
+  },
+ 
+  "labneh": {
+    variants: [],
+    supplements: []
+  },
+ 
+  "mutabbal": {
+    variants: [],
+    supplements: []
+  },
+ 
+  "accompagnement-du-moment": {
+    variants: [],
+    supplements: []
+  },
+ 
+  // ── DESSERTS ────────────────────────────────────────────────────
+ 
+  "yaourt-oriental": {
+    variants: [],
+    supplements: []
+  },
+ 
+  "muhalabiya-aux-dattes": {
+    variants: [],
+    supplements: []
+  },
+ 
+  // ── BOISSONS ───────────────────────────────────────────────────
+ 
+  "coca-cola": {
+    variants: [
+      { name: "330ml", priceOffset: 0 }
+    ],
+    supplements: []
+  },
+ 
+  "coca-cola-zero": {
+    variants: [
+      { name: "330ml", priceOffset: 0 }
+    ],
+    supplements: []
+  },
+ 
+  "perrier": {
+    variants: [
+      { name: "250ml", priceOffset: 0 }
+    ],
+    supplements: []
+  },
+ 
+  "charitea-green": {
+    variants: [],
+    supplements: []
+  },
+ 
+  "limonade-fruit-de-la-passion": {
+    variants: [],
+    supplements: []
+  },
+ 
+  // ── CAFÉ ───────────────────────────────────────────────────────
+ 
+  "espresso-allonge": {
+    variants: [
+      { name: "Espresso", priceOffset: 0 },
+      { name: "Allongé",  priceOffset: 0 }
+    ],
+    supplements: []
+    // Same price for both — no price offset
+  },
+ 
+  "double-espresso": {
+    variants: [],
+    supplements: []
+  },
+ 
+  "thé": {
+    variants: [],
+    supplements: []
+  }
+},
+"the-friendly-kitchen": {
+ 
+  // ── FORMULES (no variants, no supplements) ────────────────────────────────
+  "formule-dejeuner-plat-boisson": {
+    variants: [],
+    supplements: [],
+  },
+  "formule-dejeuner-deux-services": {
+    variants: [],
+    supplements: [],
+  },
+ 
+  // ── MENUS DÉCOUVERTE (no variants, no supplements) ────────────────────────
+  "menu-decouverte-6-services": {
+    variants: [
+      { name: "Menu seul", priceOffset: 0 },
+      { name: "Avec accord mets & vins (4 demi-verres + 1 quart)", priceOffset: 24.00 },
+      { name: "Avec accord sans alcool", priceOffset: 18.00 },
+    ],
+    supplements: [],
+  },
+ 
+  // ── BOISSONS ──────────────────────────────────────────────────────────────
+  "kir": {
+    variants: TFK_KIR_VARIANTS,
+    supplements: [],
+  },
+  "liqueurs-artisanales-granier": {
+    variants: TFK_GRANIER_VARIANTS,
+    supplements: [],
+  },
+  "kombucha-archipel": {
+    variants: TFK_KOMBUCHA_VARIANTS,
+    supplements: [],
+  },
+  "potions-symples": {
+    variants: TFK_POTIONS_VARIANTS,
+    supplements: [],
+  },
+ 
+  // ── VINS — volumes ────────────────────────────────────────────────────────
+  "vin-blanc-granilites-chapoutier-2022": {
+    variants: TFK_WINE_VOLUMES_GRANILITES,
+    supplements: [],
+  },
+  "vin-blanc-bourgogne-aligote-gueguen-2022": {
+    variants: TFK_WINE_VOLUMES_ALIGOTE,
+    supplements: [],
+  },
+  "vin-blanc-haut-benauge-chateau-ferran-2022": {
+    variants: TFK_WINE_VOLUMES_HAUT_BENAUGE,
+    supplements: [],
+  },
+  "vin-blanc-cattin-sauvage-gewurztraminer-2021": {
+    variants: TFK_WINE_VOLUMES_8_20_40,
+    supplements: [],
+  },
+  "vin-blanc-cuvee-lune-viognier-2024": {
+    variants: TFK_WINE_VOLUMES_8_20_40,
+    supplements: [],
+  },
+  "vin-blanc-sauvagine-2024": {
+    variants: TFK_WINE_VOLUMES_9_2250_45,
+    supplements: [],
+  },
+  "vin-rouge-vignes-du-parc-oureas-2023": {
+    variants: TFK_WINE_VOLUMES_VIGNES_DU_PARC,
+    supplements: [],
+  },
+  "vin-rouge-granilites-chapoutier-2023": {
+    variants: TFK_WINE_VOLUMES_GRANILITES,
+    supplements: [],
+  },
+  "vin-rouge-canopee-vignobles-david-2022": {
+    variants: TFK_WINE_VOLUMES_9_2250_45,
+    supplements: [],
+  },
+  "vin-rouge-tire-bouchon-ourea-2022": {
+    variants: TFK_WINE_VOLUMES_8_20_40,
+    supplements: [],
+  },
+  "vin-rouge-noirettes-ici-la-2023": {
+    variants: TFK_WINE_VOLUMES_9_2250_45,
+    supplements: [],
+  },
+  "vin-rouge-sauvagine-2024": {
+    variants: TFK_WINE_VOLUMES_9_2250_45,
+    supplements: [],
+  },
+  "vin-rose-camille-turenne-2022": {
+    variants: TFK_WINE_VOLUMES_CAMILLE,
+    supplements: [],
+  },
+  "prosecco-frizzante-terre-dei-buth": {
+    variants: TFK_WINE_VOLUMES_PROSECCO,
+    supplements: [],
+  },
+  "champagne-mineral-blanc-de-blanc-legret": {
+    variants: [
+      { name: "75 cl (bouteille)", priceOffset: 0 },
+    ],
+    supplements: [],
+  },
+},
+tasca:{
+ 
+  // ---------- ANTIPASTI ----------
+  "planche-de-l-amitie": {
+    variants: [
+      { name: "Pour 1 personne", priceOffset: 0 },     // base 19 €
+      { name: "Pour 2 personnes", priceOffset: 16.00 }, // 35 €
+    ],
+    supplements: [],
+  },
+ 
+  // ---------- GLACES & SORBETS ----------
+  "glace": {
+    variants: [
+      // Parfums
+      { name: "Café",                              priceOffset: 0 },
+      { name: "Caramel au sel de Guérande",        priceOffset: 0 },
+      { name: "Vanille",                           priceOffset: 0 },
+      { name: "Chocolat",                          priceOffset: 0 },
+      { name: "Pistache",                          priceOffset: 0 },
+    ],
+    supplements: [
+      { id: "boule-supplementaire-1", name: "+1 boule (2 boules au total)", price: 2.50 }, // 8 - 5.5
+      { id: "boule-supplementaire-2", name: "+2 boules (3 boules au total)", price: 5.50 }, // 11 - 5.5
+    ],
+  },
+ 
+  "sorbet": {
+    variants: [
+      { name: "Citron",                priceOffset: 0 },
+      { name: "Cassis",                priceOffset: 0 },
+      { name: "Framboise",             priceOffset: 0 },
+      { name: "Fraise",                priceOffset: 0 },
+      { name: "Fruits de la passion",  priceOffset: 0 },
+    ],
+    supplements: [
+      { id: "boule-supplementaire-1", name: "+1 boule (2 boules au total)", price: 2.50 },
+      { id: "boule-supplementaire-2", name: "+2 boules (3 boules au total)", price: 5.50 },
+    ],
+  },
+ 
+  // ---------- DESSERTS ----------
+  "crostata-artisanale": {
+    variants: [
+      { name: "À la confiture", priceOffset: 0 },
+      { name: "Au citron",      priceOffset: 0 },
+    ],
+    supplements: [],
+  },
+ 
+  "tiramisu": {
+    variants: [
+      { name: "Classique", priceOffset: 0 },
+      { name: "Pistache",  priceOffset: 0 },
+    ],
+    supplements: [],
+  },
+ 
+  // ---------- VINS ----------
+  "vin-au-verre": {
+    variants: [
+      { name: "Blanc", priceOffset: 0 },
+      { name: "Rouge", priceOffset: 0 },
+      { name: "Rosé",  priceOffset: 0 },
+    ],
+    supplements: [],
+  },
+ 
+  "pichet-de-vin": {
+    variants: [
+      { name: "Blanc", priceOffset: 0 },
+      { name: "Rouge", priceOffset: 0 },
+      { name: "Rosé",  priceOffset: 0 },
+    ],
+    supplements: [],
+  },
+ 
+  // ---------- APERITIFS ----------
+  "vermouth": {
+    variants: [
+      { name: "Blanc", priceOffset: 0 },
+      { name: "Rouge", priceOffset: 0 },
+    ],
+    supplements: [],
+  },
+ 
+  "campari-vodka": {
+    variants: [
+      { name: "Campari", priceOffset: 0 },
+      { name: "Vodka",   priceOffset: 0 },
+    ],
+    supplements: [],
+  },
+ 
+  // ---------- EAUX ----------
+  "acqua-chiara": {
+    variants: [
+      { name: "Plate",     priceOffset: 0 },
+      { name: "Pétillante", priceOffset: 0 },
+    ],
+    supplements: [],
+  },
+ 
+  // ---------- JUS DE FRUITS ----------
+  "jus-de-fruits": {
+    variants: [
+      { name: "ACE (orange, carotte, citron)", priceOffset: 0 },
+      { name: "Pêche",                         priceOffset: 0 },
+      { name: "Myrtille sauvage",              priceOffset: 0 },
+      { name: "Poire Williams",                priceOffset: 0 },
+      { name: "Tomate",                        priceOffset: 0 },
+      { name: "Abricot",                       priceOffset: 0 },
+      { name: "Pomme",                         priceOffset: 0 },
+      { name: "Orange",                        priceOffset: 0 },
+    ],
+    supplements: [],
+  },
+ 
+  // ---------- THÉ GLACÉ ----------
+  "the-glace": {
+    variants: [
+      { name: "Pêche",  priceOffset: 0 },
+      { name: "Citron", priceOffset: 0 },
+    ],
+    supplements: [],
+  },
+ 
+  // ---------- BOISSONS CHAUDES ----------
+  "cappuccino": {
+    variants: [
+      { name: "Avec lactose",  priceOffset: 0 },
+      { name: "Sans lactose",  priceOffset: 0 },
+    ],
+    supplements: [],
+  },
+ 
+},
+"riz-riz": {
+ 
+  // ── ENTRÉES À PARTAGER ──────────────────────────────────────────
+ 
+  "plateau-aperitif": {
+    variants: [],
+    supplements: []
+  },
+ 
+  "guacamole-galettes-riz": {
+    variants: [],
+    supplements: []
+  },
+ 
+  "panier-de-nachos": {
+    variants: [],
+    supplements: []
+  },
+ 
+  "houmous-betteraves-galettes-riz": {
+    variants: [],
+    supplements: []
+  },
+ 
+  // ── ENTRÉES ─────────────────────────────────────────────────────
+ 
+  "chotpoti": {
+    variants: [],
+    supplements: []
+  },
+ 
+  "aubergine-au-four": {
+    // The restaurant explicitly lists two serving sizes / uses
+    variants: [
+      { name: "Entrée", priceOffset: 0 },          // 9 €
+      { name: "Servi façon Moussaka (plat)", priceOffset: 7.00 }  // 16 €
+    ],
+    supplements: []
+  },
+ 
+  "tabolue-de-riz": {
+    variants: [],
+    supplements: []
+  },
+ 
+  // ── PLATS ───────────────────────────────────────────────────────
+ 
+  "curry-du-dragon": {
+    variants: [],
+    supplements: []
+  },
+ 
+  "gaufre-de-patate-douce": {
+    variants: [],
+    supplements: []
+  },
+ 
+  "black-panther": {
+    variants: [],
+    supplements: []
+  },
+ 
+  "dhal-depinards": {
+    variants: [],
+    supplements: []
+  },
+ 
+  "mango-masala": {
+    variants: [],
+    supplements: []
+  },
+ 
+  // ── DESSERTS ────────────────────────────────────────────────────
+ 
+  "incroyable-chocolat": {
+    variants: [],
+    supplements: []
+  },
+ 
+  "mousse-chocolat-peanut-butter": {
+    variants: [],
+    supplements: []
+  },
+ 
+  "cheesecake-miroir-framboise": {
+    variants: [],
+    supplements: []
+  },
+ 
+  "cheesecake-matcha": {
+    variants: [],
+    supplements: []
+  },
+ 
+  "riz-riz-au-lait": {
+    variants: [],
+    supplements: []
+  },
+ 
+  "banana-bread": {
+    variants: [],
+    supplements: []
+  },
+ 
+  "mango-sticky-rice": {
+    variants: [],
+    supplements: []
+  },
+ 
+  // ── FORMULES ────────────────────────────────────────────────────
+ 
+  "rice-table": {
+    variants: [],
+    supplements: []
+  },
+ 
+  "full-table": {
+    // Dessert choice is open — no price offset, it's included
+    variants: [],
+    supplements: []
+  },
+ 
+  "brunch-table": {
+    variants: [],
+    supplements: []
+  },
+ 
+  "menu-midi-entree-plat": {
+    variants: [
+      { name: "Taboulé de Riz + Curry du Dragon", priceOffset: 0 },
+      { name: "Taboulé de Riz + Gaufre de Patate Douce", priceOffset: 0 },
+      { name: "Taboulé de Riz + Dhal d'Épinards", priceOffset: 0 },
+      { name: "Chotpoti + Curry du Dragon", priceOffset: 0 },
+      { name: "Chotpoti + Gaufre de Patate Douce", priceOffset: 0 },
+      { name: "Chotpoti + Dhal d'Épinards", priceOffset: 0 }
+    ],
+    supplements: []
+  },
+ 
+  "menu-midi-plat-dessert": {
+    variants: [
+      { name: "Curry du Dragon + Riz Riz au Lait", priceOffset: 0 },
+      { name: "Curry du Dragon + Banana Bread", priceOffset: 0 },
+      { name: "Gaufre de Patate Douce + Riz Riz au Lait", priceOffset: 0 },
+      { name: "Gaufre de Patate Douce + Banana Bread", priceOffset: 0 },
+      { name: "Dhal d'Épinards + Riz Riz au Lait", priceOffset: 0 },
+      { name: "Dhal d'Épinards + Banana Bread", priceOffset: 0 }
+    ],
+    supplements: DESSERT_UPGRADE_SUPPLEMENT
+  },
+ 
+  "menu-midi-entree-plat-dessert": {
+    variants: [
+      { name: "Taboulé de Riz + Curry du Dragon + Riz Riz au Lait", priceOffset: 0 },
+      { name: "Taboulé de Riz + Curry du Dragon + Banana Bread", priceOffset: 0 },
+      { name: "Taboulé de Riz + Gaufre de Patate Douce + Riz Riz au Lait", priceOffset: 0 },
+      { name: "Taboulé de Riz + Gaufre de Patate Douce + Banana Bread", priceOffset: 0 },
+      { name: "Taboulé de Riz + Dhal d'Épinards + Riz Riz au Lait", priceOffset: 0 },
+      { name: "Taboulé de Riz + Dhal d'Épinards + Banana Bread", priceOffset: 0 },
+      { name: "Chotpoti + Curry du Dragon + Riz Riz au Lait", priceOffset: 0 },
+      { name: "Chotpoti + Curry du Dragon + Banana Bread", priceOffset: 0 },
+      { name: "Chotpoti + Gaufre de Patate Douce + Riz Riz au Lait", priceOffset: 0 },
+      { name: "Chotpoti + Gaufre de Patate Douce + Banana Bread", priceOffset: 0 },
+      { name: "Chotpoti + Dhal d'Épinards + Riz Riz au Lait", priceOffset: 0 },
+      { name: "Chotpoti + Dhal d'Épinards + Banana Bread", priceOffset: 0 }
+    ],
+    supplements: DESSERT_UPGRADE_SUPPLEMENT
+  }
 }
 
 }
