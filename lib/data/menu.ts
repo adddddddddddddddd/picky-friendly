@@ -10503,3514 +10503,4103 @@ export const menuItems: Record<string, MenuItem[]> = {
     //   }
     // }
   ],
-  tasca:[
-  {
-    "id": "legumes-grilles",
-    "category": "antipasti",
-    "subcategory" : null,
-    "image": "/tasca-by-ciro/legumes-grilles.jpeg",
-    "price": 19.00,
-    "allergens": [],
-    "diets": ["vegetarien", "sans-gluten"],
-    "macros": { "calories": 280, "proteines": 5, "glucides": 18, "lipides": 22 },
-    "translations": {
-      "fr": {
-        "name": "Légumes grillés",
-        "description": "Courgettes, aubergines, poivrons, champignons et tomates grillés marinés à l'huile d'olive extra vierge, basilic. Bio. (Estimations macros)"
-      },
-      "en": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "it": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "es": {
-        "name": "TODO",
-        "description": "TODO"
-      }
-    }
-  },
-  {
-    "id": "mozzarella-de-bufflonne",
-    "category": "antipasti",
-    "subcategory" : null,
-    "image": "/tasca-by-ciro/mozzarella-de-bufflonne.jpeg",
-    "price": 18.00,
-    "allergens": ["lait"],
-    "diets": ["vegetarien", "sans-gluten"],
-    "macros": { "calories": 380, "proteines": 22, "glucides": 6, "lipides": 30 },
-    "translations": {
-      "fr": {
-        "name": "Mozzarella de bufflonne",
-        "description": "Mozzarella de bufflonne, tomates, câpres, olives. Bio. (Estimations macros)"
-            },
-      "en": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "it": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "es": {
-        "name": "TODO",
-        "description": "TODO"
-      }
-    }
-  },
-  {
-    "id": "burrata-et-legumes-grilles",
-    "category": "antipasti",
-    "subcategory" : null,
-    "image": "/tasca-by-ciro/burrata-et-legumes-grilles.jpeg",
-    "price": 20.00,
-    "allergens": ["lait"],
-    "diets": ["vegetarien", "sans-gluten"],
-    "macros": { "calories": 480, "proteines": 18, "glucides": 14, "lipides": 38 },
-    "translations": {
-      "fr": {
-        "name": "Burrata et légumes grillés",
-        "description": "Fromage italien au cœur crémeux, courgettes, aubergines, tomates, champignons, poivrons, huile d'olive extra vierge. Bio. (Estimations macros)"
-            },
-      "en": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "it": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "es": {
-        "name": "TODO",
-        "description": "TODO"
-      }
-    }
-  },
-  {
-    "id": "aubergines-a-la-parmigiana",
-    "category": "antipasti",
-    "subcategory" : null,
-    "image": "/tasca-by-ciro/aubergines-a-la-parmigiana.jpeg",
-    "price": 20.00,
-    "allergens": ["lait"],
-    "diets": ["vegetarien", "sans-gluten"],
-    "macros": { "calories": 450, "proteines": 18, "glucides": 22, "lipides": 32 },
-    "translations": {
-      "fr": {
-        "name": "Aubergines à la Parmigiana",
-        "description": "Millefeuille d'aubergines grillées, tomates, mozzarella, huile d'olive extra vierge, basilic, origan. Bio. (Estimations macros)"
-            },
-      "en": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "it": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "es": {
-        "name": "TODO",
-        "description": "TODO"
-      }
-    }
-  },
-  {
-    "id": "salade-de-coeurs-d-artichauts",
-    "category": "antipasti",
-    "subcategory" : null,
-    "image": "/tasca-by-ciro/salade-de-coeurs-d-artichauts.jpeg",
-    "price": 21.00,
-    "allergens": ["lait"],
-    "diets": ["vegetarien", "sans-gluten"],
-    "macros": { "calories": 320, "proteines": 10, "glucides": 14, "lipides": 26 },
-    "translations": {
-      "fr": {
-        "name": "Salade de cœurs d'artichauts",
-        "description": "Julienne de cœurs d'artichauts, roquette, huile d'olive extra vierge, copeaux de parmesan affiné. Bio. (Estimations macros)"
-            },
-      "en": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "it": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "es": {
-        "name": "TODO",
-        "description": "TODO"
-      }
-    }
-  },
-  {
-    "id": "vitello-tonnato",
-    "category": "antipasti",
-    "subcategory" : null,
-    "image": "/tasca-by-ciro/vitello-tonnato.jpeg",
-    "price": 22.00,
-    "allergens": ["poissons", "oeufs"],
-    "diets": ["sans-gluten", "sans-lactose"],
-    "macros": { "calories": 420, "proteines": 32, "glucides": 4, "lipides": 30 },
-    "translations": {
-      "fr": {
-        "name": "Vitello tonnato",
-        "description": "Carpaccio de veau mi-cuit sauce au thon, anchois et câpres. Bio. (Estimations macros)"
-            },
-      "en": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "it": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "es": {
-        "name": "TODO",
-        "description": "TODO"
-      }
-    }
-  },
-  {
-    "id": "carpaccio-de-saumon-bio",
-    "category": "antipasti",
-    "subcategory" : null,
-    "image": "/tasca-by-ciro/carpaccio-de-saumon-bio.jpeg",
-    "price": 23.00,
-    "allergens": ["poissons"],
-    "diets": ["sans-gluten", "sans-lactose"],
-    "macros": { "calories": 280, "proteines": 26, "glucides": 1, "lipides": 19 },
-    "translations": {
-      "fr": {
-        "name": "Carpaccio de saumon bio",
-        "description": "Filet de saumon bio mariné au citron et à l'aneth. Bio. (Estimations macros)"
-            },
-      "en": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "it": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "es": {
-        "name": "TODO",
-        "description": "TODO"
-      }
-    }
-  },
-  {
-    "id": "carpaccio-de-filet-de-bar",
-    "category": "antipasti",
-    "subcategory" : null,
-    "image": "/tasca-by-ciro/carpaccio-de-filet-de-bar.jpeg",
-    "price": 24.00,
-    "allergens": ["poissons"],
-    "diets": ["sans-gluten", "sans-lactose"],
-    "macros": { "calories": 260, "proteines": 28, "glucides": 1, "lipides": 16 },
-    "translations": {
-      "fr": {
-        "name": "Carpaccio de filet de bar à l'huile d'olive et poivre rose",
-        "description": "Filet de bar cru tranché fin, huile d'olive extra vierge, poivre rose. Bio. (Estimations macros)"
-            },
-      "en": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "it": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "es": {
-        "name": "TODO",
-        "description": "TODO"
-      }
-    }
-  },
-  {
-    "id": "planche-de-l-amitie",
-    "category": "antipasti",
-    "subcategory" : null,
-    "image": "/tasca-by-ciro/planche-de-l-amitie.jpeg",
-    "price": 19.00,
-    "allergens": ["lait"],
-    "diets": ["sans-gluten"],
-    "macros": { "calories": 520, "proteines": 28, "glucides": 12, "lipides": 40 },
-    "translations": {
-      "fr": {
-        "name": "Planche de l'amitié",
-        "description": "Charcuterie artisanale italienne, légumes grillés, mozzarella, artichauts et parmesan. Existe pour 1 ou 2 personnes. Bio. (Estimations macros, base 1 personne)"
-            },
-      "en": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "it": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "es": {
-        "name": "TODO",
-        "description": "TODO"
-      }
-    }
-  },
-  {
-    "id": "focaccia-aux-legumes",
-    "category": "focaccia",
-    "subcategory" : null,
-    "image": "/tasca-by-ciro/focaccia-aux-legumes.jpeg",
-    "price": 21.00,
-    "allergens": [],
-    "diets": ["vegetarien", "sans-gluten"],
-    "macros": { "calories": 520, "proteines": 12, "glucides": 70, "lipides": 22 },
-    "translations": {
-      "fr": {
-        "name": "Focaccia aux légumes, fleur de sel et romarin",
-        "description": "Courgettes, aubergines, tomates, poivrons, champignons grillés, basilic et huile d'olive extra vierge. Maison, bio et sans gluten. (Estimations macros)"
-            },
-      "en": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "it": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "es": {
-        "name": "TODO",
-        "description": "TODO"
-      }
-    }
-  },
-  {
-    "id": "focaccia-aux-quatre-fromages",
-    "category": "focaccia",
-    "subcategory" : null,
-    "image": "/tasca-by-ciro/focaccia-aux-quatre-fromages.jpeg",
-    "price": 21.00,
-    "allergens": ["lait"],
-    "diets": ["vegetarien", "sans-gluten"],
-    "macros": { "calories": 720, "proteines": 32, "glucides": 60, "lipides": 40 },
-    "translations": {
-      "fr": {
-        "name": "Focaccia aux quatre fromages",
-        "description": "Mozzarella fior di latte, gorgonzola, taleggio, parmesan. Maison, bio et sans gluten. (Estimations macros)"
-            },
-      "en": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "it": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "es": {
-        "name": "TODO",
-        "description": "TODO"
-      }
-    }
-  },
-  {
-    "id": "focaccia-au-jambon-et-fromages",
-    "category": "focaccia",
-    "subcategory" : null,
-    "image": "/tasca-by-ciro/focaccia-au-jambon-et-fromages.jpeg",
-    "price": 23.00,
-    "allergens": ["lait"],
-    "diets": ["sans-gluten"],
-    "macros": { "calories": 700, "proteines": 34, "glucides": 60, "lipides": 36 },
-    "translations": {
-      "fr": {
-        "name": "Focaccia au jambon et fromages",
-        "description": "Mozzarella fior di latte, jambon blanc. Maison, bio et sans gluten. (Estimations macros)"
-            },
-      "en": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "it": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "es": {
-        "name": "TODO",
-        "description": "TODO"
-      }
-    }
-  },
-  {
-    "id": "fusilli-vegetarienne",
-    "category": "pates-classiques",
-    "subcategory" : null,
-    "image": "/tasca-by-ciro/fusilli-vegetarienne.jpeg",
-    "price": 22.00,
-    "allergens": [],
-    "diets": ["vegetarien", "sans-gluten", "sans-lactose"],
-    "macros": { "calories": 520, "proteines": 14, "glucides": 80, "lipides": 14 },
-    "translations": {
-      "fr": {
-        "name": "Fusilli végétarienne",
-        "description": "Courgettes, champignons, carottes, aubergines, basilic. Bio et sans gluten. (Estimations macros)"
-            },
-      "en": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "it": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "es": {
-        "name": "TODO",
-        "description": "TODO"
-      }
-    }
-  },
-  {
-    "id": "penne-a-la-norma",
-    "category": "pates-classiques",
-    "subcategory" : null,
-    "image": "/tasca-by-ciro/penne-a-la-norma.jpeg",
-    "price": 23.00,
-    "allergens": ["lait"],
-    "diets": ["vegetarien", "sans-gluten"],
-    "macros": { "calories": 620, "proteines": 22, "glucides": 82, "lipides": 22 },
-    "translations": {
-      "fr": {
-        "name": "Penne à la Norma",
-        "description": "Sauce tomate maison mijotée à l'ancienne, aubergines, mozzarella, origan, basilic. Bio et sans gluten. (Estimations macros)"
-            },
-      "en": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "it": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "es": {
-        "name": "TODO",
-        "description": "TODO"
-      }
-    }
-  },
-  {
-    "id": "penne-a-l-arrabbiata",
-    "category": "pates-classiques",
-    "subcategory" : null,
-    "image": "/tasca-by-ciro/penne-a-l-arrabbiata.jpeg",
-    "price": 22.00,
-    "allergens": [],
-    "diets": ["vegetarien", "sans-gluten", "sans-lactose"],
-    "macros": { "calories": 500, "proteines": 12, "glucides": 84, "lipides": 12 },
-    "translations": {
-      "fr": {
-        "name": "Penne à l'arrabbiata",
-        "description": "Sauce tomate maison mijotée à l'ail et au persil. Bio et sans gluten. (Estimations macros)"
-            },
-      "en": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "it": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "es": {
-        "name": "TODO",
-        "description": "TODO"
-      }
-    }
-  },
-  {
-    "id": "spaghetti-a-la-carbonara",
-    "category": "pates-classiques",
-    "subcategory" : null,
-    "image": "/tasca-by-ciro/spaghetti-a-la-carbonara.jpeg",
-    "price": 24.00,
-    "allergens": ["oeufs", "lait"],
-    "diets": ["sans-gluten"],
-    "macros": { "calories": 720, "proteines": 28, "glucides": 78, "lipides": 32 },
-    "translations": {
-      "fr": {
-        "name": "Spaghetti à la Carbonara (l'Originale)",
-        "description": "Joue de porc romain caramélisée avec œuf, pecorino, poivre noir. Bio et sans gluten. (Estimations macros)"
-            },
-      "en": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "it": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "es": {
-        "name": "TODO",
-        "description": "TODO"
-      }
-    }
-  },
-  {
-    "id": "spaghetti-aux-palourdes",
-    "category": "pates-classiques",
-    "subcategory" : null,
-    "image": "/tasca-by-ciro/spaghetti-aux-palourdes.jpeg",
-    "price": 27.00,
-    "allergens": ["mollusques"],
-    "diets": ["sans-gluten", "sans-lactose"],
-    "macros": { "calories": 580, "proteines": 24, "glucides": 80, "lipides": 16 },
-    "translations": {
-      "fr": {
-        "name": "Spaghetti aux palourdes",
-        "description": "Palourdes, tomates, persil, huile d'olive extra vierge. Bio et sans gluten. (Estimations macros)"
-            },
-      "en": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "it": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "es": {
-        "name": "TODO",
-        "description": "TODO"
-      }
-    }
-  },
-  {
-    "id": "spaghetti-a-la-boutargue",
-    "category": "pates-classiques",
-    "subcategory" : null,
-    "image": "/tasca-by-ciro/spaghetti-a-la-boutargue.jpeg",
-    "price": 29.00,
-    "allergens": ["poissons"],
-    "diets": ["sans-gluten", "sans-lactose"],
-    "macros": { "calories": 620, "proteines": 22, "glucides": 78, "lipides": 22 },
-    "translations": {
-      "fr": {
-        "name": "Spaghetti à la boutargue",
-        "description": "Boutargue (œufs de mulet) et sauce. Bio et sans gluten. (Estimations macros)"
-            },
-      "en": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "it": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "es": {
-        "name": "TODO",
-        "description": "TODO"
-      }
-    }
-  },
-  {
-    "id": "fettuccine-aux-cepes",
-    "category": "pates-fraiches",
-    "subcategory" : null,
-    "image": "/tasca-by-ciro/fettuccine-aux-cepes.jpeg",
-    "price": 24.00,
-    "allergens": [],
-    "diets": ["vegetarien", "sans-gluten", "sans-lactose"],
-    "macros": { "calories": 560, "proteines": 14, "glucides": 78, "lipides": 18 },
-    "translations": {
-      "fr": {
-        "name": "Fettuccine rustiche aux cèpes",
-        "description": "Poêlée de cèpes au romarin. Pâtes fraîches maison bio et sans gluten. (Estimations macros)"
-            },
-      "en": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "it": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "es": {
-        "name": "TODO",
-        "description": "TODO"
-      }
-    }
-  },
-  {
-    "id": "fettuccine-a-la-bolognaise",
-    "category": "pates-fraiches",
-    "subcategory" : null,
-    "image": "/tasca-by-ciro/fettuccine-a-la-bolognaise.jpeg",
-    "price": 22.00,
-    "allergens": [],
-    "diets": ["sans-gluten", "sans-lactose"],
-    "macros": { "calories": 640, "proteines": 30, "glucides": 78, "lipides": 22 },
-    "translations": {
-      "fr": {
-        "name": "Fettuccine rustiche à la bolognaise",
-        "description": "Sauce bolognaise maison (bœuf 100% français). Pâtes fraîches maison bio et sans gluten. (Estimations macros)"
-            },
-      "en": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "it": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "es": {
-        "name": "TODO",
-        "description": "TODO"
-      }
-    }
-  },
-  {
-    "id": "fettuccine-tomate-et-basilic",
-    "category": "pates-fraiches",
-    "subcategory" : null,
-    "image": "/tasca-by-ciro/fettuccine-tomate-et-basilic.jpeg",
-    "price": 21.00,
-    "allergens": [],
-    "diets": ["vegetarien", "sans-gluten", "sans-lactose"],
-    "macros": { "calories": 480, "proteines": 12, "glucides": 84, "lipides": 10 },
-    "translations": {
-      "fr": {
-        "name": "Fettuccine rustiche tomate et basilic",
-        "description": "Sauce tomate mijotée à l'ancienne. Pâtes fraîches maison bio et sans gluten. (Estimations macros)"
-            },
-      "en": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "it": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "es": {
-        "name": "TODO",
-        "description": "TODO"
-      }
-    }
-  },
-  {
-    "id": "fettuccine-a-la-carbonara",
-    "category": "pates-fraiches",
-    "subcategory" : null,
-    "image": "/tasca-by-ciro/fettuccine-a-la-carbonara.jpeg",
-    "price": 23.00,
-    "allergens": ["oeufs", "lait"],
-    "diets": ["sans-gluten"],
-    "macros": { "calories": 720, "proteines": 28, "glucides": 76, "lipides": 32 },
-    "translations": {
-      "fr": {
-        "name": "Fettuccine rustiche à la carbonara",
-        "description": "Joue de porc romain caramélisée, œuf, pecorino et poivre noir. Pâtes fraîches maison bio et sans gluten. (Estimations macros)"
-            },
-      "en": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "it": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "es": {
-        "name": "TODO",
-        "description": "TODO"
-      }
-    }
-  },
-  {
-    "id": "fettuccine-aux-fruits-de-mer",
-    "category": "pates-fraiches",
-    "subcategory" : null,
-    "image": "/tasca-by-ciro/fettuccine-aux-fruits-de-mer.jpeg",
-    "price": 30.00,
-    "allergens": ["mollusques", "poissons"],
-    "diets": ["sans-gluten", "sans-lactose"],
-    "macros": { "calories": 660, "proteines": 28, "glucides": 78, "lipides": 22 },
-    "translations": {
-      "fr": {
-        "name": "Fettuccine rustiche aux fruits de mer",
-        "description": "Palourdes, saumon et boutargue (œufs de mulet). Pâtes fraîches maison bio et sans gluten. (Estimations macros)"
-            },
-      "en": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "it": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "es": {
-        "name": "TODO",
-        "description": "TODO"
-      }
-    }
-  },
-  {
-    "id": "tortelli-ricotta-epinards",
-    "category": "tortelli-ravioli",
-    "subcategory" : null,
-    "image": "/tasca-by-ciro/tortelli-ricotta-epinards.jpeg",
-    "price": 22.00,
-    "allergens": ["lait", "oeufs"],
-    "diets": ["vegetarien", "sans-gluten"],
-    "macros": { "calories": 540, "proteines": 22, "glucides": 60, "lipides": 22 },
-    "translations": {
-      "fr": {
-        "name": "Tortelli à la ricotta et aux épinards",
-        "description": "Farcis à la ricotta et aux épinards, sauce citron, sauge et parmesan. Pâtes fraîches maison bio et sans gluten. (Estimations macros)"
-            },
-      "en": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "it": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "es": {
-        "name": "TODO",
-        "description": "TODO"
-      }
-    }
-  },
-  {
-    "id": "tortelli-aux-quatre-fromages",
-    "category": "tortelli-ravioli",
-    "subcategory" : null,
-    "image": "/tasca-by-ciro/tortelli-aux-quatre-fromages.jpeg",
-    "price": 24.00,
-    "allergens": ["lait", "oeufs"],
-    "diets": ["vegetarien", "sans-gluten"],
-    "macros": { "calories": 680, "proteines": 28, "glucides": 58, "lipides": 36 },
-    "translations": {
-      "fr": {
-        "name": "Tortelli aux quatre fromages",
-        "description": "Sauce gorgonzola, ricotta, taleggio, copeaux de parmesan. Pâtes fraîches maison bio et sans gluten. (Estimations macros)"
-            },
-      "en": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "it": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "es": {
-        "name": "TODO",
-        "description": "TODO"
-      }
-    }
-  },
-  {
-    "id": "ravioli-au-potiron",
-    "category": "tortelli-ravioli",
-    "subcategory" : null,
-    "image": "/tasca-by-ciro/ravioli-au-potiron.jpeg",
-    "price": 23.00,
-    "allergens": ["oeufs"],
-    "diets": ["vegetarien", "sans-gluten"],
-    "macros": { "calories": 500, "proteines": 14, "glucides": 78, "lipides": 14 },
-    "translations": {
-      "fr": {
-        "name": "Ravioli au potiron",
-        "description": "Ravioli farcis au potiron. Pâtes fraîches maison bio et sans gluten. (Estimations macros)"
-            },
-      "en": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "it": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "es": {
-        "name": "TODO",
-        "description": "TODO"
-      }
-    }
-  },
-  {
-    "id": "ravioli-au-boeuf",
-    "category": "tortelli-ravioli",
-    "subcategory" : null,
-    "image": "/tasca-by-ciro/ravioli-au-boeuf.jpeg",
-    "price": 24.00,
-    "allergens": ["oeufs"],
-    "diets": ["sans-gluten", "sans-lactose"],
-    "macros": { "calories": 580, "proteines": 28, "glucides": 70, "lipides": 18 },
-    "translations": {
-      "fr": {
-        "name": "Ravioli au bœuf",
-        "description": "Ravioli farcis au bœuf (viande de bœuf 100% française). Pâtes fraîches maison bio et sans gluten. (Estimations macros)"
-            },
-      "en": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "it": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "es": {
-        "name": "TODO",
-        "description": "TODO"
-      }
-    }
-  },
-  {
-    "id": "ravioli-au-jambon-de-parme",
-    "category": "tortelli-ravioli",
-    "subcategory" : null,
-    "image": "/tasca-by-ciro/ravioli-au-jambon-de-parme.jpeg",
-    "price": 23.00,
-    "allergens": ["oeufs", "lait"],
-    "diets": ["sans-gluten"],
-    "macros": { "calories": 560, "proteines": 26, "glucides": 70, "lipides": 18 },
-    "translations": {
-      "fr": {
-        "name": "Ravioli au jambon de Parme",
-        "description": "Ravioli farcis au jambon de Parme affiné et parmesan. Pâtes fraîches maison bio et sans gluten. (Estimations macros)"
-            },
-      "en": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "it": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "es": {
-        "name": "TODO",
-        "description": "TODO"
-      }
-    }
-  },
-  {
-    "id": "ravioli-creme-truffe-cepes",
-    "category": "tortelli-ravioli",
-    "subcategory" : null,
-    "image": "/tasca-by-ciro/ravioli-creme-truffe-cepes.jpeg",
-    "price": 28.00,
-    "allergens": ["oeufs", "lait"],
-    "diets": ["vegetarien", "sans-gluten"],
-    "macros": { "calories": 660, "proteines": 18, "glucides": 70, "lipides": 32 },
-    "translations": {
-      "fr": {
-        "name": "Ravioli à la crème de truffes noires et cèpes",
-        "description": "Ravioli sauce crème de truffes noires et cèpes. Pâtes fraîches maison bio et sans gluten. (Estimations macros)"
-            },
-      "en": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "it": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "es": {
-        "name": "TODO",
-        "description": "TODO"
-      }
-    }
-  },
-  {
-    "id": "lasagnes-a-la-bolognaise",
-    "category": "gratins",
-    "subcategory" : null,
-    "image": "/tasca-by-ciro/lasagnes-a-la-bolognaise.jpeg",
-    "price": 24.00,
-    "allergens": ["lait"],
-    "diets": ["sans-gluten"],
-    "macros": { "calories": 720, "proteines": 36, "glucides": 60, "lipides": 36 },
-    "translations": {
-      "fr": {
-        "name": "Lasagnes à la bolognaise",
-        "description": "Viande de bœuf 100% française, sauce tomate maison et parmesan. Bio et sans gluten. (Estimations macros)"
-            },
-      "en": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "it": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "es": {
-        "name": "TODO",
-        "description": "TODO"
-      }
-    }
-  },
-  {
-    "id": "lasagnes-a-la-vegetarienne",
-    "category": "gratins",
-    "subcategory" : null,
-    "image": "/tasca-by-ciro/lasagnes-a-la-vegetarienne.jpeg",
-    "price": 23.00,
-    "allergens": ["lait"],
-    "diets": ["vegetarien", "sans-gluten"],
-    "macros": { "calories": 580, "proteines": 22, "glucides": 60, "lipides": 28 },
-    "translations": {
-      "fr": {
-        "name": "Lasagnes à la végétarienne",
-        "description": "Courgettes, champignons, aubergines, artichauts, poivrons, basilic. Bio et sans gluten. (Estimations macros)"
-            },
-      "en": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "it": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "es": {
-        "name": "TODO",
-        "description": "TODO"
-      }
-    }
-  },
-  {
-    "id": "cannelloni",
-    "category": "gratins",
-    "subcategory" : null,
-    "image": "/tasca-by-ciro/cannelloni.jpeg",
-    "price": 22.00,
-    "allergens": ["lait"],
-    "diets": ["vegetarien", "sans-gluten"],
-    "macros": { "calories": 600, "proteines": 26, "glucides": 58, "lipides": 28 },
-    "translations": {
-      "fr": {
-        "name": "Cannelloni",
-        "description": "Ricotta, épinards, parmesan et noix de muscade. Bio et sans gluten. (Estimations macros)"
-            },
-      "en": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "it": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "es": {
-        "name": "TODO",
-        "description": "TODO"
-      }
-    }
-  },
-  {
-    "id": "gnocchis-tomate-basilic",
-    "category": "gnocchis",
-    "subcategory" : null,
-    "image": "/tasca-by-ciro/gnocchis-tomate-basilic.jpeg",
-    "price": 23.00,
-    "allergens": [],
-    "diets": ["vegetarien", "sans-gluten", "sans-lactose"],
-    "macros": { "calories": 500, "proteines": 10, "glucides": 90, "lipides": 10 },
-    "translations": {
-      "fr": {
-        "name": "Gnocchis à la sauce tomate et basilic",
-        "description": "Gnocchis de pommes de terre, sauce tomate maison et basilic. Bio et sans gluten. (Estimations macros)"
-            },
-      "en": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "it": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "es": {
-        "name": "TODO",
-        "description": "TODO"
-      }
-    }
-  },
-  {
-    "id": "gnocchis-jambon-sauge-parmesan",
-    "category": "gnocchis",
-    "subcategory" : null,
-    "image": "/tasca-by-ciro/gnocchis-jambon-sauge-parmesan.jpeg",
-    "price": 24.00,
-    "allergens": ["lait"],
-    "diets": ["sans-gluten"],
-    "macros": { "calories": 620, "proteines": 24, "glucides": 80, "lipides": 22 },
-    "translations": {
-      "fr": {
-        "name": "Gnocchis au jambon, sauge et parmesan",
-        "description": "Gnocchis de pommes de terre, jambon, sauge et parmesan. Bio et sans gluten. (Estimations macros)"
-            },
-      "en": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "it": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "es": {
-        "name": "TODO",
-        "description": "TODO"
-      }
-    }
-  },
-  {
-    "id": "gnocchis-creme-truffe-noire",
-    "category": "gnocchis",
-    "subcategory" : null,
-    "image": "/tasca-by-ciro/gnocchis-creme-truffe-noire.jpeg",
-    "price": 29.00,
-    "allergens": ["lait"],
-    "diets": ["vegetarien", "sans-gluten"],
-    "macros": { "calories": 640, "proteines": 12, "glucides": 80, "lipides": 30 },
-    "translations": {
-      "fr": {
-        "name": "Gnocchis à la crème de truffes noires",
-        "description": "Gnocchis de pommes de terre, crème de truffes noires. Bio et sans gluten. (Estimations macros)"
-            },
-      "en": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "it": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "es": {
-        "name": "TODO",
-        "description": "TODO"
-      }
-    }
-  },
-  {
-    "id": "gnocchis-quatre-fromages",
-    "category": "gnocchis",
-    "subcategory" : null,
-    "image": "/tasca-by-ciro/gnocchis-quatre-fromages.jpeg",
-    "price": 25.00,
-    "allergens": ["lait"],
-    "diets": ["vegetarien", "sans-gluten"],
-    "macros": { "calories": 720, "proteines": 28, "glucides": 78, "lipides": 36 },
-    "translations": {
-      "fr": {
-        "name": "Gnocchis aux 4 fromages",
-        "description": "Gnocchis de pommes de terre aux quatre fromages. Bio et sans gluten. (Estimations macros)"
-            },
-      "en": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "it": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "es": {
-        "name": "TODO",
-        "description": "TODO"
-      }
-    }
-  },
-  {
-    "id": "gnocchis-creme-truffe-cepes",
-    "category": "gnocchis",
-    "subcategory" : null,
-    "image": "/tasca-by-ciro/gnocchis-creme-truffe-cepes.jpeg",
-    "price": 29.00,
-    "allergens": ["lait"],
-    "diets": ["vegetarien", "sans-gluten"],
-    "macros": { "calories": 680, "proteines": 14, "glucides": 80, "lipides": 32 },
-    "translations": {
-      "fr": {
-        "name": "Gnocchis à la crème de truffes noires et cèpes",
-        "description": "Gnocchis de pommes de terre, crème de truffes noires et cèpes. Bio et sans gluten. (Estimations macros)"
-            },
-      "en": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "it": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "es": {
-        "name": "TODO",
-        "description": "TODO"
-      }
-    }
-  },
-  {
-    "id": "gnocchis-bolognaise",
-    "category": "gnocchis",
-    "subcategory" : null,
-    "image": "/tasca-by-ciro/gnocchis-bolognaise.jpeg",
-    "price": 26.00,
-    "allergens": [],
-    "diets": ["sans-gluten", "sans-lactose"],
-    "macros": { "calories": 640, "proteines": 26, "glucides": 80, "lipides": 22 },
-    "translations": {
-      "fr": {
-        "name": "Gnocchis à la bolognaise",
-        "description": "Gnocchis de pommes de terre, sauce bolognaise. Bio et sans gluten. (Estimations macros)"
-            },
-      "en": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "it": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "es": {
-        "name": "TODO",
-        "description": "TODO"
-      }
-    }
-  },
-  {
-    "id": "gnocchis-vegetarien",
-    "category": "gnocchis",
-    "subcategory" : null,
-    "image": "/tasca-by-ciro/gnocchis-vegetarien.jpeg",
-    "price": 27.00,
-    "allergens": [],
-    "diets": ["vegetarien", "sans-gluten", "sans-lactose"],
-    "macros": { "calories": 520, "proteines": 12, "glucides": 88, "lipides": 12 },
-    "translations": {
-      "fr": {
-        "name": "Gnocchis végétarien",
-        "description": "Gnocchis de pommes de terre avec des petits légumes. Bio et sans gluten. (Estimations macros)"
-            },
-      "en": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "it": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "es": {
-        "name": "TODO",
-        "description": "TODO"
-      }
-    }
-  },
-  {
-    "id": "risotto-romarin-citron-scamorza",
-    "category": "risottos",
-    "subcategory" : null,
-    "image": "/tasca-by-ciro/risotto-romarin-citron-scamorza.jpeg",
-    "price": 27.00,
-    "allergens": ["lait"],
-    "diets": ["vegetarien", "sans-gluten"],
-    "macros": { "calories": 620, "proteines": 18, "glucides": 80, "lipides": 24 },
-    "translations": {
-      "fr": {
-        "name": "Risotto au romarin, citron et scamorza fumée",
-        "description": "Risotto arborio émulsionné, romarin, citron et scamorza fumée. Bio et sans gluten. (Estimations macros)"
-            },
-      "en": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "it": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "es": {
-        "name": "TODO",
-        "description": "TODO"
-      }
-    }
-  },
-  {
-    "id": "risotto-vegetarien",
-    "category": "risottos",
-    "subcategory" : null,
-    "image": "/tasca-by-ciro/risotto-vegetarien.jpeg",
-    "price": 28.00,
-    "allergens": ["lait"],
-    "diets": ["vegetarien", "sans-gluten"],
-    "macros": { "calories": 580, "proteines": 16, "glucides": 84, "lipides": 18 },
-    "translations": {
-      "fr": {
-        "name": "Risotto végétarien",
-        "description": "Risotto arborio émulsionné au parmesan, courgettes, aubergines, artichauts, tomates, carottes. Bio et sans gluten. (Estimations macros)"
-            },
-      "en": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "it": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "es": {
-        "name": "TODO",
-        "description": "TODO"
-      }
-    }
-  },
-  {
-    "id": "risotto-creme-truffe-cepes",
-    "category": "risottos",
-    "subcategory" : null,
-    "image": "/tasca-by-ciro/risotto-creme-truffe-cepes.jpeg",
-    "price": 31.00,
-    "allergens": ["lait"],
-    "diets": ["vegetarien", "sans-gluten"],
-    "macros": { "calories": 700, "proteines": 18, "glucides": 80, "lipides": 32 },
-    "translations": {
-      "fr": {
-        "name": "Risotto à la crème de truffe noire et cèpes",
-        "description": "Risotto arborio à la crème de truffe noire et cèpes. Bio et sans gluten. (Estimations macros)"
-            },
-      "en": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "it": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "es": {
-        "name": "TODO",
-        "description": "TODO"
-      }
-    }
-  },
-  {
-    "id": "risotto-gambas-courgettes",
-    "category": "risottos",
-    "subcategory" : null,
-    "image": "/tasca-by-ciro/risotto-gambas-courgettes.jpeg",
-    "price": 30.00,
-    "allergens": ["crustaces", "lait"],
-    "diets": ["sans-gluten"],
-    "macros": { "calories": 640, "proteines": 28, "glucides": 80, "lipides": 22 },
-    "translations": {
-      "fr": {
-        "name": "Risotto aux gambas et courgettes",
-        "description": "Risotto arborio émulsionné au parmesan, gambas et courgettes. Bio et sans gluten. (Estimations macros)"
-            },
-      "en": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "it": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "es": {
-        "name": "TODO",
-        "description": "TODO"
-      }
-    }
-  },
-  {
-    "id": "pizza-margherita",
-    "category": "pizzas-classiques",
-    "subcategory" : null,
-    "image": "/tasca-by-ciro/pizza-margherita.jpeg",
-    "price": 17.00,
-    "allergens": ["lait"],
-    "diets": ["vegetarien", "sans-gluten"],
-    "macros": { "calories": 720, "proteines": 28, "glucides": 90, "lipides": 26 },
-    "translations": {
-      "fr": {
-        "name": "Pizza Margherita",
-        "description": "Sauce tomate maison, mozzarella fior di latte, origan, basilic. Pâte bio et sans gluten. (Estimations macros)"
-            },
-      "en": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "it": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "es": {
-        "name": "TODO",
-        "description": "TODO"
-      }
-    }
-  },
-  {
-    "id": "pizza-napolitaine",
-    "category": "pizzas-classiques",
-    "subcategory" : null,
-    "image": "/tasca-by-ciro/pizza-napolitaine.jpeg",
-    "price": 18.00,
-    "allergens": ["lait", "poissons"],
-    "diets": ["sans-gluten"],
-    "macros": { "calories": 740, "proteines": 30, "glucides": 88, "lipides": 28 },
-    "translations": {
-      "fr": {
-        "name": "Pizza Napolitaine",
-        "description": "Sauce tomate maison, mozzarella fior di latte, anchois, câpres, olives rivera. Pâte bio et sans gluten. (Estimations macros)"
-            },
-      "en": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "it": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "es": {
-        "name": "TODO",
-        "description": "TODO"
-      }
-    }
-  },
-  {
-    "id": "pizza-vegetarienne",
-    "category": "pizzas-classiques",
-    "subcategory" : null,
-    "image": "/tasca-by-ciro/pizza-vegetarienne.jpeg",
-    "price": 19.00,
-    "allergens": ["lait"],
-    "diets": ["vegetarien", "sans-gluten"],
-    "macros": { "calories": 760, "proteines": 28, "glucides": 96, "lipides": 28 },
-    "translations": {
-      "fr": {
-        "name": "Pizza Végétarienne",
-        "description": "Sauce tomate maison, mozzarella fior di latte, champignons, poivrons, courgettes, aubergines. Pâte bio et sans gluten. (Estimations macros)"
-            },
-      "en": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "it": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "es": {
-        "name": "TODO",
-        "description": "TODO"
-      }
-    }
-  },
-  {
-    "id": "pizza-tasca",
-    "category": "pizzas-classiques",
-    "subcategory" : null,
-    "image": "/tasca-by-ciro/pizza-tasca.jpeg",
-    "price": 19.00,
-    "allergens": ["lait"],
-    "diets": ["vegetarien", "sans-gluten"],
-    "macros": { "calories": 780, "proteines": 32, "glucides": 88, "lipides": 32 },
-    "translations": {
-      "fr": {
-        "name": "Pizza Tasca",
-        "description": "Sauce tomate maison, mozzarella de bufflonne, roquette, parmesan. Pâte bio et sans gluten. (Estimations macros)"
-            },
-      "en": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "it": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "es": {
-        "name": "TODO",
-        "description": "TODO"
-      }
-    }
-  },
-  {
-    "id": "pizza-regina",
-    "category": "pizzas-classiques",
-    "subcategory" : null,
-    "image": "/tasca-by-ciro/pizza-regina.jpeg",
-    "price": 20.00,
-    "allergens": ["lait"],
-    "diets": ["sans-gluten"],
-    "macros": { "calories": 800, "proteines": 36, "glucides": 90, "lipides": 30 },
-    "translations": {
-      "fr": {
-        "name": "Pizza Regina",
-        "description": "Sauce tomate maison, mozzarella fior di latte, jambon blanc, champignons, origan. Pâte bio et sans gluten. (Estimations macros)"
-            },
-      "en": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "it": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "es": {
-        "name": "TODO",
-        "description": "TODO"
-      }
-    }
-  },
-  {
-    "id": "pizza-quatre-fromages",
-    "category": "pizzas-classiques",
-    "subcategory" : null,
-    "image": "/tasca-by-ciro/pizza-quatre-fromages.jpeg",
-    "price": 20.00,
-    "allergens": ["lait"],
-    "diets": ["vegetarien", "sans-gluten"],
-    "macros": { "calories": 900, "proteines": 38, "glucides": 88, "lipides": 42 },
-    "translations": {
-      "fr": {
-        "name": "Pizza Quatre Fromages",
-        "description": "Sauce tomate maison, mozzarella fior di latte, gorgonzola, taleggio, parmesan. Pâte bio et sans gluten. (Estimations macros)"
-            },
-      "en": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "it": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "es": {
-        "name": "TODO",
-        "description": "TODO"
-      }
-    }
-  },
-  {
-    "id": "pizza-quatre-saisons",
-    "category": "pizzas-classiques",
-    "subcategory" : null,
-    "image": "/tasca-by-ciro/pizza-quatre-saisons.jpeg",
-    "price": 20.00,
-    "allergens": ["lait"],
-    "diets": ["sans-gluten"],
-    "macros": { "calories": 820, "proteines": 34, "glucides": 92, "lipides": 30 },
-    "translations": {
-      "fr": {
-        "name": "Pizza Quatre Saisons",
-        "description": "Sauce tomate maison, mozzarella fior di latte, artichauts, jambon blanc, champignons, olives. Pâte bio et sans gluten. (Estimations macros)"
-            },
-      "en": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "it": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "es": {
-        "name": "TODO",
-        "description": "TODO"
-      }
-    }
-  },
-  {
-    "id": "pizza-parme",
-    "category": "pizzas-classiques",
-    "subcategory" : null,
-    "image": "/tasca-by-ciro/pizza-parme.jpeg",
-    "price": 22.00,
-    "allergens": ["lait"],
-    "diets": ["sans-gluten"],
-    "macros": { "calories": 820, "proteines": 38, "glucides": 88, "lipides": 32 },
-    "translations": {
-      "fr": {
-        "name": "Pizza Parme",
-        "description": "Sauce tomate maison, mozzarella fior di latte, jambon de Parme affiné, roquette, copeaux de parmesan. Pâte bio et sans gluten. (Estimations macros)"
-            },
-      "en": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "it": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "es": {
-        "name": "TODO",
-        "description": "TODO"
-      }
-    }
-  },
-  {
-    "id": "pizza-saumon",
-    "category": "pizzas-classiques",
-    "subcategory" : null,
-    "image": "/tasca-by-ciro/pizza-saumon.jpeg",
-    "price": 23.00,
-    "allergens": ["lait", "poissons"],
-    "diets": ["sans-gluten"],
-    "macros": { "calories": 820, "proteines": 36, "glucides": 86, "lipides": 32 },
-    "translations": {
-      "fr": {
-        "name": "Pizza Saumon",
-        "description": "Mozzarella fior di latte, carpaccio de saumon bio mariné maison. Pâte bio et sans gluten. (Estimations macros)"
-            },
-      "en": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "it": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "es": {
-        "name": "TODO",
-        "description": "TODO"
-      }
-    }
-  },
-  {
-    "id": "pizza-cepes",
-    "category": "pizzas-classiques",
-    "subcategory" : null,
-    "image": "/tasca-by-ciro/pizza-cepes.jpeg",
-    "price": 30.00,
-    "allergens": ["lait"],
-    "diets": ["vegetarien", "sans-gluten"],
-    "macros": { "calories": 800, "proteines": 30, "glucides": 92, "lipides": 30 },
-    "translations": {
-      "fr": {
-        "name": "Pizza Cèpes",
-        "description": "Sauce tomate maison, mozzarella fior di latte, poêlée de cèpes au romarin. Pâte bio et sans gluten. (Estimations macros)"
-            },
-      "en": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "it": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "es": {
-        "name": "TODO",
-        "description": "TODO"
-      }
-    }
-  },
-  {
-    "id": "pizza-thon",
-    "category": "pizzas-classiques",
-    "subcategory" : null,
-    "image": "/tasca-by-ciro/pizza-thon.jpeg",
-    "price": 23.00,
-    "allergens": ["lait", "poissons"],
-    "diets": ["sans-gluten"],
-    "macros": { "calories": 800, "proteines": 36, "glucides": 88, "lipides": 30 },
-    "translations": {
-      "fr": {
-        "name": "Pizza Thon",
-        "description": "Sauce tomate maison, mozzarella fior di latte, thon à l'huile d'olive et oignons rouges. Pâte bio et sans gluten. (Estimations macros)"
-            },
-      "en": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "it": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "es": {
-        "name": "TODO",
-        "description": "TODO"
-      }
-    }
-  },
-  {
-    "id": "pizza-poulet",
-    "category": "pizzas-classiques",
-    "subcategory" : null,
-    "image": "/tasca-by-ciro/pizza-poulet.jpeg",
-    "price": 23.00,
-    "allergens": ["lait"],
-    "diets": ["sans-gluten"],
-    "macros": { "calories": 820, "proteines": 40, "glucides": 88, "lipides": 30 },
-    "translations": {
-      "fr": {
-        "name": "Pizza Poulet",
-        "description": "Sauce tomate maison, mozzarella fior di latte, poulet, huile d'olive. Pâte bio et sans gluten. (Estimations macros)"
-            },
-      "en": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "it": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "es": {
-        "name": "TODO",
-        "description": "TODO"
-      }
-    }
-  },
-  {
-    "id": "pizza-cepes-burrata-truffe",
-    "category": "pizzas-classiques",
-    "subcategory" : null,
-    "image": "/tasca-by-ciro/pizza-cepes-burrata-truffe.jpeg",
-    "price": 30.00,
-    "allergens": ["lait"],
-    "diets": ["vegetarien", "sans-gluten"],
-    "macros": { "calories": 880, "proteines": 32, "glucides": 88, "lipides": 40 },
-    "translations": {
-      "fr": {
-        "name": "Pizza Cèpes, burrata et crème de truffe noire",
-        "description": "Sauce tomate maison, mozzarella fior di latte, cèpes, burrata, crème de truffe noire. Pâte bio et sans gluten. (Estimations macros)"
-            },
-      "en": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "it": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "es": {
-        "name": "TODO",
-        "description": "TODO"
-      }
-    }
-  },
-  {
-    "id": "pizza-bergamo",
-    "category": "pizzas-blanches",
-    "subcategory" : null,
-    "image": "/tasca-by-ciro/pizza-bergamo.jpeg",
-    "price": 21.00,
-    "allergens": ["lait"],
-    "diets": ["sans-gluten"],
-    "macros": { "calories": 820, "proteines": 30, "glucides": 86, "lipides": 36 },
-    "translations": {
-      "fr": {
-        "name": "Pizza Bergamo",
-        "description": "Mozzarella fior di latte, saucisson, tomates, oignons. Pizza blanche, pâte bio et sans gluten. (Estimations macros)"
-            },
-      "en": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "it": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "es": {
-        "name": "TODO",
-        "description": "TODO"
-      }
-    }
-  },
-  {
-    "id": "pizza-valtellina",
-    "category": "pizzas-blanches",
-    "subcategory" : null,
-    "image": "/tasca-by-ciro/pizza-valtellina.jpeg",
-    "price": 22.00,
-    "allergens": ["lait"],
-    "diets": ["sans-gluten"],
-    "macros": { "calories": 780, "proteines": 38, "glucides": 84, "lipides": 30 },
-    "translations": {
-      "fr": {
-        "name": "Pizza Valtellina",
-        "description": "Mozzarella fior di latte, bresaola, roquette, parmesan. Pizza blanche, pâte bio et sans gluten. (Estimations macros)"
-            },
-      "en": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "it": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "es": {
-        "name": "TODO",
-        "description": "TODO"
-      }
-    }
-  },
-  {
-    "id": "pizza-la-golosa",
-    "category": "pizzas-blanches",
-    "subcategory" : null,
-    "image": "/tasca-by-ciro/pizza-la-golosa.jpeg",
-    "price": 23.00,
-    "allergens": ["lait"],
-    "diets": ["sans-gluten"],
-    "macros": { "calories": 880, "proteines": 30, "glucides": 86, "lipides": 42 },
-    "translations": {
-      "fr": {
-        "name": "Pizza La Golosa",
-        "description": "Mozzarella fior di latte, cèpes, lardo di colonnata, parmesan. Pizza blanche, pâte bio et sans gluten. (Estimations macros)"
-            },
-      "en": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "it": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "es": {
-        "name": "TODO",
-        "description": "TODO"
-      }
-    }
-  },
-  {
-    "id": "pizza-cortina-d-ampezzo",
-    "category": "pizzas-blanches",
-    "subcategory" : null,
-    "image": "/tasca-by-ciro/pizza-cortina-d-ampezzo.jpeg",
-    "price": 23.00,
-    "allergens": ["lait", "so2"],
-    "diets": ["sans-gluten"],
-    "macros": { "calories": 840, "proteines": 34, "glucides": 86, "lipides": 38 },
-    "translations": {
-      "fr": {
-        "name": "Pizza La Cortina d'Ampezzo",
-        "description": "Mozzarella fior di latte, scamorza fumée, peck, vinaigrette balsamique. Pizza blanche, pâte bio et sans gluten. (Estimations macros)"
-            },
-      "en": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "it": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "es": {
-        "name": "TODO",
-        "description": "TODO"
-      }
-    }
-  },
-  {
-    "id": "pave-de-saumon",
-    "category": "poissons",
-    "subcategory" : null,
-    "image": "/tasca-by-ciro/pave-de-saumon.jpeg",
-    "price": 29.00,
-    "allergens": ["poissons"],
-    "diets": ["sans-gluten", "sans-lactose"],
-    "macros": { "calories": 480, "proteines": 38, "glucides": 12, "lipides": 30 },
-    "translations": {
-      "fr": {
-        "name": "Pavé de saumon aux artichauts et herbes",
-        "description": "Pavé de saumon bio aux artichauts et herbes. Bio et sans gluten. (Estimations macros)"
-            },
-      "en": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "it": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "es": {
-        "name": "TODO",
-        "description": "TODO"
-      }
-    }
-  },
-  {
-    "id": "filets-de-bar-poeles",
-    "category": "poissons",
-    "subcategory" : null,
-    "image": "/tasca-by-ciro/filets-de-bar-poeles.jpeg",
-    "price": 30.00,
-    "allergens": ["poissons"],
-    "diets": ["sans-gluten", "sans-lactose"],
-    "macros": { "calories": 420, "proteines": 38, "glucides": 2, "lipides": 28 },
-    "translations": {
-      "fr": {
-        "name": "Filets de bar poêlés au romarin",
-        "description": "Filets de bar poêlés au romarin et huile d'olive extra vierge. Bio et sans gluten. (Estimations macros)"
-            },
-      "en": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "it": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "es": {
-        "name": "TODO",
-        "description": "TODO"
-      }
-    }
-  },
-  {
-    "id": "gambas-et-legumes-grilles",
-    "category": "poissons",
-    "subcategory" : null,
-    "image": "/tasca-by-ciro/gambas-et-legumes-grilles.jpeg",
-    "price": 28.00,
-    "allergens": ["crustaces"],
-    "diets": ["sans-gluten", "sans-lactose"],
-    "macros": { "calories": 380, "proteines": 32, "glucides": 16, "lipides": 20 },
-    "translations": {
-      "fr": {
-        "name": "Gambas et légumes grillés",
-        "description": "Gambas grillées et légumes grillés. Bio et sans gluten. (Estimations macros)"
-            },
-      "en": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "it": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "es": {
-        "name": "TODO",
-        "description": "TODO"
-      }
-    }
-  },
-  {
-    "id": "supreme-poulet-citron",
-    "category": "viandes",
-    "subcategory" : null,
-    "image": "/tasca-by-ciro/supreme-poulet-citron.jpeg",
-    "price": 24.00,
-    "allergens": [],
-    "diets": ["sans-gluten", "sans-lactose"],
-    "macros": { "calories": 420, "proteines": 42, "glucides": 14, "lipides": 22 },
-    "translations": {
-      "fr": {
-        "name": "Suprême de poulet au citron et légumes grillés",
-        "description": "Filet de poulet au citron accompagné de légumes grillés. Bio et sans gluten. (Estimations macros)"
-            },
-      "en": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "it": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "es": {
-        "name": "TODO",
-        "description": "TODO"
-      }
-    }
-  },
-  {
-    "id": "supreme-poulet-milanaise",
-    "category": "viandes",
-    "subcategory" : null,
-    "image": "/tasca-by-ciro/supreme-poulet-milanaise.jpeg",
-    "price": 26.00,
-    "allergens": ["oeufs"],
-    "diets": ["sans-gluten"],
-    "macros": { "calories": 620, "proteines": 46, "glucides": 30, "lipides": 32 },
-    "translations": {
-      "fr": {
-        "name": "Suprême de poulet à la milanaise",
-        "description": "Filet de poulet pané et doré (panure sans gluten). Bio et sans gluten. (Estimations macros)"
-            },
-      "en": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "it": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "es": {
-        "name": "TODO",
-        "description": "TODO"
-      }
-    }
-  },
-  {
-    "id": "supreme-poulet-cepes",
-    "category": "viandes",
-    "subcategory" : null,
-    "image": "/tasca-by-ciro/supreme-poulet-cepes.jpeg",
-    "price": 27.00,
-    "allergens": [],
-    "diets": ["sans-gluten", "sans-lactose"],
-    "macros": { "calories": 500, "proteines": 44, "glucides": 10, "lipides": 30 },
-    "translations": {
-      "fr": {
-        "name": "Suprême de poulet aux cèpes",
-        "description": "Filet de poulet et sa poêlée de cèpes. Bio et sans gluten. (Estimations macros)"
-            },
-      "en": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "it": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "es": {
-        "name": "TODO",
-        "description": "TODO"
-      }
-    }
-  },
-  {
-    "id": "osso-bucco",
-    "category": "viandes",
-    "subcategory" : null,
-    "image": "/tasca-by-ciro/osso-bucco.jpeg",
-    "price": 29.00,
-    "allergens": ["celeri"],
-    "diets": ["sans-gluten", "sans-lactose"],
-    "macros": { "calories": 560, "proteines": 44, "glucides": 14, "lipides": 34 },
-    "translations": {
-      "fr": {
-        "name": "Osso bucco mijoté façon \"maison\"",
-        "description": "Jarret de veau mijoté à la sauce tomate, céleri, carottes, oignons, romarin et zeste de citron. Bio et sans gluten. (Estimations macros)"
-            },
-      "en": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "it": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "es": {
-        "name": "TODO",
-        "description": "TODO"
-      }
-    }
-  },
-  {
-    "id": "glace",
-    "category": "glaces-sorbets",
-    "subcategory" : null,
-    "image": "/tasca-by-ciro/glace.jpeg",
-    "price": 5.50,
-    "allergens": ["lait", "fruits-a-coque"],
-    "diets": ["vegetarien", "sans-gluten"],
-    "macros": { "calories": 130, "proteines": 3, "glucides": 16, "lipides": 6 },
-    "translations": {
-      "fr": {
-        "name": "Glace Maison Antolin",
-        "description": "Glace bio sans gluten. Parfums : café, caramel au sel de Guérande, vanille, chocolat, pistache. Prix indiqué pour 1 boule. (Estimations macros par boule)"
-            },
-      "en": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "it": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "es": {
-        "name": "TODO",
-        "description": "TODO"
-      }
-    }
-  },
-  {
-    "id": "sorbet",
-    "category": "glaces-sorbets",
-    "subcategory" : null,
-    "image": "/tasca-by-ciro/sorbet.jpeg",
-    "price": 5.50,
-    "allergens": [],
-    "diets": ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
-    "macros": { "calories": 90, "proteines": 0, "glucides": 22, "lipides": 0 },
-    "translations": {
-      "fr": {
-        "name": "Sorbet Maison Antolin",
-        "description": "Sorbet bio sans gluten. Parfums : citron, cassis, framboise, fraise, fruits de la passion. Prix indiqué pour 1 boule. (Estimations macros par boule)"
-            },
-      "en": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "it": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "es": {
-        "name": "TODO",
-        "description": "TODO"
-      }
-    }
-  },
-  {
-    "id": "sorbet-citron-limoncello",
-    "category": "glaces-sorbets",
-    "subcategory" : null,
-    "image": "/tasca-by-ciro/sorbet-citron-limoncello.jpeg",
-    "price": 15.00,
-    "allergens": [],
-    "diets": ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
-    "macros": { "calories": 220, "proteines": 0, "glucides": 36, "lipides": 0 },
-    "translations": {
-      "fr": {
-        "name": "Sorbet au citron et limoncello",
-        "description": "Sorbet citron arrosé de limoncello. Maison Antolin. Bio et sans gluten. (Estimations macros)"
-            },
-      "en": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "it": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "es": {
-        "name": "TODO",
-        "description": "TODO"
-      }
-    }
-  },
-  {
-    "id": "crostata-artisanale",
-    "category": "desserts",
-    "subcategory" : null,
-    "image": "/tasca-by-ciro/crostata-artisanale.jpeg",
-    "price": 12.00,
-    "allergens": ["oeufs", "lait"],
-    "diets": ["vegetarien", "sans-gluten"],
-    "macros": { "calories": 380, "proteines": 5, "glucides": 60, "lipides": 14 },
-    "translations": {
-      "fr": {
-        "name": "Crostata artisanale",
-        "description": "Tarte à la confiture ou au citron. Bio et sans gluten. (Estimations macros)"
-            },
-      "en": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "it": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "es": {
-        "name": "TODO",
-        "description": "TODO"
-      }
-    }
-  },
-  {
-    "id": "mousse-au-chocolat",
-    "category": "desserts",
-    "subcategory" : null,
-    "image": "/tasca-by-ciro/mousse-au-chocolat.jpeg",
-    "price": 12.00,
-    "allergens": ["oeufs", "lait"],
-    "diets": ["vegetarien", "sans-gluten"],
-    "macros": { "calories": 420, "proteines": 7, "glucides": 38, "lipides": 26 },
-    "translations": {
-      "fr": {
-        "name": "Mousse au chocolat maison",
-        "description": "Mousse au chocolat maison. Bio et sans gluten. (Estimations macros)"
-            },
-      "en": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "it": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "es": {
-        "name": "TODO",
-        "description": "TODO"
-      }
-    }
-  },
-  {
-    "id": "mi-cuit-au-chocolat",
-    "category": "desserts",
-    "subcategory" : null,
-    "image": "/tasca-by-ciro/mi-cuit-au-chocolat.jpeg",
-    "price": 12.00,
-    "allergens": ["oeufs", "lait"],
-    "diets": ["vegetarien", "sans-gluten"],
-    "macros": { "calories": 480, "proteines": 8, "glucides": 50, "lipides": 28 },
-    "translations": {
-      "fr": {
-        "name": "Mi-cuit au chocolat maison",
-        "description": "Mi-cuit au chocolat maison. 15 minutes d'attente. Bio et sans gluten. (Estimations macros)"
-            },
-      "en": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "it": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "es": {
-        "name": "TODO",
-        "description": "TODO"
-      }
-    }
-  },
-  {
-    "id": "tiramisu",
-    "category": "desserts",
-    "subcategory" : null,
-    "image": "/tasca-by-ciro/tiramisu.jpeg",
-    "price": 13.00,
-    "allergens": ["oeufs", "lait"],
-    "diets": ["vegetarien", "sans-gluten"],
-    "macros": { "calories": 460, "proteines": 8, "glucides": 42, "lipides": 28 },
-    "translations": {
-      "fr": {
-        "name": "Tiramisu",
-        "description": "Tiramisu classique ou pistache. Bio et sans gluten. (Estimations macros)"
-            },
-      "en": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "it": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "es": {
-        "name": "TODO",
-        "description": "TODO"
-      }
-    }
-  },
-  {
-    "id": "panna-cotta",
-    "category": "desserts",
-    "subcategory" : null,
-    "image": "/tasca-by-ciro/panna-cotta.jpeg",
-    "price": 12.00,
-    "allergens": ["lait"],
-    "diets": ["vegetarien", "sans-gluten"],
-    "macros": { "calories": 360, "proteines": 5, "glucides": 32, "lipides": 24 },
-    "translations": {
-      "fr": {
-        "name": "Panna cotta aux fruits rouges",
-        "description": "Panna cotta aux fruits rouges. Bio et sans gluten. (Estimations macros)"
-            },
-      "en": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "it": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "es": {
-        "name": "TODO",
-        "description": "TODO"
-      }
-    }
-  },
-  {
-    "id": "salade-de-fruits-frais",
-    "category": "desserts",
-    "subcategory" : null,
-    "image": "/tasca-by-ciro/salade-de-fruits-frais.jpeg",
-    "price": 12.00,
-    "allergens": [],
-    "diets": ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
-    "macros": { "calories": 140, "proteines": 2, "glucides": 32, "lipides": 0 },
-    "translations": {
-      "fr": {
-        "name": "Salade de fruits frais",
-        "description": "Salade de fruits frais. Bio et sans gluten. (Estimations macros)"
-            },
-      "en": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "it": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "es": {
-        "name": "TODO",
-        "description": "TODO"
-      }
-    }
-  },
-  {
-    "id": "pizza-au-miel",
-    "category": "desserts",
-    "subcategory" : null,
-    "image": "/tasca-by-ciro/pizza-au-miel.jpeg",
-    "price": 13.00,
-    "allergens": [],
-    "diets": ["vegetarien", "sans-gluten"],
-    "macros": { "calories": 520, "proteines": 8, "glucides": 90, "lipides": 14 },
-    "translations": {
-      "fr": {
-        "name": "Pizza au miel",
-        "description": "Pizza sucrée au miel. Pâte bio et sans gluten. (Estimations macros)"
-            },
-      "en": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "it": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "es": {
-        "name": "TODO",
-        "description": "TODO"
-      }
-    }
-  },
-  {
-    "id": "affogato-al-caffe",
-    "category": "desserts",
-    "subcategory" : null,
-    "image": "/tasca-by-ciro/affogato-al-caffe.jpeg",
-    "price": 13.00,
-    "allergens": ["lait"],
-    "diets": ["vegetarien", "sans-gluten"],
-    "macros": { "calories": 240, "proteines": 4, "glucides": 26, "lipides": 12 },
-    "translations": {
-      "fr": {
-        "name": "Affogato al caffé",
-        "description": "Glace vanille arrosée de café chaud. Bio et sans gluten. (Estimations macros)"
-            },
-      "en": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "it": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "es": {
-        "name": "TODO",
-        "description": "TODO"
-      }
-    }
-  },
-  {
-    "id": "cafe-gourmand",
-    "category": "desserts",
-    "subcategory" : null,
-    "image": "/tasca-by-ciro/cafe-gourmand.jpeg",
-    "price": 15.00,
-    "allergens": ["lait", "oeufs"],
-    "diets": ["vegetarien", "sans-gluten"],
-    "macros": { "calories": 520, "proteines": 10, "glucides": 56, "lipides": 28 },
-    "translations": {
-      "fr": {
-        "name": "Café gourmand",
-        "description": "Panna cotta, crème au chocolat, salade de fruits. Bio et sans gluten. (Estimations macros)"
-            },
-      "en": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "it": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "es": {
-        "name": "TODO",
-        "description": "TODO"
-      }
-    }
-  },
-  {
-    "id": "plateau-de-fromages",
-    "category": "desserts",
-    "subcategory" : null,
-    "image": "/tasca-by-ciro/plateau-de-fromages.jpeg",
-    "price": 15.00,
-    "allergens": ["lait"],
-    "diets": ["vegetarien", "sans-gluten"],
-    "macros": { "calories": 480, "proteines": 30, "glucides": 4, "lipides": 38 },
-    "translations": {
-      "fr": {
-        "name": "Plateau de fromages",
-        "description": "Taleggio, Parmesan et Gorgonzola. Bio et sans gluten. (Estimations macros)"
-            },
-      "en": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "it": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "es": {
-        "name": "TODO",
-        "description": "TODO"
-      }
-    }
-  },
-  {
-    "id": "vin-au-verre",
-    "category": "vins-bio",
-    "subcategory" : null,
-    "image": "/tasca-by-ciro/vin-au-verre.jpeg",
-    "price": 10.00,
-    "allergens": ["so2"],
-    "diets": ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
-    "macros": { "calories": 120, "proteines": 0, "glucides": 4, "lipides": 0 },
-    "translations": {
-      "fr": {
-        "name": "Verre de vin 14cl",
-        "description": "Verre de vin bio 14cl - blanc, rouge ou rosé. (Estimations macros)"
-            },
-      "en": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "it": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "es": {
-        "name": "TODO",
-        "description": "TODO"
-      }
-    }
-  },
-  {
-    "id": "pichet-de-vin",
-    "category": "vins-bio",
-    "subcategory" : null,
-    "image": "/tasca-by-ciro/pichet-de-vin.jpeg",
-    "price": 26.00,
-    "allergens": ["so2"],
-    "diets": ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
-    "macros": { "calories": 430, "proteines": 0, "glucides": 14, "lipides": 0 },
-    "translations": {
-      "fr": {
-        "name": "Pichet de vin 50cl",
-        "description": "Pichet de vin bio 50cl - blanc, rouge ou rosé. (Estimations macros)"
-            },
-      "en": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "it": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "es": {
-        "name": "TODO",
-        "description": "TODO"
-      }
-    }
-  },
-  {
-    "id": "montepulciano-d-abruzzo",
-    "category": "vins-rouges",
-    "subcategory" : null,
-    "image": "/tasca-by-ciro/montepulciano-d-abruzzo.jpeg",
-    "price": 34.00,
-    "allergens": ["so2"],
-    "diets": ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
-    "macros": { "calories": 640, "proteines": 0, "glucides": 22, "lipides": 0 },
-    "translations": {
-      "fr": {
-        "name": "Montepulciano d'Abruzzo DOC (Abruzzes)",
-        "description": "Vin rouge bio 75cl. Vin équilibré, aux arômes de fruits rouges au final légèrement épicé. (Estimations macros pour bouteille)"
-            },
-      "en": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "it": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "es": {
-        "name": "TODO",
-        "description": "TODO"
-      }
-    }
-  },
-  {
-    "id": "nero-d-avola",
-    "category": "vins-rouges",
-    "subcategory" : null,
-    "image": "/tasca-by-ciro/nero-d-avola.jpeg",
-    "price": 37.00,
-    "allergens": ["so2"],
-    "diets": ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
-    "macros": { "calories": 640, "proteines": 0, "glucides": 22, "lipides": 0 },
-    "translations": {
-      "fr": {
-        "name": "Nero d'Avola DOC (Sicile)",
-        "description": "Vin rouge bio 75cl. Vin gourmand, aux arômes de cerises et mûres, final frais et intense. (Estimations macros pour bouteille)"
-            },
-      "en": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "it": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "es": {
-        "name": "TODO",
-        "description": "TODO"
-      }
-    }
-  },
-  {
-    "id": "primitivo-salento",
-    "category": "vins-rouges",
-    "subcategory" : null,
-    "image": "/tasca-by-ciro/primitivo-salento.jpeg",
-    "price": 38.00,
-    "allergens": ["so2"],
-    "diets": ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
-    "macros": { "calories": 660, "proteines": 0, "glucides": 22, "lipides": 0 },
-    "translations": {
-      "fr": {
-        "name": "Primitivo Salento (Les Pouilles)",
-        "description": "Vin rouge bio 75cl. Arômes de framboise et cerise, vin fruité et puissant, idéal avec l'osso bucco et la pizza Parma. (Estimations macros pour bouteille)"
-            },
-      "en": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "it": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "es": {
-        "name": "TODO",
-        "description": "TODO"
-      }
-    }
-  },
-  {
-    "id": "sangiovese",
-    "category": "vins-rouges",
-    "subcategory" : null,
-    "image": "/tasca-by-ciro/sangiovese.jpeg",
-    "price": 36.00,
-    "allergens": ["so2"],
-    "diets": ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
-    "macros": { "calories": 640, "proteines": 0, "glucides": 22, "lipides": 0 },
-    "translations": {
-      "fr": {
-        "name": "Sangiovese DOC Bio (Émilie-Romagne)",
-        "description": "Vin rouge bio 75cl. Vin intense et sec, fruit mûr et légèrement épicé sur la fin. (Estimations macros pour bouteille)"
-            },
-      "en": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "it": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "es": {
-        "name": "TODO",
-        "description": "TODO"
-      }
-    }
-  },
-  {
-    "id": "valpolicella-classico",
-    "category": "vins-rouges",
-    "subcategory" : null,
-    "image": "/tasca-by-ciro/valpolicella-classico.jpeg",
-    "price": 50.00,
-    "allergens": ["so2"],
-    "diets": ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
-    "macros": { "calories": 640, "proteines": 0, "glucides": 22, "lipides": 0 },
-    "translations": {
-      "fr": {
-        "name": "Valpolicella Classico DOC Bio (Vénétie)",
-        "description": "Vin rouge bio 75cl. Vin délicat, frais et léger aux arômes fruités et fleuris, final frais et agréable. (Estimations macros pour bouteille)"
-            },
-      "en": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "it": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "es": {
-        "name": "TODO",
-        "description": "TODO"
-      }
-    }
-  },
-  {
-    "id": "rosso-di-montalcino",
-    "category": "vins-rouges",
-    "subcategory" : null,
-    "image": "/tasca-by-ciro/rosso-di-montalcino.jpeg",
-    "price": 59.00,
-    "allergens": ["so2"],
-    "diets": ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
-    "macros": { "calories": 680, "proteines": 0, "glucides": 22, "lipides": 0 },
-    "translations": {
-      "fr": {
-        "name": "Rosso di Montalcino DOC (Toscane)",
-        "description": "Vin rouge bio 75cl. Robe rouge rubis intense et légère, aux senteurs de fruits rouges et menthe poivrée. (Estimations macros pour bouteille)"
-            },
-      "en": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "it": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "es": {
-        "name": "TODO",
-        "description": "TODO"
-      }
-    }
-  },
-  {
-    "id": "aglianico-del-taburno",
-    "category": "vins-rouges",
-    "subcategory" : null,
-    "image": "/tasca-by-ciro/aglianico-del-taburno.jpeg",
-    "price": 62.00,
-    "allergens": ["so2"],
-    "diets": ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
-    "macros": { "calories": 680, "proteines": 0, "glucides": 22, "lipides": 0 },
-    "translations": {
-      "fr": {
-        "name": "Aglianico del Taburno Rosso (Campanie)",
-        "description": "Vin rouge bio 75cl. Robe rouge rubis intense et légère, aux senteurs de fruits rouges et menthe poivrée. (Estimations macros pour bouteille)"
-            },
-      "en": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "it": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "es": {
-        "name": "TODO",
-        "description": "TODO"
-      }
-    }
-  },
-  {
-    "id": "chianti-classico",
-    "category": "vins-rouges",
-    "subcategory" : null,
-    "image": "/tasca-by-ciro/chianti-classico.jpeg",
-    "price": 37.00,
-    "allergens": ["so2"],
-    "diets": ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
-    "macros": { "calories": 640, "proteines": 0, "glucides": 22, "lipides": 0 },
-    "translations": {
-      "fr": {
-        "name": "Chianti Classico DOCG (Toscane)",
-        "description": "Vin rouge bio 75cl. Goût harmonieux, couleur rouge rubis intense, appréciable avec les viandes. (Estimations macros pour bouteille)"
-            },
-      "en": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "it": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "es": {
-        "name": "TODO",
-        "description": "TODO"
-      }
-    }
-  },
-  {
-    "id": "canonau",
-    "category": "vins-rouges",
-    "subcategory" : null,
-    "image": "/tasca-by-ciro/canonau.jpeg",
-    "price": 59.00,
-    "allergens": ["so2"],
-    "diets": ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
-    "macros": { "calories": 660, "proteines": 0, "glucides": 22, "lipides": 0 },
-    "translations": {
-      "fr": {
-        "name": "Canonau (Sardaigne)",
-        "description": "Vin rouge bio 75cl. Frais et savoureux, délicatement tannique et bien équilibré. (Estimations macros pour bouteille)"
-            },
-      "en": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "it": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "es": {
-        "name": "TODO",
-        "description": "TODO"
-      }
-    }
-  },
-  {
-    "id": "barbera-d-alba",
-    "category": "vins-rouges",
-    "subcategory" : null,
-    "image": "/tasca-by-ciro/barbera-d-alba.jpeg",
-    "price": 83.00,
-    "allergens": ["so2"],
-    "diets": ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
-    "macros": { "calories": 680, "proteines": 0, "glucides": 22, "lipides": 0 },
-    "translations": {
-      "fr": {
-        "name": "Barbera d'Alba DOC (Piémont)",
-        "description": "Vin rouge bio 75cl. Aspect gustatif intense et plein. Bouquet très prononcé de fruits rouges et cerise. (Estimations macros pour bouteille)"
-            },
-      "en": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "it": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "es": {
-        "name": "TODO",
-        "description": "TODO"
-      }
-    }
-  },
-  {
-    "id": "barolo",
-    "category": "vins-rouges",
-    "subcategory" : null,
-    "image": "/tasca-by-ciro/barolo.jpeg",
-    "price": 152.00,
-    "allergens": ["so2"],
-    "diets": ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
-    "macros": { "calories": 720, "proteines": 0, "glucides": 22, "lipides": 0 },
-    "translations": {
-      "fr": {
-        "name": "Barolo DOCG (Piémont)",
-        "description": "Vin rouge bio 75cl. Notes fruitées et florales de vanille et de violette. Fait partie des grands vins du monde. (Estimations macros pour bouteille)"
-            },
-      "en": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "it": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "es": {
-        "name": "TODO",
-        "description": "TODO"
-      }
-    }
-  },
-  {
-    "id": "bardolino-chiaretto",
-    "category": "vins-roses",
-    "subcategory" : null,
-    "image": "/tasca-by-ciro/bardolino-chiaretto.jpeg",
-    "price": 32.00,
-    "allergens": ["so2"],
-    "diets": ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
-    "macros": { "calories": 620, "proteines": 0, "glucides": 22, "lipides": 0 },
-    "translations": {
-      "fr": {
-        "name": "Bardolino Chiaretto (Vénétie)",
-        "description": "Vin rosé bio 75cl. Couleur rose tendre, parfum de fruits délicats qui rappelle la fraise, la framboise et la cerise. Idéal avec les entrées, les poissons et les salades. (Estimations macros pour bouteille)"
-            },
-      "en": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "it": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "es": {
-        "name": "TODO",
-        "description": "TODO"
-      }
-    }
-  },
-  {
-    "id": "rosato-terre-di-chieti",
-    "category": "vins-roses",
-    "subcategory" : null,
-    "image": "/tasca-by-ciro/rosato-terre-di-chieti.jpeg",
-    "price": 42.00,
-    "allergens": ["so2"],
-    "diets": ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
-    "macros": { "calories": 620, "proteines": 0, "glucides": 22, "lipides": 0 },
-    "translations": {
-      "fr": {
-        "name": "Rosato Terre di Chieti IGT (Toscane)",
-        "description": "Vin rosé bio 75cl. Arômes de rhubarbe, groseille et fruits des bois. Frais, agréable, légèrement fruité au final sec. (Estimations macros pour bouteille)"
-            },
-      "en": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "it": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "es": {
-        "name": "TODO",
-        "description": "TODO"
-      }
-    }
-  },
-  {
-    "id": "grillo",
-    "category": "vins-blancs",
-    "subcategory" : null,
-    "image": "/tasca-by-ciro/grillo.jpeg",
-    "price": 29.00,
-    "allergens": ["so2"],
-    "diets": ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
-    "macros": { "calories": 620, "proteines": 0, "glucides": 22, "lipides": 0 },
-    "translations": {
-      "fr": {
-        "name": "Grillo IGT (Sicile)",
-        "description": "Vin blanc bio 75cl. Parfum aromatique de sauge, camomille et écorce d'agrume. Termine sur des notes de pêche jaune, gourmand et souple avec une belle fraîcheur. Final sec et légèrement minéral. (Estimations macros pour bouteille)"
-            },
-      "en": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "it": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "es": {
-        "name": "TODO",
-        "description": "TODO"
-      }
-    }
-  },
-  {
-    "id": "trebbiano-d-abruzzo",
-    "category": "vins-blancs",
-    "subcategory" : null,
-    "image": "/tasca-by-ciro/trebbiano-d-abruzzo.jpeg",
-    "price": 32.00,
-    "allergens": ["so2"],
-    "diets": ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
-    "macros": { "calories": 620, "proteines": 0, "glucides": 22, "lipides": 0 },
-    "translations": {
-      "fr": {
-        "name": "Trebbiano d'Abruzzo (Abruzzes)",
-        "description": "Vin blanc bio 75cl. Robe jaune paille aux reflets verts. Parfum fruité intense aux arômes d'agrumes sur des notes de poire et de pêche. (Estimations macros pour bouteille)"
-            },
-      "en": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "it": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "es": {
-        "name": "TODO",
-        "description": "TODO"
-      }
-    }
-  },
-  {
-    "id": "kukukaya-passerina",
-    "category": "vins-blancs",
-    "subcategory" : null,
-    "image": "/tasca-by-ciro/kukukaya-passerina.jpeg",
-    "price": 38.00,
-    "allergens": ["so2"],
-    "diets": ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
-    "macros": { "calories": 620, "proteines": 0, "glucides": 22, "lipides": 0 },
-    "translations": {
-      "fr": {
-        "name": "Kukukaya Passerina Terre di Chieti IGT Bio (Abruzzes)",
-        "description": "Vin blanc bio 75cl. Arômes de poire et d'avocat, retours de cèdre et de marjolaine. Excellent équilibre et final subtil, persistant et agréablement délicat. (Estimations macros pour bouteille)"
-            },
-      "en": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "it": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "es": {
-        "name": "TODO",
-        "description": "TODO"
-      }
-    }
-  },
-  {
-    "id": "falanghina-sannio",
-    "category": "vins-blancs",
-    "subcategory" : null,
-    "image": "/tasca-by-ciro/falanghina-sannio.jpeg",
-    "price": 42.00,
-    "allergens": ["so2"],
-    "diets": ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
-    "macros": { "calories": 620, "proteines": 0, "glucides": 22, "lipides": 0 },
-    "translations": {
-      "fr": {
-        "name": "Falanghina Sannio DOP Bio (Campanie)",
-        "description": "Vin blanc bio 75cl. Vin aux arômes intenses et variés. Fruité, prune, pêche, puis final sec et minéral. (Estimations macros pour bouteille)"
-            },
-      "en": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "it": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "es": {
-        "name": "TODO",
-        "description": "TODO"
-      }
-    }
-  },
-  {
-    "id": "spinola-gavi",
-    "category": "vins-blancs",
-    "subcategory" : null,
-    "image": "/tasca-by-ciro/spinola-gavi.jpeg",
-    "price": 40.00,
-    "allergens": ["so2"],
-    "diets": ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
-    "macros": { "calories": 620, "proteines": 0, "glucides": 22, "lipides": 0 },
-    "translations": {
-      "fr": {
-        "name": "Spinola Gavi DOCG (Piémont)",
-        "description": "Vin blanc bio 75cl. Arômes de fruits exotiques, légèrement minéral et fruité. (Estimations macros pour bouteille)"
-            },
-      "en": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "it": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "es": {
-        "name": "TODO",
-        "description": "TODO"
-      }
-    }
-  },
-  {
-    "id": "prosecco-valdobbiadene",
-    "category": "prosecco",
-    "subcategory" : null,
-    "image": "/tasca-by-ciro/prosecco-valdobbiadene.jpeg",
-    "price": 55.00,
-    "allergens": ["so2"],
-    "diets": ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
-    "macros": { "calories": 600, "proteines": 0, "glucides": 18, "lipides": 0 },
-    "translations": {
-      "fr": {
-        "name": "Prosecco Valdobbiadene (Vénétie)",
-        "description": "Prosecco bio 75cl. Arômes de fleurs et de fruits - vin pétillant frais, délicat et fruité. (Estimations macros pour bouteille)"
-            },
-      "en": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "it": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "es": {
-        "name": "TODO",
-        "description": "TODO"
-      }
-    }
-  },
-  {
-    "id": "spritz",
-    "category": "aperitifs",
-    "subcategory" : null,
-    "image": "/tasca-by-ciro/spritz.jpeg",
-    "price": 12.00,
-    "allergens": ["so2"],
-    "diets": ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
-    "macros": { "calories": 180, "proteines": 0, "glucides": 18, "lipides": 0 },
-    "translations": {
-      "fr": {
-        "name": "Spritz 14cl",
-        "description": "Cocktail Spritz 14cl. (Estimations macros)"
-            },
-      "en": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "it": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "es": {
-        "name": "TODO",
-        "description": "TODO"
-      }
-    }
-  },
-  {
-    "id": "gin-tonic",
-    "category": "aperitifs",
-    "subcategory" : null,
-    "image": "/tasca-by-ciro/gin-tonic.jpeg",
-    "price": 12.00,
-    "allergens": [],
-    "diets": ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
-    "macros": { "calories": 180, "proteines": 0, "glucides": 14, "lipides": 0 },
-    "translations": {
-      "fr": {
-        "name": "Gin Tonic 14cl",
-        "description": "Gin Tonic 14cl. (Estimations macros)"
-            },
-      "en": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "it": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "es": {
-        "name": "TODO",
-        "description": "TODO"
-      }
-    }
-  },
-  {
-    "id": "coupe-de-prosecco",
-    "category": "aperitifs",
-    "subcategory" : null,
-    "image": "/tasca-by-ciro/coupe-de-prosecco.jpeg",
-    "price": 11.00,
-    "allergens": ["so2"],
-    "diets": ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
-    "macros": { "calories": 100, "proteines": 0, "glucides": 3, "lipides": 0 },
-    "translations": {
-      "fr": {
-        "name": "Coupe de Prosecco 12cl",
-        "description": "Coupe de Prosecco 12cl. (Estimations macros)"
-            },
-      "en": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "it": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "es": {
-        "name": "TODO",
-        "description": "TODO"
-      }
-    }
-  },
-  {
-    "id": "vermouth",
-    "category": "aperitifs",
-    "subcategory" : null,
-    "image": "/tasca-by-ciro/vermouth.jpeg",
-    "price": 11.00,
-    "allergens": ["so2"],
-    "diets": ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
-    "macros": { "calories": 70, "proteines": 0, "glucides": 7, "lipides": 0 },
-    "translations": {
-      "fr": {
-        "name": "Vermouth blanc ou rouge 4cl",
-        "description": "Vermouth blanc ou rouge 4cl. (Estimations macros)"
-            },
-      "en": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "it": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "es": {
-        "name": "TODO",
-        "description": "TODO"
-      }
-    }
-  },
-  {
-    "id": "campari-vodka",
-    "category": "aperitifs",
-    "subcategory" : null,
-    "image": "/tasca-by-ciro/campari-vodka.jpeg",
-    "price": 12.00,
-    "allergens": [],
-    "diets": ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
-    "macros": { "calories": 100, "proteines": 0, "glucides": 4, "lipides": 0 },
-    "translations": {
-      "fr": {
-        "name": "Campari / Vodka 4cl",
-        "description": "Campari ou Vodka 4cl. (Estimations macros)"
-            },
-      "en": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "it": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "es": {
-        "name": "TODO",
-        "description": "TODO"
-      }
-    }
-  },
-  {
-    "id": "acqua-chiara",
-    "category": "eaux-minerales",
-    "subcategory" : null,
-    "image": "/tasca-by-ciro/acqua-chiara.jpeg",
-    "price": 6.00,
-    "allergens": [],
-    "diets": ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
-    "macros": { "calories": 0, "proteines": 0, "glucides": 0, "lipides": 0 },
-    "translations": {
-      "fr": {
-        "name": "Acqua Chiara 75cl",
-        "description": "Eau minérale Acqua Chiara, plate ou pétillante, 75cl. (Estimations macros)"
-            },
-      "en": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "it": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "es": {
-        "name": "TODO",
-        "description": "TODO"
-      }
-    }
-  },
-  {
-    "id": "jus-de-fruits",
-    "category": "jus-de-fruits",
-    "subcategory" : null,
-    "image": "/tasca-by-ciro/jus-de-fruits.jpeg",
-    "price": 7.00,
-    "allergens": [],
-    "diets": ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
-    "macros": { "calories": 100, "proteines": 1, "glucides": 24, "lipides": 0 },
-    "translations": {
-      "fr": {
-        "name": "Jus de fruits bio 20cl",
-        "description": "Jus de fruits bio 20cl. Parfums : ACE (orange, carotte, citron), pêche, myrtille sauvage, poire Williams, tomate, abricot, pomme, orange. (Estimations macros)"
-            },
-      "en": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "it": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "es": {
-        "name": "TODO",
-        "description": "TODO"
-      }
-    }
-  },
-  {
-    "id": "aranciata",
-    "category": "sodas",
-    "subcategory" : null,
-    "image": "/tasca-by-ciro/aranciata.jpeg",
-    "price": 7.00,
-    "allergens": [],
-    "diets": ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
-    "macros": { "calories": 110, "proteines": 0, "glucides": 28, "lipides": 0 },
-    "translations": {
-      "fr": {
-        "name": "Aranciata",
-        "description": "Soda bio Aranciata 27,5cl. (Estimations macros)"
-            },
-      "en": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "it": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "es": {
-        "name": "TODO",
-        "description": "TODO"
-      }
-    }
-  },
-  {
-    "id": "limonade",
-    "category": "sodas",
-    "subcategory" : null,
-    "image": "/tasca-by-ciro/limonade.jpeg",
-    "price": 7.00,
-    "allergens": [],
-    "diets": ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
-    "macros": { "calories": 110, "proteines": 0, "glucides": 28, "lipides": 0 },
-    "translations": {
-      "fr": {
-        "name": "Limonade",
-        "description": "Soda bio Limonade 27,5cl. (Estimations macros)"
-            },
-      "en": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "it": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "es": {
-        "name": "TODO",
-        "description": "TODO"
-      }
-    }
-  },
-  {
-    "id": "limonade-au-cedrat",
-    "category": "sodas",
-    "subcategory" : null,
-    "image": "/tasca-by-ciro/limonade-au-cedrat.jpeg",
-    "price": 7.00,
-    "allergens": [],
-    "diets": ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
-    "macros": { "calories": 110, "proteines": 0, "glucides": 28, "lipides": 0 },
-    "translations": {
-      "fr": {
-        "name": "Limonade au cédrat",
-        "description": "Soda bio Limonade au cédrat 27,5cl. (Estimations macros)"
-            },
-      "en": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "it": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "es": {
-        "name": "TODO",
-        "description": "TODO"
-      }
-    }
-  },
-  {
-    "id": "chinotto",
-    "category": "sodas",
-    "subcategory" : null,
-    "image": "/tasca-by-ciro/chinotto.jpeg",
-    "price": 7.00,
-    "allergens": [],
-    "diets": ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
-    "macros": { "calories": 110, "proteines": 0, "glucides": 28, "lipides": 0 },
-    "translations": {
-      "fr": {
-        "name": "Chinotto",
-        "description": "Soda bio Chinotto 27,5cl. (Estimations macros)"
-            },
-      "en": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "it": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "es": {
-        "name": "TODO",
-        "description": "TODO"
-      }
-    }
-  },
-  {
-    "id": "mole-cola",
-    "category": "sodas",
-    "subcategory" : null,
-    "image": "/tasca-by-ciro/mole-cola.jpeg",
-    "price": 7.00,
-    "allergens": [],
-    "diets": ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
-    "macros": { "calories": 130, "proteines": 0, "glucides": 32, "lipides": 0 },
-    "translations": {
-      "fr": {
-        "name": "Mole Cola Bio",
-        "description": "Soda Mole Cola bio 33cl. (Estimations macros)"
-            },
-      "en": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "it": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "es": {
-        "name": "TODO",
-        "description": "TODO"
-      }
-    }
-  },
-  {
-    "id": "mole-cola-zero",
-    "category": "sodas",
-    "subcategory" : null,
-    "image": "/tasca-by-ciro/mole-cola-zero.jpeg",
-    "price": 7.00,
-    "allergens": [],
-    "diets": ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
-    "macros": { "calories": 0, "proteines": 0, "glucides": 0, "lipides": 0 },
-    "translations": {
-      "fr": {
-        "name": "Mole Cola Zero",
-        "description": "Soda Mole Cola Zero 33cl. (Estimations macros)"
-            },
-      "en": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "it": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "es": {
-        "name": "TODO",
-        "description": "TODO"
-      }
-    }
-  },
-  {
-    "id": "the-glace",
-    "category": "the-glace",
-    "subcategory" : null,
-    "image": "/tasca-by-ciro/the-glace.jpeg",
-    "price": 7.00,
-    "allergens": [],
-    "diets": ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
-    "macros": { "calories": 80, "proteines": 0, "glucides": 20, "lipides": 0 },
-    "translations": {
-      "fr": {
-        "name": "Thé glacé bio 20cl",
-        "description": "Thé glacé bio 20cl. Parfums : pêche ou citron. (Estimations macros)"
-            },
-      "en": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "it": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "es": {
-        "name": "TODO",
-        "description": "TODO"
-      }
-    }
-  },
-  {
-    "id": "peroni-sans-gluten",
-    "category": "biere",
-    "subcategory" : null,
-    "image": "/tasca-by-ciro/peroni-sans-gluten.jpeg",
-    "price": 10.00,
-    "allergens": [],
-    "diets": ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
-    "macros": { "calories": 140, "proteines": 1, "glucides": 12, "lipides": 0 },
-    "translations": {
-      "fr": {
-        "name": "Peroni sans gluten 33cl",
-        "description": "Bière artisanale sans gluten 33cl. (Estimations macros)"
-            },
-      "en": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "it": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "es": {
-        "name": "TODO",
-        "description": "TODO"
-      }
-    }
-  },
-  {
-    "id": "expresso",
-    "category": "boissons-chaudes",
-    "subcategory" : null,
-    "image": "/tasca-by-ciro/expresso.jpeg",
-    "price": 3.50,
-    "allergens": [],
-    "diets": ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
-    "macros": { "calories": 2, "proteines": 0, "glucides": 0, "lipides": 0 },
-    "translations": {
-      "fr": {
-        "name": "Expresso Illy",
-        "description": "Café expresso Illy. (Estimations macros)"
-            },
-      "en": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "it": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "es": {
-        "name": "TODO",
-        "description": "TODO"
-      }
-    }
-  },
-  {
-    "id": "the-infusion",
-    "category": "boissons-chaudes",
-    "subcategory" : null,
-    "image": "/tasca-by-ciro/the-infusion.jpeg",
-    "price": 6.00,
-    "allergens": [],
-    "diets": ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
-    "macros": { "calories": 2, "proteines": 0, "glucides": 0, "lipides": 0 },
-    "translations": {
-      "fr": {
-        "name": "Thé ou infusion bio",
-        "description": "Thé ou infusion bio. (Estimations macros)"
-            },
-      "en": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "it": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "es": {
-        "name": "TODO",
-        "description": "TODO"
-      }
-    }
-  },
-  {
-    "id": "cappuccino",
-    "category": "boissons-chaudes",
-    "subcategory" : null,
-    "image": "/tasca-by-ciro/cappuccino.jpeg",
-    "price": 7.00,
-    "allergens": ["lait"],
-    "diets": ["vegetarien", "sans-gluten"],
-    "macros": { "calories": 120, "proteines": 6, "glucides": 10, "lipides": 6 },
-    "translations": {
-      "fr": {
-        "name": "Cappuccino au lait bio",
-        "description": "Cappuccino au lait bio, disponible avec ou sans lactose. (Estimations macros)"
-            },
-      "en": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "it": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "es": {
-        "name": "TODO",
-        "description": "TODO"
-      }
-    }
-  },
-  {
-    "id": "amaretto",
-    "category": "digestifs",
-    "subcategory" : null,
-    "image": "/tasca-by-ciro/amaretto.jpeg",
-    "price": 13.00,
-    "allergens": ["fruits-a-coque"],
-    "diets": ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
-    "macros": { "calories": 110, "proteines": 0, "glucides": 14, "lipides": 0 },
-    "translations": {
-      "fr": {
-        "name": "Amaretto 4cl",
-        "description": "Liqueur d'amande bio 4cl. (Estimations macros)"
-            },
-      "en": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "it": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "es": {
-        "name": "TODO",
-        "description": "TODO"
-      }
-    }
-  },
-  {
-    "id": "limoncello",
-    "category": "digestifs",
-    "subcategory" : null,
-    "image": "/tasca-by-ciro/limoncello.jpeg",
-    "price": 13.00,
-    "allergens": [],
-    "diets": ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
-    "macros": { "calories": 110, "proteines": 0, "glucides": 12, "lipides": 0 },
-    "translations": {
-      "fr": {
-        "name": "Limoncello 4cl",
-        "description": "Liqueur de citron bio 4cl. (Estimations macros)"
-            },
-      "en": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "it": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "es": {
-        "name": "TODO",
-        "description": "TODO"
-      }
-    }
-  },
-  {
-    "id": "grappa",
-    "category": "digestifs",
-    "subcategory" : null,
-    "image": "/tasca-by-ciro/grappa.jpeg",
-    "price": 13.00,
-    "allergens": ["so2"],
-    "diets": ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
-    "macros": { "calories": 100, "proteines": 0, "glucides": 0, "lipides": 0 },
-    "translations": {
-      "fr": {
-        "name": "Grappa 4cl",
-        "description": "Eau de vie de marc de raisin bio 4cl. (Estimations macros)"
-            },
-      "en": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "it": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "es": {
-        "name": "TODO",
-        "description": "TODO"
-      }
-    }
-  },
-  {
-    "id": "sambucca-biostilla",
-    "category": "digestifs",
-    "subcategory" : null,
-    "image": "/tasca-by-ciro/sambucca-biostilla.jpeg",
-    "price": 13.00,
-    "allergens": [],
-    "diets": ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
-    "macros": { "calories": 110, "proteines": 0, "glucides": 12, "lipides": 0 },
-    "translations": {
-      "fr": {
-        "name": "Sambucca Biostilla 4cl",
-        "description": "Liqueur d'anis étoilé bio 4cl. (Estimations macros)"
-            },
-      "en": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "it": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "es": {
-        "name": "TODO",
-        "description": "TODO"
-      }
-    }
-  },
-  {
-    "id": "formule-3-services",
-    "category": "formules",
-    "subcategory" : null,
-    "image": "/tasca-by-ciro/formule-3-services.jpeg",
-    "price": 28.50,
-    "allergens": [],
-    "diets": ["sans-gluten"],
-    "macros": { "calories": 0, "proteines": 0, "glucides": 0, "lipides": 0 },
-    "translations": {
-      "fr": {
-        "name": "Formule déjeuner 3 services",
-        "description": "Entrée + Plat + Dessert (hors boissons). Au choix à l'ardoise. Jusqu'à 15h30, hors week-end et jours fériés. (Macros non applicables - dépend des choix)"
-            },
-      "en": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "it": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "es": {
-        "name": "TODO",
-        "description": "TODO"
-      }
-    }
-  },
-  {
-    "id": "formule-2-services",
-    "category": "formules",
-    "subcategory" : null,
-    "image": "/tasca-by-ciro/formule-2-services.jpeg",
-    "price": 22.50,
-    "allergens": [],
-    "diets": ["sans-gluten"],
-    "macros": { "calories": 0, "proteines": 0, "glucides": 0, "lipides": 0 },
-    "translations": {
-      "fr": {
-        "name": "Formule déjeuner 2 services",
-        "description": "Entrée + Plat ou Plat + Dessert (hors boissons). Au choix à l'ardoise. Jusqu'à 15h30, hors week-end et jours fériés. (Macros non applicables - dépend des choix)"
-            },
-      "en": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "it": {
-        "name": "TODO",
-        "description": "TODO"
-      },
-      "es": {
-        "name": "TODO",
-        "description": "TODO"
-      }
-    }
-  }
-],
+  tasca: [
+    {
+      id: "legumes-grilles",
+      category: "antipasti",
+      subcategory: null,
+      image: pexels(9213913),
+      price: 19.0,
+      allergens: [],
+      diets: ["sans-gluten", "vegetarien", "vegan", "sans-lactose", "halal", "casher"],
+      macros: { calories: 180, proteines: 4, glucides: 14, lipides: 12 },
+      translations: {
+        fr: {
+          name: "Légumes grillés",
+          description:
+            "Courgettes, aubergines, poivrons, champignons et tomates grillés marinés à l'huile d'olive extra vierge, basilic.",
+        },
+        en: {
+          name: "Grilled Vegetables",
+          description:
+            "Grilled zucchini, eggplant, peppers, mushrooms and tomatoes marinated in extra virgin olive oil, basil.",
+        },
+        it: {
+          name: "Verdure Grigliate",
+          description:
+            "Zucchine, melanzane, peperoni, funghi e pomodori grigliati marinati in olio extravergine di oliva, basilico.",
+        },
+        es: {
+          name: "Verduras a la Parrilla",
+          description:
+            "Calabacines, berenjenas, pimientos, champiñones y tomates a la parrilla marinados en aceite de oliva virgen extra, albahaca.",
+        },
+      },
+    },
+    {
+      id: "mozzarella-de-bufflonne",
+      category: "antipasti",
+      subcategory: null,
+      image: pexels(28841111),
+      price: 18.0,
+      allergens: ["lait"],
+      diets: ["sans-gluten", "vegetarien"],
+      macros: { calories: 320, proteines: 18, glucides: 6, lipides: 25 },
+      translations: {
+        fr: {
+          name: "Mozzarella de bufflonne",
+          description: "Mozzarella de bufflonne, tomates, câpres, olives.",
+        },
+        en: {
+          name: "Mozzarella de bufflonne",
+          description: "Mozzarella de bufflonne, tomatoes, capers, olives.",
+        },
+        it: {
+          name: "Mozzarella di bufala",
+          description: "Mozzarella di bufala, pomodori, acciugole, olive.",
+        },
+        es: {
+          name: "Mozzarella de bufflonne",
+          description:
+            "Mozzarella de bufflonne, tomates, encurtidos, aceitunas.",
+        },
+      },
+    },
+    {
+      id: "burrata-et-legumes-grilles",
+      category: "antipasti",
+      subcategory: null,
+      image: pexels(26833230),
+      price: 20.0,
+      allergens: ["lait"],
+      diets: ["sans-gluten", "vegetarien"],
+      macros: { calories: 420, proteines: 18, glucides: 14, lipides: 32 },
+      translations: {
+        fr: {
+          name: "Burrata et légumes grillés",
+          description:
+            "Fromage italien au cœur crémeux, courgettes, aubergines, tomates, champignons, poivrons, huile d'olive extra vierge.",
+        },
+        en: {
+          name: "Burrata and Grilled Vegetables",
+          description:
+            "Italian cheese with a creamy heart, grilled zucchini, eggplant, tomatoes, mushrooms, peppers, extra virgin olive oil.",
+        },
+        it: {
+          name: "Burrata e Verdure Grigliate",
+          description:
+            "Formaggio italiano con cuore cremoso, zucchine grigliate, melanzane, pomodori, funghi, peperoni, olio extravergine di oliva.",
+        },
+        es: {
+          name: "Burrata y Verduras a la Parrilla",
+          description:
+            "Queso italiano con corazón cremoso, calabacines a la parrilla, berenjenas, tomates, champiñones, pimientos, aceite de oliva virgen extra.",
+        },
+      },
+    },
+    {
+      id: "aubergines-a-la-parmigiana",
+      category: "antipasti",
+      subcategory: null,
+      image: pexels(8736388),
+      price: 20.0,
+      allergens: ["lait"],
+      diets: ["sans-gluten", "vegetarien"],
+      macros: { calories: 380, proteines: 16, glucides: 18, lipides: 27 },
+      translations: {
+        fr: {
+          name: "Aubergines à la parmigiana",
+          description:
+            "Millefeuille d'aubergines grillées, tomates, mozzarella, huile d'olive extra vierge, basilic, origan.",
+        },
+        en: {
+          name: "Eggplant Parmigiana",
+          description:
+            "Layered grilled eggplant with tomatoes, mozzarella, extra virgin olive oil, basil, oregano.",
+        },
+        it: {
+          name: "Melanzane alla Parmigiana",
+          description:
+            "Melanzane grigliate in strati con pomodori, mozzarella, olio extravergine di oliva, basilico, origano.",
+        },
+        es: {
+          name: "Berenjenas a la Parmigiana",
+          description:
+            "Berenjenas a la parrilla en capas con tomates, mozzarella, aceite de oliva virgen extra, albahaca, orégano.",
+        },
+      },
+    },
+    {
+      id: "salade-de-coeurs-d-artichauts",
+      category: "antipasti",
+      subcategory: null,
+      image: pexels(6215483),
+      price: 21.0,
+      allergens: ["lait"],
+      diets: ["sans-gluten", "vegetarien"],
+      macros: { calories: 280, proteines: 10, glucides: 16, lipides: 20 },
+      translations: {
+        fr: {
+          name: "Salade de cœurs d'artichauts",
+          description:
+            "Julienne de cœurs d'artichauts, roquette, huile d'olive extra vierge, copeaux de parmesan affiné.",
+        },
+        en: {
+          name: "Artichoke Heart Salad",
+          description:
+            "Julienned artichoke hearts, arugula, extra virgin olive oil, shavings of aged parmesan.",
+        },
+        it: {
+          name: "Insalata di Cuori di Carciofo",
+          description:
+            "Julienne di cuori di carciofo, rucola, olio extravergine di oliva, scaglie di parmigiano stagionato.",
+        },
+        es: {
+          name: "Ensalada de Corazones de Alcachofa",
+          description:
+            "Juliana de corazones de alcachofa, rúcula, aceite de oliva virgen extra, lascas de parmesano añejo.",
+        },
+      },
+    },
+    {
+      id: "vitello-tonnato",
+      category: "antipasti",
+      subcategory: null,
+      image: pexels(33889701),
+      price: 22.0,
+      allergens: ["poissons", "oeufs"],
+      diets: ["sans-gluten", "sans-lactose"],
+      macros: { calories: 380, proteines: 32, glucides: 4, lipides: 26 },
+      translations: {
+        fr: {
+          name: "Vitello tonnato",
+          description:
+            "Carpaccio de veau mi-cuit sauce au thon, anchois et câpres.",
+        },
+        en: {
+          name: "Vitello Tonnato",
+          description:
+            "Sliced veal with a sauce of tuna, anchovies and capers.",
+        },
+        it: {
+          name: "Vitello Tonnato",
+          description:
+            "Carpaccio di vitello cotto al sangue con salsa di tonno, acciughe e capperi.",
+        },
+        es: {
+          name: "Vitello Tonnato",
+          description:
+            "Carpaccio de ternera cocida al punto con salsa de atún, anchoas y alcaparras.",
+        },
+      },
+    },
+    {
+      id: "carpaccio-de-saumon-bio",
+      category: "antipasti",
+      subcategory: null,
+      image: pexels(19302568),
+      price: 23.0,
+      allergens: ["poissons"],
+      diets: ["sans-gluten", "sans-lactose"],
+      macros: { calories: 280, proteines: 26, glucides: 1, lipides: 19 },
+      translations: {
+        fr: {
+          name: "Carpaccio de saumon bio",
+          description: "Filet de saumon bio mariné au citron et à l'aneth.",
+        },
+        en: {
+          name: "Bio Salmon Carpaccio",
+          description: "Bio salmon fillet marinated with lemon and dill.",
+        },
+        it: {
+          name: "Carpaccio di Salmone Bio",
+          description: "Filetto di salmone bio marinato al limone e aneto.",
+        },
+        es: {
+          name: "Carpaccio de Salmón Bio",
+          description: "Filete de salmón bio marinado con limón y eneldo.",
+        },
+      },
+    },
+    {
+      id: "carpaccio-de-filet-de-bar",
+      category: "antipasti",
+      subcategory: null,
+      image: pexels(35479247),
+      price: 24.0,
+      allergens: ["poissons"],
+      diets: ["sans-gluten", "sans-lactose"],
+      macros: { calories: 240, proteines: 24, glucides: 1, lipides: 15 },
+      translations: {
+        fr: {
+          name: "Carpaccio de filet de bar à l'huile d'olive et poivre rose",
+          description:
+            "Filet de bar mariné à l'huile d'olive extra vierge et poivre rose.",
+        },
+        en: {
+          name: "Sea Bass Fillet Carpaccio with Olive Oil and Pink Pepper",
+          description:
+            "Sea bass fillet marinated with extra virgin olive oil and pink pepper.",
+        },
+        it: {
+          name: "Carpaccio di Filetto di Branzino con Olio d'Oliva e Pepe Rosa",
+          description:
+            "Filetto di branzino marinato con olio extravergine di oliva e pepe rosa.",
+        },
+        es: {
+          name: "Carpaccio de Filete de Lubina con Aceite de Oliva y Pimienta Rosa",
+          description:
+            "Filete de lubina marinado con aceite de oliva virgen extra y pimienta rosa.",
+        },
+      },
+    },
+    {
+      id: "planche-de-l-amitie",
+      category: "antipasti",
+      subcategory: null,
+      image: pexels(35438980),
+      price: 19.0,
+      allergens: ["lait"],
+      diets: ["sans-gluten"],
+      macros: { calories: 520, proteines: 28, glucides: 14, lipides: 38 },
+      translations: {
+        fr: {
+          name: "Planche de l'amitié",
+          description:
+            "Charcuterie artisanale italienne, légumes grillés, mozzarella, artichauts et parmesan. Disponible pour 1 personne (19€) ou 2 personnes (35€).",
+        },
+        en: {
+          name: "Friendship Board",
+          description:
+            "Italian artisanal charcuterie, grilled vegetables, mozzarella, artichokes and parmesan. Available for 1 person (19€) or 2 people (35€).",
+        },
+        it: {
+          name: "Tagliere dell'Amicizia",
+          description:
+            "Salumi artigianali italiani, verdure grigliate, mozzarella, carciofi e parmigiano. Disponibile per 1 persona (19€) o 2 persone (35€).",
+        },
+        es: {
+          name: "Tabla de la Amistad",
+          description:
+            "Charcutería artesanal italiana, verduras a la parrilla, mozzarella, alcachofas y parmesano. Disponible para 1 persona (19€) o 2 personas (35€).",
+        },
+      },
+    },
+    {
+      id: "focaccia-aux-legumes",
+      category: "focaccia",
+      subcategory: null,
+      image: pexels(9433002),
+      price: 21.0,
+      allergens: [],
+      diets: ["sans-gluten", "vegetarien", "vegan", "sans-lactose", 'halal', 'casher'],
+      macros: { calories: 520, proteines: 12, glucides: 68, lipides: 22 },
+      translations: {
+        fr: {
+          name: "Focaccia aux légumes, fleur de sel et romarin",
+          description:
+            "Courgettes, aubergines, tomates, poivrons, champignons grillés, basilic et huile d'olive extra vierge.",
+        },
+        en: {
+          name: "Vegetable Focaccia with Fleur de Sel and Rosemary",
+          description:
+            "Grilled zucchini, eggplant, tomatoes, peppers, mushrooms, basil and extra virgin olive oil.",
+        },
+        it: {
+          name: "Focaccia alle Verdure con Fleur de Sel e Rosmarino",
+          description:
+            "Zucchine, melanzane, pomodori, peperoni, funghi grigliati, basilico e olio extravergine di oliva.",
+        },
+        es: {
+          name: "Focaccia de Verduras con Fleur de Sel y Romero",
+          description:
+            "Calabacines, berenjenas, tomates, pimientos, champiñones a la parrilla, albahaca y aceite de oliva virgen extra.",
+        },
+      },
+    },
+    {
+      id: "focaccia-aux-quatre-fromages",
+      category: "focaccia",
+      subcategory: null,
+      image: pexels(30666820),
+      price: 22.0,
+      allergens: ["lait"],
+      diets: ["sans-gluten", "vegetarien"],
+      macros: { calories: 720, proteines: 32, glucides: 62, lipides: 38 },
+      translations: {
+        fr: {
+          name: "Focaccia aux quatre fromages",
+          description:
+            "Mozzarella fior di latte, gorgonzola, taleggio, parmesan.",
+        },
+        en: {
+          name: "Four Cheese Focaccia",
+          description:
+            "Mozzarella fior di latte, gorgonzola, taleggio, parmesan.",
+        },
+        it: {
+          name: "Focaccia ai quattro formaggi",
+          description:
+            "Mozzarella fior di latte, gorgonzola, taleggio, parmigiano.",
+        },
+        es: {
+          name: "Focaccia de cuatro quesos",
+          description:
+            "Mozzarella fior di latte, gorgonzola, taleggio, parmesano.",
+        },
+      },
+    },
+    {
+      id: "focaccia-au-jambon-et-fromages",
+      category: "focaccia",
+      subcategory: null,
+      image: pexels(34581357),
+      price: 23.0,
+      allergens: ["lait"],
+      diets: ["sans-gluten"],
+      macros: { calories: 680, proteines: 30, glucides: 60, lipides: 34 },
+      translations: {
+        fr: {
+          name: "Focaccia au jambon et fromages",
+          description: "Mozzarella fior di latte, jambon blanc.",
+        },
+        en: {
+          name: "Ham and Cheese Focaccia",
+          description: "Mozzarella fior di latte, white ham.",
+        },
+        it: {
+          name: "Focaccia al prosciutto e formaggi",
+          description: "Mozzarella fior di latte, prosciutto cotto.",
+        },
+        es: {
+          name: "Focaccia de jamón y quesos",
+          description: "Mozzarella fior di latte, jamón cocido.",
+        },
+      },
+    },
+    {
+      id: "fusilli-vegetarienne",
+      category: "pates-classiques",
+      subcategory: null,
+      image: pexels(1279330),
+      price: 22.0,
+      allergens: ["oeufs", "lait"],
+      diets: ["sans-gluten", "vegetarien", "vegan", "sans-lactose", 'halal', 'casher'],
+      macros: { calories: 520, proteines: 14, glucides: 84, lipides: 12 },
+      translations: {
+        fr: {
+          name: "Fusilli végétarienne",
+          description:
+            "Courgettes, champignons, carottes, aubergines, basilic.",
+        },
+        en: {
+          name: "Vegetarian Fusilli",
+          description: "Zucchini, mushrooms, carrots, eggplant, basil.",
+        },
+        it: {
+          name: "Fusilli vegetariani",
+          description: "Zucchine, funghi, carote, melanzane, basilico.",
+        },
+        es: {
+          name: "Fusilli vegetariano",
+          description:
+            "Calabacines, champiñones, zanahorias, berenjenas, albahaca.",
+        },
+      },
+    },
+    {
+      id: "penne-a-la-norma",
+      category: "pates-et-risottos",
+      subcategory: "Pâtes classiques",
+      image: pexels(7837671),
+      price: 23.0,
+      allergens: ["oeufs", "lait"],
+      diets: ["sans-gluten", "vegetarien"],
+      macros: { calories: 620, proteines: 22, glucides: 86, lipides: 20 },
+      translations: {
+        fr: {
+          name: "Penne à la Norma",
+          description:
+            "Sauce tomate maison mijotée à l'ancienne, aubergines, mozzarella, origan, basilic.",
+        },
+        en: {
+          name: "Penne alla Norma",
+          description:
+            "Slow-cooked homemade tomato sauce, eggplant, mozzarella, oregano, basil.",
+        },
+        it: {
+          name: "Penne alla Norma",
+          description:
+            "Salsa di pomodoro casalinga stufata all'antica, melanzane, mozzarella, origano, basilico.",
+        },
+        es: {
+          name: "Penne alla Norma",
+          description:
+            "Salsa de tomate casera a fuego lento, berenjenas, mozzarella, orégano, albahaca.",
+        },
+      },
+    },
+    {
+      id: "penne-a-l-arrabbiata",
+      category: "pates-et-risottos",
+      subcategory: "Pâtes classiques",
+      image: pexels(11161425),
+      price: 22.0,
+      allergens: ["oeufs"],
+      diets: ["sans-gluten", "vegetarien", "vegan", "sans-lactose", 'halal', 'casher'],
+      macros: { calories: 480, proteines: 12, glucides: 88, lipides: 8 },
+      translations: {
+        fr: {
+          name: "Penne à l'arrabbiata",
+          description: "Sauce tomate maison mijotée à l'ail et au persil.",
+        },
+        en: {
+          name: "Penne all'Arrabbiata",
+          description:
+            "Homemade tomato sauce slow-cooked with garlic and parsley.",
+        },
+        it: {
+          name: "Penne all'arrabbiata",
+          description:
+            "Salsa di pomodoro casalinga stufata con aglio e prezzemolo.",
+        },
+        es: {
+          name: "Penne all'arrabbiata",
+          description:
+            "Salsa de tomate casera a fuego lento con ajo y perejil.",
+        },
+      },
+    },
+    {
+      id: "spaghetti-a-la-carbonara",
+      category: "pates-et-risottos",
+      subcategory: "Pâtes classiques",
+      image: pexels(29039082),
+      price: 24.0,
+      allergens: ["oeufs", "lait"],
+      diets: ["sans-gluten"],
+      macros: { calories: 760, proteines: 32, glucides: 82, lipides: 34 },
+      translations: {
+        fr: {
+          name: "Spaghetti à la carbonara (L'Originale)",
+          description:
+            "Joue de porc romain caramélisée avec œuf, pecorino, poivre noir.",
+        },
+        en: {
+          name: "Spaghetti alla Carbonara (The Original)",
+          description:
+            "Caramelized Roman pork cheek with egg, pecorino, black pepper.",
+        },
+        it: {
+          name: "Spaghetti alla carbonara (L'Originale)",
+          description:
+            "Guanciale romano caramellato con uovo, pecorino, pepe nero.",
+        },
+        es: {
+          name: "Spaghetti a la carbonara (El Original)",
+          description:
+            "Carrillera de cerdo romano caramelizada con huevo, pecorino, pimienta negra.",
+        },
+      },
+    },
+    {
+      id: "spaghetti-aux-palourdes",
+      category: "pates-et-risottos",
+      subcategory: "Pâtes classiques",
+      image: pexels(9244891),
+      price: 27.0,
+      allergens: ["oeufs", "mollusques"],
+      diets: ["sans-gluten", "sans-lactose"],
+      macros: { calories: 580, proteines: 26, glucides: 80, lipides: 14 },
+      translations: {
+        fr: {
+          name: "Spaghetti aux palourdes",
+          description:
+            "Palourdes, tomates, persil, huile d'olive extra vierge.",
+        },
+        en: {
+          name: "Spaghetti alle Vongole",
+          description: "Clams, tomatoes, parsley, extra virgin olive oil.",
+        },
+        it: {
+          name: "Spaghetti alle vongole",
+          description:
+            "Vongole, pomodori, prezzemolo, olio extravergine di oliva.",
+        },
+        es: {
+          name: "Spaghetti con almejas",
+          description:
+            "Almejas, tomates, perejil, aceite de oliva virgen extra.",
+        },
+      },
+    },
+    {
+      id: "spaghetti-a-la-boutargue",
+      category: "pates-et-risottos",
+      subcategory: "Pâtes classiques",
+      image: pexels(750071),
+      price: 29.0,
+      allergens: ["poissons", "oeufs"],
+      diets: ["sans-gluten", "sans-lactose"],
+      macros: { calories: 620, proteines: 24, glucides: 80, lipides: 22 },
+      translations: {
+        fr: {
+          name: "Spaghetti à la boutargue",
+          description: "Boutargue (œufs de mulet) et sauce.",
+        },
+        en: {
+          name: "Spaghetti with Bottarga",
+          description: "Bottarga (mullet roe) and sauce.",
+        },
+        it: {
+          name: "Spaghetti alla bottarga",
+          description: "Bottarga (uova di muggine) e salsa.",
+        },
+        es: {
+          name: "Spaghetti con bottarga",
+          description: "Bottarga (huevas de mújol) y salsa.",
+        },
+      },
+    },
+    {
+      id: "fettuccine-aux-cepes",
+      category: "pates-et-risottos",
+      subcategory: "Fettuccine fraîches",
+      image: pexels(11220208),
+      price: 24.0,
+      allergens: ["oeufs"],
+      diets: ["sans-gluten", "vegetarien", "sans-lactose"],
+      macros: { calories: 580, proteines: 18, glucides: 76, lipides: 20 },
+      translations: {
+        fr: {
+          name: "Fettuccine rustiche aux cèpes",
+          description: "Pâtes fraîches maison, poêlée de cèpes au romarin.",
+        },
+        en: {
+          name: "Rustic Fettuccine with Porcini Mushrooms",
+          description:
+            "Homemade fresh pasta, sautéed porcini mushrooms with rosemary.",
+        },
+        it: {
+          name: "Fettuccine rustiche ai porcini",
+          description:
+            "Pasta fresca fatta in casa, porcini saltati al rosmarino.",
+        },
+        es: {
+          name: "Fettuccine rústicas con boletus",
+          description: "Pasta fresca casera, salteado de boletus con romero.",
+        },
+      },
+    },
+    {
+      id: "fettuccine-a-la-bolognaise",
+      category: "pates-et-risottos",
+      subcategory: "Fettuccine fraîches",
+      image: pexels(5639761),
+      price: 22.0,
+      allergens: ["oeufs"],
+      diets: ["sans-gluten"],
+      macros: { calories: 680, proteines: 30, glucides: 76, lipides: 26 },
+      translations: {
+        fr: {
+          name: "Fettuccine rustiche à la bolognaise",
+          description:
+            "Pâtes fraîches maison, sauce bolognaise maison (bœuf 100% français).",
+        },
+        en: {
+          name: "Rustic Fettuccine Bolognese",
+          description:
+            "Homemade fresh pasta, homemade bolognese sauce (100% French beef).",
+        },
+        it: {
+          name: "Fettuccine rustiche alla bolognese",
+          description:
+            "Pasta fresca fatta in casa, ragù bolognese casalingo (manzo 100% francese).",
+        },
+        es: {
+          name: "Fettuccine rústicas a la boloñesa",
+          description:
+            "Pasta fresca casera, salsa boloñesa casera (ternera 100% francesa).",
+        },
+      },
+    },
+    {
+      id: "fettuccine-tomate-basilic",
+      category: "pates-et-risottos",
+      subcategory: "Fettuccine fraîches",
+      image: pexels(5507628),
+      price: 21.0,
+      allergens: ["oeufs"],
+      diets: ["sans-gluten", "vegetarien", "sans-lactose"],
+      macros: { calories: 520, proteines: 16, glucides: 84, lipides: 12 },
+      translations: {
+        fr: {
+          name: "Fettuccine rustiche tomate et basilic",
+          description:
+            "Pâtes fraîches maison, sauce tomate mijotée à l'ancienne.",
+        },
+        en: {
+          name: "Rustic Fettuccine Tomato and Basil",
+          description:
+            "Homemade fresh pasta, slow-cooked homemade tomato sauce.",
+        },
+        it: {
+          name: "Fettuccine rustiche al pomodoro e basilico",
+          description:
+            "Pasta fresca fatta in casa, salsa di pomodoro stufata all'antica.",
+        },
+        es: {
+          name: "Fettuccine rústicas con tomate y albahaca",
+          description:
+            "Pasta fresca casera, salsa de tomate casera a fuego lento.",
+        },
+      },
+    },
+    {
+      id: "fettuccine-a-la-carbonara",
+      category: "pates-et-risottos",
+      subcategory: "Fettuccine fraîches",
+      image: pexels(5710173),
+      price: 23.0,
+      allergens: ["oeufs", "lait"],
+      diets: ["sans-gluten"],
+      macros: { calories: 760, proteines: 32, glucides: 78, lipides: 34 },
+      translations: {
+        fr: {
+          name: "Fettuccine rustiche à la carbonara",
+          description:
+            "Pâtes fraîches maison, joue de porc romain caramélisée, œuf, pecorino et poivre noir.",
+        },
+        en: {
+          name: "Rustic Fettuccine Carbonara",
+          description:
+            "Homemade fresh pasta, caramelized Roman pork cheek, egg, pecorino and black pepper.",
+        },
+        it: {
+          name: "Fettuccine rustiche alla carbonara",
+          description:
+            "Pasta fresca fatta in casa, guanciale romano caramellato, uovo, pecorino e pepe nero.",
+        },
+        es: {
+          name: "Fettuccine rústicas a la carbonara",
+          description:
+            "Pasta fresca casera, carrillera de cerdo romano caramelizada, huevo, pecorino y pimienta negra.",
+        },
+      },
+    },
+    {
+      id: "fettuccine-aux-fruits-de-mer",
+      category: "pates-et-risottos",
+      subcategory: "Fettuccine fraîches",
+      image: pexels(11654218),
+      price: 30.0,
+      allergens: ["oeufs", "mollusques", "poissons"],
+      diets: ["sans-gluten", "sans-lactose"],
+      macros: { calories: 640, proteines: 30, glucides: 78, lipides: 22 },
+      translations: {
+        fr: {
+          name: "Fettuccine rustiche aux fruits de mer",
+          description:
+            "Pâtes fraîches maison, palourdes, saumon et boutargue (œufs de mulet).",
+        },
+        en: {
+          name: "Rustic Fettuccine with Seafood",
+          description:
+            "Homemade fresh pasta, clams, salmon and bottarga (mullet roe).",
+        },
+        it: {
+          name: "Fettuccine rustiche ai frutti di mare",
+          description:
+            "Pasta fresca fatta in casa, vongole, salmone e bottarga (uova di muggine).",
+        },
+        es: {
+          name: "Fettuccine rústicas con mariscos",
+          description:
+            "Pasta fresca casera, almejas, salmón y bottarga (huevas de mújol).",
+        },
+      },
+    },
+    {
+      id: "tortelli-ricotta-epinards",
+      category: "pates-et-risottos",
+      subcategory: "Tortellis/Raviolis frais",
+      image: pexels(750941),
+      price: 22.0,
+      allergens: ["oeufs", "lait"],
+      diets: ["sans-gluten", "vegetarien"],
+      macros: { calories: 560, proteines: 22, glucides: 72, lipides: 20 },
+      translations: {
+        fr: {
+          name: "Tortelli à la ricotta et aux épinards",
+          description:
+            "Farcis à la ricotta et aux épinards, sauce citron, sauge et parmesan.",
+        },
+        en: {
+          name: "Tortelli with Ricotta and Spinach",
+          description:
+            "Stuffed with ricotta and spinach, lemon, sage and parmesan sauce.",
+        },
+        it: {
+          name: "Tortelli ricotta e spinaci",
+          description:
+            "Ripieni di ricotta e spinaci, salsa al limone, salvia e parmigiano.",
+        },
+        es: {
+          name: "Tortelli de ricotta y espinacas",
+          description:
+            "Rellenos de ricotta y espinacas, salsa de limón, salvia y parmesano.",
+        },
+      },
+    },
+    {
+      id: "tortelli-quatre-fromages",
+      category: "pates-et-risottos",
+      subcategory: "Tortellis/Raviolis frais",
+      image: pexels(30572362),
+      price: 24.0,
+      allergens: ["oeufs", "lait"],
+      diets: ["sans-gluten", "vegetarien"],
+      macros: { calories: 700, proteines: 28, glucides: 70, lipides: 34 },
+      translations: {
+        fr: {
+          name: "Tortelli aux quatre fromages",
+          description:
+            "Sauce gorgonzola, ricotta, taleggio, copeaux de parmesan.",
+        },
+        en: {
+          name: "Four Cheese Tortelli",
+          description:
+            "Gorgonzola, ricotta, taleggio, parmesan shavings sauce.",
+        },
+        it: {
+          name: "Tortelli ai quattro formaggi",
+          description:
+            "Salsa gorgonzola, ricotta, taleggio, scaglie di parmigiano.",
+        },
+        es: {
+          name: "Tortelli de cuatro quesos",
+          description:
+            "Salsa de gorgonzola, ricotta, taleggio, virutas de parmesano.",
+        },
+      },
+    },
+    {
+      id: "ravioli-au-potiron",
+      category: "pates-et-risottos",
+      subcategory: "Tortellis/Raviolis frais",
+      image: pexels(18674110),
+      price: 23.0,
+      allergens: ["oeufs", "lait"],
+      diets: ["sans-gluten", "vegetarien"],
+      macros: { calories: 540, proteines: 16, glucides: 80, lipides: 16 },
+      translations: {
+        fr: {
+          name: "Ravioli au potiron",
+          description: "Ravioli farcis au potiron.",
+        },
+        en: {
+          name: "Pumpkin Ravioli",
+          description: "Pumpkin-stuffed ravioli.",
+        },
+        it: {
+          name: "Ravioli alla zucca",
+          description: "Ravioli ripieni di zucca.",
+        },
+        es: {
+          name: "Ravioli de calabaza",
+          description: "Ravioli rellenos de calabaza.",
+        },
+      },
+    },
+    {
+      id: "ravioli-au-boeuf",
+      category: "pates-et-risottos",
+      subcategory: "Tortellis/Raviolis frais",
+      image: pexels(33686287),
+      price: 24.0,
+      allergens: ["oeufs"],
+      diets: ["sans-gluten"],
+      macros: { calories: 620, proteines: 28, glucides: 72, lipides: 22 },
+      translations: {
+        fr: {
+          name: "Ravioli au bœuf",
+          description:
+            "Ravioli farcis au bœuf (viande de bœuf 100% française).",
+        },
+        en: {
+          name: "Beef Ravioli",
+          description: "Beef-stuffed ravioli (100% French beef).",
+        },
+        it: {
+          name: "Ravioli al manzo",
+          description: "Ravioli ripieni di manzo (carne bovina 100% francese).",
+        },
+        es: {
+          name: "Ravioli de ternera",
+          description: "Ravioli rellenos de ternera (carne 100% francesa).",
+        },
+      },
+    },
+    {
+      id: "ravioli-au-jambon-de-parme",
+      category: "pates-et-risottos",
+      subcategory: "Tortellis/Raviolis frais",
+      image: pexels(8601688),
+      price: 23.0,
+      allergens: ["oeufs", "lait"],
+      diets: ["sans-gluten"],
+      macros: { calories: 600, proteines: 28, glucides: 72, lipides: 22 },
+      translations: {
+        fr: {
+          name: "Ravioli au jambon de Parme",
+          description: "Ravioli farcis au jambon de Parme affiné et parmesan.",
+        },
+        en: {
+          name: "Parma Ham Ravioli",
+          description: "Ravioli stuffed with aged Parma ham and parmesan.",
+        },
+        it: {
+          name: "Ravioli al prosciutto di Parma",
+          description:
+            "Ravioli ripieni di prosciutto di Parma stagionato e parmigiano.",
+        },
+        es: {
+          name: "Ravioli de jamón de Parma",
+          description: "Ravioli rellenos de jamón de Parma curado y parmesano.",
+        },
+      },
+    },
+    {
+      id: "ravioli-truffe-cepes",
+      category: "pates-et-risottos",
+      subcategory: "Tortellis/Raviolis frais",
+      image: pexels(31769307),
+      price: 28.0,
+      allergens: ["oeufs", "lait"],
+      diets: ["sans-gluten", "vegetarien"],
+      macros: { calories: 680, proteines: 22, glucides: 74, lipides: 32 },
+      translations: {
+        fr: {
+          name: "Ravioli à la crème de truffe noire et cèpes",
+          description: "Ravioli à la crème de truffes noires et cèpes.",
+        },
+        en: {
+          name: "Ravioli with Black Truffle Cream and Porcini",
+          description:
+            "Ravioli with black truffle cream and porcini mushrooms.",
+        },
+        it: {
+          name: "Ravioli alla crema di tartufo nero e porcini",
+          description: "Ravioli alla crema di tartufo nero e porcini.",
+        },
+        es: {
+          name: "Ravioli con crema de trufa negra y boletus",
+          description: "Ravioli con crema de trufa negra y boletus.",
+        },
+      },
+    },
+    {
+      id: "lasagnes-a-la-bolognaise",
+      category: "pates-et-risottos",
+      subcategory: "Gratins aux pâtes fraîches",
+      image: pexels(4078163),
+      price: 24.0,
+      allergens: ["oeufs", "lait"],
+      diets: ["sans-gluten"],
+      macros: { calories: 720, proteines: 34, glucides: 70, lipides: 32 },
+      translations: {
+        fr: {
+          name: "Lasagnes à la bolognaise",
+          description:
+            "Viande de bœuf 100% française, sauce tomate maison et parmesan.",
+        },
+        en: {
+          name: "Bolognese Lasagna",
+          description: "100% French beef, homemade tomato sauce and parmesan.",
+        },
+        it: {
+          name: "Lasagne alla bolognese",
+          description:
+            "Carne bovina 100% francese, salsa di pomodoro casalinga e parmigiano.",
+        },
+        es: {
+          name: "Lasaña a la boloñesa",
+          description:
+            "Ternera 100% francesa, salsa de tomate casera y parmesano.",
+        },
+      },
+    },
+    {
+      id: "lasagnes-vegetariennes",
+      category: "pates-et-risottos",
+      subcategory: "Gratins aux pâtes fraîches",
+      image: pexels(2765875),
+      price: 23.0,
+      allergens: ["oeufs", "lait"],
+      diets: ["sans-gluten", "vegetarien"],
+      macros: { calories: 580, proteines: 22, glucides: 70, lipides: 22 },
+      translations: {
+        fr: {
+          name: "Lasagnes à la végétarienne",
+          description:
+            "Courgettes, champignons, aubergines, artichauts, poivrons, basilic.",
+        },
+        en: {
+          name: "Vegetarian Lasagna",
+          description:
+            "Zucchini, mushrooms, eggplant, artichokes, peppers, basil.",
+        },
+        it: {
+          name: "Lasagne vegetariane",
+          description:
+            "Zucchine, funghi, melanzane, carciofi, peperoni, basilico.",
+        },
+        es: {
+          name: "Lasaña vegetariana",
+          description:
+            "Calabacines, champiñones, berenjenas, alcachofas, pimientos, albahaca.",
+        },
+      },
+    },
+    {
+      id: "cannelloni",
+      category: "pates-et-risottos",
+      subcategory: "Gratins aux pâtes fraîches",
+      image: pexels(27305328),
+      price: 22.0,
+      allergens: ["oeufs", "lait", "fruits-a-coque"],
+      diets: ["sans-gluten", "vegetarien"],
+      macros: { calories: 560, proteines: 24, glucides: 60, lipides: 24 },
+      translations: {
+        fr: {
+          name: "Cannelloni",
+          description: "Ricotta, épinards, parmesan et noix de muscade.",
+        },
+        en: {
+          name: "Cannelloni",
+          description: "Ricotta, spinach, parmesan and nutmeg.",
+        },
+        it: {
+          name: "Cannelloni",
+          description: "Ricotta, spinaci, parmigiano e noce moscata.",
+        },
+        es: {
+          name: "Canelones",
+          description: "Ricotta, espinacas, parmesano y nuez moscada.",
+        },
+      },
+    },
+    {
+      id: "gnocchis-tomate-basilic",
+      category: "pates-et-risottos",
+      subcategory: "Gnocchis de pomme de terre",
+      image: pexels(12041931),
+      price: 23.0,
+      allergens: ["oeufs"],
+      diets: ["sans-gluten", "vegetarien", "sans-lactose"],
+      macros: { calories: 520, proteines: 12, glucides: 90, lipides: 12 },
+      translations: {
+        fr: {
+          name: "Gnocchis à la sauce tomate et basilic",
+          description:
+            "Gnocchis de pommes de terre, sauce tomate maison et basilic.",
+        },
+        en: {
+          name: "Gnocchi with Tomato Sauce and Basil",
+          description: "Potato gnocchi, homemade tomato sauce and basil.",
+        },
+        it: {
+          name: "Gnocchi al pomodoro e basilico",
+          description:
+            "Gnocchi di patate, salsa di pomodoro fatta in casa e basilico.",
+        },
+        es: {
+          name: "Gnocchi con salsa de tomate y albahaca",
+          description: "Gnocchi de patata, salsa de tomate casera y albahaca.",
+        },
+      },
+    },
+    {
+      id: "gnocchis-jambon-sauge-parmesan",
+      category: "pates-et-risottos",
+      subcategory: "Gnocchis de pomme de terre",
+      image: pexels(6659622),
+      price: 24.0,
+      allergens: ["oeufs", "lait"],
+      diets: ["sans-gluten"],
+      macros: { calories: 640, proteines: 26, glucides: 80, lipides: 24 },
+      translations: {
+        fr: {
+          name: "Gnocchis au jambon, sauge et parmesan",
+          description:
+            "Gnocchis de pommes de terre, jambon, sauge et parmesan.",
+        },
+        en: {
+          name: "Gnocchi with Ham, Sage and Parmesan",
+          description: "Potato gnocchi, ham, sage and parmesan.",
+        },
+        it: {
+          name: "Gnocchi con prosciutto, salvia e parmigiano",
+          description: "Gnocchi di patate, prosciutto, salvia e parmigiano.",
+        },
+        es: {
+          name: "Gnocchi con jamón, salvia y parmesano",
+          description: "Gnocchi de patata, jamón, salvia y parmesano.",
+        },
+      },
+    },
+    {
+      id: "gnocchis-creme-truffe",
+      category: "pates-et-risottos",
+      subcategory: "Gnocchis de pomme de terre",
+      image: pexels(14987817),
+      price: 28.0,
+      allergens: ["oeufs", "lait"],
+      diets: ["sans-gluten", "vegetarien"],
+      macros: { calories: 680, proteines: 14, glucides: 80, lipides: 32 },
+      translations: {
+        fr: {
+          name: "Gnocchis à la crème de truffes noires",
+          description:
+            "Gnocchis de pommes de terre à la crème de truffes noires.",
+        },
+        en: {
+          name: "Gnocchi with Black Truffle Cream",
+          description: "Potato gnocchi with black truffle cream.",
+        },
+        it: {
+          name: "Gnocchi alla crema di tartufo nero",
+          description: "Gnocchi di patate alla crema di tartufo nero.",
+        },
+        es: {
+          name: "Gnocchi con crema de trufa negra",
+          description: "Gnocchi de patata con crema de trufa negra.",
+        },
+      },
+    },
+    {
+      id: "gnocchis-quatre-fromages",
+      category: "pates-et-risottos",
+      subcategory: "Gnocchis de pomme de terre",
+      image: pexels(13398320),
+      price: 25.0,
+      allergens: ["oeufs", "lait"],
+      diets: ["sans-gluten", "vegetarien"],
+      macros: { calories: 760, proteines: 28, glucides: 78, lipides: 36 },
+      translations: {
+        fr: {
+          name: "Gnocchis aux 4 fromages",
+          description:
+            "Gnocchis de pommes de terre, mozzarella, gorgonzola, taleggio, parmesan.",
+        },
+        en: {
+          name: "Four Cheese Gnocchi",
+          description:
+            "Potato gnocchi, mozzarella, gorgonzola, taleggio, parmesan.",
+        },
+        it: {
+          name: "Gnocchi ai 4 formaggi",
+          description:
+            "Gnocchi di patate, mozzarella, gorgonzola, taleggio, parmigiano.",
+        },
+        es: {
+          name: "Gnocchi a los 4 quesos",
+          description:
+            "Gnocchi de patata, mozzarella, gorgonzola, taleggio, parmesano.",
+        },
+      },
+    },
+    {
+      id: "gnocchis-truffe-cepes",
+      category: "pates-et-risottos",
+      subcategory: "Gnocchis de pomme de terre",
+      image: pexels(8753670),
+      price: 29.0,
+      allergens: ["oeufs", "lait"],
+      diets: ["sans-gluten", "vegetarien"],
+      macros: { calories: 720, proteines: 16, glucides: 84, lipides: 34 },
+      translations: {
+        fr: {
+          name: "Gnocchis à la crème de truffes noires et cèpes",
+          description:
+            "Gnocchis de pommes de terre à la crème de truffes noires et cèpes.",
+        },
+        en: {
+          name: "Gnocchi with Black Truffle Cream and Porcini",
+          description:
+            "Potato gnocchi with black truffle cream and porcini mushrooms.",
+        },
+        it: {
+          name: "Gnocchi alla crema di tartufo nero e porcini",
+          description:
+            "Gnocchi di patate alla crema di tartufo nero e funghi porcini.",
+        },
+        es: {
+          name: "Gnocchi con crema de trufa negra y boletus",
+          description: "Gnocchi de patata con crema de trufa negra y boletus.",
+        },
+      },
+    },
+    {
+      id: "gnocchis-bolognaise",
+      category: "pates-et-risottos",
+      subcategory: "Gnocchis de pomme de terre",
+      image: pexels(37387302),
+      price: 26.0,
+      allergens: ["oeufs", "lait"],
+      diets: ["sans-gluten"],
+      macros: { calories: 720, proteines: 30, glucides: 82, lipides: 28 },
+      translations: {
+        fr: {
+          name: "Gnocchis à la bolognaise",
+          description: "Gnocchis de pommes de terre, sauce bolognaise.",
+        },
+        en: {
+          name: "Gnocchi Bolognese",
+          description: "Potato gnocchi, bolognese sauce.",
+        },
+        it: {
+          name: "Gnocchi alla bolognese",
+          description: "Gnocchi di patate, ragù alla bolognese.",
+        },
+        es: {
+          name: "Gnocchi a la boloñesa",
+          description: "Gnocchi de patata, salsa boloñesa.",
+        },
+      },
+    },
+    {
+      id: "gnocchis-vegetarien",
+      category: "pates-et-risottos",
+      subcategory: "Gnocchis de pomme de terre",
+      image: pexels(8112934),
+      price: 27.0,
+      allergens: ["oeufs"],
+      diets: ["sans-gluten", "vegetarien", "sans-lactose"],
+      macros: { calories: 580, proteines: 14, glucides: 88, lipides: 18 },
+      translations: {
+        fr: {
+          name: "Gnocchis végétarien",
+          description: "Gnocchis de pommes de terre avec des petits légumes.",
+        },
+        en: {
+          name: "Vegetarian Gnocchi",
+          description: "Potato gnocchi with seasonal vegetables.",
+        },
+        it: {
+          name: "Gnocchi vegetariani",
+          description: "Gnocchi di patate con verdurine.",
+        },
+        es: {
+          name: "Gnocchi vegetariano",
+          description: "Gnocchi de patata con verduritas.",
+        },
+      },
+    },
+    {
+      id: "risotto-romarin-citron-scamorza",
+      category: "pates-et-risottos",
+      subcategory: "Risottos sans gluten",
+      image: pexels(33673987),
+      price: 27.0,
+      allergens: ["lait"],
+      diets: ["sans-gluten", "vegetarien"],
+      macros: { calories: 620, proteines: 18, glucides: 78, lipides: 24 },
+      translations: {
+        fr: {
+          name: "Risotto au romarin, citron et scamorza fumée",
+          description: "Risotto au romarin, citron et scamorza fumée.",
+        },
+        en: {
+          name: "Rosemary, Lemon and Smoked Scamorza Risotto",
+          description:
+            "Risotto with rosemary, lemon and smoked scamorza cheese.",
+        },
+        it: {
+          name: "Risotto al rosmarino, limone e scamorza affumicata",
+          description: "Risotto al rosmarino, limone e scamorza affumicata.",
+        },
+        es: {
+          name: "Risotto al romero, limón y scamorza ahumada",
+          description: "Risotto al romero, limón y scamorza ahumada.",
+        },
+      },
+    },
+    {
+      id: "risotto-vegetarien",
+      category: "pates-et-risottos",
+      subcategory: "Risottos sans gluten",
+      image: pexels(36430162),
+      price: 28.0,
+      allergens: ["lait"],
+      diets: ["sans-gluten", "vegetarien"],
+      macros: { calories: 580, proteines: 16, glucides: 86, lipides: 18 },
+      translations: {
+        fr: {
+          name: "Risotto végétarien",
+          description:
+            "Risotto arborio émulsionné au parmesan, courgettes, aubergines, artichauts, tomates, carottes.",
+        },
+        en: {
+          name: "Vegetarian Risotto",
+          description:
+            "Arborio risotto with parmesan, zucchini, eggplant, artichokes, tomatoes, carrots.",
+        },
+        it: {
+          name: "Risotto vegetariano",
+          description:
+            "Risotto arborio mantecato al parmigiano, zucchine, melanzane, carciofi, pomodori, carote.",
+        },
+        es: {
+          name: "Risotto vegetariano",
+          description:
+            "Risotto arborio con parmesano, calabacines, berenjenas, alcachofas, tomates, zanahorias.",
+        },
+      },
+    },
+    {
+      id: "risotto-truffe-cepes",
+      category: "pates-et-risottos",
+      subcategory: "Risottos sans gluten",
+      image: pexels(7491887),
+      price: 31.0,
+      allergens: ["lait"],
+      diets: ["sans-gluten", "vegetarien"],
+      macros: { calories: 700, proteines: 16, glucides: 80, lipides: 32 },
+      translations: {
+        fr: {
+          name: "Risotto à la crème de truffe noire et cèpes",
+          description: "Risotto à la crème de truffe noire et cèpes.",
+        },
+        en: {
+          name: "Black Truffle Cream and Porcini Risotto",
+          description:
+            "Risotto with black truffle cream and porcini mushrooms.",
+        },
+        it: {
+          name: "Risotto alla crema di tartufo nero e porcini",
+          description: "Risotto alla crema di tartufo nero e funghi porcini.",
+        },
+        es: {
+          name: "Risotto con crema de trufa negra y boletus",
+          description: "Risotto con crema de trufa negra y boletus.",
+        },
+      },
+    },
+    {
+      id: "risotto-gambas-courgettes",
+      category: "pates-et-risottos",
+      subcategory: "Risottos sans gluten",
+      image: pexels(23627779),
+      price: 30.0,
+      allergens: ["lait", "crustaces"],
+      diets: ["sans-gluten"],
+      macros: { calories: 640, proteines: 28, glucides: 80, lipides: 22 },
+      translations: {
+        fr: {
+          name: "Risotto aux gambas et courgettes",
+          description:
+            "Risotto arborio émulsionné au parmesan, gambas et courgettes.",
+        },
+        en: {
+          name: "Prawn and Zucchini Risotto",
+          description: "Arborio risotto with parmesan, prawns and zucchini.",
+        },
+        it: {
+          name: "Risotto ai gamberoni e zucchine",
+          description:
+            "Risotto arborio mantecato al parmigiano, gamberoni e zucchine.",
+        },
+        es: {
+          name: "Risotto con gambas y calabacines",
+          description: "Risotto arborio con parmesano, gambas y calabacines.",
+        },
+      },
+    },
+    {
+      id: "pizza-margherita",
+      category: "pizzas",
+      subcategory: "Pizzas Classiques",
+      image: pexels(35068608),
+      price: 17.0,
+      allergens: ["lait"],
+      diets: ["sans-gluten", "vegetarien"],
+      macros: { calories: 720, proteines: 28, glucides: 96, lipides: 24 },
+      translations: {
+        fr: {
+          name: "Pizza Margherita",
+          description:
+            "Sauce tomate maison, mozzarella fior di latte, origan, basilic.",
+        },
+        en: {
+          name: "Pizza Margherita",
+          description:
+            "Homemade tomato sauce, fior di latte mozzarella, oregano, basil.",
+        },
+        it: {
+          name: "Pizza Margherita",
+          description:
+            "Salsa di pomodoro fatta in casa, mozzarella fior di latte, origano, basilico.",
+        },
+        es: {
+          name: "Pizza Margherita",
+          description:
+            "Salsa de tomate casera, mozzarella fior di latte, orégano, albahaca.",
+        },
+      },
+    },
+    {
+      id: "pizza-napolitaine",
+      category: "pizzas",
+      subcategory: "Pizzas Classiques",
+      image: pexels(13814644),
+      price: 18.0,
+      allergens: ["lait", "poissons"],
+      diets: ["sans-gluten"],
+      macros: { calories: 760, proteines: 32, glucides: 96, lipides: 26 },
+      translations: {
+        fr: {
+          name: "Pizza Napolitaine",
+          description:
+            "Sauce tomate maison, mozzarella fior di latte, anchois, câpres, olives rivera.",
+        },
+        en: {
+          name: "Neapolitan Pizza",
+          description:
+            "Homemade tomato sauce, fior di latte mozzarella, anchovies, capers, Riviera olives.",
+        },
+        it: {
+          name: "Pizza Napoletana",
+          description:
+            "Salsa di pomodoro fatta in casa, mozzarella fior di latte, acciughe, capperi, olive riviera.",
+        },
+        es: {
+          name: "Pizza Napolitana",
+          description:
+            "Salsa de tomate casera, mozzarella fior di latte, anchoas, alcaparras, olivas rivera.",
+        },
+      },
+    },
+    {
+      id: "pizza-vegetarienne",
+      category: "pizzas",
+      subcategory: "Pizzas Classiques",
+      image: pexels(1552635),
+      price: 19.0,
+      allergens: ["lait"],
+      diets: ["sans-gluten", "vegetarien"],
+      macros: { calories: 760, proteines: 28, glucides: 100, lipides: 26 },
+      translations: {
+        fr: {
+          name: "Pizza Végétarienne",
+          description:
+            "Sauce tomate maison, mozzarella fior di latte, champignons, poivrons, courgettes, aubergines.",
+        },
+        en: {
+          name: "Vegetarian Pizza",
+          description:
+            "Homemade tomato sauce, fior di latte mozzarella, mushrooms, peppers, zucchini, eggplant.",
+        },
+        it: {
+          name: "Pizza Vegetariana",
+          description:
+            "Salsa di pomodoro fatta in casa, mozzarella fior di latte, funghi, peperoni, zucchine, melanzane.",
+        },
+        es: {
+          name: "Pizza Vegetariana",
+          description:
+            "Salsa de tomate casera, mozzarella fior di latte, champiñones, pimientos, calabacines, berenjenas.",
+        },
+      },
+    },
+    {
+      id: "pizza-tasca",
+      category: "pizzas",
+      subcategory: "Pizzas Classiques",
+      image: pexels(11654221),
+      price: 19.0,
+      allergens: ["lait"],
+      diets: ["sans-gluten", "vegetarien"],
+      macros: { calories: 780, proteines: 30, glucides: 96, lipides: 28 },
+      translations: {
+        fr: {
+          name: "Pizza Tasca",
+          description:
+            "Sauce tomate maison, mozzarella de bufflonne, roquette, parmesan.",
+        },
+        en: {
+          name: "Pizza Tasca",
+          description:
+            "Homemade tomato sauce, buffalo mozzarella, arugula, parmesan.",
+        },
+        it: {
+          name: "Pizza Tasca",
+          description:
+            "Salsa di pomodoro fatta in casa, mozzarella di bufala, rucola, parmigiano.",
+        },
+        es: {
+          name: "Pizza Tasca",
+          description:
+            "Salsa de tomate casera, mozzarella de búfala, rúcula, parmesano.",
+        },
+      },
+    },
+    {
+      id: "pizza-regina",
+      category: "pizzas",
+      subcategory: "Pizzas Classiques",
+      image: pexels(33592984),
+      price: 20.0,
+      allergens: ["lait"],
+      diets: ["sans-gluten"],
+      macros: { calories: 800, proteines: 34, glucides: 96, lipides: 28 },
+      translations: {
+        fr: {
+          name: "Pizza Regina",
+          description:
+            "Sauce tomate maison, mozzarella fior di latte, jambon blanc, champignons, origan.",
+        },
+        en: {
+          name: "Pizza Regina",
+          description:
+            "Homemade tomato sauce, fior di latte mozzarella, ham, mushrooms, oregano.",
+        },
+        it: {
+          name: "Pizza Regina",
+          description:
+            "Salsa di pomodoro fatta in casa, mozzarella fior di latte, prosciutto cotto, funghi, origano.",
+        },
+        es: {
+          name: "Pizza Regina",
+          description:
+            "Salsa de tomate casera, mozzarella fior di latte, jamón de York, champiñones, orégano.",
+        },
+      },
+    },
+    {
+      id: "pizza-quatre-fromages",
+      category: "pizzas",
+      subcategory: "Pizzas Classiques",
+      image: pexels(33592983),
+      price: 20.0,
+      allergens: ["lait"],
+      diets: ["sans-gluten", "vegetarien"],
+      macros: { calories: 880, proteines: 38, glucides: 96, lipides: 36 },
+      translations: {
+        fr: {
+          name: "Pizza Quatre fromages",
+          description:
+            "Sauce tomate maison, mozzarella fior di latte, gorgonzola, taleggio, parmesan.",
+        },
+        en: {
+          name: "Four Cheese Pizza",
+          description:
+            "Homemade tomato sauce, fior di latte mozzarella, gorgonzola, taleggio, parmesan.",
+        },
+        it: {
+          name: "Pizza ai Quattro formaggi",
+          description:
+            "Salsa di pomodoro fatta in casa, mozzarella fior di latte, gorgonzola, taleggio, parmigiano.",
+        },
+        es: {
+          name: "Pizza Cuatro quesos",
+          description:
+            "Salsa de tomate casera, mozzarella fior di latte, gorgonzola, taleggio, parmesano.",
+        },
+      },
+    },
+    {
+      id: "pizza-quatre-saisons",
+      category: "pizzas",
+      subcategory: "Pizzas Classiques",
+      image: pexels(33593002),
+      price: 20.0,
+      allergens: ["lait"],
+      diets: ["sans-gluten"],
+      macros: { calories: 820, proteines: 34, glucides: 96, lipides: 30 },
+      translations: {
+        fr: {
+          name: "Pizza Quatre saisons",
+          description:
+            "Sauce tomate maison, mozzarella fior di latte, artichauts, jambon blanc, champignons, olives.",
+        },
+        en: {
+          name: "Four Seasons Pizza",
+          description:
+            "Homemade tomato sauce, fior di latte mozzarella, artichokes, ham, mushrooms, olives.",
+        },
+        it: {
+          name: "Pizza Quattro stagioni",
+          description:
+            "Salsa di pomodoro fatta in casa, mozzarella fior di latte, carciofi, prosciutto cotto, funghi, olive.",
+        },
+        es: {
+          name: "Pizza Cuatro estaciones",
+          description:
+            "Salsa de tomate casera, mozzarella fior di latte, alcachofas, jamón de York, champiñones, aceitunas.",
+        },
+      },
+    },
+    {
+      id: "pizza-parme",
+      category: "pizzas",
+      subcategory: "Pizzas Classiques",
+      image: pexels(19260823),
+      price: 22.0,
+      allergens: ["lait"],
+      diets: ["sans-gluten"],
+      macros: { calories: 820, proteines: 38, glucides: 96, lipides: 30 },
+      translations: {
+        fr: {
+          name: "Pizza Parme",
+          description:
+            "Sauce tomate maison, mozzarella fior di latte, jambon de Parme affiné, roquette, copeaux de parmesan.",
+        },
+        en: {
+          name: "Parma Pizza",
+          description:
+            "Homemade tomato sauce, fior di latte mozzarella, cured Parma ham, arugula, parmesan shavings.",
+        },
+        it: {
+          name: "Pizza Parma",
+          description:
+            "Salsa di pomodoro fatta in casa, mozzarella fior di latte, prosciutto di Parma stagionato, rucola, scaglie di parmigiano.",
+        },
+        es: {
+          name: "Pizza Parma",
+          description:
+            "Salsa de tomate casera, mozzarella fior di latte, jamón de Parma, rúcula, virutas de parmesano.",
+        },
+      },
+    },
+    {
+      id: "pizza-saumon",
+      category: "pizzas",
+      subcategory: "Pizzas Classiques",
+      image: pexels(32645122),
+      price: 23.0,
+      allergens: ["lait", "poissons"],
+      diets: ["sans-gluten"],
+      macros: { calories: 820, proteines: 36, glucides: 90, lipides: 32 },
+      translations: {
+        fr: {
+          name: "Pizza Saumon",
+          description:
+            "Mozzarella fior di latte, carpaccio de saumon bio mariné maison.",
+        },
+        en: {
+          name: "Salmon Pizza",
+          description:
+            "Fior di latte mozzarella, homemade marinated organic salmon carpaccio.",
+        },
+        it: {
+          name: "Pizza al Salmone",
+          description:
+            "Mozzarella fior di latte, carpaccio di salmone bio marinato in casa.",
+        },
+        es: {
+          name: "Pizza de Salmón",
+          description:
+            "Mozzarella fior di latte, carpaccio de salmón bio marinado casero.",
+        },
+      },
+    },
+    {
+      id: "pizza-cepes",
+      category: "pizzas",
+      subcategory: "Pizzas Classiques",
+      image: pexels(33002473),
+      price: 30.0,
+      allergens: ["lait"],
+      diets: ["sans-gluten", "vegetarien"],
+      macros: { calories: 800, proteines: 30, glucides: 96, lipides: 30 },
+      translations: {
+        fr: {
+          name: "Pizza Cèpes",
+          description:
+            "Sauce tomate maison, mozzarella fior di latte, poêlée de cèpes au romarin.",
+        },
+        en: {
+          name: "Porcini Pizza",
+          description:
+            "Homemade tomato sauce, fior di latte mozzarella, sautéed porcini mushrooms with rosemary.",
+        },
+        it: {
+          name: "Pizza ai Porcini",
+          description:
+            "Salsa di pomodoro fatta in casa, mozzarella fior di latte, porcini saltati al rosmarino.",
+        },
+        es: {
+          name: "Pizza de Boletus",
+          description:
+            "Salsa de tomate casera, mozzarella fior di latte, boletus salteados al romero.",
+        },
+      },
+    },
+    {
+      id: "pizza-thon",
+      category: "pizzas",
+      subcategory: "Pizzas Classiques",
+      image: pexels(11654227),
+      price: 23.0,
+      allergens: ["lait", "poissons"],
+      diets: ["sans-gluten"],
+      macros: { calories: 800, proteines: 36, glucides: 96, lipides: 28 },
+      translations: {
+        fr: {
+          name: "Pizza Thon",
+          description:
+            "Sauce tomate maison, mozzarella fior di latte, thon à l'huile d'olive et oignons rouges.",
+        },
+        en: {
+          name: "Tuna Pizza",
+          description:
+            "Homemade tomato sauce, fior di latte mozzarella, tuna in olive oil and red onions.",
+        },
+        it: {
+          name: "Pizza al Tonno",
+          description:
+            "Salsa di pomodoro fatta in casa, mozzarella fior di latte, tonno all'olio d'oliva e cipolle rosse.",
+        },
+        es: {
+          name: "Pizza de Atún",
+          description:
+            "Salsa de tomate casera, mozzarella fior di latte, atún en aceite de oliva y cebollas rojas.",
+        },
+      },
+    },
+    {
+      id: "pizza-poulet",
+      category: "pizzas",
+      subcategory: "Pizzas Classiques",
+      image: pexels(33592985),
+      price: 23.0,
+      allergens: ["lait"],
+      diets: ["sans-gluten"],
+      macros: { calories: 820, proteines: 38, glucides: 96, lipides: 28 },
+      translations: {
+        fr: {
+          name: "Pizza Poulet",
+          description:
+            "Sauce tomate maison, mozzarella fior di latte, poulet, huile d'olive.",
+        },
+        en: {
+          name: "Chicken Pizza",
+          description:
+            "Homemade tomato sauce, fior di latte mozzarella, chicken, olive oil.",
+        },
+        it: {
+          name: "Pizza al Pollo",
+          description:
+            "Salsa di pomodoro fatta in casa, mozzarella fior di latte, pollo, olio d'oliva.",
+        },
+        es: {
+          name: "Pizza de Pollo",
+          description:
+            "Salsa de tomate casera, mozzarella fior di latte, pollo, aceite de oliva.",
+        },
+      },
+    },
+    {
+      id: "pizza-cepes-burrata-truffe",
+      category: "pizzas",
+      subcategory: "Pizzas Classiques",
+      image: pexels(20793357),
+      price: 30.0,
+      allergens: ["lait"],
+      diets: ["sans-gluten", "vegetarien"],
+      macros: { calories: 880, proteines: 32, glucides: 96, lipides: 38 },
+      translations: {
+        fr: {
+          name: "Pizza Cèpes, burrata et crème de truffe noire",
+          description:
+            "Sauce tomate maison, mozzarella fior di latte, cèpes, burrata et crème de truffe noire.",
+        },
+        en: {
+          name: "Porcini, Burrata and Black Truffle Cream Pizza",
+          description:
+            "Homemade tomato sauce, fior di latte mozzarella, porcini, burrata and black truffle cream.",
+        },
+        it: {
+          name: "Pizza Porcini, burrata e crema di tartufo nero",
+          description:
+            "Salsa di pomodoro fatta in casa, mozzarella fior di latte, porcini, burrata e crema di tartufo nero.",
+        },
+        es: {
+          name: "Pizza de Boletus, burrata y crema de trufa negra",
+          description:
+            "Salsa de tomate casera, mozzarella fior di latte, boletus, burrata y crema de trufa negra.",
+        },
+      },
+    },
+    {
+      id: "pizza-bergamo",
+      category: "pizzas",
+      subcategory: "Pizzas Blanches",
+      image: pexels(31300965),
+      price: 21.0,
+      allergens: ["lait"],
+      diets: ["sans-gluten"],
+      macros: { calories: 820, proteines: 32, glucides: 90, lipides: 32 },
+      translations: {
+        fr: {
+          name: "Pizza Bergamo",
+          description: "Mozzarella fior di latte, saucisson, tomates, oignons.",
+        },
+        en: {
+          name: "Bergamo Pizza",
+          description: "Fior di latte mozzarella, salami, tomatoes, onions.",
+        },
+        it: {
+          name: "Pizza Bergamo",
+          description: "Mozzarella fior di latte, salame, pomodori, cipolle.",
+        },
+        es: {
+          name: "Pizza Bergamo",
+          description:
+            "Mozzarella fior di latte, salchichón, tomates, cebollas.",
+        },
+      },
+    },
+    {
+      id: "pizza-valtellina",
+      category: "pizzas",
+      subcategory: "Pizzas Blanches",
+      image: pexels(5903169),
+      price: 22.0,
+      allergens: ["lait"],
+      diets: ["sans-gluten"],
+      macros: { calories: 780, proteines: 38, glucides: 88, lipides: 26 },
+      translations: {
+        fr: {
+          name: "Pizza Valtellina",
+          description:
+            "Mozzarella fior di latte, bresaola, roquette, parmesan.",
+        },
+        en: {
+          name: "Valtellina Pizza",
+          description: "Fior di latte mozzarella, bresaola, arugula, parmesan.",
+        },
+        it: {
+          name: "Pizza Valtellina",
+          description:
+            "Mozzarella fior di latte, bresaola, rucola, parmigiano.",
+        },
+        es: {
+          name: "Pizza Valtellina",
+          description: "Mozzarella fior di latte, bresaola, rúcula, parmesano.",
+        },
+      },
+    },
+    {
+      id: "pizza-la-golosa",
+      category: "pizzas",
+      subcategory: "Pizzas Blanches",
+      image: pexels(12453969),
+      price: 23.0,
+      allergens: ["lait"],
+      diets: ["sans-gluten"],
+      macros: { calories: 880, proteines: 32, glucides: 88, lipides: 40 },
+      translations: {
+        fr: {
+          name: "Pizza La Golosa",
+          description:
+            "Mozzarella fior di latte, cèpes, lardo di colonnata, parmesan.",
+        },
+        en: {
+          name: "La Golosa Pizza",
+          description:
+            "Fior di latte mozzarella, porcini, lardo di colonnata, parmesan.",
+        },
+        it: {
+          name: "Pizza La Golosa",
+          description:
+            "Mozzarella fior di latte, porcini, lardo di colonnata, parmigiano.",
+        },
+        es: {
+          name: "Pizza La Golosa",
+          description:
+            "Mozzarella fior di latte, boletus, lardo di colonnata, parmesano.",
+        },
+      },
+    },
+    {
+      id: "pizza-cortina-d-ampezzo",
+      category: "pizzas",
+      subcategory: "Pizzas Blanches",
+      image: pexels(34413608),
+      price: 23.0,
+      allergens: ["lait", "so2"],
+      diets: ["sans-gluten"],
+      macros: { calories: 820, proteines: 34, glucides: 88, lipides: 34 },
+      translations: {
+        fr: {
+          name: "Pizza La Cortina d'Ampezzo",
+          description:
+            "Mozzarella fior di latte, scamorza fumée, speck, vinaigrette balsamique.",
+        },
+        en: {
+          name: "Cortina d'Ampezzo Pizza",
+          description:
+            "Fior di latte mozzarella, smoked scamorza, speck, balsamic vinaigrette.",
+        },
+        it: {
+          name: "Pizza Cortina d'Ampezzo",
+          description:
+            "Mozzarella fior di latte, scamorza affumicata, speck, vinaigrette balsamica.",
+        },
+        es: {
+          name: "Pizza La Cortina d'Ampezzo",
+          description:
+            "Mozzarella fior di latte, scamorza ahumada, speck, vinagreta balsámica.",
+        },
+      },
+    },
+    {
+      id: "pave-de-saumon-aux-artichauts",
+      category: "poisson-et-viandes",
+      subcategory: "Poissons Bio",
+      image: pexels(17849251),
+      price: 29.0,
+      allergens: ["poissons"],
+      diets: ["sans-gluten", "sans-lactose"],
+      macros: { calories: 480, proteines: 36, glucides: 18, lipides: 28 },
+      translations: {
+        fr: {
+          name: "Pavé de saumon aux artichauts et herbes",
+          description: "Pavé de saumon bio aux artichauts et herbes fraîches.",
+        },
+        en: {
+          name: "Salmon Fillet with Artichokes and Herbs",
+          description: "Organic salmon fillet with artichokes and fresh herbs.",
+        },
+        it: {
+          name: "Trancio di salmone ai carciofi ed erbe",
+          description: "Trancio di salmone bio con carciofi ed erbe fresche.",
+        },
+        es: {
+          name: "Salmón con alcachofas y hierbas",
+          description: "Lomo de salmón bio con alcachofas y hierbas frescas.",
+        },
+      },
+    },
+    {
+      id: "filets-de-bar-romarin",
+      category: "poisson-et-viandes",
+      subcategory: "Poissons Bio",
+      image: pexels(16064370),
+      price: 30.0,
+      allergens: ["poissons"],
+      diets: ["sans-gluten", "sans-lactose"],
+      macros: { calories: 380, proteines: 38, glucides: 2, lipides: 22 },
+      translations: {
+        fr: {
+          name: "Filets de bar poêlés au romarin",
+          description:
+            "Filets de bar poêlés au romarin et huile d'olive extra vierge.",
+        },
+        en: {
+          name: "Pan-Seared Sea Bass Fillets with Rosemary",
+          description:
+            "Pan-seared sea bass fillets with rosemary and extra virgin olive oil.",
+        },
+        it: {
+          name: "Filetti di branzino al rosmarino",
+          description:
+            "Filetti di branzino in padella con rosmarino e olio extra vergine di oliva.",
+        },
+        es: {
+          name: "Filetes de lubina al romero",
+          description:
+            "Filetes de lubina a la plancha con romero y aceite de oliva virgen extra.",
+        },
+      },
+    },
+    // {
+    //   id: "espadon-grille-sicilienne",
+    //   category: "poisson-et-viandes",
+    //   subcategory: "Poissons Bio",
+    //   image: pexels(12127425),
+    //   price: 31.0,
+    //   allergens: ["poissons"],
+    //   diets: ["sans-gluten", "sans-lactose"],
+    //   macros: { calories: 420, proteines: 40, glucides: 6, lipides: 24 },
+    //   translations: {
+    //     fr: {
+    //       name: "Espadon grillé à la sicilienne",
+    //       description: "Espadon grillé avec tomates, olives, câpres, thym.",
+    //     },
+    //     en: {
+    //       name: "Sicilian Style Grilled Swordfish",
+    //       description:
+    //         "Grilled swordfish with tomatoes, olives, capers, thyme.",
+    //     },
+    //     it: {
+    //       name: "Pesce spada alla siciliana",
+    //       description:
+    //         "Pesce spada alla griglia con pomodori, olive, capperi, timo.",
+    //     },
+    //     es: {
+    //       name: "Pez espada a la siciliana",
+    //       description:
+    //         "Pez espada a la parrilla con tomates, aceitunas, alcaparras, tomillo.",
+    //     },
+    //   },
+    // },
+    {
+      id: "gambas-et-legumes-grilles",
+      category: "poisson-et-viandes",
+      subcategory: "Poissons Bio",
+      image: pexels(32668760),
+      price: 28.0,
+      allergens: ["crustaces"],
+      diets: ["sans-gluten", "sans-lactose"],
+      macros: { calories: 360, proteines: 32, glucides: 14, lipides: 18 },
+      translations: {
+        fr: {
+          name: "Gambas et légumes grillés",
+          description: "Gambas grillés accompagnés de légumes grillés.",
+        },
+        en: {
+          name: "Grilled Prawns and Vegetables",
+          description: "Grilled prawns served with grilled vegetables.",
+        },
+        it: {
+          name: "Gamberoni e verdure alla griglia",
+          description:
+            "Gamberoni alla griglia accompagnati da verdure grigliate.",
+        },
+        es: {
+          name: "Gambas y verduras a la parrilla",
+          description:
+            "Gambas a la parrilla acompañadas de verduras a la parrilla.",
+        },
+      },
+    },
+    {
+      id: "supreme-poulet-citron",
+      category: "poisson-et-viandes",
+      subcategory: "Viandes Bio",
+      image: pexels(36616791),
+      price: 24.0,
+      allergens: [],
+      diets: ["sans-gluten", "sans-lactose"],
+      macros: { calories: 420, proteines: 42, glucides: 14, lipides: 22 },
+      translations: {
+        fr: {
+          name: "Suprême de poulet au citron et légumes grillés",
+          description:
+            "Suprême de poulet au citron accompagné de légumes grillés.",
+        },
+        en: {
+          name: "Lemon Chicken Supreme with Grilled Vegetables",
+          description: "Lemon chicken supreme served with grilled vegetables.",
+        },
+        it: {
+          name: "Suprema di pollo al limone e verdure grigliate",
+          description:
+            "Suprema di pollo al limone accompagnata da verdure grigliate.",
+        },
+        es: {
+          name: "Suprema de pollo al limón con verduras a la parrilla",
+          description:
+            "Suprema de pollo al limón acompañada de verduras a la parrilla.",
+        },
+      },
+    },
+    {
+      id: "supreme-poulet-milanaise",
+      category: "poisson-et-viandes",
+      subcategory: "Viandes Bio",
+      image: pexels(6419734),
+      price: 26.0,
+      allergens: ["oeufs", "lait"],
+      diets: ["sans-gluten"],
+      macros: { calories: 560, proteines: 44, glucides: 28, lipides: 28 },
+      translations: {
+        fr: {
+          name: "Suprême de poulet à la milanaise",
+          description: "Filet de poulet pané et doré.",
+        },
+        en: {
+          name: "Chicken Milanese",
+          description: "Breaded and golden fried chicken fillet.",
+        },
+        it: {
+          name: "Cotoletta di pollo alla milanese",
+          description: "Filetto di pollo impanato e dorato.",
+        },
+        es: {
+          name: "Pollo a la milanesa",
+          description: "Filete de pollo empanado y dorado.",
+        },
+      },
+    },
+    {
+      id: "supreme-poulet-cepes",
+      category: "poisson-et-viandes",
+      subcategory: "Viandes Bio",
+      image: pexels(36863872),
+      price: 27.0,
+      allergens: [],
+      diets: ["sans-gluten", "sans-lactose"],
+      macros: { calories: 460, proteines: 42, glucides: 12, lipides: 26 },
+      translations: {
+        fr: {
+          name: "Suprême de poulet aux cèpes",
+          description: "Filet de poulet et sa poêlée de cèpes.",
+        },
+        en: {
+          name: "Chicken Supreme with Porcini",
+          description: "Chicken fillet served with sautéed porcini mushrooms.",
+        },
+        it: {
+          name: "Suprema di pollo ai porcini",
+          description: "Filetto di pollo con porcini saltati.",
+        },
+        es: {
+          name: "Suprema de pollo con boletus",
+          description: "Filete de pollo con boletus salteados.",
+        },
+      },
+    },
+    // {
+    //   id: "escalope-veau-citron",
+    //   category: "poisson-et-viandes",
+    //   subcategory: "Viandes Bio",
+    //   image: pexels(19034867),
+    //   price: 25.0,
+    //   allergens: [],
+    //   diets: ["sans-gluten", "sans-lactose"],
+    //   macros: { calories: 420, proteines: 40, glucides: 4, lipides: 26 },
+    //   translations: {
+    //     fr: {
+    //       name: "Escalope de veau au citron",
+    //       description: "Escalope de veau au citron.",
+    //     },
+    //     en: {
+    //       name: "Veal Escalope with Lemon",
+    //       description: "Veal escalope with lemon.",
+    //     },
+    //     it: {
+    //       name: "Scaloppina di vitello al limone",
+    //       description: "Scaloppina di vitello al limone.",
+    //     },
+    //     es: {
+    //       name: "Escalope de ternera al limón",
+    //       description: "Escalope de ternera al limón.",
+    //     },
+    //   },
+    // },
+    // {
+    //   id: "escalope-veau-milanaise",
+    //   category: "poisson-et-viandes",
+    //   subcategory: "Viandes Bio",
+    //   image: pexels(37389030),
+    //   price: 26.0,
+    //   allergens: ["oeufs", 'lait'],
+    //   diets: ["sans-gluten"],
+    //   macros: { calories: 560, proteines: 42, glucides: 28, lipides: 30 },
+    //   translations: {
+    //     fr: {
+    //       name: "Escalope de veau à la milanaise",
+    //       description: "Escalope de veau panée et dorée.",
+    //     },
+    //     en: {
+    //       name: "Veal Milanese",
+    //       description: "Breaded and golden fried veal escalope.",
+    //     },
+    //     it: {
+    //       name: "Cotoletta di vitello alla milanese",
+    //       description: "Cotoletta di vitello impanata e dorata.",
+    //     },
+    //     es: {
+    //       name: "Escalope de ternera a la milanesa",
+    //       description: "Escalope de ternera empanado y dorado.",
+    //     },
+    //   },
+    // },
+    // {
+    //   id: "souris-d-agneau",
+    //   category: "poisson-et-viandes",
+    //   subcategory: "Viandes Bio",
+    //   image: pexels(323682),
+    //   price: 28.0,
+    //   allergens: [],
+    //   diets: ["sans-gluten", "sans-lactose"],
+    //   macros: { calories: 620, proteines: 44, glucides: 18, lipides: 40 },
+    //   translations: {
+    //     fr: {
+    //       name: "Souris d'agneau caramélisée au miel et à l'orange",
+    //       description: "Souris d'agneau caramélisée au miel et à l'orange.",
+    //     },
+    //     en: {
+    //       name: "Lamb Shank Caramelized with Honey and Orange",
+    //       description: "Lamb shank caramelized with honey and orange.",
+    //     },
+    //     it: {
+    //       name: "Stinco d'agnello caramellato al miele e arancia",
+    //       description: "Stinco d'agnello caramellato al miele e arancia.",
+    //     },
+    //     es: {
+    //       name: "Jarrete de cordero caramelizado con miel y naranja",
+    //       description: "Jarrete de cordero caramelizado con miel y naranja.",
+    //     },
+    //   },
+    // },
+    {
+      id: "osso-bucco",
+      category: "poisson-et-viandes",
+      subcategory: "Viandes Bio",
+      image: pexels(17849247),
+      price: 29.0,
+      allergens: ["celeri"],
+      diets: ["sans-gluten", "sans-lactose"],
+      macros: { calories: 580, proteines: 46, glucides: 14, lipides: 36 },
+      translations: {
+        fr: {
+          name: "Osso bucco mijoté façon Maison",
+          description:
+            "Jarret de veau mijoté à la sauce tomate, céleri, carottes, oignons, romarin et zeste de citron.",
+        },
+        en: {
+          name: "Slow-cooked Osso Bucco Maison style",
+          description:
+            "Veal shank simmered in tomato sauce, celery, carrots, onions, rosemary and lemon zest.",
+        },
+        it: {
+          name: "Ossobuco stufato alla Maison",
+          description:
+            "Garretto di vitello stufato con salsa di pomodoro, sedano, carote, cipolle, rosmarino e scorza di limone.",
+        },
+        es: {
+          name: "Ossobuco estofado estilo Maison",
+          description:
+            "Jarrete de ternera estofado con salsa de tomate, apio, zanahorias, cebollas, romero y ralladura de limón.",
+        },
+      },
+    },
+    {
+      id: "glaces-antolin",
+      category: "desserts",
+      subcategory: "Glaces",
+      image: pexels(16015237),
+      price: 5.5,
+      allergens: ["lait", "fruits-a-coque"],
+      diets: ["sans-gluten", "vegetarien"],
+      macros: { calories: 200, proteines: 4, glucides: 24, lipides: 10 },
+      translations: {
+        fr: {
+          name: "Glaces Maison Antolin",
+          description:
+            "Parfums : café, caramel au sel de Guérande, vanille, chocolat, pistache.",
+        },
+        en: {
+          name: "Antolin Homemade Ice Cream",
+          description:
+            "Flavors: coffee, salted caramel, vanilla, chocolate, pistachio.",
+        },
+        it: {
+          name: "Gelati Artigianali Antolin",
+          description:
+            "Gusti: caffè, caramello salato, vaniglia, cioccolato, pistacchio.",
+        },
+        es: {
+          name: "Helados Artesanales Antolin",
+          description:
+            "Sabores: café, caramelo a la sal de Guérande, vainilla, chocolate, pistacho.",
+        },
+      },
+    },
+    {
+      id: "sorbets-antolin",
+      category: "desserts",
+      subcategory: "Sorbets",
+      image: pexels(1352278),
+      price: 5.5,
+      allergens: [],
+      diets: ["sans-gluten", "vegetarien", "vegan", "sans-lactose"],
+      macros: { calories: 130, proteines: 0, glucides: 32, lipides: 0 },
+      translations: {
+        fr: {
+          name: "Sorbets Maison Antolin",
+          description:
+            "Parfums : citron, cassis, framboise, fraise, fruits de la passion.",
+        },
+        en: {
+          name: "Antolin Homemade Sorbets",
+          description:
+            "Flavors: lemon, blackcurrant, raspberry, strawberry, passion fruit.",
+        },
+        it: {
+          name: "Sorbetti Artigianali Antolin",
+          description:
+            "Gusti: limone, ribes nero, lampone, fragola, frutto della passione.",
+        },
+        es: {
+          name: "Sorbetes Artesanales Antolin",
+          description:
+            "Sabores: limón, grosella negra, frambuesa, fresa, fruta de la pasión.",
+        },
+      },
+    },
+    {
+      id: "sorbet-citron-limoncello",
+      category: "desserts",
+      subcategory: "Sorbets",
+      image: pexels(32784576),
+      price: 15.0,
+      allergens: ["so2"],
+      diets: ["sans-gluten", "vegetarien", "vegan", "sans-lactose"],
+      macros: { calories: 220, proteines: 0, glucides: 38, lipides: 0 },
+      translations: {
+        fr: {
+          name: "Sorbet au citron et limoncello Maison Antolin",
+          description: "Sorbet au citron arrosé de limoncello.",
+        },
+        en: {
+          name: "Antolin Lemon Sorbet with Limoncello",
+          description: "Lemon sorbet topped with limoncello liqueur.",
+        },
+        it: {
+          name: "Sorbetto al limone e limoncello Antolin",
+          description: "Sorbetto al limone con aggiunta di limoncello.",
+        },
+        es: {
+          name: "Sorbete de limón y limoncello Antolin",
+          description: "Sorbete de limón con un toque de limoncello.",
+        },
+      },
+    },
+    {
+      id: "crostata-artisanale",
+      category: "desserts",
+      subcategory: "Desserts",
+      image: pexels(36673110),
+      price: 12.0,
+      allergens: ["oeufs", "lait"],
+      diets: ["sans-gluten", "vegetarien"],
+      macros: { calories: 380, proteines: 6, glucides: 58, lipides: 14 },
+      translations: {
+        fr: {
+          name: "Crostata artisanale",
+          description: "Tarte à la confiture ou au citron.",
+        },
+        en: {
+          name: "Artisanal Crostata",
+          description: "Jam or lemon tart.",
+        },
+        it: {
+          name: "Crostata artigianale",
+          description: "Crostata alla marmellata o al limone.",
+        },
+        es: {
+          name: "Crostata artesanal",
+          description: "Tarta de mermelada o de limón.",
+        },
+      },
+    },
+    {
+      id: "mousse-au-chocolat",
+      category: "desserts",
+      subcategory: "Desserts",
+      image: pexels(30822779),
+      price: 12.0,
+      allergens: ["oeufs", "lait", "soja"],
+      diets: ["sans-gluten", "vegetarien"],
+      macros: { calories: 380, proteines: 6, glucides: 36, lipides: 22 },
+      translations: {
+        fr: {
+          name: "Mousse au chocolat maison",
+          description: "Mousse au chocolat maison.",
+        },
+        en: {
+          name: "Homemade Chocolate Mousse",
+          description: "Homemade chocolate mousse.",
+        },
+        it: {
+          name: "Mousse al cioccolato fatta in casa",
+          description: "Mousse al cioccolato fatta in casa.",
+        },
+        es: {
+          name: "Mousse de chocolate casera",
+          description: "Mousse de chocolate casera.",
+        },
+      },
+    },
+    {
+      id: "mi-cuit-au-chocolat",
+      category: "desserts",
+      subcategory: "Desserts",
+      image: pexels(4662032),
+      price: 12.0,
+      allergens: ["oeufs", "lait", "soja"],
+      diets: ["sans-gluten", "vegetarien"],
+      macros: { calories: 460, proteines: 8, glucides: 44, lipides: 28 },
+      translations: {
+        fr: {
+          name: "Mi-cuit au chocolat maison",
+          description: "Mi-cuit au chocolat maison. 15 minutes d'attente.",
+        },
+        en: {
+          name: "Homemade Chocolate Lava Cake",
+          description: "Homemade chocolate fondant. 15-minute wait time.",
+        },
+        it: {
+          name: "Tortino al cioccolato fondente fatto in casa",
+          description:
+            "Tortino al cioccolato dal cuore morbido. 15 minuti di attesa.",
+        },
+        es: {
+          name: "Coulant de chocolate casero",
+          description:
+            "Bizcocho de chocolate con corazón líquido. 15 minutos de espera.",
+        },
+      },
+    },
+    {
+      id: "tiramisu",
+      category: "desserts",
+      subcategory: "Desserts",
+      image: pexels(20586637),
+      price: 13.0,
+      allergens: ["oeufs", "lait", "fruits-a-coque"],
+      diets: ["sans-gluten", "vegetarien"],
+      macros: { calories: 460, proteines: 8, glucides: 38, lipides: 30 },
+      translations: {
+        fr: {
+          name: "Tiramisu",
+          description: "Tiramisu classique ou pistache.",
+        },
+        en: {
+          name: "Tiramisu",
+          description: "Classic or pistachio tiramisu.",
+        },
+        it: {
+          name: "Tiramisù",
+          description: "Tiramisù classico o al pistacchio.",
+        },
+        es: {
+          name: "Tiramisú",
+          description: "Tiramisú clásico o de pistacho.",
+        },
+      },
+    },
+    {
+      id: "panna-cotta",
+      category: "desserts",
+      subcategory: "Desserts",
+      image: pexels(15359109),
+      price: 12.0,
+      allergens: ["lait"],
+      diets: ["sans-gluten", "vegetarien"],
+      macros: { calories: 320, proteines: 4, glucides: 28, lipides: 22 },
+      translations: {
+        fr: {
+          name: "Panna cotta aux fruits rouges",
+          description: "Panna cotta accompagnée d'un coulis de fruits rouges.",
+        },
+        en: {
+          name: "Red Berry Panna Cotta",
+          description: "Panna cotta with a red berry coulis.",
+        },
+        it: {
+          name: "Panna cotta ai frutti rossi",
+          description: "Panna cotta accompagnata da coulis di frutti rossi.",
+        },
+        es: {
+          name: "Panna cotta con frutos rojos",
+          description: "Panna cotta acompañada de un coulis de frutos rojos.",
+        },
+      },
+    },
+    {
+      id: "salade-de-fruits-frais",
+      category: "desserts",
+      subcategory: "Desserts",
+      image: pexels(8131362),
+      price: 12.0,
+      allergens: [],
+      diets: ["sans-gluten", "vegetarien", "vegan", "sans-lactose"],
+      macros: { calories: 160, proteines: 2, glucides: 38, lipides: 0 },
+      translations: {
+        fr: {
+          name: "Salade de fruits frais",
+          description: "Salade de fruits frais de saison.",
+        },
+        en: {
+          name: "Fresh Fruit Salad",
+          description: "Seasonal fresh fruit salad.",
+        },
+        it: {
+          name: "Macedonia di frutta fresca",
+          description: "Macedonia di frutta fresca di stagione.",
+        },
+        es: {
+          name: "Ensalada de frutas frescas",
+          description: "Ensalada de frutas frescas de temporada.",
+        },
+      },
+    },
+    {
+      id: "pizza-au-miel",
+      category: "desserts",
+      subcategory: "Desserts",
+      image: pexels(5056850),
+      price: 13.0,
+      allergens: [],
+      diets: ["sans-gluten", "vegetarien", "sans-lactose"],
+      macros: { calories: 460, proteines: 8, glucides: 88, lipides: 8 },
+      translations: {
+        fr: {
+          name: "Pizza au miel",
+          description: "Pizza sucrée nappée de miel.",
+        },
+        en: {
+          name: "Honey Pizza",
+          description: "Sweet pizza topped with honey.",
+        },
+        it: {
+          name: "Pizza al miele",
+          description: "Pizza dolce guarnita con miele.",
+        },
+        es: {
+          name: "Pizza con miel",
+          description: "Pizza dulce cubierta con miel.",
+        },
+      },
+    },
+    {
+      id: "affogato-al-caffe",
+      category: "desserts",
+      subcategory: "Desserts",
+      image: pexels(32972513),
+      price: 13.0,
+      allergens: ["lait"],
+      diets: ["sans-gluten", "vegetarien"],
+      macros: { calories: 240, proteines: 4, glucides: 26, lipides: 12 },
+      translations: {
+        fr: {
+          name: "Affogato al caffé",
+          description: "Glace vanille arrosée de café chaud.",
+        },
+        en: {
+          name: "Affogato al caffé",
+          description: "Vanilla ice cream topped with a shot of hot espresso.",
+        },
+        it: {
+          name: "Affogato al caffè",
+          description: "Gelato alla vaniglia con caffè caldo.",
+        },
+        es: {
+          name: "Affogato al caffé",
+          description: "Helado de vainilla bañado con café caliente.",
+        },
+      },
+    },
+    {
+      id: "cafe-gourmand",
+      category: "desserts",
+      subcategory: "Desserts",
+      image: pexels(15891150),
+      price: 15.0,
+      allergens: ["lait", "oeufs"],
+      diets: ["sans-gluten", "vegetarien"],
+      macros: { calories: 520, proteines: 8, glucides: 56, lipides: 28 },
+      translations: {
+        fr: {
+          name: "Café gourmand",
+          description: "Panna cotta, crème au chocolat, salade de fruits.",
+        },
+        en: {
+          name: "Gourmet Coffee",
+          description:
+            "Coffee served with panna cotta, chocolate cream, and fruit salad.",
+        },
+        it: {
+          name: "Caffè goloso",
+          description:
+            "Caffè servito con panna cotta, crema al cioccolato e macedonia.",
+        },
+        es: {
+          name: "Café gourmand",
+          description:
+            "Café acompañado de panna cotta, crema de chocolate y ensalada de frutas.",
+        },
+      },
+    },
+    {
+      id: "plateau-de-fromages",
+      category: "desserts",
+      subcategory: "Desserts",
+      image: pexels(35721649),
+      price: 15.0,
+      allergens: ["lait"],
+      diets: ["sans-gluten", "vegetarien"],
+      macros: { calories: 420, proteines: 26, glucides: 4, lipides: 34 },
+      translations: {
+        fr: {
+          name: "Plateau de fromages",
+          description: "Taleggio, parmesan et gorgonzola.",
+        },
+        en: {
+          name: "Cheese Platter",
+          description: "Taleggio, parmesan and gorgonzola.",
+        },
+        it: {
+          name: "Tagliere di formaggi",
+          description: "Taleggio, parmigiano e gorgonzola.",
+        },
+        es: {
+          name: "Tabla de quesos",
+          description: "Taleggio, parmesano y gorgonzola.",
+        },
+      },
+    },
+    {
+      id: "vin-au-verre",
+      category: "boissons",
+      subcategory: "Vins Bio",
+      image: pexels(18911904),
+      price: 10.0,
+      allergens: ["so2"],
+      diets: ["sans-gluten", "vegan", "sans-lactose"],
+      macros: { calories: 120, proteines: 0, glucides: 4, lipides: 0 },
+      translations: {
+        fr: {
+          name: "Verre de vin bio 14cl",
+          description: "Verre de vin bio blanc, rouge ou rosé (14cl).",
+        },
+        en: {
+          name: "Glass of Organic Wine (14cl)",
+          description: "Glass of organic white, red or rosé wine (14cl).",
+        },
+        it: {
+          name: "Calice di vino bio 14cl",
+          description: "Calice di vino bio bianco, rosso o rosato (14cl).",
+        },
+        es: {
+          name: "Copa de vino bio 14cl",
+          description: "Copa de vino bio blanco, tinto o rosado (14cl).",
+        },
+      },
+    },
+    {
+      id: "pichet-de-vin",
+      category: "boissons",
+      subcategory: "Vins Bio",
+      image: pexels(13240324),
+      price: 26.0,
+      allergens: ["so2"],
+      diets: ["sans-gluten", "vegan", "sans-lactose"],
+      macros: { calories: 430, proteines: 0, glucides: 14, lipides: 0 },
+      translations: {
+        fr: {
+          name: "Pichet de vin bio 50cl",
+          description: "Pichet de vin bio blanc, rouge ou rosé (50cl).",
+        },
+        en: {
+          name: "Carafe of Organic Wine (50cl)",
+          description: "Carafe of organic white, red or rosé wine (50cl).",
+        },
+        it: {
+          name: "Caraffa di vino bio 50cl",
+          description: "Caraffa di vino bio bianco, rosso o rosato (50cl).",
+        },
+        es: {
+          name: "Jarra de vino bio 50cl",
+          description: "Jarra de vino bio blanco, tinto o rosado (50cl).",
+        },
+      },
+    },
+    {
+      id: "montepulciano-d-abruzzo",
+      category: "boissons",
+      subcategory: "Vins rouges Bio",
+      image: "https://imgs.search.brave.com/CPHO-nnWmUGTDR5I5qvAYlw-PqfbMcQdlFEItBYdoAg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/cHJvZHVpdHMtaXRh/bGllbnMuZnIvOTcw/MC1sYXJnZV9kZWZh/dWx0L21vbnRlcHVs/Y2lhbm8tZC1hYnJ1/enpvLWJpby5qcGc",
+      price: 34.0,
+      allergens: ["so2"],
+      diets: ["sans-gluten", "vegan", "sans-lactose"],
+      macros: { calories: 640, proteines: 0, glucides: 22, lipides: 0 },
+      translations: {
+        fr: {
+          name: "Montepulciano d'Abruzzo DOC (Abruzzes)",
+          description:
+            "Vin équilibré, aux arômes de fruits rouges au final légèrement épicé. Bouteille 75cl.",
+        },
+        en: {
+          name: "Montepulciano d'Abruzzo DOC (Abruzzo)",
+          description:
+            "Balanced wine with red fruit aromas and a slightly spicy finish. 75cl bottle.",
+        },
+        it: {
+          name: "Montepulciano d'Abruzzo DOC (Abruzzo)",
+          description:
+            "Vino equilibrato, con aromi de frutti rossi e finale leggermente speziato. Bottiglia 75cl.",
+        },
+        es: {
+          name: "Montepulciano d'Abruzzo DOC (Abruzos)",
+          description:
+            "Vino equilibrado, con aromas a frutos rojos y un final ligeramente especiado. Botella 75cl.",
+        },
+      },
+    },
+    {
+      id: "nero-d-avola",
+      category: "boissons",
+      subcategory: "Vins rouges Bio",
+      image: "https://imgs.search.brave.com/NC10s8sYMfJxJVGLd9cLdb7ER9bXWocQk4GE8G781F0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/cHJvZHVpdHMtaXRh/bGllbnMuZnIvOTY5/My1sYXJnZV9kZWZh/dWx0L25lcm8tZC1h/dm9sYS1zaWNpbGlh/LWRvYy5qcGc",
+      price: 37.0,
+      allergens: ["so2"],
+      diets: ["sans-gluten", "vegan", "sans-lactose"],
+      macros: { calories: 640, proteines: 0, glucides: 22, lipides: 0 },
+      translations: {
+        fr: {
+          name: "Nero d'Avola DOC (Sicile)",
+          description:
+            "Vin gourmand, aux arômes de cerises et mûres, final frais et intense. Bouteille 75cl.",
+        },
+        en: {
+          name: "Nero d'Avola DOC (Sicily)",
+          description:
+            "Rich wine with cherry and blackberry aromas, fresh and intense finish. 75cl bottle.",
+        },
+        it: {
+          name: "Nero d'Avola DOC (Sicilia)",
+          description:
+            "Vino armonioso, con aromi di ciliegie e more, finale fresco e intenso. Bottiglia 75cl.",
+        },
+        es: {
+          name: "Nero d'Avola DOC (Sicilia)",
+          description:
+            "Vino goloso, con aromas a cerezas y moras, final fresco e intenso. Botella 75cl.",
+        },
+      },
+    },
+    {
+      id: "primitivo-salento",
+      category: "boissons",
+      subcategory: "Vins rouges Bio",
+      image: "https://imgs.search.brave.com/NFkqE9iUvishrEFtiudcYvuZAValDnasmFY7bdsQ8GI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS12aW5pb3UuY29t/L3dpbmVpbWFnZS9h/cHBlbGxhdGlvbl92/Mi9pdGFsaWUvcG91/aWxsZXMvc2FsZW50/by9ib3R0bGUtNzUt/dmlucy1yb3VnZS5w/bmc",
+      price: 38.0,
+      allergens: ["so2"],
+      diets: ["sans-gluten", "vegan", "sans-lactose"],
+      macros: { calories: 640, proteines: 0, glucides: 22, lipides: 0 },
+      translations: {
+        fr: {
+          name: "Primitivo Salento (Les Pouilles)",
+          description:
+            "Arômes de framboise et cerise. Vin fruité et puissant, idéal avec l'osso bucco et la pizza Parma. Bouteille 75cl.",
+        },
+        en: {
+          name: "Primitivo Salento (Puglia)",
+          description:
+            "Aromas of raspberry and cherry. Fruity and powerful wine, ideal with osso bucco and Parma pizza. 75cl bottle.",
+        },
+        it: {
+          name: "Primitivo Salento (Puglia)",
+          description:
+            "Aromi di lampone e ciliegia. Vino fruttato e potente, ideale con l'ossobuco e la pizza Parma. Bottiglia 75cl.",
+        },
+        es: {
+          name: "Primitivo Salento (Apulia)",
+          description:
+            "Aromas de frambuesa y cereza. Vino afrutado y potente, ideal con el ossobuco y la pizza Parma. Botella 75cl.",
+        },
+      },
+    },
+    {
+      id: "sangiovese-doc",
+      category: "boissons",
+      subcategory: "Vins rouges Bio",
+      image: "https://imgs.search.brave.com/btQHF0R8QUk4Yrs5baOo3CAqdvzPs5fk4XTydAckUBc/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9ib3R0/bGVvZml0YWx5LmNv/bS9jZG4vc2hvcC9m/aWxlcy9Sb21hZ25h/LURPQy1TYW5naW92/ZXNlLVByZWRhcHBp/by1CSU8tSWwtU2Fu/Z2lvdmVzZS1Ob2Vs/aWEtUmljY2ktYm90/dGxlLW9mLWl0YWx5/X2dyYW5kZS5qcGc_/dj0xNjg1MDAzNDUz",
+      price: 36.0,
+      allergens: ["so2"],
+      diets: ["sans-gluten", "vegan", "sans-lactose"],
+      macros: { calories: 640, proteines: 0, glucides: 22, lipides: 0 },
+      translations: {
+        fr: {
+          name: "Sangiovese DOC bio (Émilie-Romagne)",
+          description:
+            "Vin intense et sec, fruit mûr et légèrement épicé sur la fin. Bouteille 75cl.",
+        },
+        en: {
+          name: "Organic Sangiovese DOC (Emilia-Romagna)",
+          description:
+            "Intense and dry wine, ripe fruit and slightly spicy on the finish. 75cl bottle.",
+        },
+        it: {
+          name: "Sangiovese DOC bio (Emilia-Romagna)",
+          description:
+            "Vino intenso e secco, con note di frutta matura e un finale leggermente speziato. Bottiglia 75cl.",
+        },
+        es: {
+          name: "Sangiovese DOC bio (Emilia-Romaña)",
+          description:
+            "Vino intenso y seco, fruta madura y ligeramente especiado al final. Botella 75cl.",
+        },
+      },
+    },
+    {
+      id: "valpolicella-classico",
+      category: "boissons",
+      subcategory: "Vins rouges Bio",
+      image: "https://imgs.search.brave.com/P31EH49IBy--QE415AFIyLapy-9wamBLN6Y0wm2OxZA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/bGFib3V0ZWlsbGVk/b3JlZS5jb20vMTEx/MzYtbGFyZ2VfZGVm/YXVsdC9ub3ZhaWEt/dmFscG9saWNlbGxh/LWRvYy1jbGFzc2lj/by12ZW5ldGllLWl0/YWxpZS1yb3VnZS0y/MDE5LmpwZw",
+      price: 50.0,
+      allergens: ["so2"],
+      diets: ["sans-gluten", "vegan", "sans-lactose"],
+      macros: { calories: 640, proteines: 0, glucides: 22, lipides: 0 },
+      translations: {
+        fr: {
+          name: "Valpolicella Classico DOC bio (Vénétie)",
+          description:
+            "Vin délicat, frais et léger aux arômes fruités et fleuris, final frais et agréable. Bouteille 75cl.",
+        },
+        en: {
+          name: "Organic Valpolicella Classico DOC (Veneto)",
+          description:
+            "Delicate, fresh and light wine with fruity and floral aromas, pleasant fresh finish. 75cl bottle.",
+        },
+        it: {
+          name: "Valpolicella Classico DOC bio (Veneto)",
+          description:
+            "Vino delicato, fresco e leggero con aromi fruttati e floreali, finale fresco e piacevole. Bottiglia 75cl.",
+        },
+        es: {
+          name: "Valpolicella Classico DOC bio (Véneto)",
+          description:
+            "Vino delicado, fresco y ligero con aromas frutales y florales, final fresco y agradable. Botella 75cl.",
+        },
+      },
+    },
+    {
+      id: "rosso-di-montalcino",
+      category: "boissons",
+      subcategory: "Vins rouges Bio",
+      image: "https://imgs.search.brave.com/vh1S-dE471ZVhX7_5-U8ZyWvAm8WynWiasVqficji44/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS12aW5pb3UuY29t/L3dpbmVpbWFnZS9h/cHBlbGxhdGlvbl92/Mi9pdGFsaWUvdG9z/Y2FuZS9yb3Nzby1k/aS1tb250YWxjaW5v/L2JvdHRsZS03NS12/aW5zLXJvdWdlLnBu/Zw",
+      price: 59.0,
+      allergens: ["so2"],
+      diets: ["sans-gluten", "vegan", "sans-lactose"],
+      macros: { calories: 640, proteines: 0, glucides: 22, lipides: 0 },
+      translations: {
+        fr: {
+          name: "Rosso di Montalcino DOC (Toscane)",
+          description:
+            "Robe rouge rubis intense et légère, aux senteurs de fruits rouges et menthe poivrée. Bouteille 75cl.",
+        },
+        en: {
+          name: "Rosso di Montalcino DOC (Tuscany)",
+          description:
+            "Intense and light ruby red color, with scents of red fruits and peppermint. 75cl bottle.",
+        },
+        it: {
+          name: "Rosso di Montalcino DOC (Toscana)",
+          description:
+            "Colore rosso rubino intenso e brillante, con sentori di frutti rossi e menta piperita. Bottiglia 75cl.",
+        },
+        es: {
+          name: "Rosso di Montalcino DOC (Toscana)",
+          description:
+            "Color rojo rubí intenso y ligero, con aromas de frutos rojos y menta piperita. Botella 75cl.",
+        },
+      },
+    },
+    {
+      id: "aglianico-del-taburno",
+      category: "boissons",
+      subcategory: "Vins rouges Bio",
+      image: "https://imgs.search.brave.com/l-pQKoAbrieMcJvL7N9oTX4qJdm1yN-cIUnofkRgImI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdG9y/YWdlLmdvb2dsZWFw/aXMuY29tL3BlcmJh/Y2Nvd2Vpbl9tZWRp/YV9jZG4vbWVkaWEv/Y2F0YWxvZy9wcm9k/dWN0L2NhY2hlLzMv/aW1hZ2UvOWRmNzhl/YWIzMzUyNWQwOGQ2/ZTVmYjhkMjcxMzZl/OTUvMC84LzA4NTcy/Nl92bi5qcGc",
+      price: 62.0,
+      allergens: ["so2"],
+      diets: ["sans-gluten", "vegan", "sans-lactose"],
+      macros: { calories: 640, proteines: 0, glucides: 22, lipides: 0 },
+      translations: {
+        fr: {
+          name: "Aglianico del Taburno Rosso (Campanie)",
+          description:
+            "Robe rouge rubis intense et légère, aux senteurs de fruits rouges et menthe poivrée. Bouteille 75cl.",
+        },
+        en: {
+          name: "Aglianico del Taburno Rosso (Campania)",
+          description:
+            "Intense and light ruby red color, with scents of red fruits and peppermint. 75cl bottle.",
+        },
+        it: {
+          name: "Aglianico del Taburno Rosso (Campania)",
+          description:
+            "Colore rosso rubino intenso e brillante, con sentori di frutti rossi e menta piperita. Bottiglia 75cl.",
+        },
+        es: {
+          name: "Aglianico del Taburno Rosso (Campania)",
+          description:
+            "Color rojo rubí intenso y ligero, con aromas de frutos rojos y menta piperita. Botella 75cl.",
+        },
+      },
+    },
+    {
+      id: "chianti-classico",
+      category: "boissons",
+      subcategory: "Vins rouges Bio",
+      image: "https://imgs.search.brave.com/tr7CgUH5oqo2AWVDZiv-ippB0jgZnSVs-rTOcuhL9QY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/aXRhbHZpbi5iZS84/NDQtaG9tZV9kZWZh/dWx0X3NtYWxsZXIv/Y2hpYW50aS1jbGFz/c2ljby1yaXNlcnZh/LWJpby12aW4tcm91/Z2UtaXRhbGllbi10/b3NjYW5lLmpwZw",
+      price: 37.0,
+      allergens: ["so2"],
+      diets: ["sans-gluten", "vegan", "sans-lactose"],
+      macros: { calories: 640, proteines: 0, glucides: 22, lipides: 0 },
+      translations: {
+        fr: {
+          name: "Chianti Classico DOCG (Toscane)",
+          description:
+            "Goût harmonieux, couleur rouge rubis intense, appréciable avec les viandes. Bouteille 75cl.",
+        },
+        en: {
+          name: "Chianti Classico DOCG (Tuscany)",
+          description:
+            "Harmonious taste, intense ruby red color, excellent with meat. 75cl bottle.",
+        },
+        it: {
+          name: "Chianti Classico DOCG (Toscana)",
+          description:
+            "Gusto armonioso, colore rosso rubino intenso, ottimo in abbinamento con le carni. Bottiglia 75cl.",
+        },
+        es: {
+          name: "Chianti Classico DOCG (Toscana)",
+          description:
+            "Gusto armonioso, color rojo rubí intenso, ideal con carnes. Botella 75cl.",
+        },
+      },
+    },
+    {
+      id: "cannonau",
+      category: "boissons",
+      subcategory: "Vins rouges Bio",
+      image: "https://imgs.search.brave.com/7j_3GQshmuivDkObBQC1xZGjCtxpcGBjcA0OdHFps3I/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/bGVwZXRpdGJhbGxv/bi5jb20vY2RuL3No/b3AvZmlsZXMvMjUy/XzUwYjI1N2MwLWRk/YjItNDFhMC04MWQx/LTM3ZWIzNmE0OTgx/Mi5qcGc_dj0xNzMy/ODg5Mzc4JndpZHRo/PTE5NDY",
+      price: 59.0,
+      allergens: ["so2"],
+      diets: ["sans-gluten", "vegan", "sans-lactose"],
+      macros: { calories: 640, proteines: 0, glucides: 22, lipides: 0 },
+      translations: {
+        fr: {
+          name: "Cannonau (Sardaigne)",
+          description:
+            "Frais et savoureux, délicatement tannique et bien équilibré. Bouteille 75cl.",
+        },
+        en: {
+          name: "Cannonau (Sardinia)",
+          description:
+            "Fresh and flavorful, delicately tannic and well-balanced. 75cl bottle.",
+        },
+        it: {
+          name: "Cannonau (Sardegna)",
+          description:
+            "Fresco e sapido, delicatamente tannico e ben equilibrato. Bottiglia 75cl.",
+        },
+        es: {
+          name: "Cannonau (Cerdeña)",
+          description:
+            "Fresco y sabroso, delicadamente tánico y bien equilibrado. Botella 75cl.",
+        },
+      },
+    },
+    {
+      id: "barbera-d-alba",
+      category: "boissons",
+      subcategory: "Vins rouges Bio",
+      image: "https://imgs.search.brave.com/Ml2n8XJ69P7L-y09C4xTfEqet5pGtRmdLpDS37h26X0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS12aW5pb3UuY29t/L3dpbmVpbWFnZS9h/cHBlbGxhdGlvbl92/Mi9pdGFsaWUvcGll/bW9udC9iYXJiZXJh/LWQtYWxiYS9ib3R0/bGUtNzUtdmlucy1y/b3VnZS5wbmc",
+      price: 83.0,
+      allergens: ["so2"],
+      diets: ["sans-gluten", "vegan", "sans-lactose"],
+      macros: { calories: 640, proteines: 0, glucides: 22, lipides: 0 },
+      translations: {
+        fr: {
+          name: "Barbera d'Alba DOC (Piémont)",
+          description:
+            "Aspect gustatif intense et plein. Bouquet très prononcé de fruits rouges et cerise. Bouteille 75cl.",
+        },
+        en: {
+          name: "Barbera d'Alba DOC (Piedmont)",
+          description:
+            "Intense and full-bodied taste. Pronounced bouquet of red fruits and cherry. 75cl bottle.",
+        },
+        it: {
+          name: "Barbera d'Alba DOC (Piemonte)",
+          description:
+            "Gusto intenso e pieno. Bouquet molto pronunciato di frutti rossi e ciliegia. Bottiglia 75cl.",
+        },
+        es: {
+          name: "Barbera d'Alba DOC (Piamonte)",
+          description:
+            "Gusto intenso y pleno. Aroma muy pronunciado a frutos rojos y cereza. Botella 75cl.",
+        },
+      },
+    },
+    {
+      id: "barolo",
+      category: "boissons",
+      subcategory: "Vins rouges Bio",
+      image: "https://imgs.search.brave.com/JUME9gpDmCQE5juQMkkFxDqK5Hm4XvvInYdkU93iE0A/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZW50/cm8taXRhbGlhLmRl/L3dwLWNvbnRlbnQv/dXBsb2Fkcy8yMDI1/LzAyLzEzMDAtQmFy/b2xvLURPQ0ctQmF0/YXNpb2xvLnBuZw",
+      price: 152.0,
+      allergens: ["so2"],
+      diets: ["sans-gluten", "vegan", "sans-lactose"],
+      macros: { calories: 640, proteines: 0, glucides: 22, lipides: 0 },
+      translations: {
+        fr: {
+          name: "Barolo DOCG (Piémont)",
+          description:
+            "Notes fruitées et florales de vanille et de violette. Fait partie des grands vins du monde. Bouteille 75cl.",
+        },
+        en: {
+          name: "Barolo DOCG (Piedmont)",
+          description:
+            "Fruity and floral notes of vanilla and violet. One of the great wines of the world. 75cl bottle.",
+        },
+        it: {
+          name: "Barolo DOCG (Piemonte)",
+          description:
+            "Note fruttate e floreali di vaniglia e violetta. Uno dei grandi vini del mondo. Bottiglia 75cl.",
+        },
+        es: {
+          name: "Barolo DOCG (Piamonte)",
+          description:
+            "Notas frutales y florales de vainilla y violeta. Uno de los grandes vinos del mundo. Botella 75cl.",
+        },
+      },
+    },
+    {
+      id: "bardolino-chiaretto",
+      category : "boissons",
+      subcategory: "Vins rosés Bio",
+      image: "https://imgs.search.brave.com/N1hp3on_O0Is_ENGP0aov0Cf_Ln6NzCn5AUmy5ugoLI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZW50/cm8taXRhbGlhLmRl/L3dwLWNvbnRlbnQv/dXBsb2Fkcy8yMDIy/LzA1LzExNzEtQ2hp/YXJldHRvLUJhcmRv/bGluby1CZXJldHRh/LnBuZw",
+      price: 32.0,
+      allergens: ["so2"],
+      diets: ["sans-gluten", "vegan", "sans-lactose"],
+      macros: { calories: 600, proteines: 0, glucides: 18, lipides: 0 },
+      translations: {
+        fr: {
+          name: "Bardolino Chiaretto (Vénétie)",
+          description:
+            "Couleur rose tendre, parfum de fruits délicats rappelant la fraise, la framboise et la cerise. Idéal avec les entrées, poissons et salades. Bouteille 75cl.",
+        },
+        en: {
+          name: "Bardolino Chiaretto (Veneto)",
+          description:
+            "Soft pink color, delicate fruit scent of strawberry, raspberry and cherry. Ideal with starters, fish and salads. 75cl bottle.",
+        },
+        it: {
+          name: "Bardolino Chiaretto (Veneto)",
+          description:
+            "Colore rosa tenue, profumo di frutti delicati come fragola, lampone e ciliegia. Ideale con antipasti, pesce e insalate. Bottiglia 75cl.",
+        },
+        es: {
+          name: "Bardolino Chiaretto (Véneto)",
+          description:
+            "Color rosa suave, aroma de frutas delicadas como fresa, frambuesa y cereza. Ideal con entrantes, pescados y ensaladas. Botella 75cl.",
+        },
+      },
+    },
+    {
+      id: "rosato-terre-di-chieti",
+      category : "boissons",
+      subcategory: "Vins rosés Bio",
+      image: "https://imgs.search.brave.com/DyBcGipho74jUUZBvmYCkvRjLpJZYHcM7hPpV8AaQrY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tb25h/dmluaS5kZS8yNzE4/LW1lZGl1bV9kZWZh/dWx0L3Jvc2F0by10/ZXJyZS1kaS1jaGll/dGktaWd0LXRlcnJh/bW9yZS1hYnJ1enpl/bi13ZWluLWthdWZl/bi1tdW5jaGVuLmpw/Zw",
+      price: 42.0,
+      allergens: ["so2"],
+      diets: ["sans-gluten", "vegan", "sans-lactose"],
+      macros: { calories: 600, proteines: 0, glucides: 18, lipides: 0 },
+      translations: {
+        fr: {
+          name: "Rosato Terre di Chieti IGT (Toscane)",
+          description:
+            "Arômes de rhubarbe, groseille et fruits des bois. Frais, agréable, légèrement fruité au final sec. Bouteille 75cl.",
+        },
+        en: {
+          name: "Rosato Terre di Chieti IGT (Tuscany)",
+          description:
+            "Aromas of rhubarb, redcurrant and wild berries. Fresh, pleasant, slightly fruity with a dry finish. 75cl bottle.",
+        },
+        it: {
+          name: "Rosato Terre di Chieti IGT (Toscana)",
+          description:
+            "Aromi di rabarbaro, ribes e frutti di bosco. Fresco, piacevole, leggermente fruttato con finale secco. Bottiglia 75cl.",
+        },
+        es: {
+          name: "Rosato Terre di Chieti IGT (Toscana)",
+          description:
+            "Aromas de ruibarbo, grosella y frutos del bosque. Fresco, agradable, ligeramente afrutado con final seco. Botella 75cl.",
+        },
+      },
+    },
+    {
+      id: "grillo-igt",
+      category: "boissons",
+      subcategory: "Vins blancs Bio",
+      image: "https://imgs.search.brave.com/ay-MUFSxgJ8Q9jIzM7oSx3ciAHPlA5QnIqbxlNo86Lk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/cHJvZHVpdHMtaXRh/bGllbnMuZnIvOTcw/Ny1sYXJnZV9kZWZh/dWx0L2dyaWxsby1k/ZS1zaWNpbGUtYmlv/LmpwZw",
+      price: 29.0,
+      allergens: ["so2"],
+      diets: ["sans-gluten", "vegan", "sans-lactose"],
+      macros: { calories: 600, proteines: 0, glucides: 18, lipides: 0 },
+      translations: {
+        fr: {
+          name: "Grillo IGT (Sicile)",
+          description:
+            "Parfum aromatique de sauge, camomille et écorce d'agrume. Termine sur des notes de pêche jaune, gourmand et souple. Bouteille 75cl.",
+        },
+        en: {
+          name: "Grillo IGT (Sicily)",
+          description:
+            "Aromatic scent of sage, chamomile and citrus peel. Finishes with notes of yellow peach, rich and supple. 75cl bottle.",
+        },
+        it: {
+          name: "Grillo IGT (Sicilia)",
+          description:
+            "Profumo aromatico di salvia, camomilla e scorza di agrumi. Note di pesca gialla sul finale, armonioso e morbido. Bottiglia 75cl.",
+        },
+        es: {
+          name: "Grillo IGT (Sicilia)",
+          description:
+            "Aroma de salvia, manzanilla y corteza de cítricos. Finaliza con notas de melocotón amarillo, goloso y flexible. Botella 75cl.",
+        },
+      },
+    },
+    {
+      id: "trebbiano-d-abruzzo",
+      category: "boissons",
+      subcategory: "Vins blancs Bio",
+      image: "https://imgs.search.brave.com/cxZfASS9mAnYGTHp5H8NQXGwkRSkbiUV4lwhZHgn9Bc/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/d2luZS1zZWFyY2hl/ci5jb20vaW1hZ2Vz/L2xhYmVscy80OC8y/OC8xMTU3NDgyOC5q/cGc_d2lkdGg9Mjg4/JmhlaWdodD0xODAm/Zml0PWJvdW5kcyZj/YW52YXM9Mjg4LDE4/MCZmb3JtYXQ9YXV0/byZhdXRvPWNvbXBy/ZXNzJmRwcj0xJnF1/YWxpdHk9NzA",
+      price: 32.0,
+      allergens: ["so2"],
+      diets: ["sans-gluten", "vegan", "sans-lactose"],
+      macros: { calories: 600, proteines: 0, glucides: 18, lipides: 0 },
+      translations: {
+        fr: {
+          name: "Trebbiano d'Abruzzo (Abruzzes)",
+          description:
+            "Robe jaune paille aux reflets verts. Parfum fruité intense aux arômes d'agrumes sur des notes de poire et de pêche. Bouteille 75cl.",
+        },
+        en: {
+          name: "Trebbiano d'Abruzzo (Abruzzo)",
+          description:
+            "Straw yellow color with green highlights. Intense fruity scent with citrus aromas and notes of pear and peach. 75cl bottle.",
+        },
+        it: {
+          name: "Trebbiano d'Abruzzo (Abruzzo)",
+          description:
+            "Colore giallo paglierino con riflessi verdognoli. Profumo fruttato intenso con aromi di agrumi e note di pera e pesca. Bottiglia 75cl.",
+        },
+        es: {
+          name: "Trebbiano d'Abruzzo (Abruzos)",
+          description:
+            "Color amarillo pajizo con reflejos verdes. Aroma frutal intenso con notas de cítricos, pera y melocotón. Botella 75cl.",
+        },
+      },
+    },
+    {
+      id: "kukukaya-passerina",
+      category: "boissons",
+      subcategory: "Vins blancs Bio",
+      image: "https://imgs.search.brave.com/KlCixl0DUpLlmcJzRyEeTfPzXqM8cSP-qNi220yIYdw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9kYXRh/Lm5lZ296aW9kZWx2/aW5vLml0L2ltZ3By/b2RvdHRvL3Bhc3Nl/cmluYS10ZXJyZS1k/aS1jaGlldGktYmlv/XzE0NDAzX2xpc3Qu/anBn",
+      price: 38.0,
+      allergens: ["so2"],
+      diets: ["sans-gluten", "vegan", "sans-lactose"],
+      macros: { calories: 600, proteines: 0, glucides: 18, lipides: 0 },
+      translations: {
+        fr: {
+          name: "Kukukaya Passerina Terre di Chieti IGT bio (Abruzzes)",
+          description:
+            "Arômes de poire et d'avocat, retours de cèdre et de marjolaine. Excellent équilibre et final subtil. Bouteille 75cl.",
+        },
+        en: {
+          name: "Organic Kukukaya Passerina Terre di Chieti IGT (Abruzzo)",
+          description:
+            "Aromas of pear and avocado, with hints of cedar and marjoram. Excellent balance and subtle finish. 75cl bottle.",
+        },
+        it: {
+          name: "Kukukaya Passerina Terre di Chieti IGT bio (Abruzzo)",
+          description:
+            "Aromi di pera e avocado, con ritorni di cedro e maggiorana. Ottimo equilibrio e finale sottile. Bottiglia 75cl.",
+        },
+        es: {
+          name: "Kukukaya Passerina Terre di Chieti IGT bio (Abruzos)",
+          description:
+            "Aromas de pera y aguacate, con notas de cedro y mejorana. Excelente equilibrio y final sutil. Botella 75cl.",
+        },
+      },
+    },
+    {
+      id: "falanghina-sannio",
+      category: "boissons",
+      subcategory: "Vins blancs Bio",
+      image: "https://imgs.search.brave.com/orPTCGB1bFWIK3zVk7Ic1uqwrUrqlhhPvHQbUxCTu_o/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93aWpu/d2FnZW50amUubmwv/d3AtY29udGVudC91/cGxvYWRzLzIwMjAv/MDkvSmFuYXJlLUZh/bGFuZ2hpbmEtRGVs/LVNhbm5pby1ET1At/MjAxOS1GLTEuanBn",
+      price: 42.0,
+      allergens: ["so2"],
+      diets: ["sans-gluten", "vegan", "sans-lactose"],
+      macros: { calories: 600, proteines: 0, glucides: 18, lipides: 0 },
+      translations: {
+        fr: {
+          name: "Falanghina Sannio DOP bio (Campanie)",
+          description:
+            "Vin aux arômes intenses et variés. Fruité, prune, pêche, puis final sec et minéral. Bouteille 75cl.",
+        },
+        en: {
+          name: "Organic Falanghina Sannio DOP (Campania)",
+          description:
+            "Wine with intense and varied aromas. Fruity notes of plum and peach, with a dry and mineral finish. 75cl bottle.",
+        },
+        it: {
+          name: "Falanghina Sannio DOP bio (Campania)",
+          description:
+            "Vino dagli aromi intensi e vari. Fruttato, prugna, pesca, con un finale secco e minerale. Bottiglia 75cl.",
+        },
+        es: {
+          name: "Falanghina Sannio DOP bio (Campania)",
+          description:
+            "Vino de aromas intensos y variados. Afrutado, ciruela, melocotón, con un final seco y mineral. Botella 75cl.",
+        },
+      },
+    },
+    {
+      id: "spinola-gavi",
+      category: "boissons",
+      subcategory: "Vins blancs Bio",
+      image: "https://imgs.search.brave.com/qlxpXJtpEKliHfh-PUANmiS4xOATHw-GzqwDJpC1ZWk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/Ymlvd2Vpbi1lcmxl/c2VuLmRlL21lZGlh/L2ltYWdlL3Byb2R1/Y3QvNTU4L2xnL3Rh/c3Nhcm9sby1nYXZp/LW1hcmNoZXNpLXNw/aW5vbGEtd2Vpc3N3/ZWluLXBpZW1vbnQt/aGlzdGFtaW5nZXBy/dWVmdC5qcGc",
+      price: 40.0,
+      allergens: ["so2"],
+      diets: ["sans-gluten", "vegan", "sans-lactose"],
+      macros: { calories: 600, proteines: 0, glucides: 18, lipides: 0 },
+      translations: {
+        fr: {
+          name: "Spinola Gavi DOCG (Piémont)",
+          description:
+            "Arômes de fruits exotiques, légèrement minéral et fruité. Bouteille 75cl.",
+        },
+        en: {
+          name: "Spinola Gavi DOCG (Piedmont)",
+          description:
+            "Aromas of exotic fruits, slightly mineral and fruity. 75cl bottle.",
+        },
+        it: {
+          name: "Spinola Gavi DOCG (Piemonte)",
+          description:
+            "Aromi di frutti esotici, leggermente minerale e fruttato. Bottiglia 75cl.",
+        },
+        es: {
+          name: "Spinola Gavi DOCG (Piamonte)",
+          description:
+            "Aromas de frutas exóticas, ligeramente mineral y afrutado. Botella 75cl.",
+        },
+      },
+    },
+    {
+      id: "prosecco-valdobbiadene",
+      category: "boissons",
+      subcategory: "Prosecco",
+      image: "https://imgs.search.brave.com/VuzDiUzFiT8BCWN4ANoOfQlEm5OILx27dogfx9D7udM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9kYXRh/Lm5lZ296aW9kZWx2/aW5vLml0L2ltZ3By/b2RvdHRvL3ZhbGRv/YmJpYWRlbmUtcHJv/c2VjY28tc3VwZXJp/b3JlLWxlLXJpdmUt/ZGktY29sYmVydGFs/ZG8tZXh0cmEtZHJ5/LWRvY2dfMTYwMzRf/bGlzdC5qcGc",
+      price: 55.0,
+      allergens: ["so2"],
+      diets: ["sans-gluten", "vegan", "sans-lactose"],
+      macros: { calories: 600, proteines: 0, glucides: 14, lipides: 0 },
+      translations: {
+        fr: {
+          name: "Prosecco Valdobbiadene (Vénétie)",
+          description:
+            "Arômes de fleurs et de fruits, vin pétillant frais, délicat et fruité. Bouteille 75cl.",
+        },
+        en: {
+          name: "Prosecco Valdobbiadene (Veneto)",
+          description:
+            "Aromas of flowers and fruits, fresh, delicate and fruity sparkling wine. 75cl bottle.",
+        },
+        it: {
+          name: "Prosecco Valdobbiadene (Veneto)",
+          description:
+            "Aromi di fiori e frutti, spumante fresco, delicato e fruttato. Bottiglia 75cl.",
+        },
+        es: {
+          name: "Prosecco Valdobbiadene (Véneto)",
+          description:
+            "Aromas de flores y frutas, vino espumoso fresco, delicado y afrutado. Botella 75cl.",
+        },
+      },
+    },
+    {
+      id: "spritz",
+      category: "boissons",
+      subcategory: "Apéritifs",
+      image: pexels(27565829),
+      price: 12.0,
+      allergens: ["so2"],
+      diets: ["sans-gluten", "vegan", "sans-lactose"],
+      macros: { calories: 160, proteines: 0, glucides: 14, lipides: 0 },
+      translations: {
+        fr: {
+          name: "Spritz",
+          description: "Cocktail Spritz (14cl).",
+        },
+        en: {
+          name: "Spritz",
+          description: "Spritz cocktail (14cl).",
+        },
+        it: {
+          name: "Spritz",
+          description: "Cocktail Spritz (14cl).",
+        },
+        es: {
+          name: "Spritz",
+          description: "Cóctel Spritz (14cl).",
+        },
+      },
+    },
+    {
+      id: "gin-tonic",
+      category: "boissons",
+      subcategory: "Apéritifs",
+      image: pexels(34490687),
+      price: 12.0,
+      allergens: [],
+      diets: ["sans-gluten", "vegan", "sans-lactose"],
+      macros: { calories: 170, proteines: 0, glucides: 12, lipides: 0 },
+      translations: {
+        fr: {
+          name: "Gin Tonic",
+          description: "Gin tonic (14cl).",
+        },
+        en: {
+          name: "Gin Tonic",
+          description: "Gin and tonic (14cl).",
+        },
+        it: {
+          name: "Gin Tonic",
+          description: "Gin tonic (14cl).",
+        },
+        es: {
+          name: "Gin Tonic",
+          description: "Gin tonic (14cl).",
+        },
+      },
+    },
+    {
+      id: "coupe-de-prosecco",
+      category: "boissons",
+      subcategory: "Prosecco",
+      image: pexels(11976218),
+      price: 11.0,
+      allergens: ["so2"],
+      diets: ["sans-gluten", "vegan", "sans-lactose"],
+      macros: { calories: 100, proteines: 0, glucides: 3, lipides: 0 },
+      translations: {
+        fr: {
+          name: "Coupe de Prosecco",
+          description: "Coupe de Prosecco (12cl).",
+        },
+        en: {
+          name: "Glass of Prosecco",
+          description: "A glass of Prosecco (12cl).",
+        },
+        it: {
+          name: "Calice di Prosecco",
+          description: "Un calice di Prosecco (12cl).",
+        },
+        es: {
+          name: "Copa de Prosecco",
+          description: "Una copa de Prosecco (12cl).",
+        },
+      },
+    },
+    {
+      id: "vermouth",
+      category: "boissons",
+      subcategory: "Apéritifs",
+      image: pexels(7270393),
+      price: 11.0,
+      allergens: ["so2"],
+      diets: ["sans-gluten", "vegan", "sans-lactose"],
+      macros: { calories: 60, proteines: 0, glucides: 6, lipides: 0 },
+      translations: {
+        fr: {
+          name: "Vermouth blanc ou rouge",
+          description: "Vermouth blanc ou rouge (4cl).",
+        },
+        en: {
+          name: "White or Red Vermouth",
+          description: "White or red vermouth (4cl).",
+        },
+        it: {
+          name: "Vermouth bianco o rosso",
+          description: "Vermouth bianco o rosso (4cl).",
+        },
+        es: {
+          name: "Vermut blanco o rojo",
+          description: "Vermut blanco o rojo (4cl).",
+        },
+      },
+    },
+    {
+      id: "campari-vodka",
+      category: "boissons",
+      subcategory: "Apéritifs",
+      image: pexels(16845289),
+      price: 12.0,
+      allergens: [],
+      diets: ["sans-gluten", "vegan", "sans-lactose"],
+      macros: { calories: 90, proteines: 0, glucides: 6, lipides: 0 },
+      translations: {
+        fr: {
+          name: "Campari / Vodka",
+          description: "Campari ou vodka (4cl).",
+        },
+        en: {
+          name: "Campari / Vodka",
+          description: "Campari or vodka (4cl).",
+        },
+        it: {
+          name: "Campari / Vodka",
+          description: "Campari o vodka (4cl).",
+        },
+        es: {
+          name: "Campari / Vodka",
+          description: "Campari o vodka (4cl).",
+        },
+      },
+    },
+    {
+      id: "acqua-chiara",
+      category: "boissons",
+      subcategory: "Eaux minérales",
+      image: pexels(928854),
+      price: 6.0,
+      allergens: [],
+      diets: ["sans-gluten", "vegan", "sans-lactose"],
+      macros: { calories: 0, proteines: 0, glucides: 0, lipides: 0 },
+      translations: {
+        fr: {
+          name: "Acqua Chiara",
+          description: "Eau minérale plate ou pétillante (75cl).",
+        },
+        en: {
+          name: "Acqua Chiara",
+          description: "Still or sparkling mineral water (75cl).",
+        },
+        it: {
+          name: "Acqua Chiara",
+          description: "Acqua minerale naturale o frizzante (75cl).",
+        },
+        es: {
+          name: "Acqua Chiara",
+          description: "Agua mineral natural o con gas (75cl).",
+        },
+      },
+    },
+    {
+      id: "jus-ace",
+      category: "boissons",
+      subcategory: "Jus de Fruits Bio",
+      image: pexels(5668171),
+      price: 7.0,
+      allergens: [],
+      diets: ["sans-gluten", "vegan", "sans-lactose"],
+      macros: { calories: 100, proteines: 1, glucides: 24, lipides: 0 },
+      translations: {
+        fr: {
+          name: "Jus ACE bio",
+          description: "Jus bio orange, carotte, citron (20cl).",
+        },
+        en: {
+          name: "Organic ACE Juice",
+          description: "Organic orange, carrot, and lemon juice (20cl).",
+        },
+        it: {
+          name: "Succo ACE bio",
+          description: "Succo bio arancia, carota, limone (20cl).",
+        },
+        es: {
+          name: "Zumo ACE bio",
+          description: "Zumo bio de naranja, zanahoria y limón (20cl).",
+        },
+      },
+    },
+    {
+      id: "jus-peche",
+      category: "boissons",
+      subcategory: "Jus de Fruits Bio",
+      image: pexels(10526098),
+      price: 7.0,
+      allergens: [],
+      diets: ["sans-gluten", "vegan", "sans-lactose"],
+      macros: { calories: 110, proteines: 0, glucides: 26, lipides: 0 },
+      translations: {
+        fr: {
+          name: "Jus de pêche bio",
+          description: "Jus de pêche bio (20cl).",
+        },
+        en: {
+          name: "Organic Peach Juice",
+          description: "Organic peach juice (20cl).",
+        },
+        it: {
+          name: "Succo alla pesca bio",
+          description: "Succo di pesca biologico (20cl).",
+        },
+        es: {
+          name: "Zumo de melocotón bio",
+          description: "Zumo de melocotón bio (20cl).",
+        },
+      },
+    },
+    {
+      id: "jus-myrtille",
+      category: "boissons",
+      subcategory: "Jus de Fruits Bio",
+      image: pexels(4443473),
+      price: 7.0,
+      allergens: [],
+      diets: ["sans-gluten", "vegan", "sans-lactose"],
+      macros: { calories: 110, proteines: 0, glucides: 26, lipides: 0 },
+      translations: {
+        fr: {
+          name: "Jus de myrtille sauvage bio",
+          description: "Jus de myrtille sauvage bio (20cl).",
+        },
+        en: {
+          name: "Organic Wild Blueberry Juice",
+          description: "Organic wild blueberry juice (20cl).",
+        },
+        it: {
+          name: "Succo ai mirtilli selvatici bio",
+          description: "Succo di mirtillo selvatico biologico (20cl).",
+        },
+        es: {
+          name: "Zumo de arándanos silvestres bio",
+          description: "Zumo de arándanos silvestres bio (20cl).",
+        },
+      },
+    },
+    {
+      id: "jus-poire",
+      category: "boissons",
+      subcategory: "Jus de Fruits Bio",
+      image: pexels(12973242),
+      price: 7.0,
+      allergens: [],
+      diets: ["sans-gluten", "vegan", "sans-lactose"],
+      macros: { calories: 110, proteines: 0, glucides: 26, lipides: 0 },
+      translations: {
+        fr: {
+          name: "Jus de poire Williams bio",
+          description: "Jus de poire Williams bio (20cl).",
+        },
+        en: {
+          name: "Organic Williams Pear Juice",
+          description: "Organic Williams pear juice (20cl).",
+        },
+        it: {
+          name: "Succo alla pera Williams bio",
+          description: "Succo di pera Williams biologico (20cl).",
+        },
+        es: {
+          name: "Zumo de pera Williams bio",
+          description: "Zumo de pera Williams bio (20cl).",
+        },
+      },
+    },
+    {
+      id: "jus-tomate",
+      category: "boissons",
+      subcategory: "Jus de Fruits Bio",
+      image: pexels(37196516),
+      price: 7.0,
+      allergens: [],
+      diets: ["sans-gluten", "vegan", "sans-lactose"],
+      macros: { calories: 40, proteines: 2, glucides: 8, lipides: 0 },
+      translations: {
+        fr: {
+          name: "Jus de tomate bio",
+          description: "Jus de tomate bio (20cl).",
+        },
+        en: {
+          name: "Organic Tomato Juice",
+          description: "Organic tomato juice (20cl).",
+        },
+        it: {
+          name: "Succo al pomodoro bio",
+          description: "Succo di pomodoro biologico (20cl).",
+        },
+        es: {
+          name: "Zumo de tomate bio",
+          description: "Zumo de tomate bio (20cl).",
+        },
+      },
+    },
+    {
+      id: "jus-abricot",
+      category: "boissons",
+      subcategory: "Jus de Fruits Bio",
+      image: pexels(17612789),
+      price: 7.0,
+      allergens: [],
+      diets: ["sans-gluten", "vegan", "sans-lactose"],
+      macros: { calories: 110, proteines: 1, glucides: 26, lipides: 0 },
+      translations: {
+        fr: {
+          name: "Jus d'abricot bio",
+          description: "Jus d'abricot bio (20cl).",
+        },
+        en: {
+          name: "Organic Apricot Juice",
+          description: "Organic apricot juice (20cl).",
+        },
+        it: {
+          name: "Succo all'albicocca bio",
+          description: "Succo di albicocca biologico (20cl).",
+        },
+        es: {
+          name: "Zumo de albaricoque bio",
+          description: "Zumo de albaricoque bio (20cl).",
+        },
+      },
+    },
+    {
+      id: "jus-pomme",
+      category: "boissons",
+      subcategory: "Jus de Fruits Bio",
+      image: pexels(5817625),
+      price: 7.0,
+      allergens: [],
+      diets: ["sans-gluten", "vegan", "sans-lactose"],
+      macros: { calories: 110, proteines: 0, glucides: 26, lipides: 0 },
+      translations: {
+        fr: {
+          name: "Jus de pomme bio",
+          description: "Jus de pomme bio (20cl).",
+        },
+        en: {
+          name: "Organic Apple Juice",
+          description: "Organic apple juice (20cl).",
+        },
+        it: {
+          name: "Succo alla mela bio",
+          description: "Succo di mela biologico (20cl).",
+        },
+        es: {
+          name: "Zumo de manzana bio",
+          description: "Zumo de manzana bio (20cl).",
+        },
+      },
+    },
+    {
+      id: "jus-orange",
+      category: "boissons",
+      subcategory: "Jus de Fruits Bio",
+      image: pexels(30900665),
+      price: 7.0,
+      allergens: [],
+      diets: ["sans-gluten", "vegan", "sans-lactose"],
+      macros: { calories: 110, proteines: 1, glucides: 26, lipides: 0 },
+      translations: {
+        fr: {
+          name: "Jus d'orange bio",
+          description: "Jus d'orange bio (20cl).",
+        },
+        en: {
+          name: "Organic Orange Juice",
+          description: "Organic orange juice (20cl).",
+        },
+        it: {
+          name: "Spremuta d'arancia bio",
+          description: "Spremuta d'arancia biologica (20cl).",
+        },
+        es: {
+          name: "Zumo de naranja bio",
+          description: "Zumo de naranja bio (20cl).",
+        },
+      },
+    },
+    {
+      id: "soda-aranciata",
+      category: "boissons",
+      subcategory: "Sodas",
+      image: pexels(26791698),
+      price: 7.0,
+      allergens: [],
+      diets: ["sans-gluten", "vegan", "sans-lactose"],
+      macros: { calories: 110, proteines: 0, glucides: 28, lipides: 0 },
+      translations: {
+        fr: {
+          name: "Aranciata bio",
+          description: "Soda à l'orange bio (27,5cl).",
+        },
+        en: {
+          name: "Organic Aranciata",
+          description: "Organic orange soda (27.5cl).",
+        },
+        it: {
+          name: "Aranciata bio",
+          description: "Aranciata biologica (27,5cl).",
+        },
+        es: {
+          name: "Aranciata bio",
+          description: "Refresco de naranja bio (27,5cl).",
+        },
+      },
+    },
+    {
+      id: "soda-limonade",
+      category: "boissons",
+      subcategory: "Sodas",
+      image: pexels(33107433),
+      price: 7.0,
+      allergens: [],
+      diets: ["sans-gluten", "vegan", "sans-lactose"],
+      macros: { calories: 100, proteines: 0, glucides: 26, lipides: 0 },
+      translations: {
+        fr: {
+          name: "Limonade bio",
+          description: "Limonade bio (27,5cl).",
+        },
+        en: {
+          name: "Organic Lemonade",
+          description: "Organic lemonade (27.5cl).",
+        },
+        it: {
+          name: "Limonata bio",
+          description: "Limonata biologica (27,5cl).",
+        },
+        es: {
+          name: "Limonada bio",
+          description: "Limonada bio (27,5cl).",
+        },
+      },
+    },
+    {
+      id: "soda-limonade-cedrat",
+      category: "boissons",
+      subcategory: "Sodas",
+      image: pexels(8679076),
+      price: 7.0,
+      allergens: [],
+      diets: ["sans-gluten", "vegan", "sans-lactose"],
+      macros: { calories: 100, proteines: 0, glucides: 26, lipides: 0 },
+      translations: {
+        fr: {
+          name: "Limonade au cédrat bio",
+          description: "Limonade au cédrat bio (27,5cl).",
+        },
+        en: {
+          name: "Organic Citron Lemonade",
+          description: "Organic citron lemonade (Cedrata) (27.5cl).",
+        },
+        it: {
+          name: "Cedrata bio",
+          description: "Cedrata biologica (27,5cl).",
+        },
+        es: {
+          name: "Limonada de cedro bio",
+          description: "Limonada de cedro bio (Cedrata) (27,5cl).",
+        },
+      },
+    },
+    {
+      id: "soda-chinotto",
+      category: "boissons",
+      subcategory: "Sodas",
+      image: "https://imgs.search.brave.com/GJbyK8g8-AJON_FNtw4R7EuOQWvASRGkJEjZeVfJo-8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS1jZG4udHJpcGFk/dmlzb3IuY29tL21l/ZGlhL3Bob3RvLW8v/MDMvODUvN2YvNDcv/Y2hpbm90dG8uanBn",
+      price: 7.0,
+      allergens: [],
+      diets: ["sans-gluten", "vegan", "sans-lactose"],
+      macros: { calories: 110, proteines: 0, glucides: 28, lipides: 0 },
+      translations: {
+        fr: {
+          name: "Chinotto bio",
+          description: "Soda Chinotto bio (27,5cl).",
+        },
+        en: {
+          name: "Organic Chinotto",
+          description: "Organic Chinotto soda (27.5cl).",
+        },
+        it: {
+          name: "Chinotto bio",
+          description: "Chinotto biologico (27,5cl).",
+        },
+        es: {
+          name: "Chinotto bio",
+          description: "Refresco Chinotto bio (27,5cl).",
+        },
+      },
+    },
+    {
+      id: "mole-cola",
+      category: "boissons",
+      subcategory: "Sodas",
+      image: "https://imgs.search.brave.com/fjDrBIhkGHY7CXL99HnwtJewloEoTWiOnS4LXlD7zu8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9iaWVy/LWJlcmxpbi5jb20v/Y2RuL3Nob3AvZmls/ZXMvUGhvdG9yb29t/LTIwMjQwMjE0XzEy/MzAxMC5wbmc_dj0x/NzU3NDIxMzkxJndp/ZHRoPTQ4MA",
+      price: 7.0,
+      allergens: [],
+      diets: ["sans-gluten", "vegan", "sans-lactose"],
+      macros: { calories: 130, proteines: 0, glucides: 32, lipides: 0 },
+      translations: {
+        fr: {
+          name: "Mole Cola bio",
+          description: "Soda Mole Cola bio (33cl).",
+        },
+        en: {
+          name: "Organic Mole Cola",
+          description: "Organic Mole Cola (Italian cola) (33cl).",
+        },
+        it: {
+          name: "Mole Cola bio",
+          description: "Mole Cola biologica (33cl).",
+        },
+        es: {
+          name: "Mole Cola bio",
+          description: "Mole Cola bio (cola italiana) (33cl).",
+        },
+      },
+    },
+    {
+      id: "mole-cola-zero",
+      category: "boissons",
+      subcategory: "Sodas",
+      image: "https://imgs.search.brave.com/DTZi-Z8ifo5WcxzLRcbHc7mymPdrc1NWJthetDgACNk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/c29kYXBvcGJyb3Mu/Y29tL2Nkbi9zaG9w/L3Byb2R1Y3RzL21v/bGUtY29sYS16ZXJv/LWl0YWx5LTIyNjAy/OC5qcGc_dj0xNjk3/MzYwMDU0JndpZHRo/PTYwMA",
+      price: 7.0,
+      allergens: [],
+      diets: ["sans-gluten", "vegan", "sans-lactose"],
+      macros: { calories: 0, proteines: 0, glucides: 0, lipides: 0 },
+      translations: {
+        fr: {
+          name: "Mole Cola Zero",
+          description: "Soda Mole Cola Zero (33cl).",
+        },
+        en: {
+          name: "Mole Cola Zero",
+          description: "Mole Cola Zero (sugar-free Italian cola) (33cl).",
+        },
+        it: {
+          name: "Mole Cola Zero",
+          description: "Mole Cola Zero (33cl).",
+        },
+        es: {
+          name: "Mole Cola Zero",
+          description: "Mole Cola Zero (33cl).",
+        },
+      },
+    },
+    {
+      id: "the-glace-peche",
+      category: "boissons",
+      subcategory: "Thé Glacés",
+      image: pexels(37211777),
+      price: 7.0,
+      allergens: [],
+      diets: ["sans-gluten", "vegan", "sans-lactose"],
+      macros: { calories: 80, proteines: 0, glucides: 20, lipides: 0 },
+      translations: {
+        fr: {
+          name: "Thé glacé à la pêche bio",
+          description: "Thé glacé à la pêche bio (20cl).",
+        },
+        en: {
+          name: "Organic Peach Ice Tea",
+          description: "Organic peach ice tea (20cl).",
+        },
+        it: {
+          name: "Tè freddo alla pesca bio",
+          description: "Tè freddo alla pesca biologico (20cl).",
+        },
+        es: {
+          name: "Té frío de melocotón bio",
+          description: "Té frío de melocotón bio (20cl).",
+        },
+      },
+    },
+    {
+      id: "the-glace-citron",
+      category: "boissons",
+      subcategory: "Thé Glacés",
+      image: pexels(33044329),
+      price: 7.0,
+      allergens: [],
+      diets: ["sans-gluten", "vegan", "sans-lactose"],
+      macros: { calories: 80, proteines: 0, glucides: 20, lipides: 0 },
+      translations: {
+        fr: {
+          name: "Thé glacé au citron bio",
+          description: "Thé glacé au citron bio (20cl).",
+        },
+        en: {
+          name: "Organic Lemon Ice Tea",
+          description: "Organic lemon ice tea (20cl).",
+        },
+        it: {
+          name: "Tè freddo al limone bio",
+          description: "Tè freddo al limone biologico (20cl).",
+        },
+        es: {
+          name: "Té frío de limón bio",
+          description: "Té frío de limón bio (20cl).",
+        },
+      },
+    },
+    {
+      id: "peroni-sans-gluten",
+      category: "boissons",
+      subcategory: "Bières",
+      image: "https://imgs.search.brave.com/wNc46zBeMIc7wR8UiGvn_AthDzfDdAnRU2e7_gu9g_E/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9iaWVy/LWJlcmxpbi5jb20v/Y2RuL3Nob3AvZmls/ZXMvODFXV3hoNHBO/T0wuX0FDX1VGMTAw/MF8xMDAwX1FMODBf/XzVfMy5wbmc_dj0x/NzcwMzYyMjMwJndp/ZHRoPTQ4MA",
+      price: 10.0,
+      allergens: [],
+      diets: ["sans-gluten", "vegan", "sans-lactose"],
+      macros: { calories: 140, proteines: 1, glucides: 12, lipides: 0 },
+      translations: {
+        fr: {
+          name: "Peroni sans gluten",
+          description: "Bière artisanale sans gluten (33cl).",
+        },
+        en: {
+          name: "Gluten-free Peroni",
+          description: "Gluten-free craft beer (33cl).",
+        },
+        it: {
+          name: "Peroni senza glutine",
+          description: "Birra artigianale senza glutine (33cl).",
+        },
+        es: {
+          name: "Peroni sin gluten",
+          description: "Cerveza artesanal sin gluten (33cl).",
+        },
+      },
+    },
+    {
+      id: "expresso-illy",
+      category: "boissons",
+      subcategory: "Boissons chaudes",
+      image: pexels(19425454),
+      price: 3.5,
+      allergens: [],
+      diets: ["sans-gluten", "vegan", "sans-lactose"],
+      macros: { calories: 5, proteines: 0, glucides: 1, lipides: 0 },
+      translations: {
+        fr: {
+          name: "Expresso Illy",
+          description: "Expresso Illy.",
+        },
+        en: {
+          name: "Illy Espresso",
+          description: "Illy espresso coffee.",
+        },
+        it: {
+          name: "Caffè Espresso Illy",
+          description: "Caffè espresso Illy.",
+        },
+        es: {
+          name: "Café Espresso Illy",
+          description: "Café espresso Illy.",
+        },
+      },
+    },
+    {
+      id: "the-infusion",
+      category: "boissons",
+      subcategory: "Boissons chaudes",
+      image: pexels(29039087),
+      price: 6.0,
+      allergens: [],
+      diets: ["sans-gluten", "vegan", "sans-lactose"],
+      macros: { calories: 5, proteines: 0, glucides: 1, lipides: 0 },
+      translations: {
+        fr: {
+          name: "Thé ou infusion bio",
+          description: "Thé ou infusion bio.",
+        },
+        en: {
+          name: "Organic Tea or Infusion",
+          description: "Organic tea or herbal infusion.",
+        },
+        it: {
+          name: "Tè o infuso bio",
+          description: "Tè o infuso biologico.",
+        },
+        es: {
+          name: "Té o infusión bio",
+          description: "Té o infusión bio.",
+        },
+      },
+    },
+    {
+      id: "cappuccino",
+      category: "boissons",
+      subcategory: "Boissons chaudes",
+      image: pexels(2288845),
+      price: 7.0,
+      allergens: ["lait"],
+      diets: ["sans-gluten", "vegetarien"],
+      macros: { calories: 100, proteines: 5, glucides: 8, lipides: 5 },
+      translations: {
+        fr: {
+          name: "Cappuccino au lait bio",
+          description: "Cappuccino au lait bio, avec ou sans lactose.",
+        },
+        en: {
+          name: "Organic Milk Cappuccino",
+          description:
+            "Organic milk cappuccino, available with or without lactose.",
+        },
+        it: {
+          name: "Cappuccino con latte bio",
+          description: "Cappuccino con latte biologico, con o senza lattosio.",
+        },
+        es: {
+          name: "Cappuccino con leche bio",
+          description: "Cappuccino con leche bio, con o sin lactosa.",
+        },
+      },
+    },
+    {
+      id: "amaretto",
+      category: "boissons",
+      subcategory: "Digéstifs",
+      image: pexels(7013990),
+      price: 13.0,
+      allergens: ["fruits-a-coque", "so2"],
+      diets: ["sans-gluten", "vegan", "sans-lactose"],
+      macros: { calories: 130, proteines: 0, glucides: 14, lipides: 0 },
+      translations: {
+        fr: {
+          name: "Amaretto",
+          description: "Liqueur d'amande (4cl).",
+        },
+        en: {
+          name: "Amaretto",
+          description: "Almond liqueur (4cl).",
+        },
+        it: {
+          name: "Amaretto",
+          description: "Liquore alla mandorla (4cl).",
+        },
+        es: {
+          name: "Amaretto",
+          description: "Licor de almendra (4cl).",
+        },
+      },
+    },
+    {
+      id: "limoncello",
+      category: "boissons",
+      subcategory: "Digéstifs",
+      image: pexels(21854834),
+      price: 13.0,
+      allergens: ["so2"],
+      diets: ["sans-gluten", "vegan", "sans-lactose"],
+      macros: { calories: 130, proteines: 0, glucides: 16, lipides: 0 },
+      translations: {
+        fr: {
+          name: "Limoncello",
+          description: "Liqueur de citron (4cl).",
+        },
+        en: {
+          name: "Limoncello",
+          description: "Lemon liqueur (4cl).",
+        },
+        it: {
+          name: "Limoncello",
+          description: "Liquore al limone (4cl).",
+        },
+        es: {
+          name: "Limoncello",
+          description: "Licor de limón (4cl).",
+        },
+      },
+    },
+    {
+      id: "grappa",
+      category: "boissons",
+      subcategory: "Digéstifs",
+      image: pexels(20832401),
+      price: 13.0,
+      allergens: ["so2"],
+      diets: ["sans-gluten", "vegan", "sans-lactose"],
+      macros: { calories: 110, proteines: 0, glucides: 0, lipides: 0 },
+      translations: {
+        fr: {
+          name: "Grappa",
+          description: "Eau de vie de marc de raisin (4cl).",
+        },
+        en: {
+          name: "Grappa",
+          description: "Grape marc brandy (4cl).",
+        },
+        it: {
+          name: "Grappa",
+          description: "Acquavite di vinaccia (4cl).",
+        },
+        es: {
+          name: "Grappa",
+          description: "Aguardiente de orujo de uva (4cl).",
+        },
+      },
+    },
+    {
+      id: "sambucca-biostilla",
+      category: "boissons",
+      subcategory: "Digéstifs",
+      image: "https://imgs.search.brave.com/gd7qfs6Ruk-7-lX4wrwIjRwXL1a7DtKq9-0edYy1eMM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9rYXJh/ZGFyc2hvcC5jb20v/MjY5MDEtaG9tZV9k/ZWZhdWx0L3NhbWJ1/Y2EtYmlvLWV4Y2Vs/bGVuY2UtYmlvc3Rp/bGxhLWJyZW5uZXJl/aS13YWxjaGVyLmpw/Zw",
+      price: 13.0,
+      allergens: ["so2"],
+      diets: ["sans-gluten", "vegan", "sans-lactose"],
+      macros: { calories: 140, proteines: 0, glucides: 14, lipides: 0 },
+      translations: {
+        fr: {
+          name: "Sambucca Biostilla",
+          description: "Liqueur d'anis étoilé (4cl).",
+        },
+        en: {
+          name: "Biostilla Sambucca",
+          description: "Star anise liqueur (4cl).",
+        },
+        it: {
+          name: "Sambucca Biostilla",
+          description: "Liquore all'anice stellato (4cl).",
+        },
+        es: {
+          name: "Sambucca Biostilla",
+          description: "Licor de anís estrellado (4cl).",
+        },
+      },
+    },
+    // {
+    //   "id": "formule-entree-plat-dessert",
+    //   "category": "formules",
+    //   "subcategory": null,
+    //   "image": "/su-misura/formule-entree-plat-dessert.jpeg",
+    //   "price": 28.50,
+    //   "allergens": [],
+    //   "diets": ["sans-gluten"],
+    //   "macros": { "calories": 0, "proteines": 0, "glucides": 0, "lipides": 0 },
+    //   "translations": {
+    //     "fr": {
+    //       "name": "Formule Entrée + Plat + Dessert",
+    //       "description": "Formule déjeuner jusqu'à 15h30, hors week-end et jours fériés. Au choix à l'ardoise. Hors boissons."
+    //     }
+    //   }
+    // },
+    // {
+    //   "id": "formule-deux-plats",
+    //   "category": "formules",
+    //   "subcategory": null,
+    //   "image": "/su-misura/formule-deux-plats.jpeg",
+    //   "price": 22.50,
+    //   "allergens": [],
+    //   "diets": ["sans-gluten"],
+    //   "macros": { "calories": 0, "proteines": 0, "glucides": 0, "lipides": 0 },
+    //   "translations": {
+    //     "fr": {
+    //       "name": "Formule Entrée + Plat ou Plat + Dessert",
+    //       "description": "Formule déjeuner jusqu'à 15h30, hors week-end et jours fériés. Au choix à l'ardoise. Hors boissons."
+    //     }
+    //   }
+    // }
+  ],
   "la-sajerie": [
   {
     "id": "saj-du-moment",
     "category": "saj",
     "subcategory": null,
-    "image": pexels(8130687),
+    "image": "/la-sajerie/saj-du-moment.jpg",
     "price": 12.00,
     "allergens": [],
     "diets": [],
@@ -14028,7 +14617,7 @@ export const menuItems: Record<string, MenuItem[]> = {
     "id": "zaatar",
     "category": "saj",
     "subcategory": null,
-    "image": pexels(8130687),
+    "image": "/la-sajerie/zaatar.jpg",
     "price": 9.00,
     "allergens": ["sesame", "fruits-a-coque"],
     "diets": [],
@@ -14046,7 +14635,7 @@ export const menuItems: Record<string, MenuItem[]> = {
     "id": "halloumi",
     "category": "saj",
     "subcategory": null,
-    "image": pexels(8751405),
+    "image": "/la-sajerie/halloumi.jpg",
     "price": 9.50,
     "allergens": ["fruits-a-coque", "lait"],
     "diets": ["vegetarien"],
@@ -14065,7 +14654,7 @@ export const menuItems: Record<string, MenuItem[]> = {
     "id": "chili-halloumi",
     "category": "saj",
     "subcategory": null,
-    "image": pexels(8751405),
+    "image": "/la-sajerie/chili-halloumi.jpg",
     "price": 9.50,
     "allergens": ["fruits-a-coque", "lait"],
     "diets": [],
@@ -14083,7 +14672,7 @@ export const menuItems: Record<string, MenuItem[]> = {
     "id": "halloumi-tapenade-poivron",
     "category": "saj",
     "subcategory": null,
-    "image": pexels(8751405),
+    "image": "/la-sajerie/halloumi-tapenade-poivrons.jpg",
     "price": 9.50,
     "allergens": ["lait"],
     "diets": [],
@@ -14101,7 +14690,7 @@ export const menuItems: Record<string, MenuItem[]> = {
     "id": "dinde-fume-fromage",
     "category": "saj",
     "subcategory": null,
-    "image": pexels(30790363),
+    "image": "/la-sajerie/dinde-fumee-fromage.jpg",
     "price": 9.50,
     "allergens": ["fruits-a-coque", "moutarde"],
     "diets": [],
@@ -14119,7 +14708,7 @@ export const menuItems: Record<string, MenuItem[]> = {
     "id": "hummus-avocat",
     "category": "saj",
     "subcategory": null,
-    "image": pexels(11842140),
+    "image": "/la-sajerie/hummus-avocat.jpg",
     "price": 9.50,
     "allergens": ["fruits-a-coque", "sesame"],
     "diets": [],
@@ -14137,7 +14726,7 @@ export const menuItems: Record<string, MenuItem[]> = {
     "id": "aubergine-labneh",
     "category": "saj",
     "subcategory": null,
-    "image": pexels(6145895),
+    "image": "/la-sajerie/aubergine-labneh.jpg",
     "price": 9.50,
     "allergens": ["fruits-a-coque", "lait"],
     "diets": [],
@@ -14155,7 +14744,7 @@ export const menuItems: Record<string, MenuItem[]> = {
     "id": "aubergines-tapenade-poivrons",
     "category": "saj",
     "subcategory": null,
-    "image": pexels(6145895),
+    "image": "/la-sajerie/aubergine-tapenade-poivrons.jpg",
     "price": 9.50,
     "allergens": ["fruits-a-coque"],
     "diets": [],
@@ -14173,7 +14762,7 @@ export const menuItems: Record<string, MenuItem[]> = {
     "id": "poulet-toum",
     "category": "saj",
     "subcategory": null,
-    "image": pexels(28247014),
+    "image": "/la-sajerie/poulet-toum.jpg",
     "price": 9.50,
     "allergens": ["fruits-a-coque"],
     "diets": [],
@@ -14191,7 +14780,7 @@ export const menuItems: Record<string, MenuItem[]> = {
     "id": "poulet-hummus",
     "category": "saj",
     "subcategory": null,
-    "image": pexels(6252735),
+    "image": "/la-sajerie/poulet-hummus.jpg",
     "price": 10.00,
     "allergens": ["fruits-a-coque", "sesame"],
     "diets": [],
@@ -14209,7 +14798,7 @@ export const menuItems: Record<string, MenuItem[]> = {
     "id": "soujouk-halloumi",
     "category": "saj",
     "subcategory": null,
-    "image": pexels(8751405),
+    "image": "/la-sajerie/soujouk-halloumi.jpg",
     "price": 11.00,
     "allergens": ["fruits-a-coque", "lait"],
     "diets": [],
@@ -14227,7 +14816,7 @@ export const menuItems: Record<string, MenuItem[]> = {
     "id": "boeuf-aux-epices",
     "category": "saj",
     "subcategory": null,
-    "image": pexels(604659),
+    "image": "/la-sajerie/boeuf-epices.jpg",
     "price": 12.00,
     "allergens": ["fruits-a-coque", "lait"],
     "diets": [],
@@ -14245,7 +14834,7 @@ export const menuItems: Record<string, MenuItem[]> = {
     "id": "kefta-halloumi",
     "category": "saj",
     "subcategory": null,
-    "image": pexels(8751405),
+    "image": "/la-sajerie/kefta-halloumi.jpg",
     "price": 12.00,
     "allergens": ["fruits-a-coque", "lait", "moutarde"],
     "diets": [],
@@ -14263,7 +14852,7 @@ export const menuItems: Record<string, MenuItem[]> = {
     "id": "nutella",
     "category": "saj",
     "subcategory": null,
-    "image": pexels(3702403),
+    "image": "/la-sajerie/nutella.jpg",
     "price": 7.00,
     "allergens": ["fruits-a-coque", "lait", "gluten"],
     "diets": [],
@@ -14282,7 +14871,7 @@ export const menuItems: Record<string, MenuItem[]> = {
     "id": "salade-aux-dattes-halloumi",
     "category": "salades",
     "subcategory": null,
-    "image": pexels(8751405),
+    "image": "/la-sajerie/salade-datte-halloumi.jpg",
     "price": 9.00,
     "allergens": ["fruits-a-coque", "lait"],
     "diets": [],
@@ -14300,7 +14889,7 @@ export const menuItems: Record<string, MenuItem[]> = {
     "id": "mesclun-artichauts-pistaches",
     "category": "salades",
     "subcategory": null,
-    "image": pexels(1059905),
+    "image": "/la-sajerie/artichaut-pistache.jpg",
     "price": 9.00,
     "allergens": ["fruits-a-coque"],
     "diets": [],
@@ -14318,7 +14907,7 @@ export const menuItems: Record<string, MenuItem[]> = {
     "id": "tabouleh-quinoa-pois-chiche",
     "category": "salades",
     "subcategory": null,
-    "image": pexels(1640777),
+    "image": "/la-sajerie/tabouleh-quinoa-pois-chiche.jpg",
     "price": 8.00,
     "allergens": [],
     "diets": ["vegan"],
@@ -14336,7 +14925,7 @@ export const menuItems: Record<string, MenuItem[]> = {
     "id": "salade-du-moment",
     "category": "salades",
     "subcategory": null,
-    "image": pexels(7245482),
+    "image": "/la-sajerie/salade-du-moment.jpg",
     "price": 10.00,
     "allergens": [],
     "diets": [],
@@ -14355,7 +14944,7 @@ export const menuItems: Record<string, MenuItem[]> = {
     "id": "hummus",
     "category": "accompagnements",
     "subcategory": null,
-    "image": pexels(11842140),
+    "image": "/la-sajerie/hummus.jpg",
     "price": 7.00,
     "allergens": ["sesame"],
     "diets": [],
@@ -14373,7 +14962,7 @@ export const menuItems: Record<string, MenuItem[]> = {
     "id": "labneh",
     "category": "accompagnements",
     "subcategory": null,
-    "image": pexels(9134587),
+    "image": "/la-sajerie/labneh.jpg",
     "price": 7.00,
     "allergens": ["lait"],
     "diets": [],
@@ -14409,7 +14998,7 @@ export const menuItems: Record<string, MenuItem[]> = {
     "id": "accompagnement-du-moment",
     "category": "accompagnements",
     "subcategory": null,
-    "image": pexels(7245482),
+    "image": "/la-sajerie/accompagnement-du-moment.jpg",
     "price": 3.50,
     "allergens": [],
     "diets": [],
