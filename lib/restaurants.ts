@@ -219,49 +219,49 @@ export const restaurants: Restaurant[] = [
       },
     },
   },
-  //         {
-  //   id: "la-sajerie",
-  //   name: "La Sajerie",
-  //   address: "20 Rue d'Abbeville, 75009 Paris, France",
-  //   coordinates: [2.3490871, 48.8793356],
-  //   rating: 4.9,
-  //   reviewCount: 614,
-  //   photos: [
-  //     "/la-sajerie/la-sajerie1.jpg",
-  //     "/la-sajerie/la-sajerie2.jpg",
-  //   ],
-  //   reviews: [
-  //     {
-  //       author: "Marie L.",
-  //       rating: 5,
-  //       text: "Excellent rapport qualité-prix, cadre magnifique près du Louvre.",
-  //       date: "2025-03-12",
-  //     },
-  //     {
-  //       author: "Thomas B.",
-  //       rating: 4,
-  //       text: "Bonne cuisine française, service rapide le midi.",
-  //       date: "2025-02-28",
-  //     },
-  //   ],
-  //   socials: {
-  //     instagram: "lasajerie",
-  //     website: "https://lasajerie.com/",
-  //     menu: "https://lasajerie.com/",
-  //   },
-  //   tags: {
-  //     macronutrients: { energy: true, proteins: true, lipids: true, carbs: true },
-  //     allergens: [],
-  //     dietary: {
-  //       vegan: true,
-  //       vegetarien: true,
-  //       "sans-gluten": true,
-  //       "sans-lactose": true,
-  //       halal: true,
-  //       casher: true,
-  //     },
-  //   },
-  // },
+          {
+    id: "la-sajerie",
+    name: "La Sajerie",
+    address: "20 Rue d'Abbeville, 75009 Paris, France",
+    coordinates: [2.3490871, 48.8793356],
+    rating: 4.9,
+    reviewCount: 614,
+    photos: [
+      "/la-sajerie/la-sajerie1.jpg",
+      "/la-sajerie/la-sajerie2.jpg",
+    ],
+    reviews: [
+      {
+        author: "Marie L.",
+        rating: 5,
+        text: "Excellent rapport qualité-prix, cadre magnifique près du Louvre.",
+        date: "2025-03-12",
+      },
+      {
+        author: "Thomas B.",
+        rating: 4,
+        text: "Bonne cuisine française, service rapide le midi.",
+        date: "2025-02-28",
+      },
+    ],
+    socials: {
+      instagram: "lasajerie",
+      website: "https://lasajerie.com/",
+      menu: "https://lasajerie.com/",
+    },
+    tags: {
+      macronutrients: { energy: true, proteins: true, lipids: true, carbs: true },
+      allergens: [],
+      dietary: {
+        vegan: true,
+        vegetarien: true,
+        "sans-gluten": true,
+        "sans-lactose": true,
+        halal: true,
+        casher: true,
+      },
+    },
+  },
   //         {
   //   id: "the-friendly-kitchen",
   //   name: "The Friendly Kitchen",
