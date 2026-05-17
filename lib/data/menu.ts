@@ -15967,7 +15967,7 @@ export const menuItems: Record<string, MenuItem[]> = {
       category: "plats",
       subcategory: null,
       // "Overhead Shot of Roasted Vegetables and Chickpeas" — pexels.com/photo/overhead-shot-of-roasted-vegetables-and-chickpeas-6462179
-      image: pexels(6462179),
+      image: "/the-friendly-kitchen/chou-fleur-dore-naan-maison.jpg",
       price: 19.5,
       allergens: ["fruits-a-coque", "sesame"],
       diets: [
@@ -16017,7 +16017,7 @@ export const menuItems: Record<string, MenuItem[]> = {
       category: "fromages",
       subcategory: null,
       // "Rustic Charcuterie Board with Cheese and Fruit" — pexels.com/photo/rustic-charcuterie-board-with-cheese-and-fruit-28572189
-      image: pexels(28572189),
+      image: "/the-friendly-kitchen/assiette-fromages-vegetaux.webp",
       price: 14.0,
       allergens: ["soja", "fruits-a-coque"],
       diets: [
@@ -17242,7 +17242,7 @@ macros: {
       category: "vins",
       subcategory: "Vins Blançs",
       // "Elegant Glass of White Wine on Table" — pexels.com/photo/elegant-glass-of-white-wine-on-table-in-houston-28454104
-      image: pexels(28454104),
+      image: "/the-friendly-kitchen/vin-blanc-granilites-chapoutier-2022.webp",
       price: 14.0,
       allergens: ["so2"],
       diets: ["vegan", "vegetarien"],
@@ -17280,7 +17280,7 @@ macros: {
       category: "vins",
       subcategory: "Vins Blançs",
       // "Clear Wine Glass With Yellow Liquid" — pexels.com/photo/clear-wine-glass-with-yellow-liquid-11292247
-      image: pexels(11292247),
+      image: "/the-friendly-kitchen/vin-blanc-bourgogne-aligote-gueguen-2022.webp",
       price: 11.0,
       allergens: ["so2"],
       diets: ["vegan", "vegetarien"],
@@ -17318,7 +17318,7 @@ macros: {
       category: "vins",
       subcategory: "Vins Blancs",
       // "Elegant Glass of White Wine on Table" — pexels.com/photo/elegant-glass-of-white-wine-on-table-in-houston-28454104
-      image: pexels(28454104),
+      image: "/the-friendly-kitchen/vin-blanc-haut-benauge-chateau-ferran-2022.webp",
       price: 7.0,
       allergens: ["so2"],
       diets: ["vegan", "vegetarien"],
@@ -17356,7 +17356,7 @@ macros: {
       category: "vins",
       subcategory: "Vins Blancs",
       // "Clear Wine Glass With Yellow Liquid" — pexels.com/photo/clear-wine-glass-with-yellow-liquid-11292247
-      image: pexels(11292247),
+      image: "/the-friendly-kitchen/vin-blanc-cattin-sauvage-gewurztraminer-2021.webp",
       price: 8.0,
       allergens: ["so2"],
       diets: ["vegan", "vegetarien"],
@@ -17394,7 +17394,7 @@ macros: {
       category: "vins",
       subcategory: "Vins Blancs",
       // "Elegant Glass of White Wine on Table" — pexels.com/photo/elegant-glass-of-white-wine-on-table-in-houston-28454104
-      image: pexels(28454104),
+      image: "/the-friendly-kitchen/vin-blanc-cuvee-lune-viognier-2024.webp",
       price: 8.0,
       allergens: ["so2"],
       diets: ["vegan", "vegetarien"],
@@ -17432,7 +17432,7 @@ macros: {
       category: "vins",
       subcategory: "Vins Blancs",
       // "Clear Wine Glass With Yellow Liquid" — pexels.com/photo/clear-wine-glass-with-yellow-liquid-11292247
-      image: pexels(11292247),
+      image: "/the-friendly-kitchen/vin-blanc-sauvagine-2024.webp",
       price: 9.0,
       allergens: ["so2"],
       diets: ["vegan", "vegetarien"],
@@ -17474,7 +17474,7 @@ macros: {
       category: "vins",
       subcategory: "Vins Rouges",
       // "A Glass of Red Wine and Some Plums on a Blue Table" — pexels.com/photo/a-glass-of-red-wine-and-some-plums-on-a-blue-table-14909970
-      image: pexels(14909970),
+      image: "/the-friendly-kitchen/vin-rouge-vignes-du-parc-oureas-2023.webp",
       price: 11.5,
       allergens: ["so2"],
       diets: ["vegan", "vegetarien"],
@@ -17512,7 +17512,7 @@ macros: {
       category: "vins",
       subcategory: "Vins Rouges",
       // "A Glass of Red Wine and Some Plums on a Blue Table" — pexels.com/photo/a-glass-of-red-wine-and-some-plums-on-a-blue-table-14909970
-      image: pexels(14909970),
+      image: "/the-friendly-kitchen/vin-rouge-granilites-chapoutier-2023.webp",
       price: 14.0,
       allergens: ["so2"],
       diets: ["vegan", "vegetarien"],
@@ -17550,7 +17550,7 @@ macros: {
       category: "vins",
       subcategory: "Vins Rouges",
       // "Clear Wine Glass With Red Wine" — pexels.com/photo/clear-wine-glass-with-red-wine-14465764
-      image: pexels(14465764),
+      image: "/the-friendly-kitchen/vin-rouge-canopee-vignobles-david-2022.webp",
       price: 9.0,
       allergens: ["so2"],
       diets: ["vegan", "vegetarien"],
@@ -17588,7 +17588,7 @@ macros: {
       category: "vins",
       subcategory: "Vins Rouges",
       // "Clear Wine Glass With Red Wine" — pexels.com/photo/clear-wine-glass-with-red-wine-14465764
-      image: pexels(14465764),
+      image: "/the-friendly-kitchen/vin-rouge-tire-bouchon-ourea-2022.webp",
       price: 8.0,
       allergens: ["so2"],
       diets: ["vegan", "vegetarien"],
@@ -17626,7 +17626,7 @@ macros: {
       category: "vins",
       subcategory: "Vins Rouges",
       // "Clear Wine Glass With Red Wine" — pexels.com/photo/clear-wine-glass-with-red-wine-14465764
-      image: pexels(14465764),
+      image: "/the-friendly-kitchen/vin-rouge-noirettes-ici-la-2023.webp",
       price: 9.0,
       allergens: ["so2"],
       diets: ["vegan", "vegetarien"],
@@ -17664,7 +17664,7 @@ macros: {
       category: "vins",
       subcategory: "Vins Rouges",
       // "A Glass of Red Wine and Some Plums on a Blue Table" — pexels.com/photo/a-glass-of-red-wine-and-some-plums-on-a-blue-table-14909970
-      image: pexels(14909970),
+      image: "/the-friendly-kitchen/vin-rouge-sauvagine-2024.webp",
       price: 9.0,
       allergens: ["so2"],
       diets: ["vegan", "vegetarien"],
@@ -17706,7 +17706,7 @@ macros: {
       category: "vins",
       subcategory: "Vin Rosé",
       // "Refreshing Rosé Wine Glass by a Poolside" — pexels.com/photo/refreshing-rose-wine-glass-by-a-poolside-34183143
-      image: pexels(34183143),
+      image: "/the-friendly-kitchen/vin-rose-camille-turenne-2022.webp",
       price: 7.5,
       allergens: ["so2"],
       diets: ["vegan", "vegetarien"],
@@ -17748,7 +17748,7 @@ macros: {
       category: "vins",
       subcategory: "Vins Effervescents",
       // "Prosecco Bottle and Glass" — pexels.com/photo/prosecco-bottle-and-glass-14096049
-      image: pexels(14096049),
+      image: "/the-friendly-kitchen/prosecco-frizzante-terre-dei-buth.webp",
       price: 7.0,
       allergens: ["so2"],
       diets: ["vegan", "vegetarien"],
@@ -17790,7 +17790,7 @@ macros: {
       category: "vins",
       subcategory: "Champagnes",
       // "Elegant Champagne Glass with Sparkling Bubbles" — pexels.com/photo/elegant-champagne-glass-with-sparkling-bubbles-34319212
-      image: pexels(34319212),
+      image: "/the-friendly-kitchen/champagne-mineral-blanc-de-blanc-legret.webp",
       price: 75.0,
       allergens: ["so2"],
       diets: ["vegan", "vegetarien"],
