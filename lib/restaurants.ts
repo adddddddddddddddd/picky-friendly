@@ -262,49 +262,52 @@ export const restaurants: Restaurant[] = [
       },
     },
   },
-  //         {
-  //   id: "the-friendly-kitchen",
-  //   name: "The Friendly Kitchen",
-  //   address: "8 Rue Popincourt, 75011 Paris, France",
-  //   coordinates: [2.37762, 48.8572249],
-  //   rating: 4.5,
-  //   reviewCount: 780,
-  //   photos: [
-  //     "/cafe-mareva/cafe-mareva1.webp",
-  //     "/cafe-mareva/cafe-mareva2.webp",
-  //   ],
-  //   reviews: [
-  //     {
-  //       author: "Marie L.",
-  //       rating: 5,
-  //       text: "Excellent rapport qualité-prix, cadre magnifique près du Louvre.",
-  //       date: "2025-03-12",
-  //     },
-  //     {
-  //       author: "Thomas B.",
-  //       rating: 4,
-  //       text: "Bonne cuisine française, service rapide le midi.",
-  //       date: "2025-02-28",
-  //     },
-  //   ],
-  //   socials: {
-  //     instagram: "thefriendlykitchen",
-  //     website: "https://www.the-friendly-kitchen.com/",
-  //     menu: "https://www.the-friendly-kitchen.com/menus-carte/#menu-447440/",
-  //   },
-  //   tags: {
-  //     macronutrients: { energy: true, proteins: true, lipids: true, carbs: true },
-  //     allergens: [],
-  //     dietary: {
-  //       vegan: true,
-  //       vegetarien: true,
-  //       "sans-gluten": true,
-  //       "sans-lactose": true,
-  //       halal: true,
-  //       casher: true,
-  //     },
-  //   },
-  // },
+          {
+    id: "the-friendly-kitchen",
+    name: "The Friendly Kitchen",
+    address: "8 Rue Popincourt, 75011 Paris, France",
+    coordinates: [2.37762, 48.8572249],
+    rating: 4.5,
+    reviewCount: 780,
+    photos: [
+      "/the-friendly-kitchen/the-friendly-kitchen1.jpg",
+      "/the-friendly-kitchen/the-friendly-kitchen2.jpg",
+      "/the-friendly-kitchen/the-friendly-kitchen3.jpg",
+      "/the-friendly-kitchen/the-friendly-kitchen4.jpg",
+
+    ],
+    reviews: [
+      {
+        author: "Marie L.",
+        rating: 5,
+        text: "Excellent rapport qualité-prix, cadre magnifique près du Louvre.",
+        date: "2025-03-12",
+      },
+      {
+        author: "Thomas B.",
+        rating: 4,
+        text: "Bonne cuisine française, service rapide le midi.",
+        date: "2025-02-28",
+      },
+    ],
+    socials: {
+      instagram: "thefriendlykitchen",
+      website: "https://www.the-friendly-kitchen.com/",
+      menu: "https://www.the-friendly-kitchen.com/menus-carte/#menu-447440/",
+    },
+    tags: {
+      macronutrients: { energy: true, proteins: true, lipids: true, carbs: true },
+      allergens: [],
+      dietary: {
+        vegan: true,
+        vegetarien: true,
+        "sans-gluten": true,
+        "sans-lactose": true,
+        halal: true,
+        casher: true,
+      },
+    },
+  },
   //           {
   //   id: "riz-riz",
   //   name: "Riz Riz",
@@ -313,8 +316,8 @@ export const restaurants: Restaurant[] = [
   //   rating: 4.6,
   //   reviewCount: 1558,
   //   photos: [
-  //     "/cafe-mareva/cafe-mareva1.webp",
-  //     "/cafe-mareva/cafe-mareva2.webp",
+  //     "/riz-riz/riz-riz1.avif",
+  //     "/riz-riz/riz-riz2.avif",
   //   ],
   //   reviews: [
   //     {

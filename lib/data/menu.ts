@@ -5818,7 +5818,14 @@ export const menuItems: Record<string, MenuItem[]> = {
       price: 4.0,
       allergens: [],
       // "_allergen_note": "Non listé sur la page allergènes. À confirmer.",
-      diets: ["sans-gluten", "sans-lactose", "vegan", "vegetarien", "halal", "casher"],
+      diets: [
+        "sans-gluten",
+        "sans-lactose",
+        "vegan",
+        "vegetarien",
+        "halal",
+        "casher",
+      ],
       macros: {
         // "_estimate": true,
         calories: 200,
@@ -6420,7 +6427,14 @@ export const menuItems: Record<string, MenuItem[]> = {
       image: pexels(9213913),
       price: 19.0,
       allergens: [],
-      diets: ["sans-gluten", "vegetarien", "vegan", "sans-lactose", "halal", "casher"],
+      diets: [
+        "sans-gluten",
+        "vegetarien",
+        "vegan",
+        "sans-lactose",
+        "halal",
+        "casher",
+      ],
       macros: { calories: 180, proteines: 4, glucides: 14, lipides: 12 },
       translations: {
         fr: {
@@ -6701,7 +6715,14 @@ export const menuItems: Record<string, MenuItem[]> = {
       image: pexels(9433002),
       price: 21.0,
       allergens: [],
-      diets: ["sans-gluten", "vegetarien", "vegan", "sans-lactose", 'halal', 'casher'],
+      diets: [
+        "sans-gluten",
+        "vegetarien",
+        "vegan",
+        "sans-lactose",
+        "halal",
+        "casher",
+      ],
       macros: { calories: 520, proteines: 12, glucides: 68, lipides: 22 },
       translations: {
         fr: {
@@ -6793,7 +6814,14 @@ export const menuItems: Record<string, MenuItem[]> = {
       image: pexels(1279330),
       price: 22.0,
       allergens: ["oeufs", "lait"],
-      diets: ["sans-gluten", "vegetarien", "vegan", "sans-lactose", 'halal', 'casher'],
+      diets: [
+        "sans-gluten",
+        "vegetarien",
+        "vegan",
+        "sans-lactose",
+        "halal",
+        "casher",
+      ],
       macros: { calories: 520, proteines: 14, glucides: 84, lipides: 12 },
       translations: {
         fr: {
@@ -6855,7 +6883,14 @@ export const menuItems: Record<string, MenuItem[]> = {
       image: pexels(11161425),
       price: 22.0,
       allergens: ["oeufs"],
-      diets: ["sans-gluten", "vegetarien", "vegan", "sans-lactose", 'halal', 'casher'],
+      diets: [
+        "sans-gluten",
+        "vegetarien",
+        "vegan",
+        "sans-lactose",
+        "halal",
+        "casher",
+      ],
       macros: { calories: 480, proteines: 12, glucides: 88, lipides: 8 },
       translations: {
         fr: {
@@ -8506,7 +8541,7 @@ export const menuItems: Record<string, MenuItem[]> = {
       subcategory: "Viandes Bio",
       image: pexels(37389030),
       price: 26.0,
-      allergens: ["oeufs", 'lait'],
+      allergens: ["oeufs", "lait"],
       diets: ["sans-gluten"],
       macros: { calories: 560, proteines: 42, glucides: 28, lipides: 30 },
       translations: {
@@ -9025,7 +9060,8 @@ export const menuItems: Record<string, MenuItem[]> = {
       id: "montepulciano-d-abruzzo",
       category: "boissons",
       subcategory: "Vins rouges Bio",
-      image: "https://imgs.search.brave.com/CPHO-nnWmUGTDR5I5qvAYlw-PqfbMcQdlFEItBYdoAg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/cHJvZHVpdHMtaXRh/bGllbnMuZnIvOTcw/MC1sYXJnZV9kZWZh/dWx0L21vbnRlcHVs/Y2lhbm8tZC1hYnJ1/enpvLWJpby5qcGc",
+      image:
+        "https://imgs.search.brave.com/CPHO-nnWmUGTDR5I5qvAYlw-PqfbMcQdlFEItBYdoAg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/cHJvZHVpdHMtaXRh/bGllbnMuZnIvOTcw/MC1sYXJnZV9kZWZh/dWx0L21vbnRlcHVs/Y2lhbm8tZC1hYnJ1/enpvLWJpby5qcGc",
       price: 34.0,
       allergens: ["so2"],
       diets: ["sans-gluten", "vegan", "sans-lactose"],
@@ -9057,7 +9093,8 @@ export const menuItems: Record<string, MenuItem[]> = {
       id: "nero-d-avola",
       category: "boissons",
       subcategory: "Vins rouges Bio",
-      image: "https://imgs.search.brave.com/NC10s8sYMfJxJVGLd9cLdb7ER9bXWocQk4GE8G781F0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/cHJvZHVpdHMtaXRh/bGllbnMuZnIvOTY5/My1sYXJnZV9kZWZh/dWx0L25lcm8tZC1h/dm9sYS1zaWNpbGlh/LWRvYy5qcGc",
+      image:
+        "https://imgs.search.brave.com/NC10s8sYMfJxJVGLd9cLdb7ER9bXWocQk4GE8G781F0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/cHJvZHVpdHMtaXRh/bGllbnMuZnIvOTY5/My1sYXJnZV9kZWZh/dWx0L25lcm8tZC1h/dm9sYS1zaWNpbGlh/LWRvYy5qcGc",
       price: 37.0,
       allergens: ["so2"],
       diets: ["sans-gluten", "vegan", "sans-lactose"],
@@ -9089,7 +9126,8 @@ export const menuItems: Record<string, MenuItem[]> = {
       id: "primitivo-salento",
       category: "boissons",
       subcategory: "Vins rouges Bio",
-      image: "https://imgs.search.brave.com/NFkqE9iUvishrEFtiudcYvuZAValDnasmFY7bdsQ8GI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS12aW5pb3UuY29t/L3dpbmVpbWFnZS9h/cHBlbGxhdGlvbl92/Mi9pdGFsaWUvcG91/aWxsZXMvc2FsZW50/by9ib3R0bGUtNzUt/dmlucy1yb3VnZS5w/bmc",
+      image:
+        "https://imgs.search.brave.com/NFkqE9iUvishrEFtiudcYvuZAValDnasmFY7bdsQ8GI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS12aW5pb3UuY29t/L3dpbmVpbWFnZS9h/cHBlbGxhdGlvbl92/Mi9pdGFsaWUvcG91/aWxsZXMvc2FsZW50/by9ib3R0bGUtNzUt/dmlucy1yb3VnZS5w/bmc",
       price: 38.0,
       allergens: ["so2"],
       diets: ["sans-gluten", "vegan", "sans-lactose"],
@@ -9121,7 +9159,8 @@ export const menuItems: Record<string, MenuItem[]> = {
       id: "sangiovese-doc",
       category: "boissons",
       subcategory: "Vins rouges Bio",
-      image: "https://imgs.search.brave.com/btQHF0R8QUk4Yrs5baOo3CAqdvzPs5fk4XTydAckUBc/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9ib3R0/bGVvZml0YWx5LmNv/bS9jZG4vc2hvcC9m/aWxlcy9Sb21hZ25h/LURPQy1TYW5naW92/ZXNlLVByZWRhcHBp/by1CSU8tSWwtU2Fu/Z2lvdmVzZS1Ob2Vs/aWEtUmljY2ktYm90/dGxlLW9mLWl0YWx5/X2dyYW5kZS5qcGc_/dj0xNjg1MDAzNDUz",
+      image:
+        "https://imgs.search.brave.com/btQHF0R8QUk4Yrs5baOo3CAqdvzPs5fk4XTydAckUBc/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9ib3R0/bGVvZml0YWx5LmNv/bS9jZG4vc2hvcC9m/aWxlcy9Sb21hZ25h/LURPQy1TYW5naW92/ZXNlLVByZWRhcHBp/by1CSU8tSWwtU2Fu/Z2lvdmVzZS1Ob2Vs/aWEtUmljY2ktYm90/dGxlLW9mLWl0YWx5/X2dyYW5kZS5qcGc_/dj0xNjg1MDAzNDUz",
       price: 36.0,
       allergens: ["so2"],
       diets: ["sans-gluten", "vegan", "sans-lactose"],
@@ -9153,7 +9192,8 @@ export const menuItems: Record<string, MenuItem[]> = {
       id: "valpolicella-classico",
       category: "boissons",
       subcategory: "Vins rouges Bio",
-      image: "https://imgs.search.brave.com/P31EH49IBy--QE415AFIyLapy-9wamBLN6Y0wm2OxZA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/bGFib3V0ZWlsbGVk/b3JlZS5jb20vMTEx/MzYtbGFyZ2VfZGVm/YXVsdC9ub3ZhaWEt/dmFscG9saWNlbGxh/LWRvYy1jbGFzc2lj/by12ZW5ldGllLWl0/YWxpZS1yb3VnZS0y/MDE5LmpwZw",
+      image:
+        "https://imgs.search.brave.com/P31EH49IBy--QE415AFIyLapy-9wamBLN6Y0wm2OxZA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/bGFib3V0ZWlsbGVk/b3JlZS5jb20vMTEx/MzYtbGFyZ2VfZGVm/YXVsdC9ub3ZhaWEt/dmFscG9saWNlbGxh/LWRvYy1jbGFzc2lj/by12ZW5ldGllLWl0/YWxpZS1yb3VnZS0y/MDE5LmpwZw",
       price: 50.0,
       allergens: ["so2"],
       diets: ["sans-gluten", "vegan", "sans-lactose"],
@@ -9185,7 +9225,8 @@ export const menuItems: Record<string, MenuItem[]> = {
       id: "rosso-di-montalcino",
       category: "boissons",
       subcategory: "Vins rouges Bio",
-      image: "https://imgs.search.brave.com/vh1S-dE471ZVhX7_5-U8ZyWvAm8WynWiasVqficji44/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS12aW5pb3UuY29t/L3dpbmVpbWFnZS9h/cHBlbGxhdGlvbl92/Mi9pdGFsaWUvdG9z/Y2FuZS9yb3Nzby1k/aS1tb250YWxjaW5v/L2JvdHRsZS03NS12/aW5zLXJvdWdlLnBu/Zw",
+      image:
+        "https://imgs.search.brave.com/vh1S-dE471ZVhX7_5-U8ZyWvAm8WynWiasVqficji44/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS12aW5pb3UuY29t/L3dpbmVpbWFnZS9h/cHBlbGxhdGlvbl92/Mi9pdGFsaWUvdG9z/Y2FuZS9yb3Nzby1k/aS1tb250YWxjaW5v/L2JvdHRsZS03NS12/aW5zLXJvdWdlLnBu/Zw",
       price: 59.0,
       allergens: ["so2"],
       diets: ["sans-gluten", "vegan", "sans-lactose"],
@@ -9217,7 +9258,8 @@ export const menuItems: Record<string, MenuItem[]> = {
       id: "aglianico-del-taburno",
       category: "boissons",
       subcategory: "Vins rouges Bio",
-      image: "https://imgs.search.brave.com/l-pQKoAbrieMcJvL7N9oTX4qJdm1yN-cIUnofkRgImI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdG9y/YWdlLmdvb2dsZWFw/aXMuY29tL3BlcmJh/Y2Nvd2Vpbl9tZWRp/YV9jZG4vbWVkaWEv/Y2F0YWxvZy9wcm9k/dWN0L2NhY2hlLzMv/aW1hZ2UvOWRmNzhl/YWIzMzUyNWQwOGQ2/ZTVmYjhkMjcxMzZl/OTUvMC84LzA4NTcy/Nl92bi5qcGc",
+      image:
+        "https://imgs.search.brave.com/l-pQKoAbrieMcJvL7N9oTX4qJdm1yN-cIUnofkRgImI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdG9y/YWdlLmdvb2dsZWFw/aXMuY29tL3BlcmJh/Y2Nvd2Vpbl9tZWRp/YV9jZG4vbWVkaWEv/Y2F0YWxvZy9wcm9k/dWN0L2NhY2hlLzMv/aW1hZ2UvOWRmNzhl/YWIzMzUyNWQwOGQ2/ZTVmYjhkMjcxMzZl/OTUvMC84LzA4NTcy/Nl92bi5qcGc",
       price: 62.0,
       allergens: ["so2"],
       diets: ["sans-gluten", "vegan", "sans-lactose"],
@@ -9249,7 +9291,8 @@ export const menuItems: Record<string, MenuItem[]> = {
       id: "chianti-classico",
       category: "boissons",
       subcategory: "Vins rouges Bio",
-      image: "https://imgs.search.brave.com/tr7CgUH5oqo2AWVDZiv-ippB0jgZnSVs-rTOcuhL9QY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/aXRhbHZpbi5iZS84/NDQtaG9tZV9kZWZh/dWx0X3NtYWxsZXIv/Y2hpYW50aS1jbGFz/c2ljby1yaXNlcnZh/LWJpby12aW4tcm91/Z2UtaXRhbGllbi10/b3NjYW5lLmpwZw",
+      image:
+        "https://imgs.search.brave.com/tr7CgUH5oqo2AWVDZiv-ippB0jgZnSVs-rTOcuhL9QY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/aXRhbHZpbi5iZS84/NDQtaG9tZV9kZWZh/dWx0X3NtYWxsZXIv/Y2hpYW50aS1jbGFz/c2ljby1yaXNlcnZh/LWJpby12aW4tcm91/Z2UtaXRhbGllbi10/b3NjYW5lLmpwZw",
       price: 37.0,
       allergens: ["so2"],
       diets: ["sans-gluten", "vegan", "sans-lactose"],
@@ -9281,7 +9324,8 @@ export const menuItems: Record<string, MenuItem[]> = {
       id: "cannonau",
       category: "boissons",
       subcategory: "Vins rouges Bio",
-      image: "https://imgs.search.brave.com/7j_3GQshmuivDkObBQC1xZGjCtxpcGBjcA0OdHFps3I/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/bGVwZXRpdGJhbGxv/bi5jb20vY2RuL3No/b3AvZmlsZXMvMjUy/XzUwYjI1N2MwLWRk/YjItNDFhMC04MWQx/LTM3ZWIzNmE0OTgx/Mi5qcGc_dj0xNzMy/ODg5Mzc4JndpZHRo/PTE5NDY",
+      image:
+        "https://imgs.search.brave.com/7j_3GQshmuivDkObBQC1xZGjCtxpcGBjcA0OdHFps3I/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/bGVwZXRpdGJhbGxv/bi5jb20vY2RuL3No/b3AvZmlsZXMvMjUy/XzUwYjI1N2MwLWRk/YjItNDFhMC04MWQx/LTM3ZWIzNmE0OTgx/Mi5qcGc_dj0xNzMy/ODg5Mzc4JndpZHRo/PTE5NDY",
       price: 59.0,
       allergens: ["so2"],
       diets: ["sans-gluten", "vegan", "sans-lactose"],
@@ -9313,7 +9357,8 @@ export const menuItems: Record<string, MenuItem[]> = {
       id: "barbera-d-alba",
       category: "boissons",
       subcategory: "Vins rouges Bio",
-      image: "https://imgs.search.brave.com/Ml2n8XJ69P7L-y09C4xTfEqet5pGtRmdLpDS37h26X0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS12aW5pb3UuY29t/L3dpbmVpbWFnZS9h/cHBlbGxhdGlvbl92/Mi9pdGFsaWUvcGll/bW9udC9iYXJiZXJh/LWQtYWxiYS9ib3R0/bGUtNzUtdmlucy1y/b3VnZS5wbmc",
+      image:
+        "https://imgs.search.brave.com/Ml2n8XJ69P7L-y09C4xTfEqet5pGtRmdLpDS37h26X0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS12aW5pb3UuY29t/L3dpbmVpbWFnZS9h/cHBlbGxhdGlvbl92/Mi9pdGFsaWUvcGll/bW9udC9iYXJiZXJh/LWQtYWxiYS9ib3R0/bGUtNzUtdmlucy1y/b3VnZS5wbmc",
       price: 83.0,
       allergens: ["so2"],
       diets: ["sans-gluten", "vegan", "sans-lactose"],
@@ -9345,7 +9390,8 @@ export const menuItems: Record<string, MenuItem[]> = {
       id: "barolo",
       category: "boissons",
       subcategory: "Vins rouges Bio",
-      image: "https://imgs.search.brave.com/JUME9gpDmCQE5juQMkkFxDqK5Hm4XvvInYdkU93iE0A/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZW50/cm8taXRhbGlhLmRl/L3dwLWNvbnRlbnQv/dXBsb2Fkcy8yMDI1/LzAyLzEzMDAtQmFy/b2xvLURPQ0ctQmF0/YXNpb2xvLnBuZw",
+      image:
+        "https://imgs.search.brave.com/JUME9gpDmCQE5juQMkkFxDqK5Hm4XvvInYdkU93iE0A/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZW50/cm8taXRhbGlhLmRl/L3dwLWNvbnRlbnQv/dXBsb2Fkcy8yMDI1/LzAyLzEzMDAtQmFy/b2xvLURPQ0ctQmF0/YXNpb2xvLnBuZw",
       price: 152.0,
       allergens: ["so2"],
       diets: ["sans-gluten", "vegan", "sans-lactose"],
@@ -9375,9 +9421,10 @@ export const menuItems: Record<string, MenuItem[]> = {
     },
     {
       id: "bardolino-chiaretto",
-      category : "boissons",
+      category: "boissons",
       subcategory: "Vins rosés Bio",
-      image: "https://imgs.search.brave.com/N1hp3on_O0Is_ENGP0aov0Cf_Ln6NzCn5AUmy5ugoLI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZW50/cm8taXRhbGlhLmRl/L3dwLWNvbnRlbnQv/dXBsb2Fkcy8yMDIy/LzA1LzExNzEtQ2hp/YXJldHRvLUJhcmRv/bGluby1CZXJldHRh/LnBuZw",
+      image:
+        "https://imgs.search.brave.com/N1hp3on_O0Is_ENGP0aov0Cf_Ln6NzCn5AUmy5ugoLI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZW50/cm8taXRhbGlhLmRl/L3dwLWNvbnRlbnQv/dXBsb2Fkcy8yMDIy/LzA1LzExNzEtQ2hp/YXJldHRvLUJhcmRv/bGluby1CZXJldHRh/LnBuZw",
       price: 32.0,
       allergens: ["so2"],
       diets: ["sans-gluten", "vegan", "sans-lactose"],
@@ -9407,9 +9454,10 @@ export const menuItems: Record<string, MenuItem[]> = {
     },
     {
       id: "rosato-terre-di-chieti",
-      category : "boissons",
+      category: "boissons",
       subcategory: "Vins rosés Bio",
-      image: "https://imgs.search.brave.com/DyBcGipho74jUUZBvmYCkvRjLpJZYHcM7hPpV8AaQrY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tb25h/dmluaS5kZS8yNzE4/LW1lZGl1bV9kZWZh/dWx0L3Jvc2F0by10/ZXJyZS1kaS1jaGll/dGktaWd0LXRlcnJh/bW9yZS1hYnJ1enpl/bi13ZWluLWthdWZl/bi1tdW5jaGVuLmpw/Zw",
+      image:
+        "https://imgs.search.brave.com/DyBcGipho74jUUZBvmYCkvRjLpJZYHcM7hPpV8AaQrY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tb25h/dmluaS5kZS8yNzE4/LW1lZGl1bV9kZWZh/dWx0L3Jvc2F0by10/ZXJyZS1kaS1jaGll/dGktaWd0LXRlcnJh/bW9yZS1hYnJ1enpl/bi13ZWluLWthdWZl/bi1tdW5jaGVuLmpw/Zw",
       price: 42.0,
       allergens: ["so2"],
       diets: ["sans-gluten", "vegan", "sans-lactose"],
@@ -9441,7 +9489,8 @@ export const menuItems: Record<string, MenuItem[]> = {
       id: "grillo-igt",
       category: "boissons",
       subcategory: "Vins blancs Bio",
-      image: "https://imgs.search.brave.com/ay-MUFSxgJ8Q9jIzM7oSx3ciAHPlA5QnIqbxlNo86Lk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/cHJvZHVpdHMtaXRh/bGllbnMuZnIvOTcw/Ny1sYXJnZV9kZWZh/dWx0L2dyaWxsby1k/ZS1zaWNpbGUtYmlv/LmpwZw",
+      image:
+        "https://imgs.search.brave.com/ay-MUFSxgJ8Q9jIzM7oSx3ciAHPlA5QnIqbxlNo86Lk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/cHJvZHVpdHMtaXRh/bGllbnMuZnIvOTcw/Ny1sYXJnZV9kZWZh/dWx0L2dyaWxsby1k/ZS1zaWNpbGUtYmlv/LmpwZw",
       price: 29.0,
       allergens: ["so2"],
       diets: ["sans-gluten", "vegan", "sans-lactose"],
@@ -9473,7 +9522,8 @@ export const menuItems: Record<string, MenuItem[]> = {
       id: "trebbiano-d-abruzzo",
       category: "boissons",
       subcategory: "Vins blancs Bio",
-      image: "https://imgs.search.brave.com/cxZfASS9mAnYGTHp5H8NQXGwkRSkbiUV4lwhZHgn9Bc/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/d2luZS1zZWFyY2hl/ci5jb20vaW1hZ2Vz/L2xhYmVscy80OC8y/OC8xMTU3NDgyOC5q/cGc_d2lkdGg9Mjg4/JmhlaWdodD0xODAm/Zml0PWJvdW5kcyZj/YW52YXM9Mjg4LDE4/MCZmb3JtYXQ9YXV0/byZhdXRvPWNvbXBy/ZXNzJmRwcj0xJnF1/YWxpdHk9NzA",
+      image:
+        "https://imgs.search.brave.com/cxZfASS9mAnYGTHp5H8NQXGwkRSkbiUV4lwhZHgn9Bc/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/d2luZS1zZWFyY2hl/ci5jb20vaW1hZ2Vz/L2xhYmVscy80OC8y/OC8xMTU3NDgyOC5q/cGc_d2lkdGg9Mjg4/JmhlaWdodD0xODAm/Zml0PWJvdW5kcyZj/YW52YXM9Mjg4LDE4/MCZmb3JtYXQ9YXV0/byZhdXRvPWNvbXBy/ZXNzJmRwcj0xJnF1/YWxpdHk9NzA",
       price: 32.0,
       allergens: ["so2"],
       diets: ["sans-gluten", "vegan", "sans-lactose"],
@@ -9505,7 +9555,8 @@ export const menuItems: Record<string, MenuItem[]> = {
       id: "kukukaya-passerina",
       category: "boissons",
       subcategory: "Vins blancs Bio",
-      image: "https://imgs.search.brave.com/KlCixl0DUpLlmcJzRyEeTfPzXqM8cSP-qNi220yIYdw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9kYXRh/Lm5lZ296aW9kZWx2/aW5vLml0L2ltZ3By/b2RvdHRvL3Bhc3Nl/cmluYS10ZXJyZS1k/aS1jaGlldGktYmlv/XzE0NDAzX2xpc3Qu/anBn",
+      image:
+        "https://imgs.search.brave.com/KlCixl0DUpLlmcJzRyEeTfPzXqM8cSP-qNi220yIYdw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9kYXRh/Lm5lZ296aW9kZWx2/aW5vLml0L2ltZ3By/b2RvdHRvL3Bhc3Nl/cmluYS10ZXJyZS1k/aS1jaGlldGktYmlv/XzE0NDAzX2xpc3Qu/anBn",
       price: 38.0,
       allergens: ["so2"],
       diets: ["sans-gluten", "vegan", "sans-lactose"],
@@ -9537,7 +9588,8 @@ export const menuItems: Record<string, MenuItem[]> = {
       id: "falanghina-sannio",
       category: "boissons",
       subcategory: "Vins blancs Bio",
-      image: "https://imgs.search.brave.com/orPTCGB1bFWIK3zVk7Ic1uqwrUrqlhhPvHQbUxCTu_o/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93aWpu/d2FnZW50amUubmwv/d3AtY29udGVudC91/cGxvYWRzLzIwMjAv/MDkvSmFuYXJlLUZh/bGFuZ2hpbmEtRGVs/LVNhbm5pby1ET1At/MjAxOS1GLTEuanBn",
+      image:
+        "https://imgs.search.brave.com/orPTCGB1bFWIK3zVk7Ic1uqwrUrqlhhPvHQbUxCTu_o/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93aWpu/d2FnZW50amUubmwv/d3AtY29udGVudC91/cGxvYWRzLzIwMjAv/MDkvSmFuYXJlLUZh/bGFuZ2hpbmEtRGVs/LVNhbm5pby1ET1At/MjAxOS1GLTEuanBn",
       price: 42.0,
       allergens: ["so2"],
       diets: ["sans-gluten", "vegan", "sans-lactose"],
@@ -9569,7 +9621,8 @@ export const menuItems: Record<string, MenuItem[]> = {
       id: "spinola-gavi",
       category: "boissons",
       subcategory: "Vins blancs Bio",
-      image: "https://imgs.search.brave.com/qlxpXJtpEKliHfh-PUANmiS4xOATHw-GzqwDJpC1ZWk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/Ymlvd2Vpbi1lcmxl/c2VuLmRlL21lZGlh/L2ltYWdlL3Byb2R1/Y3QvNTU4L2xnL3Rh/c3Nhcm9sby1nYXZp/LW1hcmNoZXNpLXNw/aW5vbGEtd2Vpc3N3/ZWluLXBpZW1vbnQt/aGlzdGFtaW5nZXBy/dWVmdC5qcGc",
+      image:
+        "https://imgs.search.brave.com/qlxpXJtpEKliHfh-PUANmiS4xOATHw-GzqwDJpC1ZWk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/Ymlvd2Vpbi1lcmxl/c2VuLmRlL21lZGlh/L2ltYWdlL3Byb2R1/Y3QvNTU4L2xnL3Rh/c3Nhcm9sby1nYXZp/LW1hcmNoZXNpLXNw/aW5vbGEtd2Vpc3N3/ZWluLXBpZW1vbnQt/aGlzdGFtaW5nZXBy/dWVmdC5qcGc",
       price: 40.0,
       allergens: ["so2"],
       diets: ["sans-gluten", "vegan", "sans-lactose"],
@@ -9601,7 +9654,8 @@ export const menuItems: Record<string, MenuItem[]> = {
       id: "prosecco-valdobbiadene",
       category: "boissons",
       subcategory: "Prosecco",
-      image: "https://imgs.search.brave.com/VuzDiUzFiT8BCWN4ANoOfQlEm5OILx27dogfx9D7udM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9kYXRh/Lm5lZ296aW9kZWx2/aW5vLml0L2ltZ3By/b2RvdHRvL3ZhbGRv/YmJpYWRlbmUtcHJv/c2VjY28tc3VwZXJp/b3JlLWxlLXJpdmUt/ZGktY29sYmVydGFs/ZG8tZXh0cmEtZHJ5/LWRvY2dfMTYwMzRf/bGlzdC5qcGc",
+      image:
+        "https://imgs.search.brave.com/VuzDiUzFiT8BCWN4ANoOfQlEm5OILx27dogfx9D7udM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9kYXRh/Lm5lZ296aW9kZWx2/aW5vLml0L2ltZ3By/b2RvdHRvL3ZhbGRv/YmJpYWRlbmUtcHJv/c2VjY28tc3VwZXJp/b3JlLWxlLXJpdmUt/ZGktY29sYmVydGFs/ZG8tZXh0cmEtZHJ5/LWRvY2dfMTYwMzRf/bGlzdC5qcGc",
       price: 55.0,
       allergens: ["so2"],
       diets: ["sans-gluten", "vegan", "sans-lactose"],
@@ -10109,7 +10163,8 @@ export const menuItems: Record<string, MenuItem[]> = {
       id: "soda-chinotto",
       category: "boissons",
       subcategory: "Sodas",
-      image: "https://imgs.search.brave.com/GJbyK8g8-AJON_FNtw4R7EuOQWvASRGkJEjZeVfJo-8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS1jZG4udHJpcGFk/dmlzb3IuY29tL21l/ZGlhL3Bob3RvLW8v/MDMvODUvN2YvNDcv/Y2hpbm90dG8uanBn",
+      image:
+        "https://imgs.search.brave.com/GJbyK8g8-AJON_FNtw4R7EuOQWvASRGkJEjZeVfJo-8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS1jZG4udHJpcGFk/dmlzb3IuY29tL21l/ZGlhL3Bob3RvLW8v/MDMvODUvN2YvNDcv/Y2hpbm90dG8uanBn",
       price: 7.0,
       allergens: [],
       diets: ["sans-gluten", "vegan", "sans-lactose"],
@@ -10137,7 +10192,8 @@ export const menuItems: Record<string, MenuItem[]> = {
       id: "mole-cola",
       category: "boissons",
       subcategory: "Sodas",
-      image: "https://imgs.search.brave.com/fjDrBIhkGHY7CXL99HnwtJewloEoTWiOnS4LXlD7zu8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9iaWVy/LWJlcmxpbi5jb20v/Y2RuL3Nob3AvZmls/ZXMvUGhvdG9yb29t/LTIwMjQwMjE0XzEy/MzAxMC5wbmc_dj0x/NzU3NDIxMzkxJndp/ZHRoPTQ4MA",
+      image:
+        "https://imgs.search.brave.com/fjDrBIhkGHY7CXL99HnwtJewloEoTWiOnS4LXlD7zu8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9iaWVy/LWJlcmxpbi5jb20v/Y2RuL3Nob3AvZmls/ZXMvUGhvdG9yb29t/LTIwMjQwMjE0XzEy/MzAxMC5wbmc_dj0x/NzU3NDIxMzkxJndp/ZHRoPTQ4MA",
       price: 7.0,
       allergens: [],
       diets: ["sans-gluten", "vegan", "sans-lactose"],
@@ -10165,7 +10221,8 @@ export const menuItems: Record<string, MenuItem[]> = {
       id: "mole-cola-zero",
       category: "boissons",
       subcategory: "Sodas",
-      image: "https://imgs.search.brave.com/DTZi-Z8ifo5WcxzLRcbHc7mymPdrc1NWJthetDgACNk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/c29kYXBvcGJyb3Mu/Y29tL2Nkbi9zaG9w/L3Byb2R1Y3RzL21v/bGUtY29sYS16ZXJv/LWl0YWx5LTIyNjAy/OC5qcGc_dj0xNjk3/MzYwMDU0JndpZHRo/PTYwMA",
+      image:
+        "https://imgs.search.brave.com/DTZi-Z8ifo5WcxzLRcbHc7mymPdrc1NWJthetDgACNk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/c29kYXBvcGJyb3Mu/Y29tL2Nkbi9zaG9w/L3Byb2R1Y3RzL21v/bGUtY29sYS16ZXJv/LWl0YWx5LTIyNjAy/OC5qcGc_dj0xNjk3/MzYwMDU0JndpZHRo/PTYwMA",
       price: 7.0,
       allergens: [],
       diets: ["sans-gluten", "vegan", "sans-lactose"],
@@ -10249,7 +10306,8 @@ export const menuItems: Record<string, MenuItem[]> = {
       id: "peroni-sans-gluten",
       category: "boissons",
       subcategory: "Bières",
-      image: "https://imgs.search.brave.com/wNc46zBeMIc7wR8UiGvn_AthDzfDdAnRU2e7_gu9g_E/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9iaWVy/LWJlcmxpbi5jb20v/Y2RuL3Nob3AvZmls/ZXMvODFXV3hoNHBO/T0wuX0FDX1VGMTAw/MF8xMDAwX1FMODBf/XzVfMy5wbmc_dj0x/NzcwMzYyMjMwJndp/ZHRoPTQ4MA",
+      image:
+        "https://imgs.search.brave.com/wNc46zBeMIc7wR8UiGvn_AthDzfDdAnRU2e7_gu9g_E/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9iaWVy/LWJlcmxpbi5jb20v/Y2RuL3Nob3AvZmls/ZXMvODFXV3hoNHBO/T0wuX0FDX1VGMTAw/MF8xMDAwX1FMODBf/XzVfMy5wbmc_dj0x/NzcwMzYyMjMwJndp/ZHRoPTQ4MA",
       price: 10.0,
       allergens: [],
       diets: ["sans-gluten", "vegan", "sans-lactose"],
@@ -10446,7 +10504,8 @@ export const menuItems: Record<string, MenuItem[]> = {
       id: "sambucca-biostilla",
       category: "boissons",
       subcategory: "Digéstifs",
-      image: "https://imgs.search.brave.com/gd7qfs6Ruk-7-lX4wrwIjRwXL1a7DtKq9-0edYy1eMM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9rYXJh/ZGFyc2hvcC5jb20v/MjY5MDEtaG9tZV9k/ZWZhdWx0L3NhbWJ1/Y2EtYmlvLWV4Y2Vs/bGVuY2UtYmlvc3Rp/bGxhLWJyZW5uZXJl/aS13YWxjaGVyLmpw/Zw",
+      image:
+        "https://imgs.search.brave.com/gd7qfs6Ruk-7-lX4wrwIjRwXL1a7DtKq9-0edYy1eMM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9rYXJh/ZGFyc2hvcC5jb20v/MjY5MDEtaG9tZV9k/ZWZhdWx0L3NhbWJ1/Y2EtYmlvLWV4Y2Vs/bGVuY2UtYmlvc3Rp/bGxhLWJyZW5uZXJl/aS13YWxjaGVyLmpw/Zw",
       price: 13.0,
       allergens: ["so2"],
       diets: ["sans-gluten", "vegan", "sans-lactose"],
@@ -10511,7 +10570,14 @@ export const menuItems: Record<string, MenuItem[]> = {
       image: pexels(9213913),
       price: 19.0,
       allergens: [],
-      diets: ["sans-gluten", "vegetarien", "vegan", "sans-lactose", "halal", "casher"],
+      diets: [
+        "sans-gluten",
+        "vegetarien",
+        "vegan",
+        "sans-lactose",
+        "halal",
+        "casher",
+      ],
       macros: { calories: 180, proteines: 4, glucides: 14, lipides: 12 },
       translations: {
         fr: {
@@ -10792,7 +10858,14 @@ export const menuItems: Record<string, MenuItem[]> = {
       image: pexels(9433002),
       price: 21.0,
       allergens: [],
-      diets: ["sans-gluten", "vegetarien", "vegan", "sans-lactose", 'halal', 'casher'],
+      diets: [
+        "sans-gluten",
+        "vegetarien",
+        "vegan",
+        "sans-lactose",
+        "halal",
+        "casher",
+      ],
       macros: { calories: 520, proteines: 12, glucides: 68, lipides: 22 },
       translations: {
         fr: {
@@ -10884,7 +10957,14 @@ export const menuItems: Record<string, MenuItem[]> = {
       image: pexels(1279330),
       price: 22.0,
       allergens: ["oeufs", "lait"],
-      diets: ["sans-gluten", "vegetarien", "vegan", "sans-lactose", 'halal', 'casher'],
+      diets: [
+        "sans-gluten",
+        "vegetarien",
+        "vegan",
+        "sans-lactose",
+        "halal",
+        "casher",
+      ],
       macros: { calories: 520, proteines: 14, glucides: 84, lipides: 12 },
       translations: {
         fr: {
@@ -10946,7 +11026,14 @@ export const menuItems: Record<string, MenuItem[]> = {
       image: pexels(11161425),
       price: 22.0,
       allergens: ["oeufs"],
-      diets: ["sans-gluten", "vegetarien", "vegan", "sans-lactose", 'halal', 'casher'],
+      diets: [
+        "sans-gluten",
+        "vegetarien",
+        "vegan",
+        "sans-lactose",
+        "halal",
+        "casher",
+      ],
       macros: { calories: 480, proteines: 12, glucides: 88, lipides: 8 },
       translations: {
         fr: {
@@ -13116,7 +13203,8 @@ export const menuItems: Record<string, MenuItem[]> = {
       id: "montepulciano-d-abruzzo",
       category: "boissons",
       subcategory: "Vins rouges Bio",
-      image: "https://imgs.search.brave.com/CPHO-nnWmUGTDR5I5qvAYlw-PqfbMcQdlFEItBYdoAg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/cHJvZHVpdHMtaXRh/bGllbnMuZnIvOTcw/MC1sYXJnZV9kZWZh/dWx0L21vbnRlcHVs/Y2lhbm8tZC1hYnJ1/enpvLWJpby5qcGc",
+      image:
+        "https://imgs.search.brave.com/CPHO-nnWmUGTDR5I5qvAYlw-PqfbMcQdlFEItBYdoAg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/cHJvZHVpdHMtaXRh/bGllbnMuZnIvOTcw/MC1sYXJnZV9kZWZh/dWx0L21vbnRlcHVs/Y2lhbm8tZC1hYnJ1/enpvLWJpby5qcGc",
       price: 34.0,
       allergens: ["so2"],
       diets: ["sans-gluten", "vegan", "sans-lactose"],
@@ -13148,7 +13236,8 @@ export const menuItems: Record<string, MenuItem[]> = {
       id: "nero-d-avola",
       category: "boissons",
       subcategory: "Vins rouges Bio",
-      image: "https://imgs.search.brave.com/NC10s8sYMfJxJVGLd9cLdb7ER9bXWocQk4GE8G781F0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/cHJvZHVpdHMtaXRh/bGllbnMuZnIvOTY5/My1sYXJnZV9kZWZh/dWx0L25lcm8tZC1h/dm9sYS1zaWNpbGlh/LWRvYy5qcGc",
+      image:
+        "https://imgs.search.brave.com/NC10s8sYMfJxJVGLd9cLdb7ER9bXWocQk4GE8G781F0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/cHJvZHVpdHMtaXRh/bGllbnMuZnIvOTY5/My1sYXJnZV9kZWZh/dWx0L25lcm8tZC1h/dm9sYS1zaWNpbGlh/LWRvYy5qcGc",
       price: 37.0,
       allergens: ["so2"],
       diets: ["sans-gluten", "vegan", "sans-lactose"],
@@ -13180,7 +13269,8 @@ export const menuItems: Record<string, MenuItem[]> = {
       id: "primitivo-salento",
       category: "boissons",
       subcategory: "Vins rouges Bio",
-      image: "https://imgs.search.brave.com/NFkqE9iUvishrEFtiudcYvuZAValDnasmFY7bdsQ8GI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS12aW5pb3UuY29t/L3dpbmVpbWFnZS9h/cHBlbGxhdGlvbl92/Mi9pdGFsaWUvcG91/aWxsZXMvc2FsZW50/by9ib3R0bGUtNzUt/dmlucy1yb3VnZS5w/bmc",
+      image:
+        "https://imgs.search.brave.com/NFkqE9iUvishrEFtiudcYvuZAValDnasmFY7bdsQ8GI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS12aW5pb3UuY29t/L3dpbmVpbWFnZS9h/cHBlbGxhdGlvbl92/Mi9pdGFsaWUvcG91/aWxsZXMvc2FsZW50/by9ib3R0bGUtNzUt/dmlucy1yb3VnZS5w/bmc",
       price: 38.0,
       allergens: ["so2"],
       diets: ["sans-gluten", "vegan", "sans-lactose"],
@@ -13212,7 +13302,8 @@ export const menuItems: Record<string, MenuItem[]> = {
       id: "sangiovese-doc",
       category: "boissons",
       subcategory: "Vins rouges Bio",
-      image: "https://imgs.search.brave.com/btQHF0R8QUk4Yrs5baOo3CAqdvzPs5fk4XTydAckUBc/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9ib3R0/bGVvZml0YWx5LmNv/bS9jZG4vc2hvcC9m/aWxlcy9Sb21hZ25h/LURPQy1TYW5naW92/ZXNlLVByZWRhcHBp/by1CSU8tSWwtU2Fu/Z2lvdmVzZS1Ob2Vs/aWEtUmljY2ktYm90/dGxlLW9mLWl0YWx5/X2dyYW5kZS5qcGc_/dj0xNjg1MDAzNDUz",
+      image:
+        "https://imgs.search.brave.com/btQHF0R8QUk4Yrs5baOo3CAqdvzPs5fk4XTydAckUBc/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9ib3R0/bGVvZml0YWx5LmNv/bS9jZG4vc2hvcC9m/aWxlcy9Sb21hZ25h/LURPQy1TYW5naW92/ZXNlLVByZWRhcHBp/by1CSU8tSWwtU2Fu/Z2lvdmVzZS1Ob2Vs/aWEtUmljY2ktYm90/dGxlLW9mLWl0YWx5/X2dyYW5kZS5qcGc_/dj0xNjg1MDAzNDUz",
       price: 36.0,
       allergens: ["so2"],
       diets: ["sans-gluten", "vegan", "sans-lactose"],
@@ -13244,7 +13335,8 @@ export const menuItems: Record<string, MenuItem[]> = {
       id: "valpolicella-classico",
       category: "boissons",
       subcategory: "Vins rouges Bio",
-      image: "https://imgs.search.brave.com/P31EH49IBy--QE415AFIyLapy-9wamBLN6Y0wm2OxZA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/bGFib3V0ZWlsbGVk/b3JlZS5jb20vMTEx/MzYtbGFyZ2VfZGVm/YXVsdC9ub3ZhaWEt/dmFscG9saWNlbGxh/LWRvYy1jbGFzc2lj/by12ZW5ldGllLWl0/YWxpZS1yb3VnZS0y/MDE5LmpwZw",
+      image:
+        "https://imgs.search.brave.com/P31EH49IBy--QE415AFIyLapy-9wamBLN6Y0wm2OxZA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/bGFib3V0ZWlsbGVk/b3JlZS5jb20vMTEx/MzYtbGFyZ2VfZGVm/YXVsdC9ub3ZhaWEt/dmFscG9saWNlbGxh/LWRvYy1jbGFzc2lj/by12ZW5ldGllLWl0/YWxpZS1yb3VnZS0y/MDE5LmpwZw",
       price: 50.0,
       allergens: ["so2"],
       diets: ["sans-gluten", "vegan", "sans-lactose"],
@@ -13276,7 +13368,8 @@ export const menuItems: Record<string, MenuItem[]> = {
       id: "rosso-di-montalcino",
       category: "boissons",
       subcategory: "Vins rouges Bio",
-      image: "https://imgs.search.brave.com/vh1S-dE471ZVhX7_5-U8ZyWvAm8WynWiasVqficji44/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS12aW5pb3UuY29t/L3dpbmVpbWFnZS9h/cHBlbGxhdGlvbl92/Mi9pdGFsaWUvdG9z/Y2FuZS9yb3Nzby1k/aS1tb250YWxjaW5v/L2JvdHRsZS03NS12/aW5zLXJvdWdlLnBu/Zw",
+      image:
+        "https://imgs.search.brave.com/vh1S-dE471ZVhX7_5-U8ZyWvAm8WynWiasVqficji44/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS12aW5pb3UuY29t/L3dpbmVpbWFnZS9h/cHBlbGxhdGlvbl92/Mi9pdGFsaWUvdG9z/Y2FuZS9yb3Nzby1k/aS1tb250YWxjaW5v/L2JvdHRsZS03NS12/aW5zLXJvdWdlLnBu/Zw",
       price: 59.0,
       allergens: ["so2"],
       diets: ["sans-gluten", "vegan", "sans-lactose"],
@@ -13308,7 +13401,8 @@ export const menuItems: Record<string, MenuItem[]> = {
       id: "aglianico-del-taburno",
       category: "boissons",
       subcategory: "Vins rouges Bio",
-      image: "https://imgs.search.brave.com/l-pQKoAbrieMcJvL7N9oTX4qJdm1yN-cIUnofkRgImI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdG9y/YWdlLmdvb2dsZWFw/aXMuY29tL3BlcmJh/Y2Nvd2Vpbl9tZWRp/YV9jZG4vbWVkaWEv/Y2F0YWxvZy9wcm9k/dWN0L2NhY2hlLzMv/aW1hZ2UvOWRmNzhl/YWIzMzUyNWQwOGQ2/ZTVmYjhkMjcxMzZl/OTUvMC84LzA4NTcy/Nl92bi5qcGc",
+      image:
+        "https://imgs.search.brave.com/l-pQKoAbrieMcJvL7N9oTX4qJdm1yN-cIUnofkRgImI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdG9y/YWdlLmdvb2dsZWFw/aXMuY29tL3BlcmJh/Y2Nvd2Vpbl9tZWRp/YV9jZG4vbWVkaWEv/Y2F0YWxvZy9wcm9k/dWN0L2NhY2hlLzMv/aW1hZ2UvOWRmNzhl/YWIzMzUyNWQwOGQ2/ZTVmYjhkMjcxMzZl/OTUvMC84LzA4NTcy/Nl92bi5qcGc",
       price: 62.0,
       allergens: ["so2"],
       diets: ["sans-gluten", "vegan", "sans-lactose"],
@@ -13340,7 +13434,8 @@ export const menuItems: Record<string, MenuItem[]> = {
       id: "chianti-classico",
       category: "boissons",
       subcategory: "Vins rouges Bio",
-      image: "https://imgs.search.brave.com/tr7CgUH5oqo2AWVDZiv-ippB0jgZnSVs-rTOcuhL9QY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/aXRhbHZpbi5iZS84/NDQtaG9tZV9kZWZh/dWx0X3NtYWxsZXIv/Y2hpYW50aS1jbGFz/c2ljby1yaXNlcnZh/LWJpby12aW4tcm91/Z2UtaXRhbGllbi10/b3NjYW5lLmpwZw",
+      image:
+        "https://imgs.search.brave.com/tr7CgUH5oqo2AWVDZiv-ippB0jgZnSVs-rTOcuhL9QY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/aXRhbHZpbi5iZS84/NDQtaG9tZV9kZWZh/dWx0X3NtYWxsZXIv/Y2hpYW50aS1jbGFz/c2ljby1yaXNlcnZh/LWJpby12aW4tcm91/Z2UtaXRhbGllbi10/b3NjYW5lLmpwZw",
       price: 37.0,
       allergens: ["so2"],
       diets: ["sans-gluten", "vegan", "sans-lactose"],
@@ -13372,7 +13467,8 @@ export const menuItems: Record<string, MenuItem[]> = {
       id: "cannonau",
       category: "boissons",
       subcategory: "Vins rouges Bio",
-      image: "https://imgs.search.brave.com/7j_3GQshmuivDkObBQC1xZGjCtxpcGBjcA0OdHFps3I/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/bGVwZXRpdGJhbGxv/bi5jb20vY2RuL3No/b3AvZmlsZXMvMjUy/XzUwYjI1N2MwLWRk/YjItNDFhMC04MWQx/LTM3ZWIzNmE0OTgx/Mi5qcGc_dj0xNzMy/ODg5Mzc4JndpZHRo/PTE5NDY",
+      image:
+        "https://imgs.search.brave.com/7j_3GQshmuivDkObBQC1xZGjCtxpcGBjcA0OdHFps3I/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/bGVwZXRpdGJhbGxv/bi5jb20vY2RuL3No/b3AvZmlsZXMvMjUy/XzUwYjI1N2MwLWRk/YjItNDFhMC04MWQx/LTM3ZWIzNmE0OTgx/Mi5qcGc_dj0xNzMy/ODg5Mzc4JndpZHRo/PTE5NDY",
       price: 59.0,
       allergens: ["so2"],
       diets: ["sans-gluten", "vegan", "sans-lactose"],
@@ -13404,7 +13500,8 @@ export const menuItems: Record<string, MenuItem[]> = {
       id: "barbera-d-alba",
       category: "boissons",
       subcategory: "Vins rouges Bio",
-      image: "https://imgs.search.brave.com/Ml2n8XJ69P7L-y09C4xTfEqet5pGtRmdLpDS37h26X0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS12aW5pb3UuY29t/L3dpbmVpbWFnZS9h/cHBlbGxhdGlvbl92/Mi9pdGFsaWUvcGll/bW9udC9iYXJiZXJh/LWQtYWxiYS9ib3R0/bGUtNzUtdmlucy1y/b3VnZS5wbmc",
+      image:
+        "https://imgs.search.brave.com/Ml2n8XJ69P7L-y09C4xTfEqet5pGtRmdLpDS37h26X0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS12aW5pb3UuY29t/L3dpbmVpbWFnZS9h/cHBlbGxhdGlvbl92/Mi9pdGFsaWUvcGll/bW9udC9iYXJiZXJh/LWQtYWxiYS9ib3R0/bGUtNzUtdmlucy1y/b3VnZS5wbmc",
       price: 83.0,
       allergens: ["so2"],
       diets: ["sans-gluten", "vegan", "sans-lactose"],
@@ -13436,7 +13533,8 @@ export const menuItems: Record<string, MenuItem[]> = {
       id: "barolo",
       category: "boissons",
       subcategory: "Vins rouges Bio",
-      image: "https://imgs.search.brave.com/JUME9gpDmCQE5juQMkkFxDqK5Hm4XvvInYdkU93iE0A/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZW50/cm8taXRhbGlhLmRl/L3dwLWNvbnRlbnQv/dXBsb2Fkcy8yMDI1/LzAyLzEzMDAtQmFy/b2xvLURPQ0ctQmF0/YXNpb2xvLnBuZw",
+      image:
+        "https://imgs.search.brave.com/JUME9gpDmCQE5juQMkkFxDqK5Hm4XvvInYdkU93iE0A/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZW50/cm8taXRhbGlhLmRl/L3dwLWNvbnRlbnQv/dXBsb2Fkcy8yMDI1/LzAyLzEzMDAtQmFy/b2xvLURPQ0ctQmF0/YXNpb2xvLnBuZw",
       price: 152.0,
       allergens: ["so2"],
       diets: ["sans-gluten", "vegan", "sans-lactose"],
@@ -13466,9 +13564,10 @@ export const menuItems: Record<string, MenuItem[]> = {
     },
     {
       id: "bardolino-chiaretto",
-      category : "boissons",
+      category: "boissons",
       subcategory: "Vins rosés Bio",
-      image: "https://imgs.search.brave.com/N1hp3on_O0Is_ENGP0aov0Cf_Ln6NzCn5AUmy5ugoLI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZW50/cm8taXRhbGlhLmRl/L3dwLWNvbnRlbnQv/dXBsb2Fkcy8yMDIy/LzA1LzExNzEtQ2hp/YXJldHRvLUJhcmRv/bGluby1CZXJldHRh/LnBuZw",
+      image:
+        "https://imgs.search.brave.com/N1hp3on_O0Is_ENGP0aov0Cf_Ln6NzCn5AUmy5ugoLI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZW50/cm8taXRhbGlhLmRl/L3dwLWNvbnRlbnQv/dXBsb2Fkcy8yMDIy/LzA1LzExNzEtQ2hp/YXJldHRvLUJhcmRv/bGluby1CZXJldHRh/LnBuZw",
       price: 32.0,
       allergens: ["so2"],
       diets: ["sans-gluten", "vegan", "sans-lactose"],
@@ -13498,9 +13597,10 @@ export const menuItems: Record<string, MenuItem[]> = {
     },
     {
       id: "rosato-terre-di-chieti",
-      category : "boissons",
+      category: "boissons",
       subcategory: "Vins rosés Bio",
-      image: "https://imgs.search.brave.com/DyBcGipho74jUUZBvmYCkvRjLpJZYHcM7hPpV8AaQrY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tb25h/dmluaS5kZS8yNzE4/LW1lZGl1bV9kZWZh/dWx0L3Jvc2F0by10/ZXJyZS1kaS1jaGll/dGktaWd0LXRlcnJh/bW9yZS1hYnJ1enpl/bi13ZWluLWthdWZl/bi1tdW5jaGVuLmpw/Zw",
+      image:
+        "https://imgs.search.brave.com/DyBcGipho74jUUZBvmYCkvRjLpJZYHcM7hPpV8AaQrY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tb25h/dmluaS5kZS8yNzE4/LW1lZGl1bV9kZWZh/dWx0L3Jvc2F0by10/ZXJyZS1kaS1jaGll/dGktaWd0LXRlcnJh/bW9yZS1hYnJ1enpl/bi13ZWluLWthdWZl/bi1tdW5jaGVuLmpw/Zw",
       price: 42.0,
       allergens: ["so2"],
       diets: ["sans-gluten", "vegan", "sans-lactose"],
@@ -13532,7 +13632,8 @@ export const menuItems: Record<string, MenuItem[]> = {
       id: "grillo-igt",
       category: "boissons",
       subcategory: "Vins blancs Bio",
-      image: "https://imgs.search.brave.com/ay-MUFSxgJ8Q9jIzM7oSx3ciAHPlA5QnIqbxlNo86Lk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/cHJvZHVpdHMtaXRh/bGllbnMuZnIvOTcw/Ny1sYXJnZV9kZWZh/dWx0L2dyaWxsby1k/ZS1zaWNpbGUtYmlv/LmpwZw",
+      image:
+        "https://imgs.search.brave.com/ay-MUFSxgJ8Q9jIzM7oSx3ciAHPlA5QnIqbxlNo86Lk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/cHJvZHVpdHMtaXRh/bGllbnMuZnIvOTcw/Ny1sYXJnZV9kZWZh/dWx0L2dyaWxsby1k/ZS1zaWNpbGUtYmlv/LmpwZw",
       price: 29.0,
       allergens: ["so2"],
       diets: ["sans-gluten", "vegan", "sans-lactose"],
@@ -13564,7 +13665,8 @@ export const menuItems: Record<string, MenuItem[]> = {
       id: "trebbiano-d-abruzzo",
       category: "boissons",
       subcategory: "Vins blancs Bio",
-      image: "https://imgs.search.brave.com/cxZfASS9mAnYGTHp5H8NQXGwkRSkbiUV4lwhZHgn9Bc/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/d2luZS1zZWFyY2hl/ci5jb20vaW1hZ2Vz/L2xhYmVscy80OC8y/OC8xMTU3NDgyOC5q/cGc_d2lkdGg9Mjg4/JmhlaWdodD0xODAm/Zml0PWJvdW5kcyZj/YW52YXM9Mjg4LDE4/MCZmb3JtYXQ9YXV0/byZhdXRvPWNvbXBy/ZXNzJmRwcj0xJnF1/YWxpdHk9NzA",
+      image:
+        "https://imgs.search.brave.com/cxZfASS9mAnYGTHp5H8NQXGwkRSkbiUV4lwhZHgn9Bc/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/d2luZS1zZWFyY2hl/ci5jb20vaW1hZ2Vz/L2xhYmVscy80OC8y/OC8xMTU3NDgyOC5q/cGc_d2lkdGg9Mjg4/JmhlaWdodD0xODAm/Zml0PWJvdW5kcyZj/YW52YXM9Mjg4LDE4/MCZmb3JtYXQ9YXV0/byZhdXRvPWNvbXBy/ZXNzJmRwcj0xJnF1/YWxpdHk9NzA",
       price: 32.0,
       allergens: ["so2"],
       diets: ["sans-gluten", "vegan", "sans-lactose"],
@@ -13596,7 +13698,8 @@ export const menuItems: Record<string, MenuItem[]> = {
       id: "kukukaya-passerina",
       category: "boissons",
       subcategory: "Vins blancs Bio",
-      image: "https://imgs.search.brave.com/KlCixl0DUpLlmcJzRyEeTfPzXqM8cSP-qNi220yIYdw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9kYXRh/Lm5lZ296aW9kZWx2/aW5vLml0L2ltZ3By/b2RvdHRvL3Bhc3Nl/cmluYS10ZXJyZS1k/aS1jaGlldGktYmlv/XzE0NDAzX2xpc3Qu/anBn",
+      image:
+        "https://imgs.search.brave.com/KlCixl0DUpLlmcJzRyEeTfPzXqM8cSP-qNi220yIYdw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9kYXRh/Lm5lZ296aW9kZWx2/aW5vLml0L2ltZ3By/b2RvdHRvL3Bhc3Nl/cmluYS10ZXJyZS1k/aS1jaGlldGktYmlv/XzE0NDAzX2xpc3Qu/anBn",
       price: 38.0,
       allergens: ["so2"],
       diets: ["sans-gluten", "vegan", "sans-lactose"],
@@ -13628,7 +13731,8 @@ export const menuItems: Record<string, MenuItem[]> = {
       id: "falanghina-sannio",
       category: "boissons",
       subcategory: "Vins blancs Bio",
-      image: "https://imgs.search.brave.com/orPTCGB1bFWIK3zVk7Ic1uqwrUrqlhhPvHQbUxCTu_o/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93aWpu/d2FnZW50amUubmwv/d3AtY29udGVudC91/cGxvYWRzLzIwMjAv/MDkvSmFuYXJlLUZh/bGFuZ2hpbmEtRGVs/LVNhbm5pby1ET1At/MjAxOS1GLTEuanBn",
+      image:
+        "https://imgs.search.brave.com/orPTCGB1bFWIK3zVk7Ic1uqwrUrqlhhPvHQbUxCTu_o/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93aWpu/d2FnZW50amUubmwv/d3AtY29udGVudC91/cGxvYWRzLzIwMjAv/MDkvSmFuYXJlLUZh/bGFuZ2hpbmEtRGVs/LVNhbm5pby1ET1At/MjAxOS1GLTEuanBn",
       price: 42.0,
       allergens: ["so2"],
       diets: ["sans-gluten", "vegan", "sans-lactose"],
@@ -13660,7 +13764,8 @@ export const menuItems: Record<string, MenuItem[]> = {
       id: "spinola-gavi",
       category: "boissons",
       subcategory: "Vins blancs Bio",
-      image: "https://imgs.search.brave.com/qlxpXJtpEKliHfh-PUANmiS4xOATHw-GzqwDJpC1ZWk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/Ymlvd2Vpbi1lcmxl/c2VuLmRlL21lZGlh/L2ltYWdlL3Byb2R1/Y3QvNTU4L2xnL3Rh/c3Nhcm9sby1nYXZp/LW1hcmNoZXNpLXNw/aW5vbGEtd2Vpc3N3/ZWluLXBpZW1vbnQt/aGlzdGFtaW5nZXBy/dWVmdC5qcGc",
+      image:
+        "https://imgs.search.brave.com/qlxpXJtpEKliHfh-PUANmiS4xOATHw-GzqwDJpC1ZWk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/Ymlvd2Vpbi1lcmxl/c2VuLmRlL21lZGlh/L2ltYWdlL3Byb2R1/Y3QvNTU4L2xnL3Rh/c3Nhcm9sby1nYXZp/LW1hcmNoZXNpLXNw/aW5vbGEtd2Vpc3N3/ZWluLXBpZW1vbnQt/aGlzdGFtaW5nZXBy/dWVmdC5qcGc",
       price: 40.0,
       allergens: ["so2"],
       diets: ["sans-gluten", "vegan", "sans-lactose"],
@@ -13692,7 +13797,8 @@ export const menuItems: Record<string, MenuItem[]> = {
       id: "prosecco-valdobbiadene",
       category: "boissons",
       subcategory: "Prosecco",
-      image: "https://imgs.search.brave.com/VuzDiUzFiT8BCWN4ANoOfQlEm5OILx27dogfx9D7udM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9kYXRh/Lm5lZ296aW9kZWx2/aW5vLml0L2ltZ3By/b2RvdHRvL3ZhbGRv/YmJpYWRlbmUtcHJv/c2VjY28tc3VwZXJp/b3JlLWxlLXJpdmUt/ZGktY29sYmVydGFs/ZG8tZXh0cmEtZHJ5/LWRvY2dfMTYwMzRf/bGlzdC5qcGc",
+      image:
+        "https://imgs.search.brave.com/VuzDiUzFiT8BCWN4ANoOfQlEm5OILx27dogfx9D7udM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9kYXRh/Lm5lZ296aW9kZWx2/aW5vLml0L2ltZ3By/b2RvdHRvL3ZhbGRv/YmJpYWRlbmUtcHJv/c2VjY28tc3VwZXJp/b3JlLWxlLXJpdmUt/ZGktY29sYmVydGFs/ZG8tZXh0cmEtZHJ5/LWRvY2dfMTYwMzRf/bGlzdC5qcGc",
       price: 55.0,
       allergens: ["so2"],
       diets: ["sans-gluten", "vegan", "sans-lactose"],
@@ -14200,7 +14306,8 @@ export const menuItems: Record<string, MenuItem[]> = {
       id: "soda-chinotto",
       category: "boissons",
       subcategory: "Sodas",
-      image: "https://imgs.search.brave.com/GJbyK8g8-AJON_FNtw4R7EuOQWvASRGkJEjZeVfJo-8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS1jZG4udHJpcGFk/dmlzb3IuY29tL21l/ZGlhL3Bob3RvLW8v/MDMvODUvN2YvNDcv/Y2hpbm90dG8uanBn",
+      image:
+        "https://imgs.search.brave.com/GJbyK8g8-AJON_FNtw4R7EuOQWvASRGkJEjZeVfJo-8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS1jZG4udHJpcGFk/dmlzb3IuY29tL21l/ZGlhL3Bob3RvLW8v/MDMvODUvN2YvNDcv/Y2hpbm90dG8uanBn",
       price: 7.0,
       allergens: [],
       diets: ["sans-gluten", "vegan", "sans-lactose"],
@@ -14228,7 +14335,8 @@ export const menuItems: Record<string, MenuItem[]> = {
       id: "mole-cola",
       category: "boissons",
       subcategory: "Sodas",
-      image: "https://imgs.search.brave.com/fjDrBIhkGHY7CXL99HnwtJewloEoTWiOnS4LXlD7zu8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9iaWVy/LWJlcmxpbi5jb20v/Y2RuL3Nob3AvZmls/ZXMvUGhvdG9yb29t/LTIwMjQwMjE0XzEy/MzAxMC5wbmc_dj0x/NzU3NDIxMzkxJndp/ZHRoPTQ4MA",
+      image:
+        "https://imgs.search.brave.com/fjDrBIhkGHY7CXL99HnwtJewloEoTWiOnS4LXlD7zu8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9iaWVy/LWJlcmxpbi5jb20v/Y2RuL3Nob3AvZmls/ZXMvUGhvdG9yb29t/LTIwMjQwMjE0XzEy/MzAxMC5wbmc_dj0x/NzU3NDIxMzkxJndp/ZHRoPTQ4MA",
       price: 7.0,
       allergens: [],
       diets: ["sans-gluten", "vegan", "sans-lactose"],
@@ -14256,7 +14364,8 @@ export const menuItems: Record<string, MenuItem[]> = {
       id: "mole-cola-zero",
       category: "boissons",
       subcategory: "Sodas",
-      image: "https://imgs.search.brave.com/DTZi-Z8ifo5WcxzLRcbHc7mymPdrc1NWJthetDgACNk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/c29kYXBvcGJyb3Mu/Y29tL2Nkbi9zaG9w/L3Byb2R1Y3RzL21v/bGUtY29sYS16ZXJv/LWl0YWx5LTIyNjAy/OC5qcGc_dj0xNjk3/MzYwMDU0JndpZHRo/PTYwMA",
+      image:
+        "https://imgs.search.brave.com/DTZi-Z8ifo5WcxzLRcbHc7mymPdrc1NWJthetDgACNk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/c29kYXBvcGJyb3Mu/Y29tL2Nkbi9zaG9w/L3Byb2R1Y3RzL21v/bGUtY29sYS16ZXJv/LWl0YWx5LTIyNjAy/OC5qcGc_dj0xNjk3/MzYwMDU0JndpZHRo/PTYwMA",
       price: 7.0,
       allergens: [],
       diets: ["sans-gluten", "vegan", "sans-lactose"],
@@ -14340,7 +14449,8 @@ export const menuItems: Record<string, MenuItem[]> = {
       id: "peroni-sans-gluten",
       category: "boissons",
       subcategory: "Bières",
-      image: "https://imgs.search.brave.com/wNc46zBeMIc7wR8UiGvn_AthDzfDdAnRU2e7_gu9g_E/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9iaWVy/LWJlcmxpbi5jb20v/Y2RuL3Nob3AvZmls/ZXMvODFXV3hoNHBO/T0wuX0FDX1VGMTAw/MF8xMDAwX1FMODBf/XzVfMy5wbmc_dj0x/NzcwMzYyMjMwJndp/ZHRoPTQ4MA",
+      image:
+        "https://imgs.search.brave.com/wNc46zBeMIc7wR8UiGvn_AthDzfDdAnRU2e7_gu9g_E/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9iaWVy/LWJlcmxpbi5jb20v/Y2RuL3Nob3AvZmls/ZXMvODFXV3hoNHBO/T0wuX0FDX1VGMTAw/MF8xMDAwX1FMODBf/XzVfMy5wbmc_dj0x/NzcwMzYyMjMwJndp/ZHRoPTQ4MA",
       price: 10.0,
       allergens: [],
       diets: ["sans-gluten", "vegan", "sans-lactose"],
@@ -14537,7 +14647,8 @@ export const menuItems: Record<string, MenuItem[]> = {
       id: "sambucca-biostilla",
       category: "boissons",
       subcategory: "Digéstifs",
-      image: "https://imgs.search.brave.com/gd7qfs6Ruk-7-lX4wrwIjRwXL1a7DtKq9-0edYy1eMM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9rYXJh/ZGFyc2hvcC5jb20v/MjY5MDEtaG9tZV9k/ZWZhdWx0L3NhbWJ1/Y2EtYmlvLWV4Y2Vs/bGVuY2UtYmlvc3Rp/bGxhLWJyZW5uZXJl/aS13YWxjaGVyLmpw/Zw",
+      image:
+        "https://imgs.search.brave.com/gd7qfs6Ruk-7-lX4wrwIjRwXL1a7DtKq9-0edYy1eMM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9rYXJh/ZGFyc2hvcC5jb20v/MjY5MDEtaG9tZV9k/ZWZhdWx0L3NhbWJ1/Y2EtYmlvLWV4Y2Vs/bGVuY2UtYmlvc3Rp/bGxhLWJyZW5uZXJl/aS13YWxjaGVyLmpw/Zw",
       price: 13.0,
       allergens: ["so2"],
       diets: ["sans-gluten", "vegan", "sans-lactose"],
@@ -14595,2960 +14706,4065 @@ export const menuItems: Record<string, MenuItem[]> = {
     // }
   ],
   "la-sajerie": [
-  {
-    "id": "saj-du-moment",
-    "category": "saj",
-    "subcategory": null,
-    "image": "/la-sajerie/saj-du-moment.jpg",
-    "price": 12.00,
-    "allergens": [],
-    "diets": [],
-    "macros": { "calories": 480, "proteines": 18, "glucides": 55, "lipides": 22 },
-    // "_macros_note": "ESTIMATE — seasonal dish, content not fully described",
-    "translations": {
-      "fr": { "name": "Saj du Moment", "description": "Galette garnie selon la saison — contenu non précisé sur le menu" },
-      "en": { "name": "Saj of the Moment", "description": "Flatbread filled with seasonal ingredients" },
-      "it": { "name": "Saj del Momento", "description": "Piadina farcita con ingredienti di stagione" },
-      "es": { "name": "Saj del Momento", "description": "Pan plano relleno con ingredientes de temporada" }
+    {
+      id: "saj-du-moment",
+      category: "saj",
+      subcategory: null,
+      image: "/la-sajerie/saj-du-moment.jpg",
+      price: 12.0,
+      allergens: [],
+      diets: [],
+      macros: { calories: 480, proteines: 18, glucides: 55, lipides: 22 },
+      // "_macros_note": "ESTIMATE — seasonal dish, content not fully described",
+      translations: {
+        fr: {
+          name: "Saj du Moment",
+          description:
+            "Galette garnie selon la saison — contenu non précisé sur le menu",
+        },
+        en: {
+          name: "Saj of the Moment",
+          description: "Flatbread filled with seasonal ingredients",
+        },
+        it: {
+          name: "Saj del Momento",
+          description: "Piadina farcita con ingredienti di stagione",
+        },
+        es: {
+          name: "Saj del Momento",
+          description: "Pan plano relleno con ingredientes de temporada",
+        },
+      },
+      // "_flags": ["Nouveau", "No allergens or ingredients listed — cannot infer allergens"]
     },
-    // "_flags": ["Nouveau", "No allergens or ingredients listed — cannot infer allergens"]
-  },
-  {
-    "id": "zaatar",
-    "category": "saj",
-    "subcategory": null,
-    "image": "/la-sajerie/zaatar.jpg",
-    "price": 9.00,
-    "allergens": ["sesame", "fruits-a-coque"],
-    "diets": [],
-    "macros": { "calories": 430, "proteines": 12, "glucides": 52, "lipides": 18 },
-    // "_macros_note": "ESTIMATE",
-    "translations": {
-      "fr": { "name": "Zaatar", "description": "Galette garnie de thym, sumac, sésame, huile d'olive, tomates cerises, concombre, menthe et épinard" },
-      "en": { "name": "Zaatar", "description": "Flatbread with thyme, sumac, sesame, olive oil, cherry tomatoes, cucumber, mint and spinach" },
-      "it": { "name": "Zaatar", "description": "Piadina con timo, sumac, sesamo, olio d'oliva, pomodorini, cetriolo, menta e spinaci" },
-      "es": { "name": "Zaatar", "description": "Pan plano con tomillo, zumaque, sésamo, aceite de oliva, tomatitos, pepino, menta y espinacas" }
+    {
+      id: "zaatar",
+      category: "saj",
+      subcategory: null,
+      image: "/la-sajerie/zaatar.jpg",
+      price: 9.0,
+      allergens: ["sesame", "fruits-a-coque"],
+      diets: [],
+      macros: { calories: 430, proteines: 12, glucides: 52, lipides: 18 },
+      // "_macros_note": "ESTIMATE",
+      translations: {
+        fr: {
+          name: "Zaatar",
+          description:
+            "Galette garnie de thym, sumac, sésame, huile d'olive, tomates cerises, concombre, menthe et épinard",
+        },
+        en: {
+          name: "Zaatar",
+          description:
+            "Flatbread with thyme, sumac, sesame, olive oil, cherry tomatoes, cucumber, mint and spinach",
+        },
+        it: {
+          name: "Zaatar",
+          description:
+            "Piadina con timo, sumac, sesamo, olio d'oliva, pomodorini, cetriolo, menta e spinaci",
+        },
+        es: {
+          name: "Zaatar",
+          description:
+            "Pan plano con tomillo, zumaque, sésamo, aceite de oliva, tomatitos, pepino, menta y espinacas",
+        },
+      },
+      // "_flags": ["Contient amande, sésame — 'amande' is a nut (fruits-à-coque). 'Sésame' is an EU allergen. Both mapped correctly."]
     },
-    // "_flags": ["Contient amande, sésame — 'amande' is a nut (fruits-à-coque). 'Sésame' is an EU allergen. Both mapped correctly."]
-  },
-  {
-    "id": "halloumi",
-    "category": "saj",
-    "subcategory": null,
-    "image": "/la-sajerie/halloumi.jpg",
-    "price": 9.50,
-    "allergens": ["fruits-a-coque", "lait"],
-    "diets": ["vegetarien"],
-    // "_flags_diet": ["'végétarien' NOT explicitly written by the restaurant — inferred from ingredients. REMOVED per rules. User should verify."],
-    "macros": { "calories": 520, "proteines": 22, "glucides": 42, "lipides": 28 },
-    // "_macros_note": "ESTIMATE",
-    "translations": {
-      "fr": { "name": "Halloumi", "description": "Galette garnie de fromage halloumi avec avocat, tomates cerises et épinard" },
-      "en": { "name": "Halloumi", "description": "Flatbread with halloumi cheese, avocado, cherry tomatoes and spinach" },
-      "it": { "name": "Halloumi", "description": "Piadina con formaggio halloumi, avocado, pomodorini e spinaci" },
-      "es": { "name": "Halloumi", "description": "Pan plano con queso halloumi, aguacate, tomatitos y espinacas" }
+    {
+      id: "halloumi",
+      category: "saj",
+      subcategory: null,
+      image: "/la-sajerie/halloumi.jpg",
+      price: 9.5,
+      allergens: ["fruits-a-coque", "lait"],
+      diets: ["vegetarien"],
+      // "_flags_diet": ["'végétarien' NOT explicitly written by the restaurant — inferred from ingredients. REMOVED per rules. User should verify."],
+      macros: { calories: 520, proteines: 22, glucides: 42, lipides: 28 },
+      // "_macros_note": "ESTIMATE",
+      translations: {
+        fr: {
+          name: "Halloumi",
+          description:
+            "Galette garnie de fromage halloumi avec avocat, tomates cerises et épinard",
+        },
+        en: {
+          name: "Halloumi",
+          description:
+            "Flatbread with halloumi cheese, avocado, cherry tomatoes and spinach",
+        },
+        it: {
+          name: "Halloumi",
+          description:
+            "Piadina con formaggio halloumi, avocado, pomodorini e spinaci",
+        },
+        es: {
+          name: "Halloumi",
+          description:
+            "Pan plano con queso halloumi, aguacate, tomatitos y espinacas",
+        },
+      },
+      // "_flags": ["Contient amande, lactose — 'amande' mapped to fruits-à-coque, 'lactose' signals lait allergen. Restaurant explicitly states both."]
     },
-    // "_flags": ["Contient amande, lactose — 'amande' mapped to fruits-à-coque, 'lactose' signals lait allergen. Restaurant explicitly states both."]
-  },
-  {
-    "id": "chili-halloumi",
-    "category": "saj",
-    "subcategory": null,
-    "image": "/la-sajerie/chili-halloumi.jpg",
-    "price": 9.50,
-    "allergens": ["fruits-a-coque", "lait"],
-    "diets": [],
-    "macros": { "calories": 530, "proteines": 22, "glucides": 42, "lipides": 29 },
-    // "_macros_note": "ESTIMATE",
-    "translations": {
-      "fr": { "name": "Chili Halloumi", "description": "Galette garnie de fromage halloumi avec pâte de piment, olives vertes, tomates cerises et épinard" },
-      "en": { "name": "Chili Halloumi", "description": "Flatbread with halloumi cheese, chili paste, green olives, cherry tomatoes and spinach" },
-      "it": { "name": "Chili Halloumi", "description": "Piadina con halloumi, pasta di peperoncino, olive verdi, pomodorini e spinaci" },
-      "es": { "name": "Chili Halloumi", "description": "Pan plano con halloumi, pasta de chile, aceitunas verdes, tomatitos y espinacas" }
+    {
+      id: "chili-halloumi",
+      category: "saj",
+      subcategory: null,
+      image: "/la-sajerie/chili-halloumi.jpg",
+      price: 9.5,
+      allergens: ["fruits-a-coque", "lait"],
+      diets: [],
+      macros: { calories: 530, proteines: 22, glucides: 42, lipides: 29 },
+      // "_macros_note": "ESTIMATE",
+      translations: {
+        fr: {
+          name: "Chili Halloumi",
+          description:
+            "Galette garnie de fromage halloumi avec pâte de piment, olives vertes, tomates cerises et épinard",
+        },
+        en: {
+          name: "Chili Halloumi",
+          description:
+            "Flatbread with halloumi cheese, chili paste, green olives, cherry tomatoes and spinach",
+        },
+        it: {
+          name: "Chili Halloumi",
+          description:
+            "Piadina con halloumi, pasta di peperoncino, olive verdi, pomodorini e spinaci",
+        },
+        es: {
+          name: "Chili Halloumi",
+          description:
+            "Pan plano con halloumi, pasta de chile, aceitunas verdes, tomatitos y espinacas",
+        },
+      },
+      // "_flags": ["Contient amande, lactose — same mapping as Halloumi above."]
     },
-    // "_flags": ["Contient amande, lactose — same mapping as Halloumi above."]
-  },
-  {
-    "id": "halloumi-tapenade-poivron",
-    "category": "saj",
-    "subcategory": null,
-    "image": "/la-sajerie/halloumi-tapenade-poivrons.jpg",
-    "price": 9.50,
-    "allergens": ["lait"],
-    "diets": [],
-    "macros": { "calories": 510, "proteines": 21, "glucides": 44, "lipides": 26 },
-    // "_macros_note": "ESTIMATE",
-    "translations": {
-      "fr": { "name": "Halloumi et Tapenade de Poivron", "description": "Galette garnie de fromage halloumi avec tapenade de poivrons, menthe, tomates cerises et épinard" },
-      "en": { "name": "Halloumi and Bell Pepper Tapenade", "description": "Flatbread with halloumi cheese, bell pepper tapenade, mint, cherry tomatoes and spinach" },
-      "it": { "name": "Halloumi e Tapenade di Peperone", "description": "Piadina con halloumi, tapenade di peperoni, menta, pomodorini e spinaci" },
-      "es": { "name": "Halloumi y Tapenade de Pimiento", "description": "Pan plano con halloumi, tapenade de pimiento, menta, tomatitos y espinacas" }
+    {
+      id: "halloumi-tapenade-poivron",
+      category: "saj",
+      subcategory: null,
+      image: "/la-sajerie/halloumi-tapenade-poivrons.jpg",
+      price: 9.5,
+      allergens: ["lait"],
+      diets: [],
+      macros: { calories: 510, proteines: 21, glucides: 44, lipides: 26 },
+      // "_macros_note": "ESTIMATE",
+      translations: {
+        fr: {
+          name: "Halloumi et Tapenade de Poivron",
+          description:
+            "Galette garnie de fromage halloumi avec tapenade de poivrons, menthe, tomates cerises et épinard",
+        },
+        en: {
+          name: "Halloumi and Bell Pepper Tapenade",
+          description:
+            "Flatbread with halloumi cheese, bell pepper tapenade, mint, cherry tomatoes and spinach",
+        },
+        it: {
+          name: "Halloumi e Tapenade di Peperone",
+          description:
+            "Piadina con halloumi, tapenade di peperoni, menta, pomodorini e spinaci",
+        },
+        es: {
+          name: "Halloumi y Tapenade de Pimiento",
+          description:
+            "Pan plano con halloumi, tapenade de pimiento, menta, tomatitos y espinacas",
+        },
+      },
+      // "_flags": ["No allergen label printed by restaurant. Ingredients suggest lait (halloumi). Mapped accordingly."]
     },
-    // "_flags": ["No allergen label printed by restaurant. Ingredients suggest lait (halloumi). Mapped accordingly."]
-  },
-  {
-    "id": "dinde-fume-fromage",
-    "category": "saj",
-    "subcategory": null,
-    "image": "/la-sajerie/dinde-fumee-fromage.jpg",
-    "price": 9.50,
-    "allergens": ["fruits-a-coque", "moutarde"],
-    "diets": [],
-    "macros": { "calories": 500, "proteines": 26, "glucides": 42, "lipides": 22 },
-    // "_macros_note": "ESTIMATE",
-    "translations": {
-      "fr": { "name": "Dinde Fumée et Fromage", "description": "Galette garnie de blanc de dinde fumé avec fromage, tomates cerises, épinard et sauce mayonnaise et moutarde" },
-      "en": { "name": "Smoked Turkey and Cheese", "description": "Flatbread with smoked turkey breast, cheese, cherry tomatoes, spinach, mayonnaise and mustard sauce" },
-      "it": { "name": "Tacchino Affumicato e Formaggio", "description": "Piadina con petto di tacchino affumicato, formaggio, pomodorini, spinaci e salsa maionese-senape" },
-      "es": { "name": "Pavo Ahumado y Queso", "description": "Pan plano con pechuga de pavo ahumado, queso, tomatitos, espinacas y salsa mayonesa-mostaza" }
+    {
+      id: "dinde-fume-fromage",
+      category: "saj",
+      subcategory: null,
+      image: "/la-sajerie/dinde-fumee-fromage.jpg",
+      price: 9.5,
+      allergens: ["fruits-a-coque", "moutarde"],
+      diets: [],
+      macros: { calories: 500, proteines: 26, glucides: 42, lipides: 22 },
+      // "_macros_note": "ESTIMATE",
+      translations: {
+        fr: {
+          name: "Dinde Fumée et Fromage",
+          description:
+            "Galette garnie de blanc de dinde fumé avec fromage, tomates cerises, épinard et sauce mayonnaise et moutarde",
+        },
+        en: {
+          name: "Smoked Turkey and Cheese",
+          description:
+            "Flatbread with smoked turkey breast, cheese, cherry tomatoes, spinach, mayonnaise and mustard sauce",
+        },
+        it: {
+          name: "Tacchino Affumicato e Formaggio",
+          description:
+            "Piadina con petto di tacchino affumicato, formaggio, pomodorini, spinaci e salsa maionese-senape",
+        },
+        es: {
+          name: "Pavo Ahumado y Queso",
+          description:
+            "Pan plano con pechuga de pavo ahumado, queso, tomatitos, espinacas y salsa mayonesa-mostaza",
+        },
+      },
+      // "_flags": ["Contient amande — mapped to fruits-à-coque. Sauce moutarde implies moutarde allergen, but restaurant only lists 'amande'. Moutarde inferred from ingredient 'sauce moutarde'. NOTE: per rules, only allergens EXPLICITLY stated by the restaurant should be used. 'amande' = fruits-à-coque confirmed. 'moutarde' ingredient listed in description — flagged for user review.", "Oeufs possible in mayonnaise but not explicitly stated."]
     },
-    // "_flags": ["Contient amande — mapped to fruits-à-coque. Sauce moutarde implies moutarde allergen, but restaurant only lists 'amande'. Moutarde inferred from ingredient 'sauce moutarde'. NOTE: per rules, only allergens EXPLICITLY stated by the restaurant should be used. 'amande' = fruits-à-coque confirmed. 'moutarde' ingredient listed in description — flagged for user review.", "Oeufs possible in mayonnaise but not explicitly stated."]
-  },
-  {
-    "id": "hummus-avocat",
-    "category": "saj",
-    "subcategory": null,
-    "image": "/la-sajerie/hummus-avocat.jpg",
-    "price": 9.50,
-    "allergens": ["fruits-a-coque", "sesame"],
-    "diets": [],
-    "macros": { "calories": 490, "proteines": 16, "glucides": 50, "lipides": 24 },
-    // "_macros_note": "ESTIMATE",
-    "translations": {
-      "fr": { "name": "Hummus Avocat", "description": "Galette garnie de houmous, avocat, pâte de piment, pickles, tomates et épinard" },
-      "en": { "name": "Hummus Avocado", "description": "Flatbread with hummus, avocado, chili paste, pickles, tomatoes and spinach" },
-      "it": { "name": "Hummus Avocado", "description": "Piadina con hummus, avocado, pasta di peperoncino, sottaceti, pomodori e spinaci" },
-      "es": { "name": "Hummus Aguacate", "description": "Pan plano con hummus, aguacate, pasta de chile, encurtidos, tomates y espinacas" }
+    {
+      id: "hummus-avocat",
+      category: "saj",
+      subcategory: null,
+      image: "/la-sajerie/hummus-avocat.jpg",
+      price: 9.5,
+      allergens: ["fruits-a-coque", "sesame"],
+      diets: [],
+      macros: { calories: 490, proteines: 16, glucides: 50, lipides: 24 },
+      // "_macros_note": "ESTIMATE",
+      translations: {
+        fr: {
+          name: "Hummus Avocat",
+          description:
+            "Galette garnie de houmous, avocat, pâte de piment, pickles, tomates et épinard",
+        },
+        en: {
+          name: "Hummus Avocado",
+          description:
+            "Flatbread with hummus, avocado, chili paste, pickles, tomatoes and spinach",
+        },
+        it: {
+          name: "Hummus Avocado",
+          description:
+            "Piadina con hummus, avocado, pasta di peperoncino, sottaceti, pomodori e spinaci",
+        },
+        es: {
+          name: "Hummus Aguacate",
+          description:
+            "Pan plano con hummus, aguacate, pasta de chile, encurtidos, tomates y espinacas",
+        },
+      },
+      // "_flags": ["Contient amande, sésame — 'amande' = fruits-à-coque, 'sésame' = sésame allergen. Hummus typically contains tahini (sesame) which aligns with stated label."]
     },
-    // "_flags": ["Contient amande, sésame — 'amande' = fruits-à-coque, 'sésame' = sésame allergen. Hummus typically contains tahini (sesame) which aligns with stated label."]
-  },
-  {
-    "id": "aubergine-labneh",
-    "category": "saj",
-    "subcategory": null,
-    "image": "/la-sajerie/aubergine-labneh.jpg",
-    "price": 9.50,
-    "allergens": ["fruits-a-coque", "lait"],
-    "diets": [],
-    "macros": { "calories": 480, "proteines": 18, "glucides": 42, "lipides": 24 },
-    // "_macros_note": "ESTIMATE",
-    "translations": {
-      "fr": { "name": "Aubergine Labneh", "description": "Galette garnie d'aubergines rôties, pâte de piment, labneh, noix, tomates cerises et épinard" },
-      "en": { "name": "Aubergine Labneh", "description": "Flatbread with roasted aubergines, chili paste, labneh, walnuts, cherry tomatoes and spinach" },
-      "it": { "name": "Melanzana Labneh", "description": "Piadina con melanzane arrostite, pasta di peperoncino, labneh, noci, pomodorini e spinaci" },
-      "es": { "name": "Berenjena Labneh", "description": "Pan plano con berenjenas asadas, pasta de chile, labneh, nueces, tomatitos y espinacas" }
+    {
+      id: "aubergine-labneh",
+      category: "saj",
+      subcategory: null,
+      image: "/la-sajerie/aubergine-labneh.jpg",
+      price: 9.5,
+      allergens: ["fruits-a-coque", "lait"],
+      diets: [],
+      macros: { calories: 480, proteines: 18, glucides: 42, lipides: 24 },
+      // "_macros_note": "ESTIMATE",
+      translations: {
+        fr: {
+          name: "Aubergine Labneh",
+          description:
+            "Galette garnie d'aubergines rôties, pâte de piment, labneh, noix, tomates cerises et épinard",
+        },
+        en: {
+          name: "Aubergine Labneh",
+          description:
+            "Flatbread with roasted aubergines, chili paste, labneh, walnuts, cherry tomatoes and spinach",
+        },
+        it: {
+          name: "Melanzana Labneh",
+          description:
+            "Piadina con melanzane arrostite, pasta di peperoncino, labneh, noci, pomodorini e spinaci",
+        },
+        es: {
+          name: "Berenjena Labneh",
+          description:
+            "Pan plano con berenjenas asadas, pasta de chile, labneh, nueces, tomatitos y espinacas",
+        },
+      },
+      // "_flags": ["Contient amande, noix, lactose — 'amande' and 'noix' both map to fruits-à-coque. 'Lactose' maps to lait."]
     },
-    // "_flags": ["Contient amande, noix, lactose — 'amande' and 'noix' both map to fruits-à-coque. 'Lactose' maps to lait."]
-  },
-  {
-    "id": "aubergines-tapenade-poivrons",
-    "category": "saj",
-    "subcategory": null,
-    "image": "/la-sajerie/aubergine-tapenade-poivrons.jpg",
-    "price": 9.50,
-    "allergens": ["fruits-a-coque"],
-    "diets": [],
-    "macros": { "calories": 450, "proteines": 12, "glucides": 46, "lipides": 22 },
-    // "_macros_note": "ESTIMATE",
-    "translations": {
-      "fr": { "name": "Aubergines et Tapenade de Poivrons", "description": "Galette garnie d'aubergines rôties, tapenade de poivrons et noix, avec tomates cerises, persil, menthe et sauce vinaigrette au tahin" },
-      "en": { "name": "Aubergines and Bell Pepper Tapenade", "description": "Flatbread with roasted aubergines, bell pepper and walnut tapenade, cherry tomatoes, parsley, mint and tahini vinaigrette" },
-      "it": { "name": "Melanzane e Tapenade di Peperoni", "description": "Piadina con melanzane arrostite, tapenade di peperoni e noci, pomodorini, prezzemolo, menta e vinaigrette al tahini" },
-      "es": { "name": "Berenjenas y Tapenade de Pimientos", "description": "Pan plano con berenjenas asadas, tapenade de pimientos y nueces, tomatitos, perejil, menta y vinagreta de tahini" }
+    {
+      id: "aubergines-tapenade-poivrons",
+      category: "saj",
+      subcategory: null,
+      image: "/la-sajerie/aubergine-tapenade-poivrons.jpg",
+      price: 9.5,
+      allergens: ["fruits-a-coque"],
+      diets: [],
+      macros: { calories: 450, proteines: 12, glucides: 46, lipides: 22 },
+      // "_macros_note": "ESTIMATE",
+      translations: {
+        fr: {
+          name: "Aubergines et Tapenade de Poivrons",
+          description:
+            "Galette garnie d'aubergines rôties, tapenade de poivrons et noix, avec tomates cerises, persil, menthe et sauce vinaigrette au tahin",
+        },
+        en: {
+          name: "Aubergines and Bell Pepper Tapenade",
+          description:
+            "Flatbread with roasted aubergines, bell pepper and walnut tapenade, cherry tomatoes, parsley, mint and tahini vinaigrette",
+        },
+        it: {
+          name: "Melanzane e Tapenade di Peperoni",
+          description:
+            "Piadina con melanzane arrostite, tapenade di peperoni e noci, pomodorini, prezzemolo, menta e vinaigrette al tahini",
+        },
+        es: {
+          name: "Berenjenas y Tapenade de Pimientos",
+          description:
+            "Pan plano con berenjenas asadas, tapenade de pimientos y nueces, tomatitos, perejil, menta y vinagreta de tahini",
+        },
+      },
+      // "_flags": ["Contient amande, noix — both map to fruits-à-coque. Sauce tahini typically contains sésame but not explicitly listed as allergen by restaurant — not added per rules."]
     },
-    // "_flags": ["Contient amande, noix — both map to fruits-à-coque. Sauce tahini typically contains sésame but not explicitly listed as allergen by restaurant — not added per rules."]
-  },
-  {
-    "id": "poulet-toum",
-    "category": "saj",
-    "subcategory": null,
-    "image": "/la-sajerie/poulet-toum.jpg",
-    "price": 9.50,
-    "allergens": ["fruits-a-coque"],
-    "diets": [],
-    "macros": { "calories": 490, "proteines": 28, "glucides": 42, "lipides": 20 },
-    // "_macros_note": "ESTIMATE",
-    "translations": {
-      "fr": { "name": "Poulet Toum", "description": "Galette garnie de poulet, sauce à l'ail et pickles" },
-      "en": { "name": "Chicken Toum", "description": "Flatbread with chicken, garlic sauce and pickles" },
-      "it": { "name": "Pollo Toum", "description": "Piadina con pollo, salsa all'aglio e sottaceti" },
-      "es": { "name": "Pollo Toum", "description": "Pan plano con pollo, salsa de ajo y encurtidos" }
+    {
+      id: "poulet-toum",
+      category: "saj",
+      subcategory: null,
+      image: "/la-sajerie/poulet-toum.jpg",
+      price: 9.5,
+      allergens: ["fruits-a-coque"],
+      diets: [],
+      macros: { calories: 490, proteines: 28, glucides: 42, lipides: 20 },
+      // "_macros_note": "ESTIMATE",
+      translations: {
+        fr: {
+          name: "Poulet Toum",
+          description: "Galette garnie de poulet, sauce à l'ail et pickles",
+        },
+        en: {
+          name: "Chicken Toum",
+          description: "Flatbread with chicken, garlic sauce and pickles",
+        },
+        it: {
+          name: "Pollo Toum",
+          description: "Piadina con pollo, salsa all'aglio e sottaceti",
+        },
+        es: {
+          name: "Pollo Toum",
+          description: "Pan plano con pollo, salsa de ajo y encurtidos",
+        },
+      },
+      // "_flags": ["Contient amande — mapped to fruits-à-coque."]
     },
-    // "_flags": ["Contient amande — mapped to fruits-à-coque."]
-  },
-  {
-    "id": "poulet-hummus",
-    "category": "saj",
-    "subcategory": null,
-    "image": "/la-sajerie/poulet-hummus.jpg",
-    "price": 10.00,
-    "allergens": ["fruits-a-coque", "sesame"],
-    "diets": [],
-    "macros": { "calories": 540, "proteines": 30, "glucides": 48, "lipides": 22 },
-    // "_macros_note": "ESTIMATE",
-    "translations": {
-      "fr": { "name": "Poulet Hummus", "description": "Galette garnie de poulet, hummus, sumac, oignon, pickles, radis et sauce vinaigrette au tahin" },
-      "en": { "name": "Chicken Hummus", "description": "Flatbread with chicken, hummus, sumac, onion, pickles, radishes and tahini vinaigrette" },
-      "it": { "name": "Pollo Hummus", "description": "Piadina con pollo, hummus, sumac, cipolla, sottaceti, ravanelli e vinaigrette al tahini" },
-      "es": { "name": "Pollo Hummus", "description": "Pan plano con pollo, hummus, zumaque, cebolla, encurtidos, rábanos y vinagreta de tahini" }
+    {
+      id: "poulet-hummus",
+      category: "saj",
+      subcategory: null,
+      image: "/la-sajerie/poulet-hummus.jpg",
+      price: 10.0,
+      allergens: ["fruits-a-coque", "sesame"],
+      diets: [],
+      macros: { calories: 540, proteines: 30, glucides: 48, lipides: 22 },
+      // "_macros_note": "ESTIMATE",
+      translations: {
+        fr: {
+          name: "Poulet Hummus",
+          description:
+            "Galette garnie de poulet, hummus, sumac, oignon, pickles, radis et sauce vinaigrette au tahin",
+        },
+        en: {
+          name: "Chicken Hummus",
+          description:
+            "Flatbread with chicken, hummus, sumac, onion, pickles, radishes and tahini vinaigrette",
+        },
+        it: {
+          name: "Pollo Hummus",
+          description:
+            "Piadina con pollo, hummus, sumac, cipolla, sottaceti, ravanelli e vinaigrette al tahini",
+        },
+        es: {
+          name: "Pollo Hummus",
+          description:
+            "Pan plano con pollo, hummus, zumaque, cebolla, encurtidos, rábanos y vinagreta de tahini",
+        },
+      },
+      // "_flags": ["Contient amande, sésame — mapped correctly."]
     },
-    // "_flags": ["Contient amande, sésame — mapped correctly."]
-  },
-  {
-    "id": "soujouk-halloumi",
-    "category": "saj",
-    "subcategory": null,
-    "image": "/la-sajerie/soujouk-halloumi.jpg",
-    "price": 11.00,
-    "allergens": ["fruits-a-coque", "lait"],
-    "diets": [],
-    "macros": { "calories": 600, "proteines": 30, "glucides": 42, "lipides": 36 },
-    // "_macros_note": "ESTIMATE",
-    "translations": {
-      "fr": { "name": "Soujouk Halloumi", "description": "Galette garnie de soujouk (le saucisson arménien maison), fromage halloumi, tapenade de poivrons, tomates et épinard" },
-      "en": { "name": "Soujouk Halloumi", "description": "Flatbread with soujouk (homemade Armenian sausage), halloumi cheese, bell pepper tapenade, tomatoes and spinach" },
-      "it": { "name": "Soujouk Halloumi", "description": "Piadina con soujouk (salsiccia armena fatta in casa), halloumi, tapenade di peperoni, pomodori e spinaci" },
-      "es": { "name": "Soujouk Halloumi", "description": "Pan plano con soujouk (embutido armenio casero), halloumi, tapenade de pimientos, tomates y espinacas" }
+    {
+      id: "soujouk-halloumi",
+      category: "saj",
+      subcategory: null,
+      image: "/la-sajerie/soujouk-halloumi.jpg",
+      price: 11.0,
+      allergens: ["fruits-a-coque", "lait"],
+      diets: [],
+      macros: { calories: 600, proteines: 30, glucides: 42, lipides: 36 },
+      // "_macros_note": "ESTIMATE",
+      translations: {
+        fr: {
+          name: "Soujouk Halloumi",
+          description:
+            "Galette garnie de soujouk (le saucisson arménien maison), fromage halloumi, tapenade de poivrons, tomates et épinard",
+        },
+        en: {
+          name: "Soujouk Halloumi",
+          description:
+            "Flatbread with soujouk (homemade Armenian sausage), halloumi cheese, bell pepper tapenade, tomatoes and spinach",
+        },
+        it: {
+          name: "Soujouk Halloumi",
+          description:
+            "Piadina con soujouk (salsiccia armena fatta in casa), halloumi, tapenade di peperoni, pomodori e spinaci",
+        },
+        es: {
+          name: "Soujouk Halloumi",
+          description:
+            "Pan plano con soujouk (embutido armenio casero), halloumi, tapenade de pimientos, tomates y espinacas",
+        },
+      },
+      // "_flags": ["Contient amande, noix, lactose — 'noix' and 'amande' both map to fruits-à-coque. 'Lactose' maps to lait."]
     },
-    // "_flags": ["Contient amande, noix, lactose — 'noix' and 'amande' both map to fruits-à-coque. 'Lactose' maps to lait."]
-  },
-  {
-    "id": "boeuf-aux-epices",
-    "category": "saj",
-    "subcategory": null,
-    "image": "/la-sajerie/boeuf-epices.jpg",
-    "price": 12.00,
-    "allergens": ["fruits-a-coque", "lait"],
-    "diets": [],
-    "macros": { "calories": 560, "proteines": 32, "glucides": 44, "lipides": 28 },
-    // "_macros_note": "ESTIMATE",
-    "translations": {
-      "fr": { "name": "Boeuf aux Épices", "description": "Galette garnie de boeuf haché mariné avec tomates, poivron, oignons et 5 épices, labneh à l'ail, piment et pickles" },
-      "en": { "name": "Spiced Beef", "description": "Flatbread with marinated minced beef, tomatoes, bell pepper, onions and 5 spices, garlic labneh, chili and pickles" },
-      "it": { "name": "Manzo alle Spezie", "description": "Piadina con manzo macinato marinato, pomodori, peperone, cipolle e 5 spezie, labneh all'aglio, peperoncino e sottaceti" },
-      "es": { "name": "Ternera con Especias", "description": "Pan plano con carne picada marinada, tomates, pimiento, cebollas y 5 especias, labneh de ajo, chile y encurtidos" }
+    {
+      id: "boeuf-aux-epices",
+      category: "saj",
+      subcategory: null,
+      image: "/la-sajerie/boeuf-epices.jpg",
+      price: 12.0,
+      allergens: ["fruits-a-coque", "lait"],
+      diets: [],
+      macros: { calories: 560, proteines: 32, glucides: 44, lipides: 28 },
+      // "_macros_note": "ESTIMATE",
+      translations: {
+        fr: {
+          name: "Boeuf aux Épices",
+          description:
+            "Galette garnie de boeuf haché mariné avec tomates, poivron, oignons et 5 épices, labneh à l'ail, piment et pickles",
+        },
+        en: {
+          name: "Spiced Beef",
+          description:
+            "Flatbread with marinated minced beef, tomatoes, bell pepper, onions and 5 spices, garlic labneh, chili and pickles",
+        },
+        it: {
+          name: "Manzo alle Spezie",
+          description:
+            "Piadina con manzo macinato marinato, pomodori, peperone, cipolle e 5 spezie, labneh all'aglio, peperoncino e sottaceti",
+        },
+        es: {
+          name: "Ternera con Especias",
+          description:
+            "Pan plano con carne picada marinada, tomates, pimiento, cebollas y 5 especias, labneh de ajo, chile y encurtidos",
+        },
+      },
+      // "_flags": ["Contient amande — mapped to fruits-à-coque. Labneh implies lait but restaurant only states 'amande'. Lait inferred from labneh ingredient — flagged for user review."]
     },
-    // "_flags": ["Contient amande — mapped to fruits-à-coque. Labneh implies lait but restaurant only states 'amande'. Lait inferred from labneh ingredient — flagged for user review."]
-  },
-  {
-    "id": "kefta-halloumi",
-    "category": "saj",
-    "subcategory": null,
-    "image": "/la-sajerie/kefta-halloumi.jpg",
-    "price": 12.00,
-    "allergens": ["fruits-a-coque", "lait", "moutarde"],
-    "diets": [],
-    "macros": { "calories": 580, "proteines": 34, "glucides": 42, "lipides": 30 },
-    // "_macros_note": "ESTIMATE",
-    "translations": {
-      "fr": { "name": "Kefta Halloumi", "description": "Galette garnie de viande hachée de boeuf avec persil, oignons, épices, halloumi, tomates cerises et sauce mayo moutarde" },
-      "en": { "name": "Kefta Halloumi", "description": "Flatbread with minced beef, parsley, onions, spices, halloumi, cherry tomatoes and mayo-mustard sauce" },
-      "it": { "name": "Kefta Halloumi", "description": "Piadina con carne macinata di manzo, prezzemolo, cipolle, spezie, halloumi, pomodorini e salsa maionese-senape" },
-      "es": { "name": "Kefta Halloumi", "description": "Pan plano con carne picada de ternera, perejil, cebolla, especias, halloumi, tomatitos y salsa mayonesa-mostaza" }
+    {
+      id: "kefta-halloumi",
+      category: "saj",
+      subcategory: null,
+      image: "/la-sajerie/kefta-halloumi.jpg",
+      price: 12.0,
+      allergens: ["fruits-a-coque", "lait", "moutarde"],
+      diets: [],
+      macros: { calories: 580, proteines: 34, glucides: 42, lipides: 30 },
+      // "_macros_note": "ESTIMATE",
+      translations: {
+        fr: {
+          name: "Kefta Halloumi",
+          description:
+            "Galette garnie de viande hachée de boeuf avec persil, oignons, épices, halloumi, tomates cerises et sauce mayo moutarde",
+        },
+        en: {
+          name: "Kefta Halloumi",
+          description:
+            "Flatbread with minced beef, parsley, onions, spices, halloumi, cherry tomatoes and mayo-mustard sauce",
+        },
+        it: {
+          name: "Kefta Halloumi",
+          description:
+            "Piadina con carne macinata di manzo, prezzemolo, cipolle, spezie, halloumi, pomodorini e salsa maionese-senape",
+        },
+        es: {
+          name: "Kefta Halloumi",
+          description:
+            "Pan plano con carne picada de ternera, perejil, cebolla, especias, halloumi, tomatitos y salsa mayonesa-mostaza",
+        },
+      },
+      // "_flags": ["Nouveau", "Contient amande, moutarde, lactose — all three mapped correctly."]
     },
-    // "_flags": ["Nouveau", "Contient amande, moutarde, lactose — all three mapped correctly."]
-  },
-  {
-    "id": "nutella",
-    "category": "saj",
-    "subcategory": null,
-    "image": "/la-sajerie/nutella.jpg",
-    "price": 7.00,
-    "allergens": ["fruits-a-coque", "lait", "gluten"],
-    "diets": [],
-    "macros": { "calories": 480, "proteines": 8, "glucides": 62, "lipides": 24 },
-    // "_macros_note": "ESTIMATE",
-    "translations": {
-      "fr": { "name": "Nutella", "description": "Galette au Nutella" },
-      "en": { "name": "Nutella", "description": "Flatbread with Nutella" },
-      "it": { "name": "Nutella", "description": "Piadina con Nutella" },
-      "es": { "name": "Nutella", "description": "Pan plano con Nutella" }
+    {
+      id: "nutella",
+      category: "saj",
+      subcategory: null,
+      image: "/la-sajerie/nutella.jpg",
+      price: 7.0,
+      allergens: ["fruits-a-coque", "lait", "gluten"],
+      diets: [],
+      macros: { calories: 480, proteines: 8, glucides: 62, lipides: 24 },
+      // "_macros_note": "ESTIMATE",
+      translations: {
+        fr: { name: "Nutella", description: "Galette au Nutella" },
+        en: { name: "Nutella", description: "Flatbread with Nutella" },
+        it: { name: "Nutella", description: "Piadina con Nutella" },
+        es: { name: "Nutella", description: "Pan plano con Nutella" },
+      },
+      // "_flags": ["Contient amande, noisette — both map to fruits-à-coque. Nutella contains gluten (biscuit/flour component) and lait. Restaurant only explicitly states 'amande, noisette'. Gluten and lait inferred from Nutella product — flagged for review.", "Price partially cut off in image — reads 7€ with '+banane 1€' supplement noted"]
     },
-    // "_flags": ["Contient amande, noisette — both map to fruits-à-coque. Nutella contains gluten (biscuit/flour component) and lait. Restaurant only explicitly states 'amande, noisette'. Gluten and lait inferred from Nutella product — flagged for review.", "Price partially cut off in image — reads 7€ with '+banane 1€' supplement noted"]
-  },
 
-  {
-    "id": "salade-aux-dattes-halloumi",
-    "category": "salades",
-    "subcategory": null,
-    "image": "/la-sajerie/salade-datte-halloumi.jpg",
-    "price": 9.00,
-    "allergens": ["fruits-a-coque", "lait"],
-    "diets": [],
-    "macros": { "calories": 380, "proteines": 18, "glucides": 32, "lipides": 20 },
-    // "_macros_note": "ESTIMATE",
-    "translations": {
-      "fr": { "name": "Salade aux Dattes et Halloumi", "description": "Salade de mesclun, roquette, halloumi fromage, dattes et noix" },
-      "en": { "name": "Date and Halloumi Salad", "description": "Mesclun salad with rocket, halloumi cheese, dates and walnuts" },
-      "it": { "name": "Insalata di Datteri e Halloumi", "description": "Insalata mista con rucola, formaggio halloumi, datteri e noci" },
-      "es": { "name": "Ensalada de Dátiles y Halloumi", "description": "Ensalada mesclun con rúcula, queso halloumi, dátiles y nueces" }
+    {
+      id: "salade-aux-dattes-halloumi",
+      category: "salades",
+      subcategory: null,
+      image: "/la-sajerie/salade-datte-halloumi.jpg",
+      price: 9.0,
+      allergens: ["fruits-a-coque", "lait"],
+      diets: [],
+      macros: { calories: 380, proteines: 18, glucides: 32, lipides: 20 },
+      // "_macros_note": "ESTIMATE",
+      translations: {
+        fr: {
+          name: "Salade aux Dattes et Halloumi",
+          description:
+            "Salade de mesclun, roquette, halloumi fromage, dattes et noix",
+        },
+        en: {
+          name: "Date and Halloumi Salad",
+          description:
+            "Mesclun salad with rocket, halloumi cheese, dates and walnuts",
+        },
+        it: {
+          name: "Insalata di Datteri e Halloumi",
+          description:
+            "Insalata mista con rucola, formaggio halloumi, datteri e noci",
+        },
+        es: {
+          name: "Ensalada de Dátiles y Halloumi",
+          description:
+            "Ensalada mesclun con rúcula, queso halloumi, dátiles y nueces",
+        },
+      },
+      // "_flags": ["Contient noix — mapped to fruits-à-coque. Halloumi implies lait but only 'noix' explicitly stated — lait flagged for user review."]
     },
-    // "_flags": ["Contient noix — mapped to fruits-à-coque. Halloumi implies lait but only 'noix' explicitly stated — lait flagged for user review."]
-  },
-  {
-    "id": "mesclun-artichauts-pistaches",
-    "category": "salades",
-    "subcategory": null,
-    "image": "/la-sajerie/artichaut-pistache.jpg",
-    "price": 9.00,
-    "allergens": ["fruits-a-coque"],
-    "diets": [],
-    "macros": { "calories": 290, "proteines": 10, "glucides": 22, "lipides": 18 },
-    // "_macros_note": "ESTIMATE",
-    "translations": {
-      "fr": { "name": "Mesclun aux Artichauts et Pistaches", "description": "Salade de mesclun, roquette, artichauts, menthe et pistaches" },
-      "en": { "name": "Mesclun with Artichokes and Pistachios", "description": "Mesclun salad with rocket, artichokes, mint and pistachios" },
-      "it": { "name": "Mesclun con Carciofi e Pistacchi", "description": "Insalata mista con rucola, carciofi, menta e pistacchi" },
-      "es": { "name": "Mesclun con Alcachofas y Pistachos", "description": "Ensalada mesclun con rúcula, alcachofas, menta y pistachos" }
+    {
+      id: "mesclun-artichauts-pistaches",
+      category: "salades",
+      subcategory: null,
+      image: "/la-sajerie/artichaut-pistache.jpg",
+      price: 9.0,
+      allergens: ["fruits-a-coque"],
+      diets: [],
+      macros: { calories: 290, proteines: 10, glucides: 22, lipides: 18 },
+      // "_macros_note": "ESTIMATE",
+      translations: {
+        fr: {
+          name: "Mesclun aux Artichauts et Pistaches",
+          description:
+            "Salade de mesclun, roquette, artichauts, menthe et pistaches",
+        },
+        en: {
+          name: "Mesclun with Artichokes and Pistachios",
+          description:
+            "Mesclun salad with rocket, artichokes, mint and pistachios",
+        },
+        it: {
+          name: "Mesclun con Carciofi e Pistacchi",
+          description: "Insalata mista con rucola, carciofi, menta e pistacchi",
+        },
+        es: {
+          name: "Mesclun con Alcachofas y Pistachos",
+          description:
+            "Ensalada mesclun con rúcula, alcachofas, menta y pistachos",
+        },
+      },
+      // "_flags": ["Contient pistache — mapped to fruits-à-coque."]
     },
-    // "_flags": ["Contient pistache — mapped to fruits-à-coque."]
-  },
-  {
-    "id": "tabouleh-quinoa-pois-chiche",
-    "category": "salades",
-    "subcategory": null,
-    "image": "/la-sajerie/tabouleh-quinoa-pois-chiche.jpg",
-    "price": 8.00,
-    "allergens": [],
-    "diets": ["vegan"],
-    "macros": { "calories": 340, "proteines": 14, "glucides": 48, "lipides": 10 },
-    // "_macros_note": "ESTIMATE",
-    "translations": {
-      "fr": { "name": "Tabouleh aux Quinoa et Pois Chiche", "description": "Salade de quinoa, pois chiche, persil, oignons, menthe, tomates, huile d'olive et citron" },
-      "en": { "name": "Quinoa and Chickpea Tabbouleh", "description": "Quinoa salad with chickpeas, parsley, onions, mint, tomatoes, olive oil and lemon" },
-      "it": { "name": "Tabulè di Quinoa e Ceci", "description": "Insalata di quinoa con ceci, prezzemolo, cipolle, menta, pomodori, olio d'oliva e limone" },
-      "es": { "name": "Tabulé de Quinoa y Garbanzos", "description": "Ensalada de quinoa con garbanzos, perejil, cebolla, menta, tomates, aceite de oliva y limón" }
+    {
+      id: "tabouleh-quinoa-pois-chiche",
+      category: "salades",
+      subcategory: null,
+      image: "/la-sajerie/tabouleh-quinoa-pois-chiche.jpg",
+      price: 8.0,
+      allergens: [],
+      diets: ["vegan"],
+      macros: { calories: 340, proteines: 14, glucides: 48, lipides: 10 },
+      // "_macros_note": "ESTIMATE",
+      translations: {
+        fr: {
+          name: "Tabouleh aux Quinoa et Pois Chiche",
+          description:
+            "Salade de quinoa, pois chiche, persil, oignons, menthe, tomates, huile d'olive et citron",
+        },
+        en: {
+          name: "Quinoa and Chickpea Tabbouleh",
+          description:
+            "Quinoa salad with chickpeas, parsley, onions, mint, tomatoes, olive oil and lemon",
+        },
+        it: {
+          name: "Tabulè di Quinoa e Ceci",
+          description:
+            "Insalata di quinoa con ceci, prezzemolo, cipolle, menta, pomodori, olio d'oliva e limone",
+        },
+        es: {
+          name: "Tabulé de Quinoa y Garbanzos",
+          description:
+            "Ensalada de quinoa con garbanzos, perejil, cebolla, menta, tomates, aceite de oliva y limón",
+        },
+      },
+      // "_flags": ["No allergens explicitly stated by restaurant. No diet label stated. 'Vegan' appears consistent with ingredients but not explicitly stated — REMOVED per rules. Flagged for user review.", "All ingredients appear plant-based — user should verify vegan status with restaurant."]
     },
-    // "_flags": ["No allergens explicitly stated by restaurant. No diet label stated. 'Vegan' appears consistent with ingredients but not explicitly stated — REMOVED per rules. Flagged for user review.", "All ingredients appear plant-based — user should verify vegan status with restaurant."]
-  },
-  {
-    "id": "salade-du-moment",
-    "category": "salades",
-    "subcategory": null,
-    "image": "/la-sajerie/salade-du-moment.jpg",
-    "price": 10.00,
-    "allergens": [],
-    "diets": [],
-    "macros": { "calories": 320, "proteines": 12, "glucides": 38, "lipides": 14 },
-    // "_macros_note": "ESTIMATE",
-    "translations": {
-      "fr": { "name": "Salade du Moment", "description": "Salade de lentilles blondes avec épinards, betteraves, noix et sauce moutarde / mélasse" },
-      "en": { "name": "Salad of the Moment", "description": "Blonde lentil salad with spinach, beetroot, walnuts and mustard/molasses dressing" },
-      "it": { "name": "Insalata del Momento", "description": "Insalata di lenticchie bionde con spinaci, barbabietola, noci e salsa senape/melassa" },
-      "es": { "name": "Ensalada del Momento", "description": "Ensalada de lentejas rubias con espinacas, remolacha, nueces y salsa mostaza/melaza" }
+    {
+      id: "salade-du-moment",
+      category: "salades",
+      subcategory: null,
+      image: "/la-sajerie/salade-du-moment.jpg",
+      price: 10.0,
+      allergens: [],
+      diets: [],
+      macros: { calories: 320, proteines: 12, glucides: 38, lipides: 14 },
+      // "_macros_note": "ESTIMATE",
+      translations: {
+        fr: {
+          name: "Salade du Moment",
+          description:
+            "Salade de lentilles blondes avec épinards, betteraves, noix et sauce moutarde / mélasse",
+        },
+        en: {
+          name: "Salad of the Moment",
+          description:
+            "Blonde lentil salad with spinach, beetroot, walnuts and mustard/molasses dressing",
+        },
+        it: {
+          name: "Insalata del Momento",
+          description:
+            "Insalata di lenticchie bionde con spinaci, barbabietola, noci e salsa senape/melassa",
+        },
+        es: {
+          name: "Ensalada del Momento",
+          description:
+            "Ensalada de lentejas rubias con espinacas, remolacha, nueces y salsa mostaza/melaza",
+        },
+      },
+      // "_flags": ["Nouveau", "No allergens explicitly stated. Noix (walnuts) in ingredients maps to fruits-à-coque but not stated by restaurant — flagged. Moutarde in sauce — not stated by restaurant as allergen — flagged. Supplement: + saumon mariné à la betterave +4.5€"]
     },
-    // "_flags": ["Nouveau", "No allergens explicitly stated. Noix (walnuts) in ingredients maps to fruits-à-coque but not stated by restaurant — flagged. Moutarde in sauce — not stated by restaurant as allergen — flagged. Supplement: + saumon mariné à la betterave +4.5€"]
-  },
 
-  {
-    "id": "hummus",
-    "category": "accompagnements",
-    "subcategory": null,
-    "image": "/la-sajerie/hummus.jpg",
-    "price": 7.00,
-    "allergens": ["sesame"],
-    "diets": [],
-    "macros": { "calories": 220, "proteines": 8, "glucides": 22, "lipides": 12 },
-    // "_macros_note": "ESTIMATE",
-    "translations": {
-      "fr": { "name": "Hummus", "description": "Pois chiche, tahini et jus de citron" },
-      "en": { "name": "Hummus", "description": "Chickpeas, tahini and lemon juice" },
-      "it": { "name": "Hummus", "description": "Ceci, tahini e succo di limone" },
-      "es": { "name": "Hummus", "description": "Garbanzos, tahini y jugo de limón" }
+    {
+      id: "hummus",
+      category: "accompagnements",
+      subcategory: null,
+      image: "/la-sajerie/hummus.jpg",
+      price: 7.0,
+      allergens: ["sesame"],
+      diets: [],
+      macros: { calories: 220, proteines: 8, glucides: 22, lipides: 12 },
+      // "_macros_note": "ESTIMATE",
+      translations: {
+        fr: {
+          name: "Hummus",
+          description: "Pois chiche, tahini et jus de citron",
+        },
+        en: {
+          name: "Hummus",
+          description: "Chickpeas, tahini and lemon juice",
+        },
+        it: { name: "Hummus", description: "Ceci, tahini e succo di limone" },
+        es: {
+          name: "Hummus",
+          description: "Garbanzos, tahini y jugo de limón",
+        },
+      },
+      // "_flags": ["Contient sésame — mapped correctly."]
     },
-    // "_flags": ["Contient sésame — mapped correctly."]
-  },
-  {
-    "id": "labneh",
-    "category": "accompagnements",
-    "subcategory": null,
-    "image": "/la-sajerie/labneh.jpg",
-    "price": 7.00,
-    "allergens": ["lait"],
-    "diets": [],
-    "macros": { "calories": 180, "proteines": 10, "glucides": 6, "lipides": 14 },
-    // "_macros_note": "ESTIMATE",
-    "translations": {
-      "fr": { "name": "Labneh", "description": "Fromage blanc libanais" },
-      "en": { "name": "Labneh", "description": "Lebanese strained yoghurt cheese" },
-      "it": { "name": "Labneh", "description": "Formaggio bianco libanese" },
-      "es": { "name": "Labneh", "description": "Queso blanco libanés" }
+    {
+      id: "labneh",
+      category: "accompagnements",
+      subcategory: null,
+      image: "/la-sajerie/labneh.jpg",
+      price: 7.0,
+      allergens: ["lait"],
+      diets: [],
+      macros: { calories: 180, proteines: 10, glucides: 6, lipides: 14 },
+      // "_macros_note": "ESTIMATE",
+      translations: {
+        fr: { name: "Labneh", description: "Fromage blanc libanais" },
+        en: { name: "Labneh", description: "Lebanese strained yoghurt cheese" },
+        it: { name: "Labneh", description: "Formaggio bianco libanese" },
+        es: { name: "Labneh", description: "Queso blanco libanés" },
+      },
+      // "_flags": ["Contient lactose — mapped to lait."]
     },
-    // "_flags": ["Contient lactose — mapped to lait."]
-  },
-  {
-    "id": "mutabbal",
-    "category": "accompagnements",
-    "subcategory": null,
-    "image": pexels(6145895),
-    "price": 7.50,
-    "allergens": ["fruits-a-coque"],
-    "diets": [],
-    "macros": { "calories": 200, "proteines": 6, "glucides": 14, "lipides": 14 },
-    // "_macros_note": "ESTIMATE",
-    "translations": {
-      "fr": { "name": "Mutabbal", "description": "Aubergines rôties, tahini, citron avec grenade fraîche, noix et persil" },
-      "en": { "name": "Mutabbal", "description": "Roasted aubergines, tahini, lemon with fresh pomegranate, walnuts and parsley" },
-      "it": { "name": "Mutabbal", "description": "Melanzane arrostite, tahini, limone con melograno fresco, noci e prezzemolo" },
-      "es": { "name": "Mutabbal", "description": "Berenjenas asadas, tahini, limón con granada fresca, nueces y perejil" }
+    {
+      id: "mutabbal",
+      category: "accompagnements",
+      subcategory: null,
+      image: pexels(6145895),
+      price: 7.5,
+      allergens: ["fruits-a-coque"],
+      diets: [],
+      macros: { calories: 200, proteines: 6, glucides: 14, lipides: 14 },
+      // "_macros_note": "ESTIMATE",
+      translations: {
+        fr: {
+          name: "Mutabbal",
+          description:
+            "Aubergines rôties, tahini, citron avec grenade fraîche, noix et persil",
+        },
+        en: {
+          name: "Mutabbal",
+          description:
+            "Roasted aubergines, tahini, lemon with fresh pomegranate, walnuts and parsley",
+        },
+        it: {
+          name: "Mutabbal",
+          description:
+            "Melanzane arrostite, tahini, limone con melograno fresco, noci e prezzemolo",
+        },
+        es: {
+          name: "Mutabbal",
+          description:
+            "Berenjenas asadas, tahini, limón con granada fresca, nueces y perejil",
+        },
+      },
+      // "_flags": ["Contient noix — mapped to fruits-à-coque. Tahini contains sésame but not explicitly stated as allergen by restaurant — flagged."]
     },
-    // "_flags": ["Contient noix — mapped to fruits-à-coque. Tahini contains sésame but not explicitly stated as allergen by restaurant — flagged."]
-  },
-  {
-    "id": "accompagnement-du-moment",
-    "category": "accompagnements",
-    "subcategory": null,
-    "image": "/la-sajerie/accompagnement-du-moment.jpg",
-    "price": 3.50,
-    "allergens": [],
-    "diets": [],
-    "macros": { "calories": 180, "proteines": 6, "glucides": 20, "lipides": 8 },
-    // "_macros_note": "ESTIMATE — seasonal, content not specified",
-    "translations": {
-      "fr": { "name": "Accompagnement du Moment", "description": "Accompagnement saisonnier selon disponibilité" },
-      "en": { "name": "Side of the Moment", "description": "Seasonal side dish according to availability" },
-      "it": { "name": "Contorno del Momento", "description": "Contorno stagionale secondo disponibilità" },
-      "es": { "name": "Acompañamiento del Momento", "description": "Guarnición de temporada según disponibilidad" }
+    {
+      id: "accompagnement-du-moment",
+      category: "accompagnements",
+      subcategory: null,
+      image: "/la-sajerie/accompagnement-du-moment.jpg",
+      price: 3.5,
+      allergens: [],
+      diets: [],
+      macros: { calories: 180, proteines: 6, glucides: 20, lipides: 8 },
+      // "_macros_note": "ESTIMATE — seasonal, content not specified",
+      translations: {
+        fr: {
+          name: "Accompagnement du Moment",
+          description: "Accompagnement saisonnier selon disponibilité",
+        },
+        en: {
+          name: "Side of the Moment",
+          description: "Seasonal side dish according to availability",
+        },
+        it: {
+          name: "Contorno del Momento",
+          description: "Contorno stagionale secondo disponibilità",
+        },
+        es: {
+          name: "Acompañamiento del Momento",
+          description: "Guarnición de temporada según disponibilidad",
+        },
+      },
+      // "_flags": ["Nouveau", "No ingredients or allergens listed — cannot infer."]
     },
-    // "_flags": ["Nouveau", "No ingredients or allergens listed — cannot infer."]
-  },
 
-  {
-    "id": "yaourt-oriental",
-    "category": "desserts",
-    "subcategory": null,
-    "image": pexels(9134587),
-    "price": 4.00,
-    "allergens": ["lait", "fruits-a-coque"],
-    "diets": [],
-    "macros": { "calories": 240, "proteines": 8, "glucides": 28, "lipides": 10 },
-    // "_macros_note": "ESTIMATE",
-    "translations": {
-      "fr": { "name": "Yaourt Oriental", "description": "Yaourt à la fleur d'oranger avec pistaches et fruit de saison" },
-      "en": { "name": "Oriental Yoghurt", "description": "Orange blossom yoghurt with pistachios and seasonal fruit" },
-      "it": { "name": "Yogurt Orientale", "description": "Yogurt al fiore d'arancio con pistacchi e frutta di stagione" },
-      "es": { "name": "Yogur Oriental", "description": "Yogur de agua de azahar con pistachos y fruta de temporada" }
+    {
+      id: "yaourt-oriental",
+      category: "desserts",
+      subcategory: null,
+      image: pexels(9134587),
+      price: 4.0,
+      allergens: ["lait", "fruits-a-coque"],
+      diets: [],
+      macros: { calories: 240, proteines: 8, glucides: 28, lipides: 10 },
+      // "_macros_note": "ESTIMATE",
+      translations: {
+        fr: {
+          name: "Yaourt Oriental",
+          description:
+            "Yaourt à la fleur d'oranger avec pistaches et fruit de saison",
+        },
+        en: {
+          name: "Oriental Yoghurt",
+          description:
+            "Orange blossom yoghurt with pistachios and seasonal fruit",
+        },
+        it: {
+          name: "Yogurt Orientale",
+          description:
+            "Yogurt al fiore d'arancio con pistacchi e frutta di stagione",
+        },
+        es: {
+          name: "Yogur Oriental",
+          description:
+            "Yogur de agua de azahar con pistachos y fruta de temporada",
+        },
+      },
+      // "_flags": ["Contient lactose — mapped to lait. Pistaches map to fruits-à-coque. Restaurant states 'contient lactose' only — pistache allergen inferred from ingredient. Flagged for user review."]
     },
-    // "_flags": ["Contient lactose — mapped to lait. Pistaches map to fruits-à-coque. Restaurant states 'contient lactose' only — pistache allergen inferred from ingredient. Flagged for user review."]
-  },
-  {
-    "id": "muhalabiya-aux-dattes",
-    "category": "desserts",
-    "subcategory": null,
-    "image": pexels(14064616),
-    "price": 4.00,
-    "allergens": [],
-    "diets": ["vegan"],
-    "macros": { "calories": 260, "proteines": 4, "glucides": 46, "lipides": 8 },
-    // "_macros_note": "ESTIMATE",
-    "translations": {
-      "fr": { "name": "Muhalabiya aux Dattes", "description": "Dessert vegan" },
-      "en": { "name": "Muhalabiya with Dates", "description": "Vegan dessert" },
-      "it": { "name": "Muhalabiya con Datteri", "description": "Dessert vegano" },
-      "es": { "name": "Muhalabiya con Dátiles", "description": "Postre vegano" }
+    {
+      id: "muhalabiya-aux-dattes",
+      category: "desserts",
+      subcategory: null,
+      image: pexels(14064616),
+      price: 4.0,
+      allergens: [],
+      diets: ["vegan"],
+      macros: { calories: 260, proteines: 4, glucides: 46, lipides: 8 },
+      // "_macros_note": "ESTIMATE",
+      translations: {
+        fr: { name: "Muhalabiya aux Dattes", description: "Dessert vegan" },
+        en: { name: "Muhalabiya with Dates", description: "Vegan dessert" },
+        it: { name: "Muhalabiya con Datteri", description: "Dessert vegano" },
+        es: { name: "Muhalabiya con Dátiles", description: "Postre vegano" },
+      },
+      // "_flags": ["Restaurant explicitly states 'dessert vegan' — vegan diet label applied."]
     },
-    // "_flags": ["Restaurant explicitly states 'dessert vegan' — vegan diet label applied."]
-  },
 
-  {
-    "id": "coca-cola",
-    "category": "boissons",
-    "subcategory": null,
-    "image": pexels(4113656),
-    "price": 2.00,
-    "allergens": [],
-    "diets": [],
-    "macros": { "calories": 139, "proteines": 0, "glucides": 35, "lipides": 0 },
-    // "_macros_note": "ESTIMATE — standard 330ml can",
-    "translations": {
-      "fr": { "name": "Coca-Cola", "description": "Canette 330ml" },
-      "en": { "name": "Coca-Cola", "description": "330ml can" },
-      "it": { "name": "Coca-Cola", "description": "Lattina 330ml" },
-      "es": { "name": "Coca-Cola", "description": "Lata 330ml" }
-    }
-  },
-  {
-    "id": "coca-cola-zero",
-    "category": "boissons",
-    "subcategory": null,
-    "image": pexels(4113630),
-    "price": 2.00,
-    "allergens": [],
-    "diets": [],
-    "macros": { "calories": 2, "proteines": 0, "glucides": 0, "lipides": 0 },
-    // "_macros_note": "ESTIMATE — standard 330ml can",
-    "translations": {
-      "fr": { "name": "Coca-Cola Zéro", "description": "Canette 330ml" },
-      "en": { "name": "Coca-Cola Zero", "description": "330ml can" },
-      "it": { "name": "Coca-Cola Zero", "description": "Lattina 330ml" },
-      "es": { "name": "Coca-Cola Zero", "description": "Lata 330ml" }
-    }
-  },
-  {
-    "id": "perrier",
-    "category": "boissons",
-    "subcategory": null,
-    "image": pexels(327090),
-    "price": 2.00,
-    "allergens": [],
-    "diets": ["vegan", "sans-gluten", "sans-lactose"],
-    "macros": { "calories": 0, "proteines": 0, "glucides": 0, "lipides": 0 },
-    // "_macros_note": "ESTIMATE — 250ml bottle",
-    "translations": {
-      "fr": { "name": "Perrier", "description": "Eau gazeuse 250ml" },
-      "en": { "name": "Perrier", "description": "Sparkling water 250ml" },
-      "it": { "name": "Perrier", "description": "Acqua gassata 250ml" },
-      "es": { "name": "Perrier", "description": "Agua con gas 250ml" }
+    {
+      id: "coca-cola",
+      category: "boissons",
+      subcategory: null,
+      image: pexels(4113656),
+      price: 2.0,
+      allergens: [],
+      diets: [],
+      macros: { calories: 139, proteines: 0, glucides: 35, lipides: 0 },
+      // "_macros_note": "ESTIMATE — standard 330ml can",
+      translations: {
+        fr: { name: "Coca-Cola", description: "Canette 330ml" },
+        en: { name: "Coca-Cola", description: "330ml can" },
+        it: { name: "Coca-Cola", description: "Lattina 330ml" },
+        es: { name: "Coca-Cola", description: "Lata 330ml" },
+      },
     },
-    // "_flags": ["No diet/allergen label by restaurant. Diets removed per rules — not explicitly stated."]
-  },
-  {
-    "id": "charitea-green",
-    "category": "boissons",
-    "subcategory": null,
-    "image": pexels(6249729),
-    "price": 4.00,
-    "allergens": [],
-    "diets": [],
-    "macros": { "calories": 60, "proteines": 0, "glucides": 14, "lipides": 0 },
-    // "_macros_note": "ESTIMATE",
-    "translations": {
-      "fr": { "name": "Charitea Green", "description": "Boisson au thé vert" },
-      "en": { "name": "Charitea Green", "description": "Green tea drink" },
-      "it": { "name": "Charitea Green", "description": "Bevanda al tè verde" },
-      "es": { "name": "Charitea Green", "description": "Bebida de té verde" }
-    }
-  },
-  {
-    "id": "limonade-fruit-de-la-passion",
-    "category": "boissons",
-    "subcategory": null,
-    "image": pexels(34429982),
-    "price": 4.00,
-    "allergens": [],
-    "diets": [],
-    "macros": { "calories": 80, "proteines": 0, "glucides": 20, "lipides": 0 },
-    // "_macros_note": "ESTIMATE",
-    "translations": {
-      "fr": { "name": "Limonade Fruit de la Passion", "description": "Limonade au fruit de la passion" },
-      "en": { "name": "Passion Fruit Lemonade", "description": "Passion fruit lemonade" },
-      "it": { "name": "Limonata Frutto della Passione", "description": "Limonata al frutto della passione" },
-      "es": { "name": "Limonada Maracuyá", "description": "Limonada de maracuyá" }
-    }
-  },
+    {
+      id: "coca-cola-zero",
+      category: "boissons",
+      subcategory: null,
+      image: pexels(4113630),
+      price: 2.0,
+      allergens: [],
+      diets: [],
+      macros: { calories: 2, proteines: 0, glucides: 0, lipides: 0 },
+      // "_macros_note": "ESTIMATE — standard 330ml can",
+      translations: {
+        fr: { name: "Coca-Cola Zéro", description: "Canette 330ml" },
+        en: { name: "Coca-Cola Zero", description: "330ml can" },
+        it: { name: "Coca-Cola Zero", description: "Lattina 330ml" },
+        es: { name: "Coca-Cola Zero", description: "Lata 330ml" },
+      },
+    },
+    {
+      id: "perrier",
+      category: "boissons",
+      subcategory: null,
+      image: pexels(327090),
+      price: 2.0,
+      allergens: [],
+      diets: ["vegan", "sans-gluten", "sans-lactose"],
+      macros: { calories: 0, proteines: 0, glucides: 0, lipides: 0 },
+      // "_macros_note": "ESTIMATE — 250ml bottle",
+      translations: {
+        fr: { name: "Perrier", description: "Eau gazeuse 250ml" },
+        en: { name: "Perrier", description: "Sparkling water 250ml" },
+        it: { name: "Perrier", description: "Acqua gassata 250ml" },
+        es: { name: "Perrier", description: "Agua con gas 250ml" },
+      },
+      // "_flags": ["No diet/allergen label by restaurant. Diets removed per rules — not explicitly stated."]
+    },
+    {
+      id: "charitea-green",
+      category: "boissons",
+      subcategory: null,
+      image: pexels(6249729),
+      price: 4.0,
+      allergens: [],
+      diets: [],
+      macros: { calories: 60, proteines: 0, glucides: 14, lipides: 0 },
+      // "_macros_note": "ESTIMATE",
+      translations: {
+        fr: { name: "Charitea Green", description: "Boisson au thé vert" },
+        en: { name: "Charitea Green", description: "Green tea drink" },
+        it: { name: "Charitea Green", description: "Bevanda al tè verde" },
+        es: { name: "Charitea Green", description: "Bebida de té verde" },
+      },
+    },
+    {
+      id: "limonade-fruit-de-la-passion",
+      category: "boissons",
+      subcategory: null,
+      image: pexels(34429982),
+      price: 4.0,
+      allergens: [],
+      diets: [],
+      macros: { calories: 80, proteines: 0, glucides: 20, lipides: 0 },
+      // "_macros_note": "ESTIMATE",
+      translations: {
+        fr: {
+          name: "Limonade Fruit de la Passion",
+          description: "Limonade au fruit de la passion",
+        },
+        en: {
+          name: "Passion Fruit Lemonade",
+          description: "Passion fruit lemonade",
+        },
+        it: {
+          name: "Limonata Frutto della Passione",
+          description: "Limonata al frutto della passione",
+        },
+        es: { name: "Limonada Maracuyá", description: "Limonada de maracuyá" },
+      },
+    },
 
-  {
-    "id": "espresso-allonge",
-    "category": "cafe",
-    "subcategory": null,
-    "image": pexels(324028),
-    "price": 3.00,
-    "allergens": [],
-    "diets": [],
-    "macros": { "calories": 5, "proteines": 0, "glucides": 0, "lipides": 0 },
-    // "_macros_note": "ESTIMATE",
-    "translations": {
-      "fr": { "name": "Espresso ou Allongé", "description": "Café espresso ou café allongé" },
-      "en": { "name": "Espresso or Americano", "description": "Espresso or long black coffee" },
-      "it": { "name": "Espresso o Caffè Lungo", "description": "Espresso o caffè americano" },
-      "es": { "name": "Espresso o Americano", "description": "Espresso o café largo" }
-    }
-  },
-  {
-    "id": "double-espresso",
-    "category": "cafe",
-    "subcategory": null,
-    "image": pexels(2067628),
-    "price": 4.00,
-    "allergens": [],
-    "diets": [],
-    "macros": { "calories": 10, "proteines": 0, "glucides": 0, "lipides": 0 },
-    // "_macros_note": "ESTIMATE",
-    "translations": {
-      "fr": { "name": "Double Espresso", "description": "Double espresso" },
-      "en": { "name": "Double Espresso", "description": "Double espresso" },
-      "it": { "name": "Doppio Espresso", "description": "Doppio espresso" },
-      "es": { "name": "Doble Espresso", "description": "Doble espresso" }
-    }
-  },
-  {
-    "id": "thé",
-    "category": "cafe",
-    "subcategory": null,
-    "image": pexels(6962854),
-    "price": 3.50,
-    "allergens": [],
-    "diets": [],
-    "macros": { "calories": 2, "proteines": 0, "glucides": 0, "lipides": 0 },
-    // "_macros_note": "ESTIMATE",
-    "translations": {
-      "fr": { "name": "Thé", "description": "Thé chaud" },
-      "en": { "name": "Tea", "description": "Hot tea" },
-      "it": { "name": "Tè", "description": "Tè caldo" },
-      "es": { "name": "Té", "description": "Té caliente" }
+    {
+      id: "espresso-allonge",
+      category: "cafe",
+      subcategory: null,
+      image: pexels(324028),
+      price: 3.0,
+      allergens: [],
+      diets: [],
+      macros: { calories: 5, proteines: 0, glucides: 0, lipides: 0 },
+      // "_macros_note": "ESTIMATE",
+      translations: {
+        fr: {
+          name: "Espresso ou Allongé",
+          description: "Café espresso ou café allongé",
+        },
+        en: {
+          name: "Espresso or Americano",
+          description: "Espresso or long black coffee",
+        },
+        it: {
+          name: "Espresso o Caffè Lungo",
+          description: "Espresso o caffè americano",
+        },
+        es: {
+          name: "Espresso o Americano",
+          description: "Espresso o café largo",
+        },
+      },
     },
-    // "_flags": ["Price partially visible — estimated at 3.50€ based on context"]
-  }
-],
-"the-friendly-kitchen":
-[
-  // ────────────────────────────────────────────────
-  // FORMULES DÉJEUNER
-  // ────────────────────────────────────────────────
-  // {
-  //   "id": "formule-dejeuner-plat-boisson",
-  //   "category": "formule-dejeuner",
-  //   "subcategory": null,
-  //   "image": "/the-friendly-kitchen/formule-dejeuner-plat-boisson.jpeg",
-  //   "price": 21.00,
-  //   "allergens": [],
-  //   "diets": ["vegan", "vegetarien"],
-  //   "macros": {
-  //     // ESTIMATES — based on general culinary knowledge
-  //     "calories": 0,
-  //     "proteines": 0,
-  //     "glucides": 0,
-  //     "lipides": 0
-  //   },    "translations": {
-  //     "fr": {
-  //       "name": "Formule déjeuner plat + boisson chaude",
-  //       "description": "Plat du jour accompagné d'un thé ou café. Uniquement du mercredi au vendredi."
-  //     },
-  //     "en": {
-  //       "name": "Lunch formula: main + hot drink",
-  //       "description": "Daily main course with tea or coffee. Wednesday to Friday only."
-  //     },
-  //     "it": {
-  //       "name": "Menù pranzo piatto + bevanda calda",
-  //       "description": "Piatto del giorno con tè o caffè. Solo dal mercoledì al venerdì."
-  //     },
-  //     "es": {
-  //       "name": "Menú almuerzo plato + bebida caliente",
-  //       "description": "Plato del día con té o café. Solo de miércoles a viernes."
-  //     }
-  //   }
-  // },
-  // {
-  //   "id": "formule-dejeuner-deux-services",
-  //   "category": "formule-dejeuner",
-  //   "subcategory": null,
-  //   "image": "/the-friendly-kitchen/formule-dejeuner-deux-services.jpeg",
-  //   "price": 27.00,
-  //   "allergens": [],
-  //   "diets": ["vegan", "vegetarien"],
-  //   "macros": {
-  //     // ESTIMATES — based on general culinary knowledge
-  //     "calories": 0,
-  //     "proteines": 0,
-  //     "glucides": 0,
-  //     "lipides": 0
-  //   },    "translations": {
-  //     "fr": {
-  //       "name": "Formule déjeuner 2 services",
-  //       "description": "Entrée + plat, ou plat + dessert. Uniquement du mercredi au vendredi."
-  //     },
-  //     "en": {
-  //       "name": "Lunch formula: 2 courses",
-  //       "description": "Starter + main, or main + dessert. Wednesday to Friday only."
-  //     },
-  //     "it": {
-  //       "name": "Menù pranzo 2 portate",
-  //       "description": "Primo + secondo, o secondo + dolce. Solo dal mercoledì al venerdì."
-  //     },
-  //     "es": {
-  //       "name": "Menú almuerzo 2 servicios",
-  //       "description": "Entrante + plato, o plato + postre. Solo de miércoles a viernes."
-  //     }
-  //   }
-  // },
+    {
+      id: "double-espresso",
+      category: "cafe",
+      subcategory: null,
+      image: pexels(2067628),
+      price: 4.0,
+      allergens: [],
+      diets: [],
+      macros: { calories: 10, proteines: 0, glucides: 0, lipides: 0 },
+      // "_macros_note": "ESTIMATE",
+      translations: {
+        fr: { name: "Double Espresso", description: "Double espresso" },
+        en: { name: "Double Espresso", description: "Double espresso" },
+        it: { name: "Doppio Espresso", description: "Doppio espresso" },
+        es: { name: "Doble Espresso", description: "Doble espresso" },
+      },
+    },
+    {
+      id: "thé",
+      category: "cafe",
+      subcategory: null,
+      image: pexels(6962854),
+      price: 3.5,
+      allergens: [],
+      diets: [],
+      macros: { calories: 2, proteines: 0, glucides: 0, lipides: 0 },
+      // "_macros_note": "ESTIMATE",
+      translations: {
+        fr: { name: "Thé", description: "Thé chaud" },
+        en: { name: "Tea", description: "Hot tea" },
+        it: { name: "Tè", description: "Tè caldo" },
+        es: { name: "Té", description: "Té caliente" },
+      },
+      // "_flags": ["Price partially visible — estimated at 3.50€ based on context"]
+    },
+  ],
+  "the-friendly-kitchen": [
+    // ────────────────────────────────────────────────
+    // FORMULES DÉJEUNER
+    // ────────────────────────────────────────────────
+    // {
+    //   "id": "formule-dejeuner-plat-boisson",
+    //   "category": "formule-dejeuner",
+    //   "subcategory": null,
+    //   "image": "/the-friendly-kitchen/formule-dejeuner-plat-boisson.jpeg",
+    //   "price": 21.00,
+    //   "allergens": [],
+    //   "diets": ["vegan", "vegetarien"],
+    //   "macros": {
+    //     // ESTIMATES — based on general culinary knowledge
+    //     "calories": 0,
+    //     "proteines": 0,
+    //     "glucides": 0,
+    //     "lipides": 0
+    //   },    "translations": {
+    //     "fr": {
+    //       "name": "Formule déjeuner plat + boisson chaude",
+    //       "description": "Plat du jour accompagné d'un thé ou café. Uniquement du mercredi au vendredi."
+    //     },
+    //     "en": {
+    //       "name": "Lunch formula: main + hot drink",
+    //       "description": "Daily main course with tea or coffee. Wednesday to Friday only."
+    //     },
+    //     "it": {
+    //       "name": "Menù pranzo piatto + bevanda calda",
+    //       "description": "Piatto del giorno con tè o caffè. Solo dal mercoledì al venerdì."
+    //     },
+    //     "es": {
+    //       "name": "Menú almuerzo plato + bebida caliente",
+    //       "description": "Plato del día con té o café. Solo de miércoles a viernes."
+    //     }
+    //   }
+    // },
+    // {
+    //   "id": "formule-dejeuner-deux-services",
+    //   "category": "formule-dejeuner",
+    //   "subcategory": null,
+    //   "image": "/the-friendly-kitchen/formule-dejeuner-deux-services.jpeg",
+    //   "price": 27.00,
+    //   "allergens": [],
+    //   "diets": ["vegan", "vegetarien"],
+    //   "macros": {
+    //     // ESTIMATES — based on general culinary knowledge
+    //     "calories": 0,
+    //     "proteines": 0,
+    //     "glucides": 0,
+    //     "lipides": 0
+    //   },    "translations": {
+    //     "fr": {
+    //       "name": "Formule déjeuner 2 services",
+    //       "description": "Entrée + plat, ou plat + dessert. Uniquement du mercredi au vendredi."
+    //     },
+    //     "en": {
+    //       "name": "Lunch formula: 2 courses",
+    //       "description": "Starter + main, or main + dessert. Wednesday to Friday only."
+    //     },
+    //     "it": {
+    //       "name": "Menù pranzo 2 portate",
+    //       "description": "Primo + secondo, o secondo + dolce. Solo dal mercoledì al venerdì."
+    //     },
+    //     "es": {
+    //       "name": "Menú almuerzo 2 servicios",
+    //       "description": "Entrante + plato, o plato + postre. Solo de miércoles a viernes."
+    //     }
+    //   }
+    // },
 
-  // ────────────────────────────────────────────────
-  // ENTRÉES
-  // ────────────────────────────────────────────────
-  {
-    "id": "frittata-vegetale-asperges",
-    "category": "entrees",
-    "subcategory": null,
-    // "Asparagus with Meat Served on White Plate with Sauce" — pexels.com/photo/asparagus-with-meat-served-on-white-plate-with-sauce-11213745
-    "image": pexels(11213745),
-    "price": 11.50,
-    "allergens": ["soja", "fruits-a-coque", "moutarde"],
-    "diets": ["vegan", "vegetarien"],
-    "macros": {
-      // ESTIMATES — based on general culinary knowledge
-      "calories": 220,
-      "proteines": 8,
-      "glucides": 14,
-      "lipides": 14
+    // ────────────────────────────────────────────────
+    // ENTRÉES
+    // ────────────────────────────────────────────────
+    {
+      id: "frittata-vegetale-asperges",
+      category: "entrees",
+      subcategory: null,
+      // "Asparagus with Meat Served on White Plate with Sauce" — pexels.com/photo/asparagus-with-meat-served-on-white-plate-with-sauce-11213745
+      image: "/the-friendly-kitchen/frittata-vegetale-asperges.jpg",
+      price: 11.5,
+      allergens: ["soja", "fruits-a-coque", "moutarde"],
+      diets: [
+        "vegan",
+        "vegetarien",
+        "sans-gluten",
+        "halal",
+        "casher",
+        "sans-lactose",
+      ],
+      macros: {
+        // ESTIMATES — based on general culinary knowledge
+        calories: 220,
+        proteines: 8,
+        glucides: 14,
+        lipides: 14,
+      },
+      translations: {
+        fr: {
+          name: "Frittata végétale & asperges snackées",
+          description:
+            "Mayonnaise légère au yuzu, salsa d'asperges vertes et radis rose, crème de persil et livèche, amandes sauvages, pousses de petit pois.",
+        },
+        en: {
+          name: "Vegan frittata & pan-seared asparagus",
+          description:
+            "Light yuzu mayonnaise, green asparagus and pink radish salsa, parsley and lovage cream, wild almonds, pea shoots.",
+        },
+        it: {
+          name: "Frittata vegetale & asparagi scottati",
+          description:
+            "Maionese leggera al yuzu, salsa di asparagi verdi e ravanello rosa, crema di prezzemolo e levistico, mandorle selvatiche, germogli di pisello.",
+        },
+        es: {
+          name: "Frittata vegetal & espárragos salteados",
+          description:
+            "Mayonesa ligera de yuzu, salsa de espárragos verdes y rábano rosa, crema de perejil y levístico, almendras silvestres, brotes de guisante.",
+        },
+      },
     },
-    "translations": {
-      "fr": {
-        "name": "Frittata végétale & asperges snackées",
-        "description": "Mayonnaise légère au yuzu, salsa d'asperges vertes et radis rose, crème de persil et livèche, amandes sauvages, pousses de petit pois."
+    {
+      id: "carottes-textures-agrumes",
+      category: "entrees",
+      subcategory: null,
+      // "A bowl of food with carrots and onions" — pexels.com/photo/a-bowl-of-food-with-carrots-and-onions-27588117
+      image: pexels(27588117),
+      price: 10.5,
+      allergens: ["sesame"],
+      diets: [
+        "vegan",
+        "vegetarien",
+        "sans-gluten",
+        "halal",
+        "casher",
+        "sans-lactose",
+      ],
+      macros: {
+        // ESTIMATES — based on general culinary knowledge
+        calories: 165,
+        proteines: 3,
+        glucides: 22,
+        lipides: 7,
       },
-      "en": {
-        "name": "Vegan frittata & pan-seared asparagus",
-        "description": "Light yuzu mayonnaise, green asparagus and pink radish salsa, parsley and lovage cream, wild almonds, pea shoots."
+      translations: {
+        fr: {
+          name: "Carottes en textures & agrumes",
+          description:
+            "Mousseline de carottes et oignons brûlés, carottes rôties au kumquat, gel d'orange, réduction au balsamique et sésame noir.",
+        },
+        en: {
+          name: "Carrots in textures & citrus",
+          description:
+            "Carrot and burnt onion mousseline, kumquat-roasted carrots, orange gel, balsamic reduction with black sesame.",
+        },
+        it: {
+          name: "Carote in texture & agrumi",
+          description:
+            "Mousseline di carote e cipolla bruciata, carote arrosto al kumquat, gel d'arancia, riduzione di balsamico e sesamo nero.",
+        },
+        es: {
+          name: "Zanahoria en texturas & cítricos",
+          description:
+            "Muselina de zanahoria y cebolla quemada, zanahorias asadas al kumquat, gel de naranja, reducción de balsámico y sésamo negro.",
+        },
       },
-      "it": {
-        "name": "Frittata vegetale & asparagi scottati",
-        "description": "Maionese leggera al yuzu, salsa di asparagi verdi e ravanello rosa, crema di prezzemolo e levistico, mandorle selvatiche, germogli di pisello."
-      },
-      "es": {
-        "name": "Frittata vegetal & espárragos salteados",
-        "description": "Mayonesa ligera de yuzu, salsa de espárragos verdes y rábano rosa, crema de perejil y levístico, almendras silvestres, brotes de guisante."
-      }
-    }
-  },
-  {
-    "id": "carottes-textures-agrumes",
-    "category": "entrees",
-    "subcategory": null,
-    // "A bowl of food with carrots and onions" — pexels.com/photo/a-bowl-of-food-with-carrots-and-onions-27588117
-    "image": pexels(27588117),
-    "price": 10.50,
-    "allergens": ["sesame"],
-    "diets": ["vegan", "vegetarien", "sans-gluten"],
-    "macros": {
-      // ESTIMATES — based on general culinary knowledge
-      "calories": 165,
-      "proteines": 3,
-      "glucides": 22,
-      "lipides": 7
     },
-    "translations": {
-      "fr": {
-        "name": "Carottes en textures & agrumes",
-        "description": "Mousseline de carottes et oignons brûlés, carottes rôties au kumquat, gel d'orange, réduction au balsamique et sésame noir."
+    {
+      id: "samoussa-tempeh-satay",
+      category: "entrees",
+      subcategory: null,
+      // "Delicious Fried Samosa in a Wicker Tray" — pexels.com/photo/delicious-fried-samosa-in-a-wicker-tray-14477873
+      image: pexels(14477873),
+      price: 11.0,
+      allergens: ["gluten", "soja", "fruits-a-coque", "moutarde"],
+      diets: [
+        "vegan",
+        "vegetarien",
+        "sans-gluten",
+        "halal",
+        "casher",
+        "sans-lactose",
+      ],
+      macros: {
+        // ESTIMATES — based on general culinary knowledge
+        calories: 290,
+        proteines: 13,
+        glucides: 26,
+        lipides: 15,
       },
-      "en": {
-        "name": "Carrots in textures & citrus",
-        "description": "Carrot and burnt onion mousseline, kumquat-roasted carrots, orange gel, balsamic reduction with black sesame."
+      translations: {
+        fr: {
+          name: "Samoussa de tempeh aux épices satay",
+          description:
+            "Crème d'amande complète et lait de coco, chou blanc mariné au curcuma et citron vert, pousses de coriandre, serundeg.",
+        },
+        en: {
+          name: "Tempeh samosa with satay spices",
+          description:
+            "Whole almond cream and coconut milk, white cabbage marinated with turmeric and lime, coriander shoots, serundeng.",
+        },
+        it: {
+          name: "Samoussa di tempeh alle spezie satay",
+          description:
+            "Crema di mandorle intere e latte di cocco, cavolo bianco marinato con curcuma e lime, germogli di coriandolo, serundeng.",
+        },
+        es: {
+          name: "Samosa de tempeh con especias satay",
+          description:
+            "Crema de almendra integral y leche de coco, col blanca marinada con cúrcuma y lima, brotes de cilantro, serundeng.",
+        },
       },
-      "it": {
-        "name": "Carote in texture & agrumi",
-        "description": "Mousseline di carote e cipolla bruciata, carote arrosto al kumquat, gel d'arancia, riduzione di balsamico e sesamo nero."
-      },
-      "es": {
-        "name": "Zanahoria en texturas & cítricos",
-        "description": "Muselina de zanahoria y cebolla quemada, zanahorias asadas al kumquat, gel de naranja, reducción de balsámico y sésamo negro."
-      }
-    }
-  },
-  {
-    "id": "samoussa-tempeh-satay",
-    "category": "entrees",
-    "subcategory": null,
-    // "Delicious Fried Samosa in a Wicker Tray" — pexels.com/photo/delicious-fried-samosa-in-a-wicker-tray-14477873
-    "image": pexels(14477873),
-    "price": 11.00,
-    "allergens": ["gluten", "soja", "fruits-a-coque", "moutarde"],
-    "diets": ["vegan", "vegetarien"],
-    "macros": {
-      // ESTIMATES — based on general culinary knowledge
-      "calories": 290,
-      "proteines": 13,
-      "glucides": 26,
-      "lipides": 15
     },
-    "translations": {
-      "fr": {
-        "name": "Samoussa de tempeh aux épices satay",
-        "description": "Crème d'amande complète et lait de coco, chou blanc mariné au curcuma et citron vert, pousses de coriandre, serundeg."
-      },
-      "en": {
-        "name": "Tempeh samosa with satay spices",
-        "description": "Whole almond cream and coconut milk, white cabbage marinated with turmeric and lime, coriander shoots, serundeng."
-      },
-      "it": {
-        "name": "Samoussa di tempeh alle spezie satay",
-        "description": "Crema di mandorle intere e latte di cocco, cavolo bianco marinato con curcuma e lime, germogli di coriandolo, serundeng."
-      },
-      "es": {
-        "name": "Samosa de tempeh con especias satay",
-        "description": "Crema de almendra integral y leche de coco, col blanca marinada con cúrcuma y lima, brotes de cilantro, serundeng."
-      }
-    }
-  },
 
-  // ────────────────────────────────────────────────
-  // PLATS
-  // ────────────────────────────────────────────────
-  {
-    "id": "congee-riz-camarguais-tofu-grille",
-    "category": "plats",
-    "subcategory": null,
-    // "Cooked Food on Ceramic Bowl" — pexels.com/photo/cooked-food-on-ceramic-bowl-6120244
-    "image": pexels(6120244),
-    "price": 19.50,
-    "allergens": ["arachides", "soja", "sesame"],
-    "diets": ["vegan", "vegetarien", "sans-gluten"],
-    "macros": {
-      // ESTIMATES — based on general culinary knowledge
-      "calories": 480,
-      "proteines": 18,
-      "glucides": 55,
-      "lipides": 20
+    // ────────────────────────────────────────────────
+    // PLATS
+    // ────────────────────────────────────────────────
+    {
+      id: "congee-riz-camarguais-tofu-grille",
+      category: "plats",
+      subcategory: null,
+      // "Cooked Food on Ceramic Bowl" — pexels.com/photo/cooked-food-on-ceramic-bowl-6120244
+      image: pexels(6120244),
+      price: 19.5,
+      allergens: ["arachides", "soja", "sesame"],
+      diets: [
+        "vegan",
+        "vegetarien",
+        "sans-gluten",
+        "halal",
+        "casher",
+        "sans-lactose",
+      ],
+      macros: {
+        // ESTIMATES — based on general culinary knowledge
+        calories: 480,
+        proteines: 18,
+        glucides: 55,
+        lipides: 20,
+      },
+      translations: {
+        fr: {
+          name: "Congee de riz camarguais crémeux & tofu grillé",
+          description:
+            "Huile maison au shichimi togarashi, fondue de poireaux au miso, concombre, gomasio de cacahuètes et sésame, pousses de wasabi.",
+        },
+        en: {
+          name: "Creamy Camargue rice congee & grilled tofu",
+          description:
+            "House shichimi togarashi oil, miso leek fondue, cucumber, peanut and sesame gomasio, wasabi shoots.",
+        },
+        it: {
+          name: "Congee di riso della Camargue cremoso & tofu grigliato",
+          description:
+            "Olio artigianale al shichimi togarashi, fonduta di porri al miso, cetriolo, gomasio di arachidi e sesamo, germogli di wasabi.",
+        },
+        es: {
+          name: "Congee cremoso de arroz de Camarga & tofu a la plancha",
+          description:
+            "Aceite casero de shichimi togarashi, fondue de puerros al miso, pepino, gomasio de cacahuetes y sésamo, brotes de wasabi.",
+        },
+      },
     },
-    "translations": {
-      "fr": {
-        "name": "Congee de riz camarguais crémeux & tofu grillé",
-        "description": "Huile maison au shichimi togarashi, fondue de poireaux au miso, concombre, gomasio de cacahuètes et sésame, pousses de wasabi."
+    {
+      id: "focaccia-printaniere-chevre-frais",
+      category: "plats",
+      subcategory: null,
+      // "Close-up of freshly baked focaccia bread with herbs" — pexels.com/photo/close-up-of-freshly-baked-focaccia-bread-with-herbs-30666809
+      image: pexels(30666809),
+      price: 19.0,
+      allergens: ["gluten", "soja", "fruits-a-coque"],
+      diets: [
+        "vegan",
+        "vegetarien",
+        "halal",
+        "casher",
+        "sans-lactose",
+      ],
+      macros: {
+        // ESTIMATES — based on general culinary knowledge
+        calories: 520,
+        proteines: 14,
+        glucides: 58,
+        lipides: 24,
       },
-      "en": {
-        "name": "Creamy Camargue rice congee & grilled tofu",
-        "description": "House shichimi togarashi oil, miso leek fondue, cucumber, peanut and sesame gomasio, wasabi shoots."
+      translations: {
+        fr: {
+          name: 'Focaccia printanière & "chèvre" frais',
+          description:
+            "Crème d'olives kalamata, chiffonade de chou rave au sumac et épine vinette, jeunes pousses, gel de citron confit, lentilles croustillantes, amandes torréfiées.",
+        },
+        en: {
+          name: 'Spring focaccia & fresh vegan "goat cheese"',
+          description:
+            "Kalamata olive cream, kohlrabi chiffonade with sumac and barberry, young shoots, candied lemon gel, crispy lentils, toasted almonds.",
+        },
+        it: {
+          name: 'Focaccia primaverile & "caprino" fresco vegano',
+          description:
+            "Crema di olive kalamata, chiffonade di cavolo rapa con sumac e crespino, germogli freschi, gel di limone candito, lenticchie croccanti, mandorle tostate.",
+        },
+        es: {
+          name: 'Focaccia primaveral & "queso de cabra" fresco vegano',
+          description:
+            "Crema de aceitunas kalamata, chiffonade de colinabo con sumac y agracejo, brotes tiernos, gel de limón confitado, lentejas crujientes, almendras tostadas.",
+        },
       },
-      "it": {
-        "name": "Congee di riso della Camargue cremoso & tofu grigliato",
-        "description": "Olio artigianale al shichimi togarashi, fonduta di porri al miso, cetriolo, gomasio di arachidi e sesamo, germogli di wasabi."
-      },
-      "es": {
-        "name": "Congee cremoso de arroz de Camarga & tofu a la plancha",
-        "description": "Aceite casero de shichimi togarashi, fondue de puerros al miso, pepino, gomasio de cacahuetes y sésamo, brotes de wasabi."
-      }
-    }
-  },
-  {
-    "id": "focaccia-printaniere-chevre-frais",
-    "category": "plats",
-    "subcategory": null,
-    // "Close-up of freshly baked focaccia bread with herbs" — pexels.com/photo/close-up-of-freshly-baked-focaccia-bread-with-herbs-30666809
-    "image": pexels(30666809),
-    "price": 19.00,
-    "allergens": ["gluten", "soja", "fruits-a-coque"],
-    "diets": ["vegan", "vegetarien"],
-    "macros": {
-      // ESTIMATES — based on general culinary knowledge
-      "calories": 520,
-      "proteines": 14,
-      "glucides": 58,
-      "lipides": 24
     },
-    "translations": {
-      "fr": {
-        "name": "Focaccia printanière & \"chèvre\" frais",
-        "description": "Crème d'olives kalamata, chiffonade de chou rave au sumac et épine vinette, jeunes pousses, gel de citron confit, lentilles croustillantes, amandes torréfiées."
+    {
+      id: "chou-fleur-dore-naan-maison",
+      category: "plats",
+      subcategory: null,
+      // "Overhead Shot of Roasted Vegetables and Chickpeas" — pexels.com/photo/overhead-shot-of-roasted-vegetables-and-chickpeas-6462179
+      image: pexels(6462179),
+      price: 19.5,
+      allergens: ["fruits-a-coque", "sesame"],
+      diets: [
+        "vegan",
+        "vegetarien",
+        "sans-gluten",
+        "halal",
+        "casher",
+        "sans-lactose",
+      ],
+      macros: {
+        // ESTIMATES — based on general culinary knowledge
+        calories: 455,
+        proteines: 15,
+        glucides: 62,
+        lipides: 17,
       },
-      "en": {
-        "name": "Spring focaccia & fresh vegan \"goat cheese\"",
-        "description": "Kalamata olive cream, kohlrabi chiffonade with sumac and barberry, young shoots, candied lemon gel, crispy lentils, toasted almonds."
+      translations: {
+        fr: {
+          name: "Chou-fleur doré aux épices golden & naan maison",
+          description:
+            "Houmous de lentilles corail, sauce vierge au citron vert et coriandre, taboulé de chou-fleur au vinaigre de dattes et noix.",
+        },
+        en: {
+          name: "Golden-spiced cauliflower & homemade naan",
+          description:
+            "Red lentil hummus, virgin sauce with lime and coriander, cauliflower tabbouleh with date vinegar and walnuts.",
+        },
+        it: {
+          name: "Cavolfiore dorato alle spezie golden & naan fatto in casa",
+          description:
+            "Hummus di lenticchie rosse, salsa vergine al lime e coriandolo, tabulè di cavolfiore all'aceto di datteri e noci.",
+        },
+        es: {
+          name: "Coliflor dorada con especias golden & naan casero",
+          description:
+            "Hummus de lentejas rojas, salsa virgen de lima y cilantro, tabulé de coliflor con vinagre de dátiles y nueces.",
+        },
       },
-      "it": {
-        "name": "Focaccia primaverile & \"caprino\" fresco vegano",
-        "description": "Crema di olive kalamata, chiffonade di cavolo rapa con sumac e crespino, germogli freschi, gel di limone candito, lenticchie croccanti, mandorle tostate."
-      },
-      "es": {
-        "name": "Focaccia primaveral & \"queso de cabra\" fresco vegano",
-        "description": "Crema de aceitunas kalamata, chiffonade de colinabo con sumac y agracejo, brotes tiernos, gel de limón confitado, lentejas crujientes, almendras tostadas."
-      }
-    }
-  },
-  {
-    "id": "chou-fleur-dore-naan-maison",
-    "category": "plats",
-    "subcategory": null,
-    // "Overhead Shot of Roasted Vegetables and Chickpeas" — pexels.com/photo/overhead-shot-of-roasted-vegetables-and-chickpeas-6462179
-    "image": pexels(6462179),
-    "price": 19.50,
-    "allergens": ["fruits-a-coque", "sesame"],
-    "diets": ["vegan", "vegetarien"],
-    "macros": {
-      // ESTIMATES — based on general culinary knowledge
-      "calories": 455,
-      "proteines": 15,
-      "glucides": 62,
-      "lipides": 17
     },
-    "translations": {
-      "fr": {
-        "name": "Chou-fleur doré aux épices golden & naan maison",
-        "description": "Houmous de lentilles corail, sauce vierge au citron vert et coriandre, taboulé de chou-fleur au vinaigre de dattes et noix."
-      },
-      "en": {
-        "name": "Golden-spiced cauliflower & homemade naan",
-        "description": "Red lentil hummus, virgin sauce with lime and coriander, cauliflower tabbouleh with date vinegar and walnuts."
-      },
-      "it": {
-        "name": "Cavolfiore dorato alle spezie golden & naan fatto in casa",
-        "description": "Hummus di lenticchie rosse, salsa vergine al lime e coriandolo, tabulè di cavolfiore all'aceto di datteri e noci."
-      },
-      "es": {
-        "name": "Coliflor dorada con especias golden & naan casero",
-        "description": "Hummus de lentejas rojas, salsa virgen de lima y cilantro, tabulé de coliflor con vinagre de dátiles y nueces."
-      }
-    }
-  },
 
-  // ────────────────────────────────────────────────
-  // FROMAGES
-  // ────────────────────────────────────────────────
-  {
-    "id": "assiette-fromages-vegetaux",
-    "category": "fromages",
-    "subcategory": null,
-    // "Rustic Charcuterie Board with Cheese and Fruit" — pexels.com/photo/rustic-charcuterie-board-with-cheese-and-fruit-28572189
-    "image": pexels(28572189),
-    "price": 14.00,
-    "allergens": ["soja", "fruits-a-coque"],
-    "diets": ["vegan", "vegetarien"],
-    "macros": {
-      // ESTIMATES — based on general culinary knowledge
-      "calories": 310,
-      "proteines": 10,
-      "glucides": 20,
-      "lipides": 22
+    // ────────────────────────────────────────────────
+    // FROMAGES
+    // ────────────────────────────────────────────────
+    {
+      id: "assiette-fromages-vegetaux",
+      category: "fromages",
+      subcategory: null,
+      // "Rustic Charcuterie Board with Cheese and Fruit" — pexels.com/photo/rustic-charcuterie-board-with-cheese-and-fruit-28572189
+      image: pexels(28572189),
+      price: 14.0,
+      allergens: ["soja", "fruits-a-coque"],
+      diets: [
+        "vegan",
+        "vegetarien",
+        "sans-gluten",
+        "halal",
+        "casher",
+        "sans-lactose",
+      ],
+      macros: {
+        // ESTIMATES — based on general culinary knowledge
+        calories: 310,
+        proteines: 10,
+        glucides: 20,
+        lipides: 22,
+      },
+      translations: {
+        fr: {
+          name: "Assiette de fromages végétaux affinés",
+          description:
+            "Assortiment de trois spécialités végétales affinées, fruit de saison, confiture, noix, pousses.",
+        },
+        en: {
+          name: "Plate of aged vegan cheeses",
+          description:
+            "Assortment of three aged plant-based specialities, seasonal fruit, jam, walnuts, shoots.",
+        },
+        it: {
+          name: "Piatto di formaggi vegetali stagionati",
+          description:
+            "Assortimento di tre specialità vegetali stagionate, frutto di stagione, confettura, noci, germogli.",
+        },
+        es: {
+          name: "Tabla de quesos vegetales curados",
+          description:
+            "Surtido de tres especialidades vegetales curadas, fruta de temporada, mermelada, nueces, brotes.",
+        },
+      },
     },
-    "translations": {
-      "fr": {
-        "name": "Assiette de fromages végétaux affinés",
-        "description": "Assortiment de trois spécialités végétales affinées, fruit de saison, confiture, noix, pousses."
-      },
-      "en": {
-        "name": "Plate of aged vegan cheeses",
-        "description": "Assortment of three aged plant-based specialities, seasonal fruit, jam, walnuts, shoots."
-      },
-      "it": {
-        "name": "Piatto di formaggi vegetali stagionati",
-        "description": "Assortimento di tre specialità vegetali stagionate, frutto di stagione, confettura, noci, germogli."
-      },
-      "es": {
-        "name": "Tabla de quesos vegetales curados",
-        "description": "Surtido de tres especialidades vegetales curadas, fruta de temporada, mermelada, nueces, brotes."
-      }
-    }
-  },
 
-  // ────────────────────────────────────────────────
-  // DESSERTS
-  // ────────────────────────────────────────────────
-  {
-    "id": "tartelette-assiette-fraises-chartreuse",
-    "category": "desserts",
-    "subcategory": null,
-    // "Strawberries and Cream Tart" — pexels.com/photo/strawberries-and-cream-tart-6638357
-    "image": pexels(6638357),
-    "price": 11.00,
-    "allergens": ["soja", "fruits-a-coque"],
-    "diets": ["vegan", "vegetarien"],
-    "macros": {
-      // ESTIMATES — based on general culinary knowledge
-      "calories": 340,
-      "proteines": 4,
-      "glucides": 42,
-      "lipides": 17
+    // ────────────────────────────────────────────────
+    // DESSERTS
+    // ────────────────────────────────────────────────
+    {
+      id: "tartelette-assiette-fraises-chartreuse",
+      category: "desserts",
+      subcategory: null,
+      // "Strawberries and Cream Tart" — pexels.com/photo/strawberries-and-cream-tart-6638357
+      image: "/the-friendly-kitchen/tartelette-assiette-fraises-chartreuse.jpg",
+      price: 11.0,
+      allergens: ["soja", "fruits-a-coque"],
+      diets: [
+        "vegan",
+        "vegetarien",
+        "sans-gluten",
+        "halal",
+        "casher",
+        "sans-lactose",
+      ],
+      macros: {
+        // ESTIMATES — based on general culinary knowledge
+        calories: 340,
+        proteines: 4,
+        glucides: 42,
+        lipides: 17,
+      },
+      translations: {
+        fr: {
+          name: "Tartelette à l'assiette — fraises & chartreuse",
+          description:
+            "Sablé breton à la farine de sarrasin, crème diplomate à la chartreuse, crémeux estragon, coulis de fraises, brunoise de fraises fraîches.",
+        },
+        en: {
+          name: "Plated tartlet — strawberries & chartreuse",
+          description:
+            "Breton shortbread with buckwheat flour, chartreuse diplomat cream, tarragon cremeux, strawberry coulis, fresh strawberry brunoise.",
+        },
+        it: {
+          name: "Tartelletta al piatto — fragole & chartreuse",
+          description:
+            "Sablé bretone alla farina di grano saraceno, crema diplomatica alla chartreuse, cremoso all'estragone, coulis di fragole, brunoise di fragole fresche.",
+        },
+        es: {
+          name: "Tartaleta al plato — fresas & chartreuse",
+          description:
+            "Sablé bretón con harina de trigo sarraceno, crema diplomática de chartreuse, cremoso de estragón, coulis de fresas, brunoise de fresas frescas.",
+        },
+      },
     },
-    "translations": {
-      "fr": {
-        "name": "Tartelette à l'assiette — fraises & chartreuse",
-        "description": "Sablé breton à la farine de sarrasin, crème diplomate à la chartreuse, crémeux estragon, coulis de fraises, brunoise de fraises fraîches."
+    {
+      id: "moelleux-zaatar-huile-olive-citron",
+      category: "desserts",
+      subcategory: null,
+      // "Cheesecake on Plate" — pexels.com/photo/cheesecake-on-plate-9820
+      image: pexels(9820),
+      price: 10.5,
+      allergens: ["gluten", "soja", "fruits-a-coque", "sesame"],
+      diets: [
+        "vegan",
+        "vegetarien",
+        "halal",
+        "casher",
+        "sans-lactose",
+      ],
+      macros: {
+        // ESTIMATES — based on general culinary knowledge
+        calories: 360,
+        proteines: 5,
+        glucides: 38,
+        lipides: 20,
       },
-      "en": {
-        "name": "Plated tartlet — strawberries & chartreuse",
-        "description": "Breton shortbread with buckwheat flour, chartreuse diplomat cream, tarragon cremeux, strawberry coulis, fresh strawberry brunoise."
+      translations: {
+        fr: {
+          name: "Moelleux au zaatar, huile d'olive & zestes de citron",
+          description:
+            "Chantilly au tahini, gel citron, crumble d'amandes, tuile croustillante.",
+        },
+        en: {
+          name: "Zaatar, olive oil & lemon zest fondant cake",
+          description:
+            "Tahini whipped cream, lemon gel, almond crumble, crispy tuile.",
+        },
+        it: {
+          name: "Tortino al zaatar, olio d'oliva & scorze di limone",
+          description:
+            "Chantilly al tahini, gel di limone, crumble di mandorle, tuile croccante.",
+        },
+        es: {
+          name: "Bizcocho de zaatar, aceite de oliva & ralladura de limón",
+          description:
+            "Nata montada de tahini, gel de limón, crumble de almendras, teja crujiente.",
+        },
       },
-      "it": {
-        "name": "Tartelletta al piatto — fragole & chartreuse",
-        "description": "Sablé bretone alla farina di grano saraceno, crema diplomatica alla chartreuse, cremoso all'estragone, coulis di fragole, brunoise di fragole fresche."
-      },
-      "es": {
-        "name": "Tartaleta al plato — fresas & chartreuse",
-        "description": "Sablé bretón con harina de trigo sarraceno, crema diplomática de chartreuse, cremoso de estragón, coulis de fresas, brunoise de fresas frescas."
-      }
-    }
-  },
-  {
-    "id": "moelleux-zaatar-huile-olive-citron",
-    "category": "desserts",
-    "subcategory": null,
-    // "Cheesecake on Plate" — pexels.com/photo/cheesecake-on-plate-9820
-    "image": pexels(9820),
-    "price": 10.50,
-    "allergens": ["gluten", "soja", "fruits-a-coque", "sesame"],
-    "diets": ["vegan", "vegetarien"],
-    "macros": {
-      // ESTIMATES — based on general culinary knowledge
-      "calories": 360,
-      "proteines": 5,
-      "glucides": 38,
-      "lipides": 20
     },
-    "translations": {
-      "fr": {
-        "name": "Moelleux au zaatar, huile d'olive & zestes de citron",
-        "description": "Chantilly au tahini, gel citron, crumble d'amandes, tuile croustillante."
+    {
+      id: "ganache-montee-chocolat-70",
+      category: "desserts",
+      subcategory: null,
+      // "Delicious mousse cake decorated with coconut slices in cafe" — pexels.com/photo/delicious-mousse-cake-decorated-with-coconut-slices-in-cafe-4551125
+      image: pexels(4551125),
+      price: 11.0,
+      allergens: ["soja", "fruits-a-coque"],
+      diets: [
+        "vegan",
+        "vegetarien",
+        "sans-gluten",
+        "halal",
+        "casher",
+        "sans-lactose",
+      ],
+      macros: {
+        // ESTIMATES — based on general culinary knowledge
+        calories: 390,
+        proteines: 5,
+        glucides: 40,
+        lipides: 24,
       },
-      "en": {
-        "name": "Zaatar, olive oil & lemon zest fondant cake",
-        "description": "Tahini whipped cream, lemon gel, almond crumble, crispy tuile."
+      translations: {
+        fr: {
+          name: "Ganache montée au chocolat 70%",
+          description:
+            "Sablé châtaigne et cacao, coulis de cerise au timut, nougatine grué de cacao et pignon de pin, crispy cerise.",
+        },
+        en: {
+          name: "Whipped 70% chocolate ganache",
+          description:
+            "Chestnut and cocoa shortbread, timut cherry coulis, cocoa nib and pine nut nougatine, crispy cherry.",
+        },
+        it: {
+          name: "Ganache montata al cioccolato 70%",
+          description:
+            "Sablé di castagna e cacao, coulis di ciliegia al timut, nougatine di granella di cacao e pinoli, ciliegia croccante.",
+        },
+        es: {
+          name: "Ganache montada de chocolate 70%",
+          description:
+            "Sablé de castaña y cacao, coulis de cereza con timut, nougatine de grué de cacao y piñones, cereza crujiente.",
+        },
       },
-      "it": {
-        "name": "Tortino al zaatar, olio d'oliva & scorze di limone",
-        "description": "Chantilly al tahini, gel di limone, crumble di mandorle, tuile croccante."
-      },
-      "es": {
-        "name": "Bizcocho de zaatar, aceite de oliva & ralladura de limón",
-        "description": "Nata montada de tahini, gel de limón, crumble de almendras, teja crujiente."
-      }
-    }
-  },
-  {
-    "id": "ganache-montee-chocolat-70",
-    "category": "desserts",
-    "subcategory": null,
-    // "Delicious mousse cake decorated with coconut slices in cafe" — pexels.com/photo/delicious-mousse-cake-decorated-with-coconut-slices-in-cafe-4551125
-    "image": pexels(4551125),
-    "price": 11.00,
-    "allergens": ["soja", "fruits-a-coque"],
-    "diets": ["vegan", "vegetarien", "sans-gluten"],
-    "macros": {
-      // ESTIMATES — based on general culinary knowledge
-      "calories": 390,
-      "proteines": 5,
-      "glucides": 40,
-      "lipides": 24
     },
-    "translations": {
-      "fr": {
-        "name": "Ganache montée au chocolat 70%",
-        "description": "Sablé châtaigne et cacao, coulis de cerise au timut, nougatine grué de cacao et pignon de pin, crispy cerise."
-      },
-      "en": {
-        "name": "Whipped 70% chocolate ganache",
-        "description": "Chestnut and cocoa shortbread, timut cherry coulis, cocoa nib and pine nut nougatine, crispy cherry."
-      },
-      "it": {
-        "name": "Ganache montata al cioccolato 70%",
-        "description": "Sablé di castagna e cacao, coulis di ciliegia al timut, nougatine di granella di cacao e pinoli, ciliegia croccante."
-      },
-      "es": {
-        "name": "Ganache montada de chocolate 70%",
-        "description": "Sablé de castaña y cacao, coulis de cereza con timut, nougatine de grué de cacao y piñones, cereza crujiente."
-      }
-    }
-  },
 
-  // ────────────────────────────────────────────────
-  // MENUS DÉCOUVERTE
-  // ────────────────────────────────────────────────
-  {
-    "id": "menu-decouverte-6-services",
-    "category": "menu-decouverte",
-    "subcategory": null,
-    // "A White Plate Topped with Food on It" — pexels.com/photo/a-white-plate-topped-with-food-on-it-28052916
-    "image": pexels(28052916),
-    "price": 59.00,
-    "allergens": [],
-    "diets": ["vegan", "vegetarien"],
-    "macros": {
-      // ESTIMATES — based on general culinary knowledge
-      "calories": 0,
-      "proteines": 0,
-      "glucides": 0,
-      "lipides": 0
-    },    "translations": {
-      "fr": {
-        "name": "Menu découverte en 6 services",
-        "description": "Menu dégustation de printemps : amuse-bouche, deux entrées, un plat, un fromage et un dessert. Dîner et samedi midi uniquement."
+    // ────────────────────────────────────────────────
+    // MENUS DÉCOUVERTE
+    // ────────────────────────────────────────────────
+    {
+      id: "menu-decouverte-6-services",
+      category: "menu-decouverte",
+      subcategory: null,
+      // "A White Plate Topped with Food on It" — pexels.com/photo/a-white-plate-topped-with-food-on-it-28052916
+      image: pexels(28052916),
+      price: 59.0,
+      allergens: [],
+      diets: [
+        "vegan",
+        "vegetarien",
+        "sans-gluten",
+        "halal",
+        "casher",
+        "sans-lactose",
+      ],
+      macros: {
+        // ESTIMATES — based on general culinary knowledge
+        calories: 0,
+        proteines: 0,
+        glucides: 0,
+        lipides: 0,
       },
-      "en": {
-        "name": "6-course tasting menu",
-        "description": "Spring tasting menu: amuse-bouche, two starters, a main, a cheese and a dessert. Dinner and Saturday lunch only."
+      translations: {
+        fr: {
+          name: "Menu découverte en 6 services",
+          description:
+            "Menu dégustation de printemps : amuse-bouche, deux entrées, un plat, un fromage et un dessert. Dîner et samedi midi uniquement.",
+        },
+        en: {
+          name: "6-course tasting menu",
+          description:
+            "Spring tasting menu: amuse-bouche, two starters, a main, a cheese and a dessert. Dinner and Saturday lunch only.",
+        },
+        it: {
+          name: "Menu degustazione in 6 portate",
+          description:
+            "Menu degustazione di primavera: amuse-bouche, due antipasti, un primo, un formaggio e un dolce. Solo cena e sabato a pranzo.",
+        },
+        es: {
+          name: "Menú degustación en 6 servicios",
+          description:
+            "Menú primaveral: aperitivo, dos entrantes, un plato, un queso y un postre. Solo cena y sábado al mediodía.",
+        },
       },
-      "it": {
-        "name": "Menu degustazione in 6 portate",
-        "description": "Menu degustazione di primavera: amuse-bouche, due antipasti, un primo, un formaggio e un dolce. Solo cena e sabato a pranzo."
-      },
-      "es": {
-        "name": "Menú degustación en 6 servicios",
-        "description": "Menú primaveral: aperitivo, dos entrantes, un plato, un queso y un postre. Solo cena y sábado al mediodía."
-      }
-    }
-  },
+    },
 
-  // ────────────────────────────────────────────────
-  // BOISSONS — Apéritifs avec alcool
-  // ────────────────────────────────────────────────
-  {
-    "id": "kir",
-    "category": "boissons",
-    "subcategory": "Apéritifs avec alcool",
-    // "Coupe Cocktail Glass On Black Background" — pexels.com/photo/coupe-cocktail-glass-on-black-background-6065197
-    "image": pexels(6065197),
-    "price": 9.00,
-    "allergens": [],
-    "diets": ["vegan", "vegetarien"],
-    "macros": {
-      // ESTIMATES — based on general culinary knowledge
-      "calories": 0,
-      "proteines": 0,
-      "glucides": 0,
-      "lipides": 0
-    },    "translations": {
-      "fr": {
-        "name": "Kir / Kir Royal",
-        "description": "Kir au vin blanc ou Royal au Prosecco. Liqueurs de fruits Maison Trénel : cassis, framboise ou griotte."
+    // ────────────────────────────────────────────────
+    // BOISSONS — Apéritifs avec alcool
+    // ────────────────────────────────────────────────
+    {
+      id: "kir",
+      category: "boissons",
+      subcategory: "Apéritifs avec alcool",
+      // "Coupe Cocktail Glass On Black Background" — pexels.com/photo/coupe-cocktail-glass-on-black-background-6065197
+      image: pexels(6065197),
+      price: 9.0,
+      allergens: ["so2"],
+      diets: ["vegan", "vegetarien"],
+macros: {
+  calories: 140,
+  proteines: 0.1,
+  glucides: 9.5,
+  lipides: 0,
+},
+      translations: {
+        fr: {
+          name: "Kir / Kir Royal",
+          description:
+            "Kir au vin blanc ou Royal au Prosecco. Liqueurs de fruits Maison Trénel : cassis, framboise ou griotte.",
+        },
+        en: {
+          name: "Kir / Kir Royal",
+          description:
+            "Kir with white wine or Royal with Prosecco. Maison Trénel fruit liqueurs: blackcurrant, raspberry or morello cherry.",
+        },
+        it: {
+          name: "Kir / Kir Royal",
+          description:
+            "Kir al vino bianco o Royal al Prosecco. Liquori di frutta Maison Trénel: ribes nero, lampone o amarena.",
+        },
+        es: {
+          name: "Kir / Kir Royal",
+          description:
+            "Kir con vino blanco o Royal con Prosecco. Licores de frutas Maison Trénel: grosella negra, frambuesa o guinda.",
+        },
       },
-      "en": {
-        "name": "Kir / Kir Royal",
-        "description": "Kir with white wine or Royal with Prosecco. Maison Trénel fruit liqueurs: blackcurrant, raspberry or morello cherry."
+    },
+    {
+      id: "cocktail-joan-jett",
+      category: "boissons",
+      subcategory: "Cocktails & Mocktails",
+      // "Cocktail Drink on Glass" — pexels.com/photo/cocktail-drink-on-glass-8375042
+      image: pexels(8375042),
+      price: 12.5,
+      allergens: [],
+      diets: ["vegan", "vegetarien"],
+macros: {
+  calories: 195,
+  proteines: 0.4,
+  glucides: 22,
+  lipides: 0.1,
+},
+      translations: {
+        fr: {
+          name: "Joan Jett — cocktail",
+          description:
+            "Liqueur de gentiane, cointreau, purée et crème de griottes, citron jaune, agave, eau pétillante. Fruité et amer. 18cl.",
+        },
+        en: {
+          name: "Joan Jett — cocktail",
+          description:
+            "Gentian liqueur, cointreau, morello cherry purée and cream, lemon, agave, sparkling water. Fruity and bitter. 18cl.",
+        },
+        it: {
+          name: "Joan Jett — cocktail",
+          description:
+            "Liquore di genziana, cointreau, purea e crema di amarene, limone, agave, acqua frizzante. Fruttato e amaro. 18cl.",
+        },
+        es: {
+          name: "Joan Jett — cóctel",
+          description:
+            "Licor de genciana, cointreau, puré y crema de guindas, limón, agave, agua con gas. Afrutado y amargo. 18cl.",
+        },
       },
-      "it": {
-        "name": "Kir / Kir Royal",
-        "description": "Kir al vino bianco o Royal al Prosecco. Liquori di frutta Maison Trénel: ribes nero, lampone o amarena."
+    },
+    {
+      id: "mocktail-joan-jett",
+      category: "boissons",
+      subcategory: "Cocktails & Mocktails",
+      // "Photograph of a Red Cocktail Drink" — pexels.com/photo/photograph-of-a-red-cocktail-drink-10986585
+      image: pexels(10986585),
+      price: 9.0,
+      allergens: [],
+      diets: ["vegan", "vegetarien"],
+macros: {
+  calories: 65,
+  proteines: 0.4,
+  glucides: 15,
+  lipides: 0.1,
+},
+      translations: {
+        fr: {
+          name: "Joan Jett — mocktail",
+          description:
+            "Vermouth 0%, bitter agrumes, purée de griottes, citron jaune, eau pétillante. 18cl.",
+        },
+        en: {
+          name: "Joan Jett — mocktail",
+          description:
+            "0% vermouth, citrus bitters, morello cherry purée, lemon, sparkling water. 18cl.",
+        },
+        it: {
+          name: "Joan Jett — mocktail",
+          description:
+            "Vermouth 0%, bitter agli agrumi, purea di amarene, limone, acqua frizzante. 18cl.",
+        },
+        es: {
+          name: "Joan Jett — mocktail",
+          description:
+            "Vermut 0%, amargo de cítricos, puré de guindas, limón, agua con gas. 18cl.",
+        },
       },
-      "es": {
-        "name": "Kir / Kir Royal",
-        "description": "Kir con vino blanco o Royal con Prosecco. Licores de frutas Maison Trénel: grosella negra, frambuesa o guinda."
-      }
-    }
-  },
-  {
-    "id": "cocktail-joan-jett",
-    "category": "boissons",
-    "subcategory": "Cocktails & Mocktails",
-    // "Cocktail Drink on Glass" — pexels.com/photo/cocktail-drink-on-glass-8375042
-    "image": pexels(8375042),
-    "price": 12.50,
-    "allergens": [],
-    "diets": ["vegan", "vegetarien"],
-    "macros": {
-      // ESTIMATES — based on general culinary knowledge
-      "calories": 0,
-      "proteines": 0,
-      "glucides": 0,
-      "lipides": 0
-    },    "translations": {
-      "fr": {
-        "name": "Joan Jett — cocktail",
-        "description": "Liqueur de gentiane, cointreau, purée et crème de griottes, citron jaune, agave, eau pétillante. Fruité et amer. 18cl."
+    },
+    {
+      id: "gin-tonic",
+      category: "boissons",
+      subcategory: "Cocktails & Mocktails",
+      // "Water with Slices of Cucumber in Drinking Glass" — pexels.com/photo/water-with-slices-of-cucumber-in-drinking-glass-8679633
+      image: pexels(8679633),
+      price: 12.5,
+      allergens: [],
+      diets: ["vegan", "vegetarien"],
+macros: {
+  calories: 125,
+  proteines: 0,
+  glucides: 7.5,
+  lipides: 0,
+},
+      translations: {
+        fr: {
+          name: "Gin tonic",
+          description:
+            "Gin aux poivres de Sichuan et Kampot rouge, concombre, zestes de citron jaune, tonic Fever Tree. Pétillant et intense. 14cl.",
+        },
+        en: {
+          name: "Gin tonic",
+          description:
+            "Gin with Sichuan and red Kampot pepper, cucumber, lemon zest, Fever Tree tonic. Sparkling and intense. 14cl.",
+        },
+        it: {
+          name: "Gin tonic",
+          description:
+            "Gin ai pepi di Sichuan e Kampot rosso, cetriolo, scorze di limone, tonic Fever Tree. Frizzante e intenso. 14cl.",
+        },
+        es: {
+          name: "Gin tonic",
+          description:
+            "Ginebra con pimientas de Sichuan y Kampot rojo, pepino, ralladura de limón, tónica Fever Tree. Efervescente e intenso. 14cl.",
+        },
       },
-      "en": {
-        "name": "Joan Jett — cocktail",
-        "description": "Gentian liqueur, cointreau, morello cherry purée and cream, lemon, agave, sparkling water. Fruity and bitter. 18cl."
+    },
+    {
+      id: "mocktail-gin-tonic",
+      category: "boissons",
+      subcategory: "Cocktails & Mocktails",
+      // "Water with Slices of Cucumber in Drinking Glass" — pexels.com/photo/water-with-slices-of-cucumber-in-drinking-glass-8679633
+      image: pexels(8679633),
+      price: 9.0,
+      allergens: [],
+      diets: ["vegan", "vegetarien"],
+macros: {
+  calories: 60,
+  proteines: 0,
+  glucides: 14.5,
+  lipides: 0,
+},
+      translations: {
+        fr: {
+          name: "Gin tonic — mocktail",
+          description:
+            "JNPR n°2, sirop de poivres de Sichuan et Kampot rouge, concentré de concombre et citron jaune, tonic Fever Tree. 14cl.",
+        },
+        en: {
+          name: "Gin tonic — mocktail",
+          description:
+            "JNPR n°2, Sichuan and Kampot red pepper syrup, cucumber and lemon concentrate, Fever Tree tonic. 14cl.",
+        },
+        it: {
+          name: "Gin tonic — mocktail",
+          description:
+            "JNPR n°2, sciroppo ai pepi di Sichuan e Kampot rosso, concentrato di cetriolo e limone, tonic Fever Tree. 14cl.",
+        },
+        es: {
+          name: "Gin tonic — mocktail",
+          description:
+            "JNPR n°2, sirope de pimientas de Sichuan y Kampot rojo, concentrado de pepino y limón, tónica Fever Tree. 14cl.",
+        },
       },
-      "it": {
-        "name": "Joan Jett — cocktail",
-        "description": "Liquore di genziana, cointreau, purea e crema di amarene, limone, agave, acqua frizzante. Fruttato e amaro. 18cl."
-      },
-      "es": {
-        "name": "Joan Jett — cóctel",
-        "description": "Licor de genciana, cointreau, puré y crema de guindas, limón, agave, agua con gas. Afrutado y amargo. 18cl."
-      }
-    }
-  },
-  {
-    "id": "mocktail-joan-jett",
-    "category": "boissons",
-    "subcategory": "Cocktails & Mocktails",
-    // "Photograph of a Red Cocktail Drink" — pexels.com/photo/photograph-of-a-red-cocktail-drink-10986585
-    "image": pexels(10986585),
-    "price": 9.00,
-    "allergens": [],
-    "diets": ["vegan", "vegetarien"],
-    "macros": {
-      // ESTIMATES — based on general culinary knowledge
-      "calories": 0,
-      "proteines": 0,
-      "glucides": 0,
-      "lipides": 0
-    },    "translations": {
-      "fr": {
-        "name": "Joan Jett — mocktail",
-        "description": "Vermouth 0%, bitter agrumes, purée de griottes, citron jaune, eau pétillante. 18cl."
-      },
-      "en": {
-        "name": "Joan Jett — mocktail",
-        "description": "0% vermouth, citrus bitters, morello cherry purée, lemon, sparkling water. 18cl."
-      },
-      "it": {
-        "name": "Joan Jett — mocktail",
-        "description": "Vermouth 0%, bitter agli agrumi, purea di amarene, limone, acqua frizzante. 18cl."
-      },
-      "es": {
-        "name": "Joan Jett — mocktail",
-        "description": "Vermut 0%, amargo de cítricos, puré de guindas, limón, agua con gas. 18cl."
-      }
-    }
-  },
-  {
-    "id": "gin-tonic",
-    "category": "boissons",
-    "subcategory": "Cocktails & Mocktails",
-    // "Water with Slices of Cucumber in Drinking Glass" — pexels.com/photo/water-with-slices-of-cucumber-in-drinking-glass-8679633
-    "image": pexels(8679633),
-    "price": 12.50,
-    "allergens": [],
-    "diets": ["vegan", "vegetarien"],
-    "macros": {
-      // ESTIMATES — based on general culinary knowledge
-      "calories": 0,
-      "proteines": 0,
-      "glucides": 0,
-      "lipides": 0
-    },    "translations": {
-      "fr": {
-        "name": "Gin tonic",
-        "description": "Gin aux poivres de Sichuan et Kampot rouge, concombre, zestes de citron jaune, tonic Fever Tree. Pétillant et intense. 14cl."
-      },
-      "en": {
-        "name": "Gin tonic",
-        "description": "Gin with Sichuan and red Kampot pepper, cucumber, lemon zest, Fever Tree tonic. Sparkling and intense. 14cl."
-      },
-      "it": {
-        "name": "Gin tonic",
-        "description": "Gin ai pepi di Sichuan e Kampot rosso, cetriolo, scorze di limone, tonic Fever Tree. Frizzante e intenso. 14cl."
-      },
-      "es": {
-        "name": "Gin tonic",
-        "description": "Ginebra con pimientas de Sichuan y Kampot rojo, pepino, ralladura de limón, tónica Fever Tree. Efervescente e intenso. 14cl."
-      }
-    }
-  },
-  {
-    "id": "mocktail-gin-tonic",
-    "category": "boissons",
-    "subcategory": "Cocktails & Mocktails",
-    // "Water with Slices of Cucumber in Drinking Glass" — pexels.com/photo/water-with-slices-of-cucumber-in-drinking-glass-8679633
-    "image": pexels(8679633),
-    "price": 9.00,
-    "allergens": [],
-    "diets": ["vegan", "vegetarien"],
-    "macros": {
-      // ESTIMATES — based on general culinary knowledge
-      "calories": 0,
-      "proteines": 0,
-      "glucides": 0,
-      "lipides": 0
-    },    "translations": {
-      "fr": {
-        "name": "Gin tonic — mocktail",
-        "description": "JNPR n°2, sirop de poivres de Sichuan et Kampot rouge, concentré de concombre et citron jaune, tonic Fever Tree. 14cl."
-      },
-      "en": {
-        "name": "Gin tonic — mocktail",
-        "description": "JNPR n°2, Sichuan and Kampot red pepper syrup, cucumber and lemon concentrate, Fever Tree tonic. 14cl."
-      },
-      "it": {
-        "name": "Gin tonic — mocktail",
-        "description": "JNPR n°2, sciroppo ai pepi di Sichuan e Kampot rosso, concentrato di cetriolo e limone, tonic Fever Tree. 14cl."
-      },
-      "es": {
-        "name": "Gin tonic — mocktail",
-        "description": "JNPR n°2, sirope de pimientas de Sichuan y Kampot rojo, concentrado de pepino y limón, tónica Fever Tree. 14cl."
-      }
-    }
-  },
+    },
 
-  // ────────────────────────────────────────────────
-  // BIÈRES & CIDRES
-  // ────────────────────────────────────────────────
-  {
-    "id": "cidre-brut-fils-de-pomme",
-    "category": "boissons",
-    "subcategory": "Bières & Cidres",
-    // "Person Pouring Drink On Wine Glass" — pexels.com/photo/person-pouring-drink-on-wine-glass-1796698
-    "image": pexels(1796698),
-    "price": 6.50,
-    "allergens": [],
-    "diets": ["vegan", "vegetarien", "sans-gluten"],
-    "macros": {
-      // ESTIMATES — based on general culinary knowledge
-      "calories": 0,
-      "proteines": 0,
-      "glucides": 0,
-      "lipides": 0
-    },    "translations": {
-      "fr": { "name": "Cidre brut 5,5% — Fils de Pomme", "description": "Fines bulles et fruité sec. 33cl." },
-      "en": { "name": "Dry cider 5.5% — Fils de Pomme", "description": "Fine bubbles and dry fruit. 33cl." },
-      "it": { "name": "Sidro brut 5,5% — Fils de Pomme", "description": "Bollicine fini e fruttato secco. 33cl." },
-      "es": { "name": "Sidra brut 5,5% — Fils de Pomme", "description": "Finas burbujas y frutal seco. 33cl." }
-    }
-  },
-  {
-    "id": "poire-fils-de-pomme",
-    "category": "boissons",
-    "subcategory": "Bières & Cidres",
-    // "Pear Near a Cocktail Drink" — pexels.com/photo/pear-near-a-cocktail-drink-8084642
-    "image": pexels(8084642),
-    "price": 6.50,
-    "allergens": [],
-    "diets": ["vegan", "vegetarien", "sans-gluten"],
-    "macros": {
-      // ESTIMATES — based on general culinary knowledge
-      "calories": 0,
-      "proteines": 0,
-      "glucides": 0,
-      "lipides": 0
-    },    "translations": {
-      "fr": { "name": "Poiré 5% — Fils de Pomme", "description": "La délicatesse de la poire, même principe que le cidre. 33cl." },
-      "en": { "name": "Perry 5% — Fils de Pomme", "description": "The delicacy of pear, same approach as the cider. 33cl." },
-      "it": { "name": "Sidro di pere 5% — Fils de Pomme", "description": "La delicatezza della pera, stesso principio del sidro. 33cl." },
-      "es": { "name": "Perada 5% — Fils de Pomme", "description": "La delicadeza de la pera, mismo principio que la sidra. 33cl." }
-    }
-  },
-  {
-    "id": "biere-pale-ale-bapbap",
-    "category": "boissons",
-    "subcategory": "Bières & Cidres",
-    // "Drinking Glass" — pexels.com/photo/drinking-glass-1009068
-    "image": pexels(1009068),
-    "price": 7.00,
-    "allergens": ["gluten"],
-    "diets": ["vegan", "vegetarien"],
-    "macros": {
-      // ESTIMATES — based on general culinary knowledge
-      "calories": 0,
-      "proteines": 0,
-      "glucides": 0,
-      "lipides": 0
-    },    "translations": {
-      "fr": { "name": "Bière Pale Ale 5,4% — BAPBAP", "description": "Robe dorée, arômes de fruit de la passion. 33cl." },
-      "en": { "name": "Pale Ale 5.4% — BAPBAP", "description": "Golden colour, passion fruit aromas. 33cl." },
-      "it": { "name": "Birra Pale Ale 5,4% — BAPBAP", "description": "Color dorato, aromi di frutto della passione. 33cl." },
-      "es": { "name": "Cerveza Pale Ale 5,4% — BAPBAP", "description": "Color dorado, aromas de maracuyá. 33cl." }
-    }
-  },
+    // ────────────────────────────────────────────────
+    // BIÈRES & CIDRES
+    // ────────────────────────────────────────────────
+    {
+      id: "cidre-brut-fils-de-pomme",
+      category: "boissons",
+      subcategory: "Bières & Cidres",
+      // "Person Pouring Drink On Wine Glass" — pexels.com/photo/person-pouring-drink-on-wine-glass-1796698
+      image: pexels(1796698),
+      price: 6.5,
+      allergens: [],
+      diets: ["vegan", "vegetarien", "sans-gluten"],
+macros: {
+  calories: 145,
+  proteines: 0.2,
+  glucides: 11,
+  lipides: 0,
+},
+      translations: {
+        fr: {
+          name: "Cidre brut 5,5% — Fils de Pomme",
+          description: "Fines bulles et fruité sec. 33cl.",
+        },
+        en: {
+          name: "Dry cider 5.5% — Fils de Pomme",
+          description: "Fine bubbles and dry fruit. 33cl.",
+        },
+        it: {
+          name: "Sidro brut 5,5% — Fils de Pomme",
+          description: "Bollicine fini e fruttato secco. 33cl.",
+        },
+        es: {
+          name: "Sidra brut 5,5% — Fils de Pomme",
+          description: "Finas burbujas y frutal seco. 33cl.",
+        },
+      },
+    },
+    {
+      id: "poire-fils-de-pomme",
+      category: "boissons",
+      subcategory: "Bières & Cidres",
+      // "Pear Near a Cocktail Drink" — pexels.com/photo/pear-near-a-cocktail-drink-8084642
+      image: pexels(8084642),
+      price: 6.5,
+      allergens: [],
+      diets: ["vegan", "vegetarien", "sans-gluten"],
+macros: {
+  calories: 150,
+  proteines: 0.2,
+  glucides: 14,
+  lipides: 0,
+},
+      translations: {
+        fr: {
+          name: "Poiré 5% — Fils de Pomme",
+          description:
+            "La délicatesse de la poire, même principe que le cidre. 33cl.",
+        },
+        en: {
+          name: "Perry 5% — Fils de Pomme",
+          description:
+            "The delicacy of pear, same approach as the cider. 33cl.",
+        },
+        it: {
+          name: "Sidro di pere 5% — Fils de Pomme",
+          description:
+            "La delicatezza della pera, stesso principio del sidro. 33cl.",
+        },
+        es: {
+          name: "Perada 5% — Fils de Pomme",
+          description:
+            "La delicadeza de la pera, mismo principio que la sidra. 33cl.",
+        },
+      },
+    },
+    {
+      id: "biere-pale-ale-bapbap",
+      category: "boissons",
+      subcategory: "Bières & Cidres",
+      // "Drinking Glass" — pexels.com/photo/drinking-glass-1009068
+      image: pexels(1009068),
+      price: 7.0,
+      allergens: ["gluten"],
+      diets: ["vegan", "vegetarien"],
+macros: {
+  calories: 148,
+  proteines: 1.6,
+  glucides: 12,
+  lipides: 0,
+},
+      translations: {
+        fr: {
+          name: "Bière Pale Ale 5,4% — BAPBAP",
+          description: "Robe dorée, arômes de fruit de la passion. 33cl.",
+        },
+        en: {
+          name: "Pale Ale 5.4% — BAPBAP",
+          description: "Golden colour, passion fruit aromas. 33cl.",
+        },
+        it: {
+          name: "Birra Pale Ale 5,4% — BAPBAP",
+          description: "Color dorato, aromi di frutto della passione. 33cl.",
+        },
+        es: {
+          name: "Cerveza Pale Ale 5,4% — BAPBAP",
+          description: "Color dorado, aromas de maracuyá. 33cl.",
+        },
+      },
+    },
 
-  // ────────────────────────────────────────────────
-  // DIGESTIFS
-  // ────────────────────────────────────────────────
-  {
-    "id": "liqueurs-artisanales-granier",
-    "category": "boissons",
-    "subcategory": "Digestifs",
-    // "Elegant Presentation of Digestif Liqueur on Table" — pexels.com/photo/elegant-presentation-of-digestif-liqueur-on-table-30429245
-    "image": pexels(30429245),
-    "price": 5.00,
-    "allergens": [],
-    "diets": ["vegan", "vegetarien"],
-    "macros": {
-      // ESTIMATES — based on general culinary knowledge
-      "calories": 0,
-      "proteines": 0,
-      "glucides": 0,
-      "lipides": 0
-    },    "translations": {
-      "fr": { "name": "Liqueurs artisanales 26% — Granier", "description": "Menthe, Verveine ou Gentiane. 4cl." },
-      "en": { "name": "Craft liqueurs 26% — Granier", "description": "Mint, Verbena or Gentian. 4cl." },
-      "it": { "name": "Liquori artigianali 26% — Granier", "description": "Menta, Verbena o Genziana. 4cl." },
-      "es": { "name": "Licores artesanales 26% — Granier", "description": "Menta, Verbena o Genciana. 4cl." }
-    }
-  },
+    // ────────────────────────────────────────────────
+    // DIGESTIFS
+    // ────────────────────────────────────────────────
+    {
+      id: "liqueurs-artisanales-granier",
+      category: "boissons",
+      subcategory: "Digestifs",
+      // "Elegant Presentation of Digestif Liqueur on Table" — pexels.com/photo/elegant-presentation-of-digestif-liqueur-on-table-30429245
+      image: pexels(30429245),
+      price: 5.0,
+      allergens: [],
+      diets: ["vegan", "vegetarien"],
+      macros: {
+        // ESTIMATES — based on general culinary knowledge
+        calories: 0,
+        proteines: 0,
+        glucides: 0,
+        lipides: 0,
+      },
+      translations: {
+        fr: {
+          name: "Liqueurs artisanales 26% — Granier",
+          description: "Menthe, Verveine ou Gentiane. 4cl.",
+        },
+        en: {
+          name: "Craft liqueurs 26% — Granier",
+          description: "Mint, Verbena or Gentian. 4cl.",
+        },
+        it: {
+          name: "Liquori artigianali 26% — Granier",
+          description: "Menta, Verbena o Genziana. 4cl.",
+        },
+        es: {
+          name: "Licores artesanales 26% — Granier",
+          description: "Menta, Verbena o Genciana. 4cl.",
+        },
+      },
+    },
 
-  // ────────────────────────────────────────────────
-  // BOISSONS SANS ALCOOL — Fermentées
-  // ────────────────────────────────────────────────
-  {
-    "id": "kombucha-archipel",
-    "category": "boissons",
-    "subcategory": "Boissons Sans Alcool",
-    // "Assorted Beverage Bottles" — pexels.com/photo/assorted-beverage-bottles-1384039
-    "image": pexels(1384039),
-    "price": 6.50,
-    "allergens": [],
-    "diets": ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
-    "macros": {
-      // ESTIMATES — based on general culinary knowledge
-      "calories": 0,
-      "proteines": 0,
-      "glucides": 0,
-      "lipides": 0
-    },    "translations": {
-      "fr": { "name": "Kombucha — Archipel", "description": "Boisson fermentée 100% française aux feuilles d'arbres fruitiers. Clémentine ou cassis. 33cl." },
-      "en": { "name": "Kombucha — Archipel", "description": "100% French fermented drink with fruit tree leaves. Clementine or blackcurrant. 33cl." },
-      "it": { "name": "Kombucha — Archipel", "description": "Bevanda fermentata 100% francese con foglie di alberi da frutto. Clementina o ribes nero. 33cl." },
-      "es": { "name": "Kombucha — Archipel", "description": "Bebida fermentada 100% francesa con hojas de árboles frutales. Clementina o grosella. 33cl." }
-    }
-  },
-  {
-    "id": "ginger-beer-uma",
-    "category": "boissons",
-    "subcategory": "Boissons Sans Alcool",
-    // "Glasses with lemon drink on table" — pexels.com/photo/glasses-with-lemon-drink-on-table-5946627
-    "image": pexels(5946627),
-    "price": 5.50,
-    "allergens": [],
-    "diets": ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
-    "macros": {
-      // ESTIMATES — based on general culinary knowledge
-      "calories": 0,
-      "proteines": 0,
-      "glucides": 0,
-      "lipides": 0
-    },    "translations": {
-      "fr": { "name": "Ginger Beer — UMA", "description": "Boisson pétillante au gingembre, citron et agave. 33cl." },
-      "en": { "name": "Ginger Beer — UMA", "description": "Sparkling ginger, lemon and agave drink. 33cl." },
-      "it": { "name": "Ginger Beer — UMA", "description": "Bevanda frizzante allo zenzero, limone e agave. 33cl." },
-      "es": { "name": "Ginger Beer — UMA", "description": "Bebida efervescente de jengibre, limón y agave. 33cl." }
-    }
-  },
-  {
-    "id": "biere-sans-alcool-brasserie-parallele",
-    "category": "boissons",
-    "subcategory": "Boissons Sans Alcool",
-    // "A Person Holding a Beer in a Glass" — pexels.com/photo/a-person-holding-a-beer-in-a-glass-5743361
-    "image": pexels(5743361),
-    "price": 6.50,
-    "allergens": ["gluten"],
-    "diets": ["vegan", "vegetarien"],
-    "macros": {
-      // ESTIMATES — based on general culinary knowledge
-      "calories": 0,
-      "proteines": 0,
-      "glucides": 0,
-      "lipides": 0
-    },    "translations": {
-      "fr": { "name": "Bière sans alcool — La Brasserie Parallèle", "description": "Pale Ale équilibrée et rafraîchissante. 33cl." },
-      "en": { "name": "Non-alcoholic beer — La Brasserie Parallèle", "description": "Balanced and refreshing Pale Ale. 33cl." },
-      "it": { "name": "Birra analcolica — La Brasserie Parallèle", "description": "Pale Ale equilibrata e rinfrescante. 33cl." },
-      "es": { "name": "Cerveza sin alcohol — La Brasserie Parallèle", "description": "Pale Ale equilibrada y refrescante. 33cl." }
-    }
-  },
-  {
-    "id": "cidre-sans-alcool-mauret",
-    "category": "boissons",
-    "subcategory": "Boissons Sans Alcool",
-    // "Refreshing Glass of Cider on Wooden Table" — pexels.com/photo/refreshing-glass-of-cider-on-wooden-table-29518289
-    "image": pexels(29518289),
-    "price": 6.50,
-    "allergens": [],
-    "diets": ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
-    "macros": {
-      // ESTIMATES — based on general culinary knowledge
-      "calories": 0,
-      "proteines": 0,
-      "glucides": 0,
-      "lipides": 0
-    },    "translations": {
-      "fr": { "name": "Cidre brut 0% La Source — Mauret", "description": "Cidre brut désalcoolisé aux fines bulles et fruité sec. 33cl." },
-      "en": { "name": "Dry cider 0% La Source — Mauret", "description": "Dealcoholised dry cider with fine bubbles. 33cl." },
-      "it": { "name": "Sidro brut 0% La Source — Mauret", "description": "Sidro brut dealcolizzato con bollicine fini. 33cl." },
-      "es": { "name": "Sidra brut 0% La Source — Mauret", "description": "Sidra brut desalcoholizada de finas burbujas. 33cl." }
-    }
-  },
+    // ────────────────────────────────────────────────
+    // BOISSONS SANS ALCOOL — Fermentées
+    // ────────────────────────────────────────────────
+    {
+      id: "kombucha-archipel",
+      category: "boissons",
+      subcategory: "Boissons Sans Alcool",
+      // "Assorted Beverage Bottles" — pexels.com/photo/assorted-beverage-bottles-1384039
+      image: pexels(1384039),
+      price: 6.5,
+      allergens: [],
+      diets: ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
+macros: {
+  calories: 60,
+  proteines: 0,
+  glucides: 13.5,
+  lipides: 0,
+},
+      translations: {
+        fr: {
+          name: "Kombucha — Archipel",
+          description:
+            "Boisson fermentée 100% française aux feuilles d'arbres fruitiers. Clémentine ou cassis. 33cl.",
+        },
+        en: {
+          name: "Kombucha — Archipel",
+          description:
+            "100% French fermented drink with fruit tree leaves. Clementine or blackcurrant. 33cl.",
+        },
+        it: {
+          name: "Kombucha — Archipel",
+          description:
+            "Bevanda fermentata 100% francese con foglie di alberi da frutto. Clementina o ribes nero. 33cl.",
+        },
+        es: {
+          name: "Kombucha — Archipel",
+          description:
+            "Bebida fermentada 100% francesa con hojas de árboles frutales. Clementina o grosella. 33cl.",
+        },
+      },
+    },
+    {
+      id: "ginger-beer-uma",
+      category: "boissons",
+      subcategory: "Boissons Sans Alcool",
+      // "Glasses with lemon drink on table" — pexels.com/photo/glasses-with-lemon-drink-on-table-5946627
+      image: pexels(5946627),
+      price: 5.5,
+      allergens: [],
+      diets: ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
+macros: {
+  calories: 112,
+  proteines: 0.3,
+  glucides: 27,
+  lipides: 0.1,
+},
+      translations: {
+        fr: {
+          name: "Ginger Beer — UMA",
+          description:
+            "Boisson pétillante au gingembre, citron et agave. 33cl.",
+        },
+        en: {
+          name: "Ginger Beer — UMA",
+          description: "Sparkling ginger, lemon and agave drink. 33cl.",
+        },
+        it: {
+          name: "Ginger Beer — UMA",
+          description: "Bevanda frizzante allo zenzero, limone e agave. 33cl.",
+        },
+        es: {
+          name: "Ginger Beer — UMA",
+          description: "Bebida efervescente de jengibre, limón y agave. 33cl.",
+        },
+      },
+    },
+    {
+      id: "biere-sans-alcool-brasserie-parallele",
+      category: "boissons",
+      subcategory: "Boissons Sans Alcool",
+      // "A Person Holding a Beer in a Glass" — pexels.com/photo/a-person-holding-a-beer-in-a-glass-5743361
+      image: pexels(5743361),
+      price: 6.5,
+      allergens: ["gluten"],
+      diets: ["vegan", "vegetarien"],
+macros: {
+  calories: 75,
+  proteines: 1.2,
+  glucides: 16.5,
+  lipides: 0,
+},
+      translations: {
+        fr: {
+          name: "Bière sans alcool — La Brasserie Parallèle",
+          description: "Pale Ale équilibrée et rafraîchissante. 33cl.",
+        },
+        en: {
+          name: "Non-alcoholic beer — La Brasserie Parallèle",
+          description: "Balanced and refreshing Pale Ale. 33cl.",
+        },
+        it: {
+          name: "Birra analcolica — La Brasserie Parallèle",
+          description: "Pale Ale equilibrata e rinfrescante. 33cl.",
+        },
+        es: {
+          name: "Cerveza sin alcohol — La Brasserie Parallèle",
+          description: "Pale Ale equilibrada y refrescante. 33cl.",
+        },
+      },
+    },
+    {
+      id: "cidre-sans-alcool-mauret",
+      category: "boissons",
+      subcategory: "Boissons Sans Alcool",
+      // "Refreshing Glass of Cider on Wooden Table" — pexels.com/photo/refreshing-glass-of-cider-on-wooden-table-29518289
+      image: pexels(29518289),
+      price: 6.5,
+      allergens: [],
+      diets: ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
+macros: {
+  calories: 85,
+  proteines: 0.2,
+  glucides: 20,
+  lipides: 0,
+},
+      translations: {
+        fr: {
+          name: "Cidre brut 0% La Source — Mauret",
+          description:
+            "Cidre brut désalcoolisé aux fines bulles et fruité sec. 33cl.",
+        },
+        en: {
+          name: "Dry cider 0% La Source — Mauret",
+          description: "Dealcoholised dry cider with fine bubbles. 33cl.",
+        },
+        it: {
+          name: "Sidro brut 0% La Source — Mauret",
+          description: "Sidro brut dealcolizzato con bollicine fini. 33cl.",
+        },
+        es: {
+          name: "Sidra brut 0% La Source — Mauret",
+          description: "Sidra brut desalcoholizada de finas burbujas. 33cl.",
+        },
+      },
+    },
 
-  // ────────────────────────────────────────────────
-  // BOISSONS FRAÎCHES
-  // ────────────────────────────────────────────────
-  {
-    "id": "eau-gazeuse-celtic",
-    "category": "boissons",
-    "subcategory": "Boissons Fraîches",
-    // "A Close-Up Shot of a Glass of Sparkling Water" — pexels.com/photo/a-close-up-shot-of-a-glass-of-sparkling-water-13723906
-    "image": pexels(13723906),
-    "price": 3.50,
-    "allergens": [],
-    "diets": ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
-    "macros": {
-      // ESTIMATES — based on general culinary knowledge
-      "calories": 0,
-      "proteines": 0,
-      "glucides": 0,
-      "lipides": 0
-    },    "translations": {
-      "fr": { "name": "Eau gazeuse — Celtic", "description": "50cl." },
-      "en": { "name": "Sparkling water — Celtic", "description": "50cl." },
-      "it": { "name": "Acqua frizzante — Celtic", "description": "50cl." },
-      "es": { "name": "Agua con gas — Celtic", "description": "50cl." }
-    }
-  },
-  {
-    "id": "cola-artisanal-uma",
-    "category": "boissons",
-    "subcategory": "Boissons Fraîches",
-    // "Close-Up Shot of Bottles of Curiosity Cola" — pexels.com/photo/close-up-shot-of-bottles-of-curiosity-cola-8821935
-    "image": pexels(8821935),
-    "price": 5.50,
-    "allergens": [],
-    "diets": ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
-    "macros": {
-      // ESTIMATES — based on general culinary knowledge
-      "calories": 0,
-      "proteines": 0,
-      "glucides": 0,
-      "lipides": 0
-    },    "translations": {
-      "fr": { "name": "Cola artisanal — UMA", "description": "Infusion pétillante de noix de kola, citron et épices. 33cl." },
-      "en": { "name": "Craft cola — UMA", "description": "Sparkling infusion of kola nut, lemon and spices. 33cl." },
-      "it": { "name": "Cola artigianale — UMA", "description": "Infusione frizzante di noce di cola, limone e spezie. 33cl." },
-      "es": { "name": "Cola artesanal — UMA", "description": "Infusión efervescente de nuez de cola, limón y especias. 33cl." }
-    }
-  },
-  {
-    "id": "potions-symples",
-    "category": "boissons",
-    "subcategory": "Boissons Fraîches",
-    // "Drinking Glasses with Juice" — pexels.com/photo/drinking-glasses-with-juice-5331322
-    "image": pexels(5331322),
-    "price": 5.50,
-    "allergens": [],
-    "diets": ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
-    "macros": {
-      // ESTIMATES — based on general culinary knowledge
-      "calories": 0,
-      "proteines": 0,
-      "glucides": 0,
-      "lipides": 0
-    },    "translations": {
-      "fr": { "name": "Potions Symples", "description": "Infusions de plantes finement pétillantes, très peu sucrées. Relax (verveine, cerise, lavande) ou Détox (sauge, sureau, pomme). 33cl." },
-      "en": { "name": "Potions Symples", "description": "Lightly sparkling, barely-sweet herbal infusions. Relax (verbena, cherry, lavender) or Detox (sage, elderflower, apple). 33cl." },
-      "it": { "name": "Potions Symples", "description": "Infusioni di erbe leggermente frizzanti e poco zuccherate. Relax (verbena, ciliegia, lavanda) o Detox (salvia, sambuco, mela). 33cl." },
-      "es": { "name": "Potions Symples", "description": "Infusiones de plantas ligeramente efervescentes y poco azucaradas. Relax (verbena, cereza, lavanda) o Détox (salvia, saúco, manzana). 33cl." }
-    }
-  },
+    // ────────────────────────────────────────────────
+    // BOISSONS FRAÎCHES
+    // ────────────────────────────────────────────────
+    {
+      id: "eau-gazeuse-celtic",
+      category: "boissons",
+      subcategory: "Boissons Fraîches",
+      // "A Close-Up Shot of a Glass of Sparkling Water" — pexels.com/photo/a-close-up-shot-of-a-glass-of-sparkling-water-13723906
+      image: pexels(13723906),
+      price: 3.5,
+      allergens: [],
+      diets: ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
+      macros: {
+        // ESTIMATES — based on general culinary knowledge
+        calories: 0,
+        proteines: 0,
+        glucides: 0,
+        lipides: 0,
+      },
+      translations: {
+        fr: { name: "Eau gazeuse — Celtic", description: "50cl." },
+        en: { name: "Sparkling water — Celtic", description: "50cl." },
+        it: { name: "Acqua frizzante — Celtic", description: "50cl." },
+        es: { name: "Agua con gas — Celtic", description: "50cl." },
+      },
+    },
+    {
+      id: "cola-artisanal-uma",
+      category: "boissons",
+      subcategory: "Boissons Fraîches",
+      // "Close-Up Shot of Bottles of Curiosity Cola" — pexels.com/photo/close-up-shot-of-bottles-of-curiosity-cola-8821935
+      image: pexels(8821935),
+      price: 5.5,
+      allergens: [],
+      diets: ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
+macros: {
+  calories: 115,
+  proteines: 0,
+  glucides: 28,
+  lipides: 0,
+},
+      translations: {
+        fr: {
+          name: "Cola artisanal — UMA",
+          description:
+            "Infusion pétillante de noix de kola, citron et épices. 33cl.",
+        },
+        en: {
+          name: "Craft cola — UMA",
+          description:
+            "Sparkling infusion of kola nut, lemon and spices. 33cl.",
+        },
+        it: {
+          name: "Cola artigianale — UMA",
+          description:
+            "Infusione frizzante di noce di cola, limone e spezie. 33cl.",
+        },
+        es: {
+          name: "Cola artesanal — UMA",
+          description:
+            "Infusión efervescente de nuez de cola, limón y especias. 33cl.",
+        },
+      },
+    },
+    {
+      id: "potions-symples",
+      category: "boissons",
+      subcategory: "Boissons Fraîches",
+      // "Drinking Glasses with Juice" — pexels.com/photo/drinking-glasses-with-juice-5331322
+      image: pexels(5331322),
+      price: 5.5,
+      allergens: [],
+      diets: ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
+      macros: {
+        // ESTIMATES — based on general culinary knowledge
+        calories: 0,
+        proteines: 0,
+        glucides: 0,
+        lipides: 0,
+      },
+      translations: {
+        fr: {
+          name: "Potions Symples",
+          description:
+            "Infusions de plantes finement pétillantes, très peu sucrées. Relax (verveine, cerise, lavande) ou Détox (sauge, sureau, pomme). 33cl.",
+        },
+        en: {
+          name: "Potions Symples",
+          description:
+            "Lightly sparkling, barely-sweet herbal infusions. Relax (verbena, cherry, lavender) or Detox (sage, elderflower, apple). 33cl.",
+        },
+        it: {
+          name: "Potions Symples",
+          description:
+            "Infusioni di erbe leggermente frizzanti e poco zuccherate. Relax (verbena, ciliegia, lavanda) o Detox (salvia, sambuco, mela). 33cl.",
+        },
+        es: {
+          name: "Potions Symples",
+          description:
+            "Infusiones de plantas ligeramente efervescentes y poco azucaradas. Relax (verbena, cereza, lavanda) o Détox (salvia, saúco, manzana). 33cl.",
+        },
+      },
+    },
 
-  // ────────────────────────────────────────────────
-  // BOISSONS CHAUDES
-  // ────────────────────────────────────────────────
-  {
-    "id": "espresso-allonge",
-    "category": "boissons",
-    "subcategory": "Boissons Chaudes",
-    // "Close-up of a Shot of Espresso" — pexels.com/photo/close-up-of-a-shot-of-espresso-9050518
-    "image": pexels(9050518),
-    "price": 2.80,
-    "allergens": [],
-    "diets": ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
-    "macros": {
-      // ESTIMATES — based on general culinary knowledge
-      "calories": 0,
-      "proteines": 0,
-      "glucides": 0,
-      "lipides": 0
-    },    "translations": {
-      "fr": { "name": "Espresso ou allongé", "description": "Café de spécialité Fazendas (Brésil) / Terres de café. Notes de chocolat et caramel. 8cl." },
-      "en": { "name": "Espresso or lungo", "description": "Specialty coffee Fazendas (Brazil) / Terres de café. Chocolate and caramel notes. 8cl." },
-      "it": { "name": "Espresso o caffè lungo", "description": "Caffè di specialità Fazendas (Brasile) / Terres de café. Note di cioccolato e caramello. 8cl." },
-      "es": { "name": "Espresso o americano", "description": "Café de especialidad Fazendas (Brasil) / Terres de café. Notas de chocolate y caramelo. 8cl." }
-    }
-  },
-  {
-    "id": "decafeine",
-    "category": "boissons",
-    "subcategory": "Boissons Chaudes",
-    // "Empty Cup of Coffee" — pexels.com/photo/empty-cup-of-coffee-19425454
-    "image": pexels(19425454),
-    "price": 2.80,
-    "allergens": [],
-    "diets": ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
-    "macros": {
-      // ESTIMATES — based on general culinary knowledge
-      "calories": 0,
-      "proteines": 0,
-      "glucides": 0,
-      "lipides": 0
-    },    "translations": {
-      "fr": { "name": "Décaféiné", "description": "3cl." },
-      "en": { "name": "Decaf", "description": "3cl." },
-      "it": { "name": "Decaffeinato", "description": "3cl." },
-      "es": { "name": "Descafeinado", "description": "3cl." }
-    }
-  },
-  {
-    "id": "cappuccino-avoine",
-    "category": "boissons",
-    "subcategory": "Boissons Chaudes",
-    // "Elegant Cappuccino with Latte Art in a Cozy Café" — pexels.com/photo/elegant-cappuccino-with-latte-art-in-a-cozy-cafe-30707443
-    "image": pexels(30707443),
-    "price": 4.50,
-    "allergens": ["gluten"],
-    "diets": ["vegan", "vegetarien"],
-    "macros": {
-      // ESTIMATES — based on general culinary knowledge
-      "calories": 0,
-      "proteines": 0,
-      "glucides": 0,
-      "lipides": 0
-    },    "translations": {
-      "fr": { "name": "Cappuccino — lait d'avoine", "description": "Lait d'avoine Bio Minor Figures. 20cl." },
-      "en": { "name": "Cappuccino — oat milk", "description": "Organic Minor Figures oat milk. 20cl." },
-      "it": { "name": "Cappuccino — latte d'avena", "description": "Latte d'avena biologico Minor Figures. 20cl." },
-      "es": { "name": "Cappuccino — leche de avena", "description": "Leche de avena ecológica Minor Figures. 20cl." }
-    }
-  },
-  {
-    "id": "latte-avoine",
-    "category": "boissons",
-    "subcategory": "Boissons Chaudes",
-    // "Coffee and Oat Milk on Table" — pexels.com/photo/coffee-and-oat-milk-on-table-9928236
-    "image": pexels(9928236),
-    "price": 5.00,
-    "allergens": ["gluten"],
-    "diets": ["vegan", "vegetarien"],
-    "macros": {
-      // ESTIMATES — based on general culinary knowledge
-      "calories": 0,
-      "proteines": 0,
-      "glucides": 0,
-      "lipides": 0
-    },    "translations": {
-      "fr": { "name": "Latte — lait d'avoine", "description": "Lait d'avoine Bio Minor Figures. 30cl." },
-      "en": { "name": "Latte — oat milk", "description": "Organic Minor Figures oat milk. 30cl." },
-      "it": { "name": "Latte — latte d'avena", "description": "Latte d'avena biologico Minor Figures. 30cl." },
-      "es": { "name": "Latte — leche de avena", "description": "Leche de avena ecológica Minor Figures. 30cl." }
-    }
-  },
-  {
-    "id": "chocolat-chaud-plaq",
-    "category": "boissons",
-    "subcategory": "Boissons Chaudes",
-    // "Hot Chocolate with Marshmallows on Clear Glass Cup" — pexels.com/photo/hot-chocolate-with-marshmallows-on-clear-glass-cup-7994278
-    "image": pexels(7994278),
-    "price": 6.00,
-    "allergens": ["gluten"],
-    "diets": ["vegan", "vegetarien"],
-    "macros": {
-      // ESTIMATES — based on general culinary knowledge
-      "calories": 0,
-      "proteines": 0,
-      "glucides": 0,
-      "lipides": 0
-    },    "translations": {
-      "fr": { "name": "Chocolat chaud PlaQ", "description": "Chocolat noir Maya Mountain 76% de la maison PlaQ, au lait d'avoine. 30cl." },
-      "en": { "name": "Hot chocolate PlaQ", "description": "Maya Mountain 76% dark chocolate from PlaQ, with oat milk. 30cl." },
-      "it": { "name": "Cioccolata calda PlaQ", "description": "Cioccolato fondente Maya Mountain 76% di PlaQ, con latte d'avena. 30cl." },
-      "es": { "name": "Chocolate caliente PlaQ", "description": "Chocolate negro Maya Mountain 76% de PlaQ, con leche de avena. 30cl." }
-    }
-  },
-  {
-    "id": "matcha-latte",
-    "category": "boissons",
-    "subcategory": "Boissons Chaudes",
-    // "Top View Photo of Matcha Latte" — pexels.com/photo/top-view-photo-of-matcha-latte-5168518
-    "image": pexels(5168518),
-    "price": 6.00,
-    "allergens": ["gluten"],
-    "diets": ["vegan", "vegetarien"],
-    "macros": {
-      // ESTIMATES — based on general culinary knowledge
-      "calories": 0,
-      "proteines": 0,
-      "glucides": 0,
-      "lipides": 0
-    },    "translations": {
-      "fr": { "name": "Matcha latte", "description": "Thé vert matcha cérémonie Kodama (bio), au lait d'avoine. 30cl." },
-      "en": { "name": "Matcha latte", "description": "Kodama ceremony matcha (organic), with oat milk. 30cl." },
-      "it": { "name": "Matcha latte", "description": "Tè verde matcha cerimonia Kodama (biologico), con latte d'avena. 30cl." },
-      "es": { "name": "Matcha latte", "description": "Matcha de ceremonia Kodama (ecológico), con leche de avena. 30cl." }
-    }
-  },
-  {
-    "id": "chai-latte",
-    "category": "boissons",
-    "subcategory": "Boissons Chaudes",
-    // "Cup of masala chai on table" — pexels.com/photo/cup-of-masala-chai-on-table-5946623
-    "image": pexels(5946623),
-    "price": 5.50,
-    "allergens": ["gluten"],
-    "diets": ["vegan", "vegetarien"],
-    "macros": {
-      // ESTIMATES — based on general culinary knowledge
-      "calories": 0,
-      "proteines": 0,
-      "glucides": 0,
-      "lipides": 0
-    },    "translations": {
-      "fr": { "name": "Chaï latte", "description": "Mélange d'épices bio Nomie, au lait d'avoine. 30cl." },
-      "en": { "name": "Chai latte", "description": "Organic Nomie spice blend, with oat milk. 30cl." },
-      "it": { "name": "Chai latte", "description": "Miscela di spezie biologiche Nomie, con latte d'avena. 30cl." },
-      "es": { "name": "Chai latte", "description": "Mezcla de especias ecológicas Nomie, con leche de avena. 30cl." }
-    }
-  },
+    // ────────────────────────────────────────────────
+    // BOISSONS CHAUDES
+    // ────────────────────────────────────────────────
+    {
+      id: "espresso-allonge",
+      category: "boissons",
+      subcategory: "Boissons Chaudes",
+      // "Close-up of a Shot of Espresso" — pexels.com/photo/close-up-of-a-shot-of-espresso-9050518
+      image: pexels(9050518),
+      price: 2.8,
+      allergens: [],
+      diets: ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
+      macros: {
+        // ESTIMATES — based on general culinary knowledge
+        calories: 0,
+        proteines: 0,
+        glucides: 0,
+        lipides: 0,
+      },
+      translations: {
+        fr: {
+          name: "Espresso ou allongé",
+          description:
+            "Café de spécialité Fazendas (Brésil) / Terres de café. Notes de chocolat et caramel. 8cl.",
+        },
+        en: {
+          name: "Espresso or lungo",
+          description:
+            "Specialty coffee Fazendas (Brazil) / Terres de café. Chocolate and caramel notes. 8cl.",
+        },
+        it: {
+          name: "Espresso o caffè lungo",
+          description:
+            "Caffè di specialità Fazendas (Brasile) / Terres de café. Note di cioccolato e caramello. 8cl.",
+        },
+        es: {
+          name: "Espresso o americano",
+          description:
+            "Café de especialidad Fazendas (Brasil) / Terres de café. Notas de chocolate y caramelo. 8cl.",
+        },
+      },
+    },
+    {
+      id: "decafeine",
+      category: "boissons",
+      subcategory: "Boissons Chaudes",
+      // "Empty Cup of Coffee" — pexels.com/photo/empty-cup-of-coffee-19425454
+      image: pexels(19425454),
+      price: 2.8,
+      allergens: [],
+      diets: ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
+      macros: {
+        // ESTIMATES — based on general culinary knowledge
+        calories: 0,
+        proteines: 0,
+        glucides: 0,
+        lipides: 0,
+      },
+      translations: {
+        fr: { name: "Décaféiné", description: "3cl." },
+        en: { name: "Decaf", description: "3cl." },
+        it: { name: "Decaffeinato", description: "3cl." },
+        es: { name: "Descafeinado", description: "3cl." },
+      },
+    },
+    {
+      id: "cappuccino-avoine",
+      category: "boissons",
+      subcategory: "Boissons Chaudes",
+      // "Elegant Cappuccino with Latte Art in a Cozy Café" — pexels.com/photo/elegant-cappuccino-with-latte-art-in-a-cozy-cafe-30707443
+      image: pexels(30707443),
+      price: 4.5,
+      allergens: ["gluten"],
+      diets: ["vegan", "vegetarien"],
+macros: {
+  calories: 67,
+  proteines: 0.3,
+  glucides: 13.3,
+  lipides: 3,
+},
+      translations: {
+        fr: {
+          name: "Cappuccino — lait d'avoine",
+          description: "Lait d'avoine Bio Minor Figures. 20cl.",
+        },
+        en: {
+          name: "Cappuccino — oat milk",
+          description: "Organic Minor Figures oat milk. 20cl.",
+        },
+        it: {
+          name: "Cappuccino — latte d'avena",
+          description: "Latte d'avena biologico Minor Figures. 20cl.",
+        },
+        es: {
+          name: "Cappuccino — leche de avena",
+          description: "Leche de avena ecológica Minor Figures. 20cl.",
+        },
+      },
+    },
+    {
+      id: "latte-avoine",
+      category: "boissons",
+      subcategory: "Boissons Chaudes",
+      // "Coffee and Oat Milk on Table" — pexels.com/photo/coffee-and-oat-milk-on-table-9928236
+      image: pexels(9928236),
+      price: 5.0,
+      allergens: ["gluten"],
+      diets: ["vegan", "vegetarien"],
+macros: {
+  calories: 115,
+  proteines: 0.5,
+  glucides: 22.8,
+  lipides: 5,
+},
+      translations: {
+        fr: {
+          name: "Latte — lait d'avoine",
+          description: "Lait d'avoine Bio Minor Figures. 30cl.",
+        },
+        en: {
+          name: "Latte — oat milk",
+          description: "Organic Minor Figures oat milk. 30cl.",
+        },
+        it: {
+          name: "Latte — latte d'avena",
+          description: "Latte d'avena biologico Minor Figures. 30cl.",
+        },
+        es: {
+          name: "Latte — leche de avena",
+          description: "Leche de avena ecológica Minor Figures. 30cl.",
+        },
+      },
+    },
+    {
+      id: "chocolat-chaud-plaq",
+      category: "boissons",
+      subcategory: "Boissons Chaudes",
+      // "Hot Chocolate with Marshmallows on Clear Glass Cup" — pexels.com/photo/hot-chocolate-with-marshmallows-on-clear-glass-cup-7994278
+      image: pexels(7994278),
+      price: 6.0,
+      allergens: ["gluten"],
+      diets: ["vegan", "vegetarien"],
+macros: {
+  calories: 275,
+  proteines: 3,
+  glucides: 35,
+  lipides: 14,
+},
+      translations: {
+        fr: {
+          name: "Chocolat chaud PlaQ",
+          description:
+            "Chocolat noir Maya Mountain 76% de la maison PlaQ, au lait d'avoine. 30cl.",
+        },
+        en: {
+          name: "Hot chocolate PlaQ",
+          description:
+            "Maya Mountain 76% dark chocolate from PlaQ, with oat milk. 30cl.",
+        },
+        it: {
+          name: "Cioccolata calda PlaQ",
+          description:
+            "Cioccolato fondente Maya Mountain 76% di PlaQ, con latte d'avena. 30cl.",
+        },
+        es: {
+          name: "Chocolate caliente PlaQ",
+          description:
+            "Chocolate negro Maya Mountain 76% de PlaQ, con leche de avena. 30cl.",
+        },
+      },
+    },
+    {
+      id: "matcha-latte",
+      category: "boissons",
+      subcategory: "Boissons Chaudes",
+      // "Top View Photo of Matcha Latte" — pexels.com/photo/top-view-photo-of-matcha-latte-5168518
+      image: pexels(5168518),
+      price: 6.0,
+      allergens: ["gluten"],
+      diets: ["vegan", "vegetarien"],
+macros: {
+  calories: 128,
+  proteines: 1,
+  glucides: 24.5,
+  lipides: 5.3,
+},
+      translations: {
+        fr: {
+          name: "Matcha latte",
+          description:
+            "Thé vert matcha cérémonie Kodama (bio), au lait d'avoine. 30cl.",
+        },
+        en: {
+          name: "Matcha latte",
+          description: "Kodama ceremony matcha (organic), with oat milk. 30cl.",
+        },
+        it: {
+          name: "Matcha latte",
+          description:
+            "Tè verde matcha cerimonia Kodama (biologico), con latte d'avena. 30cl.",
+        },
+        es: {
+          name: "Matcha latte",
+          description:
+            "Matcha de ceremonia Kodama (ecológico), con leche de avena. 30cl.",
+        },
+      },
+    },
+    {
+      id: "chai-latte",
+      category: "boissons",
+      subcategory: "Boissons Chaudes",
+      // "Cup of masala chai on table" — pexels.com/photo/cup-of-masala-chai-on-table-5946623
+      image: pexels(5946623),
+      price: 5.5,
+      allergens: ["gluten"],
+      diets: ["vegan", "vegetarien"],
+macros: {
+  calories: 122,
+  proteines: 0.5,
+  glucides: 24,
+  lipides: 5.2,
+},
+      translations: {
+        fr: {
+          name: "Chaï latte",
+          description: "Mélange d'épices bio Nomie, au lait d'avoine. 30cl.",
+        },
+        en: {
+          name: "Chai latte",
+          description: "Organic Nomie spice blend, with oat milk. 30cl.",
+        },
+        it: {
+          name: "Chai latte",
+          description:
+            "Miscela di spezie biologiche Nomie, con latte d'avena. 30cl.",
+        },
+        es: {
+          name: "Chai latte",
+          description:
+            "Mezcla de especias ecológicas Nomie, con leche de avena. 30cl.",
+        },
+      },
+    },
 
-  // ────────────────────────────────────────────────
-  // THÉS — KODAMA
-  // ────────────────────────────────────────────────
-  {
-    "id": "the-monts-et-merveilles",
-    "category": "boissons",
-    "subcategory": "Thés",
-    // "A Tea in a Cup" — pexels.com/photo/a-tea-in-a-cup-7167298
-    "image": pexels(7167298),
-    "price": 5.00,
-    "allergens": [],
-    "diets": ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
-    "macros": {
-      // ESTIMATES — based on general culinary knowledge
-      "calories": 0,
-      "proteines": 0,
-      "glucides": 0,
-      "lipides": 0
-    },    "translations": {
-      "fr": { "name": "Monts et merveilles — Kodama", "description": "Thé vert, poire et baie de sureau. 30cl." },
-      "en": { "name": "Monts et merveilles — Kodama", "description": "Green tea, pear and elderberry. 30cl." },
-      "it": { "name": "Monts et merveilles — Kodama", "description": "Tè verde, pera e bacca di sambuco. 30cl." },
-      "es": { "name": "Monts et merveilles — Kodama", "description": "Té verde, pera y baya de saúco. 30cl." }
-    }
-  },
-  {
-    "id": "the-pres-du-coeur",
-    "category": "boissons",
-    "subcategory": "Thés",
-    // "Tea Cup with Teapot" — pexels.com/photo/tea-cup-with-teapot-12698360
-    "image": pexels(12698360),
-    "price": 5.00,
-    "allergens": [],
-    "diets": ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
-    "macros": {
-      // ESTIMATES — based on general culinary knowledge
-      "calories": 0,
-      "proteines": 0,
-      "glucides": 0,
-      "lipides": 0
-    },    "translations": {
-      "fr": { "name": "Près du cœur — Kodama", "description": "Rooibos abricot, thym et pêche. 30cl." },
-      "en": { "name": "Près du cœur — Kodama", "description": "Apricot rooibos, thyme and peach. 30cl." },
-      "it": { "name": "Près du cœur — Kodama", "description": "Rooibos albicocca, timo e pesca. 30cl." },
-      "es": { "name": "Près du cœur — Kodama", "description": "Rooibos albaricoque, tomillo y melocotón. 30cl." }
-    }
-  },
-  {
-    "id": "the-champs-des-possibles",
-    "category": "boissons",
-    "subcategory": "Thés",
-    // "Top View of Ceremonial Tea Setup on Wooden Tray" — pexels.com/photo/top-view-of-ceremonial-tea-setup-on-wooden-tray-34917497
-    "image": pexels(34917497),
-    "price": 5.00,
-    "allergens": ["gluten"],
-    "diets": ["vegan", "vegetarien"],
-    "macros": {
-      // ESTIMATES — based on general culinary knowledge
-      "calories": 0,
-      "proteines": 0,
-      "glucides": 0,
-      "lipides": 0
-    },    "translations": {
-      "fr": { "name": "Le champs des possibles — Kodama", "description": "Thé bleu, orge et sarrasin grillés. 30cl." },
-      "en": { "name": "Le champs des possibles — Kodama", "description": "Blue tea, roasted barley and buckwheat. 30cl." },
-      "it": { "name": "Le champs des possibles — Kodama", "description": "Tè blu, orzo e grano saraceno tostati. 30cl." },
-      "es": { "name": "Le champs des possibles — Kodama", "description": "Té azul, cebada y trigo sarraceno tostados. 30cl." }
-    }
-  },
-  {
-    "id": "the-belle-etoile",
-    "category": "boissons",
-    "subcategory": "Thés",
-    // "White Cup with Tea" — pexels.com/photo/white-cup-with-tea-7383454
-    "image": pexels(7383454),
-    "price": 5.00,
-    "allergens": [],
-    "diets": ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
-    "macros": {
-      // ESTIMATES — based on general culinary knowledge
-      "calories": 0,
-      "proteines": 0,
-      "glucides": 0,
-      "lipides": 0
-    },    "translations": {
-      "fr": { "name": "À la belle étoile — Kodama", "description": "Infusion verveine, mandarine et basilic sacré. 30cl." },
-      "en": { "name": "À la belle étoile — Kodama", "description": "Verbena, mandarin and holy basil infusion. 30cl." },
-      "it": { "name": "À la belle étoile — Kodama", "description": "Infusione di verbena, mandarino e basilico sacro. 30cl." },
-      "es": { "name": "À la belle étoile — Kodama", "description": "Infusión de verbena, mandarina y albahaca sagrada. 30cl." }
-    }
-  },
+    // ────────────────────────────────────────────────
+    // THÉS — KODAMA
+    // ────────────────────────────────────────────────
+    {
+      id: "the-monts-et-merveilles",
+      category: "boissons",
+      subcategory: "Thés",
+      // "A Tea in a Cup" — pexels.com/photo/a-tea-in-a-cup-7167298
+      image: pexels(7167298),
+      price: 5.0,
+      allergens: [],
+      diets: ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
+      macros: {
+        // ESTIMATES — based on general culinary knowledge
+        calories: 0,
+        proteines: 0,
+        glucides: 0,
+        lipides: 0,
+      },
+      translations: {
+        fr: {
+          name: "Monts et merveilles — Kodama",
+          description: "Thé vert, poire et baie de sureau. 30cl.",
+        },
+        en: {
+          name: "Monts et merveilles — Kodama",
+          description: "Green tea, pear and elderberry. 30cl.",
+        },
+        it: {
+          name: "Monts et merveilles — Kodama",
+          description: "Tè verde, pera e bacca di sambuco. 30cl.",
+        },
+        es: {
+          name: "Monts et merveilles — Kodama",
+          description: "Té verde, pera y baya de saúco. 30cl.",
+        },
+      },
+    },
+    {
+      id: "the-pres-du-coeur",
+      category: "boissons",
+      subcategory: "Thés",
+      // "Tea Cup with Teapot" — pexels.com/photo/tea-cup-with-teapot-12698360
+      image: pexels(12698360),
+      price: 5.0,
+      allergens: [],
+      diets: ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
+      macros: {
+        // ESTIMATES — based on general culinary knowledge
+        calories: 0,
+        proteines: 0,
+        glucides: 0,
+        lipides: 0,
+      },
+      translations: {
+        fr: {
+          name: "Près du cœur — Kodama",
+          description: "Rooibos abricot, thym et pêche. 30cl.",
+        },
+        en: {
+          name: "Près du cœur — Kodama",
+          description: "Apricot rooibos, thyme and peach. 30cl.",
+        },
+        it: {
+          name: "Près du cœur — Kodama",
+          description: "Rooibos albicocca, timo e pesca. 30cl.",
+        },
+        es: {
+          name: "Près du cœur — Kodama",
+          description: "Rooibos albaricoque, tomillo y melocotón. 30cl.",
+        },
+      },
+    },
+    {
+      id: "the-champs-des-possibles",
+      category: "boissons",
+      subcategory: "Thés",
+      // "Top View of Ceremonial Tea Setup on Wooden Tray" — pexels.com/photo/top-view-of-ceremonial-tea-setup-on-wooden-tray-34917497
+      image: pexels(34917497),
+      price: 5.0,
+      allergens: ["gluten"],
+      diets: ["vegan", "vegetarien"],
+      macros: {
+        // ESTIMATES — based on general culinary knowledge
+        calories: 0,
+        proteines: 0,
+        glucides: 0,
+        lipides: 0,
+      },
+      translations: {
+        fr: {
+          name: "Le champs des possibles — Kodama",
+          description: "Thé bleu, orge et sarrasin grillés. 30cl.",
+        },
+        en: {
+          name: "Le champs des possibles — Kodama",
+          description: "Blue tea, roasted barley and buckwheat. 30cl.",
+        },
+        it: {
+          name: "Le champs des possibles — Kodama",
+          description: "Tè blu, orzo e grano saraceno tostati. 30cl.",
+        },
+        es: {
+          name: "Le champs des possibles — Kodama",
+          description: "Té azul, cebada y trigo sarraceno tostados. 30cl.",
+        },
+      },
+    },
+    {
+      id: "the-belle-etoile",
+      category: "boissons",
+      subcategory: "Thés",
+      // "White Cup with Tea" — pexels.com/photo/white-cup-with-tea-7383454
+      image: pexels(7383454),
+      price: 5.0,
+      allergens: [],
+      diets: ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
+      macros: {
+        // ESTIMATES — based on general culinary knowledge
+        calories: 0,
+        proteines: 0,
+        glucides: 0,
+        lipides: 0,
+      },
+      translations: {
+        fr: {
+          name: "À la belle étoile — Kodama",
+          description: "Infusion verveine, mandarine et basilic sacré. 30cl.",
+        },
+        en: {
+          name: "À la belle étoile — Kodama",
+          description: "Verbena, mandarin and holy basil infusion. 30cl.",
+        },
+        it: {
+          name: "À la belle étoile — Kodama",
+          description:
+            "Infusione di verbena, mandarino e basilico sacro. 30cl.",
+        },
+        es: {
+          name: "À la belle étoile — Kodama",
+          description:
+            "Infusión de verbena, mandarina y albahaca sagrada. 30cl.",
+        },
+      },
+    },
 
-  // ────────────────────────────────────────────────
-  // VINS BLANCS
-  // ────────────────────────────────────────────────
-  {
-    "id": "vin-blanc-granilites-chapoutier-2022",
-    "category": "vins",
-    "subcategory": "Vins Blançs",
-    // "Elegant Glass of White Wine on Table" — pexels.com/photo/elegant-glass-of-white-wine-on-table-in-houston-28454104
-    "image": pexels(28454104),
-    "price": 14.00,
-    "allergens": ["so2"],
-    "diets": ["vegan", "vegetarien"],
-    "macros": {
-      // ESTIMATES — based on general culinary knowledge
-      "calories": 0,
-      "proteines": 0,
-      "glucides": 0,
-      "lipides": 0
-    },    "translations": {
-      "fr": { "name": "Les Granilites 2022 — M. Chapoutier / AOP Saint Joseph", "description": "Marsanne. Attaque fraîche, tension minérale, finale longue avec un joli fondu boisé. 12cl / 34,50€ 37,5cl / 69€ 75cl." },
-      "en": { "name": "Les Granilites 2022 — M. Chapoutier / AOP Saint Joseph", "description": "Marsanne. Fresh attack, mineral tension, long finish with elegant oak. 12cl / €34.50 37.5cl / €69 75cl." },
-      "it": { "name": "Les Granilites 2022 — M. Chapoutier / AOP Saint Joseph", "description": "Marsanne. Attacco fresco, tensione minerale, finale lunga con un bel rovere. 12cl / 34,50€ 37,5cl / 69€ 75cl." },
-      "es": { "name": "Les Granilites 2022 — M. Chapoutier / AOP Saint Joseph", "description": "Marsanne. Entrada fresca, tensión mineral, final largo con madera elegante. 12cl / 34,50€ 37,5cl / 69€ 75cl." }
-    }
-  },
-  {
-    "id": "vin-blanc-bourgogne-aligote-gueguen-2022",
-    "category": "vins",
-    "subcategory": "Vins Blançs",
-    // "Clear Wine Glass With Yellow Liquid" — pexels.com/photo/clear-wine-glass-with-yellow-liquid-11292247
-    "image": pexels(11292247),
-    "price": 11.00,
-    "allergens": ["so2"],
-    "diets": ["vegan", "vegetarien"],
-    "macros": {
-      // ESTIMATES — based on general culinary knowledge
-      "calories": 0,
-      "proteines": 0,
-      "glucides": 0,
-      "lipides": 0
-    },    "translations": {
-      "fr": { "name": "Bourgogne Aligoté 2022 — Domaine Gueguen", "description": "Aligoté. Notes salines, belle texture, fleurs blanches et agrumes au nez. 12cl / 26€ 37,5cl / 52€ 75cl." },
-      "en": { "name": "Bourgogne Aligoté 2022 — Domaine Gueguen", "description": "Aligoté. Saline notes, fine texture, white flowers and citrus on the nose. 12cl / €26 37.5cl / €52 75cl." },
-      "it": { "name": "Bourgogne Aligoté 2022 — Domaine Gueguen", "description": "Aligoté. Note saline, bella texture, fiori bianchi e agrumi al naso. 12cl / 26€ 37,5cl / 52€ 75cl." },
-      "es": { "name": "Bourgogne Aligoté 2022 — Domaine Gueguen", "description": "Aligoté. Notas salinas, buena textura, flores blancas y cítricos en nariz. 12cl / 26€ 37,5cl / 52€ 75cl." }
-    }
-  },
-  {
-    "id": "vin-blanc-haut-benauge-chateau-ferran-2022",
-    "category": "vins",
-    "subcategory": "Vins Blancs",
-    // "Elegant Glass of White Wine on Table" — pexels.com/photo/elegant-glass-of-white-wine-on-table-in-houston-28454104
-    "image": pexels(28454104),
-    "price": 7.00,
-    "allergens": ["so2"],
-    "diets": ["vegan", "vegetarien"],
-    "macros": {
-      // ESTIMATES — based on general culinary knowledge
-      "calories": 0,
-      "proteines": 0,
-      "glucides": 0,
-      "lipides": 0
-    },    "translations": {
-      "fr": { "name": "Haut Benauge 2022 — Château Ferran / AOC Entre-deux-Mers", "description": "Sauvignon, Sémillon & Muscadelle. Nez fruité, fleurs blanches, agrumes, belle minéralité. 12cl / 18€ 37,5cl / 36€ 75cl." },
-      "en": { "name": "Haut Benauge 2022 — Château Ferran / AOC Entre-deux-Mers", "description": "Sauvignon, Semillon & Muscadelle. Fruity nose, white flowers, citrus, beautiful minerality. 12cl / €18 37.5cl / €36 75cl." },
-      "it": { "name": "Haut Benauge 2022 — Château Ferran / AOC Entre-deux-Mers", "description": "Sauvignon, Sémillon & Muscadelle. Naso fruttato, fiori bianchi, agrumi, bella mineralità. 12cl / 18€ 37,5cl / 36€ 75cl." },
-      "es": { "name": "Haut Benauge 2022 — Château Ferran / AOC Entre-deux-Mers", "description": "Sauvignon, Sémillon & Muscadelle. Nariz afrutada, flores blancas, cítricos, buena mineralidad. 12cl / 18€ 37,5cl / 36€ 75cl." }
-    }
-  },
-  {
-    "id": "vin-blanc-cattin-sauvage-gewurztraminer-2021",
-    "category": "vins",
-    "subcategory": "Vins Blancs",
-    // "Clear Wine Glass With Yellow Liquid" — pexels.com/photo/clear-wine-glass-with-yellow-liquid-11292247
-    "image": pexels(11292247),
-    "price": 8.00,
-    "allergens": ["so2"],
-    "diets": ["vegan", "vegetarien"],
-    "macros": {
-      // ESTIMATES — based on general culinary knowledge
-      "calories": 0,
-      "proteines": 0,
-      "glucides": 0,
-      "lipides": 0
-    },    "translations": {
-      "fr": { "name": "Cattin Sauvage 2021 — Maison Joseph Cattin / AOC Alsace", "description": "Gewurztraminer. Nez expressif de mangue fraîche et de rose. Parfait apéritif ou accord fromage. 12cl / 20€ 37,5cl / 40€ 75cl." },
-      "en": { "name": "Cattin Sauvage 2021 — Maison Joseph Cattin / AOC Alsace", "description": "Gewurztraminer. Expressive nose of fresh mango and rose. Perfect aperitif or cheese pairing. 12cl / €20 37.5cl / €40 75cl." },
-      "it": { "name": "Cattin Sauvage 2021 — Maison Joseph Cattin / AOC Alsace", "description": "Gewurztraminer. Naso espressivo di mango fresco e rosa. Perfetto come aperitivo o con il formaggio. 12cl / 20€ 37,5cl / 40€ 75cl." },
-      "es": { "name": "Cattin Sauvage 2021 — Maison Joseph Cattin / AOC Alsace", "description": "Gewurztraminer. Nariz expresiva de mango fresco y rosa. Perfecto como aperitivo o con queso. 12cl / 20€ 37,5cl / 40€ 75cl." }
-    }
-  },
-  {
-    "id": "vin-blanc-cuvee-lune-viognier-2024",
-    "category": "vins",
-    "subcategory": "Vins Blancs",
-    // "Elegant Glass of White Wine on Table" — pexels.com/photo/elegant-glass-of-white-wine-on-table-in-houston-28454104
-    "image": pexels(28454104),
-    "price": 8.00,
-    "allergens": ["so2"],
-    "diets": ["vegan", "vegetarien"],
-    "macros": {
-      // ESTIMATES — based on general culinary knowledge
-      "calories": 0,
-      "proteines": 0,
-      "glucides": 0,
-      "lipides": 0
-    },    "translations": {
-      "fr": { "name": "Cuvée Lune Viognier 2024 — Domaine Ricardelle de Lautrec / IGP Pays d'Oc", "description": "Viognier. Floral, notes de pêche, très frais et vif. 12cl / 20€ 37,5cl / 40€ 75cl." },
-      "en": { "name": "Cuvée Lune Viognier 2024 — Domaine Ricardelle de Lautrec / IGP Pays d'Oc", "description": "Viognier. Floral, peach notes, very fresh and lively. 12cl / €20 37.5cl / €40 75cl." },
-      "it": { "name": "Cuvée Lune Viognier 2024 — Domaine Ricardelle de Lautrec / IGP Pays d'Oc", "description": "Viognier. Floreale, note di pesca, molto fresco e vivace. 12cl / 20€ 37,5cl / 40€ 75cl." },
-      "es": { "name": "Cuvée Lune Viognier 2024 — Domaine Ricardelle de Lautrec / IGP Pays d'Oc", "description": "Viognier. Floral, notas de melocotón, muy fresco y vivo. 12cl / 20€ 37,5cl / 40€ 75cl." }
-    }
-  },
-  {
-    "id": "vin-blanc-sauvagine-2024",
-    "category": "vins",
-    "subcategory": "Vins Blancs",
-    // "Clear Wine Glass With Yellow Liquid" — pexels.com/photo/clear-wine-glass-with-yellow-liquid-11292247
-    "image": pexels(11292247),
-    "price": 9.00,
-    "allergens": ["so2"],
-    "diets": ["vegan", "vegetarien"],
-    "macros": {
-      // ESTIMATES — based on general culinary knowledge
-      "calories": 0,
-      "proteines": 0,
-      "glucides": 0,
-      "lipides": 0
-    },    "translations": {
-      "fr": { "name": "Sauvagine Blanc 2024 — Sauvagine / Vin de France", "description": "Souvignier gris, Sauvignon Blanc & Muscadelle. Fruits exotiques, fleurs d'acacia, agrumes, douceur de pêche en bouche. 12cl / 22,50€ 37cl / 45€ 75cl." },
-      "en": { "name": "Sauvagine Blanc 2024 — Sauvagine / Vin de France", "description": "Souvignier gris, Sauvignon Blanc & Muscadelle. Exotic fruits, acacia flowers, citrus, peach sweetness on the palate. 12cl / €22.50 37cl / €45 75cl." },
-      "it": { "name": "Sauvagine Blanc 2024 — Sauvagine / Vin de France", "description": "Souvignier gris, Sauvignon Blanc & Muscadelle. Frutti esotici, fiori d'acacia, agrumi, dolcezza di pesca in bocca. 12cl / 22,50€ 37cl / 45€ 75cl." },
-      "es": { "name": "Sauvagine Blanc 2024 — Sauvagine / Vin de France", "description": "Souvignier gris, Sauvignon Blanc & Muscadelle. Frutas exóticas, flores de acacia, cítricos, dulzura de melocotón en boca. 12cl / 22,50€ 37cl / 45€ 75cl." }
-    }
-  },
+    // ────────────────────────────────────────────────
+    // VINS BLANCS
+    // ────────────────────────────────────────────────
+    {
+      id: "vin-blanc-granilites-chapoutier-2022",
+      category: "vins",
+      subcategory: "Vins Blançs",
+      // "Elegant Glass of White Wine on Table" — pexels.com/photo/elegant-glass-of-white-wine-on-table-in-houston-28454104
+      image: pexels(28454104),
+      price: 14.0,
+      allergens: ["so2"],
+      diets: ["vegan", "vegetarien"],
+macros: {
+  calories: 100,
+  proteines: 0.1,
+  glucides: 2.5,
+  lipides: 0,
+},
+      translations: {
+        fr: {
+          name: "Les Granilites 2022 — M. Chapoutier / AOP Saint Joseph",
+          description:
+            "Marsanne. Attaque fraîche, tension minérale, finale longue avec un joli fondu boisé. 12cl / 34,50€ 37,5cl / 69€ 75cl.",
+        },
+        en: {
+          name: "Les Granilites 2022 — M. Chapoutier / AOP Saint Joseph",
+          description:
+            "Marsanne. Fresh attack, mineral tension, long finish with elegant oak. 12cl / €34.50 37.5cl / €69 75cl.",
+        },
+        it: {
+          name: "Les Granilites 2022 — M. Chapoutier / AOP Saint Joseph",
+          description:
+            "Marsanne. Attacco fresco, tensione minerale, finale lunga con un bel rovere. 12cl / 34,50€ 37,5cl / 69€ 75cl.",
+        },
+        es: {
+          name: "Les Granilites 2022 — M. Chapoutier / AOP Saint Joseph",
+          description:
+            "Marsanne. Entrada fresca, tensión mineral, final largo con madera elegante. 12cl / 34,50€ 37,5cl / 69€ 75cl.",
+        },
+      },
+    },
+    {
+      id: "vin-blanc-bourgogne-aligote-gueguen-2022",
+      category: "vins",
+      subcategory: "Vins Blançs",
+      // "Clear Wine Glass With Yellow Liquid" — pexels.com/photo/clear-wine-glass-with-yellow-liquid-11292247
+      image: pexels(11292247),
+      price: 11.0,
+      allergens: ["so2"],
+      diets: ["vegan", "vegetarien"],
+macros: {
+  calories: 100,
+  proteines: 0.1,
+  glucides: 2.5,
+  lipides: 0,
+},
+      translations: {
+        fr: {
+          name: "Bourgogne Aligoté 2022 — Domaine Gueguen",
+          description:
+            "Aligoté. Notes salines, belle texture, fleurs blanches et agrumes au nez. 12cl / 26€ 37,5cl / 52€ 75cl.",
+        },
+        en: {
+          name: "Bourgogne Aligoté 2022 — Domaine Gueguen",
+          description:
+            "Aligoté. Saline notes, fine texture, white flowers and citrus on the nose. 12cl / €26 37.5cl / €52 75cl.",
+        },
+        it: {
+          name: "Bourgogne Aligoté 2022 — Domaine Gueguen",
+          description:
+            "Aligoté. Note saline, bella texture, fiori bianchi e agrumi al naso. 12cl / 26€ 37,5cl / 52€ 75cl.",
+        },
+        es: {
+          name: "Bourgogne Aligoté 2022 — Domaine Gueguen",
+          description:
+            "Aligoté. Notas salinas, buena textura, flores blancas y cítricos en nariz. 12cl / 26€ 37,5cl / 52€ 75cl.",
+        },
+      },
+    },
+    {
+      id: "vin-blanc-haut-benauge-chateau-ferran-2022",
+      category: "vins",
+      subcategory: "Vins Blancs",
+      // "Elegant Glass of White Wine on Table" — pexels.com/photo/elegant-glass-of-white-wine-on-table-in-houston-28454104
+      image: pexels(28454104),
+      price: 7.0,
+      allergens: ["so2"],
+      diets: ["vegan", "vegetarien"],
+macros: {
+  calories: 100,
+  proteines: 0.1,
+  glucides: 2.5,
+  lipides: 0,
+},
+      translations: {
+        fr: {
+          name: "Haut Benauge 2022 — Château Ferran / AOC Entre-deux-Mers",
+          description:
+            "Sauvignon, Sémillon & Muscadelle. Nez fruité, fleurs blanches, agrumes, belle minéralité. 12cl / 18€ 37,5cl / 36€ 75cl.",
+        },
+        en: {
+          name: "Haut Benauge 2022 — Château Ferran / AOC Entre-deux-Mers",
+          description:
+            "Sauvignon, Semillon & Muscadelle. Fruity nose, white flowers, citrus, beautiful minerality. 12cl / €18 37.5cl / €36 75cl.",
+        },
+        it: {
+          name: "Haut Benauge 2022 — Château Ferran / AOC Entre-deux-Mers",
+          description:
+            "Sauvignon, Sémillon & Muscadelle. Naso fruttato, fiori bianchi, agrumi, bella mineralità. 12cl / 18€ 37,5cl / 36€ 75cl.",
+        },
+        es: {
+          name: "Haut Benauge 2022 — Château Ferran / AOC Entre-deux-Mers",
+          description:
+            "Sauvignon, Sémillon & Muscadelle. Nariz afrutada, flores blancas, cítricos, buena mineralidad. 12cl / 18€ 37,5cl / 36€ 75cl.",
+        },
+      },
+    },
+    {
+      id: "vin-blanc-cattin-sauvage-gewurztraminer-2021",
+      category: "vins",
+      subcategory: "Vins Blancs",
+      // "Clear Wine Glass With Yellow Liquid" — pexels.com/photo/clear-wine-glass-with-yellow-liquid-11292247
+      image: pexels(11292247),
+      price: 8.0,
+      allergens: ["so2"],
+      diets: ["vegan", "vegetarien"],
+macros: {
+  calories: 100,
+  proteines: 0.1,
+  glucides: 2.5,
+  lipides: 0,
+},
+      translations: {
+        fr: {
+          name: "Cattin Sauvage 2021 — Maison Joseph Cattin / AOC Alsace",
+          description:
+            "Gewurztraminer. Nez expressif de mangue fraîche et de rose. Parfait apéritif ou accord fromage. 12cl / 20€ 37,5cl / 40€ 75cl.",
+        },
+        en: {
+          name: "Cattin Sauvage 2021 — Maison Joseph Cattin / AOC Alsace",
+          description:
+            "Gewurztraminer. Expressive nose of fresh mango and rose. Perfect aperitif or cheese pairing. 12cl / €20 37.5cl / €40 75cl.",
+        },
+        it: {
+          name: "Cattin Sauvage 2021 — Maison Joseph Cattin / AOC Alsace",
+          description:
+            "Gewurztraminer. Naso espressivo di mango fresco e rosa. Perfetto come aperitivo o con il formaggio. 12cl / 20€ 37,5cl / 40€ 75cl.",
+        },
+        es: {
+          name: "Cattin Sauvage 2021 — Maison Joseph Cattin / AOC Alsace",
+          description:
+            "Gewurztraminer. Nariz expresiva de mango fresco y rosa. Perfecto como aperitivo o con queso. 12cl / 20€ 37,5cl / 40€ 75cl.",
+        },
+      },
+    },
+    {
+      id: "vin-blanc-cuvee-lune-viognier-2024",
+      category: "vins",
+      subcategory: "Vins Blancs",
+      // "Elegant Glass of White Wine on Table" — pexels.com/photo/elegant-glass-of-white-wine-on-table-in-houston-28454104
+      image: pexels(28454104),
+      price: 8.0,
+      allergens: ["so2"],
+      diets: ["vegan", "vegetarien"],
+macros: {
+  calories: 100,
+  proteines: 0.1,
+  glucides: 2.5,
+  lipides: 0,
+},
+      translations: {
+        fr: {
+          name: "Cuvée Lune Viognier 2024 — Domaine Ricardelle de Lautrec / IGP Pays d'Oc",
+          description:
+            "Viognier. Floral, notes de pêche, très frais et vif. 12cl / 20€ 37,5cl / 40€ 75cl.",
+        },
+        en: {
+          name: "Cuvée Lune Viognier 2024 — Domaine Ricardelle de Lautrec / IGP Pays d'Oc",
+          description:
+            "Viognier. Floral, peach notes, very fresh and lively. 12cl / €20 37.5cl / €40 75cl.",
+        },
+        it: {
+          name: "Cuvée Lune Viognier 2024 — Domaine Ricardelle de Lautrec / IGP Pays d'Oc",
+          description:
+            "Viognier. Floreale, note di pesca, molto fresco e vivace. 12cl / 20€ 37,5cl / 40€ 75cl.",
+        },
+        es: {
+          name: "Cuvée Lune Viognier 2024 — Domaine Ricardelle de Lautrec / IGP Pays d'Oc",
+          description:
+            "Viognier. Floral, notas de melocotón, muy fresco y vivo. 12cl / 20€ 37,5cl / 40€ 75cl.",
+        },
+      },
+    },
+    {
+      id: "vin-blanc-sauvagine-2024",
+      category: "vins",
+      subcategory: "Vins Blancs",
+      // "Clear Wine Glass With Yellow Liquid" — pexels.com/photo/clear-wine-glass-with-yellow-liquid-11292247
+      image: pexels(11292247),
+      price: 9.0,
+      allergens: ["so2"],
+      diets: ["vegan", "vegetarien"],
+macros: {
+  calories: 100,
+  proteines: 0.1,
+  glucides: 2.5,
+  lipides: 0,
+},
+      translations: {
+        fr: {
+          name: "Sauvagine Blanc 2024 — Sauvagine / Vin de France",
+          description:
+            "Souvignier gris, Sauvignon Blanc & Muscadelle. Fruits exotiques, fleurs d'acacia, agrumes, douceur de pêche en bouche. 12cl / 22,50€ 37cl / 45€ 75cl.",
+        },
+        en: {
+          name: "Sauvagine Blanc 2024 — Sauvagine / Vin de France",
+          description:
+            "Souvignier gris, Sauvignon Blanc & Muscadelle. Exotic fruits, acacia flowers, citrus, peach sweetness on the palate. 12cl / €22.50 37cl / €45 75cl.",
+        },
+        it: {
+          name: "Sauvagine Blanc 2024 — Sauvagine / Vin de France",
+          description:
+            "Souvignier gris, Sauvignon Blanc & Muscadelle. Frutti esotici, fiori d'acacia, agrumi, dolcezza di pesca in bocca. 12cl / 22,50€ 37cl / 45€ 75cl.",
+        },
+        es: {
+          name: "Sauvagine Blanc 2024 — Sauvagine / Vin de France",
+          description:
+            "Souvignier gris, Sauvignon Blanc & Muscadelle. Frutas exóticas, flores de acacia, cítricos, dulzura de melocotón en boca. 12cl / 22,50€ 37cl / 45€ 75cl.",
+        },
+      },
+    },
 
-  // ────────────────────────────────────────────────
-  // VINS ROUGES
-  // ────────────────────────────────────────────────
-  {
-    "id": "vin-rouge-vignes-du-parc-oureas-2023",
-    "category": "vins",
-    "subcategory": "Vins Rouges",
-    // "A Glass of Red Wine and Some Plums on a Blue Table" — pexels.com/photo/a-glass-of-red-wine-and-some-plums-on-a-blue-table-14909970
-    "image": pexels(14909970),
-    "price": 11.50,
-    "allergens": ["so2"],
-    "diets": ["vegan", "vegetarien"],
-    "macros": {
-      // ESTIMATES — based on general culinary knowledge
-      "calories": 0,
-      "proteines": 0,
-      "glucides": 0,
-      "lipides": 0
-    },    "translations": {
-      "fr": { "name": "Les Vignes du Parc 2023 — Domaine d'Ouréas / AOP Vacqueyras", "description": "Grenache, Cinsault, Carignan. Charnu, fruits mûrs et framboises sauvages, finale légère. 12cl / 27€ 37,5cl / 54€ 75cl." },
-      "en": { "name": "Les Vignes du Parc 2023 — Domaine d'Ouréas / AOP Vacqueyras", "description": "Grenache, Cinsault, Carignan. Full-bodied, ripe fruit and wild raspberry, light finish. 12cl / €27 37.5cl / €54 75cl." },
-      "it": { "name": "Les Vignes du Parc 2023 — Domaine d'Ouréas / AOP Vacqueyras", "description": "Grenache, Cinsault, Carignan. Carnoso, frutta matura e lampone selvatico, finale leggero. 12cl / 27€ 37,5cl / 54€ 75cl." },
-      "es": { "name": "Les Vignes du Parc 2023 — Domaine d'Ouréas / AOP Vacqueyras", "description": "Grenache, Cinsault, Carignan. Carnoso, fruta madura y frambuesa silvestre, final ligero. 12cl / 27€ 37,5cl / 54€ 75cl." }
-    }
-  },
-  {
-    "id": "vin-rouge-granilites-chapoutier-2023",
-    "category": "vins",
-    "subcategory": "Vins Rouges",
-    // "A Glass of Red Wine and Some Plums on a Blue Table" — pexels.com/photo/a-glass-of-red-wine-and-some-plums-on-a-blue-table-14909970
-    "image": pexels(14909970),
-    "price": 14.00,
-    "allergens": ["so2"],
-    "diets": ["vegan", "vegetarien"],
-    "macros": {
-      // ESTIMATES — based on general culinary knowledge
-      "calories": 0,
-      "proteines": 0,
-      "glucides": 0,
-      "lipides": 0
-    },    "translations": {
-      "fr": { "name": "Les Granilites 2023 — M. Chapoutier / AOP Saint Joseph", "description": "Syrah. Attaque suave, notes de fruits noirs, tanins fins et serrés. 12cl / 34,50€ 37,5cl / 69€ 75cl." },
-      "en": { "name": "Les Granilites 2023 — M. Chapoutier / AOP Saint Joseph", "description": "Syrah. Smooth attack, dark fruit notes, fine and tight tannins. 12cl / €34.50 37.5cl / €69 75cl." },
-      "it": { "name": "Les Granilites 2023 — M. Chapoutier / AOP Saint Joseph", "description": "Syrah. Attacco morbido, note di frutta nera, tannini fini e serrati. 12cl / 34,50€ 37,5cl / 69€ 75cl." },
-      "es": { "name": "Les Granilites 2023 — M. Chapoutier / AOP Saint Joseph", "description": "Syrah. Entrada suave, notas de frutos negros, taninos finos y apretados. 12cl / 34,50€ 37,5cl / 69€ 75cl." }
-    }
-  },
-  {
-    "id": "vin-rouge-canopee-vignobles-david-2022",
-    "category": "vins",
-    "subcategory": "Vins Rouges",
-    // "Clear Wine Glass With Red Wine" — pexels.com/photo/clear-wine-glass-with-red-wine-14465764
-    "image": pexels(14465764),
-    "price": 9.00,
-    "allergens": ["so2"],
-    "diets": ["vegan", "vegetarien"],
-    "macros": {
-      // ESTIMATES — based on general culinary knowledge
-      "calories": 0,
-      "proteines": 0,
-      "glucides": 0,
-      "lipides": 0
-    },    "translations": {
-      "fr": { "name": "Canopée 2022 — Vignobles David / Vin de France (Vallée du Rhône)", "description": "Cinsault & Grenache noir. Robe violine, cassis et framboise, bouche fine et souple, tanins soyeux. 12cl / 22,50€ 37,5cl / 45€ 75cl." },
-      "en": { "name": "Canopée 2022 — Vignobles David / Vin de France (Rhône Valley)", "description": "Cinsault & Grenache noir. Violet robe, blackcurrant and raspberry, fine and supple palate, silky tannins. 12cl / €22.50 37.5cl / €45 75cl." },
-      "it": { "name": "Canopée 2022 — Vignobles David / Vin de France (Valle del Rodano)", "description": "Cinsault & Grenache noir. Veste violina, ribes nero e lampone, bocca fine e morbida, tannini setosi. 12cl / 22,50€ 37,5cl / 45€ 75cl." },
-      "es": { "name": "Canopée 2022 — Vignobles David / Vin de France (Valle del Ródano)", "description": "Cinsault & Grenache noir. Robe violeta, grosella negra y frambuesa, boca fina y suave, taninos sedosos. 12cl / 22,50€ 37,5cl / 45€ 75cl." }
-    }
-  },
-  {
-    "id": "vin-rouge-tire-bouchon-ourea-2022",
-    "category": "vins",
-    "subcategory": "Vins Rouges",
-    // "Clear Wine Glass With Red Wine" — pexels.com/photo/clear-wine-glass-with-red-wine-14465764
-    "image": pexels(14465764),
-    "price": 8.00,
-    "allergens": ["so2"],
-    "diets": ["vegan", "vegetarien"],
-    "macros": {
-      // ESTIMATES — based on general culinary knowledge
-      "calories": 0,
-      "proteines": 0,
-      "glucides": 0,
-      "lipides": 0
-    },    "translations": {
-      "fr": { "name": "Tire Bouchon 2022 — Domaine d'Ouréa / Vin de France (Vallée du Rhône)", "description": "Grenache, Carignan & Cinsault. Gourmand et fruité, vendange en grappes entières, tanins fins, convivial. 12cl / 20€ 37,5cl / 40€ 75cl." },
-      "en": { "name": "Tire Bouchon 2022 — Domaine d'Ouréa / Vin de France (Rhône Valley)", "description": "Grenache, Carignan & Cinsault. Fruity and generous, whole-bunch fermentation, fine tannins. 12cl / €20 37.5cl / €40 75cl." },
-      "it": { "name": "Tire Bouchon 2022 — Domaine d'Ouréa / Vin de France (Valle del Rodano)", "description": "Grenache, Carignan & Cinsault. Goloso e fruttato, vendemmia in grappoli interi, tannini fini. 12cl / 20€ 37,5cl / 40€ 75cl." },
-      "es": { "name": "Tire Bouchon 2022 — Domaine d'Ouréa / Vin de France (Valle del Ródano)", "description": "Grenache, Carignan & Cinsault. Goloso y afrutado, vendimia en racimos enteros, taninos finos. 12cl / 20€ 37,5cl / 40€ 75cl." }
-    }
-  },
-  {
-    "id": "vin-rouge-noirettes-ici-la-2023",
-    "category": "vins",
-    "subcategory": "Vins Rouges",
-    // "Clear Wine Glass With Red Wine" — pexels.com/photo/clear-wine-glass-with-red-wine-14465764
-    "image": pexels(14465764),
-    "price": 9.00,
-    "allergens": ["so2"],
-    "diets": ["vegan", "vegetarien"],
-    "macros": {
-      // ESTIMATES — based on general culinary knowledge
-      "calories": 0,
-      "proteines": 0,
-      "glucides": 0,
-      "lipides": 0
-    },    "translations": {
-      "fr": { "name": "Les Noirettes 2023 — Domaine d'Ici Là / Vin de France (Auvergne)", "description": "Gamay. Altitude du Bugey, profil léger, fruit frais, aromatique subtile et délicate. 12cl / 22,50€ 37,5cl / 45€ 75cl." },
-      "en": { "name": "Les Noirettes 2023 — Domaine d'Ici Là / Vin de France (Auvergne)", "description": "Gamay. Bugey altitude, light profile, fresh fruit, subtle and delicate aromatics. 12cl / €22.50 37.5cl / €45 75cl." },
-      "it": { "name": "Les Noirettes 2023 — Domaine d'Ici Là / Vin de France (Auvergne)", "description": "Gamay. Altitudine del Bugey, profilo leggero, frutto fresco, aromatica sottile e delicata. 12cl / 22,50€ 37,5cl / 45€ 75cl." },
-      "es": { "name": "Les Noirettes 2023 — Domaine d'Ici Là / Vin de France (Auvernia)", "description": "Gamay. Altitud de Bugey, perfil ligero, fruta fresca, aromática sutil y delicada. 12cl / 22,50€ 37,5cl / 45€ 75cl." }
-    }
-  },
-  {
-    "id": "vin-rouge-sauvagine-2024",
-    "category": "vins",
-    "subcategory": "Vins Rouges",
-    // "A Glass of Red Wine and Some Plums on a Blue Table" — pexels.com/photo/a-glass-of-red-wine-and-some-plums-on-a-blue-table-14909970
-    "image": pexels(14909970),
-    "price": 9.00,
-    "allergens": ["so2"],
-    "diets": ["vegan", "vegetarien"],
-    "macros": {
-      // ESTIMATES — based on general culinary knowledge
-      "calories": 0,
-      "proteines": 0,
-      "glucides": 0,
-      "lipides": 0
-    },    "translations": {
-      "fr": { "name": "Sauvagine Rouge 2024 — Sauvagine / Vin de France", "description": "Monarch, Syrah & Cabernet Franc. Robe grenat intense, framboise, mûre et poivre noir, tanins subtils, profil épicé. 12cl / 22,50€ 37cl / 45€ 75cl." },
-      "en": { "name": "Sauvagine Rouge 2024 — Sauvagine / Vin de France", "description": "Monarch, Syrah & Cabernet Franc. Intense garnet, raspberry, blackberry and black pepper, subtle tannins, spiced profile. 12cl / €22.50 37cl / €45 75cl." },
-      "it": { "name": "Sauvagine Rouge 2024 — Sauvagine / Vin de France", "description": "Monarch, Syrah & Cabernet Franc. Robe granato intensa, lampone, mora e pepe nero, tannini sottili, profilo speziato. 12cl / 22,50€ 37cl / 45€ 75cl." },
-      "es": { "name": "Sauvagine Rouge 2024 — Sauvagine / Vin de France", "description": "Monarch, Syrah & Cabernet Franc. Robe granate intenso, frambuesa, mora y pimienta negra, taninos sutiles, perfil especiado. 12cl / 22,50€ 37cl / 45€ 75cl." }
-    }
-  },
+    // ────────────────────────────────────────────────
+    // VINS ROUGES
+    // ────────────────────────────────────────────────
+    {
+      id: "vin-rouge-vignes-du-parc-oureas-2023",
+      category: "vins",
+      subcategory: "Vins Rouges",
+      // "A Glass of Red Wine and Some Plums on a Blue Table" — pexels.com/photo/a-glass-of-red-wine-and-some-plums-on-a-blue-table-14909970
+      image: pexels(14909970),
+      price: 11.5,
+      allergens: ["so2"],
+      diets: ["vegan", "vegetarien"],
+macros: {
+  calories: 100,
+  proteines: 0.1,
+  glucides: 2.5,
+  lipides: 0,
+},
+      translations: {
+        fr: {
+          name: "Les Vignes du Parc 2023 — Domaine d'Ouréas / AOP Vacqueyras",
+          description:
+            "Grenache, Cinsault, Carignan. Charnu, fruits mûrs et framboises sauvages, finale légère. 12cl / 27€ 37,5cl / 54€ 75cl.",
+        },
+        en: {
+          name: "Les Vignes du Parc 2023 — Domaine d'Ouréas / AOP Vacqueyras",
+          description:
+            "Grenache, Cinsault, Carignan. Full-bodied, ripe fruit and wild raspberry, light finish. 12cl / €27 37.5cl / €54 75cl.",
+        },
+        it: {
+          name: "Les Vignes du Parc 2023 — Domaine d'Ouréas / AOP Vacqueyras",
+          description:
+            "Grenache, Cinsault, Carignan. Carnoso, frutta matura e lampone selvatico, finale leggero. 12cl / 27€ 37,5cl / 54€ 75cl.",
+        },
+        es: {
+          name: "Les Vignes du Parc 2023 — Domaine d'Ouréas / AOP Vacqueyras",
+          description:
+            "Grenache, Cinsault, Carignan. Carnoso, fruta madura y frambuesa silvestre, final ligero. 12cl / 27€ 37,5cl / 54€ 75cl.",
+        },
+      },
+    },
+    {
+      id: "vin-rouge-granilites-chapoutier-2023",
+      category: "vins",
+      subcategory: "Vins Rouges",
+      // "A Glass of Red Wine and Some Plums on a Blue Table" — pexels.com/photo/a-glass-of-red-wine-and-some-plums-on-a-blue-table-14909970
+      image: pexels(14909970),
+      price: 14.0,
+      allergens: ["so2"],
+      diets: ["vegan", "vegetarien"],
+macros: {
+  calories: 100,
+  proteines: 0.1,
+  glucides: 2.5,
+  lipides: 0,
+},
+      translations: {
+        fr: {
+          name: "Les Granilites 2023 — M. Chapoutier / AOP Saint Joseph",
+          description:
+            "Syrah. Attaque suave, notes de fruits noirs, tanins fins et serrés. 12cl / 34,50€ 37,5cl / 69€ 75cl.",
+        },
+        en: {
+          name: "Les Granilites 2023 — M. Chapoutier / AOP Saint Joseph",
+          description:
+            "Syrah. Smooth attack, dark fruit notes, fine and tight tannins. 12cl / €34.50 37.5cl / €69 75cl.",
+        },
+        it: {
+          name: "Les Granilites 2023 — M. Chapoutier / AOP Saint Joseph",
+          description:
+            "Syrah. Attacco morbido, note di frutta nera, tannini fini e serrati. 12cl / 34,50€ 37,5cl / 69€ 75cl.",
+        },
+        es: {
+          name: "Les Granilites 2023 — M. Chapoutier / AOP Saint Joseph",
+          description:
+            "Syrah. Entrada suave, notas de frutos negros, taninos finos y apretados. 12cl / 34,50€ 37,5cl / 69€ 75cl.",
+        },
+      },
+    },
+    {
+      id: "vin-rouge-canopee-vignobles-david-2022",
+      category: "vins",
+      subcategory: "Vins Rouges",
+      // "Clear Wine Glass With Red Wine" — pexels.com/photo/clear-wine-glass-with-red-wine-14465764
+      image: pexels(14465764),
+      price: 9.0,
+      allergens: ["so2"],
+      diets: ["vegan", "vegetarien"],
+macros: {
+  calories: 100,
+  proteines: 0.1,
+  glucides: 2.5,
+  lipides: 0,
+},
+      translations: {
+        fr: {
+          name: "Canopée 2022 — Vignobles David / Vin de France (Vallée du Rhône)",
+          description:
+            "Cinsault & Grenache noir. Robe violine, cassis et framboise, bouche fine et souple, tanins soyeux. 12cl / 22,50€ 37,5cl / 45€ 75cl.",
+        },
+        en: {
+          name: "Canopée 2022 — Vignobles David / Vin de France (Rhône Valley)",
+          description:
+            "Cinsault & Grenache noir. Violet robe, blackcurrant and raspberry, fine and supple palate, silky tannins. 12cl / €22.50 37.5cl / €45 75cl.",
+        },
+        it: {
+          name: "Canopée 2022 — Vignobles David / Vin de France (Valle del Rodano)",
+          description:
+            "Cinsault & Grenache noir. Veste violina, ribes nero e lampone, bocca fine e morbida, tannini setosi. 12cl / 22,50€ 37,5cl / 45€ 75cl.",
+        },
+        es: {
+          name: "Canopée 2022 — Vignobles David / Vin de France (Valle del Ródano)",
+          description:
+            "Cinsault & Grenache noir. Robe violeta, grosella negra y frambuesa, boca fina y suave, taninos sedosos. 12cl / 22,50€ 37,5cl / 45€ 75cl.",
+        },
+      },
+    },
+    {
+      id: "vin-rouge-tire-bouchon-ourea-2022",
+      category: "vins",
+      subcategory: "Vins Rouges",
+      // "Clear Wine Glass With Red Wine" — pexels.com/photo/clear-wine-glass-with-red-wine-14465764
+      image: pexels(14465764),
+      price: 8.0,
+      allergens: ["so2"],
+      diets: ["vegan", "vegetarien"],
+macros: {
+  calories: 100,
+  proteines: 0.1,
+  glucides: 2.5,
+  lipides: 0,
+},
+      translations: {
+        fr: {
+          name: "Tire Bouchon 2022 — Domaine d'Ouréa / Vin de France (Vallée du Rhône)",
+          description:
+            "Grenache, Carignan & Cinsault. Gourmand et fruité, vendange en grappes entières, tanins fins, convivial. 12cl / 20€ 37,5cl / 40€ 75cl.",
+        },
+        en: {
+          name: "Tire Bouchon 2022 — Domaine d'Ouréa / Vin de France (Rhône Valley)",
+          description:
+            "Grenache, Carignan & Cinsault. Fruity and generous, whole-bunch fermentation, fine tannins. 12cl / €20 37.5cl / €40 75cl.",
+        },
+        it: {
+          name: "Tire Bouchon 2022 — Domaine d'Ouréa / Vin de France (Valle del Rodano)",
+          description:
+            "Grenache, Carignan & Cinsault. Goloso e fruttato, vendemmia in grappoli interi, tannini fini. 12cl / 20€ 37,5cl / 40€ 75cl.",
+        },
+        es: {
+          name: "Tire Bouchon 2022 — Domaine d'Ouréa / Vin de France (Valle del Ródano)",
+          description:
+            "Grenache, Carignan & Cinsault. Goloso y afrutado, vendimia en racimos enteros, taninos finos. 12cl / 20€ 37,5cl / 40€ 75cl.",
+        },
+      },
+    },
+    {
+      id: "vin-rouge-noirettes-ici-la-2023",
+      category: "vins",
+      subcategory: "Vins Rouges",
+      // "Clear Wine Glass With Red Wine" — pexels.com/photo/clear-wine-glass-with-red-wine-14465764
+      image: pexels(14465764),
+      price: 9.0,
+      allergens: ["so2"],
+      diets: ["vegan", "vegetarien"],
+macros: {
+  calories: 100,
+  proteines: 0.1,
+  glucides: 2.5,
+  lipides: 0,
+},
+      translations: {
+        fr: {
+          name: "Les Noirettes 2023 — Domaine d'Ici Là / Vin de France (Auvergne)",
+          description:
+            "Gamay. Altitude du Bugey, profil léger, fruit frais, aromatique subtile et délicate. 12cl / 22,50€ 37,5cl / 45€ 75cl.",
+        },
+        en: {
+          name: "Les Noirettes 2023 — Domaine d'Ici Là / Vin de France (Auvergne)",
+          description:
+            "Gamay. Bugey altitude, light profile, fresh fruit, subtle and delicate aromatics. 12cl / €22.50 37.5cl / €45 75cl.",
+        },
+        it: {
+          name: "Les Noirettes 2023 — Domaine d'Ici Là / Vin de France (Auvergne)",
+          description:
+            "Gamay. Altitudine del Bugey, profilo leggero, frutto fresco, aromatica sottile e delicata. 12cl / 22,50€ 37,5cl / 45€ 75cl.",
+        },
+        es: {
+          name: "Les Noirettes 2023 — Domaine d'Ici Là / Vin de France (Auvernia)",
+          description:
+            "Gamay. Altitud de Bugey, perfil ligero, fruta fresca, aromática sutil y delicada. 12cl / 22,50€ 37,5cl / 45€ 75cl.",
+        },
+      },
+    },
+    {
+      id: "vin-rouge-sauvagine-2024",
+      category: "vins",
+      subcategory: "Vins Rouges",
+      // "A Glass of Red Wine and Some Plums on a Blue Table" — pexels.com/photo/a-glass-of-red-wine-and-some-plums-on-a-blue-table-14909970
+      image: pexels(14909970),
+      price: 9.0,
+      allergens: ["so2"],
+      diets: ["vegan", "vegetarien"],
+macros: {
+  calories: 100,
+  proteines: 0.1,
+  glucides: 2.5,
+  lipides: 0,
+},
+      translations: {
+        fr: {
+          name: "Sauvagine Rouge 2024 — Sauvagine / Vin de France",
+          description:
+            "Monarch, Syrah & Cabernet Franc. Robe grenat intense, framboise, mûre et poivre noir, tanins subtils, profil épicé. 12cl / 22,50€ 37cl / 45€ 75cl.",
+        },
+        en: {
+          name: "Sauvagine Rouge 2024 — Sauvagine / Vin de France",
+          description:
+            "Monarch, Syrah & Cabernet Franc. Intense garnet, raspberry, blackberry and black pepper, subtle tannins, spiced profile. 12cl / €22.50 37cl / €45 75cl.",
+        },
+        it: {
+          name: "Sauvagine Rouge 2024 — Sauvagine / Vin de France",
+          description:
+            "Monarch, Syrah & Cabernet Franc. Robe granato intensa, lampone, mora e pepe nero, tannini sottili, profilo speziato. 12cl / 22,50€ 37cl / 45€ 75cl.",
+        },
+        es: {
+          name: "Sauvagine Rouge 2024 — Sauvagine / Vin de France",
+          description:
+            "Monarch, Syrah & Cabernet Franc. Robe granate intenso, frambuesa, mora y pimienta negra, taninos sutiles, perfil especiado. 12cl / 22,50€ 37cl / 45€ 75cl.",
+        },
+      },
+    },
 
-  // ────────────────────────────────────────────────
-  // VIN ROSÉ
-  // ────────────────────────────────────────────────
-  {
-    "id": "vin-rose-camille-turenne-2022",
-    "category": "vins",
-    "subcategory": "Vin Rosé",
-    // "Refreshing Rosé Wine Glass by a Poolside" — pexels.com/photo/refreshing-rose-wine-glass-by-a-poolside-34183143
-    "image": pexels(34183143),
-    "price": 7.50,
-    "allergens": ["so2"],
-    "diets": ["vegan", "vegetarien"],
-    "macros": {
-      // ESTIMATES — based on general culinary knowledge
-      "calories": 0,
-      "proteines": 0,
-      "glucides": 0,
-      "lipides": 0
-    },    "translations": {
-      "fr": { "name": "Camille 2022 — Domaine Turenne / AOP Côtes de Provence", "description": "Grenache, Cinsault & Syrah. Robe rose dragée, violette et fruits rouges, pointe d'amande verte. 12cl / 18,50€ 37cl / 37€ 75cl." },
-      "en": { "name": "Camille 2022 — Domaine Turenne / AOP Côtes de Provence", "description": "Grenache, Cinsault & Syrah. Candy pink robe, violet and red fruits, hint of green almond. 12cl / €18.50 37cl / €37 75cl." },
-      "it": { "name": "Camille 2022 — Domaine Turenne / AOP Côtes de Provence", "description": "Grenache, Cinsault & Syrah. Veste rosa confetto, violetta e frutti rossi, punta di mandorla verde. 12cl / 18,50€ 37cl / 37€ 75cl." },
-      "es": { "name": "Camille 2022 — Domaine Turenne / AOP Côtes de Provence", "description": "Grenache, Cinsault & Syrah. Robe rosa caramelo, violeta y frutas rojas, toque de almendra verde. 12cl / 18,50€ 37cl / 37€ 75cl." }
-    }
-  },
+    // ────────────────────────────────────────────────
+    // VIN ROSÉ
+    // ────────────────────────────────────────────────
+    {
+      id: "vin-rose-camille-turenne-2022",
+      category: "vins",
+      subcategory: "Vin Rosé",
+      // "Refreshing Rosé Wine Glass by a Poolside" — pexels.com/photo/refreshing-rose-wine-glass-by-a-poolside-34183143
+      image: pexels(34183143),
+      price: 7.5,
+      allergens: ["so2"],
+      diets: ["vegan", "vegetarien"],
+macros: {
+  calories: 100,
+  proteines: 0.1,
+  glucides: 2.5,
+  lipides: 0,
+},
+      translations: {
+        fr: {
+          name: "Camille 2022 — Domaine Turenne / AOP Côtes de Provence",
+          description:
+            "Grenache, Cinsault & Syrah. Robe rose dragée, violette et fruits rouges, pointe d'amande verte. 12cl / 18,50€ 37cl / 37€ 75cl.",
+        },
+        en: {
+          name: "Camille 2022 — Domaine Turenne / AOP Côtes de Provence",
+          description:
+            "Grenache, Cinsault & Syrah. Candy pink robe, violet and red fruits, hint of green almond. 12cl / €18.50 37cl / €37 75cl.",
+        },
+        it: {
+          name: "Camille 2022 — Domaine Turenne / AOP Côtes de Provence",
+          description:
+            "Grenache, Cinsault & Syrah. Veste rosa confetto, violetta e frutti rossi, punta di mandorla verde. 12cl / 18,50€ 37cl / 37€ 75cl.",
+        },
+        es: {
+          name: "Camille 2022 — Domaine Turenne / AOP Côtes de Provence",
+          description:
+            "Grenache, Cinsault & Syrah. Robe rosa caramelo, violeta y frutas rojas, toque de almendra verde. 12cl / 18,50€ 37cl / 37€ 75cl.",
+        },
+      },
+    },
 
-  // ────────────────────────────────────────────────
-  // VIN EFFERVESCENT
-  // ────────────────────────────────────────────────
-  {
-    "id": "prosecco-frizzante-terre-dei-buth",
-    "category": "vins",
-    "subcategory": "Vins Effervescents",
-    // "Prosecco Bottle and Glass" — pexels.com/photo/prosecco-bottle-and-glass-14096049
-    "image": pexels(14096049),
-    "price": 7.00,
-    "allergens": ["so2"],
-    "diets": ["vegan", "vegetarien"],
-    "macros": {
-      // ESTIMATES — based on general culinary knowledge
-      "calories": 0,
-      "proteines": 0,
-      "glucides": 0,
-      "lipides": 0
-    },    "translations": {
-      "fr": { "name": "Prosecco Frizzante — Terre Dei Buth / Vénétie", "description": "Glera. Fines bulles, fraîcheur, fruits à noyau et citron. Parfait pour l'apéritif. 12cl / 36€ 75cl." },
-      "en": { "name": "Prosecco Frizzante — Terre Dei Buth / Veneto", "description": "Glera. Fine bubbles, fresh, stone fruits and lemon. Perfect aperitif. 12cl / €36 75cl." },
-      "it": { "name": "Prosecco Frizzante — Terre Dei Buth / Veneto", "description": "Glera. Bollicine fini, freschezza, frutta con nocciolo e limone. Perfetto per l'aperitivo. 12cl / 36€ 75cl." },
-      "es": { "name": "Prosecco Frizzante — Terre Dei Buth / Véneto", "description": "Glera. Finas burbujas, frescura, frutas de hueso y limón. Perfecto como aperitivo. 12cl / 36€ 75cl." }
-    }
-  },
+    // ────────────────────────────────────────────────
+    // VIN EFFERVESCENT
+    // ────────────────────────────────────────────────
+    {
+      id: "prosecco-frizzante-terre-dei-buth",
+      category: "vins",
+      subcategory: "Vins Effervescents",
+      // "Prosecco Bottle and Glass" — pexels.com/photo/prosecco-bottle-and-glass-14096049
+      image: pexels(14096049),
+      price: 7.0,
+      allergens: ["so2"],
+      diets: ["vegan", "vegetarien"],
+macros: {
+  calories: 100,
+  proteines: 0.1,
+  glucides: 2.5,
+  lipides: 0,
+},
+      translations: {
+        fr: {
+          name: "Prosecco Frizzante — Terre Dei Buth / Vénétie",
+          description:
+            "Glera. Fines bulles, fraîcheur, fruits à noyau et citron. Parfait pour l'apéritif. 12cl / 36€ 75cl.",
+        },
+        en: {
+          name: "Prosecco Frizzante — Terre Dei Buth / Veneto",
+          description:
+            "Glera. Fine bubbles, fresh, stone fruits and lemon. Perfect aperitif. 12cl / €36 75cl.",
+        },
+        it: {
+          name: "Prosecco Frizzante — Terre Dei Buth / Veneto",
+          description:
+            "Glera. Bollicine fini, freschezza, frutta con nocciolo e limone. Perfetto per l'aperitivo. 12cl / 36€ 75cl.",
+        },
+        es: {
+          name: "Prosecco Frizzante — Terre Dei Buth / Véneto",
+          description:
+            "Glera. Finas burbujas, frescura, frutas de hueso y limón. Perfecto como aperitivo. 12cl / 36€ 75cl.",
+        },
+      },
+    },
 
-  // ────────────────────────────────────────────────
-  // CHAMPAGNE
-  // ────────────────────────────────────────────────
-  {
-    "id": "champagne-mineral-blanc-de-blanc-legret",
-    "category": "vins",
-    "subcategory": "Champagnes",
-    // "Elegant Champagne Glass with Sparkling Bubbles" — pexels.com/photo/elegant-champagne-glass-with-sparkling-bubbles-34319212
-    "image": pexels(34319212),
-    "price": 75.00,
-    "allergens": ["so2"],
-    "diets": ["vegan", "vegetarien"],
-    "macros": {
-      // ESTIMATES — based on general culinary knowledge
-      "calories": 0,
-      "proteines": 0,
-      "glucides": 0,
-      "lipides": 0
-    },    "translations": {
-      "fr": { "name": "Minéral Blanc de Blanc — Legret & Fils / Talus Saint Prix", "description": "Chardonnay. Robe jaune paille, poires et pêche, bouche fraîche et minérale, soupçon d'amande. Vinification biologique, végétalienne et vitiforesterie. 75cl." },
-      "en": { "name": "Minéral Blanc de Blanc — Legret & Fils / Talus Saint Prix", "description": "Chardonnay. Straw yellow, pear and peach, fresh and mineral palate, almond hint. Organic, vegan, agroforestry winemaking. 75cl." },
-      "it": { "name": "Minéral Blanc de Blanc — Legret & Fils / Talus Saint Prix", "description": "Chardonnay. Giallo paglierino, pera e pesca, bocca fresca e minerale, cenno di mandorla. Vinificazione biologica, vegana e viticoltura forestale. 75cl." },
-      "es": { "name": "Minéral Blanc de Blanc — Legret & Fils / Talus Saint Prix", "description": "Chardonnay. Amarillo pajizo, pera y melocotón, boca fresca y mineral, toque de almendra. Vinificación ecológica, vegana y vitisilvocultura. 75cl." }
-    }
-  }
-],
-"riz-riz":
-[
-  {
-    "id": "plateau-aperitif",
-    "category": "entrees-a-partager",
-    "subcategory": null,
-    "image": "/riz-riz/plateau-aperitif.jpeg",
-    "price": 17.00,
-    "allergens": ["arachides", "sesame"],
-    "diets": ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
-    "macros": {
-      // "_note": "ESTIMATES",
-      "calories": 420,
-      "proteines": 10,
-      "glucides": 38,
-      "lipides": 24
+    // ────────────────────────────────────────────────
+    // CHAMPAGNE
+    // ────────────────────────────────────────────────
+    {
+      id: "champagne-mineral-blanc-de-blanc-legret",
+      category: "vins",
+      subcategory: "Champagnes",
+      // "Elegant Champagne Glass with Sparkling Bubbles" — pexels.com/photo/elegant-champagne-glass-with-sparkling-bubbles-34319212
+      image: pexels(34319212),
+      price: 75.0,
+      allergens: ["so2"],
+      diets: ["vegan", "vegetarien"],
+macros: {
+  calories: 100,
+  proteines: 0.1,
+  glucides: 2.5,
+  lipides: 0,
+},
+      translations: {
+        fr: {
+          name: "Minéral Blanc de Blanc — Legret & Fils / Talus Saint Prix",
+          description:
+            "Chardonnay. Robe jaune paille, poires et pêche, bouche fraîche et minérale, soupçon d'amande. Vinification biologique, végétalienne et vitiforesterie. 75cl.",
+        },
+        en: {
+          name: "Minéral Blanc de Blanc — Legret & Fils / Talus Saint Prix",
+          description:
+            "Chardonnay. Straw yellow, pear and peach, fresh and mineral palate, almond hint. Organic, vegan, agroforestry winemaking. 75cl.",
+        },
+        it: {
+          name: "Minéral Blanc de Blanc — Legret & Fils / Talus Saint Prix",
+          description:
+            "Chardonnay. Giallo paglierino, pera e pesca, bocca fresca e minerale, cenno di mandorla. Vinificazione biologica, vegana e viticoltura forestale. 75cl.",
+        },
+        es: {
+          name: "Minéral Blanc de Blanc — Legret & Fils / Talus Saint Prix",
+          description:
+            "Chardonnay. Amarillo pajizo, pera y melocotón, boca fresca y mineral, toque de almendra. Vinificación ecológica, vegana y vitisilvocultura. 75cl.",
+        },
+      },
     },
-    "translations": {
-      "fr": {
-        "name": "Plateau Apéritif",
-        "description": "Guacamole maison, houmous à la betterave, galettes de riz soufflé, popcorn salé, edamame, tomates cerises, olives de Kalamata"
+  ],
+  "riz-riz": [
+    {
+      id: "plateau-aperitif",
+      category: "entrees-a-partager",
+      subcategory: null,
+      image: "/riz-riz/plateau-aperitif.jpeg",
+      price: 17.0,
+      allergens: ["arachides", "sesame"],
+      diets: ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
+      macros: {
+        // "_note": "ESTIMATES",
+        calories: 420,
+        proteines: 10,
+        glucides: 38,
+        lipides: 24,
       },
-      "en": {
-        "name": "Aperitif Platter",
-        "description": "Homemade guacamole, beetroot hummus, puffed rice crackers, salted popcorn, edamame, cherry tomatoes, Kalamata olives"
+      translations: {
+        fr: {
+          name: "Plateau Apéritif",
+          description:
+            "Guacamole maison, houmous à la betterave, galettes de riz soufflé, popcorn salé, edamame, tomates cerises, olives de Kalamata",
+        },
+        en: {
+          name: "Aperitif Platter",
+          description:
+            "Homemade guacamole, beetroot hummus, puffed rice crackers, salted popcorn, edamame, cherry tomatoes, Kalamata olives",
+        },
+        it: {
+          name: "Piatto Aperitivo",
+          description:
+            "Guacamole fatto in casa, hummus di barbabietola, gallette di riso soffiato, popcorn salato, edamame, pomodorini, olive di Kalamata",
+        },
+        es: {
+          name: "Tabla de Aperitivo",
+          description:
+            "Guacamole casero, hummus de remolacha, galletas de arroz inflado, palomitas saladas, edamame, tomates cherry, aceitunas de Kalamata",
+        },
       },
-      "it": {
-        "name": "Piatto Aperitivo",
-        "description": "Guacamole fatto in casa, hummus di barbabietola, gallette di riso soffiato, popcorn salato, edamame, pomodorini, olive di Kalamata"
-      },
-      "es": {
-        "name": "Tabla de Aperitivo",
-        "description": "Guacamole casero, hummus de remolacha, galletas de arroz inflado, palomitas saladas, edamame, tomates cherry, aceitunas de Kalamata"
-      }
-    }
-  },
-  {
-    "id": "guacamole-galettes-riz",
-    "category": "entrees-a-partager",
-    "subcategory": null,
-    "image": "/riz-riz/guacamole-galettes-riz.jpeg",
-    "price": 7.00,
-    "allergens": [],
-    "diets": ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
-    "macros": {
-      // "_note": "ESTIMATES",
-      "calories": 210,
-      "proteines": 3,
-      "glucides": 20,
-      "lipides": 13
     },
-    "translations": {
-      "fr": {
-        "name": "Guacamole Maison & Galettes de Riz",
-        "description": "Fraîchement préparé avec avocats, tomates et oignon frais. Sans coriandre."
+    {
+      id: "guacamole-galettes-riz",
+      category: "entrees-a-partager",
+      subcategory: null,
+      image: "/riz-riz/guacamole-galettes-riz.jpeg",
+      price: 7.0,
+      allergens: [],
+      diets: ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
+      macros: {
+        // "_note": "ESTIMATES",
+        calories: 210,
+        proteines: 3,
+        glucides: 20,
+        lipides: 13,
       },
-      "en": {
-        "name": "Homemade Guacamole & Rice Crackers",
-        "description": "Freshly made with avocados, tomatoes and fresh onion. No coriander."
+      translations: {
+        fr: {
+          name: "Guacamole Maison & Galettes de Riz",
+          description:
+            "Fraîchement préparé avec avocats, tomates et oignon frais. Sans coriandre.",
+        },
+        en: {
+          name: "Homemade Guacamole & Rice Crackers",
+          description:
+            "Freshly made with avocados, tomatoes and fresh onion. No coriander.",
+        },
+        it: {
+          name: "Guacamole Fatto in Casa & Gallette di Riso",
+          description:
+            "Preparato fresco con avocado, pomodori e cipolla fresca. Senza coriandolo.",
+        },
+        es: {
+          name: "Guacamole Casero & Galletas de Arroz",
+          description:
+            "Preparado fresco con aguacates, tomates y cebolla fresca. Sin cilantro.",
+        },
       },
-      "it": {
-        "name": "Guacamole Fatto in Casa & Gallette di Riso",
-        "description": "Preparato fresco con avocado, pomodori e cipolla fresca. Senza coriandolo."
-      },
-      "es": {
-        "name": "Guacamole Casero & Galletas de Arroz",
-        "description": "Preparado fresco con aguacates, tomates y cebolla fresca. Sin cilantro."
-      }
-    }
-  },
-  {
-    "id": "panier-de-nachos",
-    "category": "entrees-a-partager",
-    "subcategory": null,
-    "image": "/riz-riz/panier-de-nachos.jpeg",
-    "price": 15.50,
-    "allergens": ["arachides", "sesame"],
-    "diets": ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
-    "macros": {
-      // "_note": "ESTIMATES",
-      "calories": 480,
-      "proteines": 10,
-      "glucides": 55,
-      "lipides": 22
     },
-    "translations": {
-      "fr": {
-        "name": "Panier de Nachos",
-        "description": "Tortillas de maïs chaudes, salsa de petits pois crémeuse, houmous à la betterave, dip épicé de tomates pimentées"
+    {
+      id: "panier-de-nachos",
+      category: "entrees-a-partager",
+      subcategory: null,
+      image: "/riz-riz/panier-de-nachos.jpeg",
+      price: 15.5,
+      allergens: ["arachides", "sesame"],
+      diets: ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
+      macros: {
+        // "_note": "ESTIMATES",
+        calories: 480,
+        proteines: 10,
+        glucides: 55,
+        lipides: 22,
       },
-      "en": {
-        "name": "Nachos Basket",
-        "description": "Warm corn tortillas, creamy pea salsa, beetroot hummus, spicy chilli tomato dip"
+      translations: {
+        fr: {
+          name: "Panier de Nachos",
+          description:
+            "Tortillas de maïs chaudes, salsa de petits pois crémeuse, houmous à la betterave, dip épicé de tomates pimentées",
+        },
+        en: {
+          name: "Nachos Basket",
+          description:
+            "Warm corn tortillas, creamy pea salsa, beetroot hummus, spicy chilli tomato dip",
+        },
+        it: {
+          name: "Cesto di Nachos",
+          description:
+            "Tortillas di mais calde, salsa di piselli cremosa, hummus di barbabietola, dip piccante di pomodori",
+        },
+        es: {
+          name: "Cesta de Nachos",
+          description:
+            "Tortillas de maíz calientes, salsa cremosa de guisantes, hummus de remolacha, dip picante de tomates",
+        },
       },
-      "it": {
-        "name": "Cesto di Nachos",
-        "description": "Tortillas di mais calde, salsa di piselli cremosa, hummus di barbabietola, dip piccante di pomodori"
-      },
-      "es": {
-        "name": "Cesta de Nachos",
-        "description": "Tortillas de maíz calientes, salsa cremosa de guisantes, hummus de remolacha, dip picante de tomates"
-      }
-    }
-  },
-  {
-    "id": "houmous-betteraves-galettes-riz",
-    "category": "entrees-a-partager",
-    "subcategory": null,
-    "image": "/riz-riz/houmous-betteraves-galettes-riz.jpeg",
-    "price": 5.50,
-    "allergens": ["sesame"],
-    "diets": ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
-    "macros": {
-      // "_note": "ESTIMATES",
-      "calories": 180,
-      "proteines": 5,
-      "glucides": 22,
-      "lipides": 8
     },
-    "translations": {
-      "fr": {
-        "name": "Houmous de Betteraves & Galettes de Riz",
-        "description": "Onctueux houmous de pois chiches, huile d'olive et betterave cuite"
+    {
+      id: "houmous-betteraves-galettes-riz",
+      category: "entrees-a-partager",
+      subcategory: null,
+      image: "/riz-riz/houmous-betteraves-galettes-riz.jpeg",
+      price: 5.5,
+      allergens: ["sesame"],
+      diets: ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
+      macros: {
+        // "_note": "ESTIMATES",
+        calories: 180,
+        proteines: 5,
+        glucides: 22,
+        lipides: 8,
       },
-      "en": {
-        "name": "Beetroot Hummus & Rice Crackers",
-        "description": "Smooth chickpea hummus with olive oil and roasted beetroot"
+      translations: {
+        fr: {
+          name: "Houmous de Betteraves & Galettes de Riz",
+          description:
+            "Onctueux houmous de pois chiches, huile d'olive et betterave cuite",
+        },
+        en: {
+          name: "Beetroot Hummus & Rice Crackers",
+          description:
+            "Smooth chickpea hummus with olive oil and roasted beetroot",
+        },
+        it: {
+          name: "Hummus di Barbabietola & Gallette di Riso",
+          description:
+            "Cremoso hummus di ceci, olio d'oliva e barbabietola cotta",
+        },
+        es: {
+          name: "Hummus de Remolacha & Galletas de Arroz",
+          description:
+            "Cremoso hummus de garbanzos con aceite de oliva y remolacha asada",
+        },
       },
-      "it": {
-        "name": "Hummus di Barbabietola & Gallette di Riso",
-        "description": "Cremoso hummus di ceci, olio d'oliva e barbabietola cotta"
-      },
-      "es": {
-        "name": "Hummus de Remolacha & Galletas de Arroz",
-        "description": "Cremoso hummus de garbanzos con aceite de oliva y remolacha asada"
-      }
-    }
-  },
-  {
-    "id": "chotpoti",
-    "category": "entrees",
-    "subcategory": null,
-    "image": "/riz-riz/chotpoti.jpeg",
-    "price": 7.50,
-    "allergens": [],
-    "diets": ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
-    "macros": {
-      // "_note": "ESTIMATES",
-      "calories": 260,
-      "proteines": 11,
-      "glucides": 38,
-      "lipides": 6
     },
-    "translations": {
-      "fr": {
-        "name": "Chotpoti",
-        "description": "En direct du Bengale : entremets chaud de lentilles, pois chiche, tomate & oignon frais, épinards, ail, coriandre ciselée, chips de maïs"
+    {
+      id: "chotpoti",
+      category: "entrees",
+      subcategory: null,
+      image: "/riz-riz/chotpoti.jpeg",
+      price: 7.5,
+      allergens: [],
+      diets: ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
+      macros: {
+        // "_note": "ESTIMATES",
+        calories: 260,
+        proteines: 11,
+        glucides: 38,
+        lipides: 6,
       },
-      "en": {
-        "name": "Chotpoti",
-        "description": "Straight from Bengal: warm medley of lentils, chickpeas, fresh tomato & onion, spinach, garlic, chopped coriander, corn chips"
+      translations: {
+        fr: {
+          name: "Chotpoti",
+          description:
+            "En direct du Bengale : entremets chaud de lentilles, pois chiche, tomate & oignon frais, épinards, ail, coriandre ciselée, chips de maïs",
+        },
+        en: {
+          name: "Chotpoti",
+          description:
+            "Straight from Bengal: warm medley of lentils, chickpeas, fresh tomato & onion, spinach, garlic, chopped coriander, corn chips",
+        },
+        it: {
+          name: "Chotpoti",
+          description:
+            "Direttamente dal Bengala: piatto caldo di lenticchie, ceci, pomodoro fresco e cipolla, spinaci, aglio, coriandolo tritato, chips di mais",
+        },
+        es: {
+          name: "Chotpoti",
+          description:
+            "Directo de Bengala: guiso caliente de lentejas, garbanzos, tomate y cebolla frescos, espinacas, ajo, cilantro picado, chips de maíz",
+        },
       },
-      "it": {
-        "name": "Chotpoti",
-        "description": "Direttamente dal Bengala: piatto caldo di lenticchie, ceci, pomodoro fresco e cipolla, spinaci, aglio, coriandolo tritato, chips di mais"
-      },
-      "es": {
-        "name": "Chotpoti",
-        "description": "Directo de Bengala: guiso caliente de lentejas, garbanzos, tomate y cebolla frescos, espinacas, ajo, cilantro picado, chips de maíz"
-      }
-    }
-  },
-  {
-    "id": "aubergine-au-four",
-    "category": "entrees",
-    "subcategory": null,
-    "image": "/riz-riz/aubergine-au-four.jpeg",
-    "price": 9.00,
-    "allergens": ["arachides", "sesame"],
-    "diets": ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
-    "macros": {
-      // "_note": "ESTIMATES",
-      "calories": 290,
-      "proteines": 7,
-      "glucides": 22,
-      "lipides": 19
     },
-    "translations": {
-      "fr": {
-        "name": "Aubergine au Four",
-        "description": "Marinade sésame-cacahuètes, aubergine braisée, riz soufflé, piment doux, tahini, ail & citron, coriandre"
+    {
+      id: "aubergine-au-four",
+      category: "entrees",
+      subcategory: null,
+      image: "/riz-riz/aubergine-au-four.jpeg",
+      price: 9.0,
+      allergens: ["arachides", "sesame"],
+      diets: ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
+      macros: {
+        // "_note": "ESTIMATES",
+        calories: 290,
+        proteines: 7,
+        glucides: 22,
+        lipides: 19,
       },
-      "en": {
-        "name": "Baked Aubergine",
-        "description": "Sesame-peanut marinade, braised aubergine, puffed rice, sweet chilli, tahini, garlic & lemon, coriander"
+      translations: {
+        fr: {
+          name: "Aubergine au Four",
+          description:
+            "Marinade sésame-cacahuètes, aubergine braisée, riz soufflé, piment doux, tahini, ail & citron, coriandre",
+        },
+        en: {
+          name: "Baked Aubergine",
+          description:
+            "Sesame-peanut marinade, braised aubergine, puffed rice, sweet chilli, tahini, garlic & lemon, coriander",
+        },
+        it: {
+          name: "Melanzana al Forno",
+          description:
+            "Marinatura sesamo-arachidi, melanzana brasata, riso soffiato, peperoncino dolce, tahini, aglio & limone, coriandolo",
+        },
+        es: {
+          name: "Berenjena al Horno",
+          description:
+            "Marinada de sésamo y cacahuete, berenjena braseada, arroz inflado, chile dulce, tahini, ajo & limón, cilantro",
+        },
       },
-      "it": {
-        "name": "Melanzana al Forno",
-        "description": "Marinatura sesamo-arachidi, melanzana brasata, riso soffiato, peperoncino dolce, tahini, aglio & limone, coriandolo"
-      },
-      "es": {
-        "name": "Berenjena al Horno",
-        "description": "Marinada de sésamo y cacahuete, berenjena braseada, arroz inflado, chile dulce, tahini, ajo & limón, cilantro"
-      }
-    }
-  },
-  {
-    "id": "tabolue-de-riz",
-    "category": "entrees",
-    "subcategory": null,
-    "image": "/riz-riz/tabolue-de-riz.jpeg",
-    "price": 7.50,
-    "allergens": [],
-    "diets": ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
-    "macros": {
-      // "_note": "ESTIMATES",
-      "calories": 220,
-      "proteines": 6,
-      "glucides": 38,
-      "lipides": 5
     },
-    "translations": {
-      "fr": {
-        "name": "Taboulé de Riz",
-        "description": "Tomate en dés, menthe fraîche, riz jasmin, oignon frais, pois chiche, vinaigrette maison"
+    {
+      id: "tabolue-de-riz",
+      category: "entrees",
+      subcategory: null,
+      image: "/riz-riz/tabolue-de-riz.jpeg",
+      price: 7.5,
+      allergens: [],
+      diets: ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
+      macros: {
+        // "_note": "ESTIMATES",
+        calories: 220,
+        proteines: 6,
+        glucides: 38,
+        lipides: 5,
       },
-      "en": {
-        "name": "Rice Tabbouleh",
-        "description": "Diced tomato, fresh mint, jasmine rice, fresh onion, chickpeas, homemade dressing"
+      translations: {
+        fr: {
+          name: "Taboulé de Riz",
+          description:
+            "Tomate en dés, menthe fraîche, riz jasmin, oignon frais, pois chiche, vinaigrette maison",
+        },
+        en: {
+          name: "Rice Tabbouleh",
+          description:
+            "Diced tomato, fresh mint, jasmine rice, fresh onion, chickpeas, homemade dressing",
+        },
+        it: {
+          name: "Tabulé di Riso",
+          description:
+            "Pomodoro a cubetti, menta fresca, riso al gelsomino, cipolla fresca, ceci, vinaigrette fatta in casa",
+        },
+        es: {
+          name: "Tabulé de Arroz",
+          description:
+            "Tomate en cubos, menta fresca, arroz jazmín, cebolla fresca, garbanzos, vinagreta casera",
+        },
       },
-      "it": {
-        "name": "Tabulé di Riso",
-        "description": "Pomodoro a cubetti, menta fresca, riso al gelsomino, cipolla fresca, ceci, vinaigrette fatta in casa"
-      },
-      "es": {
-        "name": "Tabulé de Arroz",
-        "description": "Tomate en cubos, menta fresca, arroz jazmín, cebolla fresca, garbanzos, vinagreta casera"
-      }
-    }
-  },
-  {
-    "id": "curry-du-dragon",
-    "category": "plats",
-    "subcategory": null,
-    "image": "/riz-riz/curry-du-dragon.jpeg",
-    "price": 15.50,
-    "allergens": ["fruits-a-coque"],
-    "diets": ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
-    "macros": {
-      // "_note": "ESTIMATES",
-      "calories": 520,
-      "proteines": 9,
-      "glucides": 65,
-      "lipides": 22
     },
-    "translations": {
-      "fr": {
-        "name": "Curry du Dragon",
-        "description": "Comme à Bangkok : curry légèrement relevé de courgettes & aubergines, lait de coco, riz jasmin parfumé, noix de cajou torréfiées"
+    {
+      id: "curry-du-dragon",
+      category: "plats",
+      subcategory: null,
+      image: "/riz-riz/curry-du-dragon.jpeg",
+      price: 15.5,
+      allergens: ["fruits-a-coque"],
+      diets: ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
+      macros: {
+        // "_note": "ESTIMATES",
+        calories: 520,
+        proteines: 9,
+        glucides: 65,
+        lipides: 22,
       },
-      "en": {
-        "name": "Dragon Curry",
-        "description": "Just like Bangkok: lightly spiced courgette & aubergine curry with coconut milk, fragrant jasmine rice, toasted cashews"
+      translations: {
+        fr: {
+          name: "Curry du Dragon",
+          description:
+            "Comme à Bangkok : curry légèrement relevé de courgettes & aubergines, lait de coco, riz jasmin parfumé, noix de cajou torréfiées",
+        },
+        en: {
+          name: "Dragon Curry",
+          description:
+            "Just like Bangkok: lightly spiced courgette & aubergine curry with coconut milk, fragrant jasmine rice, toasted cashews",
+        },
+        it: {
+          name: "Curry del Drago",
+          description:
+            "Come a Bangkok: curry leggermente piccante di zucchine e melanzane, latte di cocco, riso al gelsomino profumato, anacardi tostati",
+        },
+        es: {
+          name: "Curry del Dragón",
+          description:
+            "Como en Bangkok: curry ligeramente picante de calabacín y berenjena, leche de coco, arroz jazmín perfumado, anacardos tostados",
+        },
       },
-      "it": {
-        "name": "Curry del Drago",
-        "description": "Come a Bangkok: curry leggermente piccante di zucchine e melanzane, latte di cocco, riso al gelsomino profumato, anacardi tostati"
-      },
-      "es": {
-        "name": "Curry del Dragón",
-        "description": "Como en Bangkok: curry ligeramente picante de calabacín y berenjena, leche de coco, arroz jazmín perfumado, anacardos tostados"
-      }
-    }
-  },
-  {
-    "id": "gaufre-de-patate-douce",
-    "category": "plats",
-    "subcategory": null,
-    "image": "/riz-riz/gaufre-de-patate-douce.jpeg",
-    "price": 15.50,
-    "allergens": [],
-    "diets": ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
-    "macros": {
-      // "_note": "ESTIMATES",
-      "calories": 480,
-      "proteines": 6,
-      "glucides": 58,
-      "lipides": 24
     },
-    "translations": {
-      "fr": {
-        "name": "Gaufre de Patate Douce",
-        "description": "Patate douce, lait de coco & curcuma sur lit de roquette & feuilles de chêne, guacamole frais, graines de grenade, vinaigrette maison"
+    {
+      id: "gaufre-de-patate-douce",
+      category: "plats",
+      subcategory: null,
+      image: "/riz-riz/gaufre-de-patate-douce.jpeg",
+      price: 15.5,
+      allergens: [],
+      diets: ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
+      macros: {
+        // "_note": "ESTIMATES",
+        calories: 480,
+        proteines: 6,
+        glucides: 58,
+        lipides: 24,
       },
-      "en": {
-        "name": "Sweet Potato Waffle",
-        "description": "Sweet potato, coconut milk & turmeric on a bed of rocket & oak leaf lettuce, fresh guacamole, pomegranate seeds, homemade dressing"
+      translations: {
+        fr: {
+          name: "Gaufre de Patate Douce",
+          description:
+            "Patate douce, lait de coco & curcuma sur lit de roquette & feuilles de chêne, guacamole frais, graines de grenade, vinaigrette maison",
+        },
+        en: {
+          name: "Sweet Potato Waffle",
+          description:
+            "Sweet potato, coconut milk & turmeric on a bed of rocket & oak leaf lettuce, fresh guacamole, pomegranate seeds, homemade dressing",
+        },
+        it: {
+          name: "Waffle di Patata Dolce",
+          description:
+            "Patata dolce, latte di cocco e curcuma su letto di rucola e lattuga, guacamole fresco, semi di melograno, vinaigrette fatta in casa",
+        },
+        es: {
+          name: "Gofre de Batata",
+          description:
+            "Batata, leche de coco y cúrcuma sobre cama de rúcula y roble, guacamole fresco, semillas de granada, vinagreta casera",
+        },
       },
-      "it": {
-        "name": "Waffle di Patata Dolce",
-        "description": "Patata dolce, latte di cocco e curcuma su letto di rucola e lattuga, guacamole fresco, semi di melograno, vinaigrette fatta in casa"
-      },
-      "es": {
-        "name": "Gofre de Batata",
-        "description": "Batata, leche de coco y cúrcuma sobre cama de rúcula y roble, guacamole fresco, semillas de granada, vinagreta casera"
-      }
-    }
-  },
-  {
-    "id": "black-panther",
-    "category": "plats",
-    "subcategory": null,
-    "image": "/riz-riz/black-panther.jpeg",
-    "price": 17.00,
-    "allergens": ["soja", "sesame"],
-    "diets": ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
-    "macros": {
-      // "_note": "ESTIMATES",
-      "calories": 560,
-      "proteines": 22,
-      "glucides": 55,
-      "lipides": 26
     },
-    "translations": {
-      "fr": {
-        "name": "Black Panther",
-        "description": "Buddha bol tiède d'edamame, tofu 5 parfums, carottes grillées à la marocaine, tranche d'avocat, riz noir interdit, sauce sésame-soja gingembre"
+    {
+      id: "black-panther",
+      category: "plats",
+      subcategory: null,
+      image: "/riz-riz/black-panther.jpeg",
+      price: 17.0,
+      allergens: ["soja", "sesame"],
+      diets: ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
+      macros: {
+        // "_note": "ESTIMATES",
+        calories: 560,
+        proteines: 22,
+        glucides: 55,
+        lipides: 26,
       },
-      "en": {
-        "name": "Black Panther",
-        "description": "Warm buddha bowl with edamame, five-spice tofu, Moroccan-style grilled carrots, avocado, forbidden black rice, ginger sesame-soy sauce"
+      translations: {
+        fr: {
+          name: "Black Panther",
+          description:
+            "Buddha bol tiède d'edamame, tofu 5 parfums, carottes grillées à la marocaine, tranche d'avocat, riz noir interdit, sauce sésame-soja gingembre",
+        },
+        en: {
+          name: "Black Panther",
+          description:
+            "Warm buddha bowl with edamame, five-spice tofu, Moroccan-style grilled carrots, avocado, forbidden black rice, ginger sesame-soy sauce",
+        },
+        it: {
+          name: "Black Panther",
+          description:
+            "Buddha bowl tiepida con edamame, tofu alle 5 spezie, carote grigliate alla marocchina, avocado, riso nero, salsa di soia allo zenzero e sesamo",
+        },
+        es: {
+          name: "Black Panther",
+          description:
+            "Buddha bowl tibio de edamame, tofu 5 especias, zanahorias a la marroquí, aguacate, arroz negro prohibido, salsa de sésamo-soja y jengibre",
+        },
       },
-      "it": {
-        "name": "Black Panther",
-        "description": "Buddha bowl tiepida con edamame, tofu alle 5 spezie, carote grigliate alla marocchina, avocado, riso nero, salsa di soia allo zenzero e sesamo"
-      },
-      "es": {
-        "name": "Black Panther",
-        "description": "Buddha bowl tibio de edamame, tofu 5 especias, zanahorias a la marroquí, aguacate, arroz negro prohibido, salsa de sésamo-soja y jengibre"
-      }
-    }
-  },
-  {
-    "id": "dhal-depinards",
-    "category": "plats",
-    "subcategory": null,
-    "image": "/riz-riz/dhal-depinards.jpeg",
-    "price": 16.50,
-    "allergens": ["sesame"],
-    "diets": ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
-    "macros": {
-      // "_note": "ESTIMATES",
-      "calories": 540,
-      "proteines": 20,
-      "glucides": 72,
-      "lipides": 14
     },
-    "translations": {
-      "fr": {
-        "name": "Dhal d'Épinards",
-        "description": "Ragoût de lentilles corail aux 9 épices, épinards, sésame, ail & oignon, servi avec un duo de riz yin + yang & une tranche de citron vert"
+    {
+      id: "dhal-depinards",
+      category: "plats",
+      subcategory: null,
+      image: "/riz-riz/dhal-depinards.jpeg",
+      price: 16.5,
+      allergens: ["sesame"],
+      diets: ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
+      macros: {
+        // "_note": "ESTIMATES",
+        calories: 540,
+        proteines: 20,
+        glucides: 72,
+        lipides: 14,
       },
-      "en": {
-        "name": "Spinach Dhal",
-        "description": "Red lentil stew with 9 spices, spinach, sesame, garlic & onion, served with a yin+yang duo of rice and a slice of lime"
+      translations: {
+        fr: {
+          name: "Dhal d'Épinards",
+          description:
+            "Ragoût de lentilles corail aux 9 épices, épinards, sésame, ail & oignon, servi avec un duo de riz yin + yang & une tranche de citron vert",
+        },
+        en: {
+          name: "Spinach Dhal",
+          description:
+            "Red lentil stew with 9 spices, spinach, sesame, garlic & onion, served with a yin+yang duo of rice and a slice of lime",
+        },
+        it: {
+          name: "Dhal di Spinaci",
+          description:
+            "Stufato di lenticchie rosse alle 9 spezie, spinaci, sesamo, aglio e cipolla, servito con un duo di riso yin+yang e una fetta di lime",
+        },
+        es: {
+          name: "Dhal de Espinacas",
+          description:
+            "Guiso de lentejas rojas con 9 especias, espinacas, sésamo, ajo y cebolla, servido con un dúo de arroz yin+yang y una rodaja de lima",
+        },
       },
-      "it": {
-        "name": "Dhal di Spinaci",
-        "description": "Stufato di lenticchie rosse alle 9 spezie, spinaci, sesamo, aglio e cipolla, servito con un duo di riso yin+yang e una fetta di lime"
-      },
-      "es": {
-        "name": "Dhal de Espinacas",
-        "description": "Guiso de lentejas rojas con 9 especias, espinacas, sésamo, ajo y cebolla, servido con un dúo de arroz yin+yang y una rodaja de lima"
-      }
-    }
-  },
-  {
-    "id": "mango-masala",
-    "category": "plats",
-    "subcategory": null,
-    "image": "/riz-riz/mango-masala.jpeg",
-    "price": 16.50,
-    "allergens": [],
-    "diets": ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
-    "macros": {
-      // "_note": "ESTIMATES",
-      "calories": 490,
-      "proteines": 8,
-      "glucides": 82,
-      "lipides": 12
     },
-    "translations": {
-      "fr": {
-        "name": "Mango Masala",
-        "description": "Curry jaune & doux de mangues, courgettes & ananas avec tomates, poivrons rouges, ail & oignon, sur lit de riz jasmin parfumé"
+    {
+      id: "mango-masala",
+      category: "plats",
+      subcategory: null,
+      image: "/riz-riz/mango-masala.jpeg",
+      price: 16.5,
+      allergens: [],
+      diets: ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
+      macros: {
+        // "_note": "ESTIMATES",
+        calories: 490,
+        proteines: 8,
+        glucides: 82,
+        lipides: 12,
       },
-      "en": {
-        "name": "Mango Masala",
-        "description": "Mild yellow curry of mango, courgette & pineapple with tomatoes, red peppers, garlic & onion, on fragrant jasmine rice"
+      translations: {
+        fr: {
+          name: "Mango Masala",
+          description:
+            "Curry jaune & doux de mangues, courgettes & ananas avec tomates, poivrons rouges, ail & oignon, sur lit de riz jasmin parfumé",
+        },
+        en: {
+          name: "Mango Masala",
+          description:
+            "Mild yellow curry of mango, courgette & pineapple with tomatoes, red peppers, garlic & onion, on fragrant jasmine rice",
+        },
+        it: {
+          name: "Mango Masala",
+          description:
+            "Curry giallo e delicato di mango, zucchine e ananas con pomodori, peperoni rossi, aglio e cipolla, su riso al gelsomino",
+        },
+        es: {
+          name: "Mango Masala",
+          description:
+            "Curry amarillo suave de mango, calabacín y piña con tomates, pimientos rojos, ajo y cebolla, sobre arroz jazmín perfumado",
+        },
       },
-      "it": {
-        "name": "Mango Masala",
-        "description": "Curry giallo e delicato di mango, zucchine e ananas con pomodori, peperoni rossi, aglio e cipolla, su riso al gelsomino"
-      },
-      "es": {
-        "name": "Mango Masala",
-        "description": "Curry amarillo suave de mango, calabacín y piña con tomates, pimientos rojos, ajo y cebolla, sobre arroz jazmín perfumado"
-      }
-    }
-  },
-  {
-    "id": "incroyable-chocolat",
-    "category": "desserts",
-    "subcategory": null,
-    "image": "/riz-riz/incroyable-chocolat.jpeg",
-    "price": 8.50,
-    "allergens": ["arachides", "fruits-a-coque"],
-    "diets": ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
-    "macros": {
-      // "_note": "ESTIMATES",
-      "calories": 420,
-      "proteines": 6,
-      "glucides": 45,
-      "lipides": 24
     },
-    "translations": {
-      "fr": {
-        "name": "Incroyable Chocolat",
-        "description": "Ganache de chocolat noir sur base de crumble aux amandes, nougatine de cacahuète & riz soufflé au caramel"
+    {
+      id: "incroyable-chocolat",
+      category: "desserts",
+      subcategory: null,
+      image: "/riz-riz/incroyable-chocolat.jpeg",
+      price: 8.5,
+      allergens: ["arachides", "fruits-a-coque"],
+      diets: ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
+      macros: {
+        // "_note": "ESTIMATES",
+        calories: 420,
+        proteines: 6,
+        glucides: 45,
+        lipides: 24,
       },
-      "en": {
-        "name": "Incredible Chocolate",
-        "description": "Dark chocolate ganache on an almond crumble base, peanut nougatine & caramel puffed rice"
+      translations: {
+        fr: {
+          name: "Incroyable Chocolat",
+          description:
+            "Ganache de chocolat noir sur base de crumble aux amandes, nougatine de cacahuète & riz soufflé au caramel",
+        },
+        en: {
+          name: "Incredible Chocolate",
+          description:
+            "Dark chocolate ganache on an almond crumble base, peanut nougatine & caramel puffed rice",
+        },
+        it: {
+          name: "Incredibile Cioccolato",
+          description:
+            "Ganache al cioccolato fondente su base di crumble alle mandorle, nougatine di arachidi e riso soffiato al caramello",
+        },
+        es: {
+          name: "Increíble Chocolate",
+          description:
+            "Ganache de chocolate negro sobre base de crumble de almendras, nougatine de cacahuete y arroz inflado al caramelo",
+        },
       },
-      "it": {
-        "name": "Incredibile Cioccolato",
-        "description": "Ganache al cioccolato fondente su base di crumble alle mandorle, nougatine di arachidi e riso soffiato al caramello"
-      },
-      "es": {
-        "name": "Increíble Chocolate",
-        "description": "Ganache de chocolate negro sobre base de crumble de almendras, nougatine de cacahuete y arroz inflado al caramelo"
-      }
-    }
-  },
-  {
-    "id": "mousse-chocolat-peanut-butter",
-    "category": "desserts",
-    "subcategory": null,
-    "image": "/riz-riz/mousse-chocolat-peanut-butter.jpeg",
-    "price": 8.50,
-    "allergens": ["arachides"],
-    "diets": ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
-    "macros": {
-      // "_note": "ESTIMATES",
-      "calories": 390,
-      "proteines": 8,
-      "glucides": 30,
-      "lipides": 27
     },
-    "translations": {
-      "fr": {
-        "name": "Mousse Chocolat & Peanut Butter",
-        "description": "Si bonne que la cuillère tient toute seule dedans !"
+    {
+      id: "mousse-chocolat-peanut-butter",
+      category: "desserts",
+      subcategory: null,
+      image: "/riz-riz/mousse-chocolat-peanut-butter.jpeg",
+      price: 8.5,
+      allergens: ["arachides"],
+      diets: ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
+      macros: {
+        // "_note": "ESTIMATES",
+        calories: 390,
+        proteines: 8,
+        glucides: 30,
+        lipides: 27,
       },
-      "en": {
-        "name": "Chocolate & Peanut Butter Mousse",
-        "description": "So good the spoon stands up on its own!"
+      translations: {
+        fr: {
+          name: "Mousse Chocolat & Peanut Butter",
+          description: "Si bonne que la cuillère tient toute seule dedans !",
+        },
+        en: {
+          name: "Chocolate & Peanut Butter Mousse",
+          description: "So good the spoon stands up on its own!",
+        },
+        it: {
+          name: "Mousse Cioccolato & Burro di Arachidi",
+          description: "Così buona che il cucchiaio rimane in piedi da solo!",
+        },
+        es: {
+          name: "Mousse de Chocolate & Mantequilla de Cacahuete",
+          description: "¡Tan buena que la cuchara se sostiene sola!",
+        },
       },
-      "it": {
-        "name": "Mousse Cioccolato & Burro di Arachidi",
-        "description": "Così buona che il cucchiaio rimane in piedi da solo!"
-      },
-      "es": {
-        "name": "Mousse de Chocolate & Mantequilla de Cacahuete",
-        "description": "¡Tan buena que la cuchara se sostiene sola!"
-      }
-    }
-  },
-  {
-    "id": "cheesecake-miroir-framboise",
-    "category": "desserts",
-    "subcategory": null,
-    "image": "/riz-riz/cheesecake-miroir-framboise.jpeg",
-    "price": 8.50,
-    "allergens": ["fruits-a-coque"],
-    "diets": ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
-    "macros": {
-      // "_note": "ESTIMATES",
-      "calories": 360,
-      "proteines": 6,
-      "glucides": 38,
-      "lipides": 20
     },
-    "translations": {
-      "fr": {
-        "name": "Cheesecake Miroir à la Framboise",
-        "description": "Cheesecake de noix de cajou & framboises mêlées, coulis miroir à la framboise sur pâte sablée aux amandes"
+    {
+      id: "cheesecake-miroir-framboise",
+      category: "desserts",
+      subcategory: null,
+      image: "/riz-riz/cheesecake-miroir-framboise.jpeg",
+      price: 8.5,
+      allergens: ["fruits-a-coque"],
+      diets: ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
+      macros: {
+        // "_note": "ESTIMATES",
+        calories: 360,
+        proteines: 6,
+        glucides: 38,
+        lipides: 20,
       },
-      "en": {
-        "name": "Raspberry Mirror Cheesecake",
-        "description": "Cashew & raspberry cheesecake with mirror raspberry coulis on an almond shortcrust base"
+      translations: {
+        fr: {
+          name: "Cheesecake Miroir à la Framboise",
+          description:
+            "Cheesecake de noix de cajou & framboises mêlées, coulis miroir à la framboise sur pâte sablée aux amandes",
+        },
+        en: {
+          name: "Raspberry Mirror Cheesecake",
+          description:
+            "Cashew & raspberry cheesecake with mirror raspberry coulis on an almond shortcrust base",
+        },
+        it: {
+          name: "Cheesecake Specchio al Lampone",
+          description:
+            "Cheesecake di anacardi e lamponi, coulis a specchio al lampone su pasta frolla alle mandorle",
+        },
+        es: {
+          name: "Cheesecake Espejo de Frambuesa",
+          description:
+            "Cheesecake de anacardos y frambuesas, coulis espejo de frambuesa sobre masa sablé de almendras",
+        },
       },
-      "it": {
-        "name": "Cheesecake Specchio al Lampone",
-        "description": "Cheesecake di anacardi e lamponi, coulis a specchio al lampone su pasta frolla alle mandorle"
-      },
-      "es": {
-        "name": "Cheesecake Espejo de Frambuesa",
-        "description": "Cheesecake de anacardos y frambuesas, coulis espejo de frambuesa sobre masa sablé de almendras"
-      }
-    }
-  },
-  {
-    "id": "cheesecake-matcha",
-    "category": "desserts",
-    "subcategory": null,
-    "image": "/riz-riz/cheesecake-matcha.jpeg",
-    "price": 8.50,
-    "allergens": ["fruits-a-coque"],
-    "diets": ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
-    "macros": {
-      // "_note": "ESTIMATES",
-      "calories": 340,
-      "proteines": 6,
-      "glucides": 36,
-      "lipides": 19
     },
-    "translations": {
-      "fr": {
-        "name": "Cheesecake Matcha",
-        "description": "Cheesecake de noix de cajou sur pâte sablée aux amandes, matcha & citron"
+    {
+      id: "cheesecake-matcha",
+      category: "desserts",
+      subcategory: null,
+      image: "/riz-riz/cheesecake-matcha.jpeg",
+      price: 8.5,
+      allergens: ["fruits-a-coque"],
+      diets: ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
+      macros: {
+        // "_note": "ESTIMATES",
+        calories: 340,
+        proteines: 6,
+        glucides: 36,
+        lipides: 19,
       },
-      "en": {
-        "name": "Matcha Cheesecake",
-        "description": "Cashew cheesecake on an almond shortcrust base, matcha & lemon"
+      translations: {
+        fr: {
+          name: "Cheesecake Matcha",
+          description:
+            "Cheesecake de noix de cajou sur pâte sablée aux amandes, matcha & citron",
+        },
+        en: {
+          name: "Matcha Cheesecake",
+          description:
+            "Cashew cheesecake on an almond shortcrust base, matcha & lemon",
+        },
+        it: {
+          name: "Cheesecake al Matcha",
+          description:
+            "Cheesecake di anacardi su pasta frolla alle mandorle, matcha e limone",
+        },
+        es: {
+          name: "Cheesecake Matcha",
+          description:
+            "Cheesecake de anacardos sobre masa sablé de almendras, matcha y limón",
+        },
       },
-      "it": {
-        "name": "Cheesecake al Matcha",
-        "description": "Cheesecake di anacardi su pasta frolla alle mandorle, matcha e limone"
-      },
-      "es": {
-        "name": "Cheesecake Matcha",
-        "description": "Cheesecake de anacardos sobre masa sablé de almendras, matcha y limón"
-      }
-    }
-  },
-  {
-    "id": "riz-riz-au-lait",
-    "category": "desserts",
-    "subcategory": null,
-    "image": "/riz-riz/riz-riz-au-lait.jpeg",
-    "price": 7.00,
-    "allergens": ["soja"],
-    "diets": ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
-    "macros": {
-      // "_note": "ESTIMATES",
-      "calories": 310,
-      "proteines": 5,
-      "glucides": 52,
-      "lipides": 9
     },
-    "translations": {
-      "fr": {
-        "name": "Riz Riz au Lait",
-        "description": "Riz arborio longuement mijoté à la vanille, laits de coco & soja, graines de grenade, morceaux de pâte sablée émiettée"
+    {
+      id: "riz-riz-au-lait",
+      category: "desserts",
+      subcategory: null,
+      image: "/riz-riz/riz-riz-au-lait.jpeg",
+      price: 7.0,
+      allergens: ["soja"],
+      diets: ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
+      macros: {
+        // "_note": "ESTIMATES",
+        calories: 310,
+        proteines: 5,
+        glucides: 52,
+        lipides: 9,
       },
-      "en": {
-        "name": "Riz Riz Rice Pudding",
-        "description": "Arborio rice slow-cooked with vanilla, coconut & soy milk, pomegranate seeds, crumbled shortcrust pastry"
+      translations: {
+        fr: {
+          name: "Riz Riz au Lait",
+          description:
+            "Riz arborio longuement mijoté à la vanille, laits de coco & soja, graines de grenade, morceaux de pâte sablée émiettée",
+        },
+        en: {
+          name: "Riz Riz Rice Pudding",
+          description:
+            "Arborio rice slow-cooked with vanilla, coconut & soy milk, pomegranate seeds, crumbled shortcrust pastry",
+        },
+        it: {
+          name: "Riz Riz al Latte",
+          description:
+            "Riso arborio cotto a lungo con vaniglia, latte di cocco e soia, semi di melograno, pezzi di pasta frolla sbriciolata",
+        },
+        es: {
+          name: "Arroz con Leche Riz Riz",
+          description:
+            "Arroz arborio cocinado lentamente con vainilla, leche de coco y soja, semillas de granada, trozos de masa sablé desmenuzada",
+        },
       },
-      "it": {
-        "name": "Riz Riz al Latte",
-        "description": "Riso arborio cotto a lungo con vaniglia, latte di cocco e soia, semi di melograno, pezzi di pasta frolla sbriciolata"
-      },
-      "es": {
-        "name": "Arroz con Leche Riz Riz",
-        "description": "Arroz arborio cocinado lentamente con vainilla, leche de coco y soja, semillas de granada, trozos de masa sablé desmenuzada"
-      }
-    }
-  },
-  {
-    "id": "banana-bread",
-    "category": "desserts",
-    "subcategory": null,
-    "image": "/riz-riz/banana-bread.jpeg",
-    "price": 6.00,
-    "allergens": ["fruits-a-coque"],
-    "diets": ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
-    "macros": {
-      // "_note": "ESTIMATES",
-      "calories": 280,
-      "proteines": 4,
-      "glucides": 44,
-      "lipides": 10
     },
-    "translations": {
-      "fr": {
-        "name": "Banana Bread",
-        "description": "Cake moelleux avec bananes caramélisées, garniture d'amandes concassées"
+    {
+      id: "banana-bread",
+      category: "desserts",
+      subcategory: null,
+      image: "/riz-riz/banana-bread.jpeg",
+      price: 6.0,
+      allergens: ["fruits-a-coque"],
+      diets: ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
+      macros: {
+        // "_note": "ESTIMATES",
+        calories: 280,
+        proteines: 4,
+        glucides: 44,
+        lipides: 10,
       },
-      "en": {
-        "name": "Banana Bread",
-        "description": "Soft cake with caramelised bananas and crushed almond topping"
+      translations: {
+        fr: {
+          name: "Banana Bread",
+          description:
+            "Cake moelleux avec bananes caramélisées, garniture d'amandes concassées",
+        },
+        en: {
+          name: "Banana Bread",
+          description:
+            "Soft cake with caramelised bananas and crushed almond topping",
+        },
+        it: {
+          name: "Banana Bread",
+          description: "Cake soffice con banane caramellate e mandorle tritate",
+        },
+        es: {
+          name: "Banana Bread",
+          description:
+            "Bizcocho esponjoso con plátanos caramelizados y cobertura de almendras trituradas",
+        },
       },
-      "it": {
-        "name": "Banana Bread",
-        "description": "Cake soffice con banane caramellate e mandorle tritate"
-      },
-      "es": {
-        "name": "Banana Bread",
-        "description": "Bizcocho esponjoso con plátanos caramelizados y cobertura de almendras trituradas"
-      }
-    }
-  },
-  {
-    "id": "mango-sticky-rice",
-    "category": "desserts",
-    "subcategory": null,
-    "image": "/riz-riz/mango-sticky-rice.jpeg",
-    "price": 8.50,
-    "allergens": [],
-    "diets": ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
-    "macros": {
-      // "_note": "ESTIMATES",
-      "calories": 330,
-      "proteines": 4,
-      "glucides": 62,
-      "lipides": 8
     },
-    "translations": {
-      "fr": {
-        "name": "Mango Sticky Rice",
-        "description": "Mélange de riz noir & riz arborio cuits en pudding, dés de mangue & lait de coco, démoulé à votre table"
+    {
+      id: "mango-sticky-rice",
+      category: "desserts",
+      subcategory: null,
+      image: "/riz-riz/mango-sticky-rice.jpeg",
+      price: 8.5,
+      allergens: [],
+      diets: ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
+      macros: {
+        // "_note": "ESTIMATES",
+        calories: 330,
+        proteines: 4,
+        glucides: 62,
+        lipides: 8,
       },
-      "en": {
-        "name": "Mango Sticky Rice",
-        "description": "Black rice & arborio pudding, diced mango & coconut milk, unmoulded at your table"
+      translations: {
+        fr: {
+          name: "Mango Sticky Rice",
+          description:
+            "Mélange de riz noir & riz arborio cuits en pudding, dés de mangue & lait de coco, démoulé à votre table",
+        },
+        en: {
+          name: "Mango Sticky Rice",
+          description:
+            "Black rice & arborio pudding, diced mango & coconut milk, unmoulded at your table",
+        },
+        it: {
+          name: "Mango Sticky Rice",
+          description:
+            "Mix di riso nero e arborio cotti in budino, dadini di mango e latte di cocco, sformato al vostro tavolo",
+        },
+        es: {
+          name: "Mango Sticky Rice",
+          description:
+            "Mezcla de arroz negro y arborio cocidos en pudín, trozos de mango y leche de coco, desmoldado en su mesa",
+        },
       },
-      "it": {
-        "name": "Mango Sticky Rice",
-        "description": "Mix di riso nero e arborio cotti in budino, dadini di mango e latte di cocco, sformato al vostro tavolo"
-      },
-      "es": {
-        "name": "Mango Sticky Rice",
-        "description": "Mezcla de arroz negro y arborio cocidos en pudín, trozos de mango y leche de coco, desmoldado en su mesa"
-      }
-    }
-  },
-  {
-    "id": "rice-table",
-    "category": "formules",
-    "subcategory": null,
-    "image": "/riz-riz/rice-table.jpeg",
-    "price": 26.00,
-    "allergens": ["arachides", "sesame", "soja", "fruits-a-coque"],
-    "diets": ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
-    "macros": {
-      // "_note": "ESTIMATES — full sharing table, not per dish",
-      "calories": 1800,
-      "proteines": 55,
-      "glucides": 270,
-      "lipides": 60
     },
-    "translations": {
-      "fr": {
-        "name": "Rice Table",
-        "description": "Pour essayer toute notre carte salée ou presque. Plus il y a de convives, plus les plats sont grands ! Comprend : Gaufre de Patate Douce, Black Panther, Curry du Dragon, Taboulé de Riz, Mango Masala, Chotpoti, Dhal d'Épinards, Houmous de Betterave"
+    {
+      id: "rice-table",
+      category: "formules",
+      subcategory: null,
+      image: "/riz-riz/rice-table.jpeg",
+      price: 26.0,
+      allergens: ["arachides", "sesame", "soja", "fruits-a-coque"],
+      diets: ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
+      macros: {
+        // "_note": "ESTIMATES — full sharing table, not per dish",
+        calories: 1800,
+        proteines: 55,
+        glucides: 270,
+        lipides: 60,
       },
-      "en": {
-        "name": "Rice Table",
-        "description": "Try almost our entire savoury menu — portions grow with the number of guests! Includes: Sweet Potato Waffle, Black Panther, Dragon Curry, Rice Tabbouleh, Mango Masala, Chotpoti, Spinach Dhal, Beetroot Hummus"
+      translations: {
+        fr: {
+          name: "Rice Table",
+          description:
+            "Pour essayer toute notre carte salée ou presque. Plus il y a de convives, plus les plats sont grands ! Comprend : Gaufre de Patate Douce, Black Panther, Curry du Dragon, Taboulé de Riz, Mango Masala, Chotpoti, Dhal d'Épinards, Houmous de Betterave",
+        },
+        en: {
+          name: "Rice Table",
+          description:
+            "Try almost our entire savoury menu — portions grow with the number of guests! Includes: Sweet Potato Waffle, Black Panther, Dragon Curry, Rice Tabbouleh, Mango Masala, Chotpoti, Spinach Dhal, Beetroot Hummus",
+        },
+        it: {
+          name: "Rice Table",
+          description:
+            "Per assaggiare quasi tutta la nostra carta salata. Più ospiti ci sono, più i piatti sono abbondanti! Include: Waffle di Patata Dolce, Black Panther, Curry del Drago, Tabulé di Riso, Mango Masala, Chotpoti, Dhal di Spinaci, Hummus di Barbabietola",
+        },
+        es: {
+          name: "Rice Table",
+          description:
+            "Para probar casi toda nuestra carta salada. ¡Cuantos más comensales, más grandes los platos! Incluye: Gofre de Batata, Black Panther, Curry del Dragón, Tabulé de Arroz, Mango Masala, Chotpoti, Dhal de Espinacas, Hummus de Remolacha",
+        },
       },
-      "it": {
-        "name": "Rice Table",
-        "description": "Per assaggiare quasi tutta la nostra carta salata. Più ospiti ci sono, più i piatti sono abbondanti! Include: Waffle di Patata Dolce, Black Panther, Curry del Drago, Tabulé di Riso, Mango Masala, Chotpoti, Dhal di Spinaci, Hummus di Barbabietola"
-      },
-      "es": {
-        "name": "Rice Table",
-        "description": "Para probar casi toda nuestra carta salada. ¡Cuantos más comensales, más grandes los platos! Incluye: Gofre de Batata, Black Panther, Curry del Dragón, Tabulé de Arroz, Mango Masala, Chotpoti, Dhal de Espinacas, Hummus de Remolacha"
-      }
-    }
-  },
-  {
-    "id": "full-table",
-    "category": "formules",
-    "subcategory": null,
-    "image": "/riz-riz/full-table.jpeg",
-    "price": 31.00,
-    "allergens": ["arachides", "sesame", "soja", "fruits-a-coque"],
-    "diets": ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
-    "macros": {
-      // "_note": "ESTIMATES — full sharing table incl. dessert",
-      "calories": 2100,
-      "proteines": 61,
-      "glucides": 315,
-      "lipides": 79
     },
-    "translations": {
-      "fr": {
-        "name": "Full Table",
-        "description": "Rice Table + le dessert de votre choix"
+    {
+      id: "full-table",
+      category: "formules",
+      subcategory: null,
+      image: "/riz-riz/full-table.jpeg",
+      price: 31.0,
+      allergens: ["arachides", "sesame", "soja", "fruits-a-coque"],
+      diets: ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
+      macros: {
+        // "_note": "ESTIMATES — full sharing table incl. dessert",
+        calories: 2100,
+        proteines: 61,
+        glucides: 315,
+        lipides: 79,
       },
-      "en": {
-        "name": "Full Table",
-        "description": "Rice Table + your choice of dessert"
+      translations: {
+        fr: {
+          name: "Full Table",
+          description: "Rice Table + le dessert de votre choix",
+        },
+        en: {
+          name: "Full Table",
+          description: "Rice Table + your choice of dessert",
+        },
+        it: {
+          name: "Full Table",
+          description: "Rice Table + il dessert a vostra scelta",
+        },
+        es: {
+          name: "Full Table",
+          description: "Rice Table + el postre de su elección",
+        },
       },
-      "it": {
-        "name": "Full Table",
-        "description": "Rice Table + il dessert a vostra scelta"
-      },
-      "es": {
-        "name": "Full Table",
-        "description": "Rice Table + el postre de su elección"
-      }
-    }
-  },
-  {
-    "id": "brunch-table",
-    "category": "formules",
-    "subcategory": null,
-    "image": "/riz-riz/brunch-table.jpeg",
-    "price": 31.00,
-    "allergens": ["arachides", "sesame", "soja", "fruits-a-coque"],
-    "diets": ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
-    "macros": {
-      // "_note": "ESTIMATES — full brunch table",
-      "calories": 1950,
-      "proteines": 52,
-      "glucides": 300,
-      "lipides": 65
     },
-    "translations": {
-      "fr": {
-        "name": "Brunch Table du Weekend",
-        "description": "Nos spécialités déclinées en sucré + salé & riz jasmin, servie avec un thé ou un café & un verre de jus d'orange. Comprend : Gaufre de Patate Douce, Black Panther, Curry du Dragon, Taboulé de Riz, Mango Masala, Banana Bread, Dhal d'Épinards, Riz Riz au Lait"
+    {
+      id: "brunch-table",
+      category: "formules",
+      subcategory: null,
+      image: "/riz-riz/brunch-table.jpeg",
+      price: 31.0,
+      allergens: ["arachides", "sesame", "soja", "fruits-a-coque"],
+      diets: ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
+      macros: {
+        // "_note": "ESTIMATES — full brunch table",
+        calories: 1950,
+        proteines: 52,
+        glucides: 300,
+        lipides: 65,
       },
-      "en": {
-        "name": "Weekend Brunch Table",
-        "description": "Our specialities in sweet & savoury with jasmine rice, served with tea or coffee & a glass of orange juice. Includes: Sweet Potato Waffle, Black Panther, Dragon Curry, Rice Tabbouleh, Mango Masala, Banana Bread, Spinach Dhal, Riz Riz Rice Pudding"
+      translations: {
+        fr: {
+          name: "Brunch Table du Weekend",
+          description:
+            "Nos spécialités déclinées en sucré + salé & riz jasmin, servie avec un thé ou un café & un verre de jus d'orange. Comprend : Gaufre de Patate Douce, Black Panther, Curry du Dragon, Taboulé de Riz, Mango Masala, Banana Bread, Dhal d'Épinards, Riz Riz au Lait",
+        },
+        en: {
+          name: "Weekend Brunch Table",
+          description:
+            "Our specialities in sweet & savoury with jasmine rice, served with tea or coffee & a glass of orange juice. Includes: Sweet Potato Waffle, Black Panther, Dragon Curry, Rice Tabbouleh, Mango Masala, Banana Bread, Spinach Dhal, Riz Riz Rice Pudding",
+        },
+        it: {
+          name: "Brunch Table del Weekend",
+          description:
+            "Le nostre specialità in dolce e salato con riso al gelsomino, servita con tè o caffè e un bicchiere di succo d'arancia",
+        },
+        es: {
+          name: "Brunch Table del Fin de Semana",
+          description:
+            "Nuestras especialidades en dulce y salado con arroz jazmín, servida con té o café y un vaso de zumo de naranja",
+        },
       },
-      "it": {
-        "name": "Brunch Table del Weekend",
-        "description": "Le nostre specialità in dolce e salato con riso al gelsomino, servita con tè o caffè e un bicchiere di succo d'arancia"
-      },
-      "es": {
-        "name": "Brunch Table del Fin de Semana",
-        "description": "Nuestras especialidades en dulce y salado con arroz jazmín, servida con té o café y un vaso de zumo de naranja"
-      }
-    }
-  },
-  {
-    "id": "menu-midi-entree-plat",
-    "category": "formules",
-    "subcategory": "menu-midi",
-    "image": "/riz-riz/menu-midi.jpeg",
-    "price": 21.00,
-    "allergens": ["arachides", "sesame", "fruits-a-coque"],
-    "diets": ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
-    "macros": {
-      // "_note": "ESTIMATES",
-      "calories": 780,
-      "proteines": 22,
-      "glucides": 108,
-      "lipides": 28
     },
-    "translations": {
-      "fr": {
-        "name": "Menu Midi — Entrée + Plat",
-        "description": "En semaine hors jours fériés. Entrée : Taboulé de Riz ou Chotpoti. Plat : Curry du Dragon, Gaufre de Patate Douce ou Dhal d'Épinards"
+    {
+      id: "menu-midi-entree-plat",
+      category: "formules",
+      subcategory: "menu-midi",
+      image: "/riz-riz/menu-midi.jpeg",
+      price: 21.0,
+      allergens: ["arachides", "sesame", "fruits-a-coque"],
+      diets: ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
+      macros: {
+        // "_note": "ESTIMATES",
+        calories: 780,
+        proteines: 22,
+        glucides: 108,
+        lipides: 28,
       },
-      "en": {
-        "name": "Lunch Menu — Starter + Main",
-        "description": "Weekdays only (excluding public holidays). Starter: Rice Tabbouleh or Chotpoti. Main: Dragon Curry, Sweet Potato Waffle or Spinach Dhal"
+      translations: {
+        fr: {
+          name: "Menu Midi — Entrée + Plat",
+          description:
+            "En semaine hors jours fériés. Entrée : Taboulé de Riz ou Chotpoti. Plat : Curry du Dragon, Gaufre de Patate Douce ou Dhal d'Épinards",
+        },
+        en: {
+          name: "Lunch Menu — Starter + Main",
+          description:
+            "Weekdays only (excluding public holidays). Starter: Rice Tabbouleh or Chotpoti. Main: Dragon Curry, Sweet Potato Waffle or Spinach Dhal",
+        },
+        it: {
+          name: "Menu Pranzo — Antipasto + Piatto",
+          description:
+            "Solo nei giorni feriali. Antipasto: Tabulé di Riso o Chotpoti. Piatto: Curry del Drago, Waffle di Patata Dolce o Dhal di Spinaci",
+        },
+        es: {
+          name: "Menú Mediodía — Entrada + Plato",
+          description:
+            "Solo días laborables. Entrada: Tabulé de Arroz o Chotpoti. Plato: Curry del Dragón, Gofre de Batata o Dhal de Espinacas",
+        },
       },
-      "it": {
-        "name": "Menu Pranzo — Antipasto + Piatto",
-        "description": "Solo nei giorni feriali. Antipasto: Tabulé di Riso o Chotpoti. Piatto: Curry del Drago, Waffle di Patata Dolce o Dhal di Spinaci"
-      },
-      "es": {
-        "name": "Menú Mediodía — Entrada + Plato",
-        "description": "Solo días laborables. Entrada: Tabulé de Arroz o Chotpoti. Plato: Curry del Dragón, Gofre de Batata o Dhal de Espinacas"
-      }
-    }
-  },
-  {
-    "id": "menu-midi-plat-dessert",
-    "category": "formules",
-    "subcategory": "menu-midi",
-    "image": "/riz-riz/menu-midi.jpeg",
-    "price": 21.00,
-    "allergens": ["arachides", "sesame", "soja", "fruits-a-coque"],
-    "diets": ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
-    "macros": {
-      // "_note": "ESTIMATES",
-      "calories": 820,
-      "proteines": 20,
-      "glucides": 118,
-      "lipides": 30
     },
-    "translations": {
-      "fr": {
-        "name": "Menu Midi — Plat + Dessert",
-        "description": "En semaine hors jours fériés. Plat : Curry du Dragon, Gaufre de Patate Douce ou Dhal d'Épinards. Dessert : Riz Riz au Lait ou Banana Bread (substitution autre dessert +3€)"
+    {
+      id: "menu-midi-plat-dessert",
+      category: "formules",
+      subcategory: "menu-midi",
+      image: "/riz-riz/menu-midi.jpeg",
+      price: 21.0,
+      allergens: ["arachides", "sesame", "soja", "fruits-a-coque"],
+      diets: ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
+      macros: {
+        // "_note": "ESTIMATES",
+        calories: 820,
+        proteines: 20,
+        glucides: 118,
+        lipides: 30,
       },
-      "en": {
-        "name": "Lunch Menu — Main + Dessert",
-        "description": "Weekdays only. Main: Dragon Curry, Sweet Potato Waffle or Spinach Dhal. Dessert: Rice Pudding or Banana Bread (upgrade to any other dessert +€3)"
+      translations: {
+        fr: {
+          name: "Menu Midi — Plat + Dessert",
+          description:
+            "En semaine hors jours fériés. Plat : Curry du Dragon, Gaufre de Patate Douce ou Dhal d'Épinards. Dessert : Riz Riz au Lait ou Banana Bread (substitution autre dessert +3€)",
+        },
+        en: {
+          name: "Lunch Menu — Main + Dessert",
+          description:
+            "Weekdays only. Main: Dragon Curry, Sweet Potato Waffle or Spinach Dhal. Dessert: Rice Pudding or Banana Bread (upgrade to any other dessert +€3)",
+        },
+        it: {
+          name: "Menu Pranzo — Piatto + Dessert",
+          description:
+            "Solo nei giorni feriali. Piatto: Curry del Drago, Waffle di Patata Dolce o Dhal di Spinaci. Dessert: Riz Riz al Latte o Banana Bread (sostituzione altro dessert +3€)",
+        },
+        es: {
+          name: "Menú Mediodía — Plato + Postre",
+          description:
+            "Solo días laborables. Plato: Curry del Dragón, Gofre de Batata o Dhal de Espinacas. Postre: Arroz con Leche o Banana Bread (sustitución otro postre +3€)",
+        },
       },
-      "it": {
-        "name": "Menu Pranzo — Piatto + Dessert",
-        "description": "Solo nei giorni feriali. Piatto: Curry del Drago, Waffle di Patata Dolce o Dhal di Spinaci. Dessert: Riz Riz al Latte o Banana Bread (sostituzione altro dessert +3€)"
-      },
-      "es": {
-        "name": "Menú Mediodía — Plato + Postre",
-        "description": "Solo días laborables. Plato: Curry del Dragón, Gofre de Batata o Dhal de Espinacas. Postre: Arroz con Leche o Banana Bread (sustitución otro postre +3€)"
-      }
-    }
-  },
-  {
-    "id": "menu-midi-entree-plat-dessert",
-    "category": "formules",
-    "subcategory": "menu-midi",
-    "image": "/riz-riz/menu-midi.jpeg",
-    "price": 25.00,
-    "allergens": ["arachides", "sesame", "soja", "fruits-a-coque"],
-    "diets": ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
-    "macros": {
-      // "_note": "ESTIMATES",
-      "calories": 1050,
-      "proteines": 30,
-      "glucides": 155,
-      "lipides": 38
     },
-    "translations": {
-      "fr": {
-        "name": "Menu Midi — Entrée + Plat + Dessert",
-        "description": "En semaine hors jours fériés. Entrée : Taboulé de Riz ou Chotpoti. Plat : Curry du Dragon, Gaufre de Patate Douce ou Dhal d'Épinards. Dessert : Riz Riz au Lait ou Banana Bread (substitution autre dessert +3€)"
+    {
+      id: "menu-midi-entree-plat-dessert",
+      category: "formules",
+      subcategory: "menu-midi",
+      image: "/riz-riz/menu-midi.jpeg",
+      price: 25.0,
+      allergens: ["arachides", "sesame", "soja", "fruits-a-coque"],
+      diets: ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
+      macros: {
+        // "_note": "ESTIMATES",
+        calories: 1050,
+        proteines: 30,
+        glucides: 155,
+        lipides: 38,
       },
-      "en": {
-        "name": "Lunch Menu — Starter + Main + Dessert",
-        "description": "Weekdays only. Starter: Rice Tabbouleh or Chotpoti. Main: Dragon Curry, Sweet Potato Waffle or Spinach Dhal. Dessert: Rice Pudding or Banana Bread (upgrade +€3)"
+      translations: {
+        fr: {
+          name: "Menu Midi — Entrée + Plat + Dessert",
+          description:
+            "En semaine hors jours fériés. Entrée : Taboulé de Riz ou Chotpoti. Plat : Curry du Dragon, Gaufre de Patate Douce ou Dhal d'Épinards. Dessert : Riz Riz au Lait ou Banana Bread (substitution autre dessert +3€)",
+        },
+        en: {
+          name: "Lunch Menu — Starter + Main + Dessert",
+          description:
+            "Weekdays only. Starter: Rice Tabbouleh or Chotpoti. Main: Dragon Curry, Sweet Potato Waffle or Spinach Dhal. Dessert: Rice Pudding or Banana Bread (upgrade +€3)",
+        },
+        it: {
+          name: "Menu Pranzo — Antipasto + Piatto + Dessert",
+          description:
+            "Solo nei giorni feriali. Antipasto: Tabulé o Chotpoti. Piatto: Curry del Drago, Waffle di Patata Dolce o Dhal di Spinaci. Dessert: Riz Riz al Latte o Banana Bread (+3€)",
+        },
+        es: {
+          name: "Menú Mediodía — Entrada + Plato + Postre",
+          description:
+            "Solo días laborables. Entrada: Tabulé o Chotpoti. Plato: Curry del Dragón, Gofre de Batata o Dhal de Espinacas. Postre: Arroz con Leche o Banana Bread (+3€)",
+        },
       },
-      "it": {
-        "name": "Menu Pranzo — Antipasto + Piatto + Dessert",
-        "description": "Solo nei giorni feriali. Antipasto: Tabulé o Chotpoti. Piatto: Curry del Drago, Waffle di Patata Dolce o Dhal di Spinaci. Dessert: Riz Riz al Latte o Banana Bread (+3€)"
-      },
-      "es": {
-        "name": "Menú Mediodía — Entrada + Plato + Postre",
-        "description": "Solo días laborables. Entrada: Tabulé o Chotpoti. Plato: Curry del Dragón, Gofre de Batata o Dhal de Espinacas. Postre: Arroz con Leche o Banana Bread (+3€)"
-      }
-    }
-  }
-]
+    },
+  ],
 }
