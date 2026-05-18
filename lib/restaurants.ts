@@ -34,7 +34,12 @@ export const restaurants: Restaurant[] = [
       menu: "https://www.judy-paris.com/_files/ugd/731ff6_9eae2f3852f144568360585c031551d4.pdf",
     },
     tags: {
-      macronutrients: { energy: true, proteins: true, lipids: true, carbs: true },
+      macronutrients: {
+        energy: true,
+        proteins: true,
+        lipids: true,
+        carbs: true,
+      },
       allergens: [],
       dietary: {
         vegan: true,
@@ -46,18 +51,14 @@ export const restaurants: Restaurant[] = [
       },
     },
   },
-    {
+  {
     id: "noglu",
     name: "Noglu",
     address: "15 Rue Basfroi, 75011 Paris, France",
     coordinates: [2.3796045, 48.8544251],
     rating: 4,
     reviewCount: 807,
-    photos: [
-      "/noglu/noglu1.jpg",
-      "/noglu/noglu2.jpg",
-      "/noglu/noglu3.jpg",
-    ],
+    photos: ["/noglu/noglu1.jpg", "/noglu/noglu2.jpg", "/noglu/noglu3.jpg"],
     reviews: [
       {
         author: "Marie L.",
@@ -78,7 +79,12 @@ export const restaurants: Restaurant[] = [
       menu: "https://cdn.shopify.com/s/files/1/0675/2763/9308/files/Copie_de_Copie_de_Menu_Basfroi.png?v=1748349877",
     },
     tags: {
-      macronutrients: { energy: true, proteins: true, lipids: true, carbs: true },
+      macronutrients: {
+        energy: true,
+        proteins: true,
+        lipids: true,
+        carbs: true,
+      },
       allergens: [],
       dietary: {
         vegan: true,
@@ -90,17 +96,14 @@ export const restaurants: Restaurant[] = [
       },
     },
   },
-      {
+  {
     id: "thaisil",
     name: "Thaisil",
     address: "3 Rue du Nil, 75002 Paris, France",
-    coordinates: [2.3480470, 48.8677677],
+    coordinates: [2.348047, 48.8677677],
     rating: 4.5,
     reviewCount: 485,
-    photos: [
-      "/thaisil/thaisil1.avif",
-      "/thaisil/thaisil2.avif",
-    ],
+    photos: ["/thaisil/thaisil1.avif", "/thaisil/thaisil2.avif"],
     reviews: [
       {
         author: "Marie L.",
@@ -121,7 +124,12 @@ export const restaurants: Restaurant[] = [
       menu: "https://www.thaisil.com/_files/ugd/759b42_cc0842ab25144a9ea9fc5f81cfdb9e1d.pdf",
     },
     tags: {
-      macronutrients: { energy: true, proteins: true, lipids: true, carbs: true },
+      macronutrients: {
+        energy: true,
+        proteins: true,
+        lipids: true,
+        carbs: true,
+      },
       allergens: [],
       dietary: {
         vegan: true,
@@ -133,7 +141,7 @@ export const restaurants: Restaurant[] = [
       },
     },
   },
-        {
+  {
     id: "cafe-mareva",
     name: "Café Mareva",
     address: "27 Rue de Clignancourt, 75018 Paris, France",
@@ -164,7 +172,12 @@ export const restaurants: Restaurant[] = [
       menu: "https://www.cafemareva.com/menu",
     },
     tags: {
-      macronutrients: { energy: true, proteins: true, lipids: true, carbs: true },
+      macronutrients: {
+        energy: true,
+        proteins: true,
+        lipids: true,
+        carbs: true,
+      },
       allergens: [],
       dietary: {
         vegan: true,
@@ -176,17 +189,14 @@ export const restaurants: Restaurant[] = [
       },
     },
   },
-          {
+  {
     id: "su-misura",
     name: "Su Misura",
     address: "22 Av. Rapp, 75007 Paris, France",
     coordinates: [2.3003728, 48.8591352],
     rating: 4.6,
     reviewCount: 1461,
-    photos: [
-      "/su-misura/su-misura1.webp",
-      "/su-misura/su-misura2.webp",
-    ],
+    photos: ["/su-misura/su-misura1.webp", "/su-misura/su-misura2.webp"],
     reviews: [
       {
         author: "Marie L.",
@@ -207,7 +217,12 @@ export const restaurants: Restaurant[] = [
       menu: "https://byciro.com/index.php/fr/antipasti-su-misura",
     },
     tags: {
-      macronutrients: { energy: true, proteins: true, lipids: true, carbs: true },
+      macronutrients: {
+        energy: true,
+        proteins: true,
+        lipids: true,
+        carbs: true,
+      },
       allergens: [],
       dietary: {
         vegan: true,
@@ -219,17 +234,14 @@ export const restaurants: Restaurant[] = [
       },
     },
   },
-          {
+  {
     id: "la-sajerie",
     name: "La Sajerie",
     address: "20 Rue d'Abbeville, 75009 Paris, France",
     coordinates: [2.3490871, 48.8793356],
     rating: 4.9,
     reviewCount: 614,
-    photos: [
-      "/la-sajerie/la-sajerie1.jpg",
-      "/la-sajerie/la-sajerie2.jpg",
-    ],
+    photos: ["/la-sajerie/la-sajerie1.jpg", "/la-sajerie/la-sajerie2.jpg"],
     reviews: [
       {
         author: "Marie L.",
@@ -250,7 +262,12 @@ export const restaurants: Restaurant[] = [
       menu: "https://lasajerie.com/",
     },
     tags: {
-      macronutrients: { energy: true, proteins: true, lipids: true, carbs: true },
+      macronutrients: {
+        energy: true,
+        proteins: true,
+        lipids: true,
+        carbs: true,
+      },
       allergens: [],
       dietary: {
         vegan: true,
@@ -262,7 +279,7 @@ export const restaurants: Restaurant[] = [
       },
     },
   },
-          {
+  {
     id: "the-friendly-kitchen",
     name: "The Friendly Kitchen",
     address: "8 Rue Popincourt, 75011 Paris, France",
@@ -274,7 +291,6 @@ export const restaurants: Restaurant[] = [
       "/the-friendly-kitchen/the-friendly-kitchen2.jpg",
       "/the-friendly-kitchen/the-friendly-kitchen3.jpg",
       "/the-friendly-kitchen/the-friendly-kitchen4.jpg",
-
     ],
     reviews: [
       {
@@ -296,7 +312,12 @@ export const restaurants: Restaurant[] = [
       menu: "https://www.the-friendly-kitchen.com/menus-carte/#menu-447440/",
     },
     tags: {
-      macronutrients: { energy: true, proteins: true, lipids: true, carbs: true },
+      macronutrients: {
+        energy: true,
+        proteins: true,
+        lipids: true,
+        carbs: true,
+      },
       allergens: [],
       dietary: {
         vegan: true,
@@ -308,59 +329,16 @@ export const restaurants: Restaurant[] = [
       },
     },
   },
-  //           {
-  //   id: "riz-riz",
-  //   name: "Riz Riz",
-  //   address: "221 Rue Saint-Martin, 75003 Paris",
-  //   coordinates: [2.3528279, 48.8642661],
-  //   rating: 4.6,
-  //   reviewCount: 1558,
-  //   photos: [
-  //     "/riz-riz/riz-riz1.avif",
-  //     "/riz-riz/riz-riz2.avif",
-  //   ],
-  //   reviews: [
-  //     {
-  //       author: "Marie L.",
-  //       rating: 5,
-  //       text: "Excellent rapport qualité-prix, cadre magnifique près du Louvre.",
-  //       date: "2025-03-12",
-  //     },
-  //     {
-  //       author: "Thomas B.",
-  //       rating: 4,
-  //       text: "Bonne cuisine française, service rapide le midi.",
-  //       date: "2025-02-28",
-  //     },
-  //   ],
-  //   socials: {
-  //     instagram: "rizriz_restaurant",
-  //     website: "https://www.riz-riz.com/",
-  //     menu: "https://www.riz-riz.com/menu",
-  //   },
-  //   tags: {
-  //     macronutrients: { energy: true, proteins: true, lipids: true, carbs: true },
-  //     allergens: [],
-  //     dietary: {
-  //       vegan: true,
-  //       vegetarien: true,
-  //       "sans-gluten": true,
-  //       "sans-lactose": true,
-  //       halal: true,
-  //       casher: true,
-  //     },
-  //   },
-  // },
-              {
-    id: "tasca",
-    name: "Tasca",
-    address: "46 Av. de Suffren, 75015 Paris, France",
-    coordinates: [2.2966014, 48.8537008],
-    rating: 4.2,
-    reviewCount: 2421,
+            {
+    id: "riz-riz",
+    name: "Riz Riz",
+    address: "221 Rue Saint-Martin, 75003 Paris",
+    coordinates: [2.3528279, 48.8642661],
+    rating: 4.6,
+    reviewCount: 1558,
     photos: [
-      "/tasca/tasca1.webp",
-      "/tasca/tasca2.webp",
+      "/riz-riz/riz-riz1.avif",
+      "/riz-riz/riz-riz2.avif",
     ],
     reviews: [
       {
@@ -377,9 +355,9 @@ export const restaurants: Restaurant[] = [
       },
     ],
     socials: {
-      instagram: "tascabyciro",
-      website: "https://byciro.com/index.php/fr/nos-restaurants/tasca/",
-      menu: "https://byciro.com/index.php/fr/antipasti-tasca",
+      instagram: "rizriz_restaurant",
+      website: "https://www.riz-riz.com/",
+      menu: "https://www.riz-riz.com/menu",
     },
     tags: {
       macronutrients: { energy: true, proteins: true, lipids: true, carbs: true },
@@ -394,4 +372,364 @@ export const restaurants: Restaurant[] = [
       },
     },
   },
+  // {
+  //   id: "tasca",
+  //   name: "Tasca",
+  //   address: "46 Av. de Suffren, 75015 Paris, France",
+  //   coordinates: [2.2966014, 48.8537008],
+  //   rating: 4.2,
+  //   reviewCount: 2421,
+  //   photos: ["/tasca/tasca1.webp", "/tasca/tasca2.webp"],
+  //   reviews: [
+  //     {
+  //       author: "Marie L.",
+  //       rating: 5,
+  //       text: "Excellent rapport qualité-prix, cadre magnifique près du Louvre.",
+  //       date: "2025-03-12",
+  //     },
+  //     {
+  //       author: "Thomas B.",
+  //       rating: 4,
+  //       text: "Bonne cuisine française, service rapide le midi.",
+  //       date: "2025-02-28",
+  //     },
+  //   ],
+  //   socials: {
+  //     instagram: "tascabyciro",
+  //     website: "https://byciro.com/index.php/fr/nos-restaurants/tasca/",
+  //     menu: "https://byciro.com/index.php/fr/antipasti-tasca",
+  //   },
+  //   tags: {
+  //     macronutrients: {
+  //       energy: true,
+  //       proteins: true,
+  //       lipids: true,
+  //       carbs: true,
+  //     },
+  //     allergens: [],
+  //     dietary: {
+  //       vegan: true,
+  //       vegetarien: true,
+  //       "sans-gluten": true,
+  //       "sans-lactose": true,
+  //       halal: true,
+  //       casher: true,
+  //     },
+  //   },
+  // },
+  // {
+  //   id: "cococo",
+  //   name: "Cococo",
+  //   address: "35 Rue Coquillière, 75001 Paris, France",
+  //   coordinates: [2.3410183, 48.8643242],
+  //   rating: 4.8,
+  //   reviewCount: 294,
+  //   photos: ["/cococo/cococo2.jpg", "/cococo/cococo1.jpg"],
+  //   reviews: [
+  //     {
+  //       author: "Marie L.",
+  //       rating: 5,
+  //       text: "Excellent rapport qualité-prix, cadre magnifique près du Louvre.",
+  //       date: "2025-03-12",
+  //     },
+  //     {
+  //       author: "Thomas B.",
+  //       rating: 4,
+  //       text: "Bonne cuisine française, service rapide le midi.",
+  //       date: "2025-02-28",
+  //     },
+  //   ],
+  //   socials: {
+  //     instagram: "bentocococo",
+  //     website: "https://restaurant-cococo.fr/fr",
+  //     menu: "https://restaurant-cococo.fr/fr/services",
+  //   },
+  //   tags: {
+  //     macronutrients: {
+  //       energy: true,
+  //       proteins: true,
+  //       lipids: true,
+  //       carbs: true,
+  //     },
+  //     allergens: [],
+  //     dietary: {
+  //       vegan: true,
+  //       vegetarien: true,
+  //       "sans-gluten": true,
+  //       "sans-lactose": true,
+  //       halal: true,
+  //       casher: true,
+  //     },
+  //   },
+  // },
+  //   {
+  //   id: "sol-semilla",
+  //   name: "Sol Semilla",
+  //   address: "23 Rue des Vinaigriers, 75010 Paris, France",
+  //   coordinates: [2.3631804, 48.8730952],
+  //   rating: 4.5,
+  //   reviewCount: 936,
+  //   photos: ["/sol-semilla/sol-semilla1.jpg", "/sol-semilla/sol-semilla2.jpg"],
+  //   reviews: [
+  //     {
+  //       author: "Marie L.",
+  //       rating: 5,
+  //       text: "Excellent rapport qualité-prix, cadre magnifique près du Louvre.",
+  //       date: "2025-03-12",
+  //     },
+  //     {
+  //       author: "Thomas B.",
+  //       rating: 4,
+  //       text: "Bonne cuisine française, service rapide le midi.",
+  //       date: "2025-02-28",
+  //     },
+  //   ],
+  //   socials: {
+  //     instagram: "solsemillasuperaliments",
+  //     website: "https://restaurant.sol-semilla.fr/",
+  //     menu: "https://restaurant.sol-semilla.fr/_files/ugd/a6708a_d1d6db4829d74718b6b3aacedc9c8a54.pdf",
+  //   },
+  //   tags: {
+  //     macronutrients: {
+  //       energy: true,
+  //       proteins: true,
+  //       lipids: true,
+  //       carbs: true,
+  //     },
+  //     allergens: [],
+  //     dietary: {
+  //       vegan: true,
+  //       vegetarien: true,
+  //       "sans-gluten": true,
+  //       "sans-lactose": true,
+  //       halal: true,
+  //       casher: true,
+  //     },
+  //   },
+  // },
+  // {
+  //   id: "42degres",
+  //   name: "42 degrés",
+  //   address: "109 Rue du Faubourg Poissonnière, 75009 Paris, France",
+  //   coordinates: [2.3489834, 48.8776166],
+  //   rating: 4.3,
+  //   reviewCount: 1164,
+  //   photos: ["/42degres/42degres1.jpg", "/42degres/42degres2.jpg"],
+  //   reviews: [
+  //     {
+  //       author: "Marie L.",
+  //       rating: 5,
+  //       text: "Excellent rapport qualité-prix, cadre magnifique près du Louvre.",
+  //       date: "2025-03-12",
+  //     },
+  //     {
+  //       author: "Thomas B.",
+  //       rating: 4,
+  //       text: "Bonne cuisine française, service rapide le midi.",
+  //       date: "2025-02-28",
+  //     },
+  //   ],
+  //   socials: {
+  //     instagram: "42degres",
+  //     website: "https://www.42degres.com",
+  //     menu: "https://www.42degres.com/menu",
+  //   },
+  //   tags: {
+  //     macronutrients: {
+  //       energy: true,
+  //       proteins: true,
+  //       lipids: true,
+  //       carbs: true,
+  //     },
+  //     allergens: [],
+  //     dietary: {
+  //       vegan: true,
+  //       vegetarien: true,
+  //       "sans-gluten": true,
+  //       "sans-lactose": true,
+  //       halal: true,
+  //       casher: true,
+  //     },
+  //   },
+  // },
+  // {
+  //   id: "apeti",
+  //   name: "apéti",
+  //   address: "21bis Av. de Ségur, 75007 Paris, France",
+  //   coordinates: [2.3102077, 48.851369],
+  //   rating: 4.5,
+  //   reviewCount: 451,
+  //   photos: ["/apeti/apeti1.jpg", "/apeti/apeti2.jpg", "/apeti/apeti3.jpg"],
+  //   reviews: [
+  //     {
+  //       author: "Marie L.",
+  //       rating: 5,
+  //       text: "Excellent rapport qualité-prix, cadre magnifique près du Louvre.",
+  //       date: "2025-03-12",
+  //     },
+  //     {
+  //       author: "Thomas B.",
+  //       rating: 4,
+  //       text: "Bonne cuisine française, service rapide le midi.",
+  //       date: "2025-02-28",
+  //     },
+  //   ],
+  //   socials: {
+  //     instagram: "apeticuisinevegetale",
+  //     website: "https://apeti.fr/fr",
+  //     menu: "https://apeti.fr/fr/menu/5139894597257789557",
+  //   },
+  //   tags: {
+  //     macronutrients: {
+  //       energy: true,
+  //       proteins: true,
+  //       lipids: true,
+  //       carbs: true,
+  //     },
+  //     allergens: [],
+  //     dietary: {
+  //       vegan: true,
+  //       vegetarien: true,
+  //       "sans-gluten": true,
+  //       "sans-lactose": true,
+  //       halal: true,
+  //       casher: true,
+  //     },
+  //   },
+  // },
+  //   {
+  //   id: "little-nonna",
+  //   name: "Little Nonna",
+  //   address: "12 Av. Niel, 75017 Paris, France",
+  //   coordinates: [2.2949484, 48.879706],
+  //   rating: 4.0,
+  //   reviewCount: 2930,
+  //   photos: ["/little-nonna/little-nonna1.jpg", "/little-nonna/little-nonna2.jpg", "/little-nonna/little-nonna3.jpg"],
+  //   reviews: [
+  //     {
+  //       author: "Marie L.",
+  //       rating: 5,
+  //       text: "Excellent rapport qualité-prix, cadre magnifique près du Louvre.",
+  //       date: "2025-03-12",
+  //     },
+  //     {
+  //       author: "Thomas B.",
+  //       rating: 4,
+  //       text: "Bonne cuisine française, service rapide le midi.",
+  //       date: "2025-02-28",
+  //     },
+  //   ],
+  //   socials: {
+  //     instagram: "littlenonnaparis",
+  //     website: "https://littlenonna-paris.com/",
+  //     menu: "https://littlenonna-paris.com/wp-content/uploads/2026/03/Mars-2026-carte-LITTLE-NONNA.pdf",
+  //   },
+  //   tags: {
+  //     macronutrients: {
+  //       energy: true,
+  //       proteins: true,
+  //       lipids: true,
+  //       carbs: true,
+  //     },
+  //     allergens: [],
+  //     dietary: {
+  //       vegan: true,
+  //       vegetarien: true,
+  //       "sans-gluten": true,
+  //       "sans-lactose": true,
+  //       halal: true,
+  //       casher: true,
+  //     },
+  //   },
+  // },
+  //     {
+  //   id: "kapunka",
+  //   name: "Kapunka",
+  //   address: "32 Rue Delambre, 75014 Paris, France",
+  //   coordinates: [2.3258901, 48.8415194],
+  //   rating: 4.2,
+  //   reviewCount: 571,
+  //   photos: ["/kapunka/kapunka1.jpg", "/kapunka/kapunka2.jpg", "/kapunka/kapunka3.jpg"],
+  //   reviews: [
+  //     {
+  //       author: "Marie L.",
+  //       rating: 5,
+  //       text: "Excellent rapport qualité-prix, cadre magnifique près du Louvre.",
+  //       date: "2025-03-12",
+  //     },
+  //     {
+  //       author: "Thomas B.",
+  //       rating: 4,
+  //       text: "Bonne cuisine française, service rapide le midi.",
+  //       date: "2025-02-28",
+  //     },
+  //   ],
+  //   socials: {
+  //     instagram: "kapunka_cantine",
+  //     website: "https://kapunkagroup.com/",
+  //     menu: "https://kapunkagroup.com/pages/montparnasse/",
+  //   },
+  //   tags: {
+  //     macronutrients: {
+  //       energy: true,
+  //       proteins: true,
+  //       lipids: true,
+  //       carbs: true,
+  //     },
+  //     allergens: [],
+  //     dietary: {
+  //       vegan: true,
+  //       vegetarien: true,
+  //       "sans-gluten": true,
+  //       "sans-lactose": true,
+  //       halal: true,
+  //       casher: true,
+  //     },
+  //   },
+  // },
+  //       {
+  //   id: "wild-and-the-moon",
+  //   name: "Wild & the Moon",
+  //   address: "55 Rue Charlot, 75003 Paris, France",
+  //   coordinates: [2.363068, 48.8634],
+  //   rating: 4.2,
+  //   reviewCount: 1642,
+  //   photos: ["/wild-and-the-moon/wild-and-the-moon1.jpg", "/wild-and-the-moon/wild-and-the-moon2.jpg", "/wild-and-the-moon/wild-and-the-moon3.jpg"],
+  //   reviews: [
+  //     {
+  //       author: "Marie L.",
+  //       rating: 5,
+  //       text: "Excellent rapport qualité-prix, cadre magnifique près du Louvre.",
+  //       date: "2025-03-12",
+  //     },
+  //     {
+  //       author: "Thomas B.",
+  //       rating: 4,
+  //       text: "Bonne cuisine française, service rapide le midi.",
+  //       date: "2025-02-28",
+  //     },
+  //   ],
+  //   socials: {
+  //     instagram: "wildandthemoon",
+  //     website: "https://www.wildandthemoon.fr/fr/",
+  //     menu: "https://www.wildandthemoon.fr/fr/content/31-menu",
+  //   },
+  //   tags: {
+  //     macronutrients: {
+  //       energy: true,
+  //       proteins: true,
+  //       lipids: true,
+  //       carbs: true,
+  //     },
+  //     allergens: [],
+  //     dietary: {
+  //       vegan: true,
+  //       vegetarien: true,
+  //       "sans-gluten": true,
+  //       "sans-lactose": true,
+  //       halal: true,
+  //       casher: true,
+  //     },
+  //   },
+  // },
 ]

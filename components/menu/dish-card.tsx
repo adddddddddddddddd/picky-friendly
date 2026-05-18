@@ -197,10 +197,29 @@ const TFK_WINE_VOLUMES_PROSECCO: MockVariant[] = [
   { name: "75 cl (bouteille)", priceOffset: 29.00 },
 ];
 
-const DESSERT_UPGRADE_SUPPLEMENT = [
+const RIZ_RIZ_DESSERT_UPGRADE_SUPPLEMENT = [
   { id: "dessert-upgrade", name: "Substitution dessert au choix de la carte", price: 3.00 }
 ];
 
+const SUPPLEMENTS_42DEGRES: MockSupplement[] = [
+  { id: "accord-mets-jus-lacto-fermentes", name: "Accord mets & jus lacto-fermentés", price: 7.00 },
+  { id: "supplement-crackers-pain-cru", name: "Supplement de crackers & pain cru", price: 4.00 }
+]
+const SOL_SEMILLA_SUPPLEMENTS: MockSupplement[] = [
+  { id: "boisson-froide", name: "Boisson froide", price: 3.00 },
+  { id: "the-ou-chocolat-chaud", name: "Thé ou chocolat chaud", price: 2.00 },
+  { id: "piece-supplementaire-brownie", name: "Pièce supplémentaire de brownie", price: 2.00 },
+  { id: "bouteille-75cl", name: "Bouteille 75cl", price: 24.00 }, // Example for wines (price offset handled per dish)
+];
+
+const KAPUNKA_SUPPLEMENTS: MockSupplement[] = [
+  { id: "riz-blanc", name: "Riz blanc", price: 3.50 },
+  { id: "riz-gluant", name: "Riz gluant", price: 4.50 },
+  { id: "oeuf-dur", name: "Œuf dur", price: 1.00 },
+  { id: "sauce-soja-sans-gluten", name: "Sauce soja sans gluten", price: 1.50 },
+  { id: "sauce-rouilleux", name: "Sauce rouilleux", price: 1.50 },
+  { id: "sauce-cacahuete", name: "Sauce cacahuète", price: 1.50 }
+];
 const MOCK_CONFIGS: Record<string, Record<string, MockConfig>> = {
   default: {
     "steak-frites": {
@@ -1468,7 +1487,7 @@ tasca:{
       { name: "Dhal d'Épinards + Riz Riz au Lait", priceOffset: 0 },
       { name: "Dhal d'Épinards + Banana Bread", priceOffset: 0 }
     ],
-    supplements: DESSERT_UPGRADE_SUPPLEMENT
+    supplements: RIZ_RIZ_DESSERT_UPGRADE_SUPPLEMENT
   },
  
   "menu-midi-entree-plat-dessert": {
@@ -1486,9 +1505,293 @@ tasca:{
       { name: "Chotpoti + Dhal d'Épinards + Riz Riz au Lait", priceOffset: 0 },
       { name: "Chotpoti + Dhal d'Épinards + Banana Bread", priceOffset: 0 }
     ],
-    supplements: DESSERT_UPGRADE_SUPPLEMENT
+    supplements: RIZ_RIZ_DESSERT_UPGRADE_SUPPLEMENT
   }
-}
+},
+"cococo":{
+  // Formule Cococo
+  "formule-cococo": {
+    variants: [
+      { name: "Végétalien", priceOffset: 0 },
+      { name: "Curry", priceOffset: 0 },
+      { name: "Poisson", priceOffset: 1.00 },
+      { name: "Poulet (karaague)", priceOffset: 1.00 },
+    ],  },
+  // Formule Coco
+  "formule-coco": {
+    variants: [
+      { name: "Végétalien", priceOffset: 0 },
+      { name: "Curry", priceOffset: 0 },
+      { name: "Poisson", priceOffset: 2.00 },
+      { name: "Poulet (karaague)", priceOffset: 3.00 },
+    ],
+    supplements: [{ id: "supplement-formule-coco", name: "Supplément", price: 5.00 }],
+  },
+  // Karaagué
+  "karaague-petit": {
+    variants: [
+      { name: "Petit", priceOffset: 0 },
+      { name: "Grand", priceOffset: 6.00 },
+    ],
+    supplements: [],
+  },
+  // Onigiri
+  "onigiri-kombu-ume-shiso": {
+    variants: [
+      // { name: "Kombu/Umé/Shiso", priceOffset: 0 },
+      // { name: "Karaague", priceOffset: 1.00 },
+    ],
+    supplements: [],
+  },
+  // Bento
+  "bento-vegetalien": {
+    variants: [],  },
+  "bento-curry-boeuf": {
+    variants: [],  },
+  "bento-poisson": {
+    variants: [],  },
+  "bento-karaague": {
+    variants: [],  },
+  // Coco Bowl
+  "coco-bowl-vegetalien": {
+    variants: [],  },
+  "coco-bowl-curry": {
+    variants: [],  },
+  "coco-bowl-poisson": {
+    variants: [],  },
+  "coco-bowl-poulet-karaague": {
+    variants: [],  },
+},
+"42degres" : {
+    "menu-signature": {
+      variants: [],
+      supplements: [SUPPLEMENTS_42DEGRES[0]]
+    },
+    "menu-experience": {
+      variants: [],
+      supplements: [SUPPLEMENTS_42DEGRES[0]]
+    },
+    "degustation-trois-frawmages-crackers-pain": {
+      variants: [],
+      supplements: [SUPPLEMENTS_42DEGRES[1]]
+    },
+    "ardoise-cinq-frawmages-condiments-crackers-pains": {
+      variants: [],
+      supplements: [SUPPLEMENTS_42DEGRES[1]]
+    },
+    "fromages-piece-150g": {
+      variants: [],
+      supplements: [SUPPLEMENTS_42DEGRES[1]]
+    }
+  },
+  "sol-semilla":
+{
+  // === Entrées ===
+  "bouillon-energie": { variants: [], supplements: [] },
+  "bouillon-vitalite": { variants: [], supplements: [] },
+  "bouillon-digestion": { variants: [], supplements: [] },
+  "entree-du-jour": { variants: [], supplements: [] },
+
+  // === Plats ===
+  "assiette-du-jour": {
+    variants: [
+      { name: "Midi", priceOffset: 0 },
+      { name: "Soir", priceOffset: 4.00 }
+    ],
+    supplements: []
+  },
+  "assiette-crue": {
+    variants: [
+      { name: "Midi", priceOffset: 0 },
+      { name: "Soir", priceOffset: 3.00 }
+    ],
+    supplements: []
+  },
+  "superbowl": {
+    variants: [
+      { name: "Midi", priceOffset: 0 },
+      { name: "Soir", priceOffset: 3.50 }
+    ],
+    supplements: []
+  },
+  "soupe-complete": { variants: [], supplements: [] },
+
+  // === Desserts ===
+  "banana-acai": { variants: [], supplements: [] },
+  "mangue-urucum": { variants: [], supplements: [] },
+  "ananas-lucuma": { variants: [], supplements: [] },
+  "brownie-cacao-maca": {
+    variants: [],
+    supplements: [SOL_SEMILLA_SUPPLEMENTS[2]]
+  },
+  "energy-ball": {
+    variants: [
+      { name: "Variante 1: Sésame, Noix de cajou, Coco", priceOffset: 0 },
+      { name: "Variante 2: Beurre de cacahuètes, Graines de chanvre, Cacahuètes", priceOffset: 0 }
+    ],
+    supplements: []
+  },
+  "cake-moelleux-cacao-sarrasin": { variants: [], supplements: [] },
+  "dessert-du-jour": { variants: [], supplements: [] },
+  "cafe-gourmand": {
+    variants: [],
+    supplements: [SOL_SEMILLA_SUPPLEMENTS[1]]
+  },
+
+  // === Nos Créations ===
+  "pudding-bowl": { variants: [], supplements: [] },
+  "granola-bowl": { variants: [], supplements: [] },
+  "patate-douce-tofu": { variants: [], supplements: [] },
+
+  // === Boissons: Smoothies ===
+  "lucuma-dor-golden-latte": { variants: [], supplements: [] },
+  "green-boost": { variants: [], supplements: [] },
+  "wake-up-latte": { variants: [], supplements: [] },
+  "potion-magique": { variants: [], supplements: [] },
+  "banane-acai-smoothie": { variants: [], supplements: [] },
+  "mangue-urucum-smoothie": { variants: [], supplements: [] },
+  "ananas-lucuma-smoothie": { variants: [], supplements: [] },
+  "bleu-comme-toi": { variants: [], supplements: [] },
+  "purple-power": { variants: [], supplements: [] },
+  "soleil": { variants: [], supplements: [] },
+
+  // === Boissons: Boissons Chaudes ===
+  "cafe-noisette": { variants: [], supplements: [] },
+  "cafe-6cl": { variants: [], supplements: [] },
+  "cappuccino-latte": { variants: [], supplements: [] },
+  "lucu-matcha": { variants: [], supplements: [] },
+  "the-decoction": { variants: [], supplements: [] },
+  "cacao-andino": { variants: [], supplements: [] },
+  "cacao-matcha": { variants: [], supplements: [] },
+  "ube-latte": {
+    variants: [
+      { name: "Avoine", priceOffset: 0 },
+      { name: "Coco", priceOffset: 0 },
+      { name: "Riz", priceOffset: 0 },
+      { name: "Soja", priceOffset: 0 },
+      { name: "Amande", priceOffset: 0 }
+    ],
+    supplements: []
+  },
+
+  // === Boissons: Boisson du Mois ===
+  "acaiola-nopal": { variants: [], supplements: [] },
+
+  // === Boissons: Eaux ===
+  "eau-plate": { variants: [], supplements: [] },
+  "eau-petillante": { variants: [], supplements: [] },
+
+  // === Boissons: Vins (glass vs bottle) ===
+  "cotes-du-rhone-blanc": {
+    variants: [
+      { name: "Verre 12cl", priceOffset: 0 },
+      { name: "Bouteille 75cl", priceOffset: 24.00 }
+    ],
+    supplements: []
+  },
+  "chardonnay": {
+    variants: [
+      { name: "Verre 12cl", priceOffset: 0 },
+      { name: "Bouteille 75cl", priceOffset: 19.00 }
+    ],
+    supplements: []
+  },
+  "c-vigne-coeur-mistral": {
+    variants: [
+      { name: "Verre 12cl", priceOffset: 0 },
+      { name: "Bouteille 75cl", priceOffset: 22.00 }
+    ],
+    supplements: []
+  },
+  "saint-pierre-bordeaux": {
+    variants: [
+      { name: "Verre 12cl", priceOffset: 0 },
+      { name: "Bouteille 75cl", priceOffset: 19.00 }
+    ],
+    supplements: []
+  },
+
+  // === Boissons: Bières & Cidres ===
+  "biere-blanche-bio": { variants: [], supplements: [] },
+  "biere-blonde-bio": { variants: [], supplements: [] },
+  "biere-amber-sans-gluten-bio": { variants: [], supplements: [] },
+  "cidre-brut-normandie-bio": { variants: [], supplements: [] }
+},
+"apeti":{
+  //only applies to takeaway
+},
+"kapunka": {
+  // --- Entrées ---
+  "soupe-tom-kha-tom-yam": {
+    variants: [
+      { name: "Légumes", priceOffset: 0 },
+      { name: "Poulet", priceOffset: 0.50 },
+      { name: "Crevettes", priceOffset: 1.50 }
+    ],
+    supplements: KAPUNKA_SUPPLEMENTS
+  },
+  "rouleaux-de-printemps": {
+    variants: [
+      { name: "Veggie", priceOffset: 0 },
+      { name: "Poulet césar", priceOffset: 0 }
+    ],
+    supplements: KAPUNKA_SUPPLEMENTS
+  },
+
+  // --- Padthaïs ---
+  "pad-thai": {
+    variants: [
+      { name: "Vegan", priceOffset: 0 },
+      { name: "Légumes (avec œufs)", priceOffset: 0 },
+      { name: "Poulet", priceOffset: 0.50 },
+      { name: "Bœuf", priceOffset: 2.00 },
+      { name: "Crevettes", priceOffset: 2.00 },
+      { name: "Mix (poulet & crevettes)", priceOffset: 2.00 }
+    ],
+    supplements: [
+      ...KAPUNKA_SUPPLEMENTS,
+      { id: "omelette", name: "Dans une omelette", price: 2.00 }
+    ]
+  },
+
+  // --- Currys ---
+  "curry": {
+    variants: [
+      { name: "Légumes", priceOffset: 0 },
+      { name: "Tofu", priceOffset: 0 },
+      { name: "Poulet", priceOffset: 0.50 },
+      { name: "Crevettes", priceOffset: 2.00 }
+    ],
+    supplements: [
+      ...KAPUNKA_SUPPLEMENTS,
+      { id: "riz-gluant-curry", name: "Riz gluant", price: 1.00 },
+      { id: "extra-poulet", name: "Extra poulet", price: 2.00 }
+    ]
+  },
+
+  // --- Mikatis ---
+  "mikati": {
+    variants: [
+      { name: "Légumes et tofu", priceOffset: 0 },
+      { name: "Poulet hâché", priceOffset: 0.50 }
+    ],
+    supplements: KAPUNKA_SUPPLEMENTS
+  },
+  "bo-bun-thai": {
+    variants: [
+      { name: "Poulet", priceOffset: 0 },
+      { name: "Tofu", priceOffset: 0 }
+    ],
+    supplements: KAPUNKA_SUPPLEMENTS
+  },
+  "poulet-bangkok": {
+    variants: [],
+    supplements: KAPUNKA_SUPPLEMENTS
+  }
+},
+"little-nonna":{
+  // no supplements
+},
 
 }
 

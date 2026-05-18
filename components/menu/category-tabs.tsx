@@ -18,6 +18,15 @@ export const CATEGORIES: Record<string, Category[]> = {
   "la-sajerie": Object.keys(uiTranslations['la-sajerie'].en.categories) as Category[],
   "the-friendly-kitchen": Object.keys(uiTranslations['the-friendly-kitchen'].en.categories) as Category[],
   "riz-riz": Object.keys(uiTranslations['riz-riz'].en.categories) as Category[],
+    "cococo": Object.keys(uiTranslations['cococo'].en.categories) as Category[],
+  "sol-semilla": Object.keys(uiTranslations['sol-semilla'].en.categories) as Category[],
+  "42degres": Object.keys(uiTranslations['42degres'].en.categories) as Category[],
+  "apeti": Object.keys(uiTranslations['apeti'].en.categories) as Category[],
+  "little-nonna": Object.keys(uiTranslations['little-nonna'].en.categories) as Category[],
+  "kapunka": Object.keys(uiTranslations['kapunka'].en.categories) as Category[],
+  "wild-and-the-moon": Object.keys(uiTranslations['wild-and-the-moon'].en.categories) as Category[],
+
+
 }
 
 interface CategoryTabsProps {

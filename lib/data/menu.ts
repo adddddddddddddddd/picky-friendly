@@ -17829,10 +17829,10 @@ macros: {
       id: "plateau-aperitif",
       category: "entrees-a-partager",
       subcategory: null,
-      image: "/riz-riz/plateau-aperitif.jpeg",
+      image: "/riz-riz/plateau-aperitif.jpg",
       price: 17.0,
-      allergens: ["arachides", "sesame"],
-      diets: ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
+      allergens: ["arachides", "sesame", "celeri", "lupin", "moutarde"],
+      diets: ["vegan", "vegetarien", "sans-gluten", "sans-lactose", "halal", "casher"],
       macros: {
         // "_note": "ESTIMATES",
         calories: 420,
@@ -17867,10 +17867,10 @@ macros: {
       id: "guacamole-galettes-riz",
       category: "entrees-a-partager",
       subcategory: null,
-      image: "/riz-riz/guacamole-galettes-riz.jpeg",
+      image: pexels(15779742),
       price: 7.0,
-      allergens: [],
-      diets: ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
+      allergens: ["arachides", "sesame", "celeri", "lupin", "moutarde"],
+      diets: ["vegan", "vegetarien", "sans-gluten", "sans-lactose", "halal", "casher"],
       macros: {
         // "_note": "ESTIMATES",
         calories: 210,
@@ -17905,10 +17905,10 @@ macros: {
       id: "panier-de-nachos",
       category: "entrees-a-partager",
       subcategory: null,
-      image: "/riz-riz/panier-de-nachos.jpeg",
+      image: pexels(35685612),
       price: 15.5,
-      allergens: ["arachides", "sesame"],
-      diets: ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
+      allergens: ["arachides", "sesame", "celeri", "lupin", "moutarde"],
+      diets: ["vegan", "vegetarien", "sans-gluten", "sans-lactose", "halal", "casher"],
       macros: {
         // "_note": "ESTIMATES",
         calories: 480,
@@ -17943,10 +17943,10 @@ macros: {
       id: "houmous-betteraves-galettes-riz",
       category: "entrees-a-partager",
       subcategory: null,
-      image: "/riz-riz/houmous-betteraves-galettes-riz.jpeg",
+      image: "/riz-riz/houmous-betteraves-galettes-riz.jpg",
       price: 5.5,
-      allergens: ["sesame"],
-      diets: ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
+      allergens: ["arachides", "sesame", "celeri", "lupin", "moutarde"],
+      diets: ["vegan", "vegetarien", "sans-gluten", "sans-lactose", "halal", "casher"],
       macros: {
         // "_note": "ESTIMATES",
         calories: 180,
@@ -17981,10 +17981,10 @@ macros: {
       id: "chotpoti",
       category: "entrees",
       subcategory: null,
-      image: "/riz-riz/chotpoti.jpeg",
+      image: "/riz-riz/chotpoti.avif",
       price: 7.5,
-      allergens: [],
-      diets: ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
+      allergens: ["arachides", "sesame", "celeri", "lupin", "moutarde"],
+      diets: ["vegan", "vegetarien", "sans-gluten", "sans-lactose", "halal", "casher"],
       macros: {
         // "_note": "ESTIMATES",
         calories: 260,
@@ -18019,10 +18019,10 @@ macros: {
       id: "aubergine-au-four",
       category: "entrees",
       subcategory: null,
-      image: "/riz-riz/aubergine-au-four.jpeg",
+      image: "/riz-riz/aubergine-au-four.avif",
       price: 9.0,
-      allergens: ["arachides", "sesame"],
-      diets: ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
+      allergens: ["arachides", "sesame", "celeri", "lupin", "moutarde"],
+      diets: ["vegan", "vegetarien", "sans-gluten", "sans-lactose", "halal", "casher"],
       macros: {
         // "_note": "ESTIMATES",
         calories: 290,
@@ -18057,10 +18057,10 @@ macros: {
       id: "tabolue-de-riz",
       category: "entrees",
       subcategory: null,
-      image: "/riz-riz/tabolue-de-riz.jpeg",
+      image: "/riz-riz/taboule-de-riz.avif",
       price: 7.5,
-      allergens: [],
-      diets: ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
+      allergens: ["arachides", "sesame", "celeri", "lupin", "moutarde"],
+      diets: ["vegan", "vegetarien", "sans-gluten", "sans-lactose", "halal", "casher"],
       macros: {
         // "_note": "ESTIMATES",
         calories: 220,
@@ -18095,10 +18095,10 @@ macros: {
       id: "curry-du-dragon",
       category: "plats",
       subcategory: null,
-      image: "/riz-riz/curry-du-dragon.jpeg",
+      image: "/riz-riz/curry-du-dragon.avif",
       price: 15.5,
-      allergens: ["fruits-a-coque"],
-      diets: ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
+      allergens: ["arachides", "sesame", "celeri", "lupin", "moutarde"],
+      diets: ["vegan", "vegetarien", "sans-gluten", "sans-lactose", "halal", "casher"],
       macros: {
         // "_note": "ESTIMATES",
         calories: 520,
@@ -18133,10 +18133,10 @@ macros: {
       id: "gaufre-de-patate-douce",
       category: "plats",
       subcategory: null,
-      image: "/riz-riz/gaufre-de-patate-douce.jpeg",
+      image: "/riz-riz/gaufre-de-patate-douce.avif",
       price: 15.5,
-      allergens: [],
-      diets: ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
+      allergens: ["arachides", "sesame", "celeri", "lupin", "moutarde"],
+      diets: ["vegan", "vegetarien", "sans-gluten", "sans-lactose", "halal", "casher"],
       macros: {
         // "_note": "ESTIMATES",
         calories: 480,
@@ -18171,10 +18171,10 @@ macros: {
       id: "black-panther",
       category: "plats",
       subcategory: null,
-      image: "/riz-riz/black-panther.jpeg",
+      image: "/riz-riz/black-panther.avif",
       price: 17.0,
-      allergens: ["soja", "sesame"],
-      diets: ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
+      allergens: ["arachides", "sesame", "celeri", "lupin", "moutarde"],
+      diets: ["vegan", "vegetarien", "sans-gluten", "sans-lactose", "halal", "casher"],
       macros: {
         // "_note": "ESTIMATES",
         calories: 560,
@@ -18209,10 +18209,10 @@ macros: {
       id: "dhal-depinards",
       category: "plats",
       subcategory: null,
-      image: "/riz-riz/dhal-depinards.jpeg",
+      image: "/riz-riz/dhal-d-epinard.avif",
       price: 16.5,
-      allergens: ["sesame"],
-      diets: ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
+      allergens: ["arachides", "sesame", "celeri", "lupin", "moutarde"],
+      diets: ["vegan", "vegetarien", "sans-gluten", "sans-lactose", "halal", "casher"],
       macros: {
         // "_note": "ESTIMATES",
         calories: 540,
@@ -18247,10 +18247,10 @@ macros: {
       id: "mango-masala",
       category: "plats",
       subcategory: null,
-      image: "/riz-riz/mango-masala.jpeg",
+      image: "/riz-riz/mango-massala.avif",
       price: 16.5,
-      allergens: [],
-      diets: ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
+      allergens: ["arachides", "sesame", "celeri", "lupin", "moutarde"],
+      diets: ["vegan", "vegetarien", "sans-gluten", "sans-lactose", "halal", "casher"],
       macros: {
         // "_note": "ESTIMATES",
         calories: 490,
@@ -18285,10 +18285,10 @@ macros: {
       id: "incroyable-chocolat",
       category: "desserts",
       subcategory: null,
-      image: "/riz-riz/incroyable-chocolat.jpeg",
+      image: "/riz-riz/incroyable-chocolat.avif",
       price: 8.5,
-      allergens: ["arachides", "fruits-a-coque"],
-      diets: ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
+      allergens: ["arachides", "sesame", "celeri", "lupin", "moutarde"],
+      diets: ["vegan", "vegetarien", "sans-gluten", "sans-lactose", "halal", "casher"],
       macros: {
         // "_note": "ESTIMATES",
         calories: 420,
@@ -18323,10 +18323,10 @@ macros: {
       id: "mousse-chocolat-peanut-butter",
       category: "desserts",
       subcategory: null,
-      image: "/riz-riz/mousse-chocolat-peanut-butter.jpeg",
+      image: "/riz-riz/mousse-au-chocolat-et-peanut-butter.avif",
       price: 8.5,
-      allergens: ["arachides"],
-      diets: ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
+      allergens: ["arachides", "sesame", "celeri", "lupin", "moutarde"],
+      diets: ["vegan", "vegetarien", "sans-gluten", "sans-lactose", "halal", "casher"],
       macros: {
         // "_note": "ESTIMATES",
         calories: 390,
@@ -18357,10 +18357,10 @@ macros: {
       id: "cheesecake-miroir-framboise",
       category: "desserts",
       subcategory: null,
-      image: "/riz-riz/cheesecake-miroir-framboise.jpeg",
+      image: "/riz-riz/cheesecake-miroir-a-la-framboise.avif",
       price: 8.5,
-      allergens: ["fruits-a-coque"],
-      diets: ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
+      allergens: ["arachides", "sesame", "celeri", "lupin", "moutarde"],
+      diets: ["vegan", "vegetarien", "sans-gluten", "sans-lactose", "halal", "casher"],
       macros: {
         // "_note": "ESTIMATES",
         calories: 360,
@@ -18395,10 +18395,10 @@ macros: {
       id: "cheesecake-matcha",
       category: "desserts",
       subcategory: null,
-      image: "/riz-riz/cheesecake-matcha.jpeg",
+      image: "/riz-riz/cheesecake-matcha.avif",
       price: 8.5,
-      allergens: ["fruits-a-coque"],
-      diets: ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
+      allergens: ["arachides", "sesame", "celeri", "lupin", "moutarde"],
+      diets: ["vegan", "vegetarien", "sans-gluten", "sans-lactose", "halal", "casher"],
       macros: {
         // "_note": "ESTIMATES",
         calories: 340,
@@ -18433,10 +18433,10 @@ macros: {
       id: "riz-riz-au-lait",
       category: "desserts",
       subcategory: null,
-      image: "/riz-riz/riz-riz-au-lait.jpeg",
+      image: "/riz-riz/riz-riz-au-lait.avif",
       price: 7.0,
-      allergens: ["soja"],
-      diets: ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
+      allergens: ["arachides", "sesame", "celeri", "lupin", "moutarde"],
+      diets: ["vegan", "vegetarien", "sans-gluten", "sans-lactose", "halal", "casher"],
       macros: {
         // "_note": "ESTIMATES",
         calories: 310,
@@ -18471,10 +18471,10 @@ macros: {
       id: "banana-bread",
       category: "desserts",
       subcategory: null,
-      image: "/riz-riz/banana-bread.jpeg",
+      image: "/riz-riz/banana-bread.avif",
       price: 6.0,
-      allergens: ["fruits-a-coque"],
-      diets: ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
+      allergens: ["arachides", "sesame", "celeri", "lupin", "moutarde"],
+      diets: ["vegan", "vegetarien", "sans-gluten", "sans-lactose", "halal", "casher"],
       macros: {
         // "_note": "ESTIMATES",
         calories: 280,
@@ -18508,10 +18508,10 @@ macros: {
       id: "mango-sticky-rice",
       category: "desserts",
       subcategory: null,
-      image: "/riz-riz/mango-sticky-rice.jpeg",
+      image: "/riz-riz/mango-sticky-rice.avif",
       price: 8.5,
-      allergens: [],
-      diets: ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
+      allergens: ["arachides", "sesame", "celeri", "lupin", "moutarde"],
+      diets: ["vegan", "vegetarien", "sans-gluten", "sans-lactose", "halal", "casher"],
       macros: {
         // "_note": "ESTIMATES",
         calories: 330,
@@ -18546,10 +18546,10 @@ macros: {
       id: "rice-table",
       category: "formules",
       subcategory: null,
-      image: "/riz-riz/rice-table.jpeg",
+      image: "/riz-riz/rice-table.avif",
       price: 26.0,
-      allergens: ["arachides", "sesame", "soja", "fruits-a-coque"],
-      diets: ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
+      allergens: ["arachides", "sesame", "celeri", "lupin", "moutarde"],
+      diets: ["vegan", "vegetarien", "sans-gluten", "sans-lactose", "halal", "casher"],
       macros: {
         // "_note": "ESTIMATES — full sharing table, not per dish",
         calories: 1800,
@@ -18584,10 +18584,10 @@ macros: {
       id: "full-table",
       category: "formules",
       subcategory: null,
-      image: "/riz-riz/full-table.jpeg",
+      image: "/riz-riz/full-table.avif",
       price: 31.0,
-      allergens: ["arachides", "sesame", "soja", "fruits-a-coque"],
-      diets: ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
+      allergens: ["arachides", "sesame", "celeri", "lupin", "moutarde"],
+      diets: ["vegan", "vegetarien", "sans-gluten", "sans-lactose", "halal", "casher"],
       macros: {
         // "_note": "ESTIMATES — full sharing table incl. dessert",
         calories: 2100,
@@ -18618,10 +18618,10 @@ macros: {
       id: "brunch-table",
       category: "formules",
       subcategory: null,
-      image: "/riz-riz/brunch-table.jpeg",
+      image: "/riz-riz/brunch-table.jpg",
       price: 31.0,
-      allergens: ["arachides", "sesame", "soja", "fruits-a-coque"],
-      diets: ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
+      allergens: ["arachides", "sesame", "celeri", "lupin", "moutarde"],
+      diets: ["vegan", "vegetarien", "sans-gluten", "sans-lactose", "halal", "casher"],
       macros: {
         // "_note": "ESTIMATES — full brunch table",
         calories: 1950,
@@ -18652,119 +18652,4529 @@ macros: {
         },
       },
     },
-    {
-      id: "menu-midi-entree-plat",
-      category: "formules",
-      subcategory: "menu-midi",
-      image: "/riz-riz/menu-midi.jpeg",
-      price: 21.0,
-      allergens: ["arachides", "sesame", "fruits-a-coque"],
-      diets: ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
-      macros: {
-        // "_note": "ESTIMATES",
-        calories: 780,
-        proteines: 22,
-        glucides: 108,
-        lipides: 28,
-      },
-      translations: {
-        fr: {
-          name: "Menu Midi — Entrée + Plat",
-          description:
-            "En semaine hors jours fériés. Entrée : Taboulé de Riz ou Chotpoti. Plat : Curry du Dragon, Gaufre de Patate Douce ou Dhal d'Épinards",
-        },
-        en: {
-          name: "Lunch Menu — Starter + Main",
-          description:
-            "Weekdays only (excluding public holidays). Starter: Rice Tabbouleh or Chotpoti. Main: Dragon Curry, Sweet Potato Waffle or Spinach Dhal",
-        },
-        it: {
-          name: "Menu Pranzo — Antipasto + Piatto",
-          description:
-            "Solo nei giorni feriali. Antipasto: Tabulé di Riso o Chotpoti. Piatto: Curry del Drago, Waffle di Patata Dolce o Dhal di Spinaci",
-        },
-        es: {
-          name: "Menú Mediodía — Entrada + Plato",
-          description:
-            "Solo días laborables. Entrada: Tabulé de Arroz o Chotpoti. Plato: Curry del Dragón, Gofre de Batata o Dhal de Espinacas",
-        },
-      },
-    },
-    {
-      id: "menu-midi-plat-dessert",
-      category: "formules",
-      subcategory: "menu-midi",
-      image: "/riz-riz/menu-midi.jpeg",
-      price: 21.0,
-      allergens: ["arachides", "sesame", "soja", "fruits-a-coque"],
-      diets: ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
-      macros: {
-        // "_note": "ESTIMATES",
-        calories: 820,
-        proteines: 20,
-        glucides: 118,
-        lipides: 30,
-      },
-      translations: {
-        fr: {
-          name: "Menu Midi — Plat + Dessert",
-          description:
-            "En semaine hors jours fériés. Plat : Curry du Dragon, Gaufre de Patate Douce ou Dhal d'Épinards. Dessert : Riz Riz au Lait ou Banana Bread (substitution autre dessert +3€)",
-        },
-        en: {
-          name: "Lunch Menu — Main + Dessert",
-          description:
-            "Weekdays only. Main: Dragon Curry, Sweet Potato Waffle or Spinach Dhal. Dessert: Rice Pudding or Banana Bread (upgrade to any other dessert +€3)",
-        },
-        it: {
-          name: "Menu Pranzo — Piatto + Dessert",
-          description:
-            "Solo nei giorni feriali. Piatto: Curry del Drago, Waffle di Patata Dolce o Dhal di Spinaci. Dessert: Riz Riz al Latte o Banana Bread (sostituzione altro dessert +3€)",
-        },
-        es: {
-          name: "Menú Mediodía — Plato + Postre",
-          description:
-            "Solo días laborables. Plato: Curry del Dragón, Gofre de Batata o Dhal de Espinacas. Postre: Arroz con Leche o Banana Bread (sustitución otro postre +3€)",
-        },
-      },
-    },
-    {
-      id: "menu-midi-entree-plat-dessert",
-      category: "formules",
-      subcategory: "menu-midi",
-      image: "/riz-riz/menu-midi.jpeg",
-      price: 25.0,
-      allergens: ["arachides", "sesame", "soja", "fruits-a-coque"],
-      diets: ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
-      macros: {
-        // "_note": "ESTIMATES",
-        calories: 1050,
-        proteines: 30,
-        glucides: 155,
-        lipides: 38,
-      },
-      translations: {
-        fr: {
-          name: "Menu Midi — Entrée + Plat + Dessert",
-          description:
-            "En semaine hors jours fériés. Entrée : Taboulé de Riz ou Chotpoti. Plat : Curry du Dragon, Gaufre de Patate Douce ou Dhal d'Épinards. Dessert : Riz Riz au Lait ou Banana Bread (substitution autre dessert +3€)",
-        },
-        en: {
-          name: "Lunch Menu — Starter + Main + Dessert",
-          description:
-            "Weekdays only. Starter: Rice Tabbouleh or Chotpoti. Main: Dragon Curry, Sweet Potato Waffle or Spinach Dhal. Dessert: Rice Pudding or Banana Bread (upgrade +€3)",
-        },
-        it: {
-          name: "Menu Pranzo — Antipasto + Piatto + Dessert",
-          description:
-            "Solo nei giorni feriali. Antipasto: Tabulé o Chotpoti. Piatto: Curry del Drago, Waffle di Patata Dolce o Dhal di Spinaci. Dessert: Riz Riz al Latte o Banana Bread (+3€)",
-        },
-        es: {
-          name: "Menú Mediodía — Entrada + Plato + Postre",
-          description:
-            "Solo días laborables. Entrada: Tabulé o Chotpoti. Plato: Curry del Dragón, Gofre de Batata o Dhal de Espinacas. Postre: Arroz con Leche o Banana Bread (+3€)",
-        },
-      },
-    },
+    // {
+    //   id: "menu-midi-entree-plat",
+    //   category: "formules",
+    //   subcategory: "menu-midi",
+    //   image: "/riz-riz/menu-midi.avif",
+    //   price: 21.0,
+    //  allergens: ["arachides", "sesame", "celeri", "lupin", "moutarde"],
+    //   diets: ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
+    //   macros: {
+    //     // "_note": "ESTIMATES",
+    //     calories: 780,
+    //     proteines: 22,
+    //     glucides: 108,
+    //     lipides: 28,
+    //   },
+    //   translations: {
+    //     fr: {
+    //       name: "Menu Midi — Entrée + Plat",
+    //       description:
+    //         "En semaine hors jours fériés. Entrée : Taboulé de Riz ou Chotpoti. Plat : Curry du Dragon, Gaufre de Patate Douce ou Dhal d'Épinards",
+    //     },
+    //     en: {
+    //       name: "Lunch Menu — Starter + Main",
+    //       description:
+    //         "Weekdays only (excluding public holidays). Starter: Rice Tabbouleh or Chotpoti. Main: Dragon Curry, Sweet Potato Waffle or Spinach Dhal",
+    //     },
+    //     it: {
+    //       name: "Menu Pranzo — Antipasto + Piatto",
+    //       description:
+    //         "Solo nei giorni feriali. Antipasto: Tabulé di Riso o Chotpoti. Piatto: Curry del Drago, Waffle di Patata Dolce o Dhal di Spinaci",
+    //     },
+    //     es: {
+    //       name: "Menú Mediodía — Entrada + Plato",
+    //       description:
+    //         "Solo días laborables. Entrada: Tabulé de Arroz o Chotpoti. Plato: Curry del Dragón, Gofre de Batata o Dhal de Espinacas",
+    //     },
+    //   },
+    // },
+    // {
+    //   id: "menu-midi-plat-dessert",
+    //   category: "formules",
+    //   subcategory: "menu-midi",
+    //   image: "/riz-riz/menu-midi.avif",
+    //   price: 21.0,
+    //  allergens: ["arachides", "sesame", "celeri", "lupin", "moutarde"],
+    //   diets: ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
+    //   macros: {
+    //     // "_note": "ESTIMATES",
+    //     calories: 820,
+    //     proteines: 20,
+    //     glucides: 118,
+    //     lipides: 30,
+    //   },
+    //   translations: {
+    //     fr: {
+    //       name: "Menu Midi — Plat + Dessert",
+    //       description:
+    //         "En semaine hors jours fériés. Plat : Curry du Dragon, Gaufre de Patate Douce ou Dhal d'Épinards. Dessert : Riz Riz au Lait ou Banana Bread (substitution autre dessert +3€)",
+    //     },
+    //     en: {
+    //       name: "Lunch Menu — Main + Dessert",
+    //       description:
+    //         "Weekdays only. Main: Dragon Curry, Sweet Potato Waffle or Spinach Dhal. Dessert: Rice Pudding or Banana Bread (upgrade to any other dessert +€3)",
+    //     },
+    //     it: {
+    //       name: "Menu Pranzo — Piatto + Dessert",
+    //       description:
+    //         "Solo nei giorni feriali. Piatto: Curry del Drago, Waffle di Patata Dolce o Dhal di Spinaci. Dessert: Riz Riz al Latte o Banana Bread (sostituzione altro dessert +3€)",
+    //     },
+    //     es: {
+    //       name: "Menú Mediodía — Plato + Postre",
+    //       description:
+    //         "Solo días laborables. Plato: Curry del Dragón, Gofre de Batata o Dhal de Espinacas. Postre: Arroz con Leche o Banana Bread (sustitución otro postre +3€)",
+    //     },
+    //   },
+    // },
+    // {
+    //   id: "menu-midi-entree-plat-dessert",
+    //   category: "formules",
+    //   subcategory: "menu-midi",
+    //   image: "/riz-riz/menu-midi.avif",
+    //   price: 25.0,
+    //   allergens: ["arachides", "sesame", "soja", "fruits-a-coque"],
+    //   diets: ["vegan", "vegetarien", "sans-gluten", "sans-lactose"],
+    //   macros: {
+    //     // "_note": "ESTIMATES",
+    //     calories: 1050,
+    //     proteines: 30,
+    //     glucides: 155,
+    //     lipides: 38,
+    //   },
+    //   translations: {
+    //     fr: {
+    //       name: "Menu Midi — Entrée + Plat + Dessert",
+    //       description:
+    //         "En semaine hors jours fériés. Entrée : Taboulé de Riz ou Chotpoti. Plat : Curry du Dragon, Gaufre de Patate Douce ou Dhal d'Épinards. Dessert : Riz Riz au Lait ou Banana Bread (substitution autre dessert +3€)",
+    //     },
+    //     en: {
+    //       name: "Lunch Menu — Starter + Main + Dessert",
+    //       description:
+    //         "Weekdays only. Starter: Rice Tabbouleh or Chotpoti. Main: Dragon Curry, Sweet Potato Waffle or Spinach Dhal. Dessert: Rice Pudding or Banana Bread (upgrade +€3)",
+    //     },
+    //     it: {
+    //       name: "Menu Pranzo — Antipasto + Piatto + Dessert",
+    //       description:
+    //         "Solo nei giorni feriali. Antipasto: Tabulé o Chotpoti. Piatto: Curry del Drago, Waffle di Patata Dolce o Dhal di Spinaci. Dessert: Riz Riz al Latte o Banana Bread (+3€)",
+    //     },
+    //     es: {
+    //       name: "Menú Mediodía — Entrada + Plato + Postre",
+    //       description:
+    //         "Solo días laborables. Entrada: Tabulé o Chotpoti. Plato: Curry del Dragón, Gofre de Batata o Dhal de Espinacas. Postre: Arroz con Leche o Banana Bread (+3€)",
+    //     },
+    //   },
+    // },
   ],
+  "cococo":[
+  // {
+  //   "id": "formule-cococo",
+  //   "category": "le-formule-de-dejeuner",
+  //   "subcategory": null,
+  //   "image": "/cococo/formule-cococo.jpeg",
+  //   "price": 22.00,
+  //   "allergens": ["soja", "poissons", "fruits-a-coque"],
+  //   "diets": ["sans-gluten", "sans-lactose", "vegan"],
+  //   "macros": { "calories": 700, "proteines": 25, "glucides": 80, "lipides": 20 },
+  //   "translations": {
+  //     "fr": { "name": "Formule Cococo", "description": "Bento + Soupe ou thé + Dessert au choix" },
+  //     "en": { "name": "Cococo Formula", "description": "Bento + Soup or tea + Dessert of choice" },
+  //     "es": { "name": "Fórmula Cococo", "description": "Bento + Sopa o té + Postre a elección" },
+  //     "it": { "name": "Formula Cococo", "description": "Bento + Zuppa o tè + Dolce a scelta" }
+  //   }
+  // },
+  // {
+  //   "id": "formule-coco",
+  //   "category": "le-formule-de-dejeuner",
+  //   "subcategory": null,
+  //   "image": "/cococo/formule-coco.jpeg",
+  //   "price": 20.00,
+  //   "allergens": ["soja", "poissons", "fruits-a-coque"],
+  //   "diets": ["sans-gluten", "sans-lactose", "vegan"],
+  //   "macros": { "calories": 650, "proteines": 20, "glucides": 75, "lipides": 18 },
+  //   "translations": {
+  //     "fr": { "name": "Formule Coco", "description": "Bento + Soupe ou thé" },
+  //     "en": { "name": "Coco Formula", "description": "Bento + Soup or tea" },
+  //     "es": { "name": "Fórmula Coco", "description": "Bento + Sopa o té" },
+  //     "it": { "name": "Formula Coco", "description": "Bento + Zuppa o tè" }
+  //   }
+  // },
+  {
+    "id": "bento-vegetalien",
+    "category": "bento-et-coco-bowl",
+    "subcategory": "bento",
+    "image": "/cococo/bento-vegetalien.jpeg",
+    "price": 17.00,
+    "allergens": ["soja"],
+    "diets": ["sans-gluten", "sans-lactose", "vegan"],
+    "macros": { "calories": 500, "proteines": 15, "glucides": 70, "lipides": 10 },
+    "translations": {
+      "fr": { "name": "Bento végétalien", "description": "Bento 100% végétalien, riz bio et légumes bio" },
+      "en": { "name": "Vegan Bento", "description": "100% vegan bento, organic rice and vegetables" },
+      "es": { "name": "Bento vegano", "description": "Bento 100% vegano, arroz y verduras ecológicas" },
+      "it": { "name": "Bento vegano", "description": "Bento 100% vegano, ris e verdure biologiche" }
+    }
+  },
+  {
+    "id": "bento-curry-boeuf",
+    "category": "bento-et-coco-bowl",
+    "subcategory": "bento",
+    "image": "/cococo/bento-curry-boeuf.jpeg",
+    "price": 17.00,
+    "allergens": ["soja"],
+    "diets": ["sans-gluten", "sans-lactose"],
+    "macros": { "calories": 650, "proteines": 30, "glucides": 60, "lipides": 25 },
+    "translations": {
+      "fr": { "name": "Bento curry japonais au bœuf", "description": "Bento avec curry japonais et bœuf, riz bio et légumes bio" },
+      "en": { "name": "Japanese beef curry bento", "description": "Bento with Japanese beef curry, organic rice and vegetables" },
+      "es": { "name": "Bento de curry japonés con ternera", "description": "Bento con curry japonés y ternera, arroz y verduras ecológicas" },
+      "it": { "name": "Bento con curry giapponese al manzo", "description": "Bento con curry giapponese e manzo, riso e verdure biologiche" }
+    }
+  },
+  {
+    "id": "bento-poisson",
+    "category": "bento-et-coco-bowl",
+    "subcategory": "bento",
+    "image": "/cococo/bento-poisson.jpeg",
+    "price": 18.00,
+    "allergens": ["poissons", "soja"],
+    "diets": ["sans-gluten", "sans-lactose"],
+    "macros": { "calories": 600, "proteines": 28, "glucides": 65, "lipides": 18 },
+    "translations": {
+      "fr": { "name": "Bento poisson", "description": "Bento avec poisson, riz bio et légumes bio" },
+      "en": { "name": "Fish bento", "description": "Bento with fish, organic rice and vegetables" },
+      "es": { "name": "Bento de pescado", "description": "Bento con pescado, arroz y verduras ecológicas" },
+      "it": { "name": "Bento di pesce", "description": "Bento con pesce, riso e verdure biologiche" }
+    }
+  },
+  {
+    "id": "bento-karaague",
+    "category": "bento-et-coco-bowl",
+    "subcategory": "bento",
+    "image": "/cococo/bento-karaague.jpeg",
+    "price": 18.00,
+    "allergens": ["soja", "oeufs"],
+    "diets": ["sans-gluten", "sans-lactose"],
+    "macros": { "calories": 700, "proteines": 35, "glucides": 55, "lipides": 25 },
+    "translations": {
+      "fr": { "name": "Bento Karaagué", "description": "Bento avec poulet frit au blanc de poulet, riz bio et légumes bio" },
+      "en": { "name": "Karaage bento", "description": "Bento with fried chicken breast, organic rice and vegetables" },
+      "es": { "name": "Bento Karaage", "description": "Bento con pollo frito de pechuga, arroz y verduras ecológicas" },
+      "it": { "name": "Bento Karaage", "description": "Bento con petto di pollo fritto, riso e verdure biologiche" }
+    }
+  },
+  {
+    "id": "coco-bowl-vegetalien",
+    "category": "bento-et-coco-bowl",
+    "subcategory": "coco-bowl",
+    "image": "/cococo/coco-bowl-vegetalien.jpeg",
+    "price": 14.00,
+    "allergens": ["soja"],
+    "diets": ["sans-gluten", "sans-lactose", "vegan"],
+    "macros": { "calories": 450, "proteines": 12, "glucides": 60, "lipides": 12 },
+    "translations": {
+      "fr": { "name": "Coco bowl végétalien", "description": "Bol végétalien, riz bio et légumes bio" },
+      "en": { "name": "Vegan Coco bowl", "description": "Vegan bowl, organic rice and vegetables" },
+      "es": { "name": "Coco bowl vegano", "description": "Bol vegano, arroz y verduras ecológicas" },
+      "it": { "name": "Coco bowl vegano", "description": "Ciottola vegana, riso e verdure biologiche" }
+    }
+  },
+  {
+    "id": "coco-bowl-curry",
+    "category": "bento-et-coco-bowl",
+    "subcategory": "coco-bowl",
+    "image": "/cococo/coco-bowl-curry.jpeg",
+    "price": 14.00,
+    "allergens": ["soja"],
+    "diets": ["sans-gluten", "sans-lactose"],
+    "macros": { "calories": 550, "proteines": 20, "glucides": 65, "lipides": 18 },
+    "translations": {
+      "fr": { "name": "Coco bowl curry", "description": "Bol avec curry japonais, riz bio et légumes bio" },
+      "en": { "name": "Curry Coco bowl", "description": "Bowl with Japanese curry, organic rice and vegetables" },
+      "es": { "name": "Coco bowl de curry", "description": "Bol con curry japonés, arroz y verduras ecológicas" },
+      "it": { "name": "Coco bowl al curry", "description": "Ciottola con curry giapponese, riso e verdure biologiche" }
+    }
+  },
+  {
+    "id": "coco-bowl-poisson",
+    "category": "bento-et-coco-bowl",
+    "subcategory": "coco-bowl",
+    "image": "/cococo/coco-bowl-poisson.jpeg",
+    "price": 15.00,
+    "allergens": ["poissons", "soja"],
+    "diets": ["sans-gluten", "sans-lactose"],
+    "macros": { "calories": 500, "proteines": 25, "glucides": 55, "lipides": 15 },
+    "translations": {
+      "fr": { "name": "Coco bowl poisson", "description": "Bol avec poisson, riz bio et légumes bio" },
+      "en": { "name": "Fish Coco bowl", "description": "Bowl with fish, organic rice and vegetables" },
+      "es": { "name": "Coco bowl de pescado", "description": "Bol con pescado, arroz y verduras ecológicas" },
+      "it": { "name": "Coco bowl di pesce", "description": "Ciottola con pesce, riso e verdure biologiche" }
+    }
+  },
+  {
+    "id": "coco-bowl-poulet-karaague",
+    "category": "bento-et-coco-bowl",
+    "subcategory": "coco-bowl",
+    "image": "/cococo/coco-bowl-poulet-karaague.jpeg",
+    "price": 15.00,
+    "allergens": ["soja", "oeufs"],
+    "diets": ["sans-gluten", "sans-lactose"],
+    "macros": { "calories": 600, "proteines": 30, "glucides": 50, "lipides": 20 },
+    "translations": {
+      "fr": { "name": "Coco bowl poulet (karaague)", "description": "Bol avec poulet frit au blanc de poulet, riz bio et légumes bio" },
+      "en": { "name": "Chicken karaage Coco bowl", "description": "Bowl with fried chicken breast, organic rice and vegetables" },
+      "es": { "name": "Coco bowl de pollo karaage", "description": "Bol con pechuga de pollo frita, arroz y verduras ecológicas" },
+      "it": { "name": "Coco bowl con pollo karaage", "description": "Ciottola con petto di pollo fritto, riso e verdure biologiche" }
+    }
+  },
+  {
+    "id": "edamame",
+    "category": "a-la-carte",
+    "subcategory": null,
+    "image": "/cococo/edamame.jpeg",
+    "price": 5.00,
+    "allergens": ["soja"],
+    "diets": ["sans-gluten", "sans-lactose", "vegan"],
+    "macros": { "calories": 120, "proteines": 11, "glucides": 10, "lipides": 5 },
+    "translations": {
+      "fr": { "name": "Edamamé", "description": "Fèves de soja cuites à la vapeur" },
+      "en": { "name": "Edamame", "description": "Steamed soybeans" },
+      "es": { "name": "Edamame", "description": "Vainas de soja al vapor" },
+      "it": { "name": "Edamame", "description": "Baccelli di soia al vapore" }
+    }
+  },
+  {
+    "id": "soupe-au-miso",
+    "category": "a-la-carte",
+    "subcategory": null,
+    "image": "/cococo/soupe-au-miso.jpeg",
+    "price": 5.00,
+    "allergens": ["soja"],
+    "diets": ["sans-gluten", "sans-lactose", "vegan"],
+    "macros": { "calories": 50, "proteines": 2, "glucides": 5, "lipides": 2 },
+    "translations": {
+      "fr": { "name": "Soupe au miso", "description": "Soupe traditionnelle japonaise à base de pâte de soja" },
+      "en": { "name": "Miso soup", "description": "Traditional Japanese soup made with soybean paste" },
+      "es": { "name": "Sopa de miso", "description": "Sopa japonesa tradicional a base de pasta de soja" },
+      "it": { "name": "Zuppa di miso", "description": "Zuppa giapponese tradizionale a base di pasta di soia" }
+    }
+  },
+  {
+    "id": "soupe-potage-miso",
+    "category": "a-la-carte",
+    "subcategory": null,
+    "image": "/cococo/soupe-potage-miso.jpeg",
+    "price": 5.00,
+    "allergens": ["soja"],
+    "diets": ["sans-gluten", "sans-lactose", "vegan"],
+    "macros": { "calories": 60, "proteines": 3, "glucides": 6, "lipides": 2 },
+    "translations": {
+      "fr": { "name": "Soupe Potage-miso", "description": "Soupe épaisse à base de miso" },
+      "en": { "name": "Miso potage soup", "description": "Thick soup made with miso" },
+      "es": { "name": "Sopa de potaje miso", "description": "Sopa espesa a base de miso" },
+      "it": { "name": "Zuppa di miso densa", "description": "Zuppa densa a base di miso" }
+    }
+  },
+  {
+    "id": "karaague-petit",
+    "category": "a-la-carte",
+    "subcategory": null,
+    "image": "/cococo/karaague-petit.jpeg",
+    "price": 8.00,
+    "allergens": ["soja", "oeufs"],
+    "diets": ["sans-gluten", "sans-lactose"],
+    "macros": { "calories": 400, "proteines": 25, "glucides": 20, "lipides": 20 },
+    "translations": {
+      "fr": { "name": "Karaagué", "description": "Poulet frit" },
+      "en": { "name": "Karaage", "description": "Fried chicken" },
+      "es": { "name": "Karaage", "description": "Pollo frito" },
+      "it": { "name": "Karaage ", "description": "Pollo fritto" }
+    }
+  },
+  // {
+  //   "id": "karaague-grand",
+  //   "category": "a-la-carte",
+  //   "subcategory": null,
+  //   "image": "/cococo/karaague-grand.jpeg",
+  //   "price": 14.00,
+  //   "allergens": ["soja", "oeufs"],
+  //   "diets": ["sans-gluten", "sans-lactose"],
+  //   "macros": { "calories": 700, "proteines": 45, "glucides": 30, "lipides": 35 },
+  //   "translations": {
+  //     "fr": { "name": "Karaague - grand", "description": "Poulet frit (grande portion)" },
+  //     "en": { "name": "Karaage - Large", "description": "Fried chicken (large portion)" },
+  //     "es": { "name": "Karaage - Grande", "description": "Pollo frito (porción grande)" },
+  //     "it": { "name": "Karaage - Grande", "description": "Pollo fritto (porzione grande)" }
+  //   }
+  // },
+  {
+    "id": "onigiri-kombu-ume-shiso",
+    "category": "a-la-carte",
+    "subcategory": null,
+    "image": "/cococo/onigiri-kombu-ume-shiso.jpeg",
+    "price": 4.00,
+    "allergens": ["poissons", "mollusques"],
+    "diets": ["sans-gluten", "sans-lactose", "vegan"],
+    "macros": { "calories": 150, "proteines": 3, "glucides": 30, "lipides": 1 },
+    "translations": {
+      "fr": { "name": "Onigiri (Kombu/Umé/Shiso)", "description": "Boule de riz fourrée aux algues, prune ou feuille de shiso" },
+      "en": { "name": "Onigiri (Kombu/Ume/Shiso)", "description": "Rice ball filled with seaweed, plum, or shiso leaf" },
+      "es": { "name": "Onigiri (Kombu/Ume/Shiso)", "description": "Bola de arroz rellena de alga, ciruela o hoja de shiso" },
+      "it": { "name": "Onigiri (Kombu/Ume/Shiso)", "description": "Palla di riso ripiena di alga, susina o foglia di shiso" }
+    }
+  },
+  {
+    "id": "onigiri-karaague",
+    "category": "a-la-carte",
+    "subcategory": null,
+    "image": "/cococo/onigiri-karaague.jpeg",
+    "price": 5.00,
+    "allergens": ["soja", "oeufs"],
+    "diets": ["sans-gluten", "sans-lactose"],
+    "macros": { "calories": 200, "proteines": 10, "glucides": 25, "lipides": 5 },
+    "translations": {
+      "fr": { "name": "Onigiri (Karaague)", "description": "Boule de riz fourrée au poulet frit" },
+      "en": { "name": "Onigiri (Karaage)", "description": "Rice ball filled with fried chicken" },
+      "es": { "name": "Onigiri (Karaage)", "description": "Bola de arroz rellena de pollo frito" },
+      "it": { "name": "Onigiri (Karaage)", "description": "Palla di riso ripiena di pollo fritto" }
+    }
+  },
+  {
+    "id": "daifuku",
+    "category": "desserts",
+    "subcategory": null,
+    "image": "/cococo/daifuku.jpeg",
+    "price": 4.00,
+    "allergens": ["soja", "fruits-a-coque"],
+    "diets": ["sans-gluten", "sans-lactose", "vegan"],
+    "macros": { "calories": 150, "proteines": 2, "glucides": 30, "lipides": 1 },
+    "translations": {
+      "fr": { "name": "Daifuku", "description": "Pâtisserie japonaise moelleuse fourrée à la pâte de haricots rouges" },
+      "en": { "name": "Daifuku", "description": "Soft Japanese confection filled with red bean paste" },
+      "es": { "name": "Daifuku", "description": "Dulce japonés suave relleno de pasta de judías rojas" },
+      "it": { "name": "Daifuku", "description": "Dolce giapponese morbido ripieno di pasta di fagioli rossi" }
+    }
+  },
+  {
+    "id": "tarte-du-jour",
+    "category": "desserts",
+    "subcategory": null,
+    "image": "/cococo/tarte-du-jour.jpeg",
+    "price": 6.00,
+    "allergens": ["gluten", "lait", "oeufs"],
+    "diets": ["sans-lactose"],
+    "macros": { "calories": 350, "proteines": 5, "glucides": 40, "lipides": 18 },
+    "translations": {
+      "fr": { "name": "Tarte du jour", "description": "Tarte maison du jour" },
+      "en": { "name": "Pie of the day", "description": "Homemade pie of the day" },
+      "es": { "name": "Tarta del día", "description": "Tarta casera del día" },
+      "it": { "name": "Torta del giorno", "description": "Torta fatta in casa del giorno" }
+    }
+  },
+  {
+    "id": "cookie-du-jour",
+    "category": "desserts",
+    "subcategory": null,
+    "image": "/cococo/cookie-du-jour.jpeg",
+    "price": 5.00,
+    "allergens": ["gluten", "lait", "oeufs", "fruits-a-coque"],
+    "diets": [],
+    "macros": { "calories": 250, "proteines": 3, "glucides": 30, "lipides": 12 },
+    "translations": {
+      "fr": { "name": "Cookie du jour", "description": "Cookie maison du jour" },
+      "en": { "name": "Cookie of the day", "description": "Homemade cookie of the day" },
+      "es": { "name": "Galleta del día", "description": "Galleta casera del día" },
+      "it": { "name": "Biscotto del giorno", "description": "Biscotto fatto in casa del giorno" }
+    }
+  },
+  {
+    "id": "evian",
+    "category": "boissons",
+    "subcategory": null,
+    "image": "/cococo/evian.jpeg",
+    "price": 2.50,
+    "allergens": [],
+    "diets": ["sans-gluten", "sans-lactose", "vegan"],
+    "macros": { "calories": 0, "proteines": 0, "glucides": 0, "lipides": 0 },
+    "translations": {
+      "fr": { "name": "Evian", "description": "Eau minérale" },
+      "en": { "name": "Evian", "description": "Mineral water" },
+      "es": { "name": "Evian", "description": "Agua mineral" },
+      "it": { "name": "Evian", "description": "Acqua minerale" }
+    }
+  },
+  {
+    "id": "san-pellegrino",
+    "category": "boissons",
+    "subcategory": null,
+    "image": "/cococo/san-pellegrino.jpeg",
+    "price": 3.00,
+    "allergens": [],
+    "diets": ["sans-gluten", "sans-lactose", "vegan"],
+    "macros": { "calories": 0, "proteines": 0, "glucides": 0, "lipides": 0 },
+    "translations": {
+      "fr": { "name": "San Pellegrino", "description": "Eau gazeuse" },
+      "en": { "name": "San Pellegrino", "description": "Sparkling water" },
+      "es": { "name": "San Pellegrino", "description": "Agua con gas" },
+      "it": { "name": "San Pellegrino", "description": "Acqua frizzante" }
+    }
+  },
+  {
+    "id": "coca-bio",
+    "category": "boissons",
+    "subcategory": null,
+    "image": "/cococo/coca-bio.jpeg",
+    "price": 5.00,
+    "allergens": [],
+    "diets": ["sans-gluten", "sans-lactose", "vegan"],
+    "macros": { "calories": 150, "proteines": 0, "glucides": 38, "lipides": 0 },
+    "translations": {
+      "fr": { "name": "Coca BIO", "description": "Soda bio" },
+      "en": { "name": "Organic Coke", "description": "Organic soda" },
+      "es": { "name": "Coca BIO", "description": "Refresco ecológico" },
+      "it": { "name": "Coca BIO", "description": "Bibita biologica" }
+    }
+  },
+  {
+    "id": "coca-zero",
+    "category": "boissons",
+    "subcategory": null,
+    "image": "/cococo/coca-zero.jpeg",
+    "price": 4.00,
+    "allergens": [],
+    "diets": ["sans-gluten", "sans-lactose", "vegan"],
+    "macros": { "calories": 0, "proteines": 0, "glucides": 0, "lipides": 0 },
+    "translations": {
+      "fr": { "name": "Coca zéro", "description": "Soda zéro calorie" },
+      "en": { "name": "Coke Zero", "description": "Zero-calorie soda" },
+      "es": { "name": "Coca cero", "description": "Refresco cero calorías" },
+      "it": { "name": "Coca Zero", "description": "Bibita zero calorie" }
+    }
+  },
+  {
+    "id": "jus-de-fruits",
+    "category": "boissons",
+    "subcategory": null,
+    "image": "/cococo/jus-de-fruits.jpeg",
+    "price": 4.00,
+    "allergens": [],
+    "diets": ["sans-gluten", "sans-lactose", "vegan"],
+    "macros": { "calories": 120, "proteines": 0, "glucides": 30, "lipides": 0 },
+    "translations": {
+      "fr": { "name": "Jus de fruits", "description": "Jus de pomme+kiwi, mangue passion, pomme ou orange" },
+      "en": { "name": "Fruit juice", "description": "Apple+kiwi, passionfruit-mango, apple or orange juice" },
+      "es": { "name": "Zumo de frutas", "description": "Jugo de manzana+kiwi, maracuyá-mango, manzana o naranja" },
+      "it": { "name": "Succo di frutta", "description": "Succo di mela+kiwi, frutto della passione-mango, mela o arancia" }
+    }
+  },
+  {
+    "id": "the-japonais",
+    "category": "boissons",
+    "subcategory": null,
+    "image": "/cococo/the-japonais.jpeg",
+    "price": 5.00,
+    "allergens": [],
+    "diets": ["sans-gluten", "sans-lactose", "vegan"],
+    "macros": { "calories": 2, "proteines": 0, "glucides": 0, "lipides": 0 },
+    "translations": {
+      "fr": { "name": "Thé japonais", "description": "Thé Sencha, Hojicha ou Genmaicha" },
+      "en": { "name": "Japanese tea", "description": "Sencha, Hojicha or Genmaicha tea" },
+      "es": { "name": "Té japonés", "description": "Té Sencha, Hojicha o Genmaicha" },
+      "it": { "name": "Tè giapponese", "description": "Tè Sencha, Hojicha o Genmaicha" }
+    }
+  },
+  {
+    "id": "sapporo",
+    "category": "bieres",
+    "subcategory": null,
+    "image": "/cococo/sapporo.jpeg",
+    "price": 5.00,
+    "allergens": ["gluten"],
+    "diets": [],
+    "macros": { "calories": 150, "proteines": 1, "glucides": 12, "lipides": 0 },
+    "translations": {
+      "fr": { "name": "Sapporo", "description": "Bière japonaise" },
+      "en": { "name": "Sapporo", "description": "Japanese beer" },
+      "es": { "name": "Sapporo", "description": "Cerveza japonesa" },
+      "it": { "name": "Sapporo", "description": "Birra giapponese" }
+    }
+  },
+  {
+    "id": "iki-yuzu",
+    "category": "bieres",
+    "subcategory": null,
+    "image": "/cococo/iki-yuzu.jpeg",
+    "price": 7.00,
+    "allergens": ["gluten"],
+    "diets": [],
+    "macros": { "calories": 180, "proteines": 1, "glucides": 15, "lipides": 0 },
+    "translations": {
+      "fr": { "name": "IKI - Yuzu", "description": "Bière artisanale au yuzu" },
+      "en": { "name": "IKI - Yuzu", "description": "Craft beer with yuzu" },
+      "es": { "name": "IKI - Yuzu", "description": "Cerveza artesanal con yuzu" },
+      "it": { "name": "IKI - Yuzu", "description": "Birra artigianale al yuzu" }
+    }
+  },
+  {
+    "id": "iki-gingembre",
+    "category": "bieres",
+    "subcategory": null,
+    "image": "/cococo/iki-gingembre.jpeg",
+    "price": 7.00,
+    "allergens": ["gluten"],
+    "diets": [],
+    "macros": { "calories": 180, "proteines": 1, "glucides": 15, "lipides": 0 },
+    "translations": {
+      "fr": { "name": "IKI - Gingembre", "description": "Bière artisanale au gingembre" },
+      "en": { "name": "IKI - Ginger", "description": "Craft beer with ginger" },
+      "es": { "name": "IKI - Jengibre", "description": "Cerveza artesanal con jengibre" },
+      "it": { "name": "IKI - Zenzero", "description": "Birra artigianale allo zenzero" }
+    }
+  },
+  {
+    "id": "kura-amber",
+    "category": "bieres",
+    "subcategory": null,
+    "image": "/cococo/kura-amber.jpeg",
+    "price": 7.00,
+    "allergens": ["gluten"],
+    "diets": [],
+    "macros": { "calories": 180, "proteines": 1, "glucides": 15, "lipides": 0 },
+    "translations": {
+      "fr": { "name": "Kura - Amber", "description": "Bière artisanale ambrée" },
+      "en": { "name": "Kura - Amber", "description": "Amber craft beer" },
+      "es": { "name": "Kura - Ámbar", "description": "Cerveza artesanal ámbar" },
+      "it": { "name": "Kura - Ambra", "description": "Birra artigianale ambrata" }
+    }
+  },
+  {
+    "id": "sans-gluten-blonde",
+    "category": "bieres",
+    "subcategory": null,
+    "image": "/cococo/sans-gluten-blonde.jpeg",
+    "price": 5.00,
+    "allergens": [],
+    "diets": ["sans-gluten"],
+    "macros": { "calories": 150, "proteines": 1, "glucides": 12, "lipides": 0 },
+    "translations": {
+      "fr": { "name": "Sans gluten Blonde", "description": "Bière blonde sans gluten" },
+      "en": { "name": "Gluten-free Blonde", "description": "Gluten-free blonde beer" },
+      "es": { "name": "Sin gluten Rubia", "description": "Cerveza rubia sin gluten" },
+      "it": { "name": "Senza glutine Bionda", "description": "Birra bionda senza glutine" }
+    }
+  },
+  {
+    "id": "sans-gluten-amber",
+    "category": "bieres",
+    "subcategory": null,
+    "image": "/cococo/sans-gluten-amber.jpeg",
+    "price": 5.00,
+    "allergens": [],
+    "diets": ["sans-gluten"],
+    "macros": { "calories": 150, "proteines": 1, "glucides": 12, "lipides": 0 },
+    "translations": {
+      "fr": { "name": "Sans gluten Amber", "description": "Bière ambrée sans gluten" },
+      "en": { "name": "Gluten-free Amber", "description": "Gluten-free amber beer" },
+      "es": { "name": "Sin gluten Ámbar", "description": "Cerveza ámbar sin gluten" },
+      "it": { "name": "Senza glutine Ambra", "description": "Birra ambrata senza glutine" }
+    }
+  },
+  {
+    "id": "rouge-igp-cotes-du-tarn-2022",
+    "category": "vin-bio-bouteille",
+    "subcategory": null,
+    "image": "/cococo/rouge-igp-cotes-du-tarn-2022.jpeg",
+    "price": 24.00,
+    "allergens": ["so2"],
+    "diets": ["sans-gluten", "sans-lactose", "vegan"],
+    "macros": { "calories": 120, "proteines": 0, "glucides": 2, "lipides": 0 },
+    "translations": {
+      "fr": { "name": "Rouge IGP Côtes du Tarn 2022", "description": "Vin rouge bio" },
+      "en": { "name": "Red IGP Côtes du Tarn 2022", "description": "Organic red wine" },
+      "es": { "name": "Tinto IGP Côtes du Tarn 2022", "description": "Vino tinto ecológico" },
+      "it": { "name": "Rosso IGP Côtes du Tarn 2022", "description": "Vino rosso biologico" }
+    }
+  },
+  {
+    "id": "rouge-aop-gaillac-2020",
+    "category": "vin-bio-bouteille",
+    "subcategory": null,
+    "image": "/cococo/rouge-aop-gaillac-2020.jpeg",
+    "price": 45.00,
+    "allergens": ["so2"],
+    "diets": ["sans-gluten", "sans-lactose", "vegan"],
+    "macros": { "calories": 120, "proteines": 0, "glucides": 2, "lipides": 0 },
+    "translations": {
+      "fr": { "name": "Rouge AOP Gaillac 2020", "description": "Vin rouge bio AOP" },
+      "en": { "name": "Red AOP Gaillac 2020", "description": "Organic red wine AOP" },
+      "es": { "name": "Tinto AOP Gaillac 2020", "description": "Vino tinto ecológico AOP" },
+      "it": { "name": "Rosso AOP Gaillac 2020", "description": "Vino rosso biologico AOP" }
+    }
+  },
+  {
+    "id": "blanc-igp-cotes-du-tarn-2022",
+    "category": "vin-bio-bouteille",
+    "subcategory": null,
+    "image": "/cococo/blanc-igp-cotes-du-tarn-2022.jpeg",
+    "price": 24.00,
+    "allergens": ["so2"],
+    "diets": ["sans-gluten", "sans-lactose", "vegan"],
+    "macros": { "calories": 120, "proteines": 0, "glucides": 2, "lipides": 0 },
+    "translations": {
+      "fr": { "name": "Blanc IGP Côtes du Tarn 2022", "description": "Vin blanc bio" },
+      "en": { "name": "White IGP Côtes du Tarn 2022", "description": "Organic white wine" },
+      "es": { "name": "Blanco IGP Côtes du Tarn 2022", "description": "Vino blanco ecológico" },
+      "it": { "name": "Bianco IGP Côtes du Tarn 2022", "description": "Vino bianco biologico" }
+    }
+  },
+  {
+    "id": "blanc-aop-gaillac-2022",
+    "category": "vin-bio-bouteille",
+    "subcategory": null,
+    "image": "/cococo/blanc-aop-gaillac-2022.jpeg",
+    "price": 26.00,
+    "allergens": ["so2"],
+    "diets": ["sans-gluten", "sans-lactose", "vegan"],
+    "macros": { "calories": 120, "proteines": 0, "glucides": 2, "lipides": 0 },
+    "translations": {
+      "fr": { "name": "Blanc AOP Gaillac 2022", "description": "Vin blanc bio AOP" },
+      "en": { "name": "White AOP Gaillac 2022", "description": "Organic white wine AOP" },
+      "es": { "name": "Blanco AOP Gaillac 2022", "description": "Vino blanco ecológico AOP" },
+      "it": { "name": "Bianco AOP Gaillac 2022", "description": "Vino bianco biologico AOP" }
+    }
+  }
+],
+"42degres":
+[
+  // --- Menus ---
+  {
+    "id": "menu-signature",
+    "category": "menus",
+    "subcategory": "signature",
+    "image": "/42degres/menu-signature.jpeg",
+    "price": 55.00,
+    "allergens": ["soja", "fruits-a-coque", "sesame"],
+    "diets": ["vegan", "sans-gluten"],
+    "macros": { "calories": 900, "proteines": 30, "glucides": 100, "lipides": 40 },
+    "translations": {
+      "fr": { "name": "MENU SIGNATURE", "description": "Faux gras 2.0, chutney mangue et crackers, burger de champignon portobello, ketchup de betterave & chips de légumes, vegan cheese plate du moment, sublime cacao cru du Pérou accompagné de sa sauce chocolat" },
+      "en": { "name": "SIGNATURE MENU", "description": "Faux gras 2.0, mango chutney and crackers, portobello mushroom burger, beetroot ketchup & vegetable chips, vegan cheese plate of the moment, sublime raw Peruvian cacao with chocolate sauce" },
+      "it": { "name": "MENU FIRMA", "description": "Faux gras 2.0, chutney di mango e crackers, burger di funghi portobello, ketchup di barbabietola e chips di verdure, piatto di formaggi vegan del momento, cacao crudo peruviano sublime con salsa al cioccolato" },
+      "es": { "name": "MENÚ FIRMA", "description": "Faux gras 2.0, chutney de mango y crackers, hamburguesa de champiñón portobello, ketchup de remolacha y chips de verduras, tabla de quesos veganos del momento, cacao crudo peruano sublime con salsa de chocolate" }
+    }
+  },
+  {
+    "id": "menu-experience",
+    "category": "menus",
+    "subcategory": "experience",
+    "image": "/42degres/menu-experience.jpeg",
+    "price": 58.00,
+    "allergens": ["soja", "fruits-a-coque", "sesame", "celeri"],
+    "diets": ["vegan", "sans-gluten"],
+    "macros": { "calories": 1000, "proteines": 35, "glucides": 110, "lipides": 45 },
+    "translations": {
+      "fr": { "name": "MENU EXPERIENCE", "description": "Un voyage en 5 temps, imaginé et réalisé autour des légumes de saison. Chaque assiette raconte une histoire, mettant en valeur la fraîcheur, la créativité et l’équilibre végétal." },
+      "en": { "name": "EXPERIENCE MENU", "description": "A 5-course journey, designed and created around seasonal vegetables. Each dish tells a story, highlighting freshness, creativity, and plant-based balance." },
+      "it": { "name": "MENU ESPERIENZA", "description": "Un viaggio in 5 portate, ideato e realizzato intorno alle verdure di stagione. Ogni piatto racconta una storia, mettendo in risalto freschezza, creatività ed equilibrio vegetale." },
+      "es": { "name": "MENÚ EXPERIENCIA", "description": "Un viaje en 5 tiempos, imaginado y realizado en torno a las verduras de temporada. Cada plato cuenta una historia, destacando la frescura, la creatividad y el equilibrio vegetal." }
+    }
+  },
+  {
+    "id": "menu-dejeuner-2-courses",
+    "category": "menus",
+    "subcategory": "dejeuner",
+    "image": "/42degres/menu-dejeuner-2-courses.jpeg",
+    "price": 19.00,
+    "allergens": ["soja", "fruits-a-coque", "sesame", "celeri", "moutarde"],
+    "diets": ["vegan", "sans-gluten"],
+    "macros": { "calories": 650, "proteines": 25, "glucides": 70, "lipides": 30 },
+    "translations": {
+      "fr": { "name": "MENU DÉJEUNER - Entrée + plat ou plat + dessert", "description": "Chaque jour, un menu différent, élaboré à partir de produits de saison." },
+      "en": { "name": "LUNCH MENU - Starter + main or main + dessert", "description": "A different menu every day, made with seasonal products." },
+      "it": { "name": "MENU PRANZO - Antipasto + piatto principale o piatto principale + dolce", "description": "Ogni giorno un menu diverso, preparato con prodotti di stagione." },
+      "es": { "name": "MENÚ DEL DÍA - Entrante + plato o plato + postre", "description": "Cada día, un menú diferente, elaborado con productos de temporada." }
+    }
+  },
+  {
+    "id": "menu-dejeuner-3-courses",
+    "category": "menus",
+    "subcategory": "dejeuner",
+    "image": "/42degres/menu-dejeuner-3-courses.jpeg",
+    "price": 22.00,
+    "allergens": ["soja", "fruits-a-coque", "sesame", "celeri", "moutarde"],
+    "diets": ["vegan", "sans-gluten"],
+    "macros": { "calories": 800, "proteines": 30, "glucides": 90, "lipides": 35 },
+    "translations": {
+      "fr": { "name": "MENU DÉJEUNER - Entrée + plat + dessert", "description": "Chaque jour, un menu différent, élaboré à partir de produits de saison." },
+      "en": { "name": "LUNCH MENU - Starter + main + dessert", "description": "A different menu every day, made with seasonal products." },
+      "it": { "name": "MENU PRANZO - Antipasto + piatto principale + dolce", "description": "Ogni giorno un menu diverso, preparato con prodotti di stagione." },
+      "es": { "name": "MENÚ DEL DÍA - Entrante + plato + postre", "description": "Cada día, un menú diferente, elaborado con productos de temporada." }
+    }
+  },
+  {
+    "id": "formule-summer-body",
+    "category": "menus",
+    "subcategory": "dejeuner",
+    "image": "/42degres/formule-summer-body.jpeg",
+    "price": 15.00,
+    "allergens": ["soja", "fruits-a-coque", "sesame"],
+    "diets": ["vegan", "sans-gluten"],
+    "macros": { "calories": 350, "proteines": 12, "glucides": 45, "lipides": 15 },
+    "translations": {
+      "fr": { "name": "Formule Summer Body", "description": "Salade du jour & jus frais" },
+      "en": { "name": "Summer Body Formula", "description": "Salad of the day & fresh juice" },
+      "it": { "name": "Formula Summer Body", "description": "Insalata del giorno e succo fresco" },
+      "es": { "name": "Fórmula Summer Body", "description": "Ensalada del día y zumo fresco" }
+    }
+  },
+
+  // --- Entrées ---
+  {
+    "id": "asperges-crues-duo-textures-crunola-vert",
+    "category": "entrees",
+    "subcategory": "",
+    "image": "/42degres/asperges-crues-duo-textures-crunola-vert.jpeg",
+    "price": 12.00,
+    "allergens": ["fruits-a-coque", "sesame"],
+    "diets": ["vegan", "sans-gluten"],
+    "macros": { "calories": 220, "proteines": 5, "glucides": 20, "lipides": 14 },
+    "translations": {
+      "fr": { "name": "Asperges crues de nos régions, duo de textures & crunola vert", "description": "Asperges crues préparées en duo de textures, accompagnées de crunola vert" },
+      "en": { "name": "Raw asparagus from our regions, duo of textures & green crunola", "description": "Raw asparagus prepared in a duo of textures, served with green crunola" },
+      "it": { "name": "Asparagi crudi delle nostre regioni, duo di texture e crunola verde", "description": "Asparagi crudi preparati in un duo di texture, accompagnati da crunola verde" },
+      "es": { "name": "Espárragos crudos de nuestras regiones, dúo de texturas y crunola verde", "description": "Espárragos crudos preparados en dúo de texturas, acompañados de crunola verde" }
+    }
+  },
+  {
+    "id": "jeunes-carottes-marinees-pickles-moutarde-danoise",
+    "category": "entrees",
+    "subcategory": "",
+    "image": "/42degres/jeunes-carottes-marinees-pickles-moutarde-danoise.jpeg",
+    "price": 9.00,
+    "allergens": ["moutarde"],
+    "diets": ["vegan", "sans-gluten"],
+    "macros": { "calories": 180, "proteines": 3, "glucides": 15, "lipides": 12 },
+    "translations": {
+      "fr": { "name": "Jeunes carottes marinées & pickles, moutarde danoise", "description": "Jeunes carottes marinées et pickles, servis avec une moutarde danoise" },
+      "en": { "name": "Marinated young carrots & pickles, Danish mustard", "description": "Marinated young carrots and pickles, served with Danish mustard" },
+      "it": { "name": "Carote giovani marinata e sottaceti, senape danese", "description": "Carote giovani marinata e sottaceti, servite con senape danese" },
+      "es": { "name": "Zanahorias jóvenes marinadas y encurtidos, mostaza danesa", "description": "Zanahorias jóvenes marinadas y encurtidos, servidos con mostaza danesa" }
+    }
+  },
+  {
+    "id": "crawb-de-la-mer-salicorne-jus-vert",
+    "category": "entrees",
+    "subcategory": "",
+    "image": "/42degres/crawb-de-la-mer-salicorne-jus-vert.jpeg",
+    "price": 10.00,
+    "allergens": ["soja", "fruits-a-coque"],
+    "diets": ["vegan", "sans-gluten"],
+    "macros": { "calories": 250, "proteines": 8, "glucides": 18, "lipides": 15 },
+    "translations": {
+      "fr": { "name": "« Crawb » de la mer, salicorne & jus vert", "description": "Création végétale inspirée des fruits de mer, salicorne et jus vert" },
+      "en": { "name": "Sea 'Crawb', samphire & green juice", "description": "Plant-based seafood-inspired dish, samphire and green juice" },
+      "it": { "name": "« Crawb » del mare, salicornia e succo verde", "description": "Piatto vegetale ispirato ai frutti di mare, salicornia e succo verde" },
+      "es": { "name": "« Crawb » del mar, salicornia y zumo verde", "description": "Plato vegetal inspirado en mariscos, salicornia y zumo verde" }
+    }
+  },
+
+  // --- Plats ---
+  {
+    "id": "navarin-de-jacquier-legumes-printaniers",
+    "category": "plats",
+    "subcategory": "",
+    "image": "/42degres/navarin-de-jacquier-legumes-printaniers.jpeg",
+    "price": 22.00,
+    "allergens": ["soja"],
+    "diets": ["vegan", "sans-gluten"],
+    "macros": { "calories": 320, "proteines": 15, "glucides": 35, "lipides": 12 },
+    "translations": {
+      "fr": { "name": "Navarin de jacquier & légumes printaniers", "description": "Ragoût de jacquier et légumes de printemps" },
+      "en": { "name": "Jackfruit stew & spring vegetables", "description": "Jackfruit stew with spring vegetables" },
+      "it": { "name": "Stufato di giacchio e verdure primaverili", "description": "Stufato di giacchio e verdure di primavera" },
+      "es": { "name": "Estofado de yaca y verduras primaverales", "description": "Estofado de yaca con verduras de primavera" }
+    }
+  },
+  {
+    "id": "magret-aux-champignons-sauce-cranberry-puree-celeri",
+    "category": "plats",
+    "subcategory": "",
+    "image": "/42degres/magret-aux-champignons-sauce-cranberry-puree-celeri.jpeg",
+    "price": 25.00,
+    "allergens": ["soja", "celeri"],
+    "diets": ["vegan", "sans-gluten"],
+    "macros": { "calories": 420, "proteines": 20, "glucides": 30, "lipides": 22 },
+    "translations": {
+      "fr": { "name": "« Magret » aux champignons, sauce cranberry & purée céleri", "description": "Magret végétal aux champignons, sauce canneberge et purée de céleri" },
+      "en": { "name": "Plant-based 'duck breast' with mushrooms, cranberry sauce & celery purée", "description": "Plant-based duck alternative with mushrooms, cranberry sauce and celery purée" },
+      "it": { "name": "« Magret » ai funghi, salsa di mirtilli rossi e purè di sedano", "description": "Alternativa vegetale al petto d'anatra con funghi, salsa di mirtilli rossi e purè di sedano" },
+      "es": { "name": "« Magret » con champiñones, salsa de arándanos rojos y puré de apio", "description": "Alternativa vegetal al pato con champiñones, salsa de arándanos rojos y puré de apio" }
+    }
+  },
+  {
+    "id": "galette-proteinee-pesto-ail-des-ours-nid-legumes",
+    "category": "plats",
+    "subcategory": "",
+    "image": "/42degres/galette-proteinee-pesto-ail-des-ours-nid-legumes.jpeg",
+    "price": 24.00,
+    "allergens": ["soja", "fruits-a-coque"],
+    "diets": ["vegan", "sans-gluten"],
+    "macros": { "calories": 450, "proteines": 22, "glucides": 35, "lipides": 20 },
+    "translations": {
+      "fr": { "name": "Galette protéinée, pesto d’ail des ours & nid de légumes", "description": "Galette riche en protéines, pesto à l'ail des ours et légumes disposés en nid" },
+      "en": { "name": "Protein galette, wild garlic pesto & vegetable nest", "description": "High-protein galette, wild garlic pesto and a nest of vegetables" },
+      "it": { "name": "Gallette proteica, pesto all'aglio orsino e nido di verdure", "description": "Gallette ricca di proteine, pesto all'aglio orsino e un nido di verdure" },
+      "es": { "name": "Galleta proteica, pesto de ajo de los osos y nido de verduras", "description": "Galleta rica en proteínas, pesto de ajo de los osos y un nido de verduras" }
+    }
+  },
+
+  // --- Vegan Cheese Plates ---
+  {
+    "id": "supplement-crackers-pain-cru",
+    "category": "vegan-cheese-plates",
+    "subcategory": "supplements",
+    "image": "/42degres/supplement-crackers-pain-cru.jpeg",
+    "price": 4.00,
+    "allergens": ["fruits-a-coque", "sesame"],
+    "diets": ["vegan", "sans-gluten"],
+    "macros": { "calories": 220, "proteines": 4, "glucides": 25, "lipides": 12 },
+    "translations": {
+      "fr": { "name": "Supplement de crackers & pain cru", "description": "Supplement de crackers et pain cru" },
+      "en": { "name": "Crackers & raw bread supplement", "description": "Extra crackers and raw bread" },
+      "it": { "name": "Supplemento di crackers e pane crudo", "description": "Crackers e pane crudo extra" },
+      "es": { "name": "Suplemento de crackers y pan crudo", "description": "Crackers y pan crudo adicional" }
+    }
+  },
+  {
+    "id": "degustation-trois-frawmages-crackers-pain",
+    "category": "vegan-cheese-plates",
+    "subcategory": "",
+    "image": "/42degres/degustation-trois-frawmages-crackers-pain.jpeg",
+    "price": 9.00,
+    "allergens": ["soja", "fruits-a-coque", "sesame"],
+    "diets": ["vegan", "sans-gluten"],
+    "macros": { "calories": 320, "proteines": 12, "glucides": 20, "lipides": 20 },
+    "translations": {
+      "fr": { "name": "Dégustation de trois frawmages, crackers & pain", "description": "Assortiment de trois fromages végétaux, crackers et pain" },
+      "en": { "name": "Tasting of three vegan cheeses, crackers & bread", "description": "Selection of three vegan cheeses, served with crackers and bread" },
+      "it": { "name": "Degustazione di tre formaggi vegan, crackers e pane", "description": "Selezione di tre formaggi vegan, serviti con crackers e pane" },
+      "es": { "name": "Degustación de tres quesos veganos, crackers y pan", "description": "Selección de tres quesos veganos, servidos con crackers y pan" }
+    }
+  },
+  {
+    "id": "ardoise-cinq-frawmages-condiments-crackers-pains",
+    "category": "vegan-cheese-plates",
+    "subcategory": "",
+    "image": "/42degres/ardoise-cinq-frawmages-condiments-crackers-pains.jpeg",
+    "price": 18.00,
+    "allergens": ["soja", "fruits-a-coque", "sesame"],
+    "diets": ["vegan", "sans-gluten"],
+    "macros": { "calories": 500, "proteines": 20, "glucides": 30, "lipides": 30 },
+    "translations": {
+      "fr": { "name": "Ardoise de cinq frawmages et ses condiments, crackers & pains", "description": "Assortiment de cinq fromages végétaux, condiments, crackers et pains" },
+      "en": { "name": "Slate of five vegan cheeses with condiments, crackers & breads", "description": "Selection of five vegan cheeses with condiments, crackers and breads" },
+      "it": { "name": "Lavagna di cinque formaggi vegan e condimenti, crackers e pani", "description": "Selezione di cinque formaggi vegan con condimenti, crackers e pani" },
+      "es": { "name": "Pizarra de cinco quesos veganos y condimentos, crackers y panes", "description": "Selección de cinco quesos veganos con condimentos, crackers y panes" }
+    }
+  },
+  {
+    "id": "fromages-piece-150g",
+    "category": "vegan-cheese-plates",
+    "subcategory": "",
+    "image": "/42degres/fromages-piece-150g.jpeg",
+    "price": 11.00,
+    "allergens": ["soja", "fruits-a-coque"],
+    "diets": ["vegan", "sans-gluten"],
+    "macros": { "calories": 350, "proteines": 15, "glucides": 15, "lipides": 25 },
+    "translations": {
+      "fr": { "name": "Fromages disponibles à la pièce, 150 g", "description": "Fromages végétaux vendus à la pièce, portion de 150 g" },
+      "en": { "name": "Cheeses available by the piece, 150 g", "description": "Vegan cheeses sold by the piece, 150 g portion" },
+      "it": { "name": "Formaggi disponibili a pezzo, 150 g", "description": "Formaggi vegan venduti a pezzo, porzione da 150 g" },
+      "es": { "name": "Quesos disponibles por pieza, 150 g", "description": "Quesos veganos vendidos por pieza, porción de 150 g" }
+    }
+  },
+
+  // --- Desserts ---
+  {
+    "id": "tarte-crue-au-citron-coulis-acidule",
+    "category": "desserts",
+    "subcategory": "",
+    "image": "/42degres/tarte-crue-au-citron-coulis-acidule.jpeg",
+    "price": 10.00,
+    "allergens": ["fruits-a-coque", "sesame"],
+    "diets": ["vegan", "sans-gluten"],
+    "macros": { "calories": 320, "proteines": 5, "glucides": 35, "lipides": 18 },
+    "translations": {
+      "fr": { "name": "Tarte crue au citron & coulis acidulé", "description": "Tarte crue au citron avec un coulis acidulé" },
+      "en": { "name": "Raw lemon tart & tangy coulis", "description": "Raw lemon tart with a tangy coulis" },
+      "it": { "name": "Crostata cruda al limone e coulis acidulo", "description": "Crostata cruda al limone con coulis acidulo" },
+      "es": { "name": "Tarta cruda de limón y coulis ácido", "description": "Tarta cruda de limón con coulis ácido" }
+    }
+  },
+  {
+    "id": "onctueux-pamplemousse-note-poivree-crunola-graines-germées",
+    "category": "desserts",
+    "subcategory": "",
+    "image": "/42degres/onctueux-pamplemousse-note-poivree-crunola-graines-germées.jpeg",
+    "price": 9.00,
+    "allergens": ["fruits-a-coque", "sesame"],
+    "diets": ["vegan", "sans-gluten"],
+    "macros": { "calories": 220, "proteines": 4, "glucides": 25, "lipides": 12 },
+    "translations": {
+      "fr": { "name": "Onctueux pamplemousse, note poivrée & crunola de graines germées", "description": "Dessert onctueux au pamplemousse, note poivrée et crunola de graines germées" },
+      "en": { "name": "Creamy grapefruit, peppery note & sprouted seed crunola", "description": "Creamy grapefruit dessert with a peppery note and sprouted seed crunola" },
+      "it": { "name": "Crema di pompelmo, nota pepata e crunola di germogli", "description": "Dolce cremoso al pompelmo, nota pepata e crunola di germogli" },
+      "es": { "name": "Pomelo cremoso, nota picante y crunola de germinados", "description": "Postre cremoso de pomelo, con nota picante y crunola de germinados" }
+    }
+  },
+  {
+    "id": "legere-cacao-biscuit-amande",
+    "category": "desserts",
+    "subcategory": "",
+    "image": "/42degres/legere-cacao-biscuit-amande.jpeg",
+    "price": 10.00,
+    "allergens": ["fruits-a-coque"],
+    "diets": ["vegan", "sans-gluten"],
+    "macros": { "calories": 300, "proteines": 6, "glucides": 30, "lipides": 15 },
+    "translations": {
+      "fr": { "name": "Légèreté cacao, biscuit amande", "description": "Dessert léger au cacao avec un biscuit à l'amande" },
+      "en": { "name": "Light cacao, almond biscuit", "description": "Light cacao dessert with an almond biscuit" },
+      "it": { "name": "Leggerezza al cacao, biscotto alle mandorle", "description": "Dolce leggero al cacao con biscotto alle mandorle" },
+      "es": { "name": "Ligereza de cacao, galleta de almendra", "description": "Postre ligero de cacao con galleta de almendra" }
+    }
+  }
+],
+"sol-semilla":[
+  // === ENTRÉES ===
+  {
+    "id": "bouillon-energie",
+    "category": "entrees",
+    "subcategory": "bouillon-aux-superaliments",
+    "image": "/sol-semilla/bouillon-energie.jpeg",
+    "price": 7.00,
+    "allergens": [],
+    "diets": ["vegan", "sans-gluten"],
+    "macros": { "calories": 50, "proteines": 2, "glucides": 5, "lipides": 1 },
+    "translations": {
+      "fr": { "name": "Bouillon Énergie", "description": "Spiruline - Gingembre" },
+      "en": { "name": "Energy Broth", "description": "Spirulina - Ginger" },
+      "it": { "name": "Brodo Energetico", "description": "Spirulina - Zenzero" },
+      "es": { "name": "Caldo Energía", "description": "Espirulina - Jengibre" }
+    }
+  },
+  {
+    "id": "bouillon-vitalite",
+    "category": "entrees",
+    "subcategory": "bouillon-aux-superaliments",
+    "image": "/sol-semilla/bouillon-vitalite.jpeg",
+    "price": 7.00,
+    "allergens": [],
+    "diets": ["vegan", "sans-gluten"],
+    "macros": { "calories": 50, "proteines": 2, "glucides": 5, "lipides": 1 },
+    "translations": {
+      "fr": { "name": "Bouillon Vitalité", "description": "Maca - Curcuma" },
+      "en": { "name": "Vitality Broth", "description": "Maca - Turmeric" },
+      "it": { "name": "Brodo Vitalità", "description": "Maca - Curcuma" },
+      "es": { "name": "Caldo Vitalidad", "description": "Maca - Cúrcuma" }
+    }
+  },
+  {
+    "id": "bouillon-digestion",
+    "category": "entrees",
+    "subcategory": "bouillon-aux-superaliments",
+    "image": "/sol-semilla/bouillon-digestion.jpeg",
+    "price": 7.00,
+    "allergens": [],
+    "diets": ["vegan", "sans-gluten"],
+    "macros": { "calories": 50, "proteines": 2, "glucides": 5, "lipides": 1 },
+    "translations": {
+      "fr": { "name": "Bouillon Digestion", "description": "Caroube - Cumin" },
+      "en": { "name": "Digestion Broth", "description": "Carob - Cumin" },
+      "it": { "name": "Brodo Digestivo", "description": "Carruba - Cumino" },
+      "es": { "name": "Caldo Digestión", "description": "Algarroba - Comino" }
+    }
+  },
+  {
+    "id": "entree-du-jour",
+    "category": "entrees",
+    "subcategory": null,
+    "image": "/sol-semilla/entree-du-jour.jpeg",
+    "price": 7.00,
+    "allergens": [],
+    "diets": ["vegan", "sans-gluten"],
+    "macros": { "calories": 250, "proteines": 8, "glucides": 30, "lipides": 10 },
+    "translations": {
+      "fr": { "name": "Entrée du Jour", "description": "Descriptif complet au tableau" },
+      "en": { "name": "Starter of the Day", "description": "Full description on the board" },
+      "it": { "name": "Antipasto del Giorno", "description": "Descrizione completa sulla lavagna" },
+      "es": { "name": "Entrante del Día", "description": "Descripción completa en la pizarra" }
+    }
+  },
+
+  // === PLATS ===
+  {
+    "id": "assiette-du-jour",
+    "category": "plats",
+    "subcategory": null,
+    "image": "/sol-semilla/assiette-du-jour.jpeg",
+    "price": 16.00,
+    "allergens": ["soja"], // Crèmes végétales often contain soja
+    "diets": ["vegan", "sans-gluten"],
+    "macros": { "calories": 450, "proteines": 15, "glucides": 60, "lipides": 12 },
+    "translations": {
+      "fr": { "name": "L'Assiette du Jour", "description": "Composée d’ingrédients frais, de saison, accompagnée de crèmes végétales et de superaliments." },
+      "en": { "name": "Dish of the Day", "description": "Fresh, seasonal ingredients with vegetable creams and superfoods." },
+      "it": { "name": "Piatto del Giorno", "description": "Ingredienti freschi e stagionali con creme vegetali e superalimenti." },
+      "es": { "name": "Plato del Día", "description": "Ingredientes frescos y de temporada con cremas vegetales y superalimentos." }
+    }
+  },
+  {
+    "id": "assiette-crue",
+    "category": "plats",
+    "subcategory": null,
+    "image": "/sol-semilla/assiette-crue.jpeg",
+    "price": 15.00,
+    "allergens": ["soja"], // Crèmes végétales
+    "diets": ["vegan", "sans-gluten"],
+    "macros": { "calories": 400, "proteines": 12, "glucides": 55, "lipides": 10 },
+    "translations": {
+      "fr": { "name": "L'Assiette Crue", "description": "Composée d’ingrédients crus et de saison, agrémenté de crèmes végétales/préparation aux superaliments." },
+      "en": { "name": "Raw Dish", "description": "Raw, seasonal ingredients with vegetable creams/superfood preparations." },
+      "it": { "name": "Piatto Crudo", "description": "Ingredienti crudi e stagionali con creme vegetali/preparati ai superalimenti." },
+      "es": { "name": "Plato Crudo", "description": "Ingredientes crudos y de temporada con cremas vegetales/preparaciones de superalimentos." }
+    }
+  },
+  {
+    "id": "superbowl",
+    "category": "plats",
+    "subcategory": null,
+    "image": "/sol-semilla/superbowl.jpeg",
+    "price": 12.50,
+    "allergens": ["soja"], // Préparations de l’assiette du jour (crèmes végétales)
+    "diets": ["vegan", "sans-gluten"],
+    "macros": { "calories": 500, "proteines": 18, "glucides": 65, "lipides": 14 },
+    "translations": {
+      "fr": { "name": "Le Superbowl", "description": "Un bowl avec céréale, légumineuse, salade et accompagné d’une crème veggie et de superaliments." },
+      "en": { "name": "The Superbowl", "description": "A bowl with cereal, legume, salad, veggie cream, and superfoods." },
+      "it": { "name": "Superbowl", "description": "Una ciotola con cereali, legumi, insalata, crema veggie e superalimenti." },
+      "es": { "name": "Superbowl", "description": "Un bol con cereales, legumbres, ensalada, crema veggie y superalimentos." }
+    }
+  },
+  {
+    "id": "soupe-complete",
+    "category": "plats",
+    "subcategory": null,
+    "image": "/sol-semilla/soupe-complete.jpeg",
+    "price": 14.00,
+    "allergens": ["soja"], // Préparations de l’assiette du jour
+    "diets": ["vegan", "sans-gluten"],
+    "macros": { "calories": 350, "proteines": 10, "glucides": 50, "lipides": 8 },
+    "translations": {
+      "fr": { "name": "La Soupe Complète", "description": "Un grand bouillon aux choix aux superaliments agrémenté des préparations de l’assiette du jour." },
+      "en": { "name": "Complete Soup", "description": "A large superfood broth with preparations from the dish of the day." },
+      "it": { "name": "Zuppa Completa", "description": "Un grande brodo ai superalimenti con preparazioni del piatto del giorno." },
+      "es": { "name": "Sopa Completa", "description": "Un gran caldo con superalimentos y preparaciones del plato del día." }
+    }
+  },
+
+  // === DESSERTS ===
+  {
+    "id": "banana-acai",
+    "category": "desserts",
+    "subcategory": "douceurs-de-fruits-exotiques",
+    "image": "/sol-semilla/banana-acai.jpeg",
+    "price": 6.00,
+    "allergens": [],
+    "diets": ["vegan", "sans-gluten"],
+    "macros": { "calories": 200, "proteines": 3, "glucides": 40, "lipides": 2 },
+    "translations": {
+      "fr": { "name": "BANANA AÇAÏ", "description": "Bananes / Açaï / Nopal / Citron / Huile de colza" },
+      "en": { "name": "BANANA AÇAÏ", "description": "Bananas / Açaï / Nopal / Lemon / Rapeseed oil" },
+      "it": { "name": "BANANA AÇAÏ", "description": "Banane / Açaï / Nopal / Limone / Olio di colza" },
+      "es": { "name": "BANANA AÇAÏ", "description": "Plátanos / Açaí / Nopal / Limón / Aceite de colza" }
+    }
+  },
+  {
+    "id": "mangue-urucum",
+    "category": "desserts",
+    "subcategory": "douceurs-de-fruits-exotiques",
+    "image": "/sol-semilla/mangue-urucum.jpeg",
+    "price": 6.00,
+    "allergens": [],
+    "diets": ["vegan", "sans-gluten"],
+    "macros": { "calories": 220, "proteines": 2, "glucides": 45, "lipides": 3 },
+    "translations": {
+      "fr": { "name": "MANGUE URUCUM", "description": "Mangue / Urucum / Nopal / Citron / Huile d’olive / Cannelle" },
+      "en": { "name": "MANGO URUCUM", "description": "Mango / Urucum / Nopal / Lemon / Olive oil / Cinnamon" },
+      "it": { "name": "MANGO URUCUM", "description": "Mango / Urucum / Nopal / Limone / Olio d'oliva / Cannella" },
+      "es": { "name": "MANGO URUCUM", "description": "Mango / Úrcum / Nopal / Limón / Aceite de oliva / Canela" }
+    }
+  },
+  {
+    "id": "ananas-lucuma",
+    "category": "desserts",
+    "subcategory": "douceurs-de-fruits-exotiques",
+    "image": "/sol-semilla/ananas-lucuma.jpeg",
+    "price": 6.00,
+    "allergens": [],
+    "diets": ["vegan", "sans-gluten"],
+    "macros": { "calories": 210, "proteines": 2, "glucides": 42, "lipides": 4 },
+    "translations": {
+      "fr": { "name": "ANANAS LUCUMA", "description": "Ananas / Lucuma / Racine de guimauve / Rhodiola / Curcuma / Citron / Huile de chanvre" },
+      "en": { "name": "PINEAPPLE LUCUMA", "description": "Pineapple / Lucuma / Marshmallow root / Rhodiola / Turmeric / Lemon / Hemp oil" },
+      "it": { "name": "ANANAS LUCUMA", "description": "Ananas / Lucuma / Radice di marshmallow / Rhodiola / Curcuma / Limone / Olio di canapa" },
+      "es": { "name": "PIÑA LUCUMA", "description": "Piña / Lucuma / Raíz de malvavisco / Rhodiola / Cúrcuma / Limón / Aceite de cáñamo" }
+    }
+  },
+  {
+    "id": "brownie-cacao-maca",
+    "category": "desserts",
+    "subcategory": "gourmandises-aux-superaliments",
+    "image": "/sol-semilla/brownie-cacao-maca.jpeg",
+    "price": 2.50,
+    "allergens": ["sesame", "fruits-a-coque"],
+    "diets": ["vegan", "sans-gluten"],
+    "macros": { "calories": 300, "proteines": 6, "glucides": 35, "lipides": 15 },
+    "translations": {
+      "fr": { "name": "BROWNIE CACAO MACA", "description": "Pâte de datte / Cacao cru / Sésame / Noix de cajou / Coco" },
+      "en": { "name": "CACAO MACA BROWNIE", "description": "Date paste / Raw cacao / Sesame / Cashew / Coconut" },
+      "it": { "name": "BROWNIE CACAO MACA", "description": "Pasta di dattero / Cacao crudo / Sesamo / Anacardi / Coco" },
+      "es": { "name": "BROWNIE CACAO MACA", "description": "Pasta de dátil / Cacao crudo / Sésamo / Anacardos / Coco" }
+    }
+  },
+  {
+    "id": "energy-ball",
+    "category": "desserts",
+    "subcategory": "gourmandises-aux-superaliments",
+    "image": "/sol-semilla/energy-ball.jpeg",
+    "price": 9.00,
+    "allergens": ["sesame", "fruits-a-coque", "arachides"],
+    "diets": ["vegan", "sans-gluten"],
+    "macros": { "calories": 400, "proteines": 10, "glucides": 50, "lipides": 18 },
+    "translations": {
+      "fr": { "name": "ENERGY BALL", "description": "Espresso ou allongé avec 1 energy ball et 2 douceurs de fruits exotiques. Ingrédients: Pâte de datte / Cacao cru / Sésame / Noix de cajou / Coco OU Pâte de datte / Beurre de cacahuètes / Graines de chanvre / Cacahuètes" },
+      "en": { "name": "ENERGY BALL", "description": "Espresso or lungo with 1 energy ball and 2 exotic fruit sweets. Ingredients: Date paste / Raw cacao / Sesame / Cashew / Coconut OR Date paste / Peanut butter / Hemp seeds / Peanuts" },
+      "it": { "name": "ENERGY BALL", "description": "Espresso o lungo con 1 energy ball e 2 dolci di frutta esotica. Ingredienti: Pasta di dattero / Cacao crudo / Sesamo / Anacardi / Coco OPPURE Pasta di dattero / Burro di arachidi / Semi di canapa / Arachidi" },
+      "es": { "name": "ENERGY BALL", "description": "Espresso o largo con 1 energy ball y 2 dulces de frutas exóticas. Ingredientes: Pasta de dátil / Cacao crudo / Sésamo / Anacardos / Coco O Pasta de dátil / Mantequilla de cacahuete / Semillas de cáñamo / Cacahuetes" }
+    }
+  },
+  {
+    "id": "cake-moelleux-cacao-sarrasin",
+    "category": "desserts",
+    "subcategory": null,
+    "image": "/sol-semilla/cake-moelleux-cacao-sarrasin.jpeg",
+    "price": 4.90,
+    "allergens": [], // No explicit allergens in ingredients
+    "diets": ["vegan", "sans-gluten"],
+    "macros": { "calories": 350, "proteines": 8, "glucides": 45, "lipides": 15 },
+    "translations": {
+      "fr": { "name": "CAKE MOELLEUX CACAO SARRASIN", "description": "" },
+      "en": { "name": "MOIST CACAO BUCKWHEAT CAKE", "description": "" },
+      "it": { "name": "TORTA MORBIDA CACAO GRANO SARACENO", "description": "" },
+      "es": { "name": "PASTEL ESPONJOSO CACAO TRIGO SARRACENO", "description": "" }
+    }
+  },
+  {
+    "id": "dessert-du-jour",
+    "category": "desserts",
+    "subcategory": null,
+    "image": "/sol-semilla/dessert-du-jour.jpeg",
+    "price": 8.00,
+    "allergens": [], // No explicit ingredients
+    "diets": ["vegan", "sans-gluten"],
+    "macros": { "calories": 300, "proteines": 5, "glucides": 45, "lipides": 10 },
+    "translations": {
+      "fr": { "name": "DESSERT DU JOUR", "description": "Voir tableau" },
+      "en": { "name": "DESSERT OF THE DAY", "description": "See board" },
+      "it": { "name": "DESSERT DEL GIORNO", "description": "Vedi lavagna" },
+      "es": { "name": "POSTRE DEL DÍA", "description": "Ver pizarra" }
+    }
+  },
+  {
+    "id": "cafe-gourmand",
+    "category": "desserts",
+    "subcategory": null,
+    "image": "/sol-semilla/cafe-gourmand.jpeg",
+    "price": 5.50,
+    "allergens": [], // No explicit allergens (plant-based)
+    "diets": ["vegan", "sans-gluten"],
+    "macros": { "calories": 150, "proteines": 2, "glucides": 20, "lipides": 6 },
+    "translations": {
+      "fr": { "name": "CAFÉ GOURMAND", "description": "(thé ou chocolat chaud+2€)" },
+      "en": { "name": "GOURMET COFFEE", "description": "(tea or hot chocolate +€2)" },
+      "it": { "name": "CAFFÈ GOLOSO", "description": "(tè o cioccolata calda +2€)" },
+      "es": { "name": "CAFÉ GOLOSO", "description": "(té o chocolate caliente +2€)" }
+    }
+  },
+
+  // === NOS CRÉATIONS (BRUNCH) ===
+  {
+    "id": "pudding-bowl",
+    "category": "nos-creations",
+    "subcategory": null,
+    "image": "/sol-semilla/pudding-bowl.jpeg",
+    "price": 10.00,
+    "allergens": ["soja"],
+    "diets": ["vegan", "sans-gluten"],
+    "macros": { "calories": 350, "proteines": 12, "glucides": 40, "lipides": 10 },
+    "translations": {
+      "fr": { "name": "PUDDING BOWL", "description": "Yaourt de soja, pudding de chia au cacao, Pomme canelle, pépites de fèves de cacao, sirop d’agave" },
+      "en": { "name": "PUDDING BOWL", "description": "Soy yogurt, chia pudding with cacao, Apple cinnamon, cacao nibs, agave syrup" },
+      "it": { "name": "PUDDING BOWL", "description": "Yogurt di soia, pudding di chia al cacao, Mela cannella, pezzetti di fave di cacao, sciroppo d'agave" },
+      "es": { "name": "PUDDING BOWL", "description": "Yogur de soja, pudín de chía con cacao, Manzana canela, trocitos de granos de cacao, jarabe de agave" }
+    }
+  },
+  {
+    "id": "granola-bowl",
+    "category": "nos-creations",
+    "subcategory": null,
+    "image": "/sol-semilla/granola-bowl.jpeg",
+    "price": 10.00,
+    "allergens": ["soja", "fruits-a-coque"],
+    "diets": ["vegan", "sans-gluten"],
+    "macros": { "calories": 400, "proteines": 14, "glucides": 50, "lipides": 15 },
+    "translations": {
+      "fr": { "name": "GRANOLA BOWL", "description": "Yaourt de soja et açai, granola maison, muesli caroube, noix de coco râpée, sirop d’agave" },
+      "en": { "name": "GRANOLA BOWL", "description": "Soy yogurt and açai, homemade granola, carob muesli, grated coconut, agave syrup" },
+      "it": { "name": "GRANOLA BOWL", "description": "Yogurt di soia e açai, granola fatta in casa, muesli di carruba, noce di cocco grattugiata, sciroppo d'agave" },
+      "es": { "name": "GRANOLA BOWL", "description": "Yogur de soja y açaí, granola casera, muesli de algarroba, coco rallado, jarabe de agave" }
+    }
+  },
+  {
+    "id": "patate-douce-tofu",
+    "category": "nos-creations",
+    "subcategory": null,
+    "image": "/sol-semilla/patate-douce-tofu.jpeg",
+    "price": 10.00,
+    "allergens": ["soja", "sesame"],
+    "diets": ["vegan", "sans-gluten"],
+    "macros": { "calories": 400, "proteines": 18, "glucides": 45, "lipides": 15 },
+    "translations": {
+      "fr": { "name": "PATATE DOUCE & TOFU", "description": "Tofu brouillé et épicé, toasts de patate douce, sauce tahini, chanvre" },
+      "en": { "name": "SWEET POTATO & TOFU", "description": "Scrambled and spiced tofu, sweet potato toasts, tahini sauce, hemp" },
+      "it": { "name": "PATATA DOLCE & TOFU", "description": "Tofu strapazzato e speziato, toast di patata dolce, salsa tahini, canapa" },
+      "es": { "name": "BATATA DULCE Y TOFU", "description": "Tofu revuelto y especiado, tostadas de batata, salsa de tahini, cáñamo" }
+    }
+  },
+
+  // === BOISSONS: SMOOTHIES ===
+  {
+    "id": "lucuma-dor-golden-latte",
+    "category": "boissons",
+    "subcategory": "smoothies",
+    "image": "/sol-semilla/lucuma-dor-golden-latte.jpeg",
+    "price": 6.50,
+    "allergens": ["soja", "fruits-a-coque"], // Possible plant milk
+    "diets": ["vegan", "sans-gluten"],
+    "macros": { "calories": 200, "proteines": 4, "glucides": 30, "lipides": 5 },
+    "translations": {
+      "fr": { "name": "LUCUMA D’OR - GOLDEN LATTE", "description": "" },
+      "en": { "name": "LUCUMA GOLD - GOLDEN LATTE", "description": "" },
+      "it": { "name": "LUCUMA D’ORO - LATTE DORATO", "description": "" },
+      "es": { "name": "LUCUMA DORADA - LATTE DORADO", "description": "" }
+    }
+  },
+  {
+    "id": "green-boost",
+    "category": "boissons",
+    "subcategory": "smoothies",
+    "image": "/sol-semilla/green-boost.jpeg",
+    "price": 6.50,
+    "allergens": [], // Klamath, Cardamome, Menthe
+    "diets": ["vegan", "sans-gluten"],
+    "macros": { "calories": 150, "proteines": 3, "glucides": 25, "lipides": 2 },
+    "translations": {
+      "fr": { "name": "GREEN BOOST - NUTRITIF & VITAMINÉ !", "description": "Klamath, Cardamome, Menthe" },
+      "en": { "name": "GREEN BOOST - NUTRITIOUS & VITAMIN-RICH!", "description": "Klamath, Cardamom, Mint" },
+      "it": { "name": "GREEN BOOST - NUTRIENTE E VITAMINICO!", "description": "Klamath, Cardamomo, Menta" },
+      "es": { "name": "GREEN BOOST - NUTRITIVO Y VITAMÍNICO!", "description": "Klamath, Cardamomo, Menta" }
+    }
+  },
+  {
+    "id": "wake-up-latte",
+    "category": "boissons",
+    "subcategory": "smoothies",
+    "image": "/sol-semilla/wake-up-latte.jpeg",
+    "price": 6.50,
+    "allergens": ["soja", "fruits-a-coque"], // Possible plant milk
+    "diets": ["vegan", "sans-gluten"],
+    "macros": { "calories": 180, "proteines": 4, "glucides": 28, "lipides": 4 },
+    "translations": {
+      "fr": { "name": "WAKE UP LATTE - ÉVEIL !", "description": "" },
+      "en": { "name": "WAKE UP LATTE - ENERGIZING!", "description": "" },
+      "it": { "name": "WAKE UP LATTE - RISVEGLIO!", "description": "" },
+      "es": { "name": "WAKE UP LATTE - ¡DESPERTAR!", "description": "" }
+    }
+  },
+  {
+    "id": "potion-magique",
+    "category": "boissons",
+    "subcategory": "smoothies",
+    "image": "/sol-semilla/potion-magique.jpeg",
+    "price": 6.50,
+    "allergens": ["soja", "fruits-a-coque"], // Possible plant milk
+    "diets": ["vegan", "sans-gluten"],
+    "macros": { "calories": 180, "proteines": 4, "glucides": 28, "lipides": 4 },
+    "translations": {
+      "fr": { "name": "POTION MAGIQUE - MAGIQUE !", "description": "" },
+      "en": { "name": "MAGIC POTION - MAGICAL!", "description": "" },
+      "it": { "name": "POZIONE MAGICA - MAGICA!", "description": "" },
+      "es": { "name": "POCIÓN MÁGICA - ¡MÁGICA!", "description": "" }
+    }
+  },
+  {
+    "id": "banane-acai-smoothie",
+    "category": "boissons",
+    "subcategory": "smoothies",
+    "image": "/sol-semilla/banane-acai-smoothie.jpeg",
+    "price": 6.50,
+    "allergens": [],
+    "diets": ["vegan", "sans-gluten"],
+    "macros": { "calories": 220, "proteines": 3, "glucides": 45, "lipides": 2 },
+    "translations": {
+      "fr": { "name": "BANANE-AÇAÏ", "description": "" },
+      "en": { "name": "BANANA-AÇAÏ", "description": "" },
+      "it": { "name": "BANANA-AÇAÏ", "description": "" },
+      "es": { "name": "BANANA-AÇAÏ", "description": "" }
+    }
+  },
+  {
+    "id": "mangue-urucum-smoothie",
+    "category": "boissons",
+    "subcategory": "smoothies",
+    "image": "/sol-semilla/mangue-urucum-smoothie.jpeg",
+    "price": 6.50,
+    "allergens": [],
+    "diets": ["vegan", "sans-gluten"],
+    "macros": { "calories": 200, "proteines": 2, "glucides": 40, "lipides": 3 },
+    "translations": {
+      "fr": { "name": "MANGUE-URUCUM", "description": "" },
+      "en": { "name": "MANGO-URUCUM", "description": "" },
+      "it": { "name": "MANGO-URUCUM", "description": "" },
+      "es": { "name": "MANGO-URUCUM", "description": "" }
+    }
+  },
+  {
+    "id": "ananas-lucuma-smoothie",
+    "category": "boissons",
+    "subcategory": "smoothies",
+    "image": "/sol-semilla/ananas-lucuma-smoothie.jpeg",
+    "price": 6.50,
+    "allergens": [],
+    "diets": ["vegan", "sans-gluten"],
+    "macros": { "calories": 210, "proteines": 2, "glucides": 42, "lipides": 4 },
+    "translations": {
+      "fr": { "name": "ANANAS-LUCUMA", "description": "" },
+      "en": { "name": "PINEAPPLE-LUCUMA", "description": "" },
+      "it": { "name": "ANANAS-LUCUMA", "description": "" },
+      "es": { "name": "PIÑA-LUCUMA", "description": "" }
+    }
+  },
+  {
+    "id": "bleu-comme-toi",
+    "category": "boissons",
+    "subcategory": "smoothies",
+    "image": "/sol-semilla/bleu-comme-toi.jpeg",
+    "price": 6.00,
+    "allergens": [],
+    "diets": ["vegan", "sans-gluten"],
+    "macros": { "calories": 180, "proteines": 3, "glucides": 35, "lipides": 3 },
+    "translations": {
+      "fr": { "name": "BLEU COMME TOI - CLARTÉ D’ESPRIT !", "description": "Lucuma, Maca, Curcuma, Gingembre" },
+      "en": { "name": "BLUE LIKE YOU - MENTAL CLARITY!", "description": "Lucuma, Maca, Turmeric, Ginger" },
+      "it": { "name": "BLU COME TE - CHIAREZZA MENTALE!", "description": "Lucuma, Maca, Curcuma, Zenzero" },
+      "es": { "name": "AZUL COMO TÚ - ¡CLARIDAD MENTAL!", "description": "Lucuma, Maca, Cúrcuma, Jengibre" }
+    }
+  },
+  {
+    "id": "purple-power",
+    "category": "boissons",
+    "subcategory": "smoothies",
+    "image": "/sol-semilla/purple-power.jpeg",
+    "price": 6.50,
+    "allergens": [],
+    "diets": ["vegan", "sans-gluten"],
+    "macros": { "calories": 190, "proteines": 3, "glucides": 38, "lipides": 3 },
+    "translations": {
+      "fr": { "name": "PURPLE POWER – ANTI-OXYDANT !", "description": "Maïs mauve, Gingembre, Pomme, Citron" },
+      "en": { "name": "PURPLE POWER – ANTIOXIDANT!", "description": "Purple corn, Ginger, Apple, Lemon" },
+      "it": { "name": "POTERE VIOLA – ANTIOSSIDANTE!", "description": "Mais viola, Zenzero, Mela, Limone" },
+      "es": { "name": "PODER MORADO – ¡ANTIOXIDANTE!", "description": "Maíz morado, Jengibre, Manzana, Limón" }
+    }
+  },
+  {
+    "id": "soleil",
+    "category": "boissons",
+    "subcategory": "smoothies",
+    "image": "/sol-semilla/soleil.jpeg",
+    "price": 6.50,
+    "allergens": [],
+    "diets": ["vegan", "sans-gluten"],
+    "macros": { "calories": 200, "proteines": 2, "glucides": 40, "lipides": 3 },
+    "translations": {
+      "fr": { "name": "SOLEIL – BONNE MINE !", "description": "Mangue, Pomme, Urucum, Poivre Timut" },
+      "en": { "name": "SUN – GOOD COMPLEXION!", "description": "Mango, Apple, Urucum, Timut Pepper" },
+      "it": { "name": "SOLE – BELLA PELLE!", "description": "Mango, Mela, Urucum, Pepe Timut" },
+      "es": { "name": "SOL – ¡BUEN COLOR!", "description": "Mango, Manzana, Úrcum, Pimienta Timut" }
+    }
+  },
+
+  // === BOISSONS: BOISSONS CHAUDES ===
+  {
+    "id": "cafe-noisette",
+    "category": "boissons",
+    "subcategory": "boissons-chaudes",
+    "image": "/sol-semilla/cafe-noisette.jpeg",
+    "price": 2.50,
+    "allergens": ["fruits-a-coque"], // Noisette = hazelnut
+    "diets": ["vegan", "sans-gluten"],
+    "macros": { "calories": 5, "proteines": 0, "glucides": 1, "lipides": 0 },
+    "translations": {
+      "fr": { "name": "CAFÉ NOISETTE", "description": "" },
+      "en": { "name": "HAZELNUT COFFEE", "description": "" },
+      "it": { "name": "CAFFÈ NOCCIOLA", "description": "" },
+      "es": { "name": "CAFÉ AVELLANA", "description": "" }
+    }
+  },
+  {
+    "id": "cafe-6cl",
+    "category": "boissons",
+    "subcategory": "boissons-chaudes",
+    "image": "/sol-semilla/cafe-6cl.jpeg",
+    "price": 3.00,
+    "allergens": [],
+    "diets": ["vegan", "sans-gluten"],
+    "macros": { "calories": 5, "proteines": 0, "glucides": 0, "lipides": 0 },
+    "translations": {
+      "fr": { "name": "CAFÉ – 6CL", "description": "Café solidaire et biologique" },
+      "en": { "name": "COFFEE – 6CL", "description": "Fair-trade and organic coffee" },
+      "it": { "name": "CAFFÈ – 6CL", "description": "Caffè equo e biologico" },
+      "es": { "name": "CAFÉ – 6CL", "description": "Café de comercio justo y ecológico" }
+    }
+  },
+  {
+    "id": "cappuccino-latte",
+    "category": "boissons",
+    "subcategory": "boissons-chaudes",
+    "image": "/sol-semilla/cappuccino-latte.jpeg",
+    "price": 5.50,
+    "allergens": ["soja", "fruits-a-coque"], // Lait végétal (Avoine, Coco, Riz, Soja, Amande)
+    "diets": ["vegan", "sans-gluten"],
+    "macros": { "calories": 80, "proteines": 2, "glucides": 10, "lipides": 3 },
+    "translations": {
+      "fr": { "name": "CAPPUCCINO / LATTE", "description": "" },
+      "en": { "name": "CAPPUCCINO / LATTE", "description": "" },
+      "it": { "name": "CAPPUCCINO / LATTE", "description": "" },
+      "es": { "name": "CAPUCHINO / LATTE", "description": "" }
+    }
+  },
+  {
+    "id": "lucu-matcha",
+    "category": "boissons",
+    "subcategory": "boissons-chaudes",
+    "image": "/sol-semilla/lucu-matcha.jpeg",
+    "price": 6.50,
+    "allergens": ["soja", "fruits-a-coque"], // Lait végétal
+    "diets": ["vegan", "sans-gluten"],
+    "macros": { "calories": 90, "proteines": 3, "glucides": 12, "lipides": 3 },
+    "translations": {
+      "fr": { "name": "LUCU’MATCHA", "description": "Matcha, Lucuma" },
+      "en": { "name": "LUCU’MATCHA", "description": "Matcha, Lucuma" },
+      "it": { "name": "LUCU’MATCHA", "description": "Matcha, Lucuma" },
+      "es": { "name": "LUCU’MATCHA", "description": "Matcha, Lucuma" }
+    }
+  },
+  {
+    "id": "the-decoction",
+    "category": "boissons",
+    "subcategory": "boissons-chaudes",
+    "image": "/sol-semilla/the-decoction.jpeg",
+    "price": 5.00,
+    "allergens": [],
+    "diets": ["vegan", "sans-gluten"],
+    "macros": { "calories": 2, "proteines": 0, "glucides": 0, "lipides": 0 },
+    "translations": {
+      "fr": { "name": "THÉ / DÉCOCTION DE PLANTES", "description": "" },
+      "en": { "name": "TEA / HERBAL DECOCTION", "description": "" },
+      "it": { "name": "TÈ / DECOTTO DI PIANTE", "description": "" },
+      "es": { "name": "TÉ / DECOCCIÓN DE PLANTAS", "description": "" }
+    }
+  },
+  {
+    "id": "cacao-andino",
+    "category": "boissons",
+    "subcategory": "boissons-chaudes",
+    "image": "/sol-semilla/cacao-andino.jpeg",
+    "price": 6.00,
+    "allergens": ["soja", "fruits-a-coque"], // Lait végétal
+    "diets": ["vegan", "sans-gluten"],
+    "macros": { "calories": 120, "proteines": 3, "glucides": 15, "lipides": 5 },
+    "translations": {
+      "fr": { "name": "CACAO ANDINO - CHOCOLAT CHAUD VITALITÉ", "description": "Cacao cru, Lucuma, Guarana" },
+      "en": { "name": "ANDINO CACAO - VITALITY HOT CHOCOLATE", "description": "Raw cacao, Lucuma, Guarana" },
+      "it": { "name": "CACAO ANDINO - CIOCCOLATA CALDA VITALITÀ", "description": "Cacao crudo, Lucuma, Guarana" },
+      "es": { "name": "CACAO ANDINO - CHOCOLATE CALIENTE VITALIDAD", "description": "Cacao crudo, Lucuma, Guaraná" }
+    }
+  },
+  {
+    "id": "cacao-matcha",
+    "category": "boissons",
+    "subcategory": "boissons-chaudes",
+    "image": "/sol-semilla/cacao-matcha.jpeg",
+    "price": 6.50,
+    "allergens": ["soja", "fruits-a-coque"], // Lait végétal
+    "diets": ["vegan", "sans-gluten"],
+    "macros": { "calories": 110, "proteines": 3, "glucides": 14, "lipides": 5 },
+    "translations": {
+      "fr": { "name": "CACAO’MATCHA", "description": "Matcha, Lucuma, Cacao cru" },
+      "en": { "name": "CACAO’MATCHA", "description": "Matcha, Lucuma, Raw cacao" },
+      "it": { "name": "CACAO’MATCHA", "description": "Matcha, Lucuma, Cacao crudo" },
+      "es": { "name": "CACAO’MATCHA", "description": "Matcha, Lucuma, Cacao crudo" }
+    }
+  },
+  {
+    "id": "ube-latte",
+    "category": "boissons",
+    "subcategory": "boissons-chaudes",
+    "image": "/sol-semilla/ube-latte.jpeg",
+    "price": 6.50,
+    "allergens": ["soja", "fruits-a-coque"], // Lait végétal (Avoine, Coco, Riz, Soja, Amande)
+    "diets": ["vegan", "sans-gluten"],
+    "macros": { "calories": 100, "proteines": 2, "glucides": 12, "lipides": 4 },
+    "translations": {
+      "fr": { "name": "UBE LATTE", "description": "Lait végétal au choix: Avoine, Coco, Riz, Soja ou Amande" },
+      "en": { "name": "UBE LATTE", "description": "Plant milk of your choice: Oat, Coconut, Rice, Soy, or Almond" },
+      "it": { "name": "UBE LATTE", "description": "Latte vegetale a scelta: Avena, Coco, Riso, Soia o Mandorla" },
+      "es": { "name": "UBE LATTE", "description": "Leche vegetal a elección: Avena, Coco, Arroz, Soja o Almendra" }
+    }
+  },
+
+  // === BOISSONS: BOISSON DU MOIS ===
+  {
+    "id": "acaiola-nopal",
+    "category": "boissons",
+    "subcategory": "boisson-du-mois",
+    "image": "/sol-semilla/acaiola-nopal.jpeg",
+    "price": 6.50,
+    "allergens": [],
+    "diets": ["vegan", "sans-gluten"],
+    "macros": { "calories": 180, "proteines": 3, "glucides": 35, "lipides": 2 },
+    "translations": {
+      "fr": { "name": "BOISSON DU MOIS", "description": "Acréola, Nopal, Jus de pomme" },
+      "en": { "name": "MONTHLY DRINK", "description": "Acerola, Nopal, Apple juice" },
+      "it": { "name": "BEVANDA DEL MESE", "description": "Acerola, Nopal, Succo di mela" },
+      "es": { "name": "BEBIDA DEL MES", "description": "Acerola, Nopal, Zumo de manzana" }
+    }
+  },
+
+  // === BOISSONS: EAUX ===
+  {
+    "id": "eau-plate",
+    "category": "boissons",
+    "subcategory": "eaux",
+    "image": "/sol-semilla/eau-plate.jpeg",
+    "price": 6.50,
+    "allergens": [],
+    "diets": ["vegan", "sans-gluten"],
+    "macros": { "calories": 0, "proteines": 0, "glucides": 0, "lipides": 0 },
+    "translations": {
+      "fr": { "name": "EAU PLATE 1L - VELLEMINFROY", "description": "" },
+      "en": { "name": "STILL WATER 1L - VELLEMINFROY", "description": "" },
+      "it": { "name": "ACQUA NATURALE 1L - VELLEMINFROY", "description": "" },
+      "es": { "name": "AGUA SIN GAS 1L - VELLEMINFROY", "description": "" }
+    }
+  },
+  {
+    "id": "eau-petillante",
+    "category": "boissons",
+    "subcategory": "eaux",
+    "image": "/sol-semilla/eau-petillante.jpeg",
+    "price": 7.00,
+    "allergens": [],
+    "diets": ["vegan", "sans-gluten"],
+    "macros": { "calories": 0, "proteines": 0, "glucides": 0, "lipides": 0 },
+    "translations": {
+      "fr": { "name": "EAU PÉTILLANTE - 1L VELLEMINFROY", "description": "" },
+      "en": { "name": "SPARKLING WATER - 1L VELLEMINFROY", "description": "" },
+      "it": { "name": "ACQUA FRIZZANTE - 1L VELLEMINFROY", "description": "" },
+      "es": { "name": "AGUA CON GAS - 1L VELLEMINFROY", "description": "" }
+    }
+  },
+
+  // === BOISSONS: VINS BLANCS ===
+  {
+    "id": "cotes-du-rhone-blanc",
+    "category": "boissons",
+    "subcategory": "vins-blancs",
+    "image": "/sol-semilla/cotes-du-rhone-blanc.jpeg",
+    "price": 6.00,
+    "allergens": ["so2"],
+    "diets": ["vegan", "sans-gluten"],
+    "macros": { "calories": 120, "proteines": 0, "glucides": 2, "lipides": 0 },
+    "translations": {
+      "fr": { "name": "LE CÔTES DU RHÔNE - OÉ - AOP CÔTES-DU-RHÔNE", "description": "Frais et fruité aux notes délicates de fruits blancs et à l'acidité vive. 13,5%vol" },
+      "en": { "name": "CÔTES DU RHÔNE WHITE - OÉ - AOP CÔTES-DU-RHÔNE", "description": "Fresh and fruity with delicate white fruit notes and lively acidity. 13.5% vol" },
+      "it": { "name": "CÔTES DU RHÔNE BIANCO - OÉ - AOP CÔTES-DU-RHÔNE", "description": "Fresco e fruttato con note delicate di frutta bianca e acidità vivace. 13,5% vol" },
+      "es": { "name": "CÔTES DU RHÔNE BLANCO - OÉ - AOP CÔTES-DU-RHÔNE", "description": "Fresco y afrutado con notas delicadas de fruta blanca y acidez viva. 13,5% vol" }
+    }
+  },
+  {
+    "id": "chardonnay",
+    "category": "boissons",
+    "subcategory": "vins-blancs",
+    "image": "/sol-semilla/chardonnay.jpeg",
+    "price": 6.00,
+    "allergens": ["so2"],
+    "diets": ["vegan", "sans-gluten"],
+    "macros": { "calories": 120, "proteines": 0, "glucides": 2, "lipides": 0 },
+    "translations": {
+      "fr": { "name": "CHARDONNAY - DOMAINE ORTOLA - VDF", "description": "Équilibré, aux reflets dorés, qui allie arômes de pêche blanche et de poire. 13,5% vol" },
+      "en": { "name": "CHARDONNAY - DOMAINE ORTOLA - VDF", "description": "Balanced, with golden reflections, combining white peach and pear aromas. 13.5% vol" },
+      "it": { "name": "CHARDONNAY - DOMAINE ORTOLA - VDF", "description": "Equilibrato, con riflessi dorati, che unisce aromi di pesca bianca e pera. 13,5% vol" },
+      "es": { "name": "CHARDONNAY - DOMAINE ORTOLA - VDF", "description": "Equilibrado, con reflejos dorados, que combina aromas de melocotón blanco y pera. 13,5% vol" }
+    }
+  },
+
+  // === BOISSONS: VINS ROUGES ===
+  {
+    "id": "c-vigne-coeur-mistral",
+    "category": "boissons",
+    "subcategory": "vins-rouges",
+    "image": "/sol-semilla/c-vigne-coeur-mistral.jpeg",
+    "price": 6.00,
+    "allergens": ["so2"],
+    "diets": ["vegan", "sans-gluten"],
+    "macros": { "calories": 125, "proteines": 0, "glucides": 2, "lipides": 0 },
+    "translations": {
+      "fr": { "name": "C. VIGNE- AU COEUR DU MISTRAL - AOP CÔTES-DU-RHÔNE", "description": "Frais et velouté qui dévoile des notes de crème de cassis et d'épices douces. 12,5%vol" },
+      "en": { "name": "C. VIGNE - AT THE HEART OF THE MISTRAL - AOP CÔTES-DU-RHÔNE", "description": "Fresh and velvety, revealing blackcurrant cream and soft spice notes. 12.5% vol" },
+      "it": { "name": "C. VIGNE - AL CUORE DEL MISTRAL - AOP CÔTES-DU-RHÔNE", "description": "Fresco e vellutato che svela note di crema di ribes nero e spezie dolci. 12,5% vol" },
+      "es": { "name": "C. VIGNE - EN EL CORAZÓN DEL MISTRAL - AOP CÔTES-DU-RHÔNE", "description": "Fresco y aterciopelado que revela notas de crema de cassis y especias suaves. 12,5% vol" }
+    }
+  },
+  {
+    "id": "saint-pierre-bordeaux",
+    "category": "boissons",
+    "subcategory": "vins-rouges",
+    "image": "/sol-semilla/saint-pierre-bordeaux.jpeg",
+    "price": 6.00,
+    "allergens": ["so2"],
+    "diets": ["vegan", "sans-gluten"],
+    "macros": { "calories": 125, "proteines": 0, "glucides": 2, "lipides": 0 },
+    "translations": {
+      "fr": { "name": "SAINT PIERRE - CHÂTEAU FERRAN - AOP BORDEAUX", "description": "Elégant et complexe aux arômes de fruits rouges et de fleurs. 14%vol" },
+      "en": { "name": "SAINT PIERRE - CHÂTEAU FERRAN - AOP BORDEAUX", "description": "Elegant and complex with red fruit and floral aromas. 14% vol" },
+      "it": { "name": "SAINT PIERRE - CHÂTEAU FERRAN - AOP BORDEAUX", "description": "Elegante e complesso con aromi di frutta rossa e fiori. 14% vol" },
+      "es": { "name": "SAINT PIERRE - CHÂTEAU FERRAN - AOP BORDEAUX", "description": "Elegante y complejo con aromas a frutos rojos y flores. 14% vol" }
+    }
+  },
+
+  // === BOISSONS: BIÈRES & CIDRES ===
+  {
+    "id": "biere-blanche-bio",
+    "category": "boissons",
+    "subcategory": "bieres-cidres",
+    "image": "/sol-semilla/biere-blanche-bio.jpeg",
+    "price": 6.00,
+    "allergens": ["gluten", "so2"],
+    "diets": ["vegan"],
+    "macros": { "calories": 150, "proteines": 1, "glucides": 12, "lipides": 0 },
+    "translations": {
+      "fr": { "name": "BIÈRE BLANCHE BIO", "description": "4,5%vol" },
+      "en": { "name": "ORGANIC WHITE BEER", "description": "4.5% vol" },
+      "it": { "name": "BIRRA BIANCA BIO", "description": "4,5% vol" },
+      "es": { "name": "CERVEZA BLANCA ECOLÓGICA", "description": "4,5% vol" }
+    }
+  },
+  {
+    "id": "biere-blonde-bio",
+    "category": "boissons",
+    "subcategory": "bieres-cidres",
+    "image": "/sol-semilla/biere-blonde-bio.jpeg",
+    "price": 6.00,
+    "allergens": ["gluten", "so2"],
+    "diets": ["vegan"],
+    "macros": { "calories": 150, "proteines": 1, "glucides": 12, "lipides": 0 },
+    "translations": {
+      "fr": { "name": "BIÈRE BLONDE BIO", "description": "5%vol" },
+      "en": { "name": "ORGANIC BLONDE BEER", "description": "5% vol" },
+      "it": { "name": "BIRRA BIONDA BIO", "description": "5% vol" },
+      "es": { "name": "CERVEZA RUBIA ECOLÓGICA", "description": "5% vol" }
+    }
+  },
+  {
+    "id": "biere-amber-sans-gluten-bio",
+    "category": "boissons",
+    "subcategory": "bieres-cidres",
+    "image": "/sol-semilla/biere-amber-sans-gluten-bio.jpeg",
+    "price": 6.00,
+    "allergens": ["so2"],
+    "diets": ["vegan", "sans-gluten"],
+    "macros": { "calories": 150, "proteines": 1, "glucides": 12, "lipides": 0 },
+    "translations": {
+      "fr": { "name": "BIÈRE AMBRÉE SANS GLUTEN BIO", "description": "5,4%vol" },
+      "en": { "name": "ORGANIC GLUTEN-FREE AMBER BEER", "description": "5.4% vol" },
+      "it": { "name": "BIRRA AMBRATA SENZA GLUTINE BIO", "description": "5,4% vol" },
+      "es": { "name": "CERVEZA ÁMBAR SIN GLUTEN ECOLÓGICA", "description": "5,4% vol" }
+    }
+  },
+  {
+    "id": "cidre-brut-normandie-bio",
+    "category": "boissons",
+    "subcategory": "bieres-cidres",
+    "image": "/sol-semilla/cidre-brut-normandie-bio.jpeg",
+    "price": 6.00,
+    "allergens": ["so2"],
+    "diets": ["vegan", "sans-gluten"],
+    "macros": { "calories": 100, "proteines": 0, "glucides": 10, "lipides": 0 },
+    "translations": {
+      "fr": { "name": "CIDRE BRUT DE NORMANDIE BIO", "description": "4,5%vol" },
+      "en": { "name": "ORGANIC DRY CIDER FROM NORMANDY", "description": "4.5% vol" },
+      "it": { "name": "SIDRO SECCO DI NORMANDIA BIO", "description": "4,5% vol" },
+      "es": { "name": "SIDRA BRUTA DE NORMANDÍA ECOLÓGICA", "description": "4,5% vol" }
+    }
+  }
+],
+// "apeti":[],
+"kapunka":
+[
+  // --- Entrées ---
+  {
+    "id": "satay-de-poulet",
+    "category": "entrees",
+    "subcategory": null,
+    "image": "/kapunka/satay-de-poulet.jpeg",
+    "price": 5.00,
+    "allergens": ["arachides"],
+    "diets": [],
+    "macros": {
+      "calories": 250,
+      "proteines": 18,
+      "glucides": 5,
+      "lipides": 15
+    },
+    "translations": {
+      "fr": { "name": "Satay de poulet", "description": "2 brochettes de poulet grillé" },
+      "en": { "name": "Chicken Satay", "description": "2 skewers of grilled chicken" },
+      "es": { "name": "Satay de pollo", "description": "2 brochetas de pollo a la parrilla" },
+      "it": { "name": "Satay di pollo", "description": "2 spiedini di pollo grigliato" }
+    }
+  },
+  {
+    "id": "salade-de-papaye-verte",
+    "category": "entrees",
+    "subcategory": null,
+    "image": "/kapunka/salade-de-papaye-verte.jpeg",
+    "price": 7.00,
+    "allergens": [],
+    "diets": ["vegan"],
+    "macros": {
+      "calories": 120,
+      "proteines": 2,
+      "glucides": 15,
+      "lipides": 6
+    },
+    "translations": {
+      "fr": { "name": "Salade de papaye verte", "description": "Salade de papaye verte" },
+      "en": { "name": "Green Papaya Salad", "description": "Spicy green papaya salad" },
+      "es": { "name": "Ensalada de papaya verde", "description": "Ensalada picante de papaya verde" },
+      "it": { "name": "Insalata di papaya verde", "description": "Insalata piccante di papaya verde" }
+    }
+  },
+  {
+    "id": "soupe-tom-kha-tom-yam",
+    "category": "entrees",
+    "subcategory": null,
+    "image": "/kapunka/soupe-tom-kha-tom-yam.jpeg",
+    "price": 7.00,
+    "allergens": ["lait"],
+    "diets": ["vegan"],
+    "macros": {
+      "calories": 180,
+      "proteines": 4,
+      "glucides": 10,
+      "lipides": 12
+    },
+    "translations": {
+      "fr": { "name": "Soupe Tom Kha / Tom Yam", "description": "Soupe thaïe au lait de coco ou citronnelle, version légumes" },
+      "en": { "name": "Tom Kha / Tom Yum Soup", "description": "Thai coconut milk or lemongrass soup, vegetable version" },
+      "es": { "name": "Sopa Tom Kha / Tom Yum", "description": "Sopa tailandesa con leche de coco o hierba limón, versión vegetal" },
+      "it": { "name": "Zuppa Tom Kha / Tom Yum", "description": "Zuppa thailandese con latte di cocco o citronella, versione vegetale" }
+    }
+  },
+  {
+    "id": "rouleaux-de-printemps",
+    "category": "entrees",
+    "subcategory": null,
+    "image": "/kapunka/rouleaux-de-printemps.jpeg",
+    "price": 5.00,
+    "allergens": [],
+    "diets": ["vegan"],
+    "macros": {
+      "calories": 200,
+      "proteines": 5,
+      "glucides": 25,
+      "lipides": 8
+    },
+    "translations": {
+      "fr": { "name": "Rouleaux de printemps", "description": "2 rouleaux de printemps, version veggie ou poulet césar" },
+      "en": { "name": "Spring Rolls", "description": "2 spring rolls, veggie or chicken caesar version" },
+      "es": { "name": "Rollitos de primavera", "description": "2 rollitos de primavera, versión veggie o pollo césar" },
+      "it": { "name": "Involtini primaverili", "description": "2 involtini primaverili, versione veggie o pollo cesare" }
+    }
+  },
+  {
+    "id": "cacahuetes-grillees-citronnelle-piment",
+    "category": "entrees",
+    "subcategory": null,
+    "image": "/kapunka/cacahuetes-grillees.jpeg",
+    "price": 3.00,
+    "allergens": ["arachides"],
+    "diets": [],
+    "macros": {
+      "calories": 170,
+      "proteines": 7,
+      "glucides": 5,
+      "lipides": 14
+    },
+    "translations": {
+      "fr": { "name": "Cacahuètes grillées citronnelle & piment", "description": "Cacahuètes grillées avec citronnelle et piment" },
+      "en": { "name": "Grilled Peanuts with Lemongrass & Chili", "description": "Grilled peanuts with lemongrass and chili" },
+      "es": { "name": "Cacahuetes tostados con hierba limón y chile", "description": "Cacahuetes tostados con hierba limón y chile" },
+      "it": { "name": "Arachidi tostate con citronella e peperoncino", "description": "Arachidi tostate con citronella e peperoncino" }
+    }
+  },
+
+  // --- Padthaïs ---
+  {
+    "id": "pad-thai",
+    "category": "padthais",
+    "subcategory": null,
+    "image": "/kapunka/pad-thai.jpeg",
+    "price": 15.50,
+    "allergens": ["soja", "arachides", "oeufs"],
+    "diets": ["vegan"],
+    "macros": {
+      "calories": 600,
+      "proteines": 25,
+      "glucides": 70,
+      "lipides": 20
+    },
+    "translations": {
+      "fr": { "name": "Pad thaï", "description": "Nouilles de riz sautées au wok avec tofu, œuf, pousses de soja, cacahuètes, citron vert et piment" },
+      "en": { "name": "Pad Thai", "description": "Rice noodles stir-fried with tofu, egg, bean sprouts, peanuts, lime and chili" },
+      "es": { "name": "Pad Thai", "description": "Fideos de arroz salteados con tofu, huevo, brotes de soja, cacahuetes, lima y chile" },
+      "it": { "name": "Pad Thai", "description": "Tagliatelle di riso saltate con tofu, uovo, germogli di soia, arachidi, lime e peperoncino" }
+    }
+  },
+
+  // --- Currys ---
+  {
+    "id": "curry",
+    "category": "currys",
+    "subcategory": null,
+    "image": "/kapunka/curry.jpeg",
+    "price": 15.50,
+    "allergens": ["soja", "crustaces"],
+    "diets": ["vegan"],
+    "macros": {
+      "calories": 550,
+      "proteines": 20,
+      "glucides": 60,
+      "lipides": 25
+    },
+    "translations": {
+      "fr": { "name": "Curry", "description": "Curry jaune, rouge ou vert, servi avec riz blanc" },
+      "en": { "name": "Curry", "description": "Yellow, red or green curry, served with white rice" },
+      "es": { "name": "Curry", "description": "Curry amarillo, rojo o verde, servido con arroz blanco" },
+      "it": { "name": "Curry", "description": "Curry giallo, rosso o verde, servito con riso bianco" }
+    }
+  },
+
+  // --- Mikatis ---
+  {
+    "id": "mikati",
+    "category": "mikatis",
+    "subcategory": null,
+    "image": "/kapunka/mikati.jpeg",
+    "price": 15.50,
+    "allergens": ["arachides"],
+    "diets": ["vegan"],
+    "macros": {
+      "calories": 500,
+      "proteines": 18,
+      "glucides": 65,
+      "lipides": 15
+    },
+    "translations": {
+      "fr": { "name": "Mikati", "description": "Plat typique du nord de la Thaïlande : nouilles de riz et cacahuètes dans un curry jaune" },
+      "en": { "name": "Mikati", "description": "Typical Northern Thai dish: rice noodles and peanuts in a yellow curry" },
+      "es": { "name": "Mikati", "description": "Plato típico del norte de Tailandia: fideos de arroz y cacahuetes en curry amarillo" },
+      "it": { "name": "Mikati", "description": "Piatto tipico del nord della Tailandia: tagliatelle di riso e arachidi in curry giallo" }
+    }
+  },
+  {
+    "id": "bo-bun-thai",
+    "category": "mikatis",
+    "subcategory": null,
+    "image": "/kapunka/bo-bun-thai.jpeg",
+    "price": 13.50,
+    "allergens": ["arachides"],
+    "diets": ["vegan"],
+    "macros": {
+      "calories": 450,
+      "proteines": 15,
+      "glucides": 60,
+      "lipides": 15
+    },
+    "translations": {
+      "fr": { "name": "Bo bun thaï", "description": "Nouilles de riz, spring roll veggie, légumes frais, cacahuètes et sauce renversante" },
+      "en": { "name": "Bo Bun Thai", "description": "Rice noodles, veggie spring roll, fresh vegetables, peanuts and special sauce" },
+      "es": { "name": "Bo Bun Tailandés", "description": "Fideos de arroz, rollito de primavera veggie, verduras frescas, cacahuetes y salsa especial" },
+      "it": { "name": "Bo Bun Thai", "description": "Tagliatelle di riso, involtino primaverile veggie, verdure fresche, arachidi e salsa speciale" }
+    }
+  },
+  {
+    "id": "poulet-bangkok",
+    "category": "mikatis",
+    "subcategory": null,
+    "image": "/kapunka/poulet-bangkok.jpeg",
+    "price": 15.50,
+    "allergens": ["lait"],
+    "diets": [],
+    "macros": {
+      "calories": 500,
+      "proteines": 30,
+      "glucides": 40,
+      "lipides": 25
+    },
+    "translations": {
+      "fr": { "name": "Poulet Bangkok", "description": "Poulet rôti mariné au lait de coco et citronnelle, servi avec riz blanc" },
+      "en": { "name": "Bangkok Chicken", "description": "Roasted chicken marinated in coconut milk and lemongrass, served with white rice" },
+      "es": { "name": "Pollo Bangkok", "description": "Pollo asado marinado en leche de coco y hierba limón, servido con arroz blanco" },
+      "it": { "name": "Pollo Bangkok", "description": "Pollo arrostito marinato nel latte di cocco e citronella, servito con riso bianco" }
+    }
+  },
+
+  // --- Desserts ---
+  {
+    "id": "creme-chocolat-vegan-croquant-cacahuetes",
+    "category": "desserts",
+    "subcategory": null,
+    "image": "/kapunka/creme-chocolat-vegan.jpeg",
+    "price": 7.00,
+    "allergens": ["arachides", "lait"],
+    "diets": ["vegan"],
+    "macros": {
+      "calories": 350,
+      "proteines": 5,
+      "glucides": 30,
+      "lipides": 25
+    },
+    "translations": {
+      "fr": { "name": "Crème chocolat vegan & croquant de cacahuètes", "description": "Crème au chocolat vegan avec croquant de cacahuètes" },
+      "en": { "name": "Vegan Chocolate Cream & Peanut Crunch", "description": "Vegan chocolate cream with peanut crunch" },
+      "es": { "name": "Crema de chocolate vegana y crujiente de cacahuete", "description": "Crema de chocolate vegana con crujiente de cacahuete" },
+      "it": { "name": "Crema al cioccolato vegana e croccante di arachidi", "description": "Crema al cioccolato vegana con croccante di arachidi" }
+    }
+  },
+  {
+    "id": "soupe-de-tapioca-bananes-lait-de-coco",
+    "category": "desserts",
+    "subcategory": null,
+    "image": "/kapunka/soupe-de-tapioca.jpeg",
+    "price": 7.00,
+    "allergens": ["lait"],
+    "diets": ["vegan"],
+    "macros": {
+      "calories": 250,
+      "proteines": 2,
+      "glucides": 50,
+      "lipides": 5
+    },
+    "translations": {
+      "fr": { "name": "Soupe de tapioca, bananes et lait de coco", "description": "Soupe de tapioca avec bananes et lait de coco" },
+      "en": { "name": "Tapioca Pudding with Bananas and Coconut Milk", "description": "Tapioca pudding with bananas and coconut milk" },
+      "es": { "name": "Sopa de tapioca, plátanos y leche de coco", "description": "Sopa de tapioca con plátanos y leche de coco" },
+      "it": { "name": "Zuppa di tapioca, banane e latte di cocco", "description": "Zuppa di tapioca con banane e latte di cocco" }
+    }
+  },
+  {
+    "id": "mangue-riz-gluant-creme-de-coco",
+    "category": "desserts",
+    "subcategory": null,
+    "image": "/kapunka/mangue-riz-gluant-creme-de-coco.jpeg",
+    "price": 8.50,
+    "allergens": ["lait"],
+    "diets": ["vegan"],
+    "macros": {
+      "calories": 400,
+      "proteines": 4,
+      "glucides": 60,
+      "lipides": 15
+    },
+    "translations": {
+      "fr": { "name": "Mangue, riz gluant & crème de coco", "description": "Mangue fraîche, riz gluant et crème de coco" },
+      "en": { "name": "Mango, Sticky Rice & Coconut Cream", "description": "Fresh mango, sticky rice and coconut cream" },
+      "es": { "name": "Mango, arroz glutinoso y crema de coco", "description": "Mango fresco, arroz glutinoso y crema de coco" },
+      "it": { "name": "Mango, riso appiccicoso e crema di cocco", "description": "Mango fresco, riso appiccicoso e crema di cocco" }
+    }
+  }
+],
+"little-nonna":
+[
+  // ========== ANTIPASTI ==========
+  {
+    "id": "parmigiano-e-olive",
+    "category": "antipasti",
+    "subcategory": null,
+    "image": "/little-nonna/parmigiano-e-olive.jpeg",
+    "price": 18.00,
+    "allergens": ["lait"],
+    "diets": [],
+    "macros": {"calories": 200, "proteines": 10, "glucides": 2, "lipides": 15},
+    "translations": {
+      "fr": {"name": "Parmigiano e Olive", "description": "Parmesan et olives"},
+      "en": {"name": "Parmesan and Olives", "description": "Parmesan cheese and olives"},
+      "it": {"name": "Parmigiano e Olive", "description": "Parmigiano e olive"},
+      "es": {"name": "Parmesano y Aceitunas", "description": "Queso parmesano y aceitunas"}
+    }
+  },
+  {
+    "id": "focaccia-bianca",
+    "category": "antipasti",
+    "subcategory": null,
+    "image": "/little-nonna/focaccia-bianca.jpeg",
+    "price": 20.00,
+    "allergens": ["gluten"],
+    "diets": [],
+    "macros": {"calories": 300, "proteines": 8, "glucides": 50, "lipides": 8},
+    "translations": {
+      "fr": {"name": "Focaccia Bianca", "description": "Focaccia nature"},
+      "en": {"name": "Plain Focaccia", "description": "Plain focaccia bread"},
+      "it": {"name": "Focaccia Bianca", "description": "Focaccia semplice"},
+      "es": {"name": "Focaccia Blanca", "description": "Focaccia sencilla"}
+    }
+  },
+  {
+    "id": "focaccia-pomodoro-e-basilico",
+    "category": "antipasti",
+    "subcategory": null,
+    "image": "/little-nonna/focaccia-pomodoro-e-basilico.jpeg",
+    "price": 22.00,
+    "allergens": ["gluten"],
+    "diets": [],
+    "macros": {"calories": 350, "proteines": 9, "glucides": 55, "lipides": 10},
+    "translations": {
+      "fr": {"name": "Focaccia Tomate et Basilic", "description": "Focaccia à la tomate et basilic"},
+      "en": {"name": "Focaccia with Tomato and Basil", "description": "Focaccia bread with tomato and basil"},
+      "it": {"name": "Focaccia, Pomodoro e Basilico", "description": "Focaccia con pomodoro e basilico"},
+      "es": {"name": "Focaccia con Tomate y Albahaca", "description": "Focaccia con tomate y albahaca"}
+    }
+  },
+  {
+    "id": "pizzeta-margerita",
+    "category": "antipasti",
+    "subcategory": null,
+    "image": "/little-nonna/pizzeta-margerita.jpeg",
+    "price": 24.00,
+    "allergens": ["gluten", "lait"],
+    "diets": [],
+    "macros": {"calories": 400, "proteines": 15, "glucides": 45, "lipides": 18},
+    "translations": {
+      "fr": {"name": "Pizzeta Margherita", "description": "Mini pizza sauce tomate, mozzarella fior di latte et basilic"},
+      "en": {"name": "Margherita Pizzeta", "description": "Mini pizza with tomato sauce, fior di latte mozzarella and basil"},
+      "it": {"name": "Pizzeta Margherita", "description": "Pizzeta con salsa di pomodoro, mozzarella fior di latte e basilico"},
+      "es": {"name": "Pizzeta Margherita", "description": "Pizzeta con salsa de tomate, mozzarella fior di latte y albahaca"}
+    }
+  },
+  {
+    "id": "burratina-olio-doliva",
+    "category": "antipasti",
+    "subcategory": null,
+    "image": "/little-nonna/burratina-olio-doliva.jpeg",
+    "price": 22.00,
+    "allergens": ["lait"],
+    "diets": [],
+    "macros": {"calories": 350, "proteines": 12, "glucides": 5, "lipides": 30},
+    "translations": {
+      "fr": {"name": "Burratina, Olio d'Oliva", "description": "Burrata à l'huile d'olive"},
+      "en": {"name": "Burrata with Olive Oil", "description": "Burrata cheese with olive oil"},
+      "it": {"name": "Burratina, Olio d'Oliva", "description": "Burratina con olio d'oliva"},
+      "es": {"name": "Burrata con Aceite de Oliva", "description": "Burrata con aceite de oliva"}
+    }
+  },
+  {
+    "id": "assiette-parma",
+    "category": "antipasti",
+    "subcategory": null,
+    "image": "/little-nonna/assiette-parma.jpeg",
+    "price": 24.00,
+    "allergens": ["lait"],
+    "diets": [],
+    "macros": {"calories": 400, "proteines": 25, "glucides": 3, "lipides": 28},
+    "translations": {
+      "fr": {"name": "Assiette Parma", "description": "Jambon de Parme et parmesan"},
+      "en": {"name": "Parma Platter", "description": "Parma ham and Parmesan cheese"},
+      "it": {"name": "Assiette Parma", "description": "Prosciutto di Parma e parmigiano"},
+      "es": {"name": "Tabla de Parma", "description": "Jamón de Parma y queso parmesano"}
+    }
+  },
+  {
+    "id": "verdure-grigliate",
+    "category": "antipasti",
+    "subcategory": null,
+    "image": "/little-nonna/verdure-grigliate.jpeg",
+    "price": 24.00,
+    "allergens": [],
+    "diets": [],
+    "macros": {"calories": 150, "proteines": 5, "glucides": 15, "lipides": 8},
+    "translations": {
+      "fr": {"name": "Verdure Grigliate", "description": "Légumes de saison grillés"},
+      "en": {"name": "Grilled Seasonal Vegetables", "description": "Grilled seasonal vegetables"},
+      "it": {"name": "Verdure Grigliate", "description": "Verdure di stagione grigliate"},
+      "es": {"name": "Verduras a la Parrilla", "description": "Verduras de temporada a la parrilla"}
+    }
+  },
+  {
+    "id": "asparagi-zuccine-stracciatella-anacardi",
+    "category": "antipasti",
+    "subcategory": null,
+    "image": "/little-nonna/asparagi-zuccine-stracciatella-anacardi.jpeg",
+    "price": 18.00,
+    "allergens": ["lait", "fruits-a-coque"],
+    "diets": [],
+    "macros": {"calories": 250, "proteines": 12, "glucides": 10, "lipides": 18},
+    "translations": {
+      "fr": {"name": "Asparagi Verdi e Zucchine Fresche, Stracciatella e Anacardi", "description": "Asperges vertes et courgettes fraîches, stracciatella et noix de cajou"},
+      "en": {"name": "Green Asparagus and Fresh Zucchini with Stracciatella and Cashews", "description": "Green asparagus and fresh zucchini with stracciatella cheese and cashew nuts"},
+      "it": {"name": "Asparagi Verdi e Zucchine Fresche, Stracciatella e Anacardi", "description": "Asparagi verdi e zucchine fresche con stracciatella e anacardi"},
+      "es": {"name": "Espárragos Verdes y Calabacines Frescos con Stracciatella y Anacardos", "description": "Espárragos verdes y calabacines frescos con queso stracciatella y anacardos"}
+    }
+  },
+  {
+    "id": "caprese-pomodori-datterino",
+    "category": "antipasti",
+    "subcategory": null,
+    "image": "/little-nonna/caprese-pomodori-datterino.jpeg",
+    "price": 16.00,
+    "allergens": ["lait"],
+    "diets": [],
+    "macros": {"calories": 200, "proteines": 12, "glucides": 8, "lipides": 12},
+    "translations": {
+      "fr": {"name": "Caprese di Pomodori Datterino e Mozzarella", "description": "Caprese de tomates datterino et mozzarella"},
+      "en": {"name": "Datterino Tomato and Mozzarella Caprese", "description": "Caprese salad with datterino tomatoes and mozzarella"},
+      "it": {"name": "Caprese di Pomodori Datterino e Mozzarella", "description": "Caprese con pomodorini datterino e mozzarella"},
+      "es": {"name": "Caprese de Tomates Datterino y Mozzarella", "description": "Caprese con tomates datterino y mozzarella"}
+    }
+  },
+  {
+    "id": "calamari-fritti-salsa-tartara",
+    "category": "antipasti",
+    "subcategory": null,
+    "image": "/little-nonna/calamari-fritti-salsa-tartara.jpeg",
+    "price": 16.00,
+    "allergens": ["poissons", "mollusques", "oeufs", "moutarde"],
+    "diets": [],
+    "macros": {"calories": 300, "proteines": 20, "glucides": 15, "lipides": 18},
+    "translations": {
+      "fr": {"name": "Calamari Fritti, Salsa Tartara", "description": "Calamars frits avec sauce tartare"},
+      "en": {"name": "Fried Calamari with Tartar Sauce", "description": "Fried calamari with tartar sauce (mayonnaise, capers, pickles)"},
+      "it": {"name": "Calamari Fritti, Salsa Tartara", "description": "Calamari fritti con salsa tartara"},
+      "es": {"name": "Calamares Fritos con Salsa Tártara", "description": "Calamares fritos con salsa tártara (mayonesa, alcaparras, pepinillos)"}
+    }
+  },
+  {
+    "id": "carpaccio-manzo-parmigiano",
+    "category": "antipasti",
+    "subcategory": null,
+    "image": "/little-nonna/carpaccio-manzo-parmigiano.jpeg",
+    "price": 22.00,
+    "allergens": ["lait"],
+    "diets": [],
+    "macros": {"calories": 250, "proteines": 25, "glucides": 3, "lipides": 15},
+    "translations": {
+      "fr": {"name": "Carpaccio di Manzo, Parmigiano, Rucola e Funghi", "description": "Carpaccio de bœuf, parmesan, roquette et champignons de Paris"},
+      "en": {"name": "Beef Carpaccio with Parmesan, Arugula and Mushrooms", "description": "Beef carpaccio with Parmesan cheese, arugula and mushrooms"},
+      "it": {"name": "Carpaccio di Manzo, Parmigiano, Rucola e Funghi", "description": "Carpaccio di manzo con parmigiano, rucola e funghi"},
+      "es": {"name": "Carpaccio de Ternera con Parmesano, Rúcula y Champiñones", "description": "Carpaccio de ternera con queso parmesano, rúcula y champiñones"}
+    }
+  },
+
+  // ========== INSALATE ==========
+  {
+    "id": "insalata-della-nonna",
+    "category": "insalate",
+    "subcategory": null,
+    "image": "/little-nonna/insalata-della-nonna.jpeg",
+    "price": 25.00,
+    "allergens": ["lait"],
+    "diets": [],
+    "macros": {"calories": 350, "proteines": 15, "glucides": 15, "lipides": 25},
+    "translations": {
+      "fr": {"name": "Insalata della Nonna", "description": "Romaine, tomates cerises, olives taggiasche, mozzarella di bufala et avocat"},
+      "en": {"name": "Grandmother's Salad", "description": "Romaine lettuce, cherry tomatoes, taggiasche olives, buffalo mozzarella and avocado"},
+      "it": {"name": "Insalata della Nonna", "description": "Lattuga romana, pomodorini, olive taggiasche, mozzarella di bufala e avocado"},
+      "es": {"name": "Ensalada de la Abuela", "description": "Lechuga romana, tomates cherry, aceitunas taggiasche, mozzarella de búfala y aguacate"}
+    }
+  },
+  {
+    "id": "insalata-cesar",
+    "category": "insalate",
+    "subcategory": null,
+    "image": "/little-nonna/insalata-cesar.jpeg",
+    "price": 25.00,
+    "allergens": ["lait", "poissons", "gluten"],
+    "diets": [],
+    "macros": {"calories": 400, "proteines": 30, "glucides": 20, "lipides": 20},
+    "translations": {
+      "fr": {"name": "Insalata Cesar", "description": "Poulet snacké, romaine, parmesan, anchois et croûtons"},
+      "en": {"name": "Caesar Salad", "description": "Snacked chicken, romaine lettuce, Parmesan cheese, anchovies and croutons"},
+      "it": {"name": "Insalata Cesar", "description": "Pollo snackato, lattuga romana, parmigiano, alici e crostini"},
+      "es": {"name": "Ensalada César", "description": "Pollo crujiente, lechuga romana, queso parmesano, anchoas y croutons"}
+    }
+  },
+  {
+    "id": "insalata-fagiolini-asparagi",
+    "category": "insalate",
+    "subcategory": null,
+    "image": "/little-nonna/insalata-fagiolini-asparagi.jpeg",
+    "price": 28.00,
+    "allergens": ["lait", "fruits-a-coque"],
+    "diets": [],
+    "macros": {"calories": 300, "proteines": 15, "glucides": 20, "lipides": 18},
+    "translations": {
+      "fr": {"name": "Insalata di Fagiolini, Asparagi Verdi e Olive, Pistacchi Tostati e Ricotta Salata", "description": "Salade de haricots verts, asperges vertes et olives, pistaches torréfiées et ricotta salée"},
+      "en": {"name": "Green Bean, Asparagus and Olive Salad with Toasted Pistachios and Salted Ricotta", "description": "Green bean, green asparagus and olive salad with toasted pistachios and salted ricotta"},
+      "it": {"name": "Insalata di Fagiolini, Asparagi Verdi e Olive, Pistacchi Tostati e Ricotta Salata", "description": "Insalata di fagiolini, asparagi verdi e olive con pistacchi tostati e ricotta salata"},
+      "es": {"name": "Ensalada de Judías Verdes, Espárragos y Aceitunas con Pistachos Tostados y Ricotta Salada", "description": "Ensalada de judías verdes, espárragos verdes y aceitunas con pistachos tostados y ricotta salada"}
+    }
+  },
+
+  // ========== PRIMI PIATTI ==========
+  {
+    "id": "rigatoni-alla-carbonara",
+    "category": "primi-piatti",
+    "subcategory": null,
+    "image": "/little-nonna/rigatoni-alla-carbonara.jpeg",
+    "price": 28.00,
+    "allergens": ["gluten", "lait", "oeufs"],
+    "diets": [],
+    "macros": {"calories": 600, "proteines": 25, "glucides": 70, "lipides": 25},
+    "translations": {
+      "fr": {"name": "Rigatoni alla Carbonara", "description": "Rigatoni à la carbonara"},
+      "en": {"name": "Rigatoni Carbonara", "description": "Rigatoni pasta with carbonara sauce (eggs, pancetta, pecorino, pepper)"},
+      "it": {"name": "Rigatoni alla Carbonara", "description": "Rigatoni con uova, pancetta, pecorino e pepe"},
+      "es": {"name": "Rigatoni a la Carbonara", "description": "Rigatoni con salsa carbonara (huevos, panceta, pecorino, pimienta)"}
+    }
+  },
+  {
+    "id": "gnocchi-al-pomodoro-e-mozzarella",
+    "category": "primi-piatti",
+    "subcategory": null,
+    "image": "/little-nonna/gnocchi-al-pomodoro-e-mozzarella.jpeg",
+    "price": 29.00,
+    "allergens": ["gluten", "lait"],
+    "diets": [],
+    "macros": {"calories": 550, "proteines": 20, "glucides": 75, "lipides": 18},
+    "translations": {
+      "fr": {"name": "Gnocchi al Pomodoro e Mozzarella", "description": "Gnocchis sauce tomate et mozzarella"},
+      "en": {"name": "Gnocchi with Tomato Sauce and Mozzarella", "description": "Potato gnocchi with tomato sauce and mozzarella"},
+      "it": {"name": "Gnocchi al Pomodoro e Mozzarella", "description": "Gnocchi con salsa di pomodoro e mozzarella"},
+      "es": {"name": "Ñoquis con Salsa de Tomate y Mozzarella", "description": "Ñoquis con salsa de tomate y mozzarella"}
+    }
+  },
+  {
+    "id": "fusilli-al-ragu-di-manzo",
+    "category": "primi-piatti",
+    "subcategory": null,
+    "image": "/little-nonna/fusilli-al-ragu-di-manzo.jpeg",
+    "price": 22.00,
+    "allergens": ["gluten", "celeri"],
+    "diets": [],
+    "macros": {"calories": 650, "proteines": 30, "glucides": 70, "lipides": 25},
+    "translations": {
+      "fr": {"name": "Fusilli al Ragù di Manzo a Lungo Cottura con Cipolle e Sedano", "description": "Fusilli au ragoût de bœuf longuement mijoté, oignons et céleri"},
+      "en": {"name": "Fusilli with Slow-Cooked Beef Ragù, Onions and Celery", "description": "Fusilli pasta with slow-cooked beef ragù, onions and celery"},
+      "it": {"name": "Fusilli al Ragù di Manzo a Lungo Cottura con Cipolle e Sedano", "description": "Fusilli con ragù di manzo a lunga cottura, cipolle e sedano"},
+      "es": {"name": "Fusilli con Ragú de Ternera Cocinado a Fuego Lento, Cebollas y Apio", "description": "Fusilli con ragú de ternera cocinado a fuego lento, cebollas y apio"}
+    }
+  },
+  {
+    "id": "penne-alfredo",
+    "category": "primi-piatti",
+    "subcategory": null,
+    "image": "/little-nonna/penne-alfredo.jpeg",
+    "price": 24.00,
+    "allergens": ["gluten", "lait"],
+    "diets": [],
+    "macros": {"calories": 700, "proteines": 35, "glucides": 65, "lipides": 30},
+    "translations": {
+      "fr": {"name": "Penne Alfredo, Crema di Parmigiano, Pollo Dorato e Funghi", "description": "Penne Alfredo, crème de parmesan, poulet doré et champignons"},
+      "en": {"name": "Penne Alfredo with Parmesan Cream, Golden Chicken and Mushrooms", "description": "Penne pasta with Alfredo sauce (Parmesan cream), golden chicken and mushrooms"},
+      "it": {"name": "Penne Alfredo, Crema di Parmigiano, Pollo Dorato e Funghi", "description": "Penne con salsa Alfredo, crema di parmigiano, pollo dorato e funghi"},
+      "es": {"name": "Penne Alfredo con Crema de Parmesano, Pollo Dorado y Champiñones", "description": "Penne con salsa Alfredo, crema de parmesano, pollo dorado y champiñones"}
+    }
+  },
+  {
+    "id": "risotto-agli-asparagi",
+    "category": "primi-piatti",
+    "subcategory": null,
+    "image": "/little-nonna/risotto-agli-asparagi.jpeg",
+    "price": 24.00,
+    "allergens": ["lait"],
+    "diets": [],
+    "macros": {"calories": 500, "proteines": 15, "glucides": 60, "lipides": 20},
+    "translations": {
+      "fr": {"name": "Risotto agli Asparagi", "description": "Risotto aux asperges"},
+      "en": {"name": "Asparagus Risotto", "description": "Creamy risotto with asparagus"},
+      "it": {"name": "Risotto agli Asparagi", "description": "Risotto con asparagi"},
+      "es": {"name": "Risotto con Espárragos", "description": "Risotto con espárragos"}
+    }
+  },
+
+  // ========== SECONDI PIATTI ==========
+  {
+    "id": "filetto-di-orata",
+    "category": "secondi-piatti",
+    "subcategory": null,
+    "image": "/little-nonna/filetto-di-orata.jpeg",
+    "price": 25.00,
+    "allergens": ["poissons"],
+    "diets": [],
+    "macros": {"calories": 400, "proteines": 35, "glucides": 15, "lipides": 20},
+    "translations": {
+      "fr": {"name": "Filetto di Orata, Caponata, Olio al Basilio", "description": "Filet de daurade, caponata et huile au basilic"},
+      "en": {"name": "Sea Bream Fillet with Caponata and Basil Oil", "description": "Sea bream fillet with caponata (Sicilian eggplant relish) and basil oil"},
+      "it": {"name": "Filetto di Orata, Caponata, Olio al Basilico", "description": "Filetto di orata, caponata e olio al basilico"},
+      "es": {"name": "Filete de Dorada con Caponata y Aceite de Albahaca", "description": "Filete de dorada con caponata y aceite de albahaca"}
+    }
+  },
+  {
+    "id": "tagliata-di-manzo-alla-fiorentina",
+    "category": "secondi-piatti",
+    "subcategory": null,
+    "image": "/little-nonna/tagliata-di-manzo-alla-fiorentina.jpeg",
+    "price": 25.00,
+    "allergens": [],
+    "diets": [],
+    "macros": {"calories": 500, "proteines": 40, "glucides": 0, "lipides": 35},
+    "translations": {
+      "fr": {"name": "Tagliata di Manzo alla Fiorentina", "description": "Tagliata de bœuf à la florentine"},
+      "en": {"name": "Florentine-Style Beef Tagliata", "description": "Florentine-style sliced beef"},
+      "it": {"name": "Tagliata di Manzo alla Fiorentina", "description": "Tagliata di manzo alla fiorentina"},
+      "es": {"name": "Tagliata de Ternera a la Florentina", "description": "Tagliata de ternera al estilo florentino"}
+    }
+  },
+  {
+    "id": "risotto-cremoso-con-gamberi",
+    "category": "secondi-piatti",
+    "subcategory": null,
+    "image": "/little-nonna/risotto-cremoso-con-gamberi.jpeg",
+    "price": 28.00,
+    "allergens": ["lait", "crustaces"],
+    "diets": [],
+    "macros": {"calories": 550, "proteines": 30, "glucides": 60, "lipides": 20},
+    "translations": {
+      "fr": {"name": "Risotto Cremoso con Gamberi e Asparagi Verdi", "description": "Risotto crémeux aux gambas et asperges vertes"},
+      "en": {"name": "Creamy Risotto with Prawns and Green Asparagus", "description": "Creamy risotto with prawns and green asparagus"},
+      "it": {"name": "Risotto Cremoso con Gamberi e Asparagi Verdi", "description": "Risotto cremoso con gamberi e asparagi verdi"},
+      "es": {"name": "Risotto Cremoso con Gambas y Espárragos Verdes", "description": "Risotto cremoso con gambas y espárragos verdes"}
+    }
+  },
+  {
+    "id": "baciata-burger-di-manzo",
+    "category": "secondi-piatti",
+    "subcategory": null,
+    "image": "/little-nonna/baciata-burger-di-manzo.jpeg",
+    "price": 32.00,
+    "allergens": ["gluten"],
+    "diets": [],
+    "macros": {"calories": 800, "proteines": 40, "glucides": 60, "lipides": 40},
+    "translations": {
+      "fr": {"name": "Baciata Burger di Manzo, Patate", "description": "Burger de bœuf et pommes grenailles"},
+      "en": {"name": "Beef Burger with Grenaille Potatoes", "description": "Beef burger with grenaille potatoes"},
+      "it": {"name": "Baciata Burger di Manzo, Patate", "description": "Burger di manzo con patate grenailles"},
+      "es": {"name": "Hamburguesa de Ternera con Patatas Grenaille", "description": "Hamburguesa de ternera con patatas grenailles"}
+    }
+  },
+
+  // ========== PIZZE ==========
+  {
+    "id": "pizza-margerita",
+    "category": "pizze",
+    "subcategory": null,
+    "image": "/little-nonna/pizza-margerita.jpeg",
+    "price": 18.00,
+    "allergens": ["gluten", "lait"],
+    "diets": [],
+    "macros": {"calories": 500, "proteines": 20, "glucides": 60, "lipides": 20},
+    "translations": {
+      "fr": {"name": "Margherita", "description": "Sauce tomate, mozzarella fior di latte, basilic"},
+      "en": {"name": "Margherita", "description": "Tomato sauce, fior di latte mozzarella, basil"},
+      "it": {"name": "Margherita", "description": "Salsa di pomodoro, mozzarella fior di latte, basilico"},
+      "es": {"name": "Margherita", "description": "Salsa de tomate, mozzarella fior di latte, albahaca"}
+    }
+  },
+  {
+    "id": "pizza-quattro-formaggi",
+    "category": "pizze",
+    "subcategory": null,
+    "image": "/little-nonna/pizza-quattro-formaggi.jpeg",
+    "price": 20.00,
+    "allergens": ["gluten", "lait"],
+    "diets": [],
+    "macros": {"calories": 600, "proteines": 25, "glucides": 55, "lipides": 25},
+    "translations": {
+      "fr": {"name": "Quattro Formaggi", "description": "Mozzarella fior di latte, taleggio, gorgonzola, parmesan"},
+      "en": {"name": "Quattro Formaggi", "description": "Fior di latte mozzarella, taleggio, gorgonzola, Parmesan"},
+      "it": {"name": "Quattro Formaggi", "description": "Mozzarella fior di latte, taleggio, gorgonzola, parmigiano"},
+      "es": {"name": "Cuatro Quesos", "description": "Mozzarella fior di latte, taleggio, gorgonzola, parmesano"}
+    }
+  },
+  {
+    "id": "pizza-regina",
+    "category": "pizze",
+    "subcategory": null,
+    "image": "/little-nonna/pizza-regina.jpeg",
+    "price": 20.00,
+    "allergens": ["gluten", "lait"],
+    "diets": [],
+    "macros": {"calories": 550, "proteines": 22, "glucides": 58, "lipides": 22},
+    "translations": {
+      "fr": {"name": "Regina", "description": "Sauce tomate, jambon blanc, champignons, mozzarella fior di latte"},
+      "en": {"name": "Regina", "description": "Tomato sauce, white ham, mushrooms, fior di latte mozzarella"},
+      "it": {"name": "Regina", "description": "Salsa di pomodoro, prosciutto cotto, funghi, mozzarella fior di latte"},
+      "es": {"name": "Reina", "description": "Salsa de tomate, jamón blanco, champiñones, mozzarella fior di latte"}
+    }
+  },
+  {
+    "id": "pizza-bufalina",
+    "category": "pizze",
+    "subcategory": null,
+    "image": "/little-nonna/pizza-bufalina.jpeg",
+    "price": 22.00,
+    "allergens": ["gluten", "lait"],
+    "diets": [],
+    "macros": {"calories": 580, "proteines": 24, "glucides": 55, "lipides": 26},
+    "translations": {
+      "fr": {"name": "Bufalina", "description": "Sauce tomate, mozzarella di bufala, basilic"},
+      "en": {"name": "Bufalina", "description": "Tomato sauce, buffalo mozzarella, basil"},
+      "it": {"name": "Bufalina", "description": "Salsa di pomodoro, mozzarella di bufala, basilico"},
+      "es": {"name": "Bufalina", "description": "Salsa de tomate, mozzarella de búfala, albahaca"}
+    }
+  },
+  {
+    "id": "pizza-marinara",
+    "category": "pizze",
+    "subcategory": null,
+    "image": "/little-nonna/pizza-marinara.jpeg",
+    "price": 19.00,
+    "allergens": ["gluten"],
+    "diets": [],
+    "macros": {"calories": 450, "proteines": 12, "glucides": 55, "lipides": 18},
+    "translations": {
+      "fr": {"name": "Marinara", "description": "Sauce tomate, huile d’olive, origan, ail, basilic"},
+      "en": {"name": "Marinara", "description": "Tomato sauce, olive oil, oregano, garlic, basil"},
+      "it": {"name": "Marinara", "description": "Salsa di pomodoro, olio d’oliva, origano, aglio, basilico"},
+      "es": {"name": "Marinara", "description": "Salsa de tomate, aceite de oliva, orégano, ajo, albahaca"}
+    }
+  },
+  {
+    "id": "pizza-marco-polo",
+    "category": "pizze",
+    "subcategory": null,
+    "image": "/little-nonna/pizza-marco-polo.jpeg",
+    "price": 22.00,
+    "allergens": ["gluten", "lait", "poissons"],
+    "diets": [],
+    "macros": {"calories": 600, "proteines": 30, "glucides": 55, "lipides": 25},
+    "translations": {
+      "fr": {"name": "Marco Polo", "description": "Sauce tomate, mozzarella fior di latte, thon, oignon rouge, roquette, tomates cerises"},
+      "en": {"name": "Marco Polo", "description": "Tomato sauce, fior di latte mozzarella, tuna, red onion, arugula, cherry tomatoes"},
+      "it": {"name": "Marco Polo", "description": "Salsa di pomodoro, mozzarella fior di latte, tonno, cipolla rossa, rucola, pomodorini"},
+      "es": {"name": "Marco Polo", "description": "Salsa de tomate, mozzarella fior di latte, atún, cebolla roja, rúcula, tomates cherry"}
+    }
+  },
+  {
+    "id": "pizza-ortolana",
+    "category": "pizze",
+    "subcategory": null,
+    "image": "/little-nonna/pizza-ortolana.jpeg",
+    "price": 20.00,
+    "allergens": ["gluten"],
+    "diets": [],
+    "macros": {"calories": 500, "proteines": 15, "glucides": 55, "lipides": 22},
+    "translations": {
+      "fr": {"name": "Ortolana", "description": "Sauce tomate, courgettes, aubergines, poivrons, tomates cerises"},
+      "en": {"name": "Ortolana", "description": "Tomato sauce, zucchini, eggplant, bell peppers, cherry tomatoes"},
+      "it": {"name": "Ortolana", "description": "Salsa di pomodoro, zucchine, melanzane, peperoni, pomodorini"},
+      "es": {"name": "Ortolana", "description": "Salsa de tomate, calabacín, berenjena, pimientos, tomates cherry"}
+    }
+  },
+  {
+    "id": "pizza-diavola",
+    "category": "pizze",
+    "subcategory": null,
+    "image": "/little-nonna/pizza-diavola.jpeg",
+    "price": 20.00,
+    "allergens": ["gluten", "lait"],
+    "diets": [],
+    "macros": {"calories": 600, "proteines": 20, "glucides": 55, "lipides": 28},
+    "translations": {
+      "fr": {"name": "Diavola", "description": "Sauce tomate, spianata, nduja, poivrons, mozzarella fior di latte, ricotta fraîche"},
+      "en": {"name": "Diavola", "description": "Tomato sauce, spianata, nduja, bell peppers, fior di latte mozzarella, fresh ricotta"},
+      "it": {"name": "Diavola", "description": "Salsa di pomodoro, spianata, nduja, peperoni, mozzarella fior di latte, ricotta fresca"},
+      "es": {"name": "Diavola", "description": "Salsa de tomate, spianata, nduja, pimientos, mozzarella fior di latte, ricotta fresca"}
+    }
+  },
+  {
+    "id": "pizza-mortadellissima",
+    "category": "pizze",
+    "subcategory": null,
+    "image": "/little-nonna/pizza-mortadellissima.jpeg",
+    "price": 24.00,
+    "allergens": ["gluten", "lait", "fruits-a-coque"],
+    "diets": [],
+    "macros": {"calories": 700, "proteines": 25, "glucides": 50, "lipides": 35},
+    "translations": {
+      "fr": {"name": "Mortadellissima", "description": "Pesto basilic, mozzarella fior di latte, mortadelle, burrata, pistache"},
+      "en": {"name": "Mortadellissima", "description": "Basil pesto, fior di latte mozzarella, mortadella, burrata, pistachio"},
+      "it": {"name": "Mortadellissima", "description": "Pesto al basilico, mozzarella fior di latte, mortadella, burrata, pistacchio"},
+      "es": {"name": "Mortadellissima", "description": "Pesto de albahaca, mozzarella fior di latte, mortadela, burrata, pistacho"}
+    }
+  },
+  {
+    "id": "pizza-parma",
+    "category": "pizze",
+    "subcategory": null,
+    "image": "/little-nonna/pizza-parma.jpeg",
+    "price": 22.00,
+    "allergens": ["gluten", "lait"],
+    "diets": [],
+    "macros": {"calories": 600, "proteines": 28, "glucides": 50, "lipides": 28},
+    "translations": {
+      "fr": {"name": "Parma", "description": "Sauce tomate, jambon de parme, mozzarella di bufala, parmesan, basilic"},
+      "en": {"name": "Parma", "description": "Tomato sauce, Parma ham, buffalo mozzarella, Parmesan, basil"},
+      "it": {"name": "Parma", "description": "Salsa di pomodoro, prosciutto di Parma, mozzarella di bufala, parmigiano, basilico"},
+      "es": {"name": "Parma", "description": "Salsa de tomate, jamón de Parma, mozzarella de búfala, parmesano, albahaca"}
+    }
+  },
+  {
+    "id": "pizza-napoletana",
+    "category": "pizze",
+    "subcategory": null,
+    "image": "/little-nonna/pizza-napoletana.jpeg",
+    "price": 21.00,
+    "allergens": ["gluten", "poissons"],
+    "diets": [],
+    "macros": {"calories": 550, "proteines": 22, "glucides": 55, "lipides": 22},
+    "translations": {
+      "fr": {"name": "Napoletana", "description": "Sauce tomate, anchois, tomates cerises, huile d'olive, olive taggiasche, origan, basilic"},
+      "en": {"name": "Napoletana", "description": "Tomato sauce, anchovies, cherry tomatoes, olive oil, taggiasche olives, oregano, basil"},
+      "it": {"name": "Napoletana", "description": "Salsa di pomodoro, alici, pomodorini, olio d'oliva, olive taggiasche, origano, basilico"},
+      "es": {"name": "Nápoles", "description": "Salsa de tomate, anchoas, tomates cherry, aceite de oliva, aceitunas taggiasche, orégano, albahaca"}
+    }
+  },
+
+  // ========== DOLCI ==========
+  {
+    "id": "cafe-goloso-affogato",
+    "category": "dolci",
+    "subcategory": null,
+    "image": "/little-nonna/cafe-goloso-affogato.jpeg",
+    "price": 10.00,
+    "allergens": ["lait"],
+    "diets": [],
+    "macros": {"calories": 200, "proteines": 4, "glucides": 25, "lipides": 8},
+    "translations": {
+      "fr": {"name": "Caffè Goloso / Affogato", "description": "Café gourmand"},
+      "en": {"name": "Affogato", "description": "Espresso with a scoop of ice cream"},
+      "it": {"name": "Caffè Goloso / Affogato", "description": "Caffè con gelato"},
+      "es": {"name": "Café Goloso / Affogato", "description": "Café con helado"}
+    }
+  },
+  {
+    "id": "creme-brulee-amaretto",
+    "category": "dolci",
+    "subcategory": null,
+    "image": "/little-nonna/creme-brulee-amaretto.jpeg",
+    "price": 11.00,
+    "allergens": ["lait", "oeufs", "fruits-a-coque"],
+    "diets": [],
+    "macros": {"calories": 300, "proteines": 6, "glucides": 25, "lipides": 20},
+    "translations": {
+      "fr": {"name": "Crème Brûlée all’Amaretto", "description": "Crème brûlée à l’Amaretto"},
+      "en": {"name": "Amaretto Crème Brûlée", "description": "Crème brûlée with amaretto flavor"},
+      "it": {"name": "Crème Brûlée all’Amaretto", "description": "Crema catalana all’amaretto"},
+      "es": {"name": "Crema Catalana de Amaretto", "description": "Crema catalana con sabor a amaretto"}
+    }
+  },
+  {
+    "id": "brownie-cioccolato-gianduia",
+    "category": "dolci",
+    "subcategory": null,
+    "image": "/little-nonna/brownie-cioccolato-gianduia.jpeg",
+    "price": 12.00,
+    "allergens": ["gluten", "lait", "fruits-a-coque"],
+    "diets": [],
+    "macros": {"calories": 450, "proteines": 6, "glucides": 45, "lipides": 25},
+    "translations": {
+      "fr": {"name": "Brownie al Cioccolato, Salsa Gianduia & Chantilly", "description": "Brownie au chocolat, sauce gianduia et chantilly"},
+      "en": {"name": "Chocolate Brownie with Gianduia Sauce and Whipped Cream", "description": "Chocolate brownie with hazelnut gianduia sauce and whipped cream"},
+      "it": {"name": "Brownie al Cioccolato, Salsa Gianduia & Chantilly", "description": "Brownie al cioccolato con salsa gianduia e panna montata"},
+      "es": {"name": "Brownie de Chocolate con Salsa Gianduia y Nata Montada", "description": "Brownie de chocolate con salsa de gianduia y nata montada"}
+    }
+  },
+  {
+    "id": "panna-cotta-frutti-passione",
+    "category": "dolci",
+    "subcategory": null,
+    "image": "/little-nonna/panna-cotta-frutti-passione.jpeg",
+    "price": 12.00,
+    "allergens": ["lait"],
+    "diets": [],
+    "macros": {"calories": 250, "proteines": 5, "glucides": 30, "lipides": 12},
+    "translations": {
+      "fr": {"name": "Panna Cotta ai Frutti della Passione", "description": "Panna cotta aux fruits de la passion"},
+      "en": {"name": "Passion Fruit Panna Cotta", "description": "Panna cotta with passion fruit"},
+      "it": {"name": "Panna Cotta ai Frutti della Passione", "description": "Panna cotta ai frutti della passione"},
+      "es": {"name": "Panna Cotta de Frutas de la Pasión", "description": "Panna cotta con frutas de la pasión"}
+    }
+  },
+  {
+    "id": "tiramisu-little-nonna",
+    "category": "dolci",
+    "subcategory": null,
+    "image": "/little-nonna/tiramisu-little-nonna.jpeg",
+    "price": 12.00,
+    "allergens": ["gluten", "lait", "oeufs"],
+    "diets": [],
+    "macros": {"calories": 350, "proteines": 8, "glucides": 35, "lipides": 18},
+    "translations": {
+      "fr": {"name": "Tiramisu “Little Nonna”", "description": "Tiramisu maison"},
+      "en": {"name": "Tiramisu “Little Nonna”", "description": "House tiramisu"},
+      "it": {"name": "Tiramisu “Little Nonna”", "description": "Tiramisu della casa"},
+      "es": {"name": "Tiramisú “Little Nonna”", "description": "Tiramisú de la casa"}
+    }
+  },
+  {
+    "id": "cannolis-siciliani",
+    "category": "dolci",
+    "subcategory": null,
+    "image": "/little-nonna/cannolis-siciliani.jpeg",
+    "price": 12.00,
+    "allergens": ["gluten", "lait", "oeufs"],
+    "diets": [],
+    "macros": {"calories": 300, "proteines": 6, "glucides": 35, "lipides": 15},
+    "translations": {
+      "fr": {"name": "Cannolis Siciliani", "description": "Cannolis siciliens"},
+      "en": {"name": "Sicilian Cannoli", "description": "Sicilian cannoli with sweet ricotta filling"},
+      "it": {"name": "Cannolis Siciliani", "description": "Cannoli siciliani con ricotta"},
+      "es": {"name": "Cannolis Sicilianos", "description": "Cannoli sicilianos con relleno de ricotta dulce"}
+    }
+  },
+  {
+    "id": "tarteletta-al-limone",
+    "category": "dolci",
+    "subcategory": null,
+    "image": "/little-nonna/tarteletta-al-limone.jpeg",
+    "price": 13.00,
+    "allergens": ["gluten", "lait", "oeufs"],
+    "diets": [],
+    "macros": {"calories": 350, "proteines": 5, "glucides": 40, "lipides": 18},
+    "translations": {
+      "fr": {"name": "Tarteletta al Limone", "description": "Tartelette au citron"},
+      "en": {"name": "Lemon Tartlet", "description": "Lemon tartlet"},
+      "it": {"name": "Tarteletta al Limone", "description": "Tarteletta al limone"},
+      "es": {"name": "Tarta de Limón", "description": "Tarta de limón"}
+    }
+  },
+  {
+    "id": "fragole-stracciatella-mandorle",
+    "category": "dolci",
+    "subcategory": null,
+    "image": "/little-nonna/fragole-stracciatella-mandorle.jpeg",
+    "price": 14.00,
+    "allergens": ["lait", "fruits-a-coque"],
+    "diets": [],
+    "macros": {"calories": 250, "proteines": 6, "glucides": 25, "lipides": 15},
+    "translations": {
+      "fr": {"name": "Fragole con Stracciatella, Scorza di Limone e Mandorle Tostate", "description": "Fraises et stracciatella, zeste de citron et amandes grillées"},
+      "en": {"name": "Strawberries with Stracciatella, Lemon Zest and Toasted Almonds", "description": "Strawberries with stracciatella cheese, lemon zest and toasted almonds"},
+      "it": {"name": "Fragole con Stracciatella, Scorza di Limone e Mandorle Tostate", "description": "Fragole con stracciatella, scorza di limone e mandorle tostate"},
+      "es": {"name": "Fresas con Stracciatella, Cáscara de Limón y Almendras Tostadas", "description": "Fresas con queso stracciatella, cáscara de limón y almendras tostadas"}
+    }
+  },
+  {
+    "id": "pizza-al-cioccolato",
+    "category": "dolci",
+    "subcategory": null,
+    "image": "/little-nonna/pizza-al-cioccolato.jpeg",
+    "price": 14.00,
+    "allergens": ["gluten", "lait"],
+    "diets": [],
+    "macros": {"calories": 400, "proteines": 8, "glucides": 50, "lipides": 18},
+    "translations": {
+      "fr": {"name": "Pizza al Cioccolato", "description": "Pizza au chocolat"},
+      "en": {"name": "Chocolate Pizza", "description": "Dessert pizza with chocolate"},
+      "it": {"name": "Pizza al Cioccolato", "description": "Pizza dolce al cioccolato"},
+      "es": {"name": "Pizza de Chocolate", "description": "Pizza dulce de chocolate"}
+    }
+  },
+  {
+    "id": "coppa-gelato-tre-gusti",
+    "category": "dolci",
+    "subcategory": null,
+    "image": "/little-nonna/coppa-gelato-tre-gusti.jpeg",
+    "price": 16.00,
+    "allergens": ["lait", "fruits-a-coque", "soja"],
+    "diets": [],
+    "macros": {"calories": 300, "proteines": 6, "glucides": 40, "lipides": 12},
+    "translations": {
+      "fr": {"name": "Coppa di Gelato, Tre Gusti, Panna Montata o Cioccolato Caldo", "description": "Boules de glace (trois parfums), chantilly ou chocolat chaud"},
+      "en": {"name": "Ice Cream Scoop, Three Flavors, Whipped Cream or Hot Chocolate", "description": "Scoop of ice cream (three flavors), whipped cream or hot chocolate"},
+      "it": {"name": "Coppa di Gelato, Tre Gusti, Panna Montata o Cioccolato Caldo", "description": "Coppa di gelato (tre gusti), panna montata o cioccolato caldo"},
+      "es": {"name": "Copa de Helado, Tres Sabores, Nata Montada o Chocolate Caliente", "description": "Copa de helado (tres sabores), nata montada o chocolate caliente"}
+    }
+  },
+
+  // ========== BEVANDE ANALCOLICHE ==========
+  {
+    "id": "coca-cola",
+    "category": "bevande",
+    "subcategory": "bevande-analcoliche",
+    "image": "/little-nonna/coca-cola.jpeg",
+    "price": 6.50,
+    "allergens": [],
+    "diets": [],
+    "macros": {"calories": 140, "proteines": 0, "glucides": 35, "lipides": 0},
+    "translations": {
+      "fr": {"name": "Coca-Cola", "description": "Coca-Cola 33cl"},
+      "en": {"name": "Coca-Cola", "description": "Coca-Cola 33cl"},
+      "it": {"name": "Coca-Cola", "description": "Coca-Cola 33cl"},
+      "es": {"name": "Coca-Cola", "description": "Coca-Cola 33cl"}
+    }
+  },
+  {
+    "id": "coca-cola-zero",
+    "category": "bevande",
+    "subcategory": "bevande-analcoliche",
+    "image": "/little-nonna/coca-cola-zero.jpeg",
+    "price": 6.50,
+    "allergens": [],
+    "diets": [],
+    "macros": {"calories": 0, "proteines": 0, "glucides": 0, "lipides": 0},
+    "translations": {
+      "fr": {"name": "Coca-Cola Zero", "description": "Coca-Cola Zero 33cl"},
+      "en": {"name": "Coca-Cola Zero", "description": "Coca-Cola Zero 33cl"},
+      "it": {"name": "Coca-Cola Zero", "description": "Coca-Cola Zero 33cl"},
+      "es": {"name": "Coca-Cola Zero", "description": "Coca-Cola Zero 33cl"}
+    }
+  },
+  {
+    "id": "perrier-33cl",
+    "category": "bevande",
+    "subcategory": "bevande-analcoliche",
+    "image": "/little-nonna/perrier-33cl.jpeg",
+    "price": 6.50,
+    "allergens": [],
+    "diets": [],
+    "macros": {"calories": 0, "proteines": 0, "glucides": 0, "lipides": 0},
+    "translations": {
+      "fr": {"name": "Perrier", "description": "Perrier 33cl"},
+      "en": {"name": "Perrier", "description": "Perrier sparkling water 33cl"},
+      "it": {"name": "Perrier", "description": "Acqua Perrier 33cl"},
+      "es": {"name": "Perrier", "description": "Agua Perrier 33cl"}
+    }
+  },
+  {
+    "id": "la-french-svp-tonic-bio-25cl",
+    "category": "bevande",
+    "subcategory": "bevande-analcoliche",
+    "image": "/little-nonna/la-french-svp-tonic-bio-25cl.jpeg",
+    "price": 7.00,
+    "allergens": [],
+    "diets": [],
+    "macros": {"calories": 20, "proteines": 0, "glucides": 5, "lipides": 0},
+    "translations": {
+      "fr": {"name": "La French SVP Tonic Bio", "description": "Tonic bio 25cl"},
+      "en": {"name": "La French SVP Organic Tonic", "description": "Organic tonic water 25cl"},
+      "it": {"name": "La French SVP Tonic Bio", "description": "Tonica bio 25cl"},
+      "es": {"name": "La French SVP Tónica Bio", "description": "Tónica orgánica 25cl"}
+    }
+  },
+  {
+    "id": "sprite-25cl",
+    "category": "bevande",
+    "subcategory": "bevande-analcoliche",
+    "image": "/little-nonna/sprite-25cl.jpeg",
+    "price": 6.50,
+    "allergens": [],
+    "diets": [],
+    "macros": {"calories": 100, "proteines": 0, "glucides": 25, "lipides": 0},
+    "translations": {
+      "fr": {"name": "Sprite", "description": "Sprite 25cl"},
+      "en": {"name": "Sprite", "description": "Sprite 25cl"},
+      "it": {"name": "Sprite", "description": "Sprite 25cl"},
+      "es": {"name": "Sprite", "description": "Sprite 25cl"}
+    }
+  },
+  {
+    "id": "orangina-25cl",
+    "category": "bevande",
+    "subcategory": "bevande-analcoliche",
+    "image": "/little-nonna/orangina-25cl.jpeg",
+    "price": 6.50,
+    "allergens": [],
+    "diets": [],
+    "macros": {"calories": 110, "proteines": 0, "glucides": 25, "lipides": 0},
+    "translations": {
+      "fr": {"name": "Orangina", "description": "Orangina 25cl"},
+      "en": {"name": "Orangina", "description": "Orangina 25cl"},
+      "it": {"name": "Orangina", "description": "Orangina 25cl"},
+      "es": {"name": "Orangina", "description": "Orangina 25cl"}
+    }
+  },
+  {
+    "id": "fuze-tea-pesche-intense-25cl",
+    "category": "bevande",
+    "subcategory": "bevande-analcoliche",
+    "image": "/little-nonna/fuze-tea-pesche-intense-25cl.jpeg",
+    "price": 6.50,
+    "allergens": [],
+    "diets": [],
+    "macros": {"calories": 80, "proteines": 0, "glucides": 20, "lipides": 0},
+    "translations": {
+      "fr": {"name": "Fuze Tea Pêche Intense", "description": "Fuze Tea pêche intense 25cl"},
+      "en": {"name": "Fuze Tea Intense Peach", "description": "Fuze Tea intense peach 25cl"},
+      "it": {"name": "Fuze Tea Pesche Intense", "description": "Fuze Tea pesca intensa 25cl"},
+      "es": {"name": "Fuze Tea Melocotón Intenso", "description": "Fuze Tea melocotón intenso 25cl"}
+    }
+  },
+  {
+    "id": "supplement-sirop",
+    "category": "bevande",
+    "subcategory": "bevande-analcoliche",
+    "image": "/little-nonna/supplement-sirop.jpeg",
+    "price": 2.00,
+    "allergens": [],
+    "diets": [],
+    "macros": {"calories": 50, "proteines": 0, "glucides": 13, "lipides": 0},
+    "translations": {
+      "fr": {"name": "Supplément Sirop", "description": "Supplément sirop"},
+      "en": {"name": "Syrup Supplement", "description": "Syrup supplement"},
+      "it": {"name": "Supplemento Sciroppo", "description": "Supplemento sciroppo"},
+      "es": {"name": "Suplemento de Jarabe", "description": "Suplemento de jarabe"}
+    }
+  },
+  {
+    "id": "succo-darancia-25cl",
+    "category": "bevande",
+    "subcategory": "succhi-di-frutta",
+    "image": "/little-nonna/succo-darancia-25cl.jpeg",
+    "price": 6.00,
+    "allergens": [],
+    "diets": [],
+    "macros": {"calories": 110, "proteines": 1, "glucides": 25, "lipides": 0},
+    "translations": {
+      "fr": {"name": "Jus d'Orange", "description": "Jus d'orange 25cl"},
+      "en": {"name": "Orange Juice", "description": "Orange juice 25cl"},
+      "it": {"name": "Succo d'Arancia", "description": "Succo d'arancia 25cl"},
+      "es": {"name": "Zumo de Naranja", "description": "Zumo de naranja 25cl"}
+    }
+  },
+  {
+    "id": "succo-di-mela-25cl",
+    "category": "bevande",
+    "subcategory": "succhi-di-frutta",
+    "image": "/little-nonna/succo-di-mela-25cl.jpeg",
+    "price": 6.00,
+    "allergens": [],
+    "diets": [],
+    "macros": {"calories": 120, "proteines": 0, "glucides": 28, "lipides": 0},
+    "translations": {
+      "fr": {"name": "Jus de Pomme", "description": "Jus de pomme 25cl"},
+      "en": {"name": "Apple Juice", "description": "Apple juice 25cl"},
+      "it": {"name": "Succo di Mela", "description": "Succo di mela 25cl"},
+      "es": {"name": "Zumo de Manzana", "description": "Zumo de manzana 25cl"}
+    }
+  },
+  {
+    "id": "succo-di-ananas-25cl",
+    "category": "bevande",
+    "subcategory": "succhi-di-frutta",
+    "image": "/little-nonna/succo-di-ananas-25cl.jpeg",
+    "price": 6.00,
+    "allergens": [],
+    "diets": [],
+    "macros": {"calories": 130, "proteines": 0, "glucides": 30, "lipides": 0},
+    "translations": {
+      "fr": {"name": "Jus d'Ananas", "description": "Jus d'ananas 25cl"},
+      "en": {"name": "Pineapple Juice", "description": "Pineapple juice 25cl"},
+      "it": {"name": "Succo d'Ananas", "description": "Succo d'ananas 25cl"},
+      "es": {"name": "Zumo de Piña", "description": "Zumo de piña 25cl"}
+    }
+  },
+  {
+    "id": "succo-di-pomodoro-25cl",
+    "category": "bevande",
+    "subcategory": "succhi-di-frutta",
+    "image": "/little-nonna/succo-di-pomodoro-25cl.jpeg",
+    "price": 6.00,
+    "allergens": [],
+    "diets": [],
+    "macros": {"calories": 40, "proteines": 1, "glucides": 9, "lipides": 0},
+    "translations": {
+      "fr": {"name": "Jus de Tomate", "description": "Jus de tomate 25cl"},
+      "en": {"name": "Tomato Juice", "description": "Tomato juice 25cl"},
+      "it": {"name": "Succo di Pomodoro", "description": "Succo di pomodoro 25cl"},
+      "es": {"name": "Zumo de Tomate", "description": "Zumo de tomate 25cl"}
+    }
+  },
+  {
+    "id": "succo-di-mango-25cl",
+    "category": "bevande",
+    "subcategory": "succhi-di-frutta",
+    "image": "/little-nonna/succo-di-mango-25cl.jpeg",
+    "price": 6.00,
+    "allergens": [],
+    "diets": [],
+    "macros": {"calories": 120, "proteines": 0, "glucides": 28, "lipides": 0},
+    "translations": {
+      "fr": {"name": "Jus de Mangue", "description": "Jus de mangue 25cl"},
+      "en": {"name": "Mango Juice", "description": "Mango juice 25cl"},
+      "it": {"name": "Succo di Mango", "description": "Succo di mango 25cl"},
+      "es": {"name": "Zumo de Mango", "description": "Zumo de mango 25cl"}
+    }
+  },
+  {
+    "id": "succo-di-cranberry-25cl",
+    "category": "bevande",
+    "subcategory": "succhi-di-frutta",
+    "image": "/little-nonna/succo-di-cranberry-25cl.jpeg",
+    "price": 6.00,
+    "allergens": [],
+    "diets": [],
+    "macros": {"calories": 110, "proteines": 0, "glucides": 26, "lipides": 0},
+    "translations": {
+      "fr": {"name": "Jus de Cranberry", "description": "Jus de canneberge 25cl"},
+      "en": {"name": "Cranberry Juice", "description": "Cranberry juice 25cl"},
+      "it": {"name": "Succo di Cranberry", "description": "Succo di mirtillo rosso 25cl"},
+      "es": {"name": "Zumo de Arándano", "description": "Zumo de arándano 25cl"}
+    }
+  },
+  {
+    "id": "succo-di-pompelmo-25cl",
+    "category": "bevande",
+    "subcategory": "succhi-di-frutta",
+    "image": "/little-nonna/succo-di-pompelmo-25cl.jpeg",
+    "price": 6.00,
+    "allergens": [],
+    "diets": [],
+    "macros": {"calories": 100, "proteines": 1, "glucides": 22, "lipides": 0},
+    "translations": {
+      "fr": {"name": "Jus de Pamplemousse", "description": "Jus de pamplemousse 25cl"},
+      "en": {"name": "Grapefruit Juice", "description": "Grapefruit juice 25cl"},
+      "it": {"name": "Succo di Pompelmo", "description": "Succo di pompelmo 25cl"},
+      "es": {"name": "Zumo de Pomelo", "description": "Zumo de pomelo 25cl"}
+    }
+  },
+  {
+    "id": "evian-50cl",
+    "category": "bevande",
+    "subcategory": "acqua",
+    "image": "/little-nonna/evian-50cl.jpeg",
+    "price": 6.00,
+    "allergens": [],
+    "diets": [],
+    "macros": {"calories": 0, "proteines": 0, "glucides": 0, "lipides": 0},
+    "translations": {
+      "fr": {"name": "Evian", "description": "Eau Evian 50cl"},
+      "en": {"name": "Evian", "description": "Evian water 50cl"},
+      "it": {"name": "Evian", "description": "Acqua Evian 50cl"},
+      "es": {"name": "Evian", "description": "Agua Evian 50cl"}
+    }
+  },
+  {
+    "id": "badoit-50cl",
+    "category": "bevande",
+    "subcategory": "acqua",
+    "image": "/little-nonna/badoit-50cl.jpeg",
+    "price": 6.00,
+    "allergens": [],
+    "diets": [],
+    "macros": {"calories": 0, "proteines": 0, "glucides": 0, "lipides": 0},
+    "translations": {
+      "fr": {"name": "Badoit", "description": "Eau Badoit 50cl"},
+      "en": {"name": "Badoit", "description": "Badoit water 50cl"},
+      "it": {"name": "Badoit", "description": "Acqua Badoit 50cl"},
+      "es": {"name": "Badoit", "description": "Agua Badoit 50cl"}
+    }
+  },
+
+  // ========== CAFFETTERIA ==========
+  {
+    "id": "espresso",
+    "category": "bevande",
+    "subcategory": "caffetteria",
+    "image": "/little-nonna/espresso.jpeg",
+    "price": 3.50,
+    "allergens": [],
+    "diets": [],
+    "macros": {"calories": 2, "proteines": 0, "glucides": 0, "lipides": 0},
+    "translations": {
+      "fr": {"name": "Expresso", "description": "Expresso"},
+      "en": {"name": "Espresso", "description": "Espresso"},
+      "it": {"name": "Espresso", "description": "Caffè espresso"},
+      "es": {"name": "Expreso", "description": "Café expreso"}
+    }
+  },
+  {
+    "id": "decafeine",
+    "category": "bevande",
+    "subcategory": "caffetteria",
+    "image": "/little-nonna/decafeine.jpeg",
+    "price": 3.50,
+    "allergens": [],
+    "diets": [],
+    "macros": {"calories": 2, "proteines": 0, "glucides": 0, "lipides": 0},
+    "translations": {
+      "fr": {"name": "Décaféiné", "description": "Café décaféiné"},
+      "en": {"name": "Decaffeinated Coffee", "description": "Decaffeinated coffee"},
+      "it": {"name": "Decaffeinato", "description": "Caffè decaffeinato"},
+      "es": {"name": "Descafeinado", "description": "Café descafeinado"}
+    }
+  },
+  {
+    "id": "ristretto",
+    "category": "bevande",
+    "subcategory": "caffetteria",
+    "image": "/little-nonna/ristretto.jpeg",
+    "price": 3.50,
+    "allergens": [],
+    "diets": [],
+    "macros": {"calories": 2, "proteines": 0, "glucides": 0, "lipides": 0},
+    "translations": {
+      "fr": {"name": "Ristretto", "description": "Café ristretto"},
+      "en": {"name": "Ristretto", "description": "Ristretto coffee"},
+      "it": {"name": "Ristretto", "description": "Caffè ristretto"},
+      "es": {"name": "Ristretto", "description": "Café ristretto"}
+    }
+  },
+  {
+    "id": "cafe-allonge",
+    "category": "bevande",
+    "subcategory": "caffetteria",
+    "image": "/little-nonna/cafe-allonge.jpeg",
+    "price": 4.00,
+    "allergens": [],
+    "diets": [],
+    "macros": {"calories": 5, "proteines": 0, "glucides": 0, "lipides": 0},
+    "translations": {
+      "fr": {"name": "Café Allongé", "description": "Café allongé"},
+      "en": {"name": "Americano", "description": "Americano coffee"},
+      "it": {"name": "Caffè Americano", "description": "Caffè americano"},
+      "es": {"name": "Café Americano", "description": "Café americano"}
+    }
+  },
+  {
+    "id": "noisette",
+    "category": "bevande",
+    "subcategory": "caffetteria",
+    "image": "/little-nonna/noisette.jpeg",
+    "price": 4.00,
+    "allergens": [],
+    "diets": [],
+    "macros": {"calories": 10, "proteines": 0, "glucides": 0, "lipides": 0},
+    "translations": {
+      "fr": {"name": "Noisette", "description": "Café noisette"},
+      "en": {"name": "Noisette", "description": "Espresso with a dash of milk"},
+      "it": {"name": "Caffè Noisette", "description": "Caffè con un tocco di latte"},
+      "es": {"name": "Café Noisette", "description": "Café con un toque de leche"}
+    }
+  },
+  {
+    "id": "double-espresso",
+    "category": "bevande",
+    "subcategory": "caffetteria",
+    "image": "/little-nonna/double-espresso.jpeg",
+    "price": 6.00,
+    "allergens": [],
+    "diets": [],
+    "macros": {"calories": 4, "proteines": 0, "glucides": 0, "lipides": 0},
+    "translations": {
+      "fr": {"name": "Double Expresso", "description": "Double expresso"},
+      "en": {"name": "Double Espresso", "description": "Double espresso"},
+      "it": {"name": "Doppio Espresso", "description": "Doppio espresso"},
+      "es": {"name": "Doble Expreso", "description": "Doble expreso"}
+    }
+  },
+  {
+    "id": "cafe-creme",
+    "category": "bevande",
+    "subcategory": "caffetteria",
+    "image": "/little-nonna/cafe-creme.jpeg",
+    "price": 6.00,
+    "allergens": ["lait"],
+    "diets": [],
+    "macros": {"calories": 50, "proteines": 2, "glucides": 3, "lipides": 3},
+    "translations": {
+      "fr": {"name": "Café Crème", "description": "Café crème"},
+      "en": {"name": "Café Crème", "description": "Coffee with cream"},
+      "it": {"name": "Caffè Crema", "description": "Caffè con panna"},
+      "es": {"name": "Café con Nata", "description": "Café con nata"}
+    }
+  },
+  {
+    "id": "cappuccino",
+    "category": "bevande",
+    "subcategory": "caffetteria",
+    "image": "/little-nonna/cappuccino.jpeg",
+    "price": 6.50,
+    "allergens": ["lait"],
+    "diets": [],
+    "macros": {"calories": 60, "proteines": 3, "glucides": 5, "lipides": 4},
+    "translations": {
+      "fr": {"name": "Cappuccino", "description": "Cappuccino"},
+      "en": {"name": "Cappuccino", "description": "Cappuccino"},
+      "it": {"name": "Cappuccino", "description": "Cappuccino"},
+      "es": {"name": "Capuchino", "description": "Capuchino"}
+    }
+  },
+  {
+    "id": "chocolat-chaud",
+    "category": "bevande",
+    "subcategory": "caffetteria",
+    "image": "/little-nonna/chocolat-chaud.jpeg",
+    "price": 7.00,
+    "allergens": ["lait"],
+    "diets": [],
+    "macros": {"calories": 200, "proteines": 4, "glucides": 25, "lipides": 8},
+    "translations": {
+      "fr": {"name": "Chocolat Chaud", "description": "Chocolat chaud"},
+      "en": {"name": "Hot Chocolate", "description": "Hot chocolate"},
+      "it": {"name": "Cioccolata Calda", "description": "Cioccolata calda"},
+      "es": {"name": "Chocolate Caliente", "description": "Chocolate caliente"}
+    }
+  },
+  {
+    "id": "the-earl-grey",
+    "category": "bevande",
+    "subcategory": "caffetteria",
+    "image": "/little-nonna/the-earl-grey.jpeg",
+    "price": 6.50,
+    "allergens": [],
+    "diets": [],
+    "macros": {"calories": 2, "proteines": 0, "glucides": 0, "lipides": 0},
+    "translations": {
+      "fr": {"name": "Thé Earl Grey", "description": "Thé Earl Grey bio"},
+      "en": {"name": "Earl Grey Tea", "description": "Organic Earl Grey tea"},
+      "it": {"name": "Tè Earl Grey", "description": "Tè Earl Grey bio"},
+      "es": {"name": "Té Earl Grey", "description": "Té Earl Grey ecológico"}
+    }
+  },
+  {
+    "id": "the-ceylan",
+    "category": "bevande",
+    "subcategory": "caffetteria",
+    "image": "/little-nonna/the-ceylan.jpeg",
+    "price": 6.50,
+    "allergens": [],
+    "diets": [],
+    "macros": {"calories": 2, "proteines": 0, "glucides": 0, "lipides": 0},
+    "translations": {
+      "fr": {"name": "Thé Ceylan", "description": "Thé Ceylan bio"},
+      "en": {"name": "Ceylon Tea", "description": "Organic Ceylon tea"},
+      "it": {"name": "Tè Ceylon", "description": "Tè Ceylon bio"},
+      "es": {"name": "Té Ceilán", "description": "Té Ceilán ecológico"}
+    }
+  },
+  {
+    "id": "the-citron",
+    "category": "bevande",
+    "subcategory": "caffetteria",
+    "image": "/little-nonna/the-citron.jpeg",
+    "price": 6.50,
+    "allergens": [],
+    "diets": [],
+    "macros": {"calories": 2, "proteines": 0, "glucides": 0, "lipides": 0},
+    "translations": {
+      "fr": {"name": "Thé Citron", "description": "Thé citron bio"},
+      "en": {"name": "Lemon Tea", "description": "Organic lemon tea"},
+      "it": {"name": "Tè al Limone", "description": "Tè al limone bio"},
+      "es": {"name": "Té de Limón", "description": "Té de limón ecológico"}
+    }
+  },
+  {
+    "id": "the-vert-menthe",
+    "category": "bevande",
+    "subcategory": "caffetteria",
+    "image": "/little-nonna/the-vert-menthe.jpeg",
+    "price": 6.50,
+    "allergens": [],
+    "diets": [],
+    "macros": {"calories": 2, "proteines": 0, "glucides": 0, "lipides": 0},
+    "translations": {
+      "fr": {"name": "Thé Vert à la Menthe", "description": "Thé vert à la menthe bio"},
+      "en": {"name": "Mint Green Tea", "description": "Organic green tea with mint"},
+      "it": {"name": "Tè Verde alla Menta", "description": "Tè verde alla menta bio"},
+      "es": {"name": "Té Verde con Menta", "description": "Té verde con menta ecológico"}
+    }
+  },
+  {
+    "id": "the-fruits-rouges",
+    "category": "bevande",
+    "subcategory": "caffetteria",
+    "image": "/little-nonna/the-fruits-rouges.jpeg",
+    "price": 6.50,
+    "allergens": [],
+    "diets": [],
+    "macros": {"calories": 2, "proteines": 0, "glucides": 0, "lipides": 0},
+    "translations": {
+      "fr": {"name": "Thé Fruits Rouges", "description": "Thé fruits rouges bio"},
+      "en": {"name": "Red Fruit Tea", "description": "Organic red fruit tea"},
+      "it": {"name": "Tè ai Frutti Rossi", "description": "Tè ai frutti di bosco bio"},
+      "es": {"name": "Té de Frutas Rojas", "description": "Té de frutos rojos ecológico"}
+    }
+  },
+  {
+    "id": "infusion-verveine",
+    "category": "bevande",
+    "subcategory": "caffetteria",
+    "image": "/little-nonna/infusion-verveine.jpeg",
+    "price": 6.50,
+    "allergens": [],
+    "diets": [],
+    "macros": {"calories": 2, "proteines": 0, "glucides": 0, "lipides": 0},
+    "translations": {
+      "fr": {"name": "Infusion Verveine", "description": "Infusion verveine bio"},
+      "en": {"name": "Vervain Infusion", "description": "Organic vervain infusion"},
+      "it": {"name": "Infuso di Verbena", "description": "Infuso di verbena bio"},
+      "es": {"name": "Infusión de Verbena", "description": "Infusión de verbena ecológica"}
+    }
+  },
+  {
+    "id": "infusion-tilleul",
+    "category": "bevande",
+    "subcategory": "caffetteria",
+    "image": "/little-nonna/infusion-tilleul.jpeg",
+    "price": 6.50,
+    "allergens": [],
+    "diets": [],
+    "macros": {"calories": 2, "proteines": 0, "glucides": 0, "lipides": 0},
+    "translations": {
+      "fr": {"name": "Infusion Tilleul", "description": "Infusion tilleul bio"},
+      "en": {"name": "Linden Infusion", "description": "Organic linden infusion"},
+      "it": {"name": "Infuso di Tiglio", "description": "Infuso di tiglio bio"},
+      "es": {"name": "Infusión de Tilo", "description": "Infusión de tilo ecológica"}
+    }
+  },
+  {
+    "id": "infusion-camomille",
+    "category": "bevande",
+    "subcategory": "caffetteria",
+    "image": "/little-nonna/infusion-camomille.jpeg",
+    "price": 6.50,
+    "allergens": [],
+    "diets": [],
+    "macros": {"calories": 2, "proteines": 0, "glucides": 0, "lipides": 0},
+    "translations": {
+      "fr": {"name": "Infusion Camomille", "description": "Infusion camomille bio"},
+      "en": {"name": "Chamomile Infusion", "description": "Organic chamomile infusion"},
+      "it": {"name": "Infuso di Camomilla", "description": "Infuso di camomilla bio"},
+      "es": {"name": "Infusión de Manzanilla", "description": "Infusión de manzanilla ecológica"}
+    }
+  },
+
+  // ========== VINI ROSSI ==========
+  {
+    "id": "bardolino-doc-2025-75cl",
+    "category": "bevande",
+    "subcategory": "vini-rossi",
+    "image": "/little-nonna/bardolino-doc-2025-75cl.jpeg",
+    "price": 28.00,
+    "allergens": ["so2"],
+    "diets": [],
+    "macros": {"calories": 600, "proteines": 0, "glucides": 2, "lipides": 0},
+    "translations": {
+      "fr": {"name": "Bardolino DOC 2025", "description": "Terre di Verona 2025, 75cl"},
+      "en": {"name": "Bardolino DOC 2025", "description": "Terre di Verona 2025, 75cl"},
+      "it": {"name": "Bardolino DOC 2025", "description": "Terre di Verona 2025, 75cl"},
+      "es": {"name": "Bardolino DOC 2025", "description": "Terre di Verona 2025, 75cl"}
+    }
+  },
+  {
+    "id": "montepulciano-dabruzzo-doc-2024-75cl",
+    "category": "bevande",
+    "subcategory": "vini-rossi",
+    "image": "/little-nonna/montepulciano-dabruzzo-doc-2024-75cl.jpeg",
+    "price": 28.00,
+    "allergens": ["so2"],
+    "diets": [],
+    "macros": {"calories": 650, "proteines": 0, "glucides": 2, "lipides": 0},
+    "translations": {
+      "fr": {"name": "Montepulciano d'Abruzzo DOC 2024", "description": "Umani Ronchi Podere 2024, 75cl"},
+      "en": {"name": "Montepulciano d'Abruzzo DOC 2024", "description": "Umani Ronchi Podere 2024, 75cl"},
+      "it": {"name": "Montepulciano d'Abruzzo DOC 2024", "description": "Umani Ronchi Podere 2024, 75cl"},
+      "es": {"name": "Montepulciano d'Abruzzo DOC 2024", "description": "Umani Ronchi Podere 2024, 75cl"}
+    }
+  },
+  {
+    "id": "valpolicella-classico-doc-2024-75cl",
+    "category": "bevande",
+    "subcategory": "vini-rossi",
+    "image": "/little-nonna/valpolicella-classico-doc-2024-75cl.jpeg",
+    "price": 28.00,
+    "allergens": ["so2"],
+    "diets": [],
+    "macros": {"calories": 600, "proteines": 0, "glucides": 2, "lipides": 0},
+    "translations": {
+      "fr": {"name": "Valpolicella Classico DOC 2024", "description": "Montecampo 2024, 75cl"},
+      "en": {"name": "Valpolicella Classico DOC 2024", "description": "Montecampo 2024, 75cl"},
+      "it": {"name": "Valpolicella Classico DOC 2024", "description": "Montecampo 2024, 75cl"},
+      "es": {"name": "Valpolicella Classico DOC 2024", "description": "Montecampo 2024, 75cl"}
+    }
+  },
+  {
+    "id": "nero-davola-amira-sicilia-doc-2023-75cl",
+    "category": "bevande",
+    "subcategory": "vini-rossi",
+    "image": "/little-nonna/nero-davola-amira-sicilia-doc-2023-75cl.jpeg",
+    "price": 32.00,
+    "allergens": ["so2"],
+    "diets": [],
+    "macros": {"calories": 700, "proteines": 0, "glucides": 2, "lipides": 0},
+    "translations": {
+      "fr": {"name": "Nero d'Avola Amira - Sicilia DOC 2023", "description": "Principi Di Butera 2023, 75cl"},
+      "en": {"name": "Nero d'Avola Amira - Sicilia DOC 2023", "description": "Principi Di Butera 2023, 75cl"},
+      "it": {"name": "Nero d'Avola Amira - Sicilia DOC 2023", "description": "Principi Di Butera 2023, 75cl"},
+      "es": {"name": "Nero d'Avola Amira - Sicilia DOC 2023", "description": "Principi Di Butera 2023, 75cl"}
+    }
+  },
+  {
+    "id": "chianti-classico-doc-2022-75cl",
+    "category": "bevande",
+    "subcategory": "vini-rossi",
+    "image": "/little-nonna/chianti-classico-doc-2022-75cl.jpeg",
+    "price": 38.00,
+    "allergens": ["so2"],
+    "diets": [],
+    "macros": {"calories": 650, "proteines": 0, "glucides": 2, "lipides": 0},
+    "translations": {
+      "fr": {"name": "Chianti Classico DOC 2022", "description": "Terre del Palio 2022, 75cl"},
+      "en": {"name": "Chianti Classico DOC 2022", "description": "Terre del Palio 2022, 75cl"},
+      "it": {"name": "Chianti Classico DOC 2022", "description": "Terre del Palio 2022, 75cl"},
+      "es": {"name": "Chianti Classico DOC 2022", "description": "Terre del Palio 2022, 75cl"}
+    }
+  },
+  {
+    "id": "dolcetto-dalba-doc-2022-75cl",
+    "category": "bevande",
+    "subcategory": "vini-rossi",
+    "image": "/little-nonna/dolcetto-dalba-doc-2022-75cl.jpeg",
+    "price": 38.00,
+    "allergens": ["so2"],
+    "diets": [],
+    "macros": {"calories": 600, "proteines": 0, "glucides": 2, "lipides": 0},
+    "translations": {
+      "fr": {"name": "Dolcetto d'Alba DOC 2022", "description": "Gianfranco Alessandria 2022, 75cl"},
+      "en": {"name": "Dolcetto d'Alba DOC 2022", "description": "Gianfranco Alessandria 2022, 75cl"},
+      "it": {"name": "Dolcetto d'Alba DOC 2022", "description": "Gianfranco Alessandria 2022, 75cl"},
+      "es": {"name": "Dolcetto d'Alba DOC 2022", "description": "Gianfranco Alessandria 2022, 75cl"}
+    }
+  },
+  {
+    "id": "barbera-dalba-doc-2021-75cl",
+    "category": "bevande",
+    "subcategory": "vini-rossi",
+    "image": "/little-nonna/barbera-dalba-doc-2021-75cl.jpeg",
+    "price": 44.00,
+    "allergens": ["so2"],
+    "diets": [],
+    "macros": {"calories": 650, "proteines": 0, "glucides": 2, "lipides": 0},
+    "translations": {
+      "fr": {"name": "Barbera d'Alba DOC 2021", "description": "Marchesi Di Barolo Ruvei 2021, 75cl"},
+      "en": {"name": "Barbera d'Alba DOC 2021", "description": "Marchesi Di Barolo Ruvei 2021, 75cl"},
+      "it": {"name": "Barbera d'Alba DOC 2021", "description": "Marchesi Di Barolo Ruvei 2021, 75cl"},
+      "es": {"name": "Barbera d'Alba DOC 2021", "description": "Marchesi Di Barolo Ruvei 2021, 75cl"}
+    }
+  },
+
+  // ========== VINI BIANCHI ==========
+  {
+    "id": "delle-venezie-doc-pinot-grigio-2024-75cl",
+    "category": "bevande",
+    "subcategory": "vini-bianchi",
+    "image": "/little-nonna/delle-venezie-doc-pinot-grigio-2024-75cl.jpeg",
+    "price": 28.00,
+    "allergens": ["so2"],
+    "diets": [],
+    "macros": {"calories": 600, "proteines": 0, "glucides": 2, "lipides": 0},
+    "translations": {
+      "fr": {"name": "Delle Venezie DOC Pinot Grigio 2024", "description": "Terre di Verona 2024, 75cl"},
+      "en": {"name": "Delle Venezie DOC Pinot Grigio 2024", "description": "Terre di Verona 2024, 75cl"},
+      "it": {"name": "Delle Venezie DOC Pinot Grigio 2024", "description": "Terre di Verona 2024, 75cl"},
+      "es": {"name": "Delle Venezie DOC Pinot Grigio 2024", "description": "Terre di Verona 2024, 75cl"}
+    }
+  },
+  {
+    "id": "trebbiano-dabruzzo-doc-2022-75cl",
+    "category": "bevande",
+    "subcategory": "vini-bianchi",
+    "image": "/little-nonna/trebbiano-dabruzzo-doc-2022-75cl.jpeg",
+    "price": 28.00,
+    "allergens": ["so2"],
+    "diets": [],
+    "macros": {"calories": 600, "proteines": 0, "glucides": 2, "lipides": 0},
+    "translations": {
+      "fr": {"name": "Trebbiano d'Abruzzo DOC 2022", "description": "Di Berardino Fonteamonte BIO 2022, 75cl"},
+      "en": {"name": "Trebbiano d'Abruzzo DOC 2022", "description": "Di Berardino Fonteamonte BIO 2022, 75cl"},
+      "it": {"name": "Trebbiano d'Abruzzo DOC 2022", "description": "Di Berardino Fonteamonte BIO 2022, 75cl"},
+      "es": {"name": "Trebbiano d'Abruzzo DOC 2022", "description": "Di Berardino Fonteamonte BIO 2022, 75cl"}
+    }
+  },
+  {
+    "id": "maremma-toscana-doc-tenuta-aquilaia-2024-75cl",
+    "category": "bevande",
+    "subcategory": "vini-bianchi",
+    "image": "/little-nonna/maremma-toscana-doc-tenuta-aquilaia-2024-75cl.jpeg",
+    "price": 32.00,
+    "allergens": ["so2"],
+    "diets": [],
+    "macros": {"calories": 650, "proteines": 0, "glucides": 2, "lipides": 0},
+    "translations": {
+      "fr": {"name": "Maremma Toscana DOC - Tenuta Aquilaia 2024", "description": "Chardonnay 2024, 75cl"},
+      "en": {"name": "Maremma Toscana DOC - Tenuta Aquilaia 2024", "description": "Chardonnay 2024, 75cl"},
+      "it": {"name": "Maremma Toscana DOC - Tenuta Aquilaia 2024", "description": "Chardonnay 2024, 75cl"},
+      "es": {"name": "Maremma Toscana DOC - Tenuta Aquilaia 2024", "description": "Chardonnay 2024, 75cl"}
+    }
+  },
+  {
+    "id": "orvieto-classico-doc-2022-75cl",
+    "category": "bevande",
+    "subcategory": "vini-bianchi",
+    "image": "/little-nonna/orvieto-classico-doc-2022-75cl.jpeg",
+    "price": 32.00,
+    "allergens": ["so2"],
+    "diets": [],
+    "macros": {"calories": 600, "proteines": 0, "glucides": 2, "lipides": 0},
+    "translations": {
+      "fr": {"name": "Orvieto Classico DOC 2022", "description": "La Carraia 2022, 75cl"},
+      "en": {"name": "Orvieto Classico DOC 2022", "description": "La Carraia 2022, 75cl"},
+      "it": {"name": "Orvieto Classico DOC 2022", "description": "La Carraia 2022, 75cl"},
+      "es": {"name": "Orvieto Classico DOC 2022", "description": "La Carraia 2022, 75cl"}
+    }
+  },
+
+  // ========== VINI ROSATI ==========
+  {
+    "id": "pinot-grigio-friuli-doc-2023-75cl",
+    "category": "bevande",
+    "subcategory": "vini-rosati",
+    "image": "/little-nonna/pinot-grigio-friuli-doc-2023-75cl.jpeg",
+    "price": 28.00,
+    "allergens": ["so2"],
+    "diets": [],
+    "macros": {"calories": 600, "proteines": 0, "glucides": 2, "lipides": 0},
+    "translations": {
+      "fr": {"name": "Pinot Grigio Friuli DOC 2023", "description": "Venezia DOC Nina 2023, 75cl"},
+      "en": {"name": "Pinot Grigio Friuli DOC 2023", "description": "Venezia DOC Nina 2023, 75cl"},
+      "it": {"name": "Pinot Grigio Friuli DOC 2023", "description": "Venezia DOC Nina 2023, 75cl"},
+      "es": {"name": "Pinot Grigio Friuli DOC 2023", "description": "Venezia DOC Nina 2023, 75cl"}
+    }
+  },
+  {
+    "id": "pinot-grigio-rosato-2024-75cl",
+    "category": "bevande",
+    "subcategory": "vini-rosati",
+    "image": "/little-nonna/pinot-grigio-rosato-2024-75cl.jpeg",
+    "price": 32.00,
+    "allergens": ["so2"],
+    "diets": [],
+    "macros": {"calories": 600, "proteines": 0, "glucides": 2, "lipides": 0},
+    "translations": {
+      "fr": {"name": "Pinot Grigio Rosato 2024", "description": "Puiattino Ramato 2024, 75cl"},
+      "en": {"name": "Pinot Grigio Rosé 2024", "description": "Puiattino Ramato 2024, 75cl"},
+      "it": {"name": "Pinot Grigio Rosato 2024", "description": "Puiattino Ramato 2024, 75cl"},
+      "es": {"name": "Pinot Grigio Rosado 2024", "description": "Puiattino Ramato 2024, 75cl"}
+    }
+  },
+  {
+    "id": "cote-de-provence-aop-2024-75cl",
+    "category": "bevande",
+    "subcategory": "vini-rosati",
+    "image": "/little-nonna/cote-de-provence-aop-2024-75cl.jpeg",
+    "price": 46.00,
+    "allergens": ["so2"],
+    "diets": [],
+    "macros": {"calories": 600, "proteines": 0, "glucides": 2, "lipides": 0},
+    "translations": {
+      "fr": {"name": "Côte de Provence AOP 2024", "description": "Minuty Côté Presqu'île 2024, 75cl"},
+      "en": {"name": "Côte de Provence AOP 2024", "description": "Minuty Côté Presqu'île 2024, 75cl"},
+      "it": {"name": "Côte de Provence AOP 2024", "description": "Minuty Côté Presqu'île 2024, 75cl"},
+      "es": {"name": "Côte de Provence AOP 2024", "description": "Minuty Côté Presqu'île 2024, 75cl"}
+    }
+  },
+
+  // ========== SPUMANTE ==========
+  {
+    "id": "reggiano-lambrusco-doc-rosso-secco-75cl",
+    "category": "bevande",
+    "subcategory": "spumante",
+    "image": "/little-nonna/reggiano-lambrusco-doc-rosso-secco-75cl.jpeg",
+    "price": 32.00,
+    "allergens": ["so2"],
+    "diets": [],
+    "macros": {"calories": 600, "proteines": 0, "glucides": 2, "lipides": 0},
+    "translations": {
+      "fr": {"name": "Reggiano Lambrusco DOC Rosso Secco", "description": "Quercioli - Cantina Medici Ermete, 75cl"},
+      "en": {"name": "Reggiano Lambrusco DOC Dry Red", "description": "Quercioli - Cantina Medici Ermete, 75cl"},
+      "it": {"name": "Reggiano Lambrusco DOC Rosso Secco", "description": "Quercioli - Cantina Medici Ermete, 75cl"},
+      "es": {"name": "Reggiano Lambrusco DOC Tinto Seco", "description": "Quercioli - Cantina Medici Ermete, 75cl"}
+    }
+  },
+  {
+    "id": "reggiano-lambrusco-doc-rosato-dolce-75cl",
+    "category": "bevande",
+    "subcategory": "spumante",
+    "image": "/little-nonna/reggiano-lambrusco-doc-rosato-dolce-75cl.jpeg",
+    "price": 32.00,
+    "allergens": ["so2"],
+    "diets": [],
+    "macros": {"calories": 650, "proteines": 0, "glucides": 5, "lipides": 0},
+    "translations": {
+      "fr": {"name": "Reggiano Lambrusco DOC Rosato Dolce", "description": "Quercioli - Cantina Medici Ermete, 75cl"},
+      "en": {"name": "Reggiano Lambrusco DOC Sweet Rosé", "description": "Quercioli - Cantina Medici Ermete, 75cl"},
+      "it": {"name": "Reggiano Lambrusco DOC Rosato Dolce", "description": "Quercioli - Cantina Medici Ermete, 75cl"},
+      "es": {"name": "Reggiano Lambrusco DOC Rosado Dulce", "description": "Quercioli - Cantina Medici Ermete, 75cl"}
+    }
+  },
+  {
+    "id": "prosecco-doc-75cl",
+    "category": "bevande",
+    "subcategory": "spumante",
+    "image": "/little-nonna/prosecco-doc-75cl.jpeg",
+    "price": 38.00,
+    "allergens": ["so2"],
+    "diets": [],
+    "macros": {"calories": 600, "proteines": 0, "glucides": 2, "lipides": 0},
+    "translations": {
+      "fr": {"name": "Prosecco DOC", "description": "Riccadonna Brut BIO, 75cl"},
+      "en": {"name": "Prosecco DOC", "description": "Riccadonna Brut Organic, 75cl"},
+      "it": {"name": "Prosecco DOC", "description": "Riccadonna Brut BIO, 75cl"},
+      "es": {"name": "Prosecco DOC", "description": "Riccadonna Brut BIO, 75cl"}
+    }
+  },
+
+  // ========== CHAMPAGNES ==========
+  {
+    "id": "champagne-epc-blanc-de-noirs-brut-75cl",
+    "category": "bevande",
+    "subcategory": "champagnes",
+    "image": "/little-nonna/champagne-epc-blanc-de-noirs-brut-75cl.jpeg",
+    "price": 72.00,
+    "allergens": ["so2"],
+    "diets": [],
+    "macros": {"calories": 650, "proteines": 0, "glucides": 2, "lipides": 0},
+    "translations": {
+      "fr": {"name": "Champagne EPC Blanc de Noirs Brut", "description": "Champagne EPC Blanc de Noirs Brut, 75cl"},
+      "en": {"name": "Champagne EPC Blanc de Noirs Brut", "description": "Champagne EPC Blanc de Noirs Brut, 75cl"},
+      "it": {"name": "Champagne EPC Blanc de Noirs Brut", "description": "Champagne EPC Blanc de Noirs Brut, 75cl"},
+      "es": {"name": "Champagne EPC Blanc de Noirs Brut", "description": "Champagne EPC Blanc de Noirs Brut, 75cl"}
+    }
+  },
+  {
+    "id": "champagne-epc-rose-75cl",
+    "category": "bevande",
+    "subcategory": "champagnes",
+    "image": "/little-nonna/champagne-epc-rose-75cl.jpeg",
+    "price": 90.00,
+    "allergens": ["so2"],
+    "diets": [],
+    "macros": {"calories": 650, "proteines": 0, "glucides": 2, "lipides": 0},
+    "translations": {
+      "fr": {"name": "Champagne EPC Rosé", "description": "Champagne EPC Rosé, 75cl"},
+      "en": {"name": "Champagne EPC Rosé", "description": "Champagne EPC Rosé, 75cl"},
+      "it": {"name": "Champagne EPC Rosé", "description": "Champagne EPC Rosé, 75cl"},
+      "es": {"name": "Champagne EPC Rosado", "description": "Champagne EPC Rosado, 75cl"}
+    }
+  },
+
+  // ========== ALCOOL ==========
+  {
+    "id": "tequila-olmeca-altos",
+    "category": "bevande",
+    "subcategory": "alcolici",
+    "image": "/little-nonna/tequila-olmeca-altos.jpeg",
+    "price": 12.00,
+    "allergens": [],
+    "diets": [],
+    "macros": {"calories": 250, "proteines": 0, "glucides": 0, "lipides": 0},
+    "translations": {
+      "fr": {"name": "Tequila Olmeca Altos", "description": "Tequila Olmeca Altos"},
+      "en": {"name": "Olmeca Altos Tequila", "description": "Olmeca Altos tequila"},
+      "it": {"name": "Tequila Olmeca Altos", "description": "Tequila Olmeca Altos"},
+      "es": {"name": "Tequila Olmeca Altos", "description": "Tequila Olmeca Altos"}
+    }
+  },
+  {
+    "id": "tequila-patron-silver",
+    "category": "bevande",
+    "subcategory": "alcolici",
+    "image": "/little-nonna/tequila-patron-silver.jpeg",
+    "price": 16.00,
+    "allergens": [],
+    "diets": [],
+    "macros": {"calories": 250, "proteines": 0, "glucides": 0, "lipides": 0},
+    "translations": {
+      "fr": {"name": "Tequila Patrón Silver", "description": "Tequila Patrón Silver"},
+      "en": {"name": "Patrón Silver Tequila", "description": "Patrón Silver tequila"},
+      "it": {"name": "Tequila Patrón Silver", "description": "Tequila Patrón Silver"},
+      "es": {"name": "Tequila Patrón Silver", "description": "Tequila Patrón Silver"}
+    }
+  },
+  {
+    "id": "rhum-havana-club-3yo",
+    "category": "bevande",
+    "subcategory": "alcolici",
+    "image": "/little-nonna/rhum-havana-club-3yo.jpeg",
+    "price": 12.00,
+    "allergens": [],
+    "diets": [],
+    "macros": {"calories": 250, "proteines": 0, "glucides": 0, "lipides": 0},
+    "translations": {
+      "fr": {"name": "Rhum Havana Club 3 ans", "description": "Rhum Havana Club 3 ans"},
+      "en": {"name": "Havana Club 3 Year Old Rum", "description": "Havana Club 3 year old rum"},
+      "it": {"name": "Rum Havana Club 3 anni", "description": "Rum Havana Club 3 anni"},
+      "es": {"name": "Ron Havana Club 3 años", "description": "Ron Havana Club 3 años"}
+    }
+  },
+  {
+    "id": "rhum-havana-club-7yo",
+    "category": "bevande",
+    "subcategory": "alcolici",
+    "image": "/little-nonna/rhum-havana-club-7yo.jpeg",
+    "price": 14.00,
+    "allergens": [],
+    "diets": [],
+    "macros": {"calories": 250, "proteines": 0, "glucides": 0, "lipides": 0},
+    "translations": {
+      "fr": {"name": "Rhum Havana Club 7 ans", "description": "Rhum Havana Club 7 ans"},
+      "en": {"name": "Havana Club 7 Year Old Rum", "description": "Havana Club 7 year old rum"},
+      "it": {"name": "Rum Havana Club 7 anni", "description": "Rum Havana Club 7 anni"},
+      "es": {"name": "Ron Havana Club 7 años", "description": "Ron Havana Club 7 años"}
+    }
+  },
+  {
+    "id": "rhum-diplomatico",
+    "category": "bevande",
+    "subcategory": "alcolici",
+    "image": "/little-nonna/rhum-diplomatico.jpeg",
+    "price": 16.00,
+    "allergens": [],
+    "diets": [],
+    "macros": {"calories": 250, "proteines": 0, "glucides": 0, "lipides": 0},
+    "translations": {
+      "fr": {"name": "Rhum Diplomático", "description": "Rhum Diplomático"},
+      "en": {"name": "Diplomático Rum", "description": "Diplomático rum"},
+      "it": {"name": "Rum Diplomático", "description": "Rum Diplomático"},
+      "es": {"name": "Ron Diplomático", "description": "Ron Diplomático"}
+    }
+  },
+  {
+    "id": "vodka-absolut",
+    "category": "bevande",
+    "subcategory": "alcolici",
+    "image": "/little-nonna/vodka-absolut.jpeg",
+    "price": 12.00,
+    "allergens": [],
+    "diets": [],
+    "macros": {"calories": 250, "proteines": 0, "glucides": 0, "lipides": 0},
+    "translations": {
+      "fr": {"name": "Vodka Absolut", "description": "Vodka Absolut"},
+      "en": {"name": "Absolut Vodka", "description": "Absolut vodka"},
+      "it": {"name": "Vodka Absolut", "description": "Vodka Absolut"},
+      "es": {"name": "Vodka Absolut", "description": "Vodka Absolut"}
+    }
+  },
+  {
+    "id": "vodka-grey-goose",
+    "category": "bevande",
+    "subcategory": "alcolici",
+    "image": "/little-nonna/vodka-grey-goose.jpeg",
+    "price": 16.00,
+    "allergens": [],
+    "diets": [],
+    "macros": {"calories": 250, "proteines": 0, "glucides": 0, "lipides": 0},
+    "translations": {
+      "fr": {"name": "Vodka Grey Goose", "description": "Vodka Grey Goose"},
+      "en": {"name": "Grey Goose Vodka", "description": "Grey Goose vodka"},
+      "it": {"name": "Vodka Grey Goose", "description": "Vodka Grey Goose"},
+      "es": {"name": "Vodka Grey Goose", "description": "Vodka Grey Goose"}
+    }
+  },
+  {
+    "id": "gin-beefeater",
+    "category": "bevande",
+    "subcategory": "alcolici",
+    "image": "/little-nonna/gin-beefeater.jpeg",
+    "price": 12.00,
+    "allergens": [],
+    "diets": [],
+    "macros": {"calories": 250, "proteines": 0, "glucides": 0, "lipides": 0},
+    "translations": {
+      "fr": {"name": "Gin Beefeater", "description": "Gin Beefeater"},
+      "en": {"name": "Beefeater Gin", "description": "Beefeater gin"},
+      "it": {"name": "Gin Beefeater", "description": "Gin Beefeater"},
+      "es": {"name": "Ginebra Beefeater", "description": "Ginebra Beefeater"}
+    }
+  },
+  {
+    "id": "gin-malfy-lemon",
+    "category": "bevande",
+    "subcategory": "alcolici",
+    "image": "/little-nonna/gin-malfy-lemon.jpeg",
+    "price": 14.00,
+    "allergens": [],
+    "diets": [],
+    "macros": {"calories": 250, "proteines": 0, "glucides": 0, "lipides": 0},
+    "translations": {
+      "fr": {"name": "Gin Malfy Lemon", "description": "Gin Malfy Lemon"},
+      "en": {"name": "Malfy Lemon Gin", "description": "Malfy lemon gin"},
+      "it": {"name": "Gin Malfy Lemon", "description": "Gin Malfy Lemon"},
+      "es": {"name": "Ginebra Malfy Limón", "description": "Ginebra Malfy limón"}
+    }
+  },
+  {
+    "id": "gin-malfy-rosa",
+    "category": "bevande",
+    "subcategory": "alcolici",
+    "image": "/little-nonna/gin-malfy-rosa.jpeg",
+    "price": 14.00,
+    "allergens": [],
+    "diets": [],
+    "macros": {"calories": 250, "proteines": 0, "glucides": 0, "lipides": 0},
+    "translations": {
+      "fr": {"name": "Gin Malfy Rosa", "description": "Gin Malfy Rosa"},
+      "en": {"name": "Malfy Rosa Gin", "description": "Malfy pink gin"},
+      "it": {"name": "Gin Malfy Rosa", "description": "Gin Malfy Rosa"},
+      "es": {"name": "Ginebra Malfy Rosa", "description": "Ginebra Malfy rosa"}
+    }
+  },
+  {
+    "id": "gin-bombay-sapphire",
+    "category": "bevande",
+    "subcategory": "alcolici",
+    "image": "/little-nonna/gin-bombay-sapphire.jpeg",
+    "price": 14.00,
+    "allergens": [],
+    "diets": [],
+    "macros": {"calories": 250, "proteines": 0, "glucides": 0, "lipides": 0},
+    "translations": {
+      "fr": {"name": "Gin Bombay Sapphire", "description": "Gin Bombay Sapphire"},
+      "en": {"name": "Bombay Sapphire Gin", "description": "Bombay Sapphire gin"},
+      "it": {"name": "Gin Bombay Sapphire", "description": "Gin Bombay Sapphire"},
+      "es": {"name": "Ginebra Bombay Sapphire", "description": "Ginebra Bombay Sapphire"}
+    }
+  },
+  {
+    "id": "whisky-clan-campbell",
+    "category": "bevande",
+    "subcategory": "alcolici",
+    "image": "/little-nonna/whisky-clan-campbell.jpeg",
+    "price": 12.00,
+    "allergens": [],
+    "diets": [],
+    "macros": {"calories": 250, "proteines": 0, "glucides": 0, "lipides": 0},
+    "translations": {
+      "fr": {"name": "Whisky Clan Campbell", "description": "Whisky Clan Campbell"},
+      "en": {"name": "Clan Campbell Whisky", "description": "Clan Campbell whisky"},
+      "it": {"name": "Whisky Clan Campbell", "description": "Whisky Clan Campbell"},
+      "es": {"name": "Whisky Clan Campbell", "description": "Whisky Clan Campbell"}
+    }
+  },
+  {
+    "id": "whisky-ballantines",
+    "category": "bevande",
+    "subcategory": "alcolici",
+    "image": "/little-nonna/whisky-ballantines.jpeg",
+    "price": 14.00,
+    "allergens": [],
+    "diets": [],
+    "macros": {"calories": 250, "proteines": 0, "glucides": 0, "lipides": 0},
+    "translations": {
+      "fr": {"name": "Whisky Ballantine's", "description": "Whisky Ballantine's"},
+      "en": {"name": "Ballantine's Whisky", "description": "Ballantine's whisky"},
+      "it": {"name": "Whisky Ballantine's", "description": "Whisky Ballantine's"},
+      "es": {"name": "Whisky Ballantine's", "description": "Whisky Ballantine's"}
+    }
+  },
+  {
+    "id": "whisky-chivas-12ans",
+    "category": "bevande",
+    "subcategory": "alcolici",
+    "image": "/little-nonna/whisky-chivas-12ans.jpeg",
+    "price": 16.00,
+    "allergens": [],
+    "diets": [],
+    "macros": {"calories": 250, "proteines": 0, "glucides": 0, "lipides": 0},
+    "translations": {
+      "fr": {"name": "Whisky Chivas 12 ans", "description": "Whisky Chivas 12 ans"},
+      "en": {"name": "Chivas 12 Year Old Whisky", "description": "Chivas 12 year old whisky"},
+      "it": {"name": "Whisky Chivas 12 anni", "description": "Whisky Chivas 12 anni"},
+      "es": {"name": "Whisky Chivas 12 años", "description": "Whisky Chivas 12 años"}
+    }
+  },
+  {
+    "id": "whisky-chivas-18ans",
+    "category": "bevande",
+    "subcategory": "alcolici",
+    "image": "/little-nonna/whisky-chivas-18ans.jpeg",
+    "price": 20.00,
+    "allergens": [],
+    "diets": [],
+    "macros": {"calories": 250, "proteines": 0, "glucides": 0, "lipides": 0},
+    "translations": {
+      "fr": {"name": "Whisky Chivas 18 ans", "description": "Whisky Chivas 18 ans"},
+      "en": {"name": "Chivas 18 Year Old Whisky", "description": "Chivas 18 year old whisky"},
+      "it": {"name": "Whisky Chivas 18 anni", "description": "Whisky Chivas 18 anni"},
+      "es": {"name": "Whisky Chivas 18 años", "description": "Whisky Chivas 18 años"}
+    }
+  },
+  {
+    "id": "whisky-glenlivet",
+    "category": "bevande",
+    "subcategory": "alcolici",
+    "image": "/little-nonna/whisky-glenlivet.jpeg",
+    "price": 16.00,
+    "allergens": [],
+    "diets": [],
+    "macros": {"calories": 250, "proteines": 0, "glucides": 0, "lipides": 0},
+    "translations": {
+      "fr": {"name": "Whisky Glenlivet", "description": "Whisky Glenlivet"},
+      "en": {"name": "Glenlivet Whisky", "description": "Glenlivet whisky"},
+      "it": {"name": "Whisky Glenlivet", "description": "Whisky Glenlivet"},
+      "es": {"name": "Whisky Glenlivet", "description": "Whisky Glenlivet"}
+    }
+  },
+  {
+    "id": "whisky-aberlour-10ans",
+    "category": "bevande",
+    "subcategory": "alcolici",
+    "image": "/little-nonna/whisky-aberlour-10ans.jpeg",
+    "price": 16.00,
+    "allergens": [],
+    "diets": [],
+    "macros": {"calories": 250, "proteines": 0, "glucides": 0, "lipides": 0},
+    "translations": {
+      "fr": {"name": "Whisky Aberlour 10 ans", "description": "Whisky Aberlour 10 ans"},
+      "en": {"name": "Aberlour 10 Year Old Whisky", "description": "Aberlour 10 year old whisky"},
+      "it": {"name": "Whisky Aberlour 10 anni", "description": "Whisky Aberlour 10 anni"},
+      "es": {"name": "Whisky Aberlour 10 años", "description": "Whisky Aberlour 10 años"}
+    }
+  },
+  {
+    "id": "whisky-jameson",
+    "category": "bevande",
+    "subcategory": "alcolici",
+    "image": "/little-nonna/whisky-jameson.jpeg",
+    "price": 12.00,
+    "allergens": [],
+    "diets": [],
+    "macros": {"calories": 250, "proteines": 0, "glucides": 0, "lipides": 0},
+    "translations": {
+      "fr": {"name": "Whisky Jameson", "description": "Whisky Jameson"},
+      "en": {"name": "Jameson Whisky", "description": "Jameson whisky"},
+      "it": {"name": "Whisky Jameson", "description": "Whisky Jameson"},
+      "es": {"name": "Whisky Jameson", "description": "Whisky Jameson"}
+    }
+  },
+  {
+    "id": "whisky-four-roses",
+    "category": "bevande",
+    "subcategory": "alcolici",
+    "image": "/little-nonna/whisky-four-roses.jpeg",
+    "price": 12.00,
+    "allergens": [],
+    "diets": [],
+    "macros": {"calories": 250, "proteines": 0, "glucides": 0, "lipides": 0},
+    "translations": {
+      "fr": {"name": "Whisky Four Roses", "description": "Whisky Four Roses"},
+      "en": {"name": "Four Roses Whisky", "description": "Four Roses whisky"},
+      "it": {"name": "Whisky Four Roses", "description": "Whisky Four Roses"},
+      "es": {"name": "Whisky Four Roses", "description": "Whisky Four Roses"}
+    }
+  },
+
+  // ========== DIGESTIVO ==========
+  {
+    "id": "get-27",
+    "category": "bevande",
+    "subcategory": "digestivo",
+    "image": "/little-nonna/get-27.jpeg",
+    "price": 10.00,
+    "allergens": [],
+    "diets": [],
+    "macros": {"calories": 200, "proteines": 0, "glucides": 0, "lipides": 0},
+    "translations": {
+      "fr": {"name": "Get 27", "description": "Get 27"},
+      "en": {"name": "Get 27", "description": "Get 27"},
+      "it": {"name": "Get 27", "description": "Get 27"},
+      "es": {"name": "Get 27", "description": "Get 27"}
+    }
+  },
+  {
+    "id": "get-31",
+    "category": "bevande",
+    "subcategory": "digestivo",
+    "image": "/little-nonna/get-31.jpeg",
+    "price": 11.00,
+    "allergens": [],
+    "diets": [],
+    "macros": {"calories": 200, "proteines": 0, "glucides": 0, "lipides": 0},
+    "translations": {
+      "fr": {"name": "Get 31", "description": "Get 31"},
+      "en": {"name": "Get 31", "description": "Get 31"},
+      "it": {"name": "Get 31", "description": "Get 31"},
+      "es": {"name": "Get 31", "description": "Get 31"}
+    }
+  },
+  {
+    "id": "calvados-coquerel-vieux",
+    "category": "bevande",
+    "subcategory": "digestivo",
+    "image": "/little-nonna/calvados-coquerel-vieux.jpeg",
+    "price": 12.00,
+    "allergens": [],
+    "diets": [],
+    "macros": {"calories": 250, "proteines": 0, "glucides": 0, "lipides": 0},
+    "translations": {
+      "fr": {"name": "Calvados Coquerel Vieux", "description": "Calvados Coquerel Vieux"},
+      "en": {"name": "Coquerel Vieux Calvados", "description": "Coquerel Vieux Calvados"},
+      "it": {"name": "Calvados Coquerel Vieux", "description": "Calvados Coquerel Vieux"},
+      "es": {"name": "Calvados Coquerel Vieux", "description": "Calvados Coquerel Vieux"}
+    }
+  },
+  {
+    "id": "armagnac-chateau-de-laubade",
+    "category": "bevande",
+    "subcategory": "digestivo",
+    "image": "/little-nonna/armagnac-chateau-de-laubade.jpeg",
+    "price": 15.00,
+    "allergens": [],
+    "diets": [],
+    "macros": {"calories": 250, "proteines": 0, "glucides": 0, "lipides": 0},
+    "translations": {
+      "fr": {"name": "Armagnac - Château de Laubade", "description": "Armagnac Château de Laubade"},
+      "en": {"name": "Armagnac - Château de Laubade", "description": "Armagnac from Château de Laubade"},
+      "it": {"name": "Armagnac - Château de Laubade", "description": "Armagnac Château de Laubade"},
+      "es": {"name": "Armañac - Château de Laubade", "description": "Armañac Château de Laubade"}
+    }
+  },
+  {
+    "id": "martell-vsop",
+    "category": "bevande",
+    "subcategory": "digestivo",
+    "image": "/little-nonna/martell-vsop.jpeg",
+    "price": 12.00,
+    "allergens": [],
+    "diets": [],
+    "macros": {"calories": 250, "proteines": 0, "glucides": 0, "lipides": 0},
+    "translations": {
+      "fr": {"name": "Martell VSOP", "description": "Martell VSOP"},
+      "en": {"name": "Martell VSOP", "description": "Martell VSOP cognac"},
+      "it": {"name": "Martell VSOP", "description": "Martell VSOP"},
+      "es": {"name": "Martell VSOP", "description": "Martell VSOP"}
+    }
+  },
+  {
+    "id": "limoncello",
+    "category": "bevande",
+    "subcategory": "digestivo",
+    "image": "/little-nonna/limoncello.jpeg",
+    "price": 10.00,
+    "allergens": [],
+    "diets": [],
+    "macros": {"calories": 250, "proteines": 0, "glucides": 25, "lipides": 0},
+    "translations": {
+      "fr": {"name": "Limoncello", "description": "Limoncello"},
+      "en": {"name": "Limoncello", "description": "Limoncello liqueur"},
+      "it": {"name": "Limoncello", "description": "Limoncello"},
+      "es": {"name": "Limoncello", "description": "Licor de limón"}
+    }
+  },
+  {
+    "id": "grappa-bianca-nardini",
+    "category": "bevande",
+    "subcategory": "digestivo",
+    "image": "/little-nonna/grappa-bianca-nardini.jpeg",
+    "price": 10.00,
+    "allergens": [],
+    "diets": [],
+    "macros": {"calories": 250, "proteines": 0, "glucides": 0, "lipides": 0},
+    "translations": {
+      "fr": {"name": "Grappa Bianca Nardini", "description": "Grappa Bianca Nardini"},
+      "en": {"name": "Nardini White Grappa", "description": "Nardini white grappa"},
+      "it": {"name": "Grappa Bianca Nardini", "description": "Grappa Bianca Nardini"},
+      "es": {"name": "Grappa Blanca Nardini", "description": "Grappa blanca Nardini"}
+    }
+  },
+  {
+    "id": "amaretto-disaronno",
+    "category": "bevande",
+    "subcategory": "digestivo",
+    "image": "/little-nonna/amaretto-disaronno.jpeg",
+    "price": 10.00,
+    "allergens": ["fruits-a-coque"],
+    "diets": [],
+    "macros": {"calories": 250, "proteines": 0, "glucides": 25, "lipides": 0},
+    "translations": {
+      "fr": {"name": "Amaretto Disaronno", "description": "Amaretto Disaronno"},
+      "en": {"name": "Disaronno Amaretto", "description": "Disaronno amaretto liqueur"},
+      "it": {"name": "Amaretto Disaronno", "description": "Amaretto Disaronno"},
+      "es": {"name": "Amaretto Disaronno", "description": "Licor de amaretto Disaronno"}
+    }
+  },
+  {
+    "id": "baileys",
+    "category": "bevande",
+    "subcategory": "digestivo",
+    "image": "/little-nonna/baileys.jpeg",
+    "price": 10.00,
+    "allergens": ["lait"],
+    "diets": [],
+    "macros": {"calories": 300, "proteines": 2, "glucides": 20, "lipides": 10},
+    "translations": {
+      "fr": {"name": "Bailey's", "description": "Bailey's"},
+      "en": {"name": "Baileys", "description": "Baileys Irish Cream"},
+      "it": {"name": "Baileys", "description": "Baileys"},
+      "es": {"name": "Baileys", "description": "Licor de crema irlandés Baileys"}
+    }
+  },
+  {
+    "id": "kahlua",
+    "category": "bevande",
+    "subcategory": "digestivo",
+    "image": "/little-nonna/kahlua.jpeg",
+    "price": 10.00,
+    "allergens": [],
+    "diets": [],
+    "macros": {"calories": 250, "proteines": 0, "glucides": 25, "lipides": 0},
+    "translations": {
+      "fr": {"name": "Kahlúa", "description": "Kahlúa"},
+      "en": {"name": "Kahlúa", "description": "Kahlúa coffee liqueur"},
+      "it": {"name": "Kahlúa", "description": "Kahlúa"},
+      "es": {"name": "Kahlúa", "description": "Licor de café Kahlúa"}
+    }
+  },
+  {
+    "id": "ricard-3cl",
+    "category": "bevande",
+    "subcategory": "digestivo",
+    "image": "/little-nonna/ricard-3cl.jpeg",
+    "price": 6.00,
+    "allergens": [],
+    "diets": [],
+    "macros": {"calories": 100, "proteines": 0, "glucides": 0, "lipides": 0},
+    "translations": {
+      "fr": {"name": "Ricard", "description": "Ricard 3cl"},
+      "en": {"name": "Ricard", "description": "Ricard pastis 3cl"},
+      "it": {"name": "Ricard", "description": "Ricard 3cl"},
+      "es": {"name": "Ricard", "description": "Ricard 3cl"}
+    }
+  },
+  {
+    "id": "pastis-51-3cl",
+    "category": "bevande",
+    "subcategory": "digestivo",
+    "image": "/little-nonna/pastis-51-3cl.jpeg",
+    "price": 6.00,
+    "allergens": [],
+    "diets": [],
+    "macros": {"calories": 100, "proteines": 0, "glucides": 0, "lipides": 0},
+    "translations": {
+      "fr": {"name": "Pastis 51", "description": "Pastis 51 3cl"},
+      "en": {"name": "Pastis 51", "description": "Pastis 51 3cl"},
+      "it": {"name": "Pastis 51", "description": "Pastis 51 3cl"},
+      "es": {"name": "Pastis 51", "description": "Pastis 51 3cl"}
+    }
+  },
+  {
+    "id": "cinzano-aperitivo-6cl",
+    "category": "bevande",
+    "subcategory": "digestivo",
+    "image": "/little-nonna/cinzano-aperitivo-6cl.jpeg",
+    "price": 7.00,
+    "allergens": [],
+    "diets": [],
+    "macros": {"calories": 150, "proteines": 0, "glucides": 5, "lipides": 0},
+    "translations": {
+      "fr": {"name": "Cinzano Aperitivo", "description": "Cinzano Aperitivo 6cl"},
+      "en": {"name": "Cinzano Aperitivo", "description": "Cinzano Aperitivo 6cl"},
+      "it": {"name": "Cinzano Aperitivo", "description": "Cinzano Aperitivo 6cl"},
+      "es": {"name": "Cinzano Aperitivo", "description": "Cinzano Aperitivo 6cl"}
+    }
+  },
+  {
+    "id": "lillet-6cl",
+    "category": "bevande",
+    "subcategory": "digestivo",
+    "image": "/little-nonna/lillet-6cl.jpeg",
+    "price": 7.00,
+    "allergens": [],
+    "diets": [],
+    "macros": {"calories": 150, "proteines": 0, "glucides": 5, "lipides": 0},
+    "translations": {
+      "fr": {"name": "Lillet", "description": "Lillet 6cl"},
+      "en": {"name": "Lillet", "description": "Lillet 6cl"},
+      "it": {"name": "Lillet", "description": "Lillet 6cl"},
+      "es": {"name": "Lillet", "description": "Lillet 6cl"}
+    }
+  },
+  {
+    "id": "suze-6cl",
+    "category": "bevande",
+    "subcategory": "digestivo",
+    "image": "/little-nonna/suze-6cl.jpeg",
+    "price": 7.00,
+    "allergens": [],
+    "diets": [],
+    "macros": {"calories": 150, "proteines": 0, "glucides": 5, "lipides": 0},
+    "translations": {
+      "fr": {"name": "Suze", "description": "Suze 6cl"},
+      "en": {"name": "Suze", "description": "Suze 6cl"},
+      "it": {"name": "Suze", "description": "Suze 6cl"},
+      "es": {"name": "Suze", "description": "Suze 6cl"}
+    }
+  },
+  {
+    "id": "cinzano-bianco-6cl",
+    "category": "bevande",
+    "subcategory": "digestivo",
+    "image": "/little-nonna/cinzano-bianco-6cl.jpeg",
+    "price": 7.00,
+    "allergens": [],
+    "diets": [],
+    "macros": {"calories": 150, "proteines": 0, "glucides": 5, "lipides": 0},
+    "translations": {
+      "fr": {"name": "Cinzano Bianco", "description": "Cinzano Bianco 6cl"},
+      "en": {"name": "Cinzano Bianco", "description": "Cinzano Bianco 6cl"},
+      "it": {"name": "Cinzano Bianco", "description": "Cinzano Bianco 6cl"},
+      "es": {"name": "Cinzano Blanco", "description": "Cinzano Blanco 6cl"}
+    }
+  },
+  {
+    "id": "cinzano-rosso-6cl",
+    "category": "bevande",
+    "subcategory": "digestivo",
+    "image": "/little-nonna/cinzano-rosso-6cl.jpeg",
+    "price": 7.00,
+    "allergens": [],
+    "diets": [],
+    "macros": {"calories": 150, "proteines": 0, "glucides": 5, "lipides": 0},
+    "translations": {
+      "fr": {"name": "Cinzano Rosso", "description": "Cinzano Rosso 6cl"},
+      "en": {"name": "Cinzano Rosso", "description": "Cinzano Rosso 6cl"},
+      "it": {"name": "Cinzano Rosso", "description": "Cinzano Rosso 6cl"},
+      "es": {"name": "Cinzano Rojo", "description": "Cinzano Rojo 6cl"}
+    }
+  },
+  {
+    "id": "campari-6cl",
+    "category": "bevande",
+    "subcategory": "digestivo",
+    "image": "/little-nonna/campari-6cl.jpeg",
+    "price": 7.00,
+    "allergens": [],
+    "diets": [],
+    "macros": {"calories": 150, "proteines": 0, "glucides": 10, "lipides": 0},
+    "translations": {
+      "fr": {"name": "Campari", "description": "Campari 6cl"},
+      "en": {"name": "Campari", "description": "Campari 6cl"},
+      "it": {"name": "Campari", "description": "Campari 6cl"},
+      "es": {"name": "Campari", "description": "Campari 6cl"}
+    }
+  },
+  {
+    "id": "kir-vin-blanc-12cl",
+    "category": "bevande",
+    "subcategory": "digestivo",
+    "image": "/little-nonna/kir-vin-blanc-12cl.jpeg",
+    "price": 7.00,
+    "allergens": ["so2"],
+    "diets": [],
+    "macros": {"calories": 100, "proteines": 0, "glucides": 2, "lipides": 0},
+    "translations": {
+      "fr": {"name": "Kir Vin Blanc", "description": "Kir au vin blanc 12cl"},
+      "en": {"name": "White Wine Kir", "description": "White wine kir 12cl"},
+      "it": {"name": "Kir con Vino Bianco", "description": "Kir con vino bianco 12cl"},
+      "es": {"name": "Kir de Vino Blanco", "description": "Kir de vino blanco 12cl"}
+    }
+  },
+  {
+    "id": "kir-prosecco-12cl",
+    "category": "bevande",
+    "subcategory": "digestivo",
+    "image": "/little-nonna/kir-prosecco-12cl.jpeg",
+    "price": 7.00,
+    "allergens": ["so2"],
+    "diets": [],
+    "macros": {"calories": 100, "proteines": 0, "glucides": 2, "lipides": 0},
+    "translations": {
+      "fr": {"name": "Kir Prosecco", "description": "Kir au prosecco 12cl"},
+      "en": {"name": "Prosecco Kir", "description": "Prosecco kir 12cl"},
+      "it": {"name": "Kir con Prosecco", "description": "Kir con prosecco 12cl"},
+      "es": {"name": "Kir de Prosecco", "description": "Kir de prosecco 12cl"}
+    }
+  },
+
+  // ========== BIÈRE ==========
+  {
+    "id": "biere-gluten-free-blonde-bio-pression-50cl",
+    "category": "bevande",
+    "subcategory": "biere",
+    "image": "/little-nonna/biere-gluten-free-blonde-bio-pression-50cl.jpeg",
+    "price": 12.00,
+    "allergens": [],
+    "diets": ["sans-gluten"],
+    "macros": {"calories": 150, "proteines": 1, "glucides": 12, "lipides": 0},
+    "translations": {
+      "fr": {"name": "Bière Gluten Free Blonde Bio Pression", "description": "Bière blonde bio sans gluten pression 50cl, Brasserie Pietra"},
+      "en": {"name": "Gluten-Free Organic Blonde Beer on Tap", "description": "Gluten-free organic blonde beer on tap 50cl, Brasserie Pietra"},
+      "it": {"name": "Birra Gluten Free Bionda Bio alla Spina", "description": "Birra bionda senza glutine alla spina 50cl, Brasserie Pietra"},
+      "es": {"name": "Cerveza Rubia Sin Gluten Orgánica de Barril", "description": "Cerveza rubia orgánica sin gluten de barril 50cl, Brasserie Pietra"}
+    }
+  },
+
+  // ========== COCKTAILS ==========
+  {
+    "id": "amaretto-sour",
+    "category": "bevande",
+    "subcategory": "cocktails",
+    "image": "/little-nonna/amaretto-sour.jpeg",
+    "price": 12.00,
+    "allergens": ["fruits-a-coque", "oeufs"],
+    "diets": [],
+    "macros": {"calories": 250, "proteines": 2, "glucides": 20, "lipides": 5},
+    "translations": {
+      "fr": {"name": "Amaretto Sour", "description": "Amaretto Disaronno 4cl, blanc d'œuf, citron vert"},
+      "en": {"name": "Amaretto Sour", "description": "Amaretto Disaronno 4cl, egg white, lime"},
+      "it": {"name": "Amaretto Sour", "description": "Amaretto Disaronno 4cl, albume d'uovo, limone verde"},
+      "es": {"name": "Amaretto Sour", "description": "Amaretto Disaronno 4cl, clara de huevo, lima"}
+    }
+  },
+  {
+    "id": "negroni",
+    "category": "bevande",
+    "subcategory": "cocktails",
+    "image": "/little-nonna/negroni.jpeg",
+    "price": 12.00,
+    "allergens": [],
+    "diets": [],
+    "macros": {"calories": 200, "proteines": 0, "glucides": 5, "lipides": 0},
+    "translations": {
+      "fr": {"name": "Negroni", "description": "Cinzano Rosso 3cl, Campari 3cl, Gin Beefeater 3cl"},
+      "en": {"name": "Negroni", "description": "Cinzano Rosso 3cl, Campari 3cl, Beefeater Gin 3cl"},
+      "it": {"name": "Negroni", "description": "Cinzano Rosso 3cl, Campari 3cl, Gin Beefeater 3cl"},
+      "es": {"name": "Negroni", "description": "Cinzano Rosso 3cl, Campari 3cl, Ginebra Beefeater 3cl"}
+    }
+  },
+  {
+    "id": "una-storia-spritz",
+    "category": "bevande",
+    "subcategory": "cocktails",
+    "image": "/little-nonna/una-storia-spritz.jpeg",
+    "price": 12.00,
+    "allergens": ["so2"],
+    "diets": [],
+    "macros": {"calories": 150, "proteines": 0, "glucides": 5, "lipides": 0},
+    "translations": {
+      "fr": {"name": "Una Storia Spritz", "description": "Cinzano Aperitivo 4cl, Prosecco, eau gazeuse, orange fraîche"},
+      "en": {"name": "Una Storia Spritz", "description": "Cinzano Aperitivo 4cl, Prosecco, sparkling water, fresh orange"},
+      "it": {"name": "Una Storia Spritz", "description": "Cinzano Aperitivo 4cl, Prosecco, acqua frizzante, arancia fresca"},
+      "es": {"name": "Una Storia Spritz", "description": "Cinzano Aperitivo 4cl, Prosecco, agua con gas, naranja fresca"}
+    }
+  },
+  {
+    "id": "bellucci-spritz",
+    "category": "bevande",
+    "subcategory": "cocktails",
+    "image": "/little-nonna/bellucci-spritz.jpeg",
+    "price": 12.00,
+    "allergens": ["so2"],
+    "diets": [],
+    "macros": {"calories": 150, "proteines": 0, "glucides": 5, "lipides": 0},
+    "translations": {
+      "fr": {"name": "Bellucci Spritz", "description": "Italicus 4cl, Prosecco, eau gazeuse"},
+      "en": {"name": "Bellucci Spritz", "description": "Italicus 4cl, Prosecco, sparkling water"},
+      "it": {"name": "Bellucci Spritz", "description": "Italicus 4cl, Prosecco, acqua frizzante"},
+      "es": {"name": "Bellucci Spritz", "description": "Italicus 4cl, Prosecco, agua con gas"}
+    }
+  },
+  {
+    "id": "moscow-mule",
+    "category": "bevande",
+    "subcategory": "cocktails",
+    "image": "/little-nonna/moscow-mule.jpeg",
+    "price": 12.00,
+    "allergens": [],
+    "diets": [],
+    "macros": {"calories": 200, "proteines": 0, "glucides": 15, "lipides": 0},
+    "translations": {
+      "fr": {"name": "Moscow Mule", "description": "Vodka Absolut 4cl, citron vert, La French SVP Ginger Beer Bio"},
+      "en": {"name": "Moscow Mule", "description": "Absolut Vodka 4cl, lime, La French SVP Organic Ginger Beer"},
+      "it": {"name": "Moscow Mule", "description": "Vodka Absolut 4cl, limone verde, La French SVP Ginger Beer Bio"},
+      "es": {"name": "Moscow Mule", "description": "Vodka Absolut 4cl, lima, Ginger Beer Bio La French SVP"}
+    }
+  },
+  {
+    "id": "ornella-spritz",
+    "category": "bevande",
+    "subcategory": "cocktails",
+    "image": "/little-nonna/ornella-spritz.jpeg",
+    "price": 14.00,
+    "allergens": [],
+    "diets": [],
+    "macros": {"calories": 180, "proteines": 0, "glucides": 8, "lipides": 0},
+    "translations": {
+      "fr": {"name": "Ornella Spritz", "description": "Gin Malfy Rosa 4cl, Prosecco, eau gazeuse, orange fraîche, brin de thym"},
+      "en": {"name": "Ornella Spritz", "description": "Malfy Rosa Gin 4cl, Prosecco, sparkling water, fresh orange, sprig of thyme"},
+      "it": {"name": "Ornella Spritz", "description": "Gin Malfy Rosa 4cl, Prosecco, acqua frizzante, arancia fresca, rametto di timo"},
+      "es": {"name": "Ornella Spritz", "description": "Ginebra Malfy Rosa 4cl, Prosecco, agua con gas, naranja fresca, ramita de tomillo"}
+    }
+  },
+  {
+    "id": "caipiroska",
+    "category": "bevande",
+    "subcategory": "cocktails",
+    "image": "/little-nonna/caipiroska.jpeg",
+    "price": 12.00,
+    "allergens": [],
+    "diets": [],
+    "macros": {"calories": 200, "proteines": 0, "glucides": 15, "lipides": 0},
+    "translations": {
+      "fr": {"name": "Caipiroska", "description": "Vodka Absolut 4cl, citron vert, sucre de canne"},
+      "en": {"name": "Caipiroska", "description": "Absolut Vodka 4cl, lime, cane sugar"},
+      "it": {"name": "Caipiroska", "description": "Vodka Absolut 4cl, limone verde, zucchero di canna"},
+      "es": {"name": "Caipiroska", "description": "Vodka Absolut 4cl, lima, azúcar de caña"}
+    }
+  },
+  {
+    "id": "margarita",
+    "category": "bevande",
+    "subcategory": "cocktails",
+    "image": "/little-nonna/margarita.jpeg",
+    "price": 14.00,
+    "allergens": [],
+    "diets": [],
+    "macros": {"calories": 250, "proteines": 0, "glucides": 20, "lipides": 0},
+    "translations": {
+      "fr": {"name": "Margarita", "description": "Tequila Olmeca Altos 4cl, Cointreau 2cl, citron vert"},
+      "en": {"name": "Margarita", "description": "Olmeca Altos Tequila 4cl, Cointreau 2cl, lime"},
+      "it": {"name": "Margarita", "description": "Tequila Olmeca Altos 4cl, Cointreau 2cl, limone verde"},
+      "es": {"name": "Margarita", "description": "Tequila Olmeca Altos 4cl, Cointreau 2cl, lima"}
+    }
+  },
+  {
+    "id": "cosmopolitan",
+    "category": "bevande",
+    "subcategory": "cocktails",
+    "image": "/little-nonna/cosmopolitan.jpeg",
+    "price": 14.00,
+    "allergens": [],
+    "diets": [],
+    "macros": {"calories": 200, "proteines": 0, "glucides": 20, "lipides": 0},
+    "translations": {
+      "fr": {"name": "Cosmopolitan", "description": "Vodka Absolut 4cl, Cointreau 2cl, citron vert, jus de cranberry"},
+      "en": {"name": "Cosmopolitan", "description": "Absolut Vodka 4cl, Cointreau 2cl, lime, cranberry juice"},
+      "it": {"name": "Cosmopolitan", "description": "Vodka Absolut 4cl, Cointreau 2cl, limone verde, succo di mirtillo rosso"},
+      "es": {"name": "Cosmopolitan", "description": "Vodka Absolut 4cl, Cointreau 2cl, lima, zumo de arándano"}
+    }
+  },
+  {
+    "id": "mojito",
+    "category": "bevande",
+    "subcategory": "cocktails",
+    "image": "/little-nonna/mojito.jpeg",
+    "price": 14.00,
+    "allergens": [],
+    "diets": [],
+    "macros": {"calories": 200, "proteines": 0, "glucides": 20, "lipides": 0},
+    "translations": {
+      "fr": {"name": "Mojito", "description": "Rhum Havana 3 ans 4cl, menthe fraîche, citron vert, sucre de canne, eau gazeuse"},
+      "en": {"name": "Mojito", "description": "Havana Club 3 Year Old Rum 4cl, fresh mint, lime, cane sugar, sparkling water"},
+      "it": {"name": "Mojito", "description": "Rum Havana Club 3 anni 4cl, menta fresca, limone verde, zucchero di canna, acqua frizzante"},
+      "es": {"name": "Mojito", "description": "Ron Havana Club 3 años 4cl, menta fresca, lima, azúcar de caña, agua con gas"}
+    }
+  },
+  {
+    "id": "don-vito-summer-spritz",
+    "category": "bevande",
+    "subcategory": "cocktails",
+    "image": "/little-nonna/don-vito-summer-spritz.jpeg",
+    "price": 16.00,
+    "allergens": [],
+    "diets": [],
+    "macros": {"calories": 180, "proteines": 0, "glucides": 8, "lipides": 0},
+    "translations": {
+      "fr": {"name": "Don Vito Summer Spritz", "description": "Gin Malfy Lemon 4cl, Prosecco, eau gazeuse, citron jaune, basilic frais"},
+      "en": {"name": "Don Vito Summer Spritz", "description": "Malfy Lemon Gin 4cl, Prosecco, sparkling water, yellow lemon, fresh basil"},
+      "it": {"name": "Don Vito Summer Spritz", "description": "Gin Malfy Lemon 4cl, Prosecco, acqua frizzante, limone giallo, basilico fresco"},
+      "es": {"name": "Don Vito Summer Spritz", "description": "Ginebra Malfy Limón 4cl, Prosecco, agua con gas, limón amarillo, albahaca fresca"}
+    }
+  },
+
+  // ========== COCKTAILS SENZA ALCOOL ==========
+  {
+    "id": "basilichito",
+    "category": "bevande",
+    "subcategory": "cocktails-senza-alcol",
+    "image": "/little-nonna/basilichito.jpeg",
+    "price": 11.00,
+    "allergens": [],
+    "diets": [],
+    "macros": {"calories": 100, "proteines": 0, "glucides": 20, "lipides": 0},
+    "translations": {
+      "fr": {"name": "Basilichito", "description": "Basilic frais, sirop de citronnelle, jus de citron, La French SVP Tonic Bio"},
+      "en": {"name": "Basilichito", "description": "Fresh basil, lemongrass syrup, lemon juice, La French SVP Organic Tonic"},
+      "it": {"name": "Basilichito", "description": "Basilico fresco, sciroppo di citronella, succo di limone, La French SVP Tonic Bio"},
+      "es": {"name": "Basilichito", "description": "Albahaca fresca, jarabe de citronela, zumo de limón, Tónica Bio La French SVP"}
+    }
+  },
+  {
+    "id": "bambino",
+    "category": "bevande",
+    "subcategory": "cocktails-senza-alcol",
+    "image": "/little-nonna/bambino.jpeg",
+    "price": 10.00,
+    "allergens": [],
+    "diets": [],
+    "macros": {"calories": 120, "proteines": 0, "glucides": 25, "lipides": 0},
+    "translations": {
+      "fr": {"name": "Bambino", "description": "Jus d’orange, jus de citron jaune, jus de pamplemousse, sirop de fraise"},
+      "en": {"name": "Bambino", "description": "Orange juice, yellow lemon juice, grapefruit juice, strawberry syrup"},
+      "it": {"name": "Bambino", "description": "Succo d'arancia, succo di limone giallo, succo di pompelmo, sciroppo di fragola"},
+      "es": {"name": "Bambino", "description": "Zumo de naranja, zumo de limón amarillo, zumo de pomelo, jarabe de fresa"}
+    }
+  },
+  {
+    "id": "resta-fedele",
+    "category": "bevande",
+    "subcategory": "cocktails-senza-alcol",
+    "image": "/little-nonna/resta-fedele.jpeg",
+    "price": 10.00,
+    "allergens": [],
+    "diets": [],
+    "macros": {"calories": 120, "proteines": 0, "glucides": 25, "lipides": 0},
+    "translations": {
+      "fr": {"name": "Resta Fedele", "description": "Jus d'orange, jus d'ananas, sirop de grenadine"},
+      "en": {"name": "Resta Fedele", "description": "Orange juice, pineapple juice, pomegranate syrup"},
+      "it": {"name": "Resta Fedele", "description": "Succo d'arancia, succo d'ananas, sciroppo di melagrana"},
+      "es": {"name": "Resta Fedele", "description": "Zumo de naranja, zumo de piña, jarabe de granada"}
+    }
+  }
+],
+// "wild-and-the-moon":[]
 }
