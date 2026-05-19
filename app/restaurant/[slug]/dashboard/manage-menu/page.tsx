@@ -1,300 +1,269 @@
 "use client"
 
-import { useState, useMemo } from "react"
-import {
-  DndContext,
-  type DragEndEvent,
-  DragOverlay,
-  type DragStartEvent,
-  PointerSensor,
-  useSensor,
-  useSensors,
-  useDroppable,
-  useDraggable,
-} from "@dnd-kit/core"
-import { menuItems } from "@/lib/data/menu"
-import { uiTranslations } from "@/lib/data/translations"
-import type { MenuItem } from "@/lib/types"
-import {
-  Collapsible,
-  CollapsibleContent,
-  CollapsibleTrigger,
-} from "@/components/ui/collapsible"
-import { ScrollArea } from "@/components/ui/scroll-area"
+import Link from "next/link"
+import { usePathname } from "next/navigation"
+import { Plus, BookOpen, Archive, CheckCircle2, Clock } from "lucide-react"
+import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card"
 import { Separator } from "@/components/ui/separator"
-import { ChevronDown, GripVertical } from "lucide-react"
-import { cn } from "@/lib/utils"
+import { AllergenBadge } from "@/components/menu/allergen-badge"
+import { DietBadge } from "@/components/menu/diet-badge"
+import type { Allergen, Diet } from "@/lib/types"
 
-const t = uiTranslations.judy.fr
-const NONE = "__none__"
-
-function DishCardDisplay({ dish }: { dish: MenuItem }) {
-  return (
-    <div className="flex items-center gap-2.5 rounded-lg border bg-card p-2.5 shadow-sm select-none">
-      <GripVertical className="size-4 shrink-0 text-muted-foreground" />
-      <img
-        src={dish.image}
-        alt=""
-        className="size-9 shrink-0 rounded object-cover"
-        onError={(e) => {
-          e.currentTarget.style.display = "none"
-        }}
-      />
-      <div className="min-w-0 flex-1">
-        <p className="truncate text-sm font-medium">{dish.translations.fr.name}</p>
-        <p className="truncate text-xs text-muted-foreground">
-          {dish.translations.fr.description}
-        </p>
-      </div>
-      <span className="shrink-0 text-sm font-semibold tabular-nums">{dish.price}€</span>
-    </div>
-  )
-}
-
-function DraggableDish({ dish }: { dish: MenuItem }) {
-  const { attributes, listeners, setNodeRef, isDragging } = useDraggable({
-    id: dish.id,
-  })
-
-  return (
-    <div
-      ref={setNodeRef}
-      className={cn("cursor-grab touch-none", isDragging && "opacity-40")}
-      {...listeners}
-      {...attributes}
-    >
-      <DishCardDisplay dish={dish} />
-    </div>
-  )
-}
-
-function SubcategoryZone({
-  id,
-  label,
-  dishes,
-}: {
+interface MenuSummary {
   id: string
-  label: string
-  dishes: MenuItem[]
-}) {
-  const { setNodeRef, isOver } = useDroppable({ id })
-
-  return (
-    <div className="ml-3">
-      {label && (
-        <p className="mb-1.5 text-[11px] font-semibold uppercase tracking-widest text-muted-foreground">
-          {label}
-        </p>
-      )}
-      <div
-        ref={setNodeRef}
-        className={cn(
-          "min-h-14 rounded-lg border-2 border-dashed p-1.5 transition-colors",
-          isOver
-            ? "border-primary bg-primary/5"
-            : dishes.length > 0
-              ? "border-border bg-muted/20"
-              : "border-border/40",
-        )}
-      >
-        {dishes.length === 0 ? (
-          <p className="flex h-10 items-center justify-center text-xs text-muted-foreground/60">
-            Glisser un plat ici
-          </p>
-        ) : (
-          <div className="flex flex-col gap-1.5">
-            {dishes.map((dish) => (
-              <DraggableDish key={dish.id} dish={dish} />
-            ))}
-          </div>
-        )}
-      </div>
-    </div>
-  )
+  name: string
+  status: "actif" | "brouillon" | "archive"
+  dishCount: number
+  startDate: string
+  endDate?: string
+  allergens: Allergen[]
+  diets: Diet[]
+  description?: string
 }
 
-function CategorySection({
-  category,
-  subcategories,
-  dishes,
-}: {
-  category: string
-  subcategories: string[]
-  dishes: MenuItem[]
-}) {
+const MENUS: MenuSummary[] = [
+  {
+    id: "printemps-2026",
+    name: "Menu Printemps 2026",
+    status: "actif",
+    dishCount: 18,
+    startDate: "2026-03-20",
+    allergens: ["gluten", "lait", "oeufs", "poissons", "crustaces"],
+    diets: ["vegetarien", "sans-gluten"],
+    description: "Menu de saison autour des légumes printaniers et des herbes fraîches.",
+  },
+  {
+    id: "hiver-2025",
+    name: "Menu Hiver 2025/2026",
+    status: "archive",
+    dishCount: 22,
+    startDate: "2025-12-01",
+    endDate: "2026-03-19",
+    allergens: ["gluten", "lait", "oeufs", "fruits-a-coque", "celeri"],
+    diets: ["vegetarien"],
+    description: "Plats réconfortants et saveurs hivernales.",
+  },
+  {
+    id: "automne-2025",
+    name: "Menu Automne 2025",
+    status: "archive",
+    dishCount: 20,
+    startDate: "2025-09-22",
+    endDate: "2025-11-30",
+    allergens: ["gluten", "lait", "oeufs", "so2"],
+    diets: ["vegetarien", "vegan"],
+    description: "Champignons, courges et produits de la forêt à l'honneur.",
+  },
+  {
+    id: "ete-2025",
+    name: "Menu Été 2025",
+    status: "archive",
+    dishCount: 16,
+    startDate: "2025-06-21",
+    endDate: "2025-09-21",
+    allergens: ["gluten", "poissons", "crustaces", "lait"],
+    diets: ["sans-gluten"],
+    description: "Fraîcheur et légèreté, inspiré du bassin méditerranéen.",
+  },
+  {
+    id: "brouillon-ete-2026",
+    name: "Menu Été 2026",
+    status: "brouillon",
+    dishCount: 4,
+    startDate: "2026-06-21",
+    allergens: ["gluten", "lait"],
+    diets: [],
+    description: "En cours de construction.",
+  },
+]
+
+const STATUS_CONFIG = {
+  actif: {
+    label: "Actif",
+    icon: CheckCircle2,
+    variant: "default" as const,
+    className: "bg-emerald-500/10 text-emerald-700 border-emerald-200",
+  },
+  brouillon: {
+    label: "Brouillon",
+    icon: Clock,
+    variant: "outline" as const,
+    className: "bg-amber-500/10 text-amber-700 border-amber-200",
+  },
+  archive: {
+    label: "Archivé",
+    icon: Archive,
+    variant: "secondary" as const,
+    className: "bg-muted text-muted-foreground border-border",
+  },
+}
+
+function formatDate(dateStr: string) {
+  return new Date(dateStr).toLocaleDateString("fr-FR", {
+    day: "numeric",
+    month: "short",
+    year: "numeric",
+  })
+}
+
+function MenuCard({ menu, base }: { menu: MenuSummary; base: string }) {
+  const status = STATUS_CONFIG[menu.status]
+  const StatusIcon = status.icon
+
   return (
-    <Collapsible defaultOpen>
-      <CollapsibleTrigger className="group flex w-full items-center justify-between rounded-md px-2 py-2 hover:bg-muted/50">
-        <div className="flex items-center gap-2">
-          <span className="font-semibold">
-            {t.categories[category] ?? category}
+    <Link href={`${base}/${menu.id}`} className="group block">
+      <Card className="h-full transition-shadow group-hover:shadow-md">
+        <CardHeader className="pb-3">
+          <div className="flex items-start justify-between gap-3">
+            <div className="flex items-center gap-2">
+              <div className="flex size-9 shrink-0 items-center justify-center rounded-lg bg-muted text-muted-foreground">
+                <BookOpen size={16} />
+              </div>
+              <CardTitle className="text-base leading-snug">{menu.name}</CardTitle>
+            </div>
+            <Badge
+              variant="outline"
+              className={status.className + " shrink-0 gap-1 text-[11px]"}
+            >
+              <StatusIcon size={10} />
+              {status.label}
+            </Badge>
+          </div>
+          {menu.description && (
+            <CardDescription className="line-clamp-2 text-xs">
+              {menu.description}
+            </CardDescription>
+          )}
+        </CardHeader>
+
+        <CardContent className="flex flex-col gap-3 pb-3">
+          <div className="flex items-center justify-between text-xs text-muted-foreground">
+            <span>
+              {menu.endDate
+                ? `${formatDate(menu.startDate)} → ${formatDate(menu.endDate)}`
+                : `Depuis le ${formatDate(menu.startDate)}`}
+            </span>
+            <span className="font-medium text-foreground">
+              {menu.dishCount} plat{menu.dishCount !== 1 ? "s" : ""}
+            </span>
+          </div>
+
+          <Separator />
+
+          <div className="flex flex-col gap-1.5">
+            {menu.diets.length > 0 && (
+              <div className="flex flex-wrap gap-1">
+                {menu.diets.map((d) => (
+                  <DietBadge key={d} diet={d} language="fr" restaurantId="judy" />
+                ))}
+              </div>
+            )}
+            {menu.allergens.length > 0 && (
+              <div className="flex flex-wrap gap-1">
+                {menu.allergens.slice(0, 5).map((a) => (
+                  <AllergenBadge key={a} allergen={a} language="fr" restaurantId="judy" />
+                ))}
+                {menu.allergens.length > 5 && (
+                  <span className="text-[11px] text-muted-foreground self-center">
+                    +{menu.allergens.length - 5}
+                  </span>
+                )}
+              </div>
+            )}
+            {menu.diets.length === 0 && menu.allergens.length === 0 && (
+              <span className="text-[11px] italic text-muted-foreground">
+                Allergènes non renseignés
+              </span>
+            )}
+          </div>
+        </CardContent>
+
+        <CardFooter className="pt-0">
+          <span className="text-xs text-primary group-hover:underline">
+            Voir le menu →
           </span>
-          <Badge variant="secondary">{dishes.length}</Badge>
-        </div>
-        <ChevronDown className="size-4 text-muted-foreground transition-transform duration-200 group-data-[state=open]:rotate-180" />
-      </CollapsibleTrigger>
-      <CollapsibleContent className="flex flex-col gap-3 pb-2 pt-1">
-        {subcategories.map((sub) => (
-          <SubcategoryZone
-            key={sub}
-            id={`${category}|${sub}`}
-            label={sub === NONE ? "" : (t.subcategoryLabels[sub] ?? sub)}
-            dishes={dishes.filter((d) => (d.subcategory ?? NONE) === sub)}
-          />
-        ))}
-      </CollapsibleContent>
-    </Collapsible>
+        </CardFooter>
+      </Card>
+    </Link>
   )
 }
 
 export default function ManageMenuPage() {
-  const allDishes = menuItems.judy
+  const pathname = usePathname()
+  const match = pathname.match(/\/restaurant\/([^/]+)\/dashboard/)
+  const slug = match?.[1] ?? ""
+  const base = slug
+    ? `/restaurant/${slug}/dashboard/manage-menu`
+    : "/dashboard/manage-menu"
 
-  const menuStructure = useMemo(() => {
-    const structure: Record<string, string[]> = {}
-    allDishes.forEach((dish) => {
-      if (!structure[dish.category]) structure[dish.category] = []
-      const subKey = dish.subcategory ?? NONE
-      if (!structure[dish.category].includes(subKey)) {
-        structure[dish.category].push(subKey)
-      }
-    })
-    return structure
-  }, [allDishes])
-
-  const [activeDishes, setActiveDishes] = useState<MenuItem[]>(allDishes)
-  const [poolDishes, setPoolDishes] = useState<MenuItem[]>([])
-  const [draggingId, setDraggingId] = useState<string | null>(null)
-
-  const draggingDish = allDishes.find((d) => d.id === draggingId)
-
-  const sensors = useSensors(
-    useSensor(PointerSensor, { activationConstraint: { distance: 8 } }),
-  )
-
-  const { setNodeRef: poolRef, isOver: poolIsOver } = useDroppable({
-    id: "pool",
-  })
-
-  function handleDragStart({ active }: DragStartEvent) {
-    setDraggingId(active.id as string)
-  }
-
-  function handleDragEnd({ active, over }: DragEndEvent) {
-    setDraggingId(null)
-    if (!over) return
-
-    const dishId = active.id as string
-    const dish = allDishes.find((d) => d.id === dishId)
-    if (!dish) return
-
-    const targetId = over.id as string
-
-    if (targetId === "pool") {
-      setActiveDishes((prev) => prev.filter((d) => d.id !== dishId))
-      setPoolDishes((prev) =>
-        prev.some((d) => d.id === dishId) ? prev : [...prev, dish],
-      )
-    } else if (targetId.includes("|")) {
-      const [targetCat, targetSub] = targetId.split("|")
-      const updatedDish: MenuItem = {
-        ...dish,
-        category: targetCat,
-        subcategory: targetSub === NONE ? null : targetSub,
-      }
-      setPoolDishes((prev) => prev.filter((d) => d.id !== dishId))
-      setActiveDishes((prev) => {
-        if (prev.some((d) => d.id === dishId)) {
-          return prev.map((d) => (d.id === dishId ? updatedDish : d))
-        }
-        return [...prev, updatedDish]
-      })
-    }
-  }
+  const activeMenus = MENUS.filter((m) => m.status === "actif")
+  const draftMenus = MENUS.filter((m) => m.status === "brouillon")
+  const archivedMenus = MENUS.filter((m) => m.status === "archive")
 
   return (
-    <DndContext
-      sensors={sensors}
-      onDragStart={handleDragStart}
-      onDragEnd={handleDragEnd}
-    >
-      <div className="flex flex-1 gap-4 overflow-hidden">
-        {/* Left: Active Menu */}
-        <div className="flex min-h-0 w-1/2 flex-col gap-2">
-          <div className="flex items-baseline gap-2">
-            <h2 className="text-lg font-semibold">Menu actif</h2>
-            <span className="text-sm text-muted-foreground">
-              {activeDishes.length} plat{activeDishes.length !== 1 ? "s" : ""}
-            </span>
-          </div>
-          <div className="min-h-0 flex-1 overflow-hidden rounded-xl border">
-            <ScrollArea className="h-full">
-              <div className="flex flex-col gap-1 p-3">
-                {Object.entries(menuStructure).map(
-                  ([category, subcategories], i) => (
-                    <div key={category}>
-                      {i > 0 && <Separator className="my-2" />}
-                      <CategorySection
-                        category={category}
-                        subcategories={subcategories}
-                        dishes={activeDishes.filter(
-                          (d) => d.category === category,
-                        )}
-                      />
-                    </div>
-                  ),
-                )}
-              </div>
-            </ScrollArea>
-          </div>
+    <div className="flex flex-col gap-8">
+      <div className="flex items-center justify-between">
+        <div>
+          <h1 className="text-xl font-bold">Mes menus</h1>
+          <p className="text-sm text-muted-foreground">
+            {MENUS.length} menu{MENUS.length !== 1 ? "s" : ""} au total
+          </p>
         </div>
-
-        {/* Right: Dish Pool */}
-        <div className="flex min-h-0 w-1/2 flex-col gap-2">
-          <div className="flex items-baseline gap-2">
-            <h2 className="text-lg font-semibold">Bibliothèque</h2>
-            <span className="text-sm text-muted-foreground">
-              {poolDishes.length} plat{poolDishes.length !== 1 ? "s" : ""}
-            </span>
-          </div>
-          <div
-            ref={poolRef}
-            className={cn(
-              "min-h-0 flex-1 overflow-hidden rounded-xl border-2 border-dashed transition-colors",
-              poolIsOver
-                ? "border-primary bg-primary/5"
-                : poolDishes.length > 0
-                  ? "border-border"
-                  : "border-border/40",
-            )}
-          >
-            <ScrollArea className="h-full">
-              {poolDishes.length === 0 ? (
-                <div className="flex h-48 items-center justify-center p-8 text-center text-sm text-muted-foreground">
-                  Tous les plats sont dans le menu actif.
-                  <br />
-                  Glissez-les ici pour les retirer.
-                </div>
-              ) : (
-                <div className="flex flex-col gap-1.5 p-3">
-                  {poolDishes.map((dish) => (
-                    <DraggableDish key={dish.id} dish={dish} />
-                  ))}
-                </div>
-              )}
-            </ScrollArea>
-          </div>
-        </div>
+        <Button asChild>
+          <Link href={`${base}/new`}>
+            <Plus data-icon="inline-start" />
+            Nouveau menu
+          </Link>
+        </Button>
       </div>
 
-      <DragOverlay dropAnimation={null}>
-        {draggingDish && (
-          <div className="w-80 rotate-1 shadow-xl">
-            <DishCardDisplay dish={draggingDish} />
+      {activeMenus.length > 0 && (
+        <section className="flex flex-col gap-3">
+          <h2 className="text-sm font-semibold uppercase tracking-wide text-muted-foreground">
+            En cours
+          </h2>
+          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            {activeMenus.map((menu) => (
+              <MenuCard key={menu.id} menu={menu} base={base} />
+            ))}
           </div>
-        )}
-      </DragOverlay>
-    </DndContext>
+        </section>
+      )}
+
+      {draftMenus.length > 0 && (
+        <section className="flex flex-col gap-3">
+          <h2 className="text-sm font-semibold uppercase tracking-wide text-muted-foreground">
+            Brouillons
+          </h2>
+          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            {draftMenus.map((menu) => (
+              <MenuCard key={menu.id} menu={menu} base={base} />
+            ))}
+          </div>
+        </section>
+      )}
+
+      {archivedMenus.length > 0 && (
+        <section className="flex flex-col gap-3">
+          <h2 className="text-sm font-semibold uppercase tracking-wide text-muted-foreground">
+            Archivés
+          </h2>
+          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            {archivedMenus.map((menu) => (
+              <MenuCard key={menu.id} menu={menu} base={base} />
+            ))}
+          </div>
+        </section>
+      )}
+    </div>
   )
 }

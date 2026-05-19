@@ -5,6 +5,7 @@ import {
   ChevronUpIcon,
   EyeIcon,
   HomeIcon,
+  LeafIcon,
   RadioIcon,
   ScrollTextIcon,
   TriangleAlertIcon,
@@ -32,22 +33,28 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu"
 import { Avatar, AvatarFallback } from "@/components/ui/avatar"
+import { usePathname } from "next/navigation"
 
-const menuItems = [
-  { label: "Accueil", icon: HomeIcon, href: "#accueil", isActive: true },
-  { label: "Gérer Menu", icon: UtensilsIcon, href: "#menu" },
-  { label: "Gérer Plats", icon: HandPlatterIcon, href: "#plats" },
-  { label: "Alertes", icon: TriangleAlertIcon, href: "#alertes" },
-  { label: "Règles de cuisine", icon: ScrollTextIcon, href: "#regles" },
+const menuRoutes = [
+  { label: "Accueil", icon: HomeIcon, path: "" },
+  { label: "Gérer Menu", icon: UtensilsIcon, path: "manage-menu" },
+  { label: "Gérer Plats", icon: HandPlatterIcon, path: "manage-dish" },
+  { label: "Gérer Ingrédients", icon: LeafIcon, path: "manage-ingredient" },
+  { label: "Alertes", icon: TriangleAlertIcon, path: "manage-alerts" },
+  { label: "Règles de cuisine", icon: ScrollTextIcon, path: "manage-rule" },
 ]
 
-const insightsItems = [
-  { label: "Insights", icon: TrendingUpIcon, href: "#insights" },
-  { label: "Preview", icon: EyeIcon, href: "#preview" },
-  { label: "Reach", icon: RadioIcon, href: "#reach" },
+const insightsRoutes = [
+  { label: "Insights", icon: TrendingUpIcon, path: "insights" },
+  { label: "Preview", icon: EyeIcon, path: "preview", external: true },
 ]
 
 export function AppSidebar() {
+  const pathname = usePathname()
+  const match = pathname.match(/\/restaurant\/([^/]+)\/dashboard/)
+  const slug = match?.[1] ?? ""
+  const base = slug ? `/restaurant/${slug}/dashboard` : "/dashboard"
+
   return (
     <Sidebar>
       <SidebarHeader>
@@ -73,16 +80,20 @@ export function AppSidebar() {
           <SidebarGroupLabel>Menu</SidebarGroupLabel>
           <SidebarGroupContent>
             <SidebarMenu>
-              {menuItems.map((item) => (
-                <SidebarMenuItem key={item.label}>
-                  <SidebarMenuButton asChild isActive={item.isActive}>
-                    <a href={item.href}>
-                      <item.icon />
-                      {item.label}
-                    </a>
-                  </SidebarMenuButton>
-                </SidebarMenuItem>
-              ))}
+              {menuRoutes.map((item) => {
+                const href = item.path ? `${base}/${item.path}` : base
+                const isActive = item.path ? pathname.startsWith(href) : pathname === base
+                return (
+                  <SidebarMenuItem key={item.label}>
+                    <SidebarMenuButton asChild isActive={isActive}>
+                      <a href={href}>
+                        <item.icon />
+                        {item.label}
+                      </a>
+                    </SidebarMenuButton>
+                  </SidebarMenuItem>
+                )
+              })}
             </SidebarMenu>
           </SidebarGroupContent>
         </SidebarGroup>
@@ -91,16 +102,20 @@ export function AppSidebar() {
           <SidebarGroupLabel>Analytics</SidebarGroupLabel>
           <SidebarGroupContent>
             <SidebarMenu>
-              {insightsItems.map((item) => (
-                <SidebarMenuItem key={item.label}>
-                  <SidebarMenuButton asChild>
-                    <a href={item.href}>
-                      <item.icon />
-                      {item.label}
-                    </a>
-                  </SidebarMenuButton>
-                </SidebarMenuItem>
-              ))}
+              {insightsRoutes.map((item) => {
+                const href = item.external ? `/restaurant/${slug}` : `${base}/${item.path}`
+                const isActive = !item.external && pathname.startsWith(href)
+                return (
+                  <SidebarMenuItem key={item.label}>
+                    <SidebarMenuButton asChild isActive={isActive}>
+                      <a href={href} target={item.external ? "_blank" : undefined} rel={item.external ? "noopener noreferrer" : undefined}>
+                        <item.icon />
+                        {item.label}
+                      </a>
+                    </SidebarMenuButton>
+                  </SidebarMenuItem>
+                )
+              })}
             </SidebarMenu>
           </SidebarGroupContent>
         </SidebarGroup>
